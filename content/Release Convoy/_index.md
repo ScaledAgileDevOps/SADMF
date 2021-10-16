@@ -1,5 +1,5 @@
 ---
-title: SADMF Release Convoy&trade;
+title: SADMF Release Convoy
 description: Set Sail with the Scaled Agile DevOps Delivery LifeCycle (SAD DLC)
 weight: 1
 ---
