@@ -57,3 +57,7 @@ The convoy coordinates transportation of the features that were planned. The Com
 #### Tribunal
 
 We must "build quality in" by removing things that cause poor quality. In this monthly ceremony we identify and remove the person who created each defect.
+
+#### Dry Dock
+
+It's normal for a little wear and tear to occur when we are moving so quickly. Defects will accumulate. The Dry Dock is the process of halting feature development for a few weeks so that reapirs can be made.
