@@ -4,14 +4,14 @@
     /* Color of text by default */
     --MAIN-TITLES-TEXT-color: #5e5e5e;
     /* Color of titles h2-h3-h4-h5 */
-    --MAIN-LINK-color: #1C90F3;
+    --MAIN-LINK-color: #09579c;
     /* Color of links */
     --MAIN-LINK-HOVER-color: #167ad0;
     /* Color of hovered links */
-    --MAIN-ANCHOR-color: #1C90F3;
+    --MAIN-ANCHOR-color: #09579c;
     /* color of anchors on titles */
 
-    --MENU-HEADER-BG-color: #1C90F3;
+    --MENU-HEADER-BG-color: #09579c;
     /* Background color of menu header */
     --MENU-HEADER-BORDER-color: #33a1ff;
     /*Color of menu header border */
