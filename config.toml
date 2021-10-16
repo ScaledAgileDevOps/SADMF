@@ -1,4 +1,4 @@
-baseURL = 'https://scaledagiledevops.github.io/'
+baseURL = 'https://scaledagiledevops.github.io/sadmf.github.io/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = "learn"
