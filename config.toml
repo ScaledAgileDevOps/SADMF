@@ -9,7 +9,7 @@ home = [ "HTML", "RSS", "JSON"]
 [[menu.shortcuts]] 
 name = "<i class='fab fa-github'></i> SADBOK"
 identifier = "ds"
-url = "https://github.com/matcornic/hugo-theme-learn"
+url = "https://github.com/ScaledAgileDevOps/SADMF"
 weight = 10
 
 [params]
