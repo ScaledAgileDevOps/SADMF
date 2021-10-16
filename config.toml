@@ -1,4 +1,4 @@
-baseURL = 'https://sadmf-test-site.netlify.app/'
+baseURL = 'https://scaledagiledevops.com/'
 languageCode = 'en-us'
 title = 'Enterprise transformation without the risk of culture change!'
 theme = "hugo-theme-learn"
