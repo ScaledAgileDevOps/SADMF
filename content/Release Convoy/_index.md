@@ -1,16 +1,16 @@
 ---
-title: SADMF Release Convoy
+title: SADMF Release Convoy&trade;
 description: Set Sail with the Scaled Agile DevOps Delivery LifeCycle (SAD DLC)
 weight: 1
 ---
 
-At Scaled Agile DevOps, we believe keeping track of many frequent releases is just too much cognitive load. We need to *"work in small batches."* We've developed the **Release Convoy** to simplify things. Why try to track dozens or hundreds of releases per week if we can simplify it to one easily managed Release Convoy?
+At Scaled Agile DevOps, we believe keeping track of many frequent releases is just too much cognitive load. We need to *"work in small batches."* We've developed the **Release Convoy&trade;** to simplify things. Why try to track dozens or hundreds of releases per week if we can simplify it to one easily managed Release Convoy&trade;?
 
 ### Why convoys?
 
-Other frameworks have tried to coordinate things with more limited transportation metaphors. However, they were constrained to a single direction. With Release Convoys we have more options. We can turn left or right or even make a U-turn.
+Other frameworks have tried to coordinate things with more limited transportation metaphors. However, they were constrained to a single direction. With Release Convoy&trade;s we have more options. We can turn left or right or even make a U-turn.
 
-### Critical Release Convoy Ceremonies
+### Critical Release Convoy&trade; Ceremonies
 
 Below are the simple ceremonies required to manage changes the SADMF way!
 
@@ -24,7 +24,7 @@ In this ceremony anyone wishing to change the priorities set in Shipment Plannin
 
 #### Captains' Meeting
 
-Meeting of the Feature Captains to plan the date when the release convoy will be assembled.
+Meeting of the Feature Captains to plan the date when the Release Convoy&trade; will be assembled.
 
 #### Press Gang
 

@@ -6,7 +6,7 @@ weight: 1
 
 # Scaled Agile DevOps Maturity Framework 2.0
 
->**Enterprise transformation without the risk of culture change!&trade;**
+>**Enterprise transformation without the risk of culture change!**
 
 ### Why another scaling framework?
 
@@ -17,7 +17,7 @@ Using our exclusive Maturity Framework, you can become a DevOps organization in 
 ### Benefits of the Framework
 
 - No need for investing in training teams beyond a few additional daily ceremonies.
-- A clear, simple, manageable **Release Convoy** that customers can be assured used DevOps.
+- A clear, simple, manageable **Release Convoy&trade;** that customers can be assured used DevOps.
 - Fully compatible with sending requirements to external development teams.
 - Easy to plan 1, 2, or even 3 years worth of detailed deliveries.
 
