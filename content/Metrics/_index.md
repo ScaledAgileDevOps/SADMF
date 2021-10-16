@@ -4,9 +4,7 @@ description: Making improvement happen by meaasuring
 weight: 2
 ---
 
-{{< notice >}}
-The most important part of any transformation is measuring the productivity increase. 
-{{< /notice >}}
+> **The most important part of any transformation is measuring the productivity increase.** 
 
 ### Tasks Delivered per Developer
 
