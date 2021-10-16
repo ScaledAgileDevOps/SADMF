@@ -1,6 +1,6 @@
 baseURL = 'https://sadmf-test-site.netlify.app/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Enterprise transformation without the risk of culture change!'
 theme = "hugo-theme-learn"
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
