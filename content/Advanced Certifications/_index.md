@@ -1,6 +1,6 @@
 ---
 title: Advanced SADMF Certifications
-weight: 1
+weight: 5
 ---
 
 ## DevOps Engineers Proving Real Experience Solving SAD Engineering Dilemmas
