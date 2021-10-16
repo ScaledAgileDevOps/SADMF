@@ -1,8 +1,8 @@
-+++
-title = "SADMF Release Convoy"
-description = "Set Sail with the Scaled Agile DevOps Delivery LifeCycle (SAD DLC)"
-weight = 1
-+++
+---
+title: SADMF Release Convoy
+description: Set Sail with the Scaled Agile DevOps Delivery LifeCycle (SAD DLC)
+weight: 1
+---
 
 At Scaled Agile DevOps, we believe keeping track of too many releases too often is just too much cognitive load. We need to
 *"work in small batches."* We've

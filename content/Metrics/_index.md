@@ -1,12 +1,12 @@
-+++
-title = "SADMF Metrics"
-description = "Making improvement happen by meaasuring"
-weight = 2
-+++
+---
+title: SADMF Metrics
+description: Making improvement happen by meaasuring
+weight: 2
+---
 
-{{< lead >}}
+{{< notice >}}
 The most important part of any transformation is measuring the productivity increase. 
-{{< /lead >}}
+{{< /notice >}}
 
 ### Tasks Delivered per Developer
 

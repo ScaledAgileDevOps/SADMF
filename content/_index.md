@@ -1,12 +1,12 @@
-+++
-title = "Scaled Agile DevOps Maturity Framework 2.0"
-description = "Making enterprises feel better about DevOps transformation"
-weight = 1
-+++
+---
+title: Scaled Agile DevOps Maturity Framework 2.0
+description: Making enterprises feel better about DevOps transformation
+weight: 1
+---
 
-{{< lead >}}
+{{< notice >}}
 Enterprise transformation without the risk of culture change!
-{{< /lead >}}
+{{< /notice >}}
 
 ## Why another DevOps Framework?
 
@@ -33,4 +33,4 @@ to be certified SADMF.
 
 ---
 
-{{< childpages >}}
+{{< children >}}
