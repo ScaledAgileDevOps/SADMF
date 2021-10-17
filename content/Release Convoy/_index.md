@@ -8,7 +8,7 @@ At Scaled Agile DevOps, we believe keeping track of many frequent releases is ju
 
 ### Why convoys?
 
-Other frameworks have tried to coordinate things with more limited transportation metaphors. However, they were constrained to a single direction. With Release Convoy&trade;s we have more options. We can turn left or right or even make a U-turn.
+Other frameworks have tried to coordinate things with more limited transportation metaphors. However, they were constrained to a single direction. With Release Convoys&trade; we have more options. We can turn left or right or even make a U-turn.
 
 ### Critical Release Convoy&trade; Ceremonies
 
