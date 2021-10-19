@@ -60,4 +60,4 @@ We must "build quality in" by removing things that cause poor quality. In this m
 
 #### Dry Dock
 
-It's normal for a little wear and tear to occur when we are moving so quickly. Defects will accumulate. The Dry Dock is the process of halting feature development for a few weeks so that reapirs can be made.
+It's normal for a little wear and tear to occur when we are moving so quickly. Defects will accumulate. The Dry Dock is the process of halting feature development for a few weeks so that repairs can be made.
