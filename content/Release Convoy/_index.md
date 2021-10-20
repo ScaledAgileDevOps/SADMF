@@ -61,3 +61,7 @@ We must "build quality in" by removing things that cause poor quality. In this m
 #### Dry Dock
 
 It's normal for a little wear and tear to occur when we are moving so quickly. Defects will accumulate. The Dry Dock is the process of halting feature development for a few weeks so that repairs can be made.
+
+#### Rota Fortunae
+
+We know that a static organizational structure limits improvement and also becomes boring for some executives. Also, while many outside the SADMF community may propose Value Stream Mapping to identify constraints, we know that the process is time consuming and uses too many Post-Its. To resolve these we introduced the Rota Fortunae ceremony where we "spin the wheel", restructure, and then see if we are delivering better. If we fail, then we convene a [Tribunal](#tribunal) to address it.
