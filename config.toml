@@ -2,6 +2,7 @@ baseURL = 'https://scaledagiledevops.com/'
 languageCode = 'en-us'
 title = 'Enterprise transformation without the risk of culture change!'
 theme = "hugo-theme-learn"
+googleAnalytics = "G-BT3HZK3PLP"
 
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
