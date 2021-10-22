@@ -22,4 +22,4 @@ Each person is responsible for their individual work and should be rewarded for 
 
 ### Psychological safety
 
-We know the [Tribunal](../Release%20Convoy/_index.md#tribunal) can be a stressful time when we need to remove coders. We will use automated systems for "Human Resources as a Service" to automatically help coders find new opportunities outside our company so we can avoid confrontation.
+We know the [Tribunal](../release-convoy/#tribunal) can be a stressful time when we need to remove coders. We will use automated systems for "Human Resources as a Service" to automatically help coders find new opportunities outside our company so we can avoid confrontation.
