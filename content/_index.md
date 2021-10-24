@@ -1,10 +1,10 @@
 ---
-title: Scaled Agile DevOps Maturity Framework 2.3
+title: Scaled Agile DevOps Maturity Framework 2.4
 description: Making enterprises feel better about DevOps transformation since 2021
 weight: 1
 ---
 
-# Scaled Agile DevOps Maturity Framework 2.0
+# Scaled Agile DevOps Maturity Framework 2.4
 
 >**Enterprise transformation without the risk of culture change!**
 
