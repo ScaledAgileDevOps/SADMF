@@ -1,5 +1,5 @@
 ---
-title: SADMF Practices
+title: Practices
 description: Recommended practices
 weight: 2
 ---

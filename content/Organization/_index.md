@@ -1,5 +1,5 @@
 ---
-title: SADMF Organization
+title: Organization
 description: Organizing for control
 weight: 2
 ---

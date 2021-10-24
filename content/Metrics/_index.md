@@ -1,5 +1,5 @@
 ---
-title: SADMF Metrics
+title: Metrics
 description: Making improvement happen by meaasuring
 weight: 2
 ---

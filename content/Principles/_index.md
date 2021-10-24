@@ -1,5 +1,5 @@
 ---
-title: SADMF Principles
+title: Principles
 description: We firmly believe...
 weight: 2
 ---
