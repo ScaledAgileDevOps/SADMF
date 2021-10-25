@@ -38,6 +38,10 @@ We understand that only the most important status updates are given in Standup a
 
 To ensure no information is lost through insufficient documentation, each Feature Captian will also submit a daily report using the SAD Update form and email it to the Commodore who will consolidate it and file it.
 
+#### Scrum of Scrum of Scrums
+
+To effectively scale communication, we use the Scrum of Scrum of Scrums. First thing in the morning after the daily scrum, each team selects a Tribute to attend the daily Scrum of Scrums. At 12pm your Tribute attends a Scrum with the Tributes from the other teams. They select a Tribute of Tributes from the Scrum of Scrums who, at 3pm, attends a meeting with the Tribute of Tributes of the Scrums of Scrums from the broader organization. They then reverse the process to pass down direction. May the odds be ever in your favor!
+
 #### Manufacturing
 
 The group of coders assigned to each feature will implement the requirements they are given as rapidly as possible using the industry best practice, *[Continuous Isolation](https://continuousisolation.com)*. This ensures it can be tested and delivered on the Convoy it is planned for. Once the feature is coded, the coders can return to the coding pool to await their next adventure!.
