@@ -23,3 +23,15 @@ Each person is responsible for their individual work and should be rewarded for 
 ### Psychological safety
 
 We know the [Tribunal](../release-convoy/#tribunal) can be a stressful time when we need to remove coders. We will use automated systems for "Human Resources as a Service" to automatically help coders find new opportunities outside our company so we can avoid confrontation.
+
+### Systems Thinking
+
+{{% notice info %}}
+A system will produce exactly what is designed to produce -- W. Edward Demming
+{{% /notice %}}
+
+The Scaled Agile DevOps Maturity Framework is built upon systems theory. There are two systems that operate within the SADMF System. The [System of Authority](#system-of-authority) (SOA) and the [System of Service](#system-of-service) (SOS). Both Systems are accountable to the Admiral's Transformation Office (ATO).
+
+- **System of Authority**: The SOA is the team of teams accountable for implanting SADMF in your organization. The SOA is staffed by contractors and consultants with a diverse point of view. These principled practitioners will focus on implementing the orders of the ATO, and will focus on updating plans, collecting metrics, assessing, and becoming a trusted advisor for the teams so the advisor can report out the ground level truth to leadership during the tribunal.
+- **System of Service**: The SOS is the team of teams accountable to achieving deadlines and shipping code. The SOS will look to the chain of command for servant leadership to ensure self-governance and instruct the feature teams on their day-to-day work. The SOS is empowered to deliver on time and on budget predictably.
+- **Admirals Transformation Office**: The ATO is the heartbeat of the transformation, it is the command-and-control center for ensure everyone is achieving the goals of SADMF. It is accountable for the 5-8 transformation roadmap, assessments, metrics, certification renewals, and general project management of the transformation. The ATO is servant lead by the Admiral, who commands all direction, innovation, and methodology implemented at scale.
