@@ -4,7 +4,9 @@ description: Set Sail with the Scaled Agile DevOps Delivery LifeCycle (SAD DLC)
 weight: 1
 ---
 
+{{% notice info %}}
 At Scaled Agile DevOps, we believe keeping track of many frequent releases is just too much cognitive load. We need to *"work in small batches."* We've developed the **Release Convoy&trade;** to simplify things. Why try to track dozens or hundreds of releases per week if we can simplify it to one easily managed Release Convoy&trade;?
+{{% /notice %}}
 
 ### Why convoys?
 

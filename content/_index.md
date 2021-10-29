@@ -6,7 +6,9 @@ weight: 1
 
 # Scaled Agile DevOps Maturity Framework 2.4
 
->**Enterprise transformation without the risk of culture change!**
+{{% notice tip %}}
+**Enterprise transformation without the risk of culture change!**
+{{% /notice %}}
 
 ### Why another scaling framework?
 

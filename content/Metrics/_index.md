@@ -4,7 +4,9 @@ description: Making improvement happen by meaasuring
 weight: 2
 ---
 
-> **The most important part of any transformation is measuring the productivity increase.** 
+{{% notice tip %}}
+**The most important part of any transformation is measuring people.**
+{{% /notice %}}
 
 ### Lines of code per Coder
 
