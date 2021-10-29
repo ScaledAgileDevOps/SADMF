@@ -28,7 +28,7 @@ Meeting of the Feature Captains to plan the date when the Release Convoy&trade; 
 
 #### Press Gang
 
-In the Press Gang step, the Feature Captain will choose between 2 and 20 people from the coding pool to "self-organize" around delivering the next feature. This ensures each coder is given the opportunity to work on new and interesting things and that all coders are fully utilized.
+In the Press Gang step, the Feature Captain will choose between 2 and 20 people from the coding pool to "self-organize" around delivering the next feature. This ensures each Coder is given the opportunity to work on new and interesting things and that all Coders are fully utilized.
 
 #### Post Standup Standup
 
@@ -44,11 +44,11 @@ To effectively scale communication, we use the Scrum of Scrum of Scrums. First t
 
 #### Manufacturing
 
-The group of coders assigned to each feature will implement the requirements they are given as rapidly as possible using the industry best practice, *[Continuous Isolation](https://continuousisolation.com)*. This ensures it can be tested and delivered on the Convoy it is planned for. Once the feature is coded, the coders can return to the coding pool to await their next adventure!.
+The group of Coders assigned to each feature will implement the requirements they are given as rapidly as possible using the industry best practice, *[Continuous Isolation](https://continuousisolation.com)*. This ensures it can be tested and delivered on the Convoy it is planned for. Once the feature is coded, the Coders can return to the coding pool to await their next adventure!.
 
 #### Testing
 
-The to keep the coders productive, we need them to focus only on coding. For unit testing, the Feature Captain will assign the complete feature to the Unit Testing Team to ensure 100% test coverage.
+The to keep the Coders productive, we need them to focus only on coding. For unit testing, the Feature Captain will assign the complete feature to the Unit Testing Team to ensure 100% test coverage.
 
 #### System Integration Testing
 

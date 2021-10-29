@@ -18,11 +18,11 @@ Coaching employees is an important daily practice to ensure they know we are tra
 
 ### Everyone is responsible
 
-Each person is responsible for their individual work and should be rewarded for the work they do. If a feature is successfully delivered, we should identify the coder who made the most changes and give them a bonus. It would be unfair to reward the whole team based on the excellence of an individual.
+Each person is responsible for their individual work and should be rewarded for the work they do. If a feature is successfully delivered, we should identify the Coder who made the most changes and give them a bonus. It would be unfair to reward the whole team based on the excellence of an individual.
 
 ### Psychological safety
 
-We know the [Tribunal](../release-convoy/#tribunal) can be a stressful time when we need to remove coders. We will use automated systems for "Human Resources as a Service" to automatically help coders find new opportunities outside our company so we can avoid confrontation.
+We know the [Tribunal](../release-convoy/#tribunal) can be a stressful time when we need to remove Coders. We will use automated systems for "Human Resources as a Service" to automatically help Coders find new opportunities outside our company so we can avoid confrontation.
 
 ### Systems Thinking
 
