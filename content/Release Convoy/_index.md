@@ -1,7 +1,7 @@
 ---
 title: Release Convoy
 description: Set Sail with the Scaled Agile DevOps Delivery LifeCycle (SAD DLC)
-weight: 1
+weight: 2
 ---
 
 {{% notice tip %}}
@@ -66,7 +66,7 @@ The convoy coordinates transportation of the features that were planned. The Com
 
 #### Tribunal
 
-We must "build quality in" by removing things that cause poor quality. In this monthly ceremony we identify and remove the person who created each defect.
+We must "[build quality in](../principles/#build-quality-in)" by removing things that cause poor quality. In this monthly ceremony we identify and remove the person who created each defect.
 
 #### Dry Dock
 

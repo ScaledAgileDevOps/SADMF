@@ -1,7 +1,7 @@
 ---
 title: Practices
 description: Recommended practices
-weight: 2
+weight: 5
 ---
 
 ### Fractal-based Development

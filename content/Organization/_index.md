@@ -1,14 +1,14 @@
 ---
 title: Organization
 description: Organizing for control
-weight: 2
+weight: 5
 ---
 
 ## Organizational Command Structure
 
 #### Feature Team
 
-The Feature Team is the group of Coders who are assembled to build a new feature for the next Convoy. Because we work so diligently to "*Build Quality In*" with the [Tribunal](../release-convoy/#tribunal), these teams should be able to deliver at maximum throughput as soon as they are formed.
+The Feature Team is the group of Coders who are assembled to build a new feature for the next Convoy. Because we work so diligently to "[*Build Quality In*](../principles/#build-quality-in)" with the [Tribunal](../release-convoy/#tribunal), these teams should be able to deliver at maximum throughput as soon as they are formed.
 
 #### Source Management Team
 

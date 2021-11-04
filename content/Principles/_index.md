@@ -1,7 +1,7 @@
 ---
 title: Principles
 description: We firmly believe...
-weight: 2
+weight: 5
 ---
 
 ### Build quality in
@@ -26,7 +26,7 @@ We know the [Tribunal](../release-convoy/#tribunal) can be a stressful time when
 
 ### Systems Thinking
 
-{{% notice info %}}
+{{% notice tip %}}
 A system will produce exactly what is designed to produce -- W. Edward Demming
 {{% /notice %}}
 
