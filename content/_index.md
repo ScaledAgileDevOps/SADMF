@@ -1,10 +1,10 @@
 ---
-title: Scaled Agile DevOps Maturity Framework 2.4
+title: Scaled Agile DevOps Maturity Framework
 description: Making enterprises feel better about DevOps transformation since 2021
 weight: 1
 ---
 
-# Scaled Agile DevOps Maturity Framework 2.4
+# Scaled Agile DevOps Maturity Framework 2.5
 
 {{% notice tip %}}
 **Enterprise transformation without the risk of culture change!**
@@ -28,10 +28,3 @@ Using our exclusive Maturity Framework, you can become a DevOps organization in 
 We suggest using the *[Certified Really Agile Practitioner](https://www.youtube.com/watch?v=cwbiSCgiZNA)* training as a method of learning the fundamentals you will need to be certified SADMF.
 
 {{% button href="https://www.patreon.com/sadmf" %}}✅ Get Certified! ✅{{% /button %}} or {{% button href="https://www.buymeacoffee.com/sadmf" %}}🥃 Buy us Bourbon 🥃{{% /button %}}
-
-
-
-
----
-
-{{< children >}}
