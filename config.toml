@@ -13,6 +13,12 @@ identifier = "ds"
 url = "https://github.com/ScaledAgileDevOps/SADMF"
 weight = 10
 
+[[menu.shortcuts]] 
+name = "<i class='fas fa-glass-whiskey'></i> Buy us Bourbon"
+identifier = "bub"
+url = "https://www.buymeacoffee.com/sadmf"
+weight = 1
+
 [params]
   # Prefix URL to edit current page. Will display an "Edit this page" button on top right hand corner of every page.
   # Useful to give opportunity to people to create merge request for your doc.

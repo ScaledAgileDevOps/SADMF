@@ -4,7 +4,7 @@ description: Set Sail with the Scaled Agile DevOps Delivery LifeCycle (SAD DLC)
 weight: 1
 ---
 
-{{% notice info %}}
+{{% notice tip %}}
 At Scaled Agile DevOps, we believe keeping track of many frequent releases is just too much cognitive load. We need to *"work in small batches."* We've developed the **Release Convoy&trade;** to simplify things. Why try to track dozens or hundreds of releases per week if we can simplify it to one easily managed Release Convoy&trade;?
 {{% /notice %}}
 
@@ -44,9 +44,13 @@ To ensure no information is lost through insufficient documentation, each Featur
 
 To effectively scale communication, we use the Scrum of Scrum of Scrums. First thing in the morning after the daily scrum, each team selects a Tribute to attend the daily Scrum of Scrums. At 12pm your Tribute attends a Scrum with the Tributes from the other teams. They select a Tribute of Tributes from the Scrum of Scrums who, at 3pm, attends a meeting with the Tribute of Tributes of the Scrums of Scrums from the broader organization. They then reverse the process to pass down direction. May the odds be ever in your favor!
 
-#### Manufacturing
+#### Coding
 
 The group of Coders assigned to each feature will implement the requirements they are given as rapidly as possible using the industry best practice, *[Continuous Isolation](https://continuousisolation.com)*. This ensures it can be tested and delivered on the Convoy it is planned for. Once the feature is coded, the Coders can return to the coding pool to await their next adventure!.
+
+#### Code Inspection
+
+The [CSET](../organization/#code-standards-enforcement-team) will review completed code before it is tested to insure it is compliant to [CSET](../organization/#code-standards-enforcement-team) and [EARB](../organization/#enterprise-architecture-review-board) standards.
 
 #### Testing
 
