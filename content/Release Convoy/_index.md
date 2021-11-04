@@ -1,7 +1,7 @@
 ---
 title: Release Convoy
 description: Set Sail with the Scaled Agile DevOps Delivery LifeCycle (SAD DLC)
-weight: 1
+weight: 2
 ---
 
 {{% notice tip %}}

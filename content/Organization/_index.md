@@ -1,7 +1,7 @@
 ---
 title: Organization
 description: Organizing for control
-weight: 2
+weight: 5
 ---
 
 ## Organizational Command Structure

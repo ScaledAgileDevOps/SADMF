@@ -1,7 +1,7 @@
 ---
 title: Principles
 description: We firmly believe...
-weight: 2
+weight: 5
 ---
 
 ### Build quality in

@@ -1,7 +1,7 @@
 ---
 title: Metrics
 description: Making improvement happen by meaasuring
-weight: 2
+weight: 5
 ---
 
 {{% notice tip %}}
