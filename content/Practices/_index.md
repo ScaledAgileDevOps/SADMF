@@ -6,9 +6,9 @@ weight: 5
 
 #### Fractal-based Development
 
-Below is a **simplified** version of the recommended branching pattern with permanent branches for Testing, Conflict Resolution, and Development. Each feature branch will exist for the duration of feature coding. All feature branches will branch from the clean `develop` branch. When notified, the [Source Management Team](../organization/#source-management-team) (SMT) will merge to the `conflict` branch to perform [Conflict Arbitration](#conflict-arbitration). Once the strongest changes are merged, SMT will notify the [Quality Authority](../organization/#quality-authority) who will pull the changes into the `test` branch for certification. Once the code has been certified, it is authorized for the next Release Convoy to set sail! This is the most effective branching pattern to enable [Continuous Isolation](https://continuousisolation.com/).
+Below is a **simplified** version of the recommended branching pattern with permanent branches for Testing, Conflict Resolution, and Development. Each feature branch will exist for the duration of feature coding. All feature branches will branch from the clean `develop` branch. When notified, the *[**Source Management Team**](../organization/#source-management-team)* (SMT) will merge to the `conflict` branch for the *[**Conflict Arbitration**](#conflict-arbitration)* process. Once the strongest changes are merged, SMT will notify the *[**Quality Authority**](../organization/#quality-authority)* who will pull the changes into the `test` branch for certification. Once the code has been certified, it is authorized for the next Release Convoy to set sail! This is the most effective branching pattern to enable *[**Continuous Isolation**](https://continuousisolation.com/)*.
 
-![Fractal-based Development](../images/fractal-based-development.png)
+![**Fractal-based Development**](../images/fractal-based-development.png)
 
 #### Conflict Arbitration
 

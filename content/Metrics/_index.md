@@ -22,11 +22,11 @@ For each Coder, the number of tasks they complete during Convoy. By tracking the
 
 #### Defects created by Coder
 
-For each Coder, we should track the number of defects they create and use this information to inform the [Tribunal](../release-convoy/#tribunal). We must "[build quality in](../principles/#build-quality-in)" by eliminating the source of defects.
+For each Coder, we should track the number of defects they create and use this information to inform the *[**Tribunal**](../release-convoy/#tribunal)*. We must *[**Build Quality In**](../principles/#build-quality-in)* by eliminating the source of defects.
 
 #### Defects detected by Testers
 
-For each Tester, we should track the number of defects they detect and use this information to inform the [Tribunal](../release-convoy/#tribunal). We must "[build quality in](../principles/#build-quality-in)" by eliminating Testers that cannot find defects.
+For each Tester, we should track the number of defects they detect and use this information to inform the *[**Tribunal**](../release-convoy/#tribunal)*. We must *[**Build Quality In**](../principles/#build-quality-in)* by eliminating Testers that cannot find defects.
 
 #### SADMF Maturity Score
 

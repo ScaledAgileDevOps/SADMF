@@ -22,7 +22,7 @@ This is a 5-day meeting held every 6 weeks for planning the next 8 quarters of f
 
 #### Captain's Mast
 
-In this ceremony anyone wishing to change the priorities set in Convoy Alignment must file a "Priority Change Request" and represent it for approval. This allows the Chief Signals Officer to adjust the *[Completed vs Committed metric](../metrics/#features-completed-vs-committed)* to ensure it does not reflect poorly on the Commodore.
+In this ceremony anyone wishing to change the priorities set in Convoy Alignment must file a *[***PCR***](../convoy-manifest/#priority-change-request)* and represent it for approval. This allows the Chief Signals Officer to adjust the *[***Completed vs Committed***](../metrics/#features-completed-vs-committed)* goal to ensure it does not reflect poorly on the Commodore.
 
 #### Captains' Meeting
 
@@ -46,11 +46,11 @@ To effectively scale communication, we use the Scrum of Scrum of Scrums. First t
 
 #### Coding
 
-The group of Coders assigned to each feature will implement the requirements they are given as rapidly as possible using the industry best practice, *[Continuous Isolation](https://continuousisolation.com)*. This ensures it can be tested and delivered on the Convoy it is planned for. Once the feature is coded, the Coders can return to the coding pool to await their next adventure!.
+The group of Coders assigned to each feature will implement the requirements they are given as rapidly as possible using the industry best practice, *[**Continuous Isolation**](https://continuousisolation.com)*. This ensures it can be tested and delivered on the Convoy it is planned for. Once the feature is coded, the Coders can return to the coding pool to await their next adventure!.
 
 #### Code Inspection
 
-The [CSET](../organization/#code-standards-enforcement-team) will review completed code before it is tested to insure it is compliant to [CSET](../organization/#code-standards-enforcement-team) and [EARB](../organization/#enterprise-architecture-review-board) standards.
+The *[**CSET**](../organization/#code-standards-enforcement-team)* will review completed code before it is tested to insure it is compliant to *[**CSET**](../organization/#code-standards-enforcement-team)* and *[**EARB**](../organization/#enterprise-architecture-review-board)* standards.
 
 #### Testing
 
@@ -66,7 +66,7 @@ The convoy coordinates transportation of the features that were planned. The Com
 
 #### Tribunal
 
-We must "[build quality in](../principles/#build-quality-in)" by removing things that cause poor quality. In this monthly ceremony we identify and remove the person who created each defect.
+We must *[**Build Quality In**](../principles/#build-quality-in)* by removing things that cause poor quality. In this monthly ceremony we identify and remove the person who created each defect.
 
 #### Dry Dock
 
@@ -74,7 +74,7 @@ It's normal for a little wear and tear to occur when we are moving so quickly. D
 
 #### Rota Fortunae
 
-We know that a static organizational structure limits improvement and also becomes boring for some executives. While many outside the SADMF community may propose Value Stream Mapping to identify constraints, we know that the process is time consuming and uses too many Post-Its. To resolve these we introduced the Rota Fortunae ceremony where we "spin the wheel", restructure, and then see if we are delivering better. If we fail, then we convene a [Tribunal](#tribunal) to address it.
+We know that a static organizational structure limits improvement and also becomes boring for some executives. While many outside the SADMF community may propose Value Stream Mapping to identify constraints, we know that the process is time consuming and uses too many Post-Its. To resolve these we introduced the Rota Fortunae ceremony where we "spin the wheel", restructure, and then see if we are delivering better. If we fail, then we convene a *[**Tribunal**](#tribunal)* to address it.
 
 ---
 

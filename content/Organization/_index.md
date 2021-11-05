@@ -8,11 +8,11 @@ weight: 5
 
 #### Feature Team
 
-The Feature Team is the group of Coders who are assembled to build a new feature for the next Convoy. Because we work so diligently to "[*Build Quality In*](../principles/#build-quality-in)" with the [Tribunal](../release-convoy/#tribunal), these teams should be able to deliver at maximum throughput as soon as they are formed.
+The Feature Team is the group of Coders who are assembled to build a new feature for the next Convoy. Because we work so diligently to *[**Build Quality In**](../principles/#build-quality-in)* with the *[**Tribunal**](../release-convoy/#tribunal)*, these teams should be able to deliver at maximum throughput as soon as they are formed.
 
 #### Source Management Team
 
-To improve Coder productivity by reducing the work required for integrating changes, we introduce the Source Management Team. The SMT is responsbile for authorizing new [feature branches](../practices/#fractal-based-development), creating the branches, and merging the complete branches from each Coder into the Conflict Arbitration branch. They will then resolve all conflicts for the Coders before alerting the Quality Control team that the Convoy is ready for testing.
+To improve Coder productivity by reducing the work required for integrating changes, we introduce the Source Management Team. The SMT is responsbile for authorizing new *[**feature branches**](../practices/#fractal-based-development)*, creating the branches, and merging the complete branches from each Coder into the Conflict Arbitration branch. They will then resolve all conflicts for the Coders before alerting the Quality Control team that the Convoy is ready for testing.
 
 #### Code Standards Enforcement Team
 
@@ -20,7 +20,7 @@ Coders are too close to the problem to effectively review code for their Feature
 
 * Indentation depth
 * Using tabs vs. spaces
-* Use of [EARB](#enterprise-architecture-review-board) approved variable and method names
+* Use of *[**EARB**](#enterprise-architecture-review-board)* approved variable and method names
 * Comment format
 
 #### Quality Authority
