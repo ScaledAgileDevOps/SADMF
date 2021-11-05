@@ -20,4 +20,4 @@ Continuous Isolation / Continuous Deliberation /Eventual Delivery is the most ef
 
 ---
 
-{{% button href="https://www.buymeacoffee.com/sadmf" %}}✅ Get Certified! ✅{{% /button %}}
+{{% button href="../certifications" %}}✅ Get Certified! ✅{{% /button %}}

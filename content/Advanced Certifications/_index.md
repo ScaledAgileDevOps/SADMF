@@ -9,4 +9,4 @@ This certification is reserved for Feature Teams who have demonstrated the abili
 
 ---
 
-{{% button href="https://www.buymeacoffee.com/sadmf" %}}✅ Get Certified! ✅{{% /button %}}
+{{% button href="../certifications" %}}✅ Get Certified! ✅{{% /button %}}

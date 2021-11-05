@@ -10,7 +10,7 @@ weight: 1
 **Enterprise transformation without the risk of culture change!**
 {{% /notice %}}
 
-{{% button href="https://www.buymeacoffee.com/sadmf" %}}✅ Get Certified! ✅{{% /button %}}
+{{% button href="../certifications" %}}✅ Get Certified! ✅{{% /button %}}
 
 ### Why another scaling framework?
 
@@ -31,4 +31,4 @@ We suggest using the *[**Certified Really Agile Practitioner**](https://www.yout
 
 ---
 
-{{% button href="https://www.buymeacoffee.com/sadmf" %}}✅ Get Certified! ✅{{% /button %}}
+{{% button href="../certifications" %}}✅ Get Certified! ✅{{% /button %}}

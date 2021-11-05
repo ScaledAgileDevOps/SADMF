@@ -22,4 +22,4 @@ A Priority Change Request must be created and approved during the *[**Captain's 
 
 ---
 
-{{% button href="https://www.buymeacoffee.com/sadmf" %}}✅ Get Certified! ✅{{% /button %}}
+{{% button href="../certifications" %}}✅ Get Certified! ✅{{% /button %}}

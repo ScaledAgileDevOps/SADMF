@@ -33,4 +33,4 @@ The EARB is responsible for maintaining the Book of Names. This master list defi
 
 ---
 
-{{% button href="https://www.buymeacoffee.com/sadmf" %}}✅ Get Certified! ✅{{% /button %}}
+{{% button href="../certifications" %}}✅ Get Certified! ✅{{% /button %}}
