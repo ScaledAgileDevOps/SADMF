@@ -11,6 +11,7 @@ weight: 1
 {{% /notice %}}
 
 {{% button href="https://www.buymeacoffee.com/sadmf" %}}✅ Get Certified! ✅{{% /button %}}
+
 ### Why another scaling framework?
 
 We know that transforming into a DevOps organization is hard. Many people will tell you there will be fundamental changes required in how everything in your organization works. At Scaled Agile DevOps, we believe there is another way.
@@ -27,5 +28,7 @@ Using our exclusive Maturity Framework, you can become a DevOps organization in 
 ### Getting Started
 
 We suggest using the *[Certified Really Agile Practitioner](https://www.youtube.com/watch?v=cwbiSCgiZNA)* training as a method of learning the fundamentals you will need to be certified SADMF.
+
+---
 
 {{% button href="https://www.buymeacoffee.com/sadmf" %}}✅ Get Certified! ✅{{% /button %}}

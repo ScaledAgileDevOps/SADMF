@@ -4,7 +4,9 @@ weight: 1
 ---
 
 {{% notice warning %}}
-Get certified today!
+Get your Practitioner certification today!
 {{% /notice %}}
 
-{{% button href="https://www.patreon.com/sadmf" %}}🥃  Get Certified! 🥃{{% /button %}}
+---
+
+{{% button href="https://www.buymeacoffee.com/sadmf" %}}✅ Get Certified! ✅{{% /button %}}

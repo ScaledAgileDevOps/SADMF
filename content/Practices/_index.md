@@ -17,3 +17,7 @@ When the Source Management Team has received all candidate changes for merging, 
 ### CI/CD/ED
 
 Continuous Isolation / Continuous Deliberation /Eventual Delivery is the most effective way to ensure that we have the highest levels of process adherence, real-world manual testing, supporting documentation, executive sponsorship, and perfection for every change!
+
+---
+
+{{% button href="https://www.buymeacoffee.com/sadmf" %}}✅ Get Certified! ✅{{% /button %}}

@@ -30,3 +30,7 @@ Verifying quality is a specialist field that no Coder is qualified to perform. I
 #### Enterprise Architecture Review Board
 
 The EARB is responsible for maintaining the Book of Names. This master list defines all accaptable words and word combinations that may be used for naming things during coding. This ensures that Coders will not be confused when they join a new Feature Team for the next Convoy. The EARB will meet every 6 weeks to review and reject any new words submitted for inclusion.
+
+---
+
+{{% button href="https://www.buymeacoffee.com/sadmf" %}}✅ Get Certified! ✅{{% /button %}}
