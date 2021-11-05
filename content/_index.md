@@ -27,7 +27,7 @@ Using our exclusive Maturity Framework, you can become a DevOps organization in 
 
 ### Getting Started
 
-We suggest using the *[Certified Really Agile Practitioner](https://www.youtube.com/watch?v=cwbiSCgiZNA)* training as a method of learning the fundamentals you will need to be certified SADMF.
+We suggest using the *[**Certified Really Agile Practitioner**](https://www.youtube.com/watch?v=cwbiSCgiZNA)* training as a method of learning the fundamentals you will need to be certified SADMF.
 
 ---
 
