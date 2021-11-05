@@ -16,13 +16,13 @@ Other frameworks have tried to coordinate things with more limited transportatio
 
 Below are the simple ceremonies required to manage changes the SADMF way!
 
-#### Shipment planning
+#### Convoy Alignment
 
 This is a 5-day meeting held every 6 weeks for planning the next 8 quarters of features to make sure the critical paths are aligned.
 
 #### Captain's Mast
 
-In this ceremony anyone wishing to change the priorities set in Shipment Planning must file a "Priority Change Request" and represent it for approval. This allows the Chief Signals Officer to adjust the *[Completed vs Committed metric](../metrics/#features-completed-vs-committed)* to ensure it does not reflect poorly on the Commodore.
+In this ceremony anyone wishing to change the priorities set in Convoy Alignment must file a "Priority Change Request" and represent it for approval. This allows the Chief Signals Officer to adjust the *[Completed vs Committed metric](../metrics/#features-completed-vs-committed)* to ensure it does not reflect poorly on the Commodore.
 
 #### Captains' Meeting
 
