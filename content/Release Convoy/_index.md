@@ -76,7 +76,7 @@ It's normal for a little wear and tear to occur when we are moving so quickly. D
 
 We know that a static organizational structure limits improvement and also becomes boring for some executives. While many outside the SADMF community may propose Value Stream Mapping to identify constraints, we know that the process is time consuming and uses too many Post-Its. To resolve these we introduced the Rota Fortunae ceremony where we "spin the wheel", restructure, and then see if we are delivering better. If we fail, then we convene a *[**Tribunal**](#tribunal)* to address it.
 
-#### Manifest Approvals
+#### Manifest Approval Ceremony
 
 Before any convoy may "leave port", it's critical we make sure that all Scaled Agile DevOps processes have been followed. The *[**Delivery Manifest Review Board**](../organization/#delivery-manifest-review-board)* is convened on the day the fleet sets sail for a final ceremony. All Feature Captains and all of the people involved with each feature assemble beneath the dias of the DMRB. The DMRB will then carefully review the Convoy Manifest and ask probing questions about backout plans and test coverage. They will then approve Convoy's release and there will be much rejoicing!
 
