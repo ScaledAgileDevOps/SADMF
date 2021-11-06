@@ -31,6 +31,10 @@ Verifying quality is a specialist field that no Coder is qualified to perform. I
 
 The EARB is responsible for maintaining the Book of Names. This master list defines all accaptable words and word combinations that may be used for naming things during coding. This ensures that Coders will not be confused when they join a new Feature Team for the next Convoy. The EARB will meet every 6 weeks to review and reject any new words submitted for inclusion.
 
+#### Delivery Manifest Review Board
+
+The DMRB is responsible for reviewing all of the documentation contained in the *[**Convoy Manifest**](../convoy-manifest/)* to ensure all Scaled Agile DevOps processes were followed to the letter before allowing the convoy to sail. This is a crucial step to assure our customers we are as SAD as possible. This board consists of representatives carefully chosen from areas unrelated to any feature so they can have the utmost objectivity.
+
 ---
 
 {{% button href="../certifications" %}}✅ Get Certified! ✅{{% /button %}}
