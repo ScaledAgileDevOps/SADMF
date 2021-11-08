@@ -38,4 +38,4 @@ The Scaled Agile DevOps Maturity Framework is built upon systems theory. There a
 
 ---
 
-{{% button href="https://www.buymeacoffee.com/sadmf" %}}✅ Get Certified! ✅{{% /button %}}
+{{% button href="../certifications" %}}✅ Get Certified! ✅{{% /button %}}
