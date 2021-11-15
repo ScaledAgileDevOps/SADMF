@@ -19,6 +19,12 @@ identifier = "bub"
 url = "https://www.buymeacoffee.com/sadmf"
 weight = 1
 
+[[menu.shortcuts]] 
+name = "SADMF Swag"
+identifier = "bub"
+url = "https://www.teepublic.com/t-shirt/25575514-scaled-agile-devops-maturity-framework"
+weight = 1
+
 [params]
   # Prefix URL to edit current page. Will display an "Edit this page" button on top right hand corner of every page.
   # Useful to give opportunity to people to create merge request for your doc.

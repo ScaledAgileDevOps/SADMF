@@ -6,7 +6,7 @@ weight: 5
 
 #### Build Quality In
 
-Quality software comes from quality people. Poor quality software must therefor come from poor quality people. To improve the quality of our software, we remove people who create defects.
+Quality software comes from quality people. Poor quality software must therefor come from poor quality people. To improve the quality of our software, we remove the things that create defects.
 
 #### Work in Small Batches
 

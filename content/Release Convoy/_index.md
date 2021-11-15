@@ -78,7 +78,7 @@ We know that a static organizational structure limits improvement and also becom
 
 #### Manifest Approval Ceremony
 
-Before any convoy may "leave port", it's critical we make sure that all Scaled Agile DevOps processes have been followed. The *[**Delivery Manifest Review Board**](../organization/#delivery-manifest-review-board)* is convened on the day the fleet sets sail for a final ceremony. All Feature Captains and all of the people involved with each feature assemble beneath the dias of the DMRB. The DMRB will then carefully review the Convoy Manifest and ask probing questions about backout plans and test coverage. They will then approve Convoy's release and there will be much rejoicing!
+Before any convoy may "leave port", it's critical we make sure that all Scaled Agile DevOps processes have been followed. The *[**Delivery Manifest Review Board**](../organization/#delivery-manifest-review-board)* is convened on the day the fleet sets sail for a final ceremony. All Feature Captains and all of the people involved with each feature assemble beneath the dias of the DMRB. The DMRB will then carefully review the Convoy Manifest and ask probing questions about backout plans and test coverage. Each Feature Captain will also present their PowerPoint presentation detailing the effort required to build the feature to ensure that the importance of the feature is understood. The DMRB will then approve the Convoy's release and there will be much rejoicing!
 
 ---
 
