@@ -142,3 +142,21 @@ a:hover {
 #sidebar hr {
     border-color: var(--MENU-SECTION-HR-color);
 }
+
+.btn-default {
+    color: #fff !important;
+    background-color: var(--MAIN-LINK-color) !important;
+    border-color: var(--MENU-SEARCH-BG-color) !important;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active {
+    color: #fff !important;
+    background-color: var(--MAIN-LINK-HOVER-color) !important;
+    border-color: var(--MAIN-LINK-color) !important;
+}
+
+.btn-default:active {
+    background-image: none !important;
+}

@@ -20,4 +20,5 @@ Below is a **simplified** version of the recommended branching pattern with perm
 
 ---
 
-{{% button href="../certifications" %}}✅ Get Certified! ✅{{% /button %}}
+{{% button href="../certifications" %}}🏅 Get Certified! 🏅{{% /button %}}
+{{% button href="https://www.teepublic.com/t-shirt/25575514-scaled-agile-devops-maturity-framework" %}}💸 Official Swag! 💸{{% /button %}}

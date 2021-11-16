@@ -82,4 +82,5 @@ Before any convoy may "leave port", it's critical we make sure that all Scaled A
 
 ---
 
-{{% button href="../certifications" %}}✅ Get Certified! ✅{{% /button %}}
+{{% button href="../certifications" %}}🏅 Get Certified! 🏅{{% /button %}}
+{{% button href="https://www.teepublic.com/t-shirt/25575514-scaled-agile-devops-maturity-framework" %}}💸 Official Swag! 💸{{% /button %}}

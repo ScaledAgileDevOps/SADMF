@@ -12,7 +12,8 @@ weight: 1
 **Enterprise transformation without the risk of culture change!**
 {{% /notice %}}
 
-{{% button href="../certifications" %}}✅ Get Certified! ✅{{% /button %}}
+{{% button href="../certifications" %}}🏅 Get Certified! 🏅{{% /button %}}
+{{% button href="https://www.teepublic.com/t-shirt/25575514-scaled-agile-devops-maturity-framework" %}}💸 Official Swag! 💸{{% /button %}}
 
 ### Why another scaling framework?
 
@@ -33,4 +34,5 @@ We suggest using the *[**Certified Really Agile Practitioner**](https://www.yout
 
 ---
 
-{{% button href="../certifications" %}}✅ Get Certified! ✅{{% /button %}}
+{{% button href="../certifications" %}}🏅 Get Certified! 🏅{{% /button %}}
+{{% button href="https://www.teepublic.com/t-shirt/25575514-scaled-agile-devops-maturity-framework" %}}💸 Official Swag! 💸{{% /button %}}
