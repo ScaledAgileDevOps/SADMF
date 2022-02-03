@@ -38,7 +38,7 @@ We understand that only the most important status updates are given in Standup a
 
 #### Post Standup Standup Review
 
-To ensure no information is lost through insufficient documentation, each Feature Captian will also submit a daily report using the SAD Update form and email it to the Commodore who will consolidate it and file it.
+To ensure no information is lost through insufficient documentation, each Feature Captain will also submit a daily report using the SAD Update form and email it to the Commodore who will consolidate it and file it.
 
 #### Scrum of Scrum of Scrums
 

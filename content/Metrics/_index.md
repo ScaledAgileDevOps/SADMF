@@ -10,7 +10,7 @@ weight: 5
 
 #### Lines of code per Coder
 
- We need to ensure our Coders are focused on the feature for the next convoy. The fleet won 't wait! We also need to ensure we have balanced metrics to prevent a perverse incentive when we track who created defects. If we only track defects, the Coder may try to assume the role of Unit Tester. That wastes time. Therefore, we need to measure the lines of code produced by each Coder.
+ We need to ensure our Coders are focused on the feature for the next convoy. The fleet won't wait! We also need to ensure we have balanced metrics to prevent a perverse incentive when we track who created defects. If we only track defects, the Coder may try to assume the role of Unit Tester. That wastes time. Therefore, we need to measure the lines of code produced by each Coder.
 
 #### Number of code review comments per convoy
 
