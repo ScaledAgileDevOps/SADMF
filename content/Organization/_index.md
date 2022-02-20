@@ -6,6 +6,10 @@ weight: 5
 
 ## Organizational Command Structure
 
+#### DevOps Usage & Compliance Head Engineer
+
+If the *Right Way* to do DevOps is not owned and controlled by a single senior manager, nobody will do it. So, we need a named person to codify the *Right Way* in the DevOps Process Binder and hold all teams accountable to the DevOps Process Excellence assessment. By staffing this role we prevent attempts process drift and eventual mutation of the *Right Way*. 
+
 #### Feature Team
 
 The Feature Team is the group of Coders who are assembled to build a new feature for the next Convoy. Because we work so diligently to *[**Build Quality In**](../principles/#build-quality-in)* with the *[**Tribunal**](../release-convoy/#tribunal)*, these teams should be able to deliver at maximum throughput as soon as they are formed.
