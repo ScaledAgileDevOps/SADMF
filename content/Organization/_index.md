@@ -16,7 +16,7 @@ The Feature Team is the group of Coders who are assembled to build a new feature
 
 #### Source Management Team
 
-To improve Coder productivity by reducing the work required for integrating changes, we introduce the Source Management Team. The SMT is responsbile for authorizing new *[**feature branches**](../practices/#fractal-based-development)*, creating the branches, and merging the complete branches from each Coder into the Conflict Arbitration branch. They will then resolve all conflicts for the Coders before alerting the Quality Control team that the Convoy is ready for testing.
+To improve Coder productivity by reducing the work required for integrating changes, we introduce the Source Management Team. The SMT is responsible for authorizing new *[**feature branches**](../practices/#fractal-based-development)*, creating the branches, and merging the complete branches from each Coder into the Conflict Arbitration branch. They will then resolve all conflicts for the Coders before alerting the Quality Control team that the Convoy is ready for testing.
 
 #### Code Standards Enforcement Team
 
@@ -33,7 +33,7 @@ Verifying quality is a specialist field that no Coder is qualified to perform. I
 
 #### Enterprise Architecture Review Board
 
-The EARB is responsible for maintaining the Book of Names. This master list defines all accaptable words and word combinations that may be used for naming things during coding. This ensures that Coders will not be confused when they join a new Feature Team for the next Convoy. The EARB will meet every 6 weeks to review and reject any new words submitted for inclusion.
+The EARB is responsible for maintaining the Book of Names. This master list defines all acceptable words and word combinations that may be used for naming things during coding. This ensures that Coders will not be confused when they join a new Feature Team for the next Convoy. The EARB will meet every 6 weeks to review and reject any new words submitted for inclusion.
 
 #### Delivery Manifest Review Board
 
