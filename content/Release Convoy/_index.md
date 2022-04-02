@@ -54,7 +54,7 @@ The *[**CSET**](../organization/#code-standards-enforcement-team)* will review c
 
 #### Testing
 
-The to keep the Coders productive, we need them to focus only on coding. For unit testing, the Feature Captain will assign the complete feature to the Unit Testing Team to ensure 100% test coverage.
+To keep the Coders productive, we need them to focus only on coding. For unit testing, the Feature Captain will assign the complete feature to the Unit Testing Team to ensure 100% test coverage.
 
 #### System Integration Testing
 
