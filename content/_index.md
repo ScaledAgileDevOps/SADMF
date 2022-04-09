@@ -4,7 +4,7 @@ description: Making enterprises feel better about DevOps transformation since 20
 weight: 1
 ---
 
-# Scaled Agile DevOps Maturity Framework 2.5 
+# Scaled Agile DevOps Maturity Framework 2.6 
 
 ![alt](../images/sad-certified-sm.png)
 
