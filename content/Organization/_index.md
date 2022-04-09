@@ -39,6 +39,20 @@ The EARB is responsible for maintaining the Book of Names. This master list defi
 
 The DMRB is responsible for reviewing all of the documentation contained in the *[**Convoy Manifest**](../convoy-manifest/)* to ensure all Scaled Agile DevOps processes were followed to the letter before allowing the convoy to sail. This is a crucial step to assure our customers we are as SAD as possible. This board consists of representatives carefully chosen from areas unrelated to any feature so they can have the utmost objectivity.
 
+#### Scaled Agile Dev Ops Advanced Facilitators (SAD AF)
+
+SAD AF Coaches are very motivated by quasi-credentials that add to our signature blocks!
+
+In my experience, coaching DevOps teams to various states of developer nirvana is much like being a magician in that many of the gains are based in illusion.
+
+The art of managing information radiators to appease those gazers from on high is paramount!
+
+The key to being a successful SAD AF Coach is to have a deep pizza budget and a keen understanding of slight of hand, after all you are selling snake oil to highly skilled in duh viduals whose only real need is Mountain Dew and Doritos.
+
+I would be happy to become a contributor in this endeavor, but only if the quest is somehow kinda like the Lord of the Rings…
+
+You are clearly the Certification Authority and Eye of SADOR (Scaled Agile DevOps Operational Realm) and this badge is our prescious…
+
 ---
 
 {{% button href="../certifications" %}}🏅 Get Certified! 🏅{{% /button %}}
