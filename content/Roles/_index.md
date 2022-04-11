@@ -10,6 +10,8 @@ Defining the Lanes
 
 #### Coder
 
+Coders have a simple role. Output code. Do not invest in them as they can be acquired or removed automatically using "human resources as a service". Instead focus on other roles with more important SAD certifications.
+
 #### Requirements Maven
 
 #### Release Convoy Navigator
