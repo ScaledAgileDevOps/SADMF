@@ -14,7 +14,11 @@ Coders have a simple role. Output code. Do not invest in them as they can be acq
 
 #### Requirements Maven
 
+In order to hold everyone accountable, requirements need to be right the first time. A Requirements Maven is responsible for ensuring that all the functionality is understood completely before any code is written. This ensures that when the requestor inevitably tries to blame others for their deficency in providing requirements, that there is proof all work was done correctly and they have no one to blame but themselves. 
+
 #### Release Convoy Navigator
+
+Between the current Convoy and the software running the business lies one person: the Release Convoy Navigator. This one individual is responsible for all changes that occur to the running software. Their primary purpose is to add process and steps to ensure smooth delivery of future convoys. Every time a release problem occurs, the Release Convoy Navigator adds additional process to avoid it in the future. 
 
 #### DevOps Usage & Compliance Head Engineer
 
