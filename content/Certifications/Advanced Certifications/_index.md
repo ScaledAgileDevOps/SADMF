@@ -9,7 +9,7 @@ This certification is reserved for Feature Teams who have demonstrated the abili
 
 ### Scaled Agile Dev Ops Accredited Facilitators
 
-![alt](../images/sad-af-sm.png) Accredited Facilitators have all of the certified credentials to convince executives to pay their consulting fees. They have demonstrated the ability to apply Scaled Agile DevOps Principles and Practices and have documented that their outcomes meet or exceed expectations. They are also skilled at preparing reports that show consistent improvement from week to week.
+![SAD AF Cert](sad-af-sm.png) Accredited Facilitators have all of the certified credentials to convince executives to pay their consulting fees. They have demonstrated the ability to apply Scaled Agile DevOps Principles and Practices and have documented that their outcomes meet or exceed expectations. They are also skilled at preparing reports that show consistent improvement from week to week.
 
 The key to being SAD AF is to have a deep pizza budget and a keen understanding of how to frame progress. 
 
