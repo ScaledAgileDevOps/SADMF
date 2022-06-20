@@ -93,10 +93,10 @@ The main thing that every executive sees each month is financial reports provide
 
 Using the risk averse systems within your company is the easiest path to a moderately fulfilling career. Use these 7 principles to skirt responsibility and climb the corporate ladder. Make sure to pass this wisdom to the next generation. By doing so, you ensure the next generation of thought workers will have the same garden to grow in.
 
-1. Assuming everything is knowable and hold others accountable to knowing everything up-front (anti-pattern to avoid)
-2. Efficiency is always good. ALWAYS! (anti-pattern to avoid)
-3. Use early estimates to guide delivery dates to keeps everyone focused (anti-pattern to avoid)
-4. The system will stop everything that wasn't supposed to happen (anti-pattern 1 and anti-pattern 2 to avoid)
-5. It's impossible to prove it's not the org chart causing issues, so change it! (anti-pattern to avoid)
-6. Problem people are the problem (anti-pattern 1 and anti-pattern 2 to avoid)
-7. Accountants provide the only numbers that matter (anti-pattern to avoid)
+1. Assuming everything is knowable and hold others accountable to knowing everything up-front ([anti-pattern to avoid](https://www.huffpost.com/entry/exploit-variability-dont-_b_8650050))
+2. Efficiency is always good. ALWAYS! ([anti-pattern to avoid](https://www.google.com/books/edition/Software_Engineering_at_Google/WXTTDwAAQBAJ?hl=en&gbpv=1&printsec=frontcover))
+3. Use early estimates to guide delivery dates to keeps everyone focused ([anti-pattern to avoid](https://medium.com/mindsea-development-inc/why-your-rat-riskiest-assumption-test-is-the-real-mvp-177d66cde3e1))
+4. The system will stop everything that wasn't supposed to happen ([anti-pattern 1](https://d-pereira.com/mastering-the-art-of-saying-no/) and [anti-pattern 2](https://itrevolution.com/delicate-art-of-bureaucracy/) to avoid)
+5. It's impossible to prove it's not the org chart causing issues, so change it! ([anti-pattern to avoid](https://teamtopologies.com/))
+6. Problem people are the problem ([anti-pattern 1](https://www.blameless.com/sre/why-companies-can-benefit-from-blameless-culture) and [anti-pattern 2](https://www.mckinsey.com/business-functions/people-and-organizational-performance/our-insights/the-organization-blog/from-me-to-we-the-next-shift-in-performance-management) to avoid)
+7. Accountants provide the only numbers that matter ([anti-pattern to avoid](https://blackswanfarming.com/))
