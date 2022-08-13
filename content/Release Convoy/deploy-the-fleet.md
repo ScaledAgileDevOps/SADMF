@@ -1,0 +1,38 @@
+---
+title: Deploy the Fleet
+description: Slow and Steady
+weight: 2
+---
+
+We need to nail the fundamentals of speed, innovation, and impact. However, we need to ensure we go fast and innovate, but cautiously, to prevent solutions that do not work as designed. To do this, we need a "Zero Defects" approach to delivery.
+
+To maintain "Zero Defects", centralized control of all release convoys is critical. Moving fast requires processes that slow down defect delivery!
+
+## Get READY!
+
+All changes should use the READY release process. READY stands for:
+
+- **R**eview
+- **E**valuate
+- **A**pprove
+- **D**eploy
+- **Y**ield results. 
+
+This will ensure we are 100% READY to launch each convoy! All production changes or config changes should follow READY. 
+
+## Convoy Steering Committee (CSC)
+
+The Committee is made up of senior leaders and architects across all engineering functions to centralize review and preparation for changes. The CSC will ensure that changes, big or small, are approved at the highest levels and are READY to go! This centralized review by the CSC will shine a light on dependencies, secondary effects, and other aspects that are not always clear when reviewed closer to where the work happens. The CSC is also responsible for reviewing all of the documentation contained in the *[**Convoy Manifest**](../convoy-manifest/)* to ensure all Scaled Agile DevOps processes were followed to the letter before allowing the convoy to sail. This is a crucial step to assure our customers we are as SAD as possible. Since the CSC consists of representatives who are as far removed from the work as possible, they can have the utmost objectivity.
+
+## Approval Process
+
+All requests must be peer-reviewed and approved in duplicate and also approved by the Convoy Commodore at least 3 days before being presented to the CSC. Each Feature Captain will also present a PowerPoint presentation detailing the effort required to build the feature to ensure that the importance of the feature is understood.
+
+The CSC will meet each workday to review high-risk, or Commodore escalated changes to the production environment.  Requests will be approved, sent back for more information, or rejected.
+
+After the CSC approves the Convoy's release there will be much rejoicing!
+
+-->
+
+{{% button href="../certifications" %}}🏅 Get Certified! 🏅{{% /button %}}
+{{% button href="https://www.teepublic.com/t-shirt/25575514-scaled-agile-devops-maturity-framework" %}}💸 Official Swag! 💸{{% /button %}}
