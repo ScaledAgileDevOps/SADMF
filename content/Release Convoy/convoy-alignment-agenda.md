@@ -22,5 +22,7 @@ On the last hour of the last day, while all of the alignment is fresh in our min
 
 All stakeholders must be included in the vote, not only the people doing the work. Alignment requires unanimity. 
 
+---
+
 {{% button href="../certifications" %}}🏅 Get Certified! 🏅{{% /button %}}
 {{% button href="https://www.teepublic.com/t-shirt/25575514-scaled-agile-devops-maturity-framework" %}}💸 Official Swag! 💸{{% /button %}}
