@@ -41,7 +41,7 @@ To ensure no information is lost through insufficient documentation, each Featur
 
 ### Scrum of Scrum of Scrums
 
-To effectively scale communication, we use the Scrum of Scrum of Scrums. First thing in the morning after the daily scrum, each team selects a Tribute to attend the daily Scrum of Scrums. At noon your Tribute attends a Scrum with the Tributes from the other teams. They select a Tribute of Tributes from the Scrum of Scrums who, at 3 pm, attends a meeting with the Tribute of Tributes of the Scrums of Scrums from the broader organization. They then reverse the process to pass down direction. May the odds be ever in your favor!
+To effectively scale communication, we use the Scrum of Scrum of Scrums. First thing in the morning after the daily scrum, each team selects a Tribute to attend the daily Scrum of Scrums (SOS). At noon your Tribute attends a Scrum with the Tributes from the other teams. They select a Tribute of Tributes from the SOS meeting who, at 3 pm, attends a meeting with the Tribute of Tributes of the Scrums of Scrums from the broader organization. They then reverse the process to pass down direction. May the odds be ever in your favor!
 
 ### Coding
 

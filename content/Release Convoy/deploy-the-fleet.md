@@ -4,11 +4,11 @@ description: Slow and Steady
 weight: 2
 ---
 
-We need to nail the fundamentals of speed, innovation, and impact. However, we need to ensure we go fast and innovate, but cautiously, to prevent solutions that do not work as designed. To do this, we need a "Zero Defects" approach to delivery.
+We need to nail the fundamentals of speed, innovation, and impact. We need to ensure we go fast and innovate but very cautiously to prevent solutions that do not work as designed. To do this, we need a "Zero Defects" approach to delivery.
 
-To maintain "Zero Defects", centralized control of all release convoys is critical. Moving fast requires processes that slow down defect delivery!
+To maintain "Zero Defects", centralized control of all release convoys is critical. We need to "slow down to go fast" by ensuring we have an effective inspection process at the end!
 
-## Get READY!
+## Let's Get READY!
 
 All changes should use the READY release process. READY stands for:
 
@@ -22,7 +22,7 @@ This will ensure we are 100% READY to launch each convoy! All production changes
 
 ## Convoy Steering Committee (CSC)
 
-The Committee is made up of senior leaders and architects across all engineering functions to centralize review and preparation for changes. The CSC will ensure that changes, big or small, are approved at the highest levels and are READY to go! This centralized review by the CSC will shine a light on dependencies, secondary effects, and other aspects that are not always clear when reviewed closer to where the work happens. The CSC is also responsible for reviewing all of the documentation contained in the *[**Convoy Manifest**](../convoy-manifest/)* to ensure all Scaled Agile DevOps processes were followed to the letter before allowing the convoy to sail. This is a crucial step to assure our customers we are as SAD as possible. Since the CSC consists of representatives who are as far removed from the work as possible, they can have the utmost objectivity.
+The Committee is made up of senior leaders and architects across all engineering functions to centralize review and preparation for changes. The CSC will ensure that changes, big or small, are approved at the highest levels and are **[READY](#lets-get-ready)** to go! This centralized review by the CSC will shine a light on dependencies, secondary effects, and other aspects that are not always clear when reviewed closer to where the work happens. The CSC is also responsible for reviewing all of the documentation contained in the *[**Convoy Manifest**](../convoy-manifest/)* to ensure all Scaled Agile DevOps processes were followed to the letter before allowing the convoy to sail. This is a crucial step to assure our customers we are as SAD as possible. Since the CSC consists of representatives who are as far removed from the work as possible, they can have the utmost objectivity.
 
 ## Approval Process
 
