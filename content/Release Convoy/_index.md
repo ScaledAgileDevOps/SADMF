@@ -1,28 +1,27 @@
 ---
-title: Release Convoy
+title: DevOps Release Convoy
 description: Set Sail with the Scaled Agile DevOps Delivery LifeCycle (SAD DLC)
 weight: 2
 ---
 
 {{% notice tip %}}
-At Scaled Agile DevOps, we believe keeping track of many frequent releases is just too much cognitive load. We need to *"work in small batches."* We've developed the **Release Convoy&trade;** to simplify things. Why try to track dozens or hundreds of releases per week if we can simplify it to one easily managed Release Convoy&trade;?
+At Scaled Agile DevOps, we believe keeping track of many frequent releases is just too much cognitive load. We need to *"work in small batches."* We've developed the **DevOps Release Convoy&trade; (DORC)** to simplify things. Why try to track dozens or hundreds of releases per week if we can simplify it to one easily managed DORC&trade;?
 {{% /notice %}}
 
 ### Why convoys?
 
-Other frameworks have tried to coordinate things with more limited transportation metaphors. However, they were constrained to a single direction. With Release Convoys&trade; we have more options. We can turn left or right or even make a U-turn.
+Other frameworks have tried to coordinate things with more limited transportation metaphors. However, they were constrained to a single direction. With DORCs&trade; we have more options. We can turn left or right or even make a U-turn.
 
 ### Critical Release Convoy&trade; Ceremonies
 
-Below are the simple ceremonies required to manage changes the SADMF way!
+Below are the simple ceremonies required to manage changes in the SADMF way!
 
 #### Convoy Alignment
 
 This is a 5-day meeting held every 6 weeks for planning the next 8 quarters of features to make sure the critical paths are aligned.
 
 #### Captain's Mast
-
-In this ceremony anyone wishing to change the priorities set in Convoy Alignment must file a *[***PCR***](../convoy-manifest/#priority-change-request)* and represent it for approval. This allows the Chief Signals Officer to adjust the *[***Completed vs Committed***](../metrics/#features-completed-vs-committed)* goal to ensure it does not reflect poorly on the Commodore.
+In this ceremony, anyone wishing to change the priorities set in Convoy Alignment must file a *[***PCR***](../convoy-manifest/#priority-change-request)* and represent it for approval. This allows the Chief Signals Officer to adjust the *[***Completed vs Committed***](../metrics/#features-completed-vs-committed)* goal to ensure it does not reflect poorly on the Commodore.
 
 #### Captains' Meeting
 
@@ -30,7 +29,7 @@ Meeting of the Feature Captains to plan the date when the Release Convoy&trade; 
 
 #### Press Gang
 
-In the Press Gang step, the Feature Captain will choose between 2 and 20 people from the coding pool to "self-organize" around delivering the next feature. This ensures each Coder is given the opportunity to work on new and interesting things and that all Coders are fully utilized.
+In the Press Gang step, the Feature Captain will choose between 2 and 20 people from the coding pool to "self-organize" around delivering the next feature. This ensures each Coder is allowed to work on new and interesting things and that all Coders are fully utilized.
 
 #### Post Standup Standup
 
@@ -42,7 +41,7 @@ To ensure no information is lost through insufficient documentation, each Featur
 
 #### Scrum of Scrum of Scrums
 
-To effectively scale communication, we use the Scrum of Scrum of Scrums. First thing in the morning after the daily scrum, each team selects a Tribute to attend the daily Scrum of Scrums. At 12pm your Tribute attends a Scrum with the Tributes from the other teams. They select a Tribute of Tributes from the Scrum of Scrums who, at 3pm, attends a meeting with the Tribute of Tributes of the Scrums of Scrums from the broader organization. They then reverse the process to pass down direction. May the odds be ever in your favor!
+To effectively scale communication, we use the Scrum of Scrum of Scrums. First thing in the morning after the daily scrum, each team selects a Tribute to attend the daily Scrum of Scrums. At 12pm your Tribute attends a Scrum with the Tributes from the other teams. They select a Tribute of Tributes from the Scrum of Scrums who, at 3 pm, attends a meeting with the Tribute of Tributes of the Scrums of Scrums from the broader organization. They then reverse the process to pass down direction. May the odds be ever in your favor!
 
 #### Coding
 
@@ -50,11 +49,11 @@ The group of Coders assigned to each feature will implement the requirements the
 
 #### Code Inspection
 
-The *[**CSET**](../organization/#code-standards-enforcement-team)* will review completed code before it is tested to insure it is compliant to *[**CSET**](../organization/#code-standards-enforcement-team)* and *[**EARB**](../organization/#enterprise-architecture-review-board)* standards.
+The *[**CSET**](../organization/#code-standards-enforcement-team)* will review the completed code before it is tested to ensure it is compliant to *[**CSET**](../organization/#code-standards-enforcement-team)* and *[**EARB**](../organization/#enterprise-architecture-review-board)* standards.
 
 #### Testing
 
-The to keep the Coders productive, we need them to focus only on coding. For unit testing, the Feature Captain will assign the complete feature to the Unit Testing Team to ensure 100% test coverage.
+To keep the Coders productive, we need them to focus only on coding. For unit testing, the Feature Captain will assign the complete feature to the Unit Testing Team to ensure 100% test coverage.
 
 #### System Integration Testing
 
