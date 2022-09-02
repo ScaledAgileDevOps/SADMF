@@ -4,7 +4,7 @@ description: Making enterprises feel better about DevOps transformation since 20
 weight: 1
 ---
 
-# Scaled Agile DevOps Maturity Framework 2.5 
+# Scaled Agile DevOps Maturity Framework 2.6 
 
 ![alt](../images/sad-certified-sm.png)
 
@@ -31,6 +31,10 @@ Using our exclusive Maturity Framework, you can become a DevOps organization in 
 ### Getting Started
 
 We suggest using the *[**Certified Really Agile Practitioner**](https://www.youtube.com/watch?v=cwbiSCgiZNA)* training as a method of learning the fundamentals you will need to be certified SADMF.
+
+### Is This For Real?
+
+If you are doing this every day, it's **VERY** real.
 
 ---
 
