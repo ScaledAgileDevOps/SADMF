@@ -30,7 +30,7 @@ We know the *[**Tribunal**](../release-convoy/#tribunal)* can be a stressful tim
 A system will produce exactly what is designed to produce -- W. Edward Demming
 {{% /notice %}}
 
-The Scaled Agile DevOps Maturity Framework is built upon systems theory. There are two systems that operate within the SADMF System. The *[**System of Authority**](#system-of-authority)* (SOA) and the *[**System of Service**](#system-of-service)* (SOS). Both Systems are accountable to the Admiral's Transformation Office (ATO).
+The Scaled Agile DevOps Maturity Framework is built upon systems thinking. There are two systems that operate within the SADMF System. The *[**System of Authority**](#system-of-authority)* (SOA) and the *[**System of Service**](#system-of-service)* (SOS). Both Systems are accountable to the Admiral's Transformation Office (ATO).
 
 - **System of Authority**: The SOA is the team of teams accountable for implanting SADMF in your organization. The SOA is staffed by contractors and consultants with diverse points of view. These principled practitioners will focus on implementing the orders of the ATO, and will focus on updating plans, collecting metrics, assessing, and becoming a trusted advisor for the teams so the advisor can report the ground-level truth to leadership during the tribunal.
 - **System of Service**: The SOS is the team of teams accountable for achieving deadlines and shipping code. The SOS will look to the chain of command for servant leadership to ensure self-governance and instruct the Feature Teams on their day-to-day work. The SOS is empowered to deliver on time and on budget predictably.

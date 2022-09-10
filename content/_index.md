@@ -24,7 +24,7 @@ Using our exclusive Maturity Framework, you can become a DevOps organization in 
 ### Benefits of the Framework
 
 - No need for investing in training teams beyond a few additional daily ceremonies.
-- A clear, simple, manageable *[**Release Convoy&trade;**](./release-convoy/)* that customers can be assured used DevOps.
+- A clear, simple, manageable *[**DevOps Release Convoy&trade;**](./release-convoy/)* that customers can be assured used DevOps.
 - Fully compatible with sending requirements to external development teams.
 - Easy to plan 1, 2, or even 3 years worth of detailed deliveries.
 

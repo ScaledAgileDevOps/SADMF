@@ -12,7 +12,7 @@ At Scaled Agile DevOps, we believe keeping track of many frequent releases is ju
 
 Other frameworks have tried to coordinate things with more limited transportation metaphors. However, they were constrained to a single direction. With DORCs&trade; we have more options. We can turn left or right or even make a U-turn.
 
-## Critical Release Convoy&trade; Ceremonies
+## Critical DORC&trade; Ceremonies
 
 Below are the simple ceremonies required to manage changes in the SADMF way!
 
@@ -25,7 +25,7 @@ In this ceremony, anyone wishing to change the priorities set in Convoy Alignmen
 
 #### Captains' Meeting
 
-Meeting of the Feature Captains to plan the date when the Release Convoy&trade; will be assembled.
+Meeting of the Feature Captains to plan the date when the DORC&trade; will be assembled.
 
 ### Press Gang
 

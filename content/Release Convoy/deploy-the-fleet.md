@@ -6,7 +6,7 @@ weight: 2
 
 We need to nail the fundamentals of speed, innovation, and impact. We need to ensure we go fast and innovate but very cautiously to prevent solutions that do not work as designed. To do this, we need a "Zero Defects" approach to delivery.
 
-To maintain "Zero Defects", centralized control of all release convoys is critical. We need to "slow down to go fast" by ensuring we have an effective inspection process at the end!
+To maintain "Zero Defects", centralized control of all DORC&trade;s is critical. We need to "slow down to go fast" by ensuring we have an effective inspection process at the end!
 
 ## Let's Get READY!
 
