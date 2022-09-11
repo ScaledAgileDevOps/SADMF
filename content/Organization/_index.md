@@ -8,7 +8,7 @@ weight: 5
 
 ### Coder
 
-This role is the backbone of a SAD implementation. The job of the Coder is to transform requirements into machine executable instructions quickly, quietly, and with as few questions as possible.
+This role is the backbone of a SAD implementation. The job of the Coder is to transform requirements into machine executable instructions quickly and quietly. Coder expertise can be judged by the number of questions. Since a Coder is expected to be an expert at data structures and algorithms, fewer questions indicate more expertise.
 
 ### Quality Authority
 
