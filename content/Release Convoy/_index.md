@@ -21,6 +21,7 @@ Below are the simple ceremonies required to manage changes in the SADMF way!
 [This is a 5-day meeting](./convoy-alignment-agenda) held every 6 weeks for planning the next 8 quarters of features to make sure the critical paths are aligned. See the agenda for details.
 
 #### Captain's Mast
+
 In this ceremony, anyone wishing to change the priorities set in Convoy Alignment must file a *[***PCR***](../convoy-manifest/#priority-change-request)* and represent it for approval. This allows the Chief Signals Officer to adjust the *[***Completed vs Committed***](../metrics/#features-completed-vs-committed)* goal to ensure it does not reflect poorly on the Commodore.
 
 #### Captains' Meeting
@@ -29,7 +30,7 @@ Meeting of the Feature Captains to plan the date when the DORC&trade; will be as
 
 ### Press Gang
 
-In the Press Gang step, the Feature Captain will choose between 2 and 20 people from the coding pool to "self-organize" around delivering the next feature. This ensures each Coder is allowed to work on new and interesting things and that all Coders are fully utilized.
+In the Press Gang step, the Feature Captain will choose between 2 and 20 people from the coding pool to "self-organize" around delivering the next feature. This ensures each [Coder](../organization/#coder) is allowed to work on new and interesting things and that all Coders are fully utilized.
 
 ### Post-Standup Standup
 
