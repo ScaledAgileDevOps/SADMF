@@ -78,7 +78,7 @@ We know that a static organizational structure limits improvement and also becom
 
 ### Manifest Approval Ceremony
 
-Before any convoy may "leave port", it's critical we make sure that all Scaled Agile DevOps processes have been followed. The *[**Convoy Steering Committee**](./deploy-the-fleet/#convoy-steering-committee-csc)* is convened on the day the fleet sets sail. See [**Deploy th Fleet**](./deploy-the-fleet/) for the detailed process.
+Before any convoy may "leave port", it's critical we make sure that all Scaled Agile DevOps processes have been followed. The *[**Convoy Steering Committee**](./deploy-the-fleet/#convoy-steering-committee-csc)* is convened on the day the fleet sets sail. See [**Deploy the Fleet**](./deploy-the-fleet/) for the detailed process.
 
 ---
 
