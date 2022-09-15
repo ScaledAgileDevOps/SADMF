@@ -22,7 +22,7 @@ Below are the simple ceremonies required to manage changes in the SADMF way!
 
 #### Captain's Mast
 
-In this ceremony, anyone wishing to change the priorities set in Convoy Alignment must file a *[***PCR***](../convoy-manifest/#priority-change-request)* and represent it for approval. This allows the Chief Signals Officer to adjust the *[***Completed vs Committed***](../metrics/#features-completed-vs-committed)* goal to ensure it does not reflect poorly on the Commodore.
+In this ceremony, anyone wishing to change the priorities set in Convoy Alignment must file a *[***PCR***](/release-convoy/convoy-manifest/#priority-change-request)* and represent it for approval. This allows the Chief Signals Officer to adjust the *[***Completed vs Committed***](../metrics/#features-completed-vs-committed)* goal to ensure it does not reflect poorly on the Commodore.
 
 #### Captains' Meeting
 
@@ -70,7 +70,7 @@ We must *[**Build Quality In**](../principles/#build-quality-in)* by removing th
 
 ### Dry Dock
 
-It's normal for a little wear and tear to occur when we are moving so quickly. Defects will accumulate. The Dry Dock is the process of halting feature development for a few weeks so that repairs can be made.
+It's normal for a little damage to occur when we are moving so quickly. Defects will accumulate. The Dry Dock is the process of halting feature development for a few weeks so that repairs can be made.
 
 ### Rota Fortunae
 
@@ -82,5 +82,5 @@ Before any convoy may "leave port", it's critical we make sure that all Scaled A
 
 ---
 
-{{% button href="../certifications" %}}🏅 Get Certified! 🏅{{% /button %}}
+{{% button href="/certifications" %}}🏅 Get Certified! 🏅{{% /button %}}
 {{% button href="https://www.teepublic.com/t-shirt/25575514-scaled-agile-devops-maturity-framework" %}}💸 Official Swag! 💸{{% /button %}}
