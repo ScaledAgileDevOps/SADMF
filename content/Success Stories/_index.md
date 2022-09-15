@@ -4,8 +4,8 @@ chapter: true
 weight: 20
 ---
 
-- [The Manager's Guide to Org Improvement](manager-guide) 
-  - Alex Herweyer, [SAD Accreditied Facilitator](../../certifications/advanced-certifications/#scaled-agile-dev-ops-accredited-facilitators)
+- [The Manager's Guide to Org Improvement](manager-guide)
+  - Alex Herweyer, [SAD Accredited Facilitator](../../certifications/advanced-certifications/#scaled-agile-dev-ops-accredited-facilitators)
 
 ---
 

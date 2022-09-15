@@ -8,7 +8,7 @@ We need to nail the fundamentals of speed, innovation, and impact. We need to en
 
 To maintain "Zero Defects", centralized control of all DORC&trade;s is critical. We need to "slow down to go fast" by ensuring we have an effective inspection process at the end!
 
-## Let's Get READY!
+## Let's Get READY to sail!
 
 All changes should use the READY release process. READY stands for:
 
@@ -16,9 +16,9 @@ All changes should use the READY release process. READY stands for:
 - **E**valuate
 - **A**pprove
 - **D**eploy
-- **Y**ield results. 
+- **Y**ield results.
 
-This will ensure we are 100% READY to launch each convoy! All production changes or config changes should follow READY. 
+This will ensure we are 100% READY to launch each convoy! All production changes or config changes should follow READY.
 
 ## Convoy Steering Committee (CSC)
 
