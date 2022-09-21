@@ -23,7 +23,7 @@ This role is the backbone of a SAD implementation. The job of the Coder is to tr
 
 ## Development Integrity Assurance Team
 
-This team is made up of senior-level engineers, build engineers, and designers. They are responsible for reviewing every change before allowing it to be included in the *[**DORC**](/release-convoy/)*. They validate the work of *[**QA**](#quality-authority)*.  
+This team is made up of senior-level engineers, build engineers, and designers. They are responsible for reviewing every change before allowing it to be included in the *[**DORC**](/release-convoy/)*. They validate the work of *[**Quality Authority**](#quality-authority)*.  
 
 ## DevOps Usage & Compliance Head Engineer
 
