@@ -5,7 +5,7 @@ weight: 3
 ---
 
 {{% notice tip %}}
-**Many important principles must be followed to meet the goals of the framework.**
+**The critical principles to follow to achieve the goals of the framework!**
 {{% /notice %}}
 
 ## Build Quality In
@@ -14,7 +14,7 @@ Quality software comes from quality people. Therefore, Poor quality software mus
 
 ## Work in Small Batches
 
-Too many releases are hard to report and manage. To reduce the number of updates to the [release tracking](/practices/#release-tracking) spreadsheet, we should focus on a small number of releases each quarter. This provides us with more time to *[**Amplify Feedback**](#amplify-feedback)*.
+Too many releases are hard to report and manage. To reduce the number of updates to the *[**Release Tracking**](/practices/#release-tracking)* spreadsheet, we should focus on a small number of releases each quarter. This provides us with more time to *[**Amplify Feedback**](#amplify-feedback)*.
 
 ## Amplify Feedback
 
@@ -22,7 +22,7 @@ Coaching employees is an important daily practice to ensure they know we are tra
 
 ## Everyone is Responsible
 
-Each [Coder](/organization/#coder) is responsible for their own work and should be rewarded for the work they do. If a feature is successfully delivered, we should identify the [Coder](/organization/#coder) who made the most changes and give them a bonus. It would be unfair to reward the whole team based on the excellence of an individual.
+Each *[**Coder**](/organization/#coder)* is responsible for their own work and should be rewarded for the work they do. If a feature is successfully delivered, we should identify the *[**Coder**](/organization/#coder)* who made the most changes and give them a bonus. It would be unfair to reward the whole team based on the excellence of an individual.
 
 ## Psychological Safety
 

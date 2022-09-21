@@ -4,6 +4,10 @@ description: Recommended practices
 weight: 4
 ---
 
+{{% notice tip %}}
+**Delivering complex systems requires complex practices to control the complexity**
+{{% /notice %}}
+
 ## CI/CD/ED
 
 Continuous Isolation / Continuous Deliberation / Eventual Delivery is the most effective way to ensure that we have the highest levels of process adherence, real-world manual testing, supporting documentation, executive sponsorship, and perfection for every change!

@@ -12,7 +12,7 @@ This role is the backbone of a SAD implementation. The job of the Coder is to tr
 
 ### Quality Authority
 
-Verifying quality is a specialist field that no [Coder](#coder) is qualified to perform. In addition, performing testing impedes the ability of the [Coder](#coder) to do their only job, type code. The Quality Authority team is the final arbiter of what the requirements mean and will create, maintain, and manually execute test scripts based on their understanding of the requirements. The end-user uses the system manually, so that is the only TRUE way to test it!
+Verifying quality is a specialist field that no *[**Coder**](#coder)* is qualified to perform. In addition, performing testing impedes the ability of the *[**Coder**](#coder)* to do their only job, type code. The Quality Authority team is the final arbiter of what the requirements mean and will create, maintain, and manually execute test scripts based on their understanding of the requirements. The end-user uses the system manually, so that is the only TRUE way to test it!
 
 ### DevOps Usage & Compliance Head Engineer
 
@@ -24,7 +24,7 @@ The Feature Team is the group of Coders assembled to build a new feature for the
 
 ### Source Management Team
 
-To improve [Coder](#coder) productivity by reducing the work required for integrating changes, we introduce the Source Management Team. The SMT is responsible for authorizing new *[**feature branches**](/practices/#fractal-based-development)*, creating the branches, and merging the complete branches from each [Coder](#coder) into the Conflict Arbitration branch. They will then resolve all conflicts for the Coders before alerting the [Quality Authority](#quality-authority) that the Convoy is ready for testing.
+To improve *[**Coder**](#coder)* productivity by reducing the work required for integrating changes, we introduce the Source Management Team. The SMT is responsible for authorizing new *[**feature branches**](/practices/#fractal-based-development)*, creating the branches, and merging the complete branches from each *[**Coder**](#coder)* into the Conflict Arbitration branch. They will then resolve all conflicts for the Coders before alerting the *[**Quality Authority**](#quality-authority)* that the Convoy is ready for testing.
 
 ### Code Standards Enforcement Team
 

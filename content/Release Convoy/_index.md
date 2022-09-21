@@ -5,7 +5,7 @@ weight: 2
 ---
 
 {{% notice tip %}}
-At Scaled Agile DevOps, we believe keeping track of many frequent releases is just too much cognitive load. We need to *"work in small batches."* We've developed the **DevOps Release Convoy&trade; (DORC)** to simplify things. Why try to track dozens or hundreds of releases per week if we can simplify it to one easily managed DORC&trade;?
+At Scaled Agile DevOps, we believe keeping track of many frequent releases is just too much cognitive load. We need to *"[**Work in Small Batches**](/principles/#work-in-small-batches)."* We've developed the DevOps Release Convoy&trade; (DORC) to simplify things. Why try to track 5 or 10 releases per quarter if we can simplify it to one easily managed DORC&trade;?
 {{% /notice %}}
 
 ## Why Convoys?
@@ -22,7 +22,7 @@ Below are the simple ceremonies required to manage changes in the SADMF way!
 
 #### Captain's Mast
 
-In this ceremony, anyone wishing to change the priorities set in Convoy Alignment must file a *[***PCR***](/release-convoy/convoy-manifest/#priority-change-request)* and represent it for approval. This allows the Chief Signals Officer to adjust the *[***Completed vs Committed***](/metrics/#features-completed-vs-committed)* goal to ensure it does not reflect poorly on the Commodore.
+In this ceremony, anyone wishing to change the priorities set in Convoy Alignment must file a *[**PCR**](/release-convoy/convoy-manifest/#priority-change-request)* and represent it for approval. This allows the Chief Signals Officer to adjust the *[**Completed vs Committed**](/metrics/#features-completed-vs-committed)* goal to ensure it does not reflect poorly on the Commodore.
 
 #### Captains' Meeting
 
@@ -30,7 +30,7 @@ Meeting of the Feature Captains to plan the date when the DORC&trade; will be as
 
 ### Press Gang
 
-In the Press Gang step, the Feature Captain will choose between 2 and 20 people from the coding pool to "self-organize" around delivering the next feature. This ensures each [Coder](/organization/#coder) is allowed to work on new and interesting things and that all Coders are fully utilized.
+In the Press Gang step, the Feature Captain will choose between 2 and 20 people from the coding pool to "self-organize" around delivering the next feature. This ensures each *[**Coder**](/organization/#coder)* is allowed to work on new and interesting things and that all Coders are fully utilized.
 
 ### Post-Standup Standup
 
