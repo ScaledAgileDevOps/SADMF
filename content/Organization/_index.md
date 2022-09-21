@@ -8,6 +8,10 @@ weight: 5
 **Commanding the organization requires structure and clearly defined roles!**
 {{% /notice %}}
 
+## Build Engineers
+
+The experts in YAML are responsible for asking the *[**Coders**](/#coder)* how the build should work and then writing the correct YAML to make that happen. Updating commands in YAML takes away from feature delivery and *[**Coders**](/#coder)* should focus on features.
+
 ## Code Standards Enforcement Team
 
 Coders are too close to the problem to effectively review code for their Feature Team. Additionally, reviewing code takes time away from coding. To resolve this, the CSET is formed to perform all code reviews. The CSET is also responsible for defining and enforcing all coding standards for the enterprise. This includes, but is not limited to:
@@ -23,7 +27,7 @@ This role is the backbone of a SAD implementation. The job of the Coder is to tr
 
 ## Development Integrity Assurance Team
 
-This team is made up of senior-level engineers, build engineers, and designers. They are responsible for reviewing every change before allowing it to be included in the *[**DORC**](/release-convoy/)*. They validate the work of *[**Quality Authority**](#quality-authority)*.  
+This team is made up of senior-level *[**Coders**](/#coder)*, *[**Build Engineers**](#build-engineers)*, and Designers. They are responsible for reviewing every change before allowing it to be included in the *[**DORC**](/release-convoy/)*. They validate the work of *[**Quality Authority**](#quality-authority)*.  
 
 ## DevOps Usage & Compliance Head Engineer
 
