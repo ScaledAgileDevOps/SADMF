@@ -22,7 +22,7 @@ Below are the simple ceremonies required to manage changes in the SADMF way!
 
 #### Captain's Mast
 
-In this ceremony, anyone wishing to change the priorities set in Convoy Alignment must file a *[***PCR***](/release-convoy/convoy-manifest/#priority-change-request)* and represent it for approval. This allows the Chief Signals Officer to adjust the *[***Completed vs Committed***](../metrics/#features-completed-vs-committed)* goal to ensure it does not reflect poorly on the Commodore.
+In this ceremony, anyone wishing to change the priorities set in Convoy Alignment must file a *[***PCR***](/release-convoy/convoy-manifest/#priority-change-request)* and represent it for approval. This allows the Chief Signals Officer to adjust the *[***Completed vs Committed***](/metrics/#features-completed-vs-committed)* goal to ensure it does not reflect poorly on the Commodore.
 
 #### Captains' Meeting
 
@@ -30,7 +30,7 @@ Meeting of the Feature Captains to plan the date when the DORC&trade; will be as
 
 ### Press Gang
 
-In the Press Gang step, the Feature Captain will choose between 2 and 20 people from the coding pool to "self-organize" around delivering the next feature. This ensures each [Coder](../organization/#coder) is allowed to work on new and interesting things and that all Coders are fully utilized.
+In the Press Gang step, the Feature Captain will choose between 2 and 20 people from the coding pool to "self-organize" around delivering the next feature. This ensures each [Coder](/organization/#coder) is allowed to work on new and interesting things and that all Coders are fully utilized.
 
 ### Post-Standup Standup
 
@@ -50,7 +50,7 @@ The group of Coders assigned to each feature will implement the requirements the
 
 ### Code Inspection
 
-The *[**CSET**](../organization/#code-standards-enforcement-team)* will review the completed code before it is tested to ensure it is compliant with **CSET** and *[**EARB**](../organization/#enterprise-architecture-review-board)* standards.
+The *[**CSET**](/organization/#code-standards-enforcement-team)* will review the completed code before it is tested to ensure it is compliant with **CSET** and *[**EARB**](/organization/#enterprise-architecture-review-board)* standards.
 
 ### Testing
 
@@ -66,7 +66,7 @@ The convoy coordinates the transportation of the features that were planned. The
 
 ### Tribunal
 
-We must *[**Build Quality In**](../principles/#build-quality-in)* by removing things that cause poor quality. In this monthly ceremony, we identify and remove the person who created each defect.
+We must *[**Build Quality In**](/principles/#build-quality-in)* by removing things that cause poor quality. In this monthly ceremony, we identify and remove the person who created each defect.
 
 ### Dry Dock
 

@@ -6,7 +6,7 @@ weight: 1
 
 ## Scaled Agile DevOps Maturity Framework 2.6
 
-![alt](../images/sad-certified-sm.png)
+![alt](/images/sad-certified-sm.png)
 
 {{% notice tip %}}
 **Enterprise transformation without the risk of culture change!**

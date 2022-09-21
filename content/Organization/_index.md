@@ -20,11 +20,11 @@ If the *Right Way* to do DevOps is not owned and controlled by a single senior m
 
 ### Feature Team
 
-The Feature Team is the group of Coders assembled to build a new feature for the next Convoy. Because we work so diligently to *[**Build Quality In**](../principles/#build-quality-in)* with the *[**Tribunal**](../release-convoy/#tribunal)*, these teams should be able to deliver at maximum throughput as soon as they are formed.
+The Feature Team is the group of Coders assembled to build a new feature for the next Convoy. Because we work so diligently to *[**Build Quality In**](/principles/#build-quality-in)* with the *[**Tribunal**](/release-convoy/#tribunal)*, these teams should be able to deliver at maximum throughput as soon as they are formed.
 
 ### Source Management Team
 
-To improve [Coder](#coder) productivity by reducing the work required for integrating changes, we introduce the Source Management Team. The SMT is responsible for authorizing new *[**feature branches**](../practices/#fractal-based-development)*, creating the branches, and merging the complete branches from each [Coder](#coder) into the Conflict Arbitration branch. They will then resolve all conflicts for the Coders before alerting the [Quality Authority](#quality-authority) that the Convoy is ready for testing.
+To improve [Coder](#coder) productivity by reducing the work required for integrating changes, we introduce the Source Management Team. The SMT is responsible for authorizing new *[**feature branches**](/practices/#fractal-based-development)*, creating the branches, and merging the complete branches from each [Coder](#coder) into the Conflict Arbitration branch. They will then resolve all conflicts for the Coders before alerting the [Quality Authority](#quality-authority) that the Convoy is ready for testing.
 
 ### Code Standards Enforcement Team
 
