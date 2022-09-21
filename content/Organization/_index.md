@@ -47,7 +47,7 @@ To improve *[**Coder**](#coder)* productivity by reducing the work required for 
 
 ## Unit Tester
 
-*[**Coders**](#coder)* should be focusing on writing code. Testing is the job of specialists! The Unit Tester role is dedicated to writing unit tests for coders after the code is delivered to ensure the code works.
+*[**Coders**](#coder)* should be focusing on writing code. Testing is the job of specialists! The Unit Tester role is dedicated to writing unit tests for *[**Coders**](/#coder)* after the code is delivered to ensure the code works.
 
 ---
 
