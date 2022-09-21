@@ -1,30 +1,34 @@
 ---
 title: Principles
 description: We firmly believe...
-weight: 5
+weight: 3
 ---
 
-#### Build Quality In
+{{% notice tip %}}
+**Many important principles must be followed to meet the goals of the framework.**
+{{% /notice %}}
 
-Quality software comes from quality people. Poor quality software must therefore come from poor quality people. To improve the quality of our software, we remove the things that reduce quality.
+## Build Quality In
 
-#### Work in Small Batches
+Quality software comes from quality people. Therefore, Poor quality software must come from poor quality people. To **build quality in**, we remove the things that reduce quality.
 
-Too many releases are hard to report and manage. To reduce the number of updates to the release tracking spreadsheet, we should focus on a small number of releases each quarter. This provides us with more time to *[**Amplify Feedback**](#amplify-feedback)*.
+## Work in Small Batches
 
-#### Amplify Feedback
+Too many releases are hard to report and manage. To reduce the number of updates to the [release tracking](/practices/#release-tracking) spreadsheet, we should focus on a small number of releases each quarter. This provides us with more time to *[**Amplify Feedback**](#amplify-feedback)*.
+
+## Amplify Feedback
 
 Coaching employees is an important daily practice to ensure they know we are tracking their work and care about their output.
 
-#### Everyone is Responsible
+## Everyone is Responsible
 
-Each [Coder](../organization/#coder) is responsible for their own work and should be rewarded for the work they do. If a feature is successfully delivered, we should identify the [Coder](../organization/#coder) who made the most changes and give them a bonus. It would be unfair to reward the whole team based on the excellence of an individual.
+Each [Coder](/organization/#coder) is responsible for their own work and should be rewarded for the work they do. If a feature is successfully delivered, we should identify the [Coder](/organization/#coder) who made the most changes and give them a bonus. It would be unfair to reward the whole team based on the excellence of an individual.
 
-#### Psychological Safety
+## Psychological Safety
 
-We know the *[**Tribunal**](../release-convoy/#tribunal)* can be a stressful time. When we need to remove Coders, we will use "Human Resources as a Service" where individual performance data is used to automatically help Coders find new opportunities outside our company. This allows us to avoid confrontation.
+We know the *[**Tribunal**](/release-convoy/#tribunal)* can be a stressful time. When we need to remove Coders, we will use "Human Resources as a Service" where individual performance data is used to automatically help Coders find new opportunities outside our company. This allows us to avoid confrontation.
 
-#### Systems Thinking
+## Systems Thinking
 
 {{% notice tip %}}
 A system will produce exactly what is designed to produce -- W. Edward Demming

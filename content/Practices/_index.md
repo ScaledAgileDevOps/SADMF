@@ -1,22 +1,26 @@
 ---
 title: Practices
 description: Recommended practices
-weight: 5
+weight: 4
 ---
 
-#### CI/CD/ED
+## CI/CD/ED
 
 Continuous Isolation / Continuous Deliberation / Eventual Delivery is the most effective way to ensure that we have the highest levels of process adherence, real-world manual testing, supporting documentation, executive sponsorship, and perfection for every change!
 
-#### Conflict Arbitration
+## Conflict Arbitration
 
 When the Source Management Team has received all candidate changes for merging, they will merge all changes into the `conflict` branch and referee the conflicts. This ensures only the strongest change survives!
 
-#### Fractal-based Development
+## Fractal-based Development
 
-Below is a **simplified** version of the recommended branching pattern with permanent branches for Testing, Conflict Resolution, and Development. Each feature branch will exist for the duration of feature coding. All feature branches will branch from the clean `develop` branch. When notified, the *[**Source Management Team**](../organization/#source-management-team)* (SMT) will merge into the `conflict` branch for the *[**Conflict Arbitration**](#conflict-arbitration)* process. Once the strongest changes are merged, SMT will notify the *[**Quality Authority**](../organization/#quality-authority)* who will pull the changes into the `test` branch for certification. Once the code has been certified, it is authorized for the next [DORC&trade;](/release-convoy/) to set sail! This is the most effective branching pattern to enable *[**Continuous Isolation**](https://continuousisolation.com/)*.
+Below is a **simplified** version of the recommended branching pattern with permanent branches for Testing, Conflict Resolution, and Development. Each feature branch will exist for the duration of feature coding. All feature branches will branch from the clean `develop` branch. When notified, the *[**Source Management Team**](/organization/#source-management-team)* (SMT) will merge into the `conflict` branch for the *[**Conflict Arbitration**](#conflict-arbitration)* process. Once the strongest changes are merged, SMT will notify the *[**Quality Authority**](/organization/#quality-authority)* who will pull the changes into the `test` branch for certification. Once the code has been certified, it is authorized for the next [DORC&trade;](/release-convoy/) to set sail! This is the most effective branching pattern to enable *[**Continuous Isolation**](https://continuousisolation.com/)*.
 
-![**Fractal-based Development**](../images/fractal-based-development.png)
+![**Fractal-based Development**](/images/fractal-based-development.png)
+
+## Release Tracking
+
+We need the correct information to ensure *[**Everyone is Responsible**](/principles/#everyone-is-responsible)*. To that end, we need to track every release, who approved the release, and who made the changes in the release. This allows us to *[**Build Quality In**](/principles/#build-quality-in)*.
 
 ---
 
