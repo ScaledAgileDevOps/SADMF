@@ -31,11 +31,11 @@ If the *Right Way* to do DevOps is not owned and controlled by a single senior m
 
 ## Enterprise Architecture Review Board
 
-The EARB is responsible for maintaining the Book of Names. This master list defines all acceptable words and word combinations that may be used for naming things during coding. This ensures that Coders will not be confused when they join a new Feature Team for the next Convoy. The EARB will meet every 6 weeks to review and reject any new words submitted for inclusion.
+The EARB is responsible for maintaining the Book of Names. This master list defines all acceptable words and word combinations that may be used for naming things during coding. This ensures that *[**Coders**](/organization/#coder)* will not be confused when they join a new Feature Team for the next Convoy. The EARB will meet every 6 weeks to review and reject any new words submitted for inclusion.
 
 ## Feature Team
 
-The Feature Team is the group of Coders assembled to build a new feature for the next Convoy. Because we work so diligently to *[**Build Quality In**](/principles/#build-quality-in)* with the *[**Tribunal**](/release-convoy/#tribunal)*, these teams should be able to deliver at maximum throughput as soon as they are formed.
+The Feature Team is the group of *[**Coders**](/organization/#coder)* assembled to build a new feature for the next Convoy. Because we work so diligently to *[**Build Quality In**](/principles/#build-quality-in)* with the *[**Tribunal**](/release-convoy/#tribunal)*, these teams should be able to deliver at maximum throughput as soon as they are formed.
 
 ## Quality Authority
 
@@ -43,7 +43,11 @@ Verifying quality is a specialist field that no *[**Coder**](#coder)* is qualifi
 
 ## Source Management Team
 
-To improve *[**Coder**](#coder)* productivity by reducing the work required for integrating changes, we introduce the Source Management Team. The SMT is responsible for authorizing new *[**feature branches**](/practices/#fractal-based-development)*, creating the branches, and merging the complete branches from each *[**Coder**](#coder)* into the Conflict Arbitration branch. They will then resolve all conflicts for the Coders before alerting the *[**Quality Authority**](#quality-authority)* that the Convoy is ready for testing.
+To improve *[**Coder**](#coder)* productivity by reducing the work required for integrating changes, we introduce the Source Management Team. The SMT is responsible for authorizing new *[**feature branches**](/practices/#fractal-based-development)*, creating the branches, and merging the complete branches from each *[**Coder**](#coder)* into the Conflict Arbitration branch. They will then resolve all conflicts for the *[**Coders**](/organization/#coder)* before alerting the *[**Quality Authority**](#quality-authority)* that the Convoy is ready for testing.
+
+## Unit Tester
+
+*[**Coders**](#coder)* should be focusing on writing code. Testing is the job of specialists! The Unit Tester role is dedicated to writing unit tests for coders after the code is delivered to ensure the code works.
 
 ---
 

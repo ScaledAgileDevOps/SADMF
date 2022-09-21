@@ -26,7 +26,7 @@ Each *[**Coder**](/organization/#coder)* is responsible for their own work and s
 
 ## Psychological Safety
 
-We know the *[**Tribunal**](/release-convoy/#tribunal)* can be a stressful time. When we need to remove Coders, we will use "Human Resources as a Service" where individual performance data is used to automatically help Coders find new opportunities outside our company. This allows us to avoid confrontation.
+We know the *[**Tribunal**](/release-convoy/#tribunal)* can be a stressful time. When we need to remove Coders, we will use "Human Resources as a Service" where individual performance data is used to automatically help *[**Coders**](/organization/#coder)* find new opportunities outside our company. This allows us to avoid confrontation.
 
 ## Systems Thinking
 
