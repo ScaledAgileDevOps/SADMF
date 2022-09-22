@@ -4,7 +4,9 @@ description: And rising through the ranks doing it!
 weight: 20
 ---
 
-> And rising through the ranks doing it!
+{{% notice note %}}
+{{< param description >}}
+{{% /notice %}}
 
 **Contributed by:** [Alex Herweyer](https://medium.com/@alexherweyer/the-managers-guide-to-slowly-killing-your-org-31b5768ac1d5), [SAD Accredited Facilitator](/certifications/advanced-certifications/#scaled-agile-dev-ops-accredited-facilitators)
 

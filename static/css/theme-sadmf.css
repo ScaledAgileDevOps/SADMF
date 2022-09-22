@@ -74,8 +74,16 @@ h5 {
     color: var(--MAIN-TITLES-TEXT-color) !important;
 }
 
-a {
-    color: var(--MAIN-LINK-color);
+h2, h3, h4, h5, h6 {
+    font-family: "Work Sans", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    text-rendering: optimizeLegibility;
+    color: #ac1616;
+    font-weight: 400;
+    letter-spacing: -1px;
+}
+
+h2 {
+    font-size: 180%;
 }
 
 .anchor {
@@ -83,8 +91,8 @@ a {
 }
 
 a {
-    font-weight: 400;
-    font-style: italic;
+    color: var(--MAIN-LINK-color);
+    font-weight: bold;
 }
 
 a:hover {
