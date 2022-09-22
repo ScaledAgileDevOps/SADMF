@@ -4,6 +4,10 @@ description: Every journey must begin with meticulous, even pedantic, planning
 weight: 2
 ---
 
+{{% notice note %}}
+{{< param description >}}
+{{% /notice %}}
+
 ## Attendance
 
 All teams should assemble in the Convoy Alignment room for this multi-day celebration of detailed planning. It is important that the alignment happens in person and that everyone travels to a remote location to eliminate distractions from less important things such as family or pets.

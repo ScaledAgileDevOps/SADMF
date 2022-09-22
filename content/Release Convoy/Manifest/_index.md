@@ -1,8 +1,12 @@
 ---
 title: Convoy Manifest
-description: The critical documentation required for every DORC&trade;
+description: The critical documentation required for every DORC
 weight: 5
 ---
+
+{{% notice note %}}
+{{< param description >}}
+{{% /notice %}}
 
 A Convoy doesn't navigate by dead reckoning. We require proper documentation to keep from leaving any Release Captain behind!
 

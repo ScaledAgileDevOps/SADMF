@@ -1,11 +1,11 @@
 ---
 title: Metrics
-description: We can measure our way to improvement!
+description: Management via metrics is the most effective way to cause impact!
 weight: 10
 ---
 
 {{% notice note %}}
-**Management via metrics is the most effective way to cause impact!**
+{{< param description >}}
 {{% /notice %}}
 
 ## Lines of Code per Coder

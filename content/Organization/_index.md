@@ -5,7 +5,7 @@ weight: 5
 ---
 
 {{% notice note %}}
-**Commanding the organization requires structure, clearly defined roles, and strict separation of duties!**
+{{< param description >}}
 {{% /notice %}}
 
 ## Admirals Transformation Office (ATO)

@@ -4,6 +4,10 @@ description: The meetings required to manage changes in the SADMF way!
 weight: 2
 ---
 
+{{% notice note %}}
+{{< param description >}}
+{{% /notice %}}
+
 ## Convoy Alignment
 
 [This is a 5-day meeting](/release-convoy/agenda/) held every 6 weeks for planning the next 8 quarters of features to make sure the critical paths are aligned. See the agenda for details.

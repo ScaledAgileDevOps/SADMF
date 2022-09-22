@@ -1,11 +1,11 @@
 ---
 title: Principles
-description: We must adhere to the correct principles to perform the practices correctly.
+description: We must adhere to the correct principles to correctly perform the practices.
 weight: 2
 ---
 
 {{% notice note %}}
-**The critical principles to follow to achieve our goals!**
+{{< param description >}}
 {{% /notice %}}
 
 ## Build Quality In

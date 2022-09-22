@@ -4,8 +4,8 @@ description: Get your certification today!
 weight: 98
 ---
 
-{{% notice warning %}}
-Get your certification today!
+{{% notice note %}}
+{{< param description >}}
 {{% /notice %}}
 
 ---

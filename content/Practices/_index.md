@@ -1,11 +1,11 @@
 ---
 title: Practices
-description: Only by strict adherence to SAD practices can we achieve the expected outcomes!
+description: Complex systems requires complex practices to reduce the complexity!
 weight: 4
 ---
 
 {{% notice note %}}
-**Delivering complex systems requires complex practices to control the complexity**
+{{< param description >}}
 {{% /notice %}}
 
 ## CI/CD/ED
