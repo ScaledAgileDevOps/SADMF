@@ -18,6 +18,8 @@ When the Source Management Team has received all candidate changes for merging, 
 
 ## DevOps Process Excellence Assessment
 
+This weekly assessment of every person in the organization is designed to report how mature the organization is at applying the framework. This also allows us to rank everyone on a bell curve to better inform the [Tribunal](/release-convoy/#tribunal). The assessment is performed using a self-reported survey plus a test to gauge how much of the material has been memorized.
+
 ## Fractal-based Development
 
 Below is the required branching pattern with permanent branches for Testing, Conflict Resolution, and Development.

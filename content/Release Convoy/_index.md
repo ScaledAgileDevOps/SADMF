@@ -13,7 +13,7 @@ Keeping track of many frequent releases by independent teams is just too much co
 
 ## Why Convoys?
 
-Other frameworks have tried to coordinate things with more linear transportation metaphors. However, they are constrained to a single direction. With DORCs&trade; we have more options. We can turn left or right or even make a U-turn.
+Other frameworks have tried to coordinate things with more linear transportation metaphors. However, they are constrained to a single direction. With DORCs&trade; we have more options. We can turn left or right or even make a U-turn!
 
 {{% children depth="3" description="true" %}}
 
