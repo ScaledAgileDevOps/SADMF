@@ -44,3 +44,4 @@ This is the percentage of the organization that has received a SAD&trade; certif
 
 {{% button href="/certifications" %}}🏅 Get Certified! 🏅{{% /button %}}
 {{% button href="https://www.teepublic.com/t-shirt/25575514-scaled-agile-devops-maturity-framework" %}}💸 Official Swag! 💸{{% /button %}}
+{{% button href="https://www.patreon.com/scaledagiledevops" %}}Invest in SADMF!{{% /button %}}

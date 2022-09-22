@@ -26,3 +26,4 @@ All stakeholders must be included in the vote. Alignment requires unanimity. Let
 
 {{% button href="/certifications" %}}🏅 Get Certified! 🏅{{% /button %}}
 {{% button href="https://www.teepublic.com/t-shirt/25575514-scaled-agile-devops-maturity-framework" %}}💸 Official Swag! 💸{{% /button %}}
+{{% button href="https://www.patreon.com/scaledagiledevops" %}}Invest in SADMF!{{% /button %}}
