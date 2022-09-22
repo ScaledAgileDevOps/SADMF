@@ -25,13 +25,13 @@ Using our exclusive Maturity Framework, you can become a DevOps organization in 
 ### Benefits of the Framework
 
 - No need for investing in training teams beyond a few additional daily ceremonies.
-- A clear, simple, manageable *[**DevOps Release Convoy&trade;**](./release-convoy/)* that customers can be assured used DevOps.
+- A clear, simple, manageable [DevOps Release Convoy&trade;](./release-convoy/) that customers can be assured used DevOps.
 - Fully compatible with sending requirements to external development teams.
 - Easy to plan 1, 2, or even 3 years' worth of detailed deliveries.
 
 ### Getting Started
 
-We suggest using the *[**Certified Really Agile Practitioner**](https://www.youtube.com/watch?v=cwbiSCgiZNA)* training as a method of learning the fundamentals you will need to be [**certified**](/certifications) in SADMF.
+We suggest using the [Certified Really Agile Practitioner](https://www.youtube.com/watch?v=cwbiSCgiZNA) training as a method of learning the fundamentals you will need to be [certified](/certifications) in SADMF.
 
 ### Is This For Real?
 

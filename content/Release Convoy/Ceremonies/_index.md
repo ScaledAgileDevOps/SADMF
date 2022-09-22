@@ -14,7 +14,7 @@ weight: 2
 
 ### Captain's Mast
 
-In this ceremony, anyone wishing to change the priorities set in Convoy Alignment must file a *[**PCR**](/release-convoy/manifest/#priority-change-request)* and represent it for approval. This allows the Chief Signals Officer to adjust the *[**Completed vs Committed**](/metrics/#features-completed-vs-committed)* goal to ensure it does not reflect poorly on the Commodore.
+In this ceremony, anyone wishing to change the priorities set in Convoy Alignment must file a [PCR](/release-convoy/manifest/#priority-change-request) and represent it for approval. This allows the Chief Signals Officer to adjust the [Completed vs Committed](/metrics/#features-completed-vs-committed) goal to ensure it does not reflect poorly on the Commodore.
 
 ### Captains' Meeting
 
@@ -22,7 +22,7 @@ Meeting of the Feature Captains to plan the date when the DORC&trade; will be as
 
 ## Press Gang
 
-In the Press Gang step, the Feature Captain will choose between 2 and 20 people from the coding pool to "self-organize" around delivering the next feature. This ensures each *[**Coder**](/organization/#coder)* is allowed to work on new and interesting things and that all *[**Coders**](/organization/#coder)* are fully utilized.
+In the Press Gang step, the Feature Captain will choose between 2 and 20 people from the coding pool to "self-organize" around delivering the next feature. This ensures each [Coder](/organization/#coder) is allowed to work on new and interesting things and that all [Coders](/organization/#coder) are fully utilized.
 
 ## Post-Standup Standup
 
@@ -38,15 +38,15 @@ To effectively scale communication, we use the Scrum of Scrum of Scrums. First t
 
 ## Coding
 
-The group of *[**Coders**](/organization/#coder)* assigned to each feature will implement the requirements they are given as rapidly as possible using the industry best practice, *[**Continuous Isolation**](https://continuousisolation.com)*. This ensures it can be tested and delivered on the Convoy it is planned for. Once the feature is coded, the *[**Coders**](/organization/#coder)* can return to the coding pool to await their next adventure!
+The group of [Coders](/organization/#coder) assigned to each feature will implement the requirements they are given as rapidly as possible using the industry best practice, [Continuous Isolation](https://continuousisolation.com). This ensures it can be tested and delivered on the Convoy it is planned for. Once the feature is coded, the [Coders](/organization/#coder) can return to the coding pool to await their next adventure!
 
 ## Code Inspection
 
-The *[**CSET**](/organization/#code-standards-enforcement-team)* will review the completed code before it is tested to ensure it is compliant with **CSET** and *[**EARB**](/organization/#enterprise-architecture-review-board)* standards.
+The [CSET](/organization/#code-standards-enforcement-team) will review the completed code before it is tested to ensure it is compliant with **CSET** and [EARB](/organization/#enterprise-architecture-review-board) standards.
 
 ## Testing
 
-To keep the *[**Coders**](/organization/#coder)* productive, we need them to focus only on coding. For unit testing, the Feature Captain will assign the complete feature to the Unit Testing Team to ensure 100% test coverage.
+To keep the [Coders](/organization/#coder) productive, we need them to focus only on coding. For unit testing, the Feature Captain will assign the complete feature to the Unit Testing Team to ensure 100% test coverage.
 
 ## System Integration Testing
 
@@ -58,7 +58,7 @@ The convoy coordinates the transportation of the features that were planned. The
 
 ## Tribunal
 
-We must *[**Build Quality In**](/principles/#build-quality-in)* by removing things that cause poor quality. In this monthly ceremony, we identify and remove the person who created each defect.
+We must [Build Quality In](/principles/#build-quality-in) by removing things that cause poor quality. In this monthly ceremony, we identify and remove the person who created each defect.
 
 ## Dry Dock
 
@@ -66,11 +66,11 @@ It's normal for a little damage to occur when we are moving so quickly. Defects 
 
 ## Rota Fortunae
 
-We know that a static organizational structure limits improvement and also becomes boring for some executives. While many outside the SADMF community may propose Value Stream Mapping to identify constraints, we know that the process is time-consuming and uses too many Post-Its. To resolve these we introduced the Rota Fortunae ceremony where we "spin the wheel", restructure, and then see if we are delivering better. If we fail, then we convene a *[**Tribunal**](#tribunal)* to address it.
+We know that a static organizational structure limits improvement and also becomes boring for some executives. While many outside the SADMF community may propose Value Stream Mapping to identify constraints, we know that the process is time-consuming and uses too many Post-Its. To resolve these we introduced the Rota Fortunae ceremony where we "spin the wheel", restructure, and then see if we are delivering better. If we fail, then we convene a [Tribunal](#tribunal) to address it.
 
 ## Manifest Approval Ceremony
 
-Before any convoy may "leave port", it's critical we make sure that all Scaled Agile DevOps processes have been followed. The *[**Convoy Steering Committee**](/release-convoy/deploy/#convoy-steering-committee-csc)* is convened on the day the fleet sets sail. See [**Deploy the Fleet**](/release-convoy/deploy/) for the detailed process.
+Before any convoy may "leave port", it's critical we make sure that all Scaled Agile DevOps processes have been followed. The [Convoy Steering Committee](/release-convoy/deploy/#convoy-steering-committee-csc) is convened on the day the fleet sets sail. See [Deploy the Fleet](/release-convoy/deploy/) for the detailed process.
 
 ---
 

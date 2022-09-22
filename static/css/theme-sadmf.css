@@ -82,6 +82,11 @@ a {
     color: var(--MAIN-ANCHOR-color);
 }
 
+a {
+    font-weight: 400;
+    font-style: italic;
+}
+
 a:hover {
     color: var(--MAIN-LINK-HOVER-color);
 }
