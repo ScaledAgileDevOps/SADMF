@@ -4,9 +4,13 @@ description: Commanding the organization requires structure, clearly defined rol
 weight: 5
 ---
 
-{{% notice tip %}}
+{{% notice note %}}
 **Commanding the organization requires structure, clearly defined roles, and strict separation of duties!**
 {{% /notice %}}
+
+## Admirals Transformation Office (ATO)
+
+This is the heartbeat of the transformation, it is the command-and-control center to ensure everyone is achieving the goals of SADMF. It is accountable for the 5-8 transformation roadmap, assessments, metrics, certification renewals, and general project management of the transformation. The ATO is led by the Admiral, who commands all direction, innovation, and methodology implemented at scale.
 
 ## Build Engineers
 
@@ -48,6 +52,14 @@ Verifying quality is a specialist field that no *[**Coder**](#coder)* is qualifi
 ## Source Management Team
 
 To improve *[**Coder**](#coder)* productivity by reducing the work required for integrating changes, we introduce the Source Management Team. The SMT is responsible for authorizing new *[**feature branches**](/practices/#fractal-based-development)*, creating the branches, and merging the complete branches from each *[**Coder**](#coder)* into the Conflict Arbitration branch. They will then resolve all conflicts for the *[**Coders**](/organization/#coder)* before alerting the *[**Quality Authority**](#quality-authority)* that the Convoy is ready for testing.
+
+## System of Authority (SOA)
+
+This is the team of teams accountable for implanting SADMF in your organization. The SOA is staffed by contractors and consultants with diverse points of view. These principled practitioners will focus on implementing the orders of the ATO and will focus on updating plans, collecting metrics, assessing, and becoming trusted advisors for the teams so they can report the ground-level truth to leadership during the tribunal.
+
+## System of Service (SOS)
+
+This is the team of teams accountable for achieving deadlines and shipping code. The SOS will look to the chain of command for servant leadership to ensure self-governance and instruct the Feature Teams on their day-to-day work. The SOS is empowered to predictably deliver on time and on budget.
 
 ## Unit Tester
 

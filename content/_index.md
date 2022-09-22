@@ -4,11 +4,11 @@ description: Making enterprises feel better about DevOps transformation since 20
 weight: 1
 ---
 
-## Scaled Agile DevOps Maturity Framework 2.6
+# {{< param title >}}
 
-{{< figure src="/images/sad-certified-sm.png" title="SADMF Badge" width="60%" >}}
+{{< figure src="/images/sad-certified-sm.png" title="Making enterprises feel better about DevOps transformation since 2021" width="60%" >}}
 
-{{% notice tip %}}
+{{% notice note %}}
 **Enterprise transformation without the risk of culture change!**
 {{% /notice %}}
 

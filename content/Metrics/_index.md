@@ -4,13 +4,13 @@ description: We can measure our way to improvement!
 weight: 10
 ---
 
-{{% notice tip %}}
+{{% notice note %}}
 **Management via metrics is the most effective way to cause impact!**
 {{% /notice %}}
 
 ## Lines of Code per Coder
 
- *[**Coders**](/organization/#coder)* must be focused on their feature for the next convoy. The fleet won't wait! We also need to ensure we have balanced metrics to prevent a perverse incentive when we track who created defects. If we only track defects, the *[**Coder**](/organization/#coder)* may try to assume the role of *[**Unit Tester**](/organization/#unit-tester)*. That wastes time. Therefore, we need to measure the lines of code produced by each *[**Coder**](/organization/#coder)* to ensure productivity.
+ *[**Coders**](/organization/#coder)* must be focused on their features for the next convoy. The fleet won't wait! We also need to ensure we have balanced metrics to prevent a perverse incentive when we track who created defects. If we only track defects, the *[**Coder**](/organization/#coder)* may try to assume the role of *[**Unit Tester**](/organization/#unit-tester)*. That wastes time. Therefore, we need to measure the lines of code produced by each *[**Coder**](/organization/#coder)* to ensure productivity.
 
 ## Code Review Comments per Convoy
 

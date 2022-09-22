@@ -4,7 +4,7 @@ description: The only way to ensure delivery alignment!
 weight: 1
 ---
 
-{{% notice tip %}}
+{{% notice note %}}
 Keeping track of many frequent releases by independent teams is just too much cognitive load. We need to *"[**Work in Small Batches**](/principles/#work-in-small-batches)."* The DevOps Release Convoy&trade; (DORC) simplifies things. Why try to track 5 or 10 releases per quarter if we can use one easily managed DORC&trade;?
 {{% /notice %}}
 

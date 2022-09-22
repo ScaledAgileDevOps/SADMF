@@ -4,7 +4,7 @@ description: Only by strict adherence to SAD practices can we achieve the expect
 weight: 4
 ---
 
-{{% notice tip %}}
+{{% notice note %}}
 **Delivering complex systems requires complex practices to control the complexity**
 {{% /notice %}}
 
@@ -14,17 +14,17 @@ Continuous Isolation / Continuous Deliberation / Eventual Delivery is the most e
 
 ## Conflict Arbitration
 
-When the Source Management Team has received all candidate changes for merging, they will merge all changes into the `conflict` branch and referee the conflicts. This ensures only the strongest change survives!
+When the Source Management Team has received all candidate changes for merging, they will merge all changes into the **Conflict** branch and referee the conflicts. This ensures only the strongest change survives!
 
 ## Fractal-based Development
 
-Below is a **simplified** version of the required branching pattern with permanent branches for Testing, Conflict Resolution, and Development. 
+Below is the required branching pattern with permanent branches for Testing, Conflict Resolution, and Development.
 
-- Each feature branch will exist for the duration of feature coding. 
-- All feature branches will branch from the clean `develop` branch. 
-- When notified, the *[**Source Management Team**](/organization/#source-management-team)* (SMT) will merge into the `conflict` branch for the *[**Conflict Arbitration**](#conflict-arbitration)* process. 
-- Once the strongest changes are merged, SMT will notify the *[**Quality Authority**](/organization/#quality-authority)* who will pull the changes into the `test` branch for certification. 
-- Once the code has been certified, it is sent to the *[**Development Integrity Assurance Team**](/organization/#development-integrity-assurance-team)* so they can validate the work of the *[**Quality Authority**](/organization/#quality-authority)*. If it passes, it is authorized for the next *[**DORC&trade;**](/release-convoy/)* to set sail! 
+- Each feature branch will exist for the duration of feature coding.
+- All feature branches will branch from the clean **Develop** branch.
+- When notified, the *[**Source Management Team**](/organization/#source-management-team)* (SMT) will merge into the **Conflict** branch for the *[**Conflict Arbitration**](#conflict-arbitration)* process.
+- Once the strongest changes are merged, SMT will notify the *[**Quality Authority**](/organization/#quality-authority)* who will pull the changes into the **Test** branch for certification.
+- Once the code has been certified, it is sent to the *[**Development Integrity Assurance Team**](/organization/#development-integrity-assurance-team)* so they can validate the work of the *[**Quality Authority**](/organization/#quality-authority)*. If it passes, it is authorized for the next *[**DORC&trade;**](/release-convoy/)* to set sail!
 
 This is the most effective branching pattern to enable *[**Continuous Isolation**](https://continuousisolation.com/)*!
 
