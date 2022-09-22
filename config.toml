@@ -14,14 +14,14 @@ url = "https://github.com/ScaledAgileDevOps/SADMF"
 weight = 10
 
 [[menu.shortcuts]] 
-name = "<i class='fas fa-glass-whiskey'></i> Buy us Bourbon"
+name = "<i class='fas fa-glass-whiskey'></i> Buy us Bourbon <i class='fas fa-glass-whiskey'></i>"
 identifier = "bub"
-url = "https://www.buymeacoffee.com/sadmf"
-weight = 1
+url = "https://www.patreon.com/scaledagiledevops"
+weight = 5
 
 [[menu.shortcuts]] 
 name = "SADMF Swag"
-identifier = "bub"
+identifier = "swag"
 url = "https://www.teepublic.com/t-shirt/25575514-scaled-agile-devops-maturity-framework"
 weight = 1
 
