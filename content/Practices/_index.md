@@ -28,7 +28,8 @@ Below is the required branching pattern with permanent branches for Testing, Con
 
 This is the most effective branching pattern to enable *[**Continuous Isolation**](https://continuousisolation.com/)*!
 
-{{< figure src="/images/fractal-based-development.png" title="Fractal-based Development" width="60%" >}}
+{{< figure src="/images/fractal-based-development-sm.png" title="Fractal-based Development" >}}
+
 
 ## Release Tracking
 
