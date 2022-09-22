@@ -1,6 +1,6 @@
 ---
 title: Convoy Manifest
-description: The critical documentation for every DORC&trade;
+description: The critical documentation required for every DORC&trade;
 weight: 5
 ---
 

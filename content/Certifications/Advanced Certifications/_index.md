@@ -1,5 +1,6 @@
 ---
 title: Advanced Certifications
+description: Moving beyond the basics for truly SAD outcomes!
 weight: 20
 ---
 

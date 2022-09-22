@@ -1,6 +1,6 @@
 ---
 title: Practices
-description: Recommended practices
+description: Only by strict adherence to SAD practices can we achieve the expected outcomes!
 weight: 4
 ---
 

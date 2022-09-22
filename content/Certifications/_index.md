@@ -1,6 +1,7 @@
 ---
 title: SADMF Certifications
-weight: 1
+description: Get your certification today!
+weight: 98
 ---
 
 {{% notice warning %}}
@@ -14,3 +15,5 @@ Get your certification today!
  {{% button href="https://www.buymeacoffee.com/sadmf/e/47598" %}}![SADMF F](/images/sad-fellow-sm.png)<br>Get Certified Fellow{{% /button %}}
 
  {{% button href="https://www.buymeacoffee.com/sadmf/e/47599" %}}![SADMF EE](/images/sadmf-logo-sm.png)<br>Get Certified Enterprise{{% /button %}}
+
+{{% children depth="3" description="true" %}}

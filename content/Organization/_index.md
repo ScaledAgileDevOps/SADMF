@@ -1,11 +1,11 @@
 ---
 title: Organization
-description: Organizing for control
+description: Commanding the organization requires structure, clearly defined roles, and strict separation of duties! 
 weight: 5
 ---
 
 {{% notice tip %}}
-**Commanding the organization requires structure and clearly defined roles!**
+**Commanding the organization requires structure, clearly defined roles, and strict separation of duties!**
 {{% /notice %}}
 
 ## Build Engineers

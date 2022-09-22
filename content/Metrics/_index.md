@@ -1,7 +1,7 @@
 ---
 title: Metrics
-description: Measure your way to improvement!
-weight: 5
+description: We can measure our way to improvement!
+weight: 10
 ---
 
 {{% notice tip %}}

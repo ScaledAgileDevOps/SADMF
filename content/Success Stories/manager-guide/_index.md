@@ -1,5 +1,6 @@
 ---
 title: The Manager's Guide to Org Improvement
+description: And rising through the ranks doing it!
 weight: 20
 ---
 

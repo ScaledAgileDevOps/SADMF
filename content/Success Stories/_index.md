@@ -1,11 +1,11 @@
 ---
 title: SAD AF Success Stories!
 chapter: true
-weight: 20
+description: Triumphant stories of applying Scaled Agile DevOps by Accredited Facilitators!
+weight: 99
 ---
 
-- [The Manager's Guide to Org Improvement](manager-guide)
-  - Alex Herweyer, [SAD Accredited Facilitator](/certifications/advanced-certifications/#scaled-agile-dev-ops-accredited-facilitators)
+{{% children depth="3" description="true" %}}
 
 ---
 

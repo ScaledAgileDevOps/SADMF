@@ -1,7 +1,7 @@
 ---
 title: Principles
-description: We firmly believe...
-weight: 3
+description: We must adhere to the correct principles to perform the practices correctly.
+weight: 2
 ---
 
 {{% notice tip %}}

@@ -1,6 +1,6 @@
 ---
 title: Convoy Alignment Agenda
-description: Every journey begins with meticulous, even pedantic, planning
+description: Every journey must begin with meticulous, even pedantic, planning
 weight: 2
 ---
 
