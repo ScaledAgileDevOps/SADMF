@@ -92,7 +92,7 @@ h2 {
 
 a {
     color: var(--MAIN-LINK-color);
-    font-weight: bold;
+    font-weight: 400;
 }
 
 a:hover {
@@ -189,14 +189,7 @@ div.notices p {
 }
 
 div.notices p:first-child:before {
-    position: absolute;
-    top: 2px;
-    color: #fff;
-    font-family: "Font Awesome 5 Free";
-    /* font-weight: 900; */
-    font-weight: 1;
-    content: "\f06a";
-    left: 10px;
+    content: "";
 }
 
 div.notices p:first-child:after {
