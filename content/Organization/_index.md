@@ -33,6 +33,10 @@ Code Engineers are too close to the problem to effectively review the code they 
 
 This role is the backbone of a SAD implementation. The job of the Code Engineer is to transform requirements into machine executable instructions quickly and quietly. Code Engineer expertise can be judged by the number of questions. Since a Code Engineer is expected to be an expert at data structures and algorithms, fewer questions indicate more expertise.
 
+## Commodore (C)
+
+The Commodore is responsible for collecting status reports for the Convoy and ensuring all steps in the Framework are performed correctly before [Deploying the Fleet](/release-convoy/deploy/).
+
 ## Development Integrity Assurance Team (DIAT)
 
 This team is made up of senior-level [Code Engineers](#code-engineer-ce), [Build Engineers](#build-engineers-be), and Designers. They are responsible for reviewing every change before allowing it to be included in the [DORC](/release-convoy/). They validate the work of the [Quality Authority](#quality-authority-qa).  
