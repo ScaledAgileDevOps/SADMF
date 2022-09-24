@@ -26,7 +26,7 @@ url = "https://www.patreon.com/scaledagiledevops"
 weight = 5
 
 [[menu.shortcuts]] 
-name = "<i class='fa fa-tshirt'></i> SADMF Swag"
+name = "<i class='fa fa-tshirt'></i> Merch"
 identifier = "swag"
 url = "https://www.teepublic.com/t-shirt/25575514-scaled-agile-devops-maturity-framework"
 weight = 2
