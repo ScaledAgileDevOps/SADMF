@@ -14,7 +14,7 @@ weight: 10
 
 ## Code Review Comments per Convoy
 
-Code review is important to make sure code is formatted correctly. We measure the number of review comments to make sure each [Code Engineer](/organization/#code-engineer-ce) is being critical enough of the work of others.
+Code review is important to ensure code is formatted correctly. We measure the number of review comments to verify each [Code Engineer](/organization/#code-engineer-ce) is being critical enough of the work of others.
 
 ## Tasks per Code Engineer
 

@@ -10,7 +10,7 @@ weight: 2
 
 ## Convoy Alignment
 
-[This is a 5-day meeting](/release-convoy/agenda/) held every 6 weeks for planning the next 8 quarters of features to make sure the critical paths are aligned. See the agenda for details.
+[This is a 5-day meeting](/release-convoy/agenda/) held every 6 weeks for planning the next 8 quarters of features to ensure the critical paths are aligned. See the agenda for details.
 
 ### Captain's Mast
 
@@ -70,7 +70,7 @@ We know that a static organizational structure limits improvement and also becom
 
 ## Manifest Approval Ceremony
 
-Before any convoy may "leave port", it's critical we make sure that all Scaled Agile DevOps processes have been followed. The [Convoy Steering Committee](/release-convoy/deploy/#convoy-steering-committee-csc) is convened on the day the fleet sets sail. See [Deploy the Fleet](/release-convoy/deploy/) for the detailed process.
+Before any convoy may "leave port", it's critical we ensure that all Scaled Agile DevOps processes have been followed. The [Convoy Steering Committee](/release-convoy/deploy/#convoy-steering-committee-csc) is convened on the day the fleet sets sail. See [Deploy the Fleet](/release-convoy/deploy/) for the detailed process.
 
 ---
 
