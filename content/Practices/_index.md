@@ -10,27 +10,25 @@ weight: 4
 
 ## CI/CD/ED
 
-Continuous Isolation / Continuous Deliberation / Eventual Delivery is the most effective way to ensure that we have the highest levels of process adherence, real-world manual testing, supporting documentation, executive sponsorship, and perfection for every change!
+[Continuous Isolation](https://continuousisolation.com/) / Continuous Deliberation / Eventual Delivery is the most effective way to ensure that we have the highest levels of process adherence, real-world manual testing, supporting documentation, executive sponsorship, and perfection for every change!
 
 ## Conflict Arbitration
 
-When the [Source Management Team](/organization/#source-management-team) has received all candidate changes for merging, they will merge all changes into the **Conflict** branch and referee the conflicts. This ensures only the strongest change survives!
+When the [Source Management Team](/organization/#source-management-team) has received all candidate changes, they merge all changes into the **Conflict** branch and referee the conflicts. This ensures only the strongest change survives!
 
 ## DevOps Process Excellence Assessment
 
-This weekly assessment of every person in the organization is designed to report how mature the organization is at applying the framework. This also allows us to rank everyone on a bell curve to better inform the [Tribunal](/release-convoy/#tribunal). The assessment is performed using a self-reported survey plus a test to gauge how much of the material has been memorized.
+This weekly assessment of every person in the organization is designed to report how mature the organization is at applying the framework. This facilitates ranking everyone on a bell curve to better inform the [Tribunal](/release-convoy/#tribunal). The assessment is performed using a self-reported survey plus a test to gauge how much of the material has been memorized.
 
 ## Fractal-based Development
 
-Below is the required branching pattern with permanent branches for Testing, Conflict Resolution, and Development.
+This branching pattern is required to meet the goals of the framework. Great insights into effective delivery can be gained from studying the structure.
 
-- Each feature branch will exist for the duration of feature coding.
 - All feature branches will branch from the clean **Develop** branch.
-- When notified, the [Source Management Team](/organization/#source-management-team) (SMT) will merge into the **Conflict** branch for the [Conflict Arbitration](#conflict-arbitration) process.
-- Once the strongest changes are merged, SMT will notify the [Quality Authority](/organization/#quality-authority) who will pull the changes into the **Test** branch for certification.
+- Each feature branch must be [isolated](https://continuousisolation.com/) from other changes until the feature is complete.
+- When notified, the [Source Management Team](/organization/#source-management-team) (SMT) will merge into the **Conflict** branch for [Conflict Arbitration](#conflict-arbitration).
+- Once the strongest changes are accepted, SMT will notify the [Quality Authority](/organization/#quality-authority) who will pull the changes into the **Test** branch for certification.
 - Once the code has been certified, it is sent to the [Development Integrity Assurance Team](/organization/#development-integrity-assurance-team) so they can validate the work of the [Quality Authority](/organization/#quality-authority). If it passes, it is authorized for the next [DORC&trade;](/release-convoy/) to set sail!
-
-This is the most effective branching pattern to enable [Continuous Isolation](https://continuousisolation.com/)!
 
 {{< figure src="/images/fractal-based-development-sm.png" title="Fractal-based Development" >}}
 
