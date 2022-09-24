@@ -14,7 +14,7 @@ Continuous Isolation / Continuous Deliberation / Eventual Delivery is the most e
 
 ## Conflict Arbitration
 
-When the Source Management Team has received all candidate changes for merging, they will merge all changes into the **Conflict** branch and referee the conflicts. This ensures only the strongest change survives!
+When the [Source Management Team](/organization/#source-management-team) has received all candidate changes for merging, they will merge all changes into the **Conflict** branch and referee the conflicts. This ensures only the strongest change survives!
 
 ## DevOps Process Excellence Assessment
 
