@@ -26,7 +26,7 @@ Each [Code Engineer](/organization/#code-engineer-ce) is responsible for their o
 
 ## Psychological Safety
 
-We know the [Tribunal](/release-convoy/#tribunal) can be a stressful time. When we need to remove Code Engineers, we will use "Human Resources as a Service" where individual performance data is used to automatically help [Code Engineers](/organization/#code-engineer-ce) find new opportunities outside our company. This allows us to avoid confrontation.
+When we need to help resources have the opportunity to find positions with other organizations we will use HRaaS (Human Resources as a Service) where individual performance data and automation are used to provide them that opportunity. This allows us to avoid stress.
 
 ## Systems Thinking
 
