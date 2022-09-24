@@ -34,7 +34,6 @@ This is the most effective branching pattern to enable [Continuous Isolation](ht
 
 {{< figure src="/images/fractal-based-development-sm.png" title="Fractal-based Development" >}}
 
-
 ## Release Tracking
 
 We need the correct information to ensure [Everyone is Responsible](/principles/#everyone-is-responsible). To that end, we need to track every release, who approved the release, and who made the changes in the release. This allows us to [Build Quality In](/principles/#build-quality-in).
