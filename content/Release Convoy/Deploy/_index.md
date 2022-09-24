@@ -30,9 +30,9 @@ The Committee is made up of senior leaders and architects across all engineering
 
 ## Approval Process
 
-All requests must be peer-reviewed and approved in duplicate and also approved by the Convoy Commodore at least 3 days before being presented to the CSC. Each [Feature Captain](/organization/#feature-captain-fc) will also present a PowerPoint presentation detailing the effort required to build the feature to ensure that the importance of the feature is understood.
+All requests must be peer-reviewed and approved in duplicate and also approved by the Convoy [Commodore](/organization/#commodore-c) at least 3 days before being presented to the CSC. Each [Feature Captain](/organization/#feature-captain-fc) will also present a PowerPoint presentation detailing the effort required to build the feature to ensure that the importance of the feature is understood.
 
-The CSC will meet each workday to review high-risk, or Commodore escalated changes to the production environment.  Requests will be approved, sent back for more information, or rejected.
+The CSC will meet each workday to review high-risk, or [Commodore](/organization/#commodore-c) escalated changes to the production environment.  Requests will be approved, sent back for more information, or rejected.
 
 After the CSC approves the Convoy's release there will be much rejoicing!
 
