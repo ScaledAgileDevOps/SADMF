@@ -16,6 +16,10 @@ This is the heartbeat of the transformation, it is the command-and-control cente
 
 These YAML experts are responsible for dictating to the [Code Engineers](#code-engineer-ce) how the build should work and writing the YAML to make that happen. Updating commands in YAML takes away from feature delivery and [Code Engineers](#code-engineer-ce) should focus on features.
 
+## Chief Signals Officer (CSO)
+
+This senior executive is responsible for tracking and reporting our adherence to the plan.
+
 ## Code Standards Enforcement Team (CSET)
 
 Code Engineers are too close to the problem to effectively review the code they write. Additionally, reviewing code takes time away from coding. To resolve this, the CSET will perform all code reviews. The CSET is also responsible for defining and enforcing all coding standards for the enterprise. This includes, but is not limited to:
@@ -40,6 +44,10 @@ If the *Right Way* to do DevOps is not owned and controlled by a single senior m
 ## Enterprise Architecture Review Board (EARB)
 
 The EARB is responsible for maintaining the Book of Names. This master list defines all acceptable words and word combinations that may be used for naming things during coding. This ensures that [Code Engineers](/organization/#code-engineer-ce) will not be confused when they join a new Feature Team for the next Convoy. The EARB will meet every 6 weeks to review and reject any new words submitted for inclusion.
+
+## Feature Captain (FC)
+
+The mid-level manager who is responsible for tracking the progress of the feature they are assigned to.
 
 ## Feature Team (FT)
 

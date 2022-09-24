@@ -15,13 +15,13 @@ A Convoy doesn't navigate by dead reckoning. We require proper documentation to 
 A Priority Change Request must be created and approved during the [Captain's Mast](/release-convoy/#captains-mast) before changing the priority of any feature. This request must contain the following critical information:
 
 * Feature name
-* Feature Captain's name
+* [Feature Captain's](/organization/#feature-captain-fc) name
 * Priority ID
 * New proposed Priority ID
 * [Feature Team](/organization/#feature-team-ft) size
 * [CSET](/organization/#code-standards-enforcement-team-cset) approvals
 * [EARB](/organization/#enterprise-architecture-review-board-earb) approvals
-* Approvals from all Feature Captains in the Convoy
+* Approvals from all [Feature Captains](/organization/#feature-captain-fc) in the Convoy
 * Commodore's approval
 
 ---

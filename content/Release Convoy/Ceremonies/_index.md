@@ -14,15 +14,15 @@ weight: 2
 
 ### Captain's Mast
 
-In this ceremony, anyone wishing to change the priorities set in Convoy Alignment must file a [PCR](/release-convoy/manifest/#priority-change-request) and represent it for approval. This allows the Chief Signals Officer to adjust the [Completed vs Committed](/metrics/#features-completed-vs-committed) goal to ensure it does not reflect poorly on the Commodore.
+In this ceremony, anyone wishing to change the priorities set in Convoy Alignment must file a [PCR](/release-convoy/manifest/#priority-change-request) and represent it for approval. This allows the [Chief Signals Officer](/organization/#chief-signals-officer-cso) to adjust the [Completed vs Committed](/metrics/#features-completed-vs-committed) goal to ensure it does not reflect poorly on the Commodore.
 
 ### Captains' Meeting
 
-Meeting of the Feature Captains to plan the date when the DORC&trade; will be assembled.
+Meeting of the [Feature Captains](/organization/#feature-captain-fc) to plan the date when the DORC&trade; will be assembled.
 
 ## Press Gang
 
-In the Press Gang step, the Feature Captain will choose between 2 and 20 people from the coding pool to "self-organize" around delivering the next feature. This ensures each [Code Engineer](/organization/#code-engineer-ce) is allowed to work on new and interesting things and that all [Code Engineers](/organization/#code-engineer-ce) are fully utilized.
+In the Press Gang step, the [Feature Captain](/organization/#feature-captain-fc) will choose between 2 and 20 people from the coding pool to "self-organize" around delivering the next feature. This ensures each [Code Engineer](/organization/#code-engineer-ce) is allowed to work on new and interesting things and that all [Code Engineers](/organization/#code-engineer-ce) are fully utilized.
 
 ## Post-Standup Standup
 
@@ -30,7 +30,7 @@ We understand that only the most important status updates are given in Standup a
 
 ## Post Standup Standup Review
 
-To ensure no information is lost through insufficient documentation, each Feature Captain will also submit a daily report using the SAD Update form and email it to the Commodore who will consolidate it and file it.
+To ensure no information is lost through insufficient documentation, each [Feature Captain](/organization/#feature-captain-fc) will also submit a daily report using the SAD Update form and email it to the Commodore who will consolidate it and file it.
 
 ## Scrum of Scrum of Scrums
 
@@ -46,7 +46,7 @@ The [CSET](/organization/#code-standards-enforcement-team-cset) will review the 
 
 ## Testing
 
-To keep the [Code Engineers](/organization/#code-engineer-ce) productive, we need them to focus only on coding. For unit testing, the Feature Captain will assign the complete feature to the Unit Testing Team to ensure 100% test coverage.
+To keep the [Code Engineers](/organization/#code-engineer-ce) productive, we need them to focus only on coding. For unit testing, the [Feature Captain](/organization/#feature-captain-fc) will assign the complete feature to the Unit Testing Team to ensure 100% test coverage.
 
 ## System Integration Testing
 
