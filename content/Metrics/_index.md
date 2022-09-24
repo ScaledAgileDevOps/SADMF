@@ -8,25 +8,25 @@ weight: 10
 {{< param description >}}
 {{% /notice %}}
 
-## Lines of Code per Coder
+## Lines of Code per Code Engineer
 
- [Coders](/organization/#coder) must be focused on their features for the next convoy. The fleet won't wait! We also need to ensure we have balanced metrics to prevent a perverse incentive when we track who created defects. If we only track defects, the [Coder](/organization/#coder) may try to assume the role of [Unit Tester](/organization/#unit-tester). That wastes time. Therefore, we need to measure the lines of code produced by each [Coder](/organization/#coder) to ensure productivity.
+ [Code Engineers](/organization/#code-engineer-ce) must be focused on their features for the next convoy. The fleet won't wait! We also need to ensure we have balanced metrics to prevent a perverse incentive when we track who created defects. If we only track defects, the [Code Engineer](/organization/#code-engineer-ce) may try to assume the role of [Unit Tester](/organization/#unit-tester-ut). That wastes time. Therefore, we need to measure the lines of code produced by each [Code Engineer](/organization/#code-engineer-ce) to ensure productivity.
 
 ## Code Review Comments per Convoy
 
-Code review is important to make sure code is formatted correctly. We measure the number of review comments to make sure each [Coder](/organization/#coder) is being critical enough of the work of others.
+Code review is important to make sure code is formatted correctly. We measure the number of review comments to make sure each [Code Engineer](/organization/#code-engineer-ce) is being critical enough of the work of others.
 
-## Tasks per Coder
+## Tasks per Code Engineer
 
-For each [Coder](/organization/#coder), the number of tasks they complete during Convoy. By tracking the number of features each [Coder](/organization/#coder) completes, more can be shipped in each Convoy. Volume is important. Let's turn it up to 11!
+For each [Code Engineer](/organization/#code-engineer-ce), the number of tasks they complete during Convoy. By tracking the number of features each [Code Engineer](/organization/#code-engineer-ce) completes, more can be shipped in each Convoy. Volume is important. Let's turn it up to 11!
 
-## Defects per Coder
+## Defects per Code Engineer
 
-For each [Coder](/organization/#coder), we should track the number of defects they create and use this information to inform the [Tribunal](/release-convoy/#tribunal). We must [Build Quality In](/principles/#build-quality-in) by eliminating the source of defects.
+For each [Code Engineer](/organization/#code-engineer-ce), we should track the number of defects they create and use this information to inform the [Tribunal](/release-convoy/#tribunal). We must [Build Quality In](/principles/#build-quality-in) by eliminating the source of defects.
 
 ## Defects per Unit Tester
 
-For each Tester, we should track the number of defects they detect and use this information to inform the [Tribunal](/release-convoy/#tribunal). We must [Build Quality In](/principles/#build-quality-in) by eliminating [Unit Testers](/organization/#unit-tester) who cannot find defects.
+For each Tester, we should track the number of defects they detect and use this information to inform the [Tribunal](/release-convoy/#tribunal). We must [Build Quality In](/principles/#build-quality-in) by eliminating [Unit Testers](/organization/#unit-tester-ut) who cannot find defects.
 
 ## SADMF Maturity Score
 

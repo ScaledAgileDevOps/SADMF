@@ -18,9 +18,9 @@ A Priority Change Request must be created and approved during the [Captain's Mas
 * Feature Captain's name
 * Priority ID
 * New proposed Priority ID
-* [Feature Team](/organization/#feature-team) size
-* [CSET](/organization/#code-standards-enforcement-team) approvals
-* [EARB](/organization/#enterprise-architecture-review-board) approvals
+* [Feature Team](/organization/#feature-team-ft) size
+* [CSET](/organization/#code-standards-enforcement-team-cset) approvals
+* [EARB](/organization/#enterprise-architecture-review-board-earb) approvals
 * Approvals from all Feature Captains in the Convoy
 * Commodore's approval
 
