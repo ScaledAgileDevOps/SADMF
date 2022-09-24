@@ -37,6 +37,10 @@ This role is the backbone of a SAD implementation. The job of the Code Engineer 
 
 The Commodore is responsible for collecting status reports for the Convoy and ensuring all steps in the Framework are performed correctly before [Deploying the Fleet](/release-convoy/deploy/).
 
+## Deck Gang (DG)
+
+The Deck Gang is the group of [Code Engineers](/organization/#code-engineer-ce) assembled to build a new feature for the next Convoy. Because we work so diligently to [Build Quality In](/principles/#build-quality-in) with the [Tribunal](/release-convoy/#tribunal), these teams should be able to deliver at maximum throughput as soon as they are formed.
+
 ## Development Integrity Assurance Team (DIAT)
 
 This team is made up of senior-level [Code Engineers](#code-engineer-ce), [Build Engineers](#build-engineers-be), and Designers. They are responsible for reviewing every change before allowing it to be included in the [DORC](/release-convoy/). They validate the work of the [Quality Authority](#quality-authority-qa).  
@@ -53,10 +57,6 @@ The EARB is responsible for maintaining the Book of Names. This master list defi
 
 The mid-level manager who is responsible for tracking the progress of the feature they are assigned to.
 
-## Feature Team (FT)
-
-The Feature Team is the group of [Code Engineers](/organization/#code-engineer-ce) assembled to build a new feature for the next Convoy. Because we work so diligently to [Build Quality In](/principles/#build-quality-in) with the [Tribunal](/release-convoy/#tribunal), these teams should be able to deliver at maximum throughput as soon as they are formed.
-
 ## Quality Authority (QA)
 
 Verifying quality is a specialist field that no [Code Engineer](#code-engineer-ce) is qualified to perform. In addition, performing testing impedes the ability of the [Code Engineer](#code-engineer-ce) to do their only job, type code. The Quality Authority team is the final arbiter of what the requirements mean and will create, maintain, and manually execute test scripts based on their understanding of the requirements. The end-user uses the system manually, so that is the only TRUE way to test it!
@@ -71,7 +71,7 @@ This is the team of teams accountable for implanting SADMF in your organization.
 
 ## System of Service (SOS)
 
-This is the team of teams accountable for achieving deadlines and shipping code. The SOS will look to the chain of command for servant leadership to ensure self-governance and instruct the Feature Teams on their day-to-day work. The SOS is empowered to predictably deliver on time and on budget.
+This is the team of teams accountable for achieving deadlines and shipping code. The SOS will look to the chain of command for servant leadership to ensure self-governance and instruct the Deck Gangs on their day-to-day work. The SOS is empowered to predictably deliver on time and on budget.
 
 ## Unit Tester (UT)
 
