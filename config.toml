@@ -20,7 +20,7 @@ url = "https://www.linkedin.com/company/scaled-agile-devops"
 weight = 1
 
 [[menu.shortcuts]] 
-name = "<i class='fas fa-glass-whiskey'></i> Buy us Bourbon"
+name = "<i class='fas fa-glass-whiskey'></i> Investment Opportunities"
 identifier = "bub"
 url = "https://www.patreon.com/scaledagiledevops"
 weight = 5
