@@ -22,7 +22,7 @@ The group of [Code Engineers](/organization/#code-engineer-ce) assigned to each 
 
 ## Code Inspection
 
-The [CSET](/organization/#code-standards-enforcement-team-cset) will review the completed code before it is tested to ensure it is compliant with **CSET** and [EARB](/organization/#enterprise-architecture-review-board-earb) standards.
+The [CSET](/organization/#code-standards-enforcement-team-cset) will review the completed code before it is tested to ensure it is compliant with [CSET](/organization/#code-standards-enforcement-team-cset) and [EARB](/organization/#enterprise-architecture-review-board-earb) standards.
 
 ## Convoy Alignment
 
