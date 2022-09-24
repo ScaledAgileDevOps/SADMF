@@ -10,7 +10,7 @@ weight: 20
 
 ### DevOps Engineers Proving Real Experience Solving SAD Engineering Dilemmas
 
-This certification is reserved for [Deck Gangs](/organization/#deck-gang-dg) who have demonstrated the ability to not only talk the talk but also walk the walk. Preparing for this requires the [Deck Gang](/organization/#deck-gang-dg) to reserve a sprint to study for the certification. The certification requires renewal every 8 weeks lest the team lose the ability to be a truly [DEPRESSED](#devops-engineers-proving-real-experience-solving-sad-engineering-dilemmas) [Deck Gang](/organization/#deck-gang-dg)
+This certification is reserved for [Feature Teams](/organization/#feature-team-ft) who have demonstrated the ability to not only talk the talk but also walk the walk. Preparing for this requires the [Feature Team](/organization/#feature-team-ft) to reserve a sprint to study for the certification. The certification requires renewal every 8 weeks lest the team lose the ability to be a truly [DEPRESSED](#devops-engineers-proving-real-experience-solving-sad-engineering-dilemmas) [Feature Team](/organization/#feature-team-ft)
 
 ### Scaled Agile Dev Ops Accredited Facilitators
 
