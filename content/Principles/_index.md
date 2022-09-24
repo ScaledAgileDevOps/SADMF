@@ -26,7 +26,7 @@ Each [Code Engineer](/organization/#code-engineer-ce) is responsible for their o
 
 ## Psychological Safety
 
-When we need to help resources have the opportunity to find positions with other organizations we will use HRaaS (Human Resources as a Service) where individual performance data and automation are used to provide them that opportunity. This allows us to avoid stress.
+When we need to help resources have the opportunity to find positions with other organizations, we will use HRaaS (Human Resources as a Service). This uses individual performance data and automation to provide them with that opportunity. This allows us to avoid stress.
 
 ## Systems Thinking
 
