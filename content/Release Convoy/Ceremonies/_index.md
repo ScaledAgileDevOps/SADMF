@@ -46,7 +46,7 @@ To ensure no information is lost through insufficient documentation, each [Featu
 
 ## Press Gang
 
-In the Press Gang ceremony, each [Feature Captain](/organization/#feature-captain-fc) will choose between 2 and 20 people from the coding pool to **self-organize** around delivering the next feature. This ensures each [Code Engineer](/organization/#code-engineer-ce) is allowed to work on new and interesting things and that all [Code Engineers](/organization/#code-engineer-ce) are fully utilized.
+In the Press Gang ceremony, each [Feature Captain](/organization/#feature-captain-fc) will choose between 2 and 20 people from the coding pool to deliver the next feature. This ensures each [Code Engineer](/organization/#code-engineer-ce) is allowed to work on new and interesting things and that all [Code Engineers](/organization/#code-engineer-ce) are fully utilized.
 
 ## Scrum of Scrum of Scrums
 
