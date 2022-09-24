@@ -46,7 +46,7 @@ To ensure no information is lost through insufficient documentation, each [Featu
 
 ## Press Gang
 
-In the Press Gang ceremony, each [Feature Captain](/organization/#feature-captain-fc) chooses between 2 and 20 [Code Engineers](/organization/#code-engineer-ce) from the coding pool to deliver the next feature. This ensures each [Code Engineer](/organization/#code-engineer-ce) is allowed to work on new and interesting things and that all are fully utilized.
+In the Press Gang ceremony, each [Feature Captain](/organization/#feature-captain-fc) chooses 2 to 20 [Code Engineers](/organization/#code-engineer-ce) from the coding pool to deliver the next feature. This ensures each [Code Engineer](/organization/#code-engineer-ce) is allowed to work on new and interesting things and that all are fully utilized.
 
 ## Scrum of Scrum of Scrums
 
