@@ -4,36 +4,34 @@ title = 'Enterprise transformation without the risk of culture change!'
 theme = "hugo-theme-learn"
 googleAnalytics = "G-BT3HZK3PLP"
 
+[markup.goldmark.renderer]
+unsafe= false
+
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
 
 [[menu.shortcuts]] 
 name = "<i class='fab fa-twitter'></i> Follow on Twitter!"
-identifier = "twitter"
 url = "https://twitter.com/SADMF_Certs"
 weight = 1
 
 [[menu.shortcuts]] 
 name = "<i class='fab fa-linkedin'></i> Linkedin"
-identifier = "linkedin"
 url = "https://www.linkedin.com/company/scaled-agile-devops"
 weight = 1
 
 [[menu.shortcuts]] 
 name = "<i class='fas fa-glass-whiskey'></i> Investment Opportunities"
-identifier = "bub"
 url = "https://www.patreon.com/scaledagiledevops"
 weight = 5
 
 [[menu.shortcuts]] 
 name = "<i class='fa fa-tshirt'></i> Merch"
-identifier = "swag"
 url = "https://www.teepublic.com/t-shirt/25575514-scaled-agile-devops-maturity-framework"
 weight = 2
 
 [[menu.shortcuts]] 
 name = "<i class='fab fa-github'></i> SADBOK"
-identifier = "ds"
 url = "https://github.com/ScaledAgileDevOps/SADMF"
 weight = 10
 
