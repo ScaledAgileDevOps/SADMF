@@ -21,16 +21,6 @@ url = "https://www.linkedin.com/company/scaled-agile-devops"
 weight = 1
 
 [[menu.shortcuts]] 
-name = "<i class='fas fa-glass-whiskey'></i> Investment Opportunities"
-url = "https://www.patreon.com/scaledagiledevops"
-weight = 5
-
-[[menu.shortcuts]] 
-name = "<i class='fa fa-tshirt'></i> Merch"
-url = "https://www.teepublic.com/t-shirt/25575514-scaled-agile-devops-maturity-framework"
-weight = 2
-
-[[menu.shortcuts]] 
 name = "<i class='fab fa-github'></i> SADBOK"
 url = "https://github.com/ScaledAgileDevOps/SADMF"
 weight = 10
@@ -70,4 +60,4 @@ weight = 10
   # Change default color scheme with a variant one. Can be "red", "blue", "green".
   themeVariant = "sadmf"
   # Provide a list of custom css files to load relative from the `static/` folder in the site root.
-  custom_css = ["css/foo.css", "css/bar.css"]
+  custom_css = ["css/sidebar.css","css/fontawesome6.min.css"]
