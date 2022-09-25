@@ -1,5 +1,5 @@
 ---
-title: Organization
+title: Roles
 description: Commanding the organization requires structure, clearly defined roles, and strict separation of duties! 
 weight: 5
 ---
@@ -49,7 +49,7 @@ If the *Right Way* to do DevOps is not owned and controlled by a single senior m
 
 ## Enterprise Architecture Review Board (EARB)
 
-The EARB is responsible for maintaining the Book of Names. This master list defines all acceptable words and word combinations that may be used for naming things during coding. This ensures that [Code Engineers](/organization/#code-engineer-ce) will not be confused when they join a new Feature Team for the next Convoy. The EARB will meet every 6 weeks to review and reject any new words submitted for inclusion.
+The EARB is responsible for maintaining the Book of Names. This master list defines all acceptable words and word combinations that may be used for naming things during coding. This ensures that [Code Engineers](/roles/#code-engineer-ce) will not be confused when they join a new Feature Team for the next Convoy. The EARB will meet every 6 weeks to review and reject any new words submitted for inclusion.
 
 ## Feature Captain (FC)
 
@@ -57,7 +57,7 @@ The mid-level manager who is responsible for tracking the progress of the featur
 
 ## Feature Team (FT)
 
-The Feature Team is the group of [Code Engineers](/organization/#code-engineer-ce) assembled to build a new feature for the next Convoy. Because we work so diligently to [Build Quality In](/principles/#build-quality-in) with the [Tribunal](/release-convoy/#tribunal), these teams should be able to deliver at maximum throughput as soon as they are formed.
+The Feature Team is the group of [Code Engineers](/roles/#code-engineer-ce) assembled to build a new feature for the next Convoy. Because we work so diligently to [Build Quality In](/principles/#build-quality-in) with the [Tribunal](/release-convoy/#tribunal), these teams should be able to deliver at maximum throughput as soon as they are formed.
 
 ## Quality Authority (QA)
 
@@ -65,7 +65,7 @@ Verifying quality is a specialist field that no [Code Engineer](#code-engineer-c
 
 ## Source Management Team (SMT)
 
-To improve [Code Engineer](#code-engineer-ce) productivity by reducing the work required for integrating changes, we introduce the Source Management Team. The SMT is responsible for authorizing new [feature branches](/practices/#fractal-based-development), creating the branches, and merging the complete branches from each [Code Engineer](#code-engineer-ce) into the Conflict Arbitration branch. They will then resolve all conflicts for the [Code Engineers](/organization/#code-engineer-ce) before alerting the [Quality Authority](#quality-authority-qa) that the Convoy is ready for testing.
+To improve [Code Engineer](#code-engineer-ce) productivity by reducing the work required for integrating changes, we introduce the Source Management Team. The SMT is responsible for authorizing new [feature branches](/practices/#fractal-based-development), creating the branches, and merging the complete branches from each [Code Engineer](#code-engineer-ce) into the Conflict Arbitration branch. They will then resolve all conflicts for the [Code Engineers](/roles/#code-engineer-ce) before alerting the [Quality Authority](#quality-authority-qa) that the Convoy is ready for testing.
 
 ## System of Authority (SOA)
 

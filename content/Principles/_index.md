@@ -22,7 +22,7 @@ Coaching employees is an important daily practice to ensure they know we are tra
 
 ## Everyone is Responsible
 
-Each [Code Engineer](/organization/#code-engineer-ce) is responsible for their own work and should be rewarded for the work they do. If a feature is successfully delivered, we should identify the [Code Engineer](/organization/#code-engineer-ce) who made the most changes and give them a bonus. It would be unfair to reward the whole team based on the excellence of an individual.
+Each [Code Engineer](/roles/#code-engineer-ce) is responsible for their own work and should be rewarded for the work they do. If a feature is successfully delivered, we should identify the [Code Engineer](/roles/#code-engineer-ce) who made the most changes and give them a bonus. It would be unfair to reward the whole team based on the excellence of an individual.
 
 ## Psychological Safety
 
@@ -34,7 +34,7 @@ When we need to help resources have the opportunity to find positions with other
 **A system will produce exactly what is designed to produce -- W. Edward Demming**
 {{% /notice %}}
 
-The Scaled Agile DevOps Maturity Framework is built upon systems thinking. There are two systems that operate within the SADMF System. The [System of Authority (SOA)*](/organization/#system-of-authority-soa) (SOA) and the [System of Service (SOS)*](/organization/#system-of-service-sos) (SOS). Both Systems are accountable to the [Admiral's Transformation Office (ATO)*](/organization/#admirals-transformation-office-ato).
+The Scaled Agile DevOps Maturity Framework is built upon systems thinking. There are two systems that operate within the SADMF System. The [System of Authority (SOA)*](/roles/#system-of-authority-soa) (SOA) and the [System of Service (SOS)*](/roles/#system-of-service-sos) (SOS). Both Systems are accountable to the [Admiral's Transformation Office (ATO)*](/roles/#admirals-transformation-office-ato).
 
 ---
 

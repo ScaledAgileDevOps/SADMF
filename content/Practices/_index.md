@@ -14,7 +14,7 @@ weight: 4
 
 ## Conflict Arbitration
 
-When the [Source Management Team](/organization/#source-management-team) has received all candidate changes, they merge all changes into the **Conflict** branch and referee the conflicts. This ensures only the strongest change survives!
+When the [Source Management Team](/roles/#source-management-team) has received all candidate changes, they merge all changes into the **Conflict** branch and referee the conflicts. This ensures only the strongest change survives!
 
 ## DevOps Process Excellence Assessment
 
@@ -26,9 +26,9 @@ This branching pattern is required to meet the goals of the framework. Great ins
 
 - All feature branches will branch from the clean **Develop** branch.
 - Each feature branch must be [isolated](https://continuousisolation.com/) from other changes until the feature is complete.
-- When notified, the [Source Management Team](/organization/#source-management-team) (SMT) will merge into the **Conflict** branch for [Conflict Arbitration](#conflict-arbitration).
-- Once the strongest changes are accepted, SMT will notify the [Quality Authority](/organization/#quality-authority-qa) who will pull the changes into the **Test** branch for certification.
-- Once the code has been certified, it is sent to the [Development Integrity Assurance Team](/organization/#development-integrity-assurance-team-diat) so they can validate the work of the [Quality Authority](/organization/#quality-authority-qa). If it passes, it is authorized for the next [DORC&trade;](/release-convoy/) to set sail!
+- When notified, the [Source Management Team](/roles/#source-management-team) (SMT) will merge into the **Conflict** branch for [Conflict Arbitration](#conflict-arbitration).
+- Once the strongest changes are accepted, SMT will notify the [Quality Authority](/roles/#quality-authority-qa) who will pull the changes into the **Test** branch for certification.
+- Once the code has been certified, it is sent to the [Development Integrity Assurance Team](/roles/#development-integrity-assurance-team-diat) so they can validate the work of the [Quality Authority](/roles/#quality-authority-qa). If it passes, it is authorized for the next [DORC&trade;](/release-convoy/) to set sail!
 
 {{< figure src="/images/fractal-based-development-sm.png" title="Fractal-based Development" >}}
 
