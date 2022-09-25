@@ -21,5 +21,3 @@ The key to being SAD AF is to have a deep pizza budget and a keen understanding 
 SAD AF certifications cannot be purchased. They are applied for by submitting experience reports of applying Scaled Agile DevOps Maturity Framework in your daily life!
 
 Send submissions to <sadaf@scaledagiledevops.com>
-
-

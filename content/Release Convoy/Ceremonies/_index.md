@@ -67,5 +67,3 @@ We know that a static organizational structure limits improvement and also becom
 ## Tribunal
 
 We must [Build Quality In](/principles/#build-quality-in) by removing things that cause poor quality. In this monthly ceremony, we identify and remove the person who created each defect.
-
-

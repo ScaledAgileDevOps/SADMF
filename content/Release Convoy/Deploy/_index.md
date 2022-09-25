@@ -35,4 +35,3 @@ All requests must be peer-reviewed and approved in duplicate and also approved b
 The CSC will meet each workday to review high-risk, or [Commodore](/roles/#commodore-c) escalated changes to the production environment.  Requests will be approved, sent back for more information, or rejected.
 
 After the CSC approves the Convoy's release there will be much rejoicing!
-

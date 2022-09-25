@@ -23,4 +23,3 @@ A Priority Change Request must be created and approved during the [Captain's Mas
 * [EARB](/roles/#enterprise-architecture-review-board-earb) approvals
 * Approvals from all [Feature Captains](/roles/#feature-captain-fc) in the Convoy
 * [Commodore's](/roles/#commodore-c) approval
-

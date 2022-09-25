@@ -38,4 +38,4 @@ The percentage of features delivered in the Convoy compared to what was planned 
 
 ## SADMF Adoption Rate
 
-This is the percentage of the organization that has received a SAD&trade; certification.
+The percentage of the organization that has received a SAD&trade; [certification](/certifications).

@@ -12,7 +12,6 @@ weight: 1
 **Enterprise transformation without the risk of culture change!**
 {{% /notice %}}
 
-
 ### Why another scaling framework?
 
 We know that transforming into a DevOps organization is hard. Many people will tell you there will be fundamental changes required in how everything in your organization works. At Scaled Agile DevOps, we believe there is another way.
@@ -37,5 +36,3 @@ If you are doing this every day, it's **VERY** real.
 ---
 
 {{% children depth="3" description="true" %}}
-
-
