@@ -264,6 +264,17 @@ footer {
     padding-bottom: 1rem;
 }
 
+#header-buttons {
+    display: flex;
+    justify-content: center;
+    place-items: center;
+}
+
+.button {
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
 /* *** Sidebar *** */
 

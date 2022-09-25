@@ -1,7 +1,7 @@
-<footer>
-    <div>
-        {{with $.Site.Data.buttons}}
-            {{ range .buttons }}
+<div id="header-buttons">
+    {{with $.Site.Data.buttons}}
+        {{ range .buttons }}
+            <div class="button">
                 <a href="{{.url}}" target="_blank" class="btn btn-default">
                     {{ $icon := .icon }}
                     {{ $iconposition := .iconPosition }}
@@ -15,7 +15,7 @@
                         <i class="{{$icon}}"></i>
                     {{ end }}
                 </a>
-            {{end}}
+            </div>
         {{end}}
-    </div>
-</footer>
+    {{end}}
+</div>
