@@ -289,14 +289,20 @@ footer {
     padding-bottom: 1rem;
 }
 
-#header-buttons {
+.header-buttons {
     display: flex;
     justify-content: center;
+    background-color: white;
+}
+
+.button-container {
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
 .button {
-    background-color: white;
-    padding-left: 10px;
-    padding-right: 10px;
+    background: white;
+    box-shadow: none;
+    padding-left: 2px;
+    padding-right: 2px;
 }
