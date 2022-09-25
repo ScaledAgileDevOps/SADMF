@@ -156,6 +156,31 @@ a:hover {
     border-color: var(--MENU-SECTION-HR-color);
 }
 
+.btn {
+    display: inline-block !important;
+    padding: 4px 10px !important;
+    margin-bottom: 0 !important;
+    font-size: 14px !important;
+    font-weight: normal !important;
+    line-height: 1.42857143 !important;
+    text-align: center !important;
+    white-space: nowrap !important;
+    vertical-align: middle !important;
+    -ms-touch-action: manipulation !important;
+        touch-action: manipulation !important;
+    cursor: pointer !important;
+    -webkit-user-select: none !important;
+       -moz-user-select: none !important;
+        -ms-user-select: none !important;
+            user-select: none !important;
+    background-image: none !important;
+    border: 1px solid transparent !important;
+    border-radius: 8px !important;
+    -webkit-transition: all 0.15s !important;
+       -moz-transition: all 0.15s !important;
+            transition: all 0.15s !important;
+  }
+
 .btn-default {
     color: #fff !important;
     background-color: var(--MAIN-LINK-color) !important;
@@ -267,7 +292,7 @@ footer {
 #header-buttons {
     display: flex;
     justify-content: center;
-    place-items: center;
+    flex-wrap: wrap;
 }
 
 .button {
