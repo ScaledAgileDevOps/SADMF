@@ -291,13 +291,9 @@ footer {
 
 .header-buttons {
     display: flex;
-    justify-content: center;
-    background-color: white;
-}
-
-.button-container {
-    justify-content: space-evenly;
     flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: white;
 }
 
 .button {
