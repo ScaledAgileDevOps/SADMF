@@ -10,15 +10,8 @@ Keeping track of many frequent releases by independent teams is just too much co
 
 {{< figure src="convoy.jpg" title="Set sail with the DORC!" width="60%" >}}
 
-
 ## Why Convoys?
 
 Other frameworks have tried to coordinate things with more linear transportation metaphors. However, they are constrained to a single direction. With DORCs&trade; we have more options. We can turn left or right or even make a U-turn!
 
 {{% children depth="3" description="true" %}}
-
----
-
-{{% button href="/certifications" %}}🏅 Get Certified! 🏅{{% /button %}}
-{{% button href="https://www.teepublic.com/t-shirt/25575514-scaled-agile-devops-maturity-framework" %}}💸 Official Swag! 💸{{% /button %}}
-{{% button href="https://www.patreon.com/scaledagiledevops" %}}Invest in SADMF!{{% /button %}}

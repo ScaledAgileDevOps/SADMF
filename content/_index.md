@@ -12,9 +12,6 @@ weight: 1
 **Enterprise transformation without the risk of culture change!**
 {{% /notice %}}
 
-{{% button href="/certifications" %}}🏅 Get Certified! 🏅{{% /button %}}
-{{% button href="https://www.teepublic.com/t-shirt/25575514-scaled-agile-devops-maturity-framework" %}}💸 Official Swag! 💸{{% /button %}}
-{{% button href="https://www.patreon.com/scaledagiledevops" %}}Invest in SADMF!{{% /button %}}
 
 ### Why another scaling framework?
 
@@ -41,8 +38,4 @@ If you are doing this every day, it's **VERY** real.
 
 {{% children depth="3" description="true" %}}
 
----
 
-{{% button href="/certifications" %}}🏅 Get Certified! 🏅{{% /button %}}
-{{% button href="https://www.teepublic.com/t-shirt/25575514-scaled-agile-devops-maturity-framework" %}}💸 Official Swag! 💸{{% /button %}}
-{{% button href="https://www.patreon.com/scaledagiledevops" %}}Invest in SADMF!{{% /button %}}

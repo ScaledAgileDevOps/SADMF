@@ -35,9 +35,3 @@ When we need to help resources have the opportunity to find positions with other
 {{% /notice %}}
 
 The Scaled Agile DevOps Maturity Framework is built upon systems thinking. There are two systems that operate within the SADMF System. The [System of Authority (SOA)*](/roles/#system-of-authority-soa) (SOA) and the [System of Service (SOS)*](/roles/#system-of-service-sos) (SOS). Both Systems are accountable to the [Admiral's Transformation Office (ATO)*](/roles/#admirals-transformation-office-ato).
-
----
-
-{{% button href="/certifications" %}}🏅 Get Certified! 🏅{{% /button %}}
-{{% button href="https://www.teepublic.com/t-shirt/25575514-scaled-agile-devops-maturity-framework" %}}💸 Official Swag! 💸{{% /button %}}
-{{% button href="https://www.patreon.com/scaledagiledevops" %}}Invest in SADMF!{{% /button %}}

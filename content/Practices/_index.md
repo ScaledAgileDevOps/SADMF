@@ -35,9 +35,3 @@ This branching pattern is required to meet the goals of the framework. Great ins
 ## Release Tracking
 
 We need the correct information to ensure [Everyone is Responsible](/principles/#everyone-is-responsible). To that end, we need to track every release, who approved the release, and who made the changes in the release. This allows us to [Build Quality In](/principles/#build-quality-in).
-
----
-
-{{% button href="/certifications" %}}🏅 Get Certified! 🏅{{% /button %}}
-{{% button href="https://www.teepublic.com/t-shirt/25575514-scaled-agile-devops-maturity-framework" %}}💸 Official Swag! 💸{{% /button %}}
-{{% button href="https://www.patreon.com/scaledagiledevops" %}}Invest in SADMF!{{% /button %}}

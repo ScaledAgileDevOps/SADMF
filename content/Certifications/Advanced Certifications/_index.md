@@ -22,8 +22,4 @@ SAD AF certifications cannot be purchased. They are applied for by submitting ex
 
 Send submissions to <sadaf@scaledagiledevops.com>
 
----
 
-{{% button href="/certifications" %}}🏅 Get Certified! 🏅{{% /button %}}
-{{% button href="https://www.teepublic.com/t-shirt/25575514-scaled-agile-devops-maturity-framework" %}}💸 Official Swag! 💸{{% /button %}}
-{{% button href="https://www.patreon.com/scaledagiledevops" %}}Invest in SADMF!{{% /button %}}

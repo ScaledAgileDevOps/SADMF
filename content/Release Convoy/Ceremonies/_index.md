@@ -68,8 +68,4 @@ We know that a static organizational structure limits improvement and also becom
 
 We must [Build Quality In](/principles/#build-quality-in) by removing things that cause poor quality. In this monthly ceremony, we identify and remove the person who created each defect.
 
----
 
-{{% button href="/certifications" %}}🏅 Get Certified! 🏅{{% /button %}}
-{{% button href="https://www.teepublic.com/t-shirt/25575514-scaled-agile-devops-maturity-framework" %}}💸 Official Swag! 💸{{% /button %}}
-{{% button href="https://www.patreon.com/scaledagiledevops" %}}Invest in SADMF!{{% /button %}}

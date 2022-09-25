@@ -37,8 +37,6 @@ This role is the backbone of a SAD implementation. The job of the Code Engineer 
 
 The Commodore is responsible for collecting status reports for the Convoy and ensuring all steps in the Framework are performed correctly before [Deploying the Fleet](/release-convoy/deploy/).
 
-
-
 ## Development Integrity Assurance Team (DIAT)
 
 This team is made up of senior-level [Code Engineers](#code-engineer-ce), [Build Engineers](#build-engineers-be), and Designers. They are responsible for reviewing every change before allowing it to be included in the [DORC](/release-convoy/). They validate the work of the [Quality Authority](#quality-authority-qa).  
@@ -78,9 +76,3 @@ This is the team of teams accountable for achieving deadlines and shipping code.
 ## Unit Tester (UT)
 
 [Code Engineers](#code-engineer-ce) should be focusing on writing code. Testing is the job of specialists! The Unit Tester role is dedicated to writing unit tests for [Code Engineers](#code-engineer-ce) after the code is delivered to ensure the code works.
-
----
-
-{{% button href="/certifications" %}}🏅 Get Certified! 🏅{{% /button %}}
-{{% button href="https://www.teepublic.com/t-shirt/25575514-scaled-agile-devops-maturity-framework" %}}💸 Official Swag! 💸{{% /button %}}
-{{% button href="https://www.patreon.com/scaledagiledevops" %}}Invest in SADMF!{{% /button %}}

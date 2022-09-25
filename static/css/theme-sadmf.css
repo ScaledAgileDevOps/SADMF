@@ -260,9 +260,8 @@ div.notices.tip p:first-child:after {
 footer {
     display: grid;
     place-items: center;
-    background-color: rgba(217, 83, 79, 0.8);
-    color: #fff;
     margin-left: 300px;
+    padding-bottom: 1rem;
 }
 
 

@@ -26,8 +26,3 @@ On the last hour of the last day, while all of the alignment is fresh in our min
 
 All stakeholders must be included in the vote. Alignment requires unanimity. Letting the developers see the votes of their managers and vice-versa will ensure that accountability is maintained. In the event of disparity between the developers and managers, ensure that the managers' votes receive preference since they can influence the developers to work harder.
 
----
-
-{{% button href="/certifications" %}}🏅 Get Certified! 🏅{{% /button %}}
-{{% button href="https://www.teepublic.com/t-shirt/25575514-scaled-agile-devops-maturity-framework" %}}💸 Official Swag! 💸{{% /button %}}
-{{% button href="https://www.patreon.com/scaledagiledevops" %}}Invest in SADMF!{{% /button %}}
