@@ -25,9 +25,3 @@ Breaks and lunch can eat into our schedule. Additionally, people enjoy a change 
 On the last hour of the last day, while all of the alignment is fresh in our minds, hold a "Fist of Five" confidence vote on our ability to deliver the next 8 quarters' worth of work. We must all be very confident, so make sure everyone is aware that anything less than a score of 4 will result in additional planning until we get to the minimum confidence level. If there is not a unanimous vote of 4 or better, take another collection for sandwiches and continue until everyone is confident.
 
 All stakeholders must be included in the vote. Alignment requires unanimity. Letting the developers see the votes of their managers and vice-versa will ensure that accountability is maintained. In the event of disparity between the developers and managers, ensure that the managers' votes receive preference since they can influence the developers to work harder.
-
----
-
-{{% button href="/certifications" %}}🏅 Get Certified! 🏅{{% /button %}}
-{{% button href="https://www.teepublic.com/t-shirt/25575514-scaled-agile-devops-maturity-framework" %}}💸 Official Swag! 💸{{% /button %}}
-{{% button href="https://www.patreon.com/scaledagiledevops" %}}Invest in SADMF!{{% /button %}}

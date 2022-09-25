@@ -10,7 +10,7 @@ weight: 20
 
 ### DevOps Engineers Proving Real Experience Solving SAD Engineering Dilemmas
 
-This certification is reserved for [Feature Teams](/organization/#feature-team-ft) who have demonstrated the ability to not only talk the talk but also walk the walk. Preparing for this requires the [Feature Team](/organization/#feature-team-ft) to reserve a sprint to study for the certification. The certification requires renewal every 8 weeks lest the team lose the ability to be a truly [DEPRESSED](#devops-engineers-proving-real-experience-solving-sad-engineering-dilemmas) [Feature Team](/organization/#feature-team-ft)
+This certification is reserved for [Feature Teams](/roles/#feature-team-ft) who have demonstrated the ability to not only talk the talk but also walk the walk. Preparing for this requires the [Feature Team](/roles/#feature-team-ft) to reserve a sprint to study for the certification. The certification requires renewal every 8 weeks lest the team lose the ability to be a truly [DEPRESSED](#devops-engineers-proving-real-experience-solving-sad-engineering-dilemmas) [Feature Team](/roles/#feature-team-ft)
 
 ### Scaled Agile Dev Ops Accredited Facilitators
 
@@ -21,9 +21,3 @@ The key to being SAD AF is to have a deep pizza budget and a keen understanding 
 SAD AF certifications cannot be purchased. They are applied for by submitting experience reports of applying Scaled Agile DevOps Maturity Framework in your daily life!
 
 Send submissions to <sadaf@scaledagiledevops.com>
-
----
-
-{{% button href="/certifications" %}}🏅 Get Certified! 🏅{{% /button %}}
-{{% button href="https://www.teepublic.com/t-shirt/25575514-scaled-agile-devops-maturity-framework" %}}💸 Official Swag! 💸{{% /button %}}
-{{% button href="https://www.patreon.com/scaledagiledevops" %}}Invest in SADMF!{{% /button %}}

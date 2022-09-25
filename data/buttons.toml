@@ -1,0 +1,16 @@
+[[buttons]]    
+    name = "Get Certified!"
+    icon="fas fa-download" 
+    iconPosition="left"
+    url = "/certifications"
+[[buttons]]
+    name = "Official Swag!"
+    icon="fas fa-download" 
+    iconPosition="left"
+    url = "https://www.teepublic.com/t-shirt/25575514-scaled-agile-devops-maturity-framework"
+[[buttons]]
+    name = "Invest in SADMF!"
+    icon="fas fa-download" 
+    iconPosition="left"
+    url = "https://www.patreon.com/scaledagiledevops"
+

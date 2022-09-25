@@ -1,5 +1,5 @@
 ---
-title: Organization
+title: Roles
 description: Commanding the organization requires structure, clearly defined roles, and strict separation of duties! 
 weight: 5
 ---
@@ -37,8 +37,6 @@ This role is the backbone of a SAD implementation. The job of the Code Engineer 
 
 The Commodore is responsible for collecting status reports for the Convoy and ensuring all steps in the Framework are performed correctly before [Deploying the Fleet](/release-convoy/deploy/).
 
-
-
 ## Development Integrity Assurance Team (DIAT)
 
 This team is made up of senior-level [Code Engineers](#code-engineer-ce), [Build Engineers](#build-engineers-be), and Designers. They are responsible for reviewing every change before allowing it to be included in the [DORC](/release-convoy/). They validate the work of the [Quality Authority](#quality-authority-qa).  
@@ -49,7 +47,7 @@ If the *Right Way* to do DevOps is not owned and controlled by a single senior m
 
 ## Enterprise Architecture Review Board (EARB)
 
-The EARB is responsible for maintaining the Book of Names. This master list defines all acceptable words and word combinations that may be used for naming things during coding. This ensures that [Code Engineers](/organization/#code-engineer-ce) will not be confused when they join a new Feature Team for the next Convoy. The EARB will meet every 6 weeks to review and reject any new words submitted for inclusion.
+The EARB is responsible for maintaining the Book of Names. This master list defines all acceptable words and word combinations that may be used for naming things during coding. This ensures that [Code Engineers](/roles/#code-engineer-ce) will not be confused when they join a new Feature Team for the next Convoy. The EARB will meet every 6 weeks to review and reject any new words submitted for inclusion.
 
 ## Feature Captain (FC)
 
@@ -57,7 +55,7 @@ The mid-level manager who is responsible for tracking the progress of the featur
 
 ## Feature Team (FT)
 
-The Feature Team is the group of [Code Engineers](/organization/#code-engineer-ce) assembled to build a new feature for the next Convoy. Because we work so diligently to [Build Quality In](/principles/#build-quality-in) with the [Tribunal](/release-convoy/#tribunal), these teams should be able to deliver at maximum throughput as soon as they are formed.
+The Feature Team is the group of [Code Engineers](/roles/#code-engineer-ce) assembled to build a new feature for the next Convoy. Because we work so diligently to [Build Quality In](/principles/#build-quality-in) with the [Tribunal](/release-convoy/#tribunal), these teams should be able to deliver at maximum throughput as soon as they are formed.
 
 ## Quality Authority (QA)
 
@@ -65,7 +63,7 @@ Verifying quality is a specialist field that no [Code Engineer](#code-engineer-c
 
 ## Source Management Team (SMT)
 
-To improve [Code Engineer](#code-engineer-ce) productivity by reducing the work required for integrating changes, we introduce the Source Management Team. The SMT is responsible for authorizing new [feature branches](/practices/#fractal-based-development), creating the branches, and merging the complete branches from each [Code Engineer](#code-engineer-ce) into the Conflict Arbitration branch. They will then resolve all conflicts for the [Code Engineers](/organization/#code-engineer-ce) before alerting the [Quality Authority](#quality-authority-qa) that the Convoy is ready for testing.
+To improve [Code Engineer](#code-engineer-ce) productivity by reducing the work required for integrating changes, we introduce the Source Management Team. The SMT is responsible for authorizing new [feature branches](/practices/#fractal-based-development), creating the branches, and merging the complete branches from each [Code Engineer](#code-engineer-ce) into the Conflict Arbitration branch. They will then resolve all conflicts for the [Code Engineers](/roles/#code-engineer-ce) before alerting the [Quality Authority](#quality-authority-qa) that the Convoy is ready for testing.
 
 ## System of Authority (SOA)
 
@@ -78,9 +76,3 @@ This is the team of teams accountable for achieving deadlines and shipping code.
 ## Unit Tester (UT)
 
 [Code Engineers](#code-engineer-ce) should be focusing on writing code. Testing is the job of specialists! The Unit Tester role is dedicated to writing unit tests for [Code Engineers](#code-engineer-ce) after the code is delivered to ensure the code works.
-
----
-
-{{% button href="/certifications" %}}🏅 Get Certified! 🏅{{% /button %}}
-{{% button href="https://www.teepublic.com/t-shirt/25575514-scaled-agile-devops-maturity-framework" %}}💸 Official Swag! 💸{{% /button %}}
-{{% button href="https://www.patreon.com/scaledagiledevops" %}}Invest in SADMF!{{% /button %}}

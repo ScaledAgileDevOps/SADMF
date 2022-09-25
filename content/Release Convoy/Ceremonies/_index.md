@@ -10,19 +10,19 @@ weight: 2
 
 ## Captain's Mast
 
-In this ceremony, anyone wishing to change the priorities set in Convoy Alignment must file a [PCR](/release-convoy/manifest/#priority-change-request) and represent it for approval. This allows the [Chief Signals Officer](/organization/#chief-signals-officer-cso) to adjust the [Completed vs Committed](/metrics/#features-completed-vs-committed) goal to ensure it does not reflect poorly on the Commodore.
+In this ceremony, anyone wishing to change the priorities set in Convoy Alignment must file a [PCR](/release-convoy/manifest/#priority-change-request) and represent it for approval. This allows the [Chief Signals Officer](/roles/#chief-signals-officer-cso) to adjust the [Completed vs Committed](/metrics/#features-completed-vs-committed) goal to ensure it does not reflect poorly on the Commodore.
 
 ## Captains' Meeting
 
-Meeting of the [Feature Captains](/organization/#feature-captain-fc) to plan the date when the DORC&trade; will be assembled.
+Meeting of the [Feature Captains](/roles/#feature-captain-fc) to plan the date when the DORC&trade; will be assembled.
 
 ## Coding
 
-The group of [Code Engineers](/organization/#code-engineer-ce) assigned to each feature will implement the requirements they are given as rapidly as possible using the industry best practice, [Continuous Isolation](https://continuousisolation.com). This ensures it can be tested and delivered on the Convoy it is planned for. Once the feature is coded, the [Code Engineers](/organization/#code-engineer-ce) can return to the coding pool to await their next adventure!
+The group of [Code Engineers](/roles/#code-engineer-ce) assigned to each feature will implement the requirements they are given as rapidly as possible using the industry best practice, [Continuous Isolation](https://continuousisolation.com). This ensures it can be tested and delivered on the Convoy it is planned for. Once the feature is coded, the [Code Engineers](/roles/#code-engineer-ce) can return to the coding pool to await their next adventure!
 
 ## Code Inspection
 
-The [CSET](/organization/#code-standards-enforcement-team-cset) will review the completed code before it is tested to ensure it is compliant with [CSET](/organization/#code-standards-enforcement-team-cset) and [EARB](/organization/#enterprise-architecture-review-board-earb) standards.
+The [CSET](/roles/#code-standards-enforcement-team-cset) will review the completed code before it is tested to ensure it is compliant with [CSET](/roles/#code-standards-enforcement-team-cset) and [EARB](/roles/#enterprise-architecture-review-board-earb) standards.
 
 ## Convoy Alignment
 
@@ -38,15 +38,15 @@ Before any convoy may "leave port", it's critical we ensure that all Scaled Agil
 
 ## Post-Standup Standup
 
-Only the most important status updates are given in Standup and some defects are lower priority than some features. To address this, we use the Post Standup Standup ceremony. Here everyone on the Convoy participates to provide status updates to the [Commodore](/organization/#commodore-c) on the lower priority work that is not being worked on.  
+Only the most important status updates are given in Standup and some defects are lower priority than some features. To address this, we use the Post Standup Standup ceremony. Here everyone on the Convoy participates to provide status updates to the [Commodore](/roles/#commodore-c) on the lower priority work that is not being worked on.  
 
 ## Post Standup Standup Review
 
-To ensure no information is lost through insufficient documentation, each [Feature Captain](/organization/#feature-captain-fc) will submit a daily report using the SAD Update form and email it to the [Commodore](/organization/#commodore-c) who will consolidate it and file it.
+To ensure no information is lost through insufficient documentation, each [Feature Captain](/roles/#feature-captain-fc) will submit a daily report using the SAD Update form and email it to the [Commodore](/roles/#commodore-c) who will consolidate it and file it.
 
 ## Press Gang
 
-In the Press Gang ceremony, each [Feature Captain](/organization/#feature-captain-fc) chooses 2 to 20 [Code Engineers](/organization/#code-engineer-ce) from the coding pool to deliver the next feature. This ensures each [Code Engineer](/organization/#code-engineer-ce) is allowed to work on new and interesting things and that all are fully utilized.
+In the Press Gang ceremony, each [Feature Captain](/roles/#feature-captain-fc) chooses 2 to 20 [Code Engineers](/roles/#code-engineer-ce) from the coding pool to deliver the next feature. This ensures each [Code Engineer](/roles/#code-engineer-ce) is allowed to work on new and interesting things and that all are fully utilized.
 
 ## Scrum of Scrum of Scrums
 
@@ -54,7 +54,7 @@ To effectively scale communication, we use the Scrum of Scrum of Scrums. First t
 
 ## Testing
 
-To keep the [Code Engineers](/organization/#code-engineer-ce) productive, we need them to focus only on coding. For unit testing, the [Feature Captain](/organization/#feature-captain-fc) will assign the complete feature to the Unit Testing Team to ensure 100% test coverage.
+To keep the [Code Engineers](/roles/#code-engineer-ce) productive, we need them to focus only on coding. For unit testing, the [Feature Captain](/roles/#feature-captain-fc) will assign the complete feature to the Unit Testing Team to ensure 100% test coverage.
 
 ## System Integration Testing
 
@@ -67,9 +67,3 @@ We know that a static organizational structure limits improvement and also becom
 ## Tribunal
 
 We must [Build Quality In](/principles/#build-quality-in) by removing things that cause poor quality. In this monthly ceremony, we identify and remove the person who created each defect.
-
----
-
-{{% button href="/certifications" %}}🏅 Get Certified! 🏅{{% /button %}}
-{{% button href="https://www.teepublic.com/t-shirt/25575514-scaled-agile-devops-maturity-framework" %}}💸 Official Swag! 💸{{% /button %}}
-{{% button href="https://www.patreon.com/scaledagiledevops" %}}Invest in SADMF!{{% /button %}}

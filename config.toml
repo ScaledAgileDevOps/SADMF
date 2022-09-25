@@ -4,40 +4,44 @@ title = 'Enterprise transformation without the risk of culture change!'
 theme = "hugo-theme-learn"
 googleAnalytics = "G-BT3HZK3PLP"
 
+[markup.goldmark.renderer]
+unsafe= false
+
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
 
 [[menu.shortcuts]] 
 name = "<i class='fab fa-twitter'></i> Follow on Twitter!"
-identifier = "twitter"
 url = "https://twitter.com/SADMF_Certs"
 weight = 1
 
 [[menu.shortcuts]] 
 name = "<i class='fab fa-linkedin'></i> Linkedin"
-identifier = "linkedin"
 url = "https://www.linkedin.com/company/scaled-agile-devops"
 weight = 1
 
 [[menu.shortcuts]] 
 name = "<i class='fas fa-glass-whiskey'></i> Investment Opportunities"
-identifier = "bub"
 url = "https://www.patreon.com/scaledagiledevops"
 weight = 5
 
 [[menu.shortcuts]] 
 name = "<i class='fa fa-tshirt'></i> Merch"
-identifier = "swag"
 url = "https://www.teepublic.com/t-shirt/25575514-scaled-agile-devops-maturity-framework"
 weight = 2
 
 [[menu.shortcuts]] 
 name = "<i class='fab fa-github'></i> SADBOK"
-identifier = "ds"
 url = "https://github.com/ScaledAgileDevOps/SADMF"
 weight = 10
 
 [params]
+  disableBreadcrumb = false
+  disableNextPrev = false
+  disableLandingPageButton = true
+  disableMermaid = true
+  customMermaidURL = "https://unpkg.com/mermaid@8.8.0/dist/mermaid.min.js"
+  titleSeparator = "::"
   # Prefix URL to edit current page. Will display an "Edit this page" button on top right hand corner of every page.
   # Useful to give opportunity to people to create merge request for your doc.
   # See the config.toml file from this documentation site to have an example.
@@ -57,24 +61,13 @@ weight = 10
   disableInlineCopyToClipBoard = false
   # A title for shortcuts in menu is set by default. Set this to true to disable it.
   disableShortcutsTitle = false
-  # If set to false, a Home button will appear below the search bar on the menu.
-  # It is redirecting to the landing page of the current language if specified. (Default is "/")
-  disableLandingPageButton = true
+
   # When using multilingual website, disable the switch language button.
   disableLanguageSwitchingButton = false
-  # Hide breadcrumbs in the header and only show the current page title
-  disableBreadcrumb = true
-  # If set to true, prevents Hugo from including the mermaid module if not needed (will reduce load times and traffic)
-  disableMermaid = false
-  # Specifies the remote location of the mermaid js
-  customMermaidURL = "https://unpkg.com/mermaid@8.8.0/dist/mermaid.min.js"
-  # Hide Next and Previous page buttons normally displayed full height beside content
-  disableNextPrev = true
+
   # Order sections in menu by "weight" or "title". Default to "weight"
   ordersectionsby = "weight"
   # Change default color scheme with a variant one. Can be "red", "blue", "green".
   themeVariant = "sadmf"
   # Provide a list of custom css files to load relative from the `static/` folder in the site root.
   custom_css = ["css/foo.css", "css/bar.css"]
-  # Change the title separator. Default to "::".
-  titleSeparator = "-"
