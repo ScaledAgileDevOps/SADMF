@@ -32,9 +32,9 @@ For each Tester, we should track the number of defects they detect and use this 
 
 The precise execution of the SAD Delivery Lifecycle is critical to the success of SADMF. Without "excellent" maturity scores, your customers will have no confidence you used SADMF to deliver!
 
-## Features Completed vs. Committed
+## Feature Completion Ratio
 
-The percentage of features delivered in the Convoy compared to what was planned 8 quarters ago.
+The percentage of features delivered in the Convoy compared to what was committed to 8 quarters ago.
 
 ## SADMF Adoption Rate
 

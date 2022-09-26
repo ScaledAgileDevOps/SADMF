@@ -18,7 +18,7 @@ These YAML experts are responsible for dictating to the [Code Engineers](#code-e
 
 ## Chief Signals Officer (CSO)
 
-This senior executive is responsible for tracking and reporting our adherence to the plan.
+This senior executive is responsible for tracking and reporting our adherence to the plan by publishing the [Feature Completion Ratio](/metrics/#feature-completion-ratio) daily.
 
 ## Code Standards Enforcement Team (CSET)
 
@@ -43,7 +43,7 @@ This team is made up of senior-level [Code Engineers](#code-engineer-ce), [Build
 
 ## DevOps Usage & Compliance Head Engineer (DOUCHE)
 
-If the *Right Way* to do DevOps is not owned and controlled by a single senior manager, nobody will do it. So, we need a named person to codify the *Right Way* in the DevOps Process Binder and hold all teams accountable to the [DevOps Process Excellence Assessment](/practices/#devops-process-excellence-assessment). By staffing this role we prevent process drift and eventual mutation of the *Right Way*.
+If the *Right Way* to do DevOps is not owned and controlled by an executive then nobody will do it. So, we need a named person to codify the *Right Way* in the DevOps Process Binder and hold all teams accountable to the [DevOps Process Excellence Assessment](/practices/#devops-process-excellence-assessment). By staffing this role we prevent process drift and eventual mutation of the *Right Way* and can track our annual progress towards [SADMF Maturity](/metrics/#sadmf-maturity-score).
 
 ## Enterprise Architecture Review Board (EARB)
 
