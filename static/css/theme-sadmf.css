@@ -230,6 +230,8 @@ div.notices p:first-child:after {
     left: 2rem;
 }
 
+
+
 div.notices.info p {
     border-top: 30px solid #F0B37E;
     background: #FFF2DB;
@@ -237,6 +239,19 @@ div.notices.info p {
 
 div.notices.info p:first-child:after {
     content: 'Info';
+}
+
+div.notices.announce p:first-child:before {
+    content: "\f0a1";
+}
+
+div.notices.announce p {
+    border-top: 30px solid rgb(47, 216, 177);
+    background: rgb(207, 255, 244);
+}
+
+div.notices.announce p:first-child:after {
+    content: 'Announcement';
 }
 
 div.notices.warning p:first-child:before {

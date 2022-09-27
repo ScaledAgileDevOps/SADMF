@@ -26,11 +26,11 @@ Each [Code Engineer](/roles/#code-engineer-ce) is responsible for their own work
 
 ## Psychological Safety
 
-When we need to help resources have the opportunity to find positions with other organizations, we will use HRaaS (Human Resources as a Service). This uses individual performance data and automation to provide them with that opportunity. This allows us to avoid stress.
+When we need to help resources with the opportunity to find positions with other organizations, we use the [PeopleWare HRaaS](/peopleware) system. This uses individual performance data and machine learning models to automate the process of giving them that opportunity. This allows us to avoid the stress of challenging conversations.
 
 ## Systems Thinking
 
-{{% notice warning %}}
+{{% notice info %}}
 **A system will produce exactly what is designed to produce -- W. Edward Demming**
 {{% /notice %}}
 
