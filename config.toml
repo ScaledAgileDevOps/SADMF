@@ -12,7 +12,7 @@ home = [ "HTML", "RSS", "JSON"]
 
 [[menu.shortcuts]]
 name = "<i class='fa-solid fa-users-gear'></i> PeopleWare"
-url = "/peopleware"
+url = "./peopleware"
 
 [[menu.shortcuts]] 
 name = "<i class='fab fa-twitter'></i> Follow on Twitter!"
