@@ -1,6 +1,6 @@
 ---
-title: SAD MF Certifications
-description: Get your certification today!
+title: Certifications
+description: Get your SAD MF certification today!
 weight: 98
 ---
 
