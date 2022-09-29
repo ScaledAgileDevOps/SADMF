@@ -1,7 +1,7 @@
 ---
 title: Success Stories!
 chapter: true
-description: Triumphant stories of applying Scaled Agile DevOps by SAD Accredited Facilitators!
+description: Triumphant experience reports from SAD Accredited Facilitators!
 weight: 99
 ---
 
