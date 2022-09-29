@@ -4,6 +4,9 @@ description: Human Resources as a Service
 weight: 1
 ---
 
+![HRaaS](/images/HRaaS.jpeg)
+
+
 {{% notice announce %}}
 Introducing PeopleWare! 
 {{% /notice %}}
