@@ -1,5 +1,7 @@
 # Scaled Agile DevOps Maturity Framework
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/97960f0e-8c89-482b-b1e6-ab5af05e6f7f/deploy-status)](https://app.netlify.com/sites/scaledagiledevops/deploys)
+
 Enterprise transformation without the risk of culture change!
 
 We know that transforming into a DevOps organization is hard. Many people will tell you there will be fundamental 
