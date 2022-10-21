@@ -16,6 +16,10 @@ Quality software comes from quality people. Therefore, Poor quality software mus
 
 Too many releases are hard to report and manage. To reduce the number of updates to the [Release Tracking](/practices/#release-tracking) spreadsheet, we should focus on a small number of releases each quarter. This provides us with more time to [Amplify Feedback](#amplify-feedback).
 
+## Limit WIP 
+
+WIP (Workers Idle Problems) is when workers are idle, that's a problem. We should ensure everyone is planned at 120% capacity. Having these stretch goals ensures everyone exerts maximum effort. This ensures no idle downtime, which intuitively, is waste. Limiting WIP is a key foundation to how we ensure you are maximizing capacity utilization in our organization
+
 ## Amplify Feedback
 
 Coaching employees is an important daily practice to ensure they know we are tracking their work and care about their output.
