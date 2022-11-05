@@ -16,9 +16,9 @@ weight: 1
 
 Real-world feedback from those who've been impacted by Scaled Agile DevOps!
 
-*"Thank you for making the world a better place by coming up with Scaled Agile Devops!"* -- Joep Piscaer 
+*"Thank you for making the world a better place by coming up with Scaled Agile DevOps!"* -- Joep Piscaer
 
-
+Watch this [amazing training video](https://youtu.be/zMI2FykK7j4) presented by a senior Accredited Facilitator!
 
 ## Why another scaling framework?
 
