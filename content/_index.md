@@ -6,9 +6,7 @@ description: Making enterprises feel better about DevOps transformation since 20
 weight: 1
 ---
 
-{{< figure src="/images/sadmf-logo.png" 
-attr="Making enterprises feel better about DevOps transformation since 2021" 
-width="300" >}}
+{{< figure src="/images/sadmf-logo.png" caption=" Making enterprises feel better about DevOps transformation since 2021" width="300" >}}
 
 {{< alert type="info" >}}
 **Enterprise transformation without the risk of culture change!**
@@ -18,7 +16,9 @@ width="300" >}}
 
 Real-world feedback from those who've been impacted by Scaled Agile DevOps!
 
+{{< blockquote >}}
 *"Thank you for making the world a better place by coming up with Scaled Agile DevOps!"* -- Joep Piscaer
+{{< /blockquote >}}
 
 Watch this [amazing training video](https://youtu.be/zMI2FykK7j4) presented by a senior Accredited Facilitator!
 

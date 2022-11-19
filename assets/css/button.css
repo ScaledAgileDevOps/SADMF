@@ -1,0 +1,17 @@
+a.markdown-btn {
+    font-size: inherit;
+    font-family: inherit;
+    color: var(--font-color);
+    background-color: var(--md-bg-color-dark);
+    border-radius: 30;
+    text-align: center;
+    padding: 5px 1em 5px 1em;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+a.markdown-btn:hover, a.markdown-btn:active {
+    text-decoration: none;
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+}

@@ -84,5 +84,7 @@ copyrightUrl = "https://creativecommons.org/licenses/by-nc-sa/4.0/"
 
 [params.includes]
     css = [
-      "css/fontawesome6.min.css"
+      "css/fontawesome6.min.css",
+      "css/overrides.css",
+      "css/button.css"
     ]

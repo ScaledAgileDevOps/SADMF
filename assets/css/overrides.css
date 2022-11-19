@@ -1,0 +1,12 @@
+.content figure figcaption {
+    font-style: italic;
+  }
+
+  figcaption {
+    font-style: italic;
+    text-align: center;
+  }
+
+  .sc-alert {
+    text-align: center;
+  }
