@@ -1,6 +1,6 @@
 ---
 title: Practices
-titleIcon: "fa-solid fa-ship"
+titleIcon: "fa-solid fa-person-digging"
 linkTitle: Practices
 description: Complex systems require complex practices to reduce the complexity!
 weight: 4

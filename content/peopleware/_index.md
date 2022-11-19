@@ -1,9 +1,9 @@
 ---
 title: PeopleWare HR as a Service
-titleIcon: "fa-solid fa-ship"
-linkTitle: HRaaS
+titleIcon: "fa-solid fa-users-gear"
+linkTitle: PeopleWare HRaaS
 description: Human Resources as a Service
-weight: 1
+weight: 100
 ---
 
 ![HRaaS](/images/HRaaS.jpeg)

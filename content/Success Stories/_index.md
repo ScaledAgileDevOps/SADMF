@@ -1,6 +1,6 @@
 ---
 title: Success Stories!
-titleIcon: "fa-solid fa-ship"
+titleIcon: "fa-solid fa-thumbs-up"
 linkTitle: Success Stories!
 description: Triumphant experience reports from SAD Accredited Facilitators!
 weight: 99

@@ -1,6 +1,6 @@
 ---
 title: Principles
-titleIcon: "fa-solid fa-ship"
+titleIcon: "fa-solid fa-filter"
 linkTitle: Principles
 description: We must adhere to the correct principles to correctly perform the practices.
 weight: 2

@@ -8,6 +8,9 @@ title = 'Enterprise transformation without the risk of culture change!'
 theme = "shadocs"
 googleAnalytics = "G-BT3HZK3PLP"
 
+copyright = "Creative Commons 4.0, Non-commercial use with attribution"
+copyrightUrl = "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 [taxonomies]
   category = "categories"
   tag = "tags"
@@ -51,6 +54,9 @@ googleAnalytics = "G-BT3HZK3PLP"
   # For each shortcut following keys must be sets:
   # - keys     = [Keyboard shortcuts table](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/key/Key_Values)
   # - function = "Javascript function name to call by the shortcut"
+#   [[params.navbar.shortcuts]]
+# name = "<i class='fa-solid fa-users-gear'></i> PeopleWare"
+# url = "peopleware"
   [params.navbar.shortcuts]
     # Example shortcut definition
     [params.navbar.shortcuts.example]

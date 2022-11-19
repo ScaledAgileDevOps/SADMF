@@ -1,0 +1,28 @@
+{{$optMd := dict "markup" "goldmark"}}
+<div class='columns is-marginless is-multiline is-centered'>
+  <div class='column'>
+    <a class='is-itext-link' href='{{.Site.Data.themeParams.github.main}}' target='_blank'>
+      <div>
+        <em class='fa-brands fa-github fa-2x'></em>
+        <p>{{i18n "navbarinfo_github_main"}}</p>
+      </div>
+    </a>
+  </div>
+  <div class='column'>
+    <a class='is-itext-link' href='{{.Site.Data.themeParams.social.linkedin}}' target='_blank'>
+      <div>
+        <em class='fa-brands fa-linkedin fa-2x'></em>
+        <p>LinkedIn</p>
+      </div>
+    </a>
+  </div>
+  <div class='column'>
+    <a class='is-itext-link' href='{{.Site.Data.themeParams.social.twitter}}' target='_blank'>
+      <div>
+        <em class='fa-brands fa-twitter fa-2x'></em>
+        <p>Twitter</p>
+      </div>
+    </a>
+  </div>
+</div>
+<p>Copyright: <a href='{{.Site.Data.themeParams.copyright.url}}'>{{.Site.Data.themeParams.copyright.type}}</a> - {{.Site.Data.themeParams.copyright.desc}}</p>
