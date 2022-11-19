@@ -1,0 +1,21 @@
+<div class="header-buttons">
+    {{with $.Site.Data.buttons}}
+        {{ range .buttons }}
+            <div class="button">
+                <a href="{{.url}}" target="_blank" class="btn btn-default">
+                    {{ $icon := .icon }}
+                    {{ $iconposition := .iconPosition }}
+                    {{ if ($icon) }}
+                        {{ if or (not ($iconposition)) (eq $iconposition "left") }}
+                            <i class="{{$icon}}"></i>
+                        {{ end }}
+                    {{ end }}
+                    {{ .name }}
+                    {{ if and ($icon) (eq $iconposition "right")}}
+                        <i class="{{$icon}}"></i>
+                    {{ end }}
+                </a>
+            </div>
+        {{end}}
+    {{end}}
+</div>
