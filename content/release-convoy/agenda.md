@@ -1,12 +1,13 @@
 ---
 title: Convoy Alignment Agenda
+linkTitle: Convoy Alignment
 description: Every journey must begin with meticulous, even pedantic, planning
 weight: 2
 ---
 
-{{% notice note %}}
+{{< alert type="info" >}}
 {{< param description >}}
-{{% /notice %}}
+{{< /alert >}}
 
 ## Attendance
 

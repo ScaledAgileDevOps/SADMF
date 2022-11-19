@@ -1,0 +1,57 @@
+<div class='navbar-item'>
+  <a href="https://www.teepublic.com/t-shirt/25575514-scaled-agile-devops-maturity-framework" target="_blank" class='button navbar-item-standard'>
+    <span class='icon-text'>Swag</span>
+    <span class='icon'>
+      <i class='fa-solid fa-t-shirt fa-lg'></i>
+    </span>
+  </a>
+</div>
+<div class='navbar-item'>
+  <a href='https://www.patreon.com/scaledagiledevops' target="_blank" class='button navbar-item-standard'>
+    <span class='icon-text'>Invest</span>
+    <span class='icon'>
+      <i class='fa-solid fa-circle-dollar-to-slot fa-lg'></i>
+    </span>
+  </a>
+</div>
+<div class='navbar-item'>
+  <a href='{{ relref . "/certifications" }}' target="_blank" class='button navbar-item-standard'>
+    <span class='icon-text'>Certification</span>
+    <span class='icon'>
+      <i class='fa-solid fa-certificate fa-lg'></i>
+    </span>
+  </a>
+</div>
+<div class='navbar-item'>
+  <a id='printButton{{$.Scratch.Get "navbarExtendIdSuffix"}}' class='button navbar-item-standard'>
+    <span class='icon-text'>{{i18n "navbar_label_print"}}</span>
+    <span class='icon'>
+      <i class='fa-solid fa-print fa-lg'></i>
+    </span>
+  </a>
+</div>
+<div class='navbar-item'>
+  <a id='qrCodeButton{{$.Scratch.Get "navbarExtendIdSuffix"}}' class='button navbar-item-standard'>
+    <span class='icon-text'>{{i18n "navbar_label_qrcode"}}</span>
+    <span class='icon'>
+      <i class='fa-solid fa-qrcode fa-lg'></i>
+    </span>
+  </a>
+</div>
+
+{{range $taxonomyname, $taxonomy := .Site.Taxonomies}}
+  {{$.Scratch.Add "taxnomyCount" (len $taxonomy)}}
+{{end}}
+{{if gt ($.Scratch.Get "taxnomyCount") 0}}
+  <div class='navbar-item'>
+    {{partial "theme/taxonomy-selector.html" .}}
+  </div>
+{{end}}
+<div class='navbar-item'>
+  <a id='siteInfo{{$.Scratch.Get "navbarExtendIdSuffix"}}' trigger='navbarInfo' class='button navbar-item-standard navbar-trigger' title='{{i18n "navbarinfo_title"}}'>
+    <span class='icon-text'>{{i18n "navbar_label_info"}}</span>
+    <span class='icon'>
+      <i class='fa-solid fa-circle-question fa-lg'></i>
+    </span>
+  </a>
+</div>

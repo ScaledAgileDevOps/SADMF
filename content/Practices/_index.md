@@ -1,12 +1,14 @@
 ---
 title: Practices
-description: Complex systems requires complex practices to reduce the complexity!
+titleIcon: "fa-solid fa-person-digging"
+linkTitle: Practices
+description: Complex systems require complex practices to reduce the complexity!
 weight: 4
 ---
 
-{{% notice note %}}
+{{< alert type="info" >}}
 {{< param description >}}
-{{% /notice %}}
+{{< /alert >}}
 
 ## CI/CD/ED
 

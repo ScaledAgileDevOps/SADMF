@@ -1,12 +1,13 @@
 ---
 title: Success Stories!
-chapter: true
+titleIcon: "fa-solid fa-thumbs-up"
+linkTitle: Success Stories!
 description: Triumphant experience reports from SAD Accredited Facilitators!
 weight: 99
 ---
 
-{{% notice note %}}
+{{< alert type="info" >}}
 {{< param description >}}
-{{% /notice %}}
+{{< /alert >}}
 
-{{% children depth="3" description="true" %}}
+{{< treeview />}}

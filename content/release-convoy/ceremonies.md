@@ -1,12 +1,13 @@
 ---
 title: Convoy Ceremonies
+linkTitle: Ceremonies
 description: The meetings required to manage changes in the SADMF way!
 weight: 2
 ---
 
-{{% notice note %}}
+{{< alert type="info" >}}
 {{< param description >}}
-{{% /notice %}}
+{{< /alert >}}
 
 ## Captain's Mast
 

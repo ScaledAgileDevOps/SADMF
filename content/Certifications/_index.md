@@ -1,12 +1,14 @@
 ---
 title: Certifications
+titleIcon: "fa-solid fa-certificate"
+linkTitle: Certifications
 description: Get your SAD certifications today!
 weight: 98
 ---
 
-{{% notice note %}}
+{{< alert type="info" >}}
 {{< param description >}}
-{{% /notice %}}
+{{< /alert >}}
 
 ## Scaled Agile DevOps Practitioner
 
@@ -14,13 +16,8 @@ weight: 98
 
 SAD Practitioners have demonstrated they understand the basic value of The One Framework and promise to deliver that value.
 
-{{% button href="https://www.buymeacoffee.com/sadmf/e/47597" %}}
-Apply for Certified Practitioner
-{{% /button %}}
-
-{{% button href="https://www.buymeacoffee.com/sadmf/e/47599" %}}
-Enterprise Packages Available
-{{% /button %}}
+- [Apply for Certified Practitioner](https://www.buymeacoffee.com/sadmf/e/47597)
+- [Enterprise Packages Available](https://www.buymeacoffee.com/sadmf/e/47599)
 
 ## Scaled Agile DevOps Fellow
 
@@ -28,13 +25,11 @@ Enterprise Packages Available
 
 SAD Fellows have demonstrated they are as valuable as at least four practitioners.
 
-{{% button href="https://www.buymeacoffee.com/sadmf/e/47598" %}}
-Apply for Certified Fellow
-{{% /button %}}
+[Apply for Certified Fellow](https://www.buymeacoffee.com/sadmf/e/47598)
 
-{{% notice note %}}
+{{< alert type="info" >}}
 Moving beyond the basics for truly SAD outcomes!
-{{% /notice %}}
+{{< /alert >}}
 
 ## Scaled Agile Dev Ops Accredited Facilitators
 

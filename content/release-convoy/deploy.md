@@ -1,12 +1,13 @@
 ---
 title: Deploy the Fleet
+linkTitle: Delivering Change
 description: Delivering software is scary. We need layers of process to feel better.
 weight: 2
 ---
 
-{{% notice note %}}
+{{< alert type="info" >}}
 {{< param description >}}
-{{% /notice %}}
+{{< /alert >}}
 
 We need to nail the fundamentals of speed, innovation, and impact. We need to ensure we go fast and innovate but very cautiously to prevent solutions that do not work as designed. To do this, we need a "Zero Defects" approach to delivery.
 
