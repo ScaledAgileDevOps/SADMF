@@ -1,12 +1,16 @@
 .content figure figcaption {
-    font-style: italic;
-  }
+  font-style: italic;
+}
 
-  figcaption {
-    font-style: italic;
-    text-align: center;
-  }
+figcaption {
+  font-style: italic;
+  text-align: center;
+}
 
-  .sc-alert {
-    text-align: center;
-  }
+.sc-alert {
+  text-align: center;
+}
+
+#sidebar {
+  background: #060136;
+}
