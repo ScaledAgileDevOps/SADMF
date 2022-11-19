@@ -1,6 +1,5 @@
 ---
 title: Convoy Ceremonies
-titleIcon: "fa-solid fa-ship"
 linkTitle: Ceremonies
 description: The meetings required to manage changes in the SADMF way!
 weight: 2

@@ -1,6 +1,5 @@
 ---
 title: Convoy Manifest
-titleIcon: "fa-solid fa-ship"
 linkTitle: Manifest
 description: The critical documentation required for every DORC
 weight: 5

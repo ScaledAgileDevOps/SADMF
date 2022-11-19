@@ -1,27 +1,28 @@
-# baseURL                = "https://scaledagiledevops.com/"
-# defaultContentLanguage = "en"
-# enableEmoji            = false
-# enableGitInfo          = true
-# metaDataFormat         = "yaml"
-# publishDir             = "public"
-# title = 'Enterprise transformation without the risk of culture change!'
+baseURL                = "https://scaledagiledevops.com/"
+defaultContentLanguage = "en"
+enableEmoji            = false
+enableGitInfo          = true
+metaDataFormat         = "yaml"
+publishDir             = "public"
+title = 'Enterprise transformation without the risk of culture change!'
 theme = "shadocs"
+googleAnalytics = "G-BT3HZK3PLP"
 
-# [taxonomies]
-#   category = "categories"
-#   tag = "tags"
+[taxonomies]
+  category = "categories"
+  tag = "tags"
 
-# [outputs]
-#   home = ["HTML", "JSON"]
+[outputs]
+  home = ["HTML", "JSON"]
 
-# [markup]
-#   defaultMarkdownHandler = "goldmark"
-#   [markup.tableOfContents]
-#     ordered    = false
-#     startLevel = 1
-#     endLevel   = 6
-#   [markup.goldmark.renderer]
-#     unsafe = false
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.tableOfContents]
+    ordered    = false
+    startLevel = 1
+    endLevel   = 6
+  [markup.goldmark.renderer]
+    unsafe = false
 
 [params]
   # Website logo file paths

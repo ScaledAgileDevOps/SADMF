@@ -1,6 +1,5 @@
 ---
 title: Convoy Alignment Agenda
-titleIcon: "fa-solid fa-ship"
 linkTitle: Agenda
 description: Every journey must begin with meticulous, even pedantic, planning
 weight: 2
