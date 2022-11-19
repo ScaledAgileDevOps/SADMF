@@ -5,12 +5,11 @@ linkTitle: Scaled Agile DevOps Maturity Framework
 description: Making enterprises feel better about DevOps transformation since 2021
 weight: 1
 ---
-
-{{< figure src="/images/sadmf-logo.png" caption=" Making enterprises feel better about DevOps transformation since 2021" width="300" >}}
-
 {{< alert type="info" >}}
 **Enterprise transformation without the risk of culture change!**
 {{< /alert >}}
+
+{{< figure src="/images/sadmf-logo.png" caption=" Making enterprises feel better about DevOps transformation since 2021" width="300" >}}
 
 ## Testimonials
 
