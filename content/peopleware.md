@@ -1,14 +1,15 @@
 ---
 title: PeopleWare HR as a Service
+linkTitle: HRaaS
 description: Human Resources as a Service
 weight: 1
 ---
 
 ![HRaaS](/images/HRaaS.jpeg)
 
-{{% notice announce %}}
+{{< alert type="error" >}}
 Introducing PeopleWare!
-{{% /notice %}}
+{{< /alert >}}
 
 PeopleWare is an amazing new product from Scaled Agile DevOps that makes Human Resources easy to manage! Using our exclusive individualized performance metrics and machine learning engine, PeopleWare enables management to maximize [productivity](/metrics) and [psychological safety](/principles/#psychological-safety) simultaneously!
 

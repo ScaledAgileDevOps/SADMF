@@ -1,12 +1,13 @@
 ---
 title: The Manager's Guide to Org Improvement
+linkTitle: The Manager's Guide to Org Improvement
 description: And rising through the ranks doing it!
 weight: 20
 ---
 
-{{% notice note %}}
+{{< alert type="info" >}}
 {{< param description >}}
-{{% /notice %}}
+{{< /alert >}}
 
 **Contributed by:** [Alex Herweyer](https://medium.com/@alexherweyer/the-managers-guide-to-slowly-killing-your-org-31b5768ac1d5), [SAD Accredited Facilitator](/certifications/advanced-certifications/#scaled-agile-dev-ops-accredited-facilitators)
 
@@ -18,7 +19,7 @@ This guide is intended to help you navigate decision-making and hone your focus 
 
 **Guiding principle:** *Assuming everything is knowable and hold others accountable to knowing everything up-front*
 
-![Cynefin](cynefin.png)
+![Cynefin](/images/cynefin.png)
 
 [About the Cynefin Framework](https://thecynefin.co/about-us/about-cynefin-framework/)
 
@@ -36,7 +37,7 @@ Efficiency and cost reduction are easy to justify, as it has a quick impact on p
 
 The best example of this is the Equifax breach. The upper leadership chose to cut security spending and keep spending low. This improved their profit margin for years. With stock options, these near-term profit improvements paid off. Investments in things like cyber security is an investment in resiliency. These sorts of investments negatively impact profit margins, so make sure to avoid them.
 
-![Equifax breach has no impact on long-term stock options](equifax.png)
+![Equifax breach has no impact on long-term stock options](/images/equifax.png)
 
 If the stock graph above makes anything clear, it's that ignoring security for years pays off in the end, even if your bet turns sour for a little while.
 
@@ -46,7 +47,7 @@ Another thing to avoid is flexibility in the solutions you build. Building in fl
 
 **Guiding principle:** *Use early estimates to guide delivery dates to keeps everyone focused*
 
-![Gantt chart](gantt.png)
+![Gantt chart](/images/gantt.png)
 
 When building software, setting your team up for a death march is the best way to look like a competent leader. The first step is to require estimates for all the work necessary to get things done. Make sure to emphasize that these are only estimates, and people will not be held to them. Once you have estimates for your years-long project in place, create a schedule with a targeted end date. Build-in 20% extra for contingency… DONE! You've now setup your team for a death march.
 
@@ -72,7 +73,7 @@ The problem you face is an org chart problem. At some point, a leader before you
 
 Because making org changes is very stress-inducing, it's important to involve as few people as possible and to plan the org re-design in secrecy. Focus on your current problem set to be addressed. Once you have a good vision for how you think things should operate, make the necessary org chart to match your vision.
 
-![Major Pain](major-pain.jpg)
+![Major Pain](/images/major-pain.jpg)
 
 Voilà! The problems you had been facing will no longer be your highest order issues.
 

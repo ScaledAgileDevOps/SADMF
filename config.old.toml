@@ -1,0 +1,68 @@
+baseURL = 'https://scaledagiledevops.com/'
+languageCode = 'en-us'
+title = 'Enterprise transformation without the risk of culture change!'
+theme = "shadocs"
+
+googleAnalytics = "G-BT3HZK3PLP"
+
+[markup.goldmark.renderer]
+unsafe= false
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[[menu.shortcuts]]
+name = "<i class='fa-solid fa-users-gear'></i> PeopleWare"
+url = "peopleware"
+
+[[menu.shortcuts]] 
+name = "<i class='fab fa-twitter'></i> Follow on Twitter!"
+url = "https://twitter.com/SADMF_Certs"
+weight = 1
+
+[[menu.shortcuts]] 
+name = "<i class='fab fa-linkedin'></i> Linkedin"
+url = "https://www.linkedin.com/company/scaled-agile-devops"
+weight = 1
+
+[[menu.shortcuts]] 
+name = "<i class='fab fa-github'></i> SADBOK"
+url = "https://github.com/ScaledAgileDevOps/SADMF"
+weight = 10
+
+[params]
+  disableBreadcrumb = false
+  disableNextPrev = false
+  disableLandingPageButton = true
+  disableMermaid = true
+  customMermaidURL = "https://unpkg.com/mermaid@8.8.0/dist/mermaid.min.js"
+  titleSeparator = "::"
+  # Prefix URL to edit current page. Will display an "Edit this page" button on top right hand corner of every page.
+  # Useful to give opportunity to people to create merge request for your doc.
+  # See the config.toml file from this documentation site to have an example.
+  editURL = ""
+  # Author of the site, will be used in meta information
+  author = "Scaled Agile DevOps"
+  # Description of the site, will be used in meta information
+  description = "Enterprise transformation without the risk of culture change"
+  # Shows a checkmark for visited pages on the menu
+  showVisitedLinks = false
+  # Disable search function. It will hide search bar
+  disableSearch = false
+  # Javascript and CSS cache are automatically busted when new version of site is generated.
+  # Set this to true to disable this behavior (some proxies don't handle well this optimization)
+  disableAssetsBusting = false
+  # Set this to true to disable copy-to-clipboard button for inline code.
+  disableInlineCopyToClipBoard = false
+  # A title for shortcuts in menu is set by default. Set this to true to disable it.
+  disableShortcutsTitle = false
+
+  # When using multilingual website, disable the switch language button.
+  disableLanguageSwitchingButton = false
+
+  # Order sections in menu by "weight" or "title". Default to "weight"
+  ordersectionsby = "weight"
+  # Change default color scheme with a variant one. Can be "red", "blue", "green".
+  themeVariant = "sadmf"
+  # Provide a list of custom css files to load relative from the `static/` folder in the site root.
+  custom_css = ["css/sidebar.css","css/fontawesome6.min.css"]

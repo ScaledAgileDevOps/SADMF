@@ -3,3 +3,4 @@ public/
 .DS_Store
 .hugo_build.lock
 node_modules/
+resources/

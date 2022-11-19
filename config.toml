@@ -1,67 +1,77 @@
-baseURL = 'https://scaledagiledevops.com/'
-languageCode = 'en-us'
-title = 'Enterprise transformation without the risk of culture change!'
-theme = "hugo-theme-learn"
-googleAnalytics = "G-BT3HZK3PLP"
+# baseURL                = "https://scaledagiledevops.com/"
+# defaultContentLanguage = "en"
+# enableEmoji            = false
+# enableGitInfo          = true
+# metaDataFormat         = "yaml"
+# publishDir             = "public"
+# title = 'Enterprise transformation without the risk of culture change!'
+theme = "shadocs"
 
-[markup.goldmark.renderer]
-unsafe= false
+# [taxonomies]
+#   category = "categories"
+#   tag = "tags"
 
-[outputs]
-home = [ "HTML", "RSS", "JSON"]
+# [outputs]
+#   home = ["HTML", "JSON"]
 
-[[menu.shortcuts]]
-name = "<i class='fa-solid fa-users-gear'></i> PeopleWare"
-url = "peopleware"
-
-[[menu.shortcuts]] 
-name = "<i class='fab fa-twitter'></i> Follow on Twitter!"
-url = "https://twitter.com/SADMF_Certs"
-weight = 1
-
-[[menu.shortcuts]] 
-name = "<i class='fab fa-linkedin'></i> Linkedin"
-url = "https://www.linkedin.com/company/scaled-agile-devops"
-weight = 1
-
-[[menu.shortcuts]] 
-name = "<i class='fab fa-github'></i> SADBOK"
-url = "https://github.com/ScaledAgileDevOps/SADMF"
-weight = 10
+# [markup]
+#   defaultMarkdownHandler = "goldmark"
+#   [markup.tableOfContents]
+#     ordered    = false
+#     startLevel = 1
+#     endLevel   = 6
+#   [markup.goldmark.renderer]
+#     unsafe = false
 
 [params]
-  disableBreadcrumb = false
-  disableNextPrev = false
-  disableLandingPageButton = true
-  disableMermaid = true
-  customMermaidURL = "https://unpkg.com/mermaid@8.8.0/dist/mermaid.min.js"
-  titleSeparator = "::"
-  # Prefix URL to edit current page. Will display an "Edit this page" button on top right hand corner of every page.
-  # Useful to give opportunity to people to create merge request for your doc.
-  # See the config.toml file from this documentation site to have an example.
-  editURL = ""
-  # Author of the site, will be used in meta information
-  author = "Scaled Agile DevOps"
-  # Description of the site, will be used in meta information
-  description = "Enterprise transformation without the risk of culture change"
-  # Shows a checkmark for visited pages on the menu
-  showVisitedLinks = false
-  # Disable search function. It will hide search bar
-  disableSearch = false
-  # Javascript and CSS cache are automatically busted when new version of site is generated.
-  # Set this to true to disable this behavior (some proxies don't handle well this optimization)
-  disableAssetsBusting = false
-  # Set this to true to disable copy-to-clipboard button for inline code.
-  disableInlineCopyToClipBoard = false
-  # A title for shortcuts in menu is set by default. Set this to true to disable it.
-  disableShortcutsTitle = false
+  # Website logo file paths
+  logo                    = "/images/sadmf-logo.png"
+  logoTouch               = "images/sadmf-logo.png"
+  # Image file path displayed during a 404 error
+  image404                = "images/404.gif"
+  # Favicon website file path
+  favicon                 = "images/favicon.png"
+  # Default layout used for the homepage
+  # homeLayout              = "onboarding"
+  homeLayout              = "sadmf"
+  # Site content order (https://gohugo.io/templates/lists/#order-content)
+  siteContentOrder        = "weight"
+  # Activate/Deactivate the table of contents globally (sitewide)
+  toc                     = true
+  # Activate a global banner on all website pages
+  globalBanner            = false
+  # Current version of the website
+  currentVersion          = "latest"
+  # Url of the latest version of the website
+  latestVersionUrl        = "https://scaledagiledevops.com/"
+  # Enforce Link resolution using relref function (https://gohugo.io/content-management/cross-references/)
+  enforceRefrelLinks      = false
+  # Keyboard shortcuts list
+  # For each shortcut following keys must be sets:
+  # - keys     = [Keyboard shortcuts table](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/key/Key_Values)
+  # - function = "Javascript function name to call by the shortcut"
+  [params.navbar.shortcuts]
+    # Example shortcut definition
+    [params.navbar.shortcuts.example]
+      keys     = ["Shift","1"]
+      function = "scExample"
+  # Taxonomies list
+  # For each taxonomy following keys can be sets:
+  # - icon = "Fontawesome classes associated to the taxonomy"
+  [params.taxonomies]
+    [params.taxonomies.categories]
+      icon = "fa-solid fa-table-cells"
+  # Assets list (https://gohugo.io/hugo-pipes/resource-from-template/) to include
+  # Managed assets:
+  # - sass                  = [List of SASS files]
+  # - css                   = [List of CSS files]
+  # - js                    = [List of javascript files]
+  # - jsModules             = [List of javascript modules]
+  # - shortcodes.css        = [List of CSS files to includes when the associated shortcode exist in the page content]
+  # - shortcodes.js         = [List of javascript files to includes when the associated shortcode exist in the page content]
+  # - shortcodes.jsModules  = [List of javascript module files to includes when the associated shortcode exist in the page content]
+  # - fencedcodes.css       = [List of CSS files to includes when the associated language of fenced code exist in the page content]
+  # - fencedcodes.js        = [List of javascript files to includes when the associated language of fenced code exist in the page content]
+  # - fencedcodes.jsModules = [List of javascript module files to includes when the associated language of fenced code exist in the page content]
+  #
 
-  # When using multilingual website, disable the switch language button.
-  disableLanguageSwitchingButton = false
-
-  # Order sections in menu by "weight" or "title". Default to "weight"
-  ordersectionsby = "weight"
-  # Change default color scheme with a variant one. Can be "red", "blue", "green".
-  themeVariant = "sadmf"
-  # Provide a list of custom css files to load relative from the `static/` folder in the site root.
-  custom_css = ["css/sidebar.css","css/fontawesome6.min.css"]

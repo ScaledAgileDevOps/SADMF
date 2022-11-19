@@ -1,12 +1,13 @@
 ---
 title: Roles
+linkTitle: Roles
 description: Commanding the organization requires structure, clearly defined roles, and strict separation of duties! 
 weight: 5
 ---
 
-{{% notice note %}}
+{{< alert type="info" >}}
 {{< param description >}}
-{{% /notice %}}
+{{< /alert >}}
 
 ## Admirals Transformation Office (ATO)
 

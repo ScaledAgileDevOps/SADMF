@@ -1,16 +1,17 @@
 ---
 title: Scaled Agile DevOps Maturity Framework
+linkTitle: Scaled Agile DevOps Maturity Framework
 description: Making enterprises feel better about DevOps transformation since 2021
 weight: 1
 ---
 
-# {{< param title >}}
+{{< figure src="/images/sadmf-logo.png" 
+attr="Making enterprises feel better about DevOps transformation since 2021" 
+width="300" >}}
 
-{{< figure src="/images/sad-certified-sm.png" title="Making enterprises feel better about DevOps transformation since 2021" width="60%" >}}
-
-{{% notice note %}}
+{{< alert type="info" >}}
 **Enterprise transformation without the risk of culture change!**
-{{% /notice %}}
+{{< /alert >}}
 
 ## Testimonials
 
@@ -43,4 +44,4 @@ If you are working this way, it's **VERY** real.
 
 ---
 
-{{% children depth="3" description="true" %}}
+{{< treeview />}}
