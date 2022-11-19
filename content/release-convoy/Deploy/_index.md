@@ -1,6 +1,7 @@
 ---
 title: Deploy the Fleet
-linkTitle: Deploy
+titleIcon: "fa-solid fa-ship"
+linkTitle: Delivering Change
 description: Delivering software is scary. We need layers of process to feel better.
 weight: 2
 ---

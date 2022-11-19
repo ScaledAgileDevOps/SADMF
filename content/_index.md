@@ -1,5 +1,6 @@
 ---
 title: Scaled Agile DevOps Maturity Framework
+titleIcon: "fa-solid fa-ship"
 linkTitle: Scaled Agile DevOps Maturity Framework
 description: Making enterprises feel better about DevOps transformation since 2021
 weight: 1

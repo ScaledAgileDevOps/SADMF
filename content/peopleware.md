@@ -1,5 +1,6 @@
 ---
 title: PeopleWare HR as a Service
+titleIcon: "fa-solid fa-ship"
 linkTitle: HRaaS
 description: Human Resources as a Service
 weight: 1

@@ -1,5 +1,6 @@
 ---
 title: Certifications
+titleIcon: "fa-solid fa-ship"
 linkTitle: Certifications
 description: Get your SAD certifications today!
 weight: 98

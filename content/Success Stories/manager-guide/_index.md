@@ -1,5 +1,6 @@
 ---
 title: The Manager's Guide to Org Improvement
+titleIcon: "fa-solid fa-ship"
 linkTitle: The Manager's Guide to Org Improvement
 description: And rising through the ranks doing it!
 weight: 20

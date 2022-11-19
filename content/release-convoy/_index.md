@@ -1,5 +1,6 @@
 ---
 title: DevOps Release Convoy
+titleIcon: "fa-solid fa-ship"
 linkTitle: DevOps Release Convoy
 description: The only way to ensure delivery alignment!
 weight: 1

@@ -1,5 +1,6 @@
 ---
 title: Metrics
+titleIcon: "fa-solid fa-ship"
 linkTitle: Metrics
 description: Management via metrics is the most effective way to cause impact!
 weight: 10

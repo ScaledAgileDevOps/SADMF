@@ -75,3 +75,7 @@ theme = "shadocs"
   # - fencedcodes.jsModules = [List of javascript module files to includes when the associated language of fenced code exist in the page content]
   #
 
+[params.includes]
+    css = [
+      "css/fontawesome6.min.css"
+    ]

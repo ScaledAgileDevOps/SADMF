@@ -1,5 +1,6 @@
 ---
 title: Roles
+titleIcon: "fa-solid fa-ship"
 linkTitle: Roles
 description: Commanding the organization requires structure, clearly defined roles, and strict separation of duties! 
 weight: 5
