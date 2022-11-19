@@ -8,6 +8,7 @@
     "lint": "markdownlint ./content/**/*.md",
     "lint:fix": "markdownlint -f ./content/**/*.md",
     "prepare": "husky install",
+    "postinstall": "git submodule update --init --recursive",
     "test": "npm run lint; npm run link-check",
     "link-check": "start-server-and-test start http://localhost:1313 'blc http://localhost:1313 --recursive --ordered --exclude-external'",
     "start": "hugo serve"
