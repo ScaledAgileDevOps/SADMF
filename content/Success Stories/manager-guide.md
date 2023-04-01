@@ -35,7 +35,7 @@ When considering new ideas, only work on the things you are certain will succeed
 
 Efficiency and cost reduction are easy to justify, as it has a quick impact on profitability. As a manager, focusing on near-term efficiency is the right move, every time.
 
-The best example of this is the Equifax breach. The upper leadership chose to cut security spending and keep spending low. This improved their profit margin for years. With stock options, these near-term profit improvements paid off. Investments in things like cyber security is an investment in resiliency. These sorts of investments negatively impact profit margins, so make sure to avoid them.
+The best example of this is the Equifax breach. The upper leadership chose to cut security spending and keep spending low. This improved their profit margin for years. With stock options, these near-term profit improvements paid off. Investmenting in things like cyber security is an investment in resiliency. These sorts of investments negatively impact profit margins, so make sure to avoid them.
 
 ![Equifax breach has no impact on long-term stock options](/images/equifax.png)
 
@@ -43,13 +43,13 @@ If the stock graph above makes anything clear, it's that ignoring security for y
 
 Another thing to avoid is flexibility in the solutions you build. Building in flexibility allows things to be changed later… after you've moved on to another job. The manager replacing you will get all the credit for adapting to market changes, not you. It's better to build to suit and save money now than to build something that will work in perpetuity. Why build something that lasts more than a few years anyways? Whatever you are putting into place will be replaced, right?
 
-### Setting up your team for a death march — managing to initial estimates with 100% capacity utilization baked into plan
+### Setting up your team for a death march — managing to initial estimates with 100% capacity utilization baked into the plan
 
-**Guiding principle:** *Use early estimates to guide delivery dates to keeps everyone focused*
+**Guiding principle:** *Use early estimates to guide delivery dates to keep everyone focused*
 
 ![Gantt chart](/images/gantt.png)
 
-When building software, setting your team up for a death march is the best way to look like a competent leader. The first step is to require estimates for all the work necessary to get things done. Make sure to emphasize that these are only estimates, and people will not be held to them. Once you have estimates for your years-long project in place, create a schedule with a targeted end date. Build-in 20% extra for contingency… DONE! You've now setup your team for a death march.
+When building software, setting your team up for a death march is the best way to look like a competent leader. The first step is to require estimates for all the work necessary to get things done. Make sure to emphasize that these are only estimates, and people will not be held to them. Once you have estimates for your years-long project in place, create a schedule with a targeted end date. Build-in 20% extra for contingency… DONE! You've now set up your team for a death march.
 
 Execution is key though. Make sure that the team is focusing their time on the easy things first. You don't tell the team that, of course. Rather, ask them for weekly status updates and insist that they stay on schedule. The team will naturally focus on those things with the least amount of unknowns. By doing this, you and the team will be saving the hard things for the end, with good progress in the first two-thirds of the original timeline.
 
@@ -61,7 +61,7 @@ Once you've completed the project, celebrate it. You've earned it.
 
 **Guiding principle:** *The system will stop everything that wasn't supposed to happen*
 
-Telling people 'no' is uncomfortable. Often new and exciting ideas will be presented to you and you'll need to deal with these somehow. This is when leaning into the bureaucracy comes in handy. Anyone that works in a company that has been around more than a decade knows that there is a confusing and conflicting maze of rules. These rules make it nearly impossible to get work done, especially when doing something new. What should you do when someone asks for permission to pursue the idea? Just say yes and let the system stop them!
+Telling people 'no' is uncomfortable. Often new and exciting ideas will be presented to you and you'll need to deal with these somehow. This is when leaning into the bureaucracy comes in handy. Anyone that works in a company that has been around for more than a decade knows that there is a confusing and conflicting maze of rules. These rules make it nearly impossible to get work done, especially when doing something new. What should you do when someone asks for permission to pursue the idea? Just say yes and let the system stop them!
 
 Using this approach is pretty straightforward. If the idea is actually compelling and whoever is driving it succeeds, you can claim credit for green-lighting it. The more likely scenario is that the effort will stall out, at which point, you can shrug it off.
 
@@ -75,7 +75,7 @@ Because making org changes is very stress-inducing, it's important to involve as
 
 ![Major Pain](/images/major-pain.jpg)
 
-Voilà! The problems you had been facing will no longer be your highest order issues.
+Voilà! The problems you had been facing will no longer be your highest-order issues.
 
 ### Focus on what's wrong with individual performance — allot most of your attention to poor performers
 
