@@ -34,6 +34,10 @@ This branching pattern is required to meet the goals of the framework. Great ins
 
 {{< figure src="/images/fractal-based-development-sm.png" title="Fractal-based Development" >}}
 
+## Precise Forecasting and Tracking
+
+All estimations must be converted back and forth between story points and person days to ensure [Feature Completion Ratio](/metrics/#feature-completion-ratio) can be traced on team and management level. This conversion also enables comparison of teams and makes dashboarding a breeze.
+
 ## Release Tracking
 
 We need the correct information to ensure [Everyone is Responsible](/principles/#everyone-is-responsible). To that end, we need to track every release, who approved the release, and who made the changes in the release. This allows us to [Build Quality In](/principles/#build-quality-in).
