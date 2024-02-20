@@ -79,6 +79,14 @@ combinations that may be used for naming things during coding. This ensures that
 Engineers](/roles/#code-engineer-ce) will not be confused when they join a new Feature Team for the next Convoy. The
 EARB will meet every 6 weeks to review and reject any new words submitted for inclusion.
 
+## Change Rejection or Acceptance Party (CRAP)
+
+The CRAP is responsible for reviewing all changes and rejecting any changes that do not meet the the iteration standards set by the [Admirals Transformation Office](#admirals-transformation-office-ato). The CRAP will also be responsible for accepting changes that meet the standards and are ready to be included in the next [Convoy](/release-convoy/).
+
+## Review Board Review Board (RBRB)
+
+The RBRB is responsible for reviewing the work of the [Enterprise Architecture Review Board](#enterprise-architecture-review-board-earb) and the [Change Rejection or Acceptance Party](#change-rejection-or-acceptance-party-crap). The RBRB will meet every 26 weeks to review and reject any decisions made by the EARB and CRAP.
+
 ## Feature Captain (FC)
 
 The mid-level manager who is responsible for tracking the progress of the feature they are assigned to.
