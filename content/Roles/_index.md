@@ -23,12 +23,15 @@ These YAML experts are responsible for dictating to the [Code Engineers](#code-e
 and writing the YAML to make that happen. Updating commands in YAML takes away from feature delivery and [Code
 Engineers](#code-engineer-ce) should focus on features.
 
-## Change Oversight Board (COB)
+## Change Rejection or Acceptance Party (CRAP)
 
-The COB is responsible for reviewing and rejecting any change that does not have the change checklist filled in
-correctly. A COB should be comprised of seven people from areas without knowledge of the systems being changed to ensure
+The CRAP is responsible for reviewing all changes and rejecting any changes that do not meet the iteration standards set
+by the [Admirals Transformation Office](#admirals-transformation-office-ato) or that does not have the change checklist filled in
+correctly. The CRAP will also be responsible for
+accepting changes that meet the standards and are ready to be included in the next [Convoy](/release-convoy/). The
+meeting dias should contain seven people from areas without knowledge of the systems being changed to ensure
 that the proper levels of detachment and objectivity can be maintained. They will meet twice per week and all approval decisions
-must be by unanimous secret vote. Supplicants to the COB will take an oath that
+must be by unanimous secret vote. Meeting supplicants will take an oath that
 they have applied all of the controls on the checklist.
 
 ## Chief Signals Officer (CSO)
@@ -79,14 +82,6 @@ combinations that may be used for naming things during coding. This ensures that
 Engineers](/roles/#code-engineer-ce) will not be confused when they join a new Feature Team for the next Convoy. The
 EARB will meet every 6 weeks to review and reject any new words submitted for inclusion.
 
-## Change Rejection or Acceptance Party (CRAP)
-
-The CRAP is responsible for reviewing all changes and rejecting any changes that do not meet the the iteration standards set by the [Admirals Transformation Office](#admirals-transformation-office-ato). The CRAP will also be responsible for accepting changes that meet the standards and are ready to be included in the next [Convoy](/release-convoy/).
-
-## Review Board Review Board (RBRB)
-
-The RBRB is responsible for reviewing the work of the [Enterprise Architecture Review Board](#enterprise-architecture-review-board-earb) and the [Change Rejection or Acceptance Party](#change-rejection-or-acceptance-party-crap). The RBRB will meet every 26 weeks to review and reject any decisions made by the EARB and CRAP.
-
 ## Feature Captain (FC)
 
 The mid-level manager who is responsible for tracking the progress of the feature they are assigned to.
@@ -108,13 +103,15 @@ the only TRUE way to test it!
 
 ## Review Board Review Board (RBRB)
 
-To ensure that all decisions made by the [EARB](#enterprise-architecture-review-board-earb) and the [COB](#change-oversight-board-cob) align with fleet
-standards, the RBRB will perform a final review of all architecture decisions and change approvals. The members of the
+The RBRB is responsible for reviewing the work of the [Enterprise Architecture Review
+Board](#enterprise-architecture-review-board-earb) and the [Change Rejection or Acceptance
+Party](#change-rejection-or-acceptance-party-crap). The RBRB will meet every 3 weeks to review and reject any decisions
+made by the EARB and CRAP. The members of the
 RBRB must come from areas as far removed from the work as possible to maintain objectivity.
 
 ## Source Management Team (SMT)
 
-To improve [Code Engineer](#code-engineer-ce) productivity by reducing the work required for integrating changes, we
+To improve [Code Engineer](#code-engineer-ce) productivity by reducing the work required to integrate changes, we
 introduce the Source Management Team. The SMT is responsible for authorizing new [feature
 branches](/practices/#fractal-based-development), creating the branches, and merging the complete branches from each
 [Code Engineer](#code-engineer-ce) into the Conflict Arbitration branch. They will then resolve all conflicts for the
