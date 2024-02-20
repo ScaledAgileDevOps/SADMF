@@ -2,31 +2,31 @@
   "name": "SADMF",
   "version": "1.0.0",
   "description": "Scaled Agile DevOps Maturity Framework",
-  "main": "hugo serve",
-  "scripts": {
-    "build": "hugo",
-    "lint": "markdownlint ./content/**/*.md",
-    "lint:fix": "markdownlint -f ./content/**/*.md",
-    "prepare": "husky install",
-    "postinstall": "git submodule update --init --recursive",
-    "test": "npm run lint; npm run link-check",
-    "link-check": "start-server-and-test start http://localhost:1313 'blc http://localhost:1313 --recursive --ordered --exclude-external'",
-    "start": "hugo serve"
-  },
+  "keywords": [
+    "agile"
+  ],
+  "homepage": "https://scaledagiledevops.com",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ScaledAgileDevOps/SADMF.git"
   },
-  "keywords": [
-    "agile"
-  ],
-  "author": "Bran Finster",
   "license": "CC-BY-4.0",
-  "homepage": "https://scaledagiledevops.com",
+  "author": "Bran Finster",
+  "main": "hugo serve",
+  "scripts": {
+    "build": "hugo",
+    "postinstall": "git submodule update --init --recursive",
+    "link-check": "start-server-and-test start http://localhost:1313 'blc http://localhost:1313 --recursive --ordered --exclude-external'",
+    "lint": "markdownlint ./content/**/*.md",
+    "lint:fix": "markdownlint -f ./content/**/*.md",
+    "prepare": "husky install",
+    "start": "hugo serve",
+    "test": "npm run lint; npm run link-check"
+  },
   "devDependencies": {
+    "broken-link-checker": "^0.7.8",
     "husky": "^9.0.11",
-    "markdownlint-cli": "^0.32.2",
-    "start-server-and-test": "^2.0.3",
-    "broken-link-checker": "^0.7.8"
+    "markdownlint-cli": "^0.39.0",
+    "start-server-and-test": "^2.0.3"
   }
 }
