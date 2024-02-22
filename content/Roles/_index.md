@@ -56,6 +56,13 @@ This role is the backbone of a SAD implementation. The job of the Code Engineer 
 Since a Code Engineer is expected to be an expert at data structures and algorithms, fewer questions indicate more
 expertise.
 
+## Co-Owner,Product (COP)
+
+The COP , together with other COPs is the Single Point of Contact for their Product and has 
+undivided ownership and accountability for decisions made concerning the Product. Together with other COPs they beat
+up the [Code Engineer](#code-engineer-ce) and [Quality Authority](#quality-authority-qa) until they confess that it 
+is possible to reach a given deadline.
+
 ## Commodore (C)
 
 The Commodore is responsible for collecting status reports for the Convoy and ensuring all steps in the Framework are
