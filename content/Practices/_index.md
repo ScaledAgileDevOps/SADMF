@@ -34,6 +34,10 @@ This branching pattern is required to meet the goals of the framework. Great ins
 
 {{< figure src="/images/fractal-based-development-sm.png" title="Fractal-based Development" >}}
 
+## Multi-Trunk Based Development (Pando)
+
+Trunk Based Development is a standard in current software development practice, but limits the ability to maintain multiple concurrent long-living branches.To enable scaling and Fractal-based Development we introduce Multi-Trunk Based Development. Taking inspiration from Pando tree, SADMF can have and endless amount of  trunks with green branches and leaves. 
+
 ## Precise Forecasting and Tracking
 
 All estimations must be converted back and forth between story points and person days to ensure [Feature Completion Ratio](/metrics/#feature-completion-ratio) can be traced on team and management level. This conversion also enables comparison of teams and makes dashboarding a breeze.
