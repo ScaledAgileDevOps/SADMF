@@ -18,6 +18,10 @@ weight: 10
 
 Code review is important to ensure code is formatted correctly. We measure the number of review comments to verify each [Code Engineer](/roles/#code-engineer-ce) is being critical enough of the work of others.
 
+## Number of Changes Per Trunk
+
+Number of Features merged per trunk. 
+
 ## Tasks per Code Engineer
 
 For each [Code Engineer](/roles/#code-engineer-ce), the number of tasks they complete during Convoy. By tracking the number of features each [Code Engineer](/roles/#code-engineer-ce) completes, more can be shipped in each Convoy. Volume is important. Let's turn it up to 11!
