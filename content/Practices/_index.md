@@ -36,7 +36,7 @@ This branching pattern is required to meet the goals of the framework. Great ins
 
 ## Multi-Trunk Based Development (Pando)
 
-Trunk Based Development is a standard in current software development practice, but limits the ability to maintain multiple concurrent long-living branches.To enable scaling and Fractal-based Development we introduce Multi-Trunk Based Development. Taking inspiration from Pando tree, SADMF can have and endless amount of  trunks with green branches and leaves. 
+Trunk Based Development is a standard in current software development practice, but limits the ability to maintain multiple concurrent long-living branches.To enable scaling and Fractal-based Development we introduce Multi-Trunk Based Development. Taking inspiration from Pando tree, SADMF can have an endless amount of trunks with green branches and leaves. 
 
 ## Precise Forecasting and Tracking
 
