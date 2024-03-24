@@ -103,7 +103,7 @@ As management, demand to be invited to all of the thirteen ceremonies, being the
 
 ## Training in Teams (TiT)
 
-Regardless of what the SAD MF says, there is no need for training the resources since everything is readily available on the \[SAD website\] (<https://scaledagiledevops.com/>). Management probably also forgot possible training expenses in their **YSVIBAICS**.
+Regardless of what the SAD MF says, there is no need for training the resources since everything is readily available on the [SAD website](https://scaledagiledevops.com/). Management probably also forgot possible training expenses in their **YSVIBAICS**.
 
 {{< blockquote >}}
 **Hint:**
