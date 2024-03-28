@@ -9,7 +9,7 @@ weight: 20
 {{< param description >}}
 {{< /alert >}}
 
-**Contributed by:** [Dirk Fabricius](https://www.linkedin.com/in/dirkfabricius/), [SAD Accredited Facilitator](/certifications/advanced-certifications/#scaled-agile-dev-ops-accredited-facilitators) on April 1, 2023
+**Contributed by:** [Dirk Fabricius](https://www.linkedin.com/in/dirkfabricius/), [SAD Accredited Facilitator](/certifications/#scaled-agile-dev-ops-accredited-facilitators) on April 1, 2023
 
 Some companies have steep hierarchies where managers are labeled by letters and [numbers](https://www.youtube.com/watch?v=hphXPJJMl7g). When discussing these positions, it can sound like a game of chess: "F2 to E1." This case study features one such company that, until recently, was a moderately happy place where development teams even deployed code from time to time. However, according to an article in a management magazine, they were not performing among the top 5% of companies worldwide, such as Google, Apple, Facebook, and Amazon. As a result, management decided to implement the [Scaled Agile Dev Ops Maturity Framework](https://scaledagiledevops.com), which, surprisingly, nobody at Google, Apple, Facebook, or Amazon had ever heard of. This article shares their success story, implementation roadmap, and important tips for anyone considering implementing this or any other scaling framework.
 
@@ -163,13 +163,13 @@ This tool is part of any [mushroom management](https://en.wikipedia.org/wiki/Mus
 
 ![Jira is crap](/images/transition-to-sadmf/257cfab0f75875ee5bf85919f07d0f4fd2fa745f91951477.png)
 
-* GPT-10 understood Jira and started an all-out war against Atlassian![](/images/transition-to-sadmf/Aspose.Words.2396e609-f9e5-450c-81b4-b5779164ce63.010.png)
+* GPT-10 understood Jira and started an all-out war against Atlassian!
 
 Management has made this a multi-level system portfolio enterprise configuration, so no single team has been able to achieve anything on their own, needing a steep hierarchy with approvals and informing management at the top for even going to the restroom. Now management is enabled to tell anyone in the newly defined organization that they are doing "it" [wrong](https://www.youtube.com/watch?v=AjSOQodHYJs) at any point in time.
 
 ![This is Madness](/images/transition-to-sadmf/7d6795284fbd8d63bcb84bcb908470d3c71ad2b44b37e5af.png)
 
-* Exaggeration just for teaching purposes — no one in their right mind would use something like this — source: \<https://scaledagileframework.com/\>
+* Exaggeration just for teaching purposes — no one in their right mind would use something like this — source: [https://scaledagileframework.com](https://scaledagileframework.com)
 
 {{< blockquote >}}
 **Hint:**
