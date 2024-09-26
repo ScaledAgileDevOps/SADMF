@@ -1,7 +1,8 @@
 [build]
-  command = "hugo"
-  publish = "public"
+    command = "hugo"
+    publish = "public"
 
-[build.environment]
-  HUGO_VERSION       = "0.105.0"
-  HUGO_ENABLEGITINFO = "true"
+    [build.environment]
+        GO_VERSION   = "1.23.0"
+        HUGO_VERSION = "0.134.3"
+        NODE_VERSION = "20"
