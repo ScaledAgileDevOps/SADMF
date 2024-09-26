@@ -9,5 +9,3 @@ weight: 99
 {{< alert type="info" >}}
 {{< param description >}}
 {{< /alert >}}
-
-{{< treeview />}}

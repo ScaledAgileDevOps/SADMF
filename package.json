@@ -21,7 +21,7 @@
     "lint:fix": "markdownlint -f ./content/**/*.md",
     "start": "hugo serve",
     "test": "npm run lint; npm run link-check",
-    "update": "npx npm-check-updates -u && npm install"
+    "update": "hugo mod get -u ./... && hugo mod tidy && npx npm-check-updates -u && npm install"
   },
   "devDependencies": {
     "broken-link-checker": "^0.7.8",
