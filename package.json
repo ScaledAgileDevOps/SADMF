@@ -17,6 +17,7 @@
     "build": "hugo",
     "postinstall": "git submodule update --init --recursive",
     "link-check": "start-server-and-test start http://localhost:1313 'blc http://localhost:1313 --recursive --ordered --exclude-external'",
+    "link-check2": "npm run build:clean && linkinator --recurse public/ --config ./linkinator.config.json",
     "lint": "markdownlint ./content/**/*.md",
     "lint:fix": "markdownlint -f ./content/**/*.md",
     "start": "hugo serve",
@@ -24,8 +25,13 @@
     "update": "hugo mod get -u ./... && hugo mod tidy && npx npm-check-updates -u && npm install"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.20",
     "broken-link-checker": "^0.7.8",
+    "linkinator": "^6.1.1",
     "markdownlint-cli": "^0.42.0",
+    "postcss": "^8.4.47",
+    "postcss-cli": "^11.0.0",
+    "prettier": "^3.3.3",
     "start-server-and-test": "^2.0.8"
   }
 }
