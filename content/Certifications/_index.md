@@ -2,13 +2,14 @@
 title: Certifications
 titleIcon: "fa-solid fa-certificate"
 linkTitle: Certifications
+type: docs
 description: Get your SAD certifications today!
 weight: 98
 ---
 
-{{< alert type="info" >}}
+{{% alert title="" color="info" %}}
 {{< param description >}}
-{{< /alert >}}
+{{% /alert %}}
 
 ## Scaled Agile DevOps Practitioner
 
@@ -27,9 +28,9 @@ SAD Fellows have demonstrated they are as valuable as at least four practitioner
 
 [Apply for Certified Fellow](https://www.buymeacoffee.com/sadmf/e/47598)
 
-{{< alert type="info" >}}
+{{% alert title="" color="info" %}}
 Moving beyond the basics for truly SAD outcomes!
-{{< /alert >}}
+{{% /alert %}}
 
 ## Scaled Agile Dev Ops Accredited Facilitators
 

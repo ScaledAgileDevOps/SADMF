@@ -1,13 +1,14 @@
 ---
 title: The Manager's Guide to Org Improvement
 linkTitle: The Manager's Guide to Org Improvement
+type: docs
 description: And rising through the ranks doing it!
 weight: 20
 ---
 
-{{< alert type="info" >}}
+{{% alert title="" color="info" %}}
 {{< param description >}}
-{{< /alert >}}
+{{% /alert %}}
 
 **Contributed by:** [Alex Herweyer](https://medium.com/@alexherweyer/the-managers-guide-to-slowly-killing-your-org-31b5768ac1d5), [SAD Accredited Facilitator](/certifications/advanced-certifications/#scaled-agile-dev-ops-accredited-facilitators)
 

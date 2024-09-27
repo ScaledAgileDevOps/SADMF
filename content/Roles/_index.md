@@ -2,13 +2,14 @@
 title: Roles
 titleIcon: "fa-solid fa-user"
 linkTitle: Roles
+type: docs
 description: Commanding the organization requires structure, clearly defined roles, and strict separation of duties! 
 weight: 5
 ---
 
-{{< alert type="info" >}}
+{{% alert title="" color="info" %}}
 {{< param description >}}
-{{< /alert >}}
+{{% /alert %}}
 
 ## Admirals Transformation Office (ATO)
 

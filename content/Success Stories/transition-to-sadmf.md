@@ -1,13 +1,14 @@
 ﻿---
 title: Transition to the Scaled Agile DevOps Maturity Framework
 linkTitle: Transition to SADMF
+type: docs
 description: A case study of an enterprise transformation without the risk of cultural change!
 weight: 20
 ---
 
-{{< alert type="info" >}}
+{{% alert title="" color="info" %}}
 {{< param description >}}
-{{< /alert >}}
+{{% /alert %}}
 
 **Contributed by:** [Dirk Fabricius](https://www.linkedin.com/in/dirkfabricius/), [SAD Accredited Facilitator](/certifications/advanced-certifications/#scaled-agile-dev-ops-accredited-facilitators) on April 1, 2023
 

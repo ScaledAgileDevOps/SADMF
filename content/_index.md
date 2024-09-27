@@ -2,12 +2,13 @@
 title: Scaled Agile DevOps Maturity Framework
 titleIcon: "fa-solid fa-ship"
 linkTitle: Scaled Agile DevOps Maturity Framework
+type: docs
 description: Making enterprises feel better about DevOps transformation since 2021
 weight: 1
 ---
-{{< alert type="info" >}}
+{{% alert title="" color="info" %}}
 **Enterprise transformation without the risk of culture change!**
-{{< /alert >}}
+{{% /alert %}}
 
 {{< figure src="/images/sadmf-logo.png" caption=" Making enterprises feel better about DevOps transformation since 2021" width="300" >}}
 

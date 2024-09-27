@@ -2,13 +2,14 @@
 title: Principles
 titleIcon: "fa-solid fa-filter"
 linkTitle: Principles
+type: docs
 description: We must adhere to the correct principles to correctly perform the practices.
 weight: 2
 ---
 
-{{< alert type="info" >}}
+{{% alert title="" color="info" %}}
 {{< param description >}}
-{{< /alert >}}
+{{% /alert %}}
 
 ## Build Quality In
 
@@ -18,7 +19,7 @@ Quality software comes from quality people. Therefore, Poor quality software mus
 
 Too many releases are hard to report and manage. To reduce the number of updates to the [Release Tracking](/practices/#release-tracking) spreadsheet, we should focus on a small number of releases each quarter. This provides us with more time to [Amplify Feedback](#amplify-feedback).
 
-## Limit WIP 
+## Limit WIP
 
 Workers Idle Problem is when workers are idle, that's a problem. We should ensure everyone is planned at 120% capacity. Having these stretch goals ensures everyone exerts maximum effort. This ensures no idle downtime, which intuitively, is waste. Limiting WIP is a key foundation to how we ensure you are maximizing capacity utilization in our organization. This also helps to ensure that time in the Coding Pool remains as short as possible.
 
@@ -36,8 +37,8 @@ When we need to help resources with the opportunity to find positions with other
 
 ## Systems Thinking
 
-{{< alert type="info" >}}
+{{% alert title="" color="info" %}}
 **A system will produce exactly what is designed to produce -- W. Edward Demming**
-{{< /alert >}}
+{{% /alert %}}
 
 The Scaled Agile DevOps Maturity Framework is built upon systems thinking. There are two systems that operate within the SADMF System. The [System of Authority (SOA)*](/roles/#system-of-authority-soa) (SOA) and the [System of Service (SOS)*](/roles/#system-of-service-sos) (SOS). Both Systems are accountable to the [Admiral's Transformation Office (ATO)*](/roles/#admirals-transformation-office-ato).
