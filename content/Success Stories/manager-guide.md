@@ -9,7 +9,7 @@ weight: 20
 {{< param description >}}
 {{< /alert >}}
 
-**Contributed by:** [Alex Herweyer](https://medium.com/@alexherweyer/the-managers-guide-to-slowly-killing-your-org-31b5768ac1d5), [SAD Accredited Facilitator](/certifications/advanced-certifications/#scaled-agile-dev-ops-accredited-facilitators)
+**Contributed by:** [Alex Herweyer](https://medium.com/@alexherweyer/the-managers-guide-to-slowly-killing-your-org-31b5768ac1d5), [SAD Accredited Facilitator](/certifications/#scaled-agile-dev-ops-accredited-facilitators)
 
 Being a people leader in a large company can be exhausting. Often times it seems like the entire system is working against you. There is good news and bad news. The bad news is that, yes, the systems in large organizations are stacked against you. The good news is that these systems can be exploited for your own personal gain!
 
