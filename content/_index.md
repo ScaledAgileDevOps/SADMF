@@ -2,12 +2,13 @@
 title: Scaled Agile DevOps Maturity Framework
 titleIcon: "fa-solid fa-ship"
 linkTitle: Scaled Agile DevOps Maturity Framework
+type: docs
 description: Making enterprises feel better about DevOps transformation since 2021
 weight: 1
 ---
-{{< alert type="info" >}}
+{{% alert title="" color="info" %}}
 **Enterprise transformation without the risk of culture change!**
-{{< /alert >}}
+{{% /alert %}}
 
 {{< figure src="/images/sadmf-logo.png" caption=" Making enterprises feel better about DevOps transformation since 2021" width="300" >}}
 
@@ -15,9 +16,9 @@ weight: 1
 
 Real-world feedback from those who've been impacted by Scaled Agile DevOps!
 
-{{< blockquote >}}
+{{% pageinfo color="info" %}}
 *"Thank you for making the world a better place by coming up with Scaled Agile DevOps!"* -- Joep Piscaer
-{{< /blockquote >}}
+{{% /pageinfo %}}
 
 Watch this [amazing training video](https://youtu.be/zMI2FykK7j4) presented by a senior Accredited Facilitator!
 
@@ -43,5 +44,3 @@ We suggest using the [Certified Really Agile Practitioner](https://www.youtube.c
 If you are working this way, it's **VERY** real.
 
 ---
-
-{{< treeview />}}

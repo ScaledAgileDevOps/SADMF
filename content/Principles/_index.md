@@ -2,13 +2,14 @@
 title: Principles
 titleIcon: "fa-solid fa-filter"
 linkTitle: Principles
+type: docs
 description: We must adhere to the correct principles to correctly perform the practices.
 weight: 2
 ---
 
-{{< alert type="info" >}}
+{{% alert title="" color="info" %}}
 {{< param description >}}
-{{< /alert >}}
+{{% /alert %}}
 
 ## Build Quality In
 
@@ -36,8 +37,8 @@ When we need to help resources with the opportunity to find positions with other
 
 ## Systems Thinking
 
-{{< alert type="info" >}}
+{{% alert title="" color="info" %}}
 **A system will produce exactly what is designed to produce -- W. Edward Demming**
-{{< /alert >}}
+{{% /alert %}}
 
 The Scaled Agile DevOps Maturity Framework is built upon systems thinking. There are two systems that operate within the SADMF System. The [System of Authority (SOA)*](/roles/#system-of-authority-soa) (SOA) and the [System of Service (SOS)*](/roles/#system-of-service-sos) (SOS). Both Systems are accountable to the [Admiral's Transformation Office (ATO)*](/roles/#admirals-transformation-office-ato).

@@ -1,13 +1,14 @@
 ﻿---
 title: Transition to the Scaled Agile DevOps Maturity Framework
 linkTitle: Transition to SADMF
+type: docs
 description: A case study of an enterprise transformation without the risk of cultural change!
 weight: 20
 ---
 
-{{< alert type="info" >}}
+{{% alert title="" color="info" %}}
 {{< param description >}}
-{{< /alert >}}
+{{% /alert %}}
 
 **Contributed by:** [Dirk Fabricius](https://www.linkedin.com/in/dirkfabricius/), [SAD Accredited Facilitator](/certifications/#scaled-agile-dev-ops-accredited-facilitators) on April 1, 2023
 
@@ -27,11 +28,11 @@ Implementing a framework like SAD needs a waterfall initiative — a fancy word 
 
 In this case, management came up with an innovative title, calling it the "DevOps Initiative."
 
-{{< blockquote >}}
+{{% pageinfo color="info" %}}
 **Hint:**
 
 Don't be too specific here. You can still do whatever you like with your new budget. No one really knows what DevOps is about. You can even implement a scaling framework of your choosing and claim this was planned all along.
-{{< /blockquote >}}
+{{% /pageinfo %}}
 
 ## Kick-off Deep Dive Purpose Ceremony
 
@@ -47,11 +48,11 @@ The consultants that were hired were misleadingly called Agile Coaches, despite 
 
 Management assembled a team with a catchy name, consisting of the three consultants, colleagues who feared them the most, and those who constantly brown-nosed them. These people will take the blame should the initiative fail and are responsible for controlling the narrative during the initiative. The team was given a "core" label so that they can invite other resources for fun and kick them out without any questions asked. This way, the new team can claim that [everyone](https://www.youtube.com/watch?v=RAm1ZRch_w0) was somehow involved, thereby shifting the blame downwards and further away from management. The decision was made, that TTECCCT internally is referred to as **The Team That Everyone Can Count on to Cover Their Tracks** which they could memorize better.
 
-{{< blockquote >}}
+{{% pageinfo color="info" %}}
 **Hint:**
 
 Ensure that the new team communicates with each other at least three times in something called a sync session, which is short for talk. They are not allowed to write anything down before, during, or after this sync in order to train their memory. However, make sure they use a [Kanban board](https://pbs.twimg.com/media/FZYePr7XwAIh-T4.jpg) so that they can claim they are practicing agile project management. Just be sure not to reflect any decisions or other important topics on the board.
-{{< /blockquote >}}
+{{% /pageinfo %}}
 
 ## Market Evaluation Sync Session (MESS)
 
@@ -61,21 +62,21 @@ Choosing a framework was easy since the consultants only knew about the [Scaled 
 
 * All logo rights are reserved by their owners.
 
-{{< blockquote >}}
+{{% pageinfo color="info" %}}
 **Hint:**
 
 Claim to have evaluated and be proficient in these frameworks and present your new approach as inspired by all of them.
-{{< /blockquote >}}
+{{% /pageinfo %}}
 
 ## Whimsical Tailoring of the Framework (WTF)
 
 Consultants often have short attention spans and only read a few pages of the Scaled Agile DevOps Maturity Framework online. Therefore, they claimed it would be beneficial to "tailor" the framework to the company's needs by removing everything they didn't read or understand. As a result, management dropped every [principle](https://scaledagiledevops.com/principles/), [practice](https://scaledagiledevops.com/practices/), and most of the recommended [metrics](https://scaledagiledevops.com/metrics/), and focused only on [roles](https://scaledagiledevops.com/roles/) and [ceremonies](https://scaledagiledevops.com/release-convoy/ceremonies/).
 
-{{< blockquote >}}
+{{% pageinfo color="info" %}}
 **Hint:**
 
 The largest out-of-the-box implementation of SAD comes with only sixteen new roles. This may not be enough, but you may define new roles at any later date.
-{{< /blockquote >}}
+{{% /pageinfo %}}
 
 ## Setting up Staff (SuS)
 
@@ -83,43 +84,43 @@ The SAD roles were quickly distributed among the **TTECCCT.** Members also recei
 
 ![I don't know why meme](/images/transition-to-sadmf/8f6bc8c1abfa6db3c62fd3efc2ba56bf428dac358a681e6f.jpg)
 
-{{< blockquote >}}
+{{% pageinfo color="info" %}}
 **Hint:**
 
 Redefining previously existing roles can be accompanied by renaming them, but it is not necessary. You can add a prefix like "Area" or "Component" to restrict those colleagues to a specific division. Alternatively, you can add a suffix like "**Team**" or "**Coach**" to ensure that a role remains within their team and doesn't report to management. In this company, they simply redefined the old roles and claimed it had always been that way.
 
 If **TTECCCT** staff members want to claim the title of a group as their role, it is acceptable. Create a nice email distribution list for them. There is nothing wrong with the Enterprise Architecture Review Board (EARB) being a single resource governing software architecture. The same goes for **TTECCCT** members who claim multiple roles for themselves. With the end of the era of business cards, the only limit here is the length of an email signature, which provides so much space for creative role combinations. Help them not to take on too many contradicting roles at once to keep the company's expenses for treating multiple personality disorder in check. Make sure the **TTECCCT** runs a spell check over the results so that they don't embarrass themselves too much.
-{{< /blockquote >}}
+{{% /pageinfo %}}
 
 ## Ceremonies and Useful Meetings
 
 The SAD MF out-of-the-box comes with thirteen ceremonies, but management believed that they were taking up too much time and wanted the resources to focus on coding instead. Each **TTECCCT** member had already chosen some of these thirteen ceremonies to serve as their personal mandatory underling mistreatment (mum) meeting. The consultants negotiated a compromise: keep all ceremonies, but reduce their duration to a quarter of the original time while still demanding the same output as before. It was clear, that the quality of plans might suffer by this, so the **TTECCCT** decided to rename "plan" to "precise but also vague premonitions." It has also been decided not to whip resources in public should not all parts of their precise but also vague premonitions come true. However, all other management tactics, including [death marches](https://en.wikipedia.org/wiki/Death_march_(project_management)) and [Shturmovshchina](https://en.wikipedia.org/wiki/Shturmovshchina), are still fair game.
 
-{{< blockquote >}}
+{{% pageinfo color="info" %}}
 **Hint:**
 
 As management, demand to be invited to all of the thirteen ceremonies, being the lord-stakeholder-savior-god- owner by now. Show up spontaneously without accepting, declining, or using any further functionality of your calendar tool. If you decide to participate in a ceremony, talk at least 50% of the timebox on a random topic of your choosing. You are not limited to the ceremonies. If you want to check on some resources, simply set something up and call it a meeting, 1:1, sync, exchange, or leave it at default. Don't provide an agenda — you don't prepare, why should anyone else? Expert tip: With just two clicks, you can also make this a recurring meeting that you can drag around for fun.
-{{< /blockquote >}}
+{{% /pageinfo %}}
 
 ## Training in Teams (TiT)
 
 Regardless of what the SAD MF says, there is no need for training the resources since everything is readily available on the [SAD website](https://scaledagiledevops.com/). Management probably also forgot possible training expenses in their **YSVIBAICS**.
 
-{{< blockquote >}}
+{{% pageinfo color="info" %}}
 **Hint:**
 
 If you really need additional information check out the compatible [Certified Really Agile Practitioner](https://www.youtube.com/watch?v=cwbiSCgiZNA) on YouTube. Get administration to unblock YouTube in the company firewall settings first.
-{{< /blockquote >}}
+{{% /pageinfo %}}
 
 ## Value Stream Moping (VSM)
 
 One of the TTECCCT consultants once read a book, article, overheard a conversation on the subway, or dreamed about identifying streams of value in every company before employing the [SAD MF convoy](https://scaledagiledevops.com/release-convoy/) on them. Management somehow liked the idea of [streams](https://www.youtube.com/watch?v=8WEtxJ4-sh4)—[water](https://i.pinimg.com/originals/b3/1d/ac/b31dac01e3b33bdfc32168d282132001.jpg) that flows quickly in a single [direction](http://1.bp.blogspot.com/-UCskjQNTwc8/Ukf1b6PtvPI/AAAAAAAAGRw/r-9xtXUID5k/s1600/4.+Lingmala+Waterfall+Mahabaleshwar+(17).JPG) — without their resources having to lift a finger, rarely changing course, and never needing feedback loops.
 
-{{< blockquote >}}
+{{% pageinfo color="info" %}}
 **Hint:**
 
 Do not really conduct any Value Stream analysis. Simply draw the desired organizational chart with nice and colorful crayons, place your entourage in all crucial positions, let them choose what their branch of the organization should be named, and claim that these are the identified Value Streams. In a sense, they are really providing value to you. Also, place your own name separately at the top of all streams.
-{{< /blockquote >}}
+{{% /pageinfo %}}
 
 ## Change Management
 
@@ -127,11 +128,11 @@ Do not really conduct any Value Stream analysis. Simply draw the desired organiz
 
 Controlling the narrative is hard when every release convoy is exposed to the SAD implementation all at once. It is recommended to only drive a smaller group of resources into madness to start with. Management claimed that the selected few are [the best of the best of the best](https://www.youtube.com/watch?v=_huL5ynaI8Y) — and thereby all others clearly are not. Since every resource knows that a transformation goal is to get rid of people management doesn't like, not being in the illustrious company of the movers first puts the living fear into them.
 
-{{< blockquote >}}
+{{% pageinfo color="info" %}}
 **Hint:**
 
 Should a resource ask questions at this point, claim they are not yet in a mature state according to the change curve shown below. The consultants certainly would be willing to work on the resource's values, principles, behaviors, culture and religious belief systems to help them overcome their negativity and transition to compliance.
-{{< /blockquote >}}
+{{% /pageinfo %}}
 
 ![Elisabeth Kubler-Ross Change Curve](/images/transition-to-sadmf/46e79f7131df8f875b1ddf9ae9eb38d840a6dc638b0deb6e.jpg)
 
@@ -141,21 +142,21 @@ Should a resource ask questions at this point, claim they are not yet in a matur
 
 Transformations to the SAD MF — as all other transformations — fail frequently and miserably. One simple reason is that management forgets to let go of some unnecessary resources during, or at the start of, the transformation. Those eventually might begin to notice they aren't invited to [meetings](https://www.youtube.com/watch?v=Lu3KIiKPpWc) anymore, and possibly gang up on management, making use of their newly found time. Management didn't fall into this trap and made up additional roles for those resources right from the start.
 
-{{< blockquote >}}
+{{% pageinfo color="info" %}}
 **Hint:**
 
 To make the roles sound more important and desirable, add a prefix to their title such as "Senior," "Executive," or "Strategic." Also, include the new framework to make sure they know whom to thank for still having a job. For example, "Senior SAD Requirements Engineer," "Executive SAD Project Manager," "Strategic SAD Quality Engineer," "SAD Leader of Innovation." Also, create a [RACI matrix](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) for all roles adding multiple random letters everywhere like a spilled alphabet soup. Make sure to include an "I" for "informed" alongside your own role for every task listed. Put an Nomen Nominandum or a tbd in the last line of the RACI matrix to remind everyone that this isn't final. You now can make the whole life of a resource and their families miserable by changing a single letter in an MSExcel sheet — how is this for power?
-{{< /blockquote >}}
+{{% /pageinfo %}}
 
 **Second Movers**
 
 At some random point, management declared that the Movers First had **succeeded** and withdrew all supporting consultants working with them. Since the Movers First did not want to admit any failure, no one spoke up against this decision. Management pretended that they had learned a lot from the (repeat this multiple times to the mirror) **successful**(!) transition and would use these valuable insights to transform the rest of the company's resources. They didn't do this of course. No one wants the SAD framework to fit individual teams. Who should maintain this in the end? This is a lot of effort and the resources might forget who serves whom.
 
-{{< blockquote >}}
+{{% pageinfo color="info" %}}
 **Hint:**
 
 Now, go to all of your management friends and tell them about your [**success**](https://www.youtube.com/watch?v=JY3Jw2lOCGA). Go to the workers council, taking some management colleagues with you, and inform them of the changed circumstances and your **success**. Go to HR and make them post a job advert for a SAD MF practitioner to work in your **successfully** transformed environment. This is easier than training your own resources, and the new resource can be held responsible if your initiative runs into problems. Go to Marketing and make them write blog articles about your **successful** transformation.
-{{< /blockquote >}}
+{{% /pageinfo %}}
 
 [Jira](https://ifuckinghatejira.com/42/) **for All**
 
@@ -171,11 +172,11 @@ Management has made this a multi-level system portfolio enterprise configuration
 
 * Exaggeration just for teaching purposes — no one in their right mind would use something like this — source: [https://scaledagileframework.com](https://scaledagileframework.com)
 
-{{< blockquote >}}
+{{% pageinfo color="info" %}}
 **Hint:**
 
 The above made-up Jira work-item structure perfectly aligns with the future need for even more roles. They now can be created out of thin air. Call those "[Business](https://scaledagileframework.com/business-owners/) Portfolio Epic Owner," "Program Success Enabler Coach," "Chief Capability Champion," "Enterprise Business Feature Architect," "Hypothesis Enabled Testmanager," or whatever other random combination of words you like — [they'll never know](https://www.youtube.com/watch?v=tpQyk08PwWs).
-{{< /blockquote >}}
+{{% /pageinfo %}}
 
 ## Metrics for All
 
@@ -185,11 +186,11 @@ Management claimed that nobody has been delivering any real value, but decided n
 
 * Picture courtesy of BBC News Network
 
-{{< blockquote >}}
+{{% pageinfo color="info" %}}
 **Hint:**
 
 Claim that the metrics everyone now has to deliver are industry standard (without specifying which industry). Also, assure everyone that you won't compare teams or individual employees, or track employee performance throughout the day or over time. Make a big pinky-swear to emphasize your sincerity. However, still insist that all metrics be gathered in one central location for your convenience and be accessible to you at any time. With all the data in one place, any future decision can be justified simply by pointing to the metrics, eliminating the need for any tedious analytics.
-{{< /blockquote >}}
+{{% /pageinfo %}}
 
 ## Implementing SAD Practices
 
@@ -211,8 +212,8 @@ Some IT resources didn't seem to care for the power distribution in the organiza
 
 Management bought the e-book "Accelerate," but didn't read it. They claimed that the company is now among the top 5% of enterprises according to the new made-up metrics. They went to marketing to brag on Instagram and LinkedIn about their **#success** and let go of all managers who didn't give the posts a thumbs up.
 
-{{< blockquote >}}
+{{% pageinfo color="info" %}}
 **Hint:**
 
 Should anything not work out— remember the newly hired SAD MF resource is responsible. Should this not be enough make clear the consultants are responsible for potential failures. In case that still is not enough, the TTECCCT will be responsible, but certainly not management.
-{{< /blockquote >}}
+{{% /pageinfo %}}

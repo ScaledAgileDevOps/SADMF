@@ -2,13 +2,14 @@
 title: Metrics
 titleIcon: "fa-solid fa-chart-column"
 linkTitle: Metrics
+type: docs
 description: Management via metrics is the most effective way to cause impact!
 weight: 10
 ---
 
-{{< alert type="info" >}}
+{{% alert title="" color="info" %}}
 {{< param description >}}
-{{< /alert >}}
+{{% /alert %}}
 
 ## Lines of Code per Code Engineer
 

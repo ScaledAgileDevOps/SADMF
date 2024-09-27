@@ -1,13 +1,14 @@
 ---
 title: Convoy Manifest
 linkTitle: Manifest
+type: docs
 description: The critical documentation required for every DORC
 weight: 5
 ---
 
-{{< alert type="info" >}}
+{{% alert title="" color="info" %}}
 {{< param description >}}
-{{< /alert >}}
+{{% /alert %}}
 
 A Convoy doesn't navigate by dead reckoning. We require proper documentation to keep from leaving any Release Captain behind!
 

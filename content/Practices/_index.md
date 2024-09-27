@@ -2,13 +2,14 @@
 title: Practices
 titleIcon: "fa-solid fa-person-digging"
 linkTitle: Practices
+type: docs
 description: Complex systems require complex practices to reduce the complexity!
 weight: 4
 ---
 
-{{< alert type="info" >}}
+{{% alert title="" color="info" %}}
 {{< param description >}}
-{{< /alert >}}
+{{% /alert %}}
 
 ## CI/CD/ED
 
