@@ -1,10 +1,10 @@
 ---
 title: Certifications
 titleIcon: "fa-solid fa-certificate"
-linkTitle: Certifications
+linkTitle: Get Certified
 type: docs
 description: Get your SAD certifications today!
-weight: 98
+weight: 1000
 ---
 
 {{% alert title="" color="info" %}}
