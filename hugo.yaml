@@ -59,61 +59,33 @@ outputs:
   section: [HTML, print, RSS]
 
 params:
+  copyright:
+    authors: >-
+      Scaled Agile DevOps | [CC BY
+      4.0](https://creativecommons.org/licenses/by/4.0) |
+    from_year: 2021
   taxonomy:
-    # set taxonomyCloud = [] to hide taxonomy clouds
     taxonomyCloud: [tags, categories]
-
-    # If used, must have same length as taxonomyCloud
     taxonomyCloudTitle: [Tag Cloud, Categories]
-
-    # set taxonomyPageHeader = [] to hide taxonomies on the page headers
     taxonomyPageHeader: [tags, categories]
-
-  privacy_policy: https://policies.google.com/privacy
-
-  # First one is picked as the Twitter card image if not set on page.
-  # images: [images/project-illustration.png]
-
-  # Menu title if your navbar has a versions selector to access old versions of your site.
-  # This menu appears only if you have at least one [params.versions] set.
   version_menu: Releases
-
-  # Flag used in the "version-banner" partial to decide whether to display a
-  # banner on every page indicating that this is an archived version of the docs.
-  # Set this flag to "true" if you want to display the banner.
   archived_version: false
-
-  # The version number for the version of the docs represented in this doc set.
-  # Used in the "version-banner" partial to display a version number for the
-  # current doc set.
   version: 0.0
-
-  # A link to latest version of the docs. Used in the "version-banner" partial to
-  # point people to the main doc site.
-  url_latest_version: https://example.com
-
-  # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
   github_repo: https://github.com/ScaledAgileDevOps/SADMF
-
-  # An optional link to a related project repo. For example, the sibling repository where your product code lives.
   github_project_repo: https://github.com/ScaledAgileDevOps/SADMF
-
-  # Specify a value here if your content directory is not in your repo's root directory
-  # github_subdir: ""
-
-  # Uncomment this if your GitHub repo does not have "main" as the default branch,
-  # or specify a new value if you want to reference another branch in your GitHub links
   github_branch: main
+  links:
+    developer:
+      - name: GitHub
+        url: https://github.com/google/docsy
+        icon: fa-brands fa-github
+        desc: Development takes place here!
 
   # Enable Lunr.js offline search
   offlineSearch: true
 
   # Enable syntax highlighting and copy buttons on code blocks with Prism
   prism_syntax_highlighting: false
-
-  copyright:
-    authors: SADMF | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) |
-    from_year: 2021
 
   # User interface configuration
   ui:

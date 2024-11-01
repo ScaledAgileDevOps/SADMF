@@ -6,11 +6,8 @@ type: docs
 description: Making enterprises feel better about DevOps transformation since 2021
 weight: 1
 ---
-{{% alert title="" color="info" %}}
-**Enterprise transformation without the risk of culture change!**
-{{% /alert %}}
 
-{{< figure src="/images/sadmf-logo.png" caption=" Making enterprises feel better about DevOps transformation since 2021" width="300" >}}
+{{< figure src="/images/sadmf-logo.png" title="Enterprise transformation without the risk of culture change!" alt="Making enterprises feel better about DevOps transformation since 2021" width="60%" >}}
 
 ## Testimonials
 
