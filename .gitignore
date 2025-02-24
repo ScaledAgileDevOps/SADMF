@@ -4,3 +4,4 @@ public/
 .hugo_build.lock
 node_modules/
 resources/
+.early.coverage

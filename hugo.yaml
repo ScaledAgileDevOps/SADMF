@@ -1,6 +1,5 @@
 baseURL: "https://scaledagiledevops.com/"
 title: "Scaled Agile DevOps Maturity Framework"
-description: "Enterprise transformation without the risk of culture change!"
 
 # Language settings
 contentDir: content
@@ -59,6 +58,8 @@ outputs:
   section: [HTML, print, RSS]
 
 params:
+  description:
+    "Enterprise DevOps transformation without the risk of culture change!"
   copyright:
     authors: >-
       Scaled Agile DevOps | [CC BY
