@@ -28,7 +28,7 @@
   "devDependencies": {
     "autoprefixer": "^10.4.20",
     "broken-link-checker": "^0.7.8",
-    "linkinator": "^6.1.1",
+    "linkinator": "^7.0.0",
     "markdownlint-cli": "^0.42.0",
     "postcss": "^8.4.47",
     "postcss-cli": "^11.0.0",
