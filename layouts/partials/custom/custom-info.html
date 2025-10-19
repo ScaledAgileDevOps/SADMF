@@ -1,28 +1,29 @@
-{{$optMd := dict "markup" "goldmark"}}
-<div class='columns is-marginless is-multiline is-centered'>
-  <div class='column'>
-    <a class='is-itext-link' href='{{.Site.Data.themeParams.github.main}}' target='_blank'>
-      <div>
-        <em class='fa-brands fa-github fa-2x'></em>
-        <p>{{i18n "navbarinfo_github_main"}}</p>
-      </div>
-    </a>
-  </div>
-  <div class='column'>
-    <a class='is-itext-link' href='{{.Site.Data.themeParams.social.linkedin}}' target='_blank'>
-      <div>
-        <em class='fa-brands fa-linkedin fa-2x'></em>
-        <p>LinkedIn</p>
-      </div>
-    </a>
-  </div>
-  <div class='column'>
-    <a class='is-itext-link' href='{{.Site.Data.themeParams.social.twitter}}' target='_blank'>
-      <div>
-        <em class='fa-brands fa-twitter fa-2x'></em>
-        <p>Twitter</p>
-      </div>
-    </a>
+{{/* Custom info section using Bootstrap instead of Bulma */}}
+<div class="container">
+  <div class="row text-center">
+    <div class="col-md-4">
+      <a href="https://github.com/ScaledAgileDevOps/SADMF" target="_blank" class="text-decoration-none">
+        <div class="p-3">
+          <i class="fa-brands fa-github fa-2x"></i>
+          <p class="mt-2">GitHub</p>
+        </div>
+      </a>
+    </div>
+    <div class="col-md-4">
+      <a href="https://www.linkedin.com/company/scaled-agile-devops/" target="_blank" class="text-decoration-none">
+        <div class="p-3">
+          <i class="fa-brands fa-linkedin fa-2x"></i>
+          <p class="mt-2">LinkedIn</p>
+        </div>
+      </a>
+    </div>
+    <div class="col-md-4">
+      <a href="https://twitter.com/scaledagiledevops" target="_blank" class="text-decoration-none">
+        <div class="p-3">
+          <i class="fa-brands fa-twitter fa-2x"></i>
+          <p class="mt-2">Twitter</p>
+        </div>
+      </a>
+    </div>
   </div>
 </div>
-<p>Copyright: <a href='{{.Site.Data.themeParams.copyright.url}}'>{{.Site.Data.themeParams.copyright.type}}</a> - {{.Site.Data.themeParams.copyright.desc}}</p>

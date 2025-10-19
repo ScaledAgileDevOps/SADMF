@@ -16,7 +16,6 @@
   "scripts": {
     "build": "hugo",
     "build:clean": "rm -rf public && npm run build",
-    "postinstall": "git submodule update --init --recursive",
     "link-check": "start-server-and-test start http://localhost:1313 'blc http://localhost:1313 --recursive --ordered --exclude-external'",
     "link-check2": "npm run build:clean && linkinator --recurse public/ --config ./linkinator.config.json",
     "lint": "markdownlint ./content/**/*.md",

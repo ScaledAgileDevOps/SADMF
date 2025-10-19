@@ -5,3 +5,5 @@ public/
 node_modules/
 resources/
 .early.coverage
+.hive-mind/
+.claude-flow/

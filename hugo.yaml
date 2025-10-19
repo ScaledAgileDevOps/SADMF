@@ -53,6 +53,11 @@ markup:
 
 # Everything below this are Site Params
 
+# Google Analytics configuration (modern Hugo services)
+services:
+  googleAnalytics:
+    ID: G-BT3HZK3PLP
+
 # Comment out if you don't want the "print entire section" link enabled.
 outputs:
   section: [HTML, print, RSS]
@@ -123,7 +128,7 @@ module:
   # workspace: docsy.work
   hugoVersion:
     extended: true
-    min: 0.110.0
+    min: 0.146.0
   imports:
     - path: github.com/google/docsy
       disable: false
