@@ -1,7 +1,7 @@
 ---
 title: Enterprise AI Enablement Framework (EAIEF™)
 titleIcon: "fa-solid fa-certificate"
-linkTitle: Scaling A
+linkTitle: Scaling AI
 type: docs
 weight: 100
 description: A Strategic Reference Architecture for High-Throughput Developer Output Optimization (HTDOO)
