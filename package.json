@@ -25,7 +25,7 @@
     "update": "hugo mod get -u ./... && hugo mod tidy && npx npm-check-updates -u && npm install"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.22",
+    "autoprefixer": "^10.4.23",
     "broken-link-checker": "^0.7.8",
     "linkinator": "^7.5.0",
     "markdownlint-cli": "^0.46.0",
