@@ -17,7 +17,7 @@
     "build": "hugo",
     "build:clean": "rm -rf public && npm run build",
     "link-check": "start-server-and-test start http://localhost:1313 'blc http://localhost:1313 --recursive --ordered --exclude-external'",
-    "link-check2": "npm run build:clean && linkinator --recurse public/ --config ./linkinator.config.json",
+    "link-check2": "npm run build:clean && htmltest",
     "lint": "markdownlint ./content/**/*.md",
     "lint:fix": "markdownlint -f ./content/**/*.md",
     "start": "hugo serve",

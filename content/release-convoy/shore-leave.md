@@ -15,7 +15,7 @@ To ensure Shore Leave time is used productively, the [Admirals Transformation Of
 Approved activities include:
 
 - Completing mandatory compliance training modules
-- Updating personal [SADMF Maturity Score](/metrics/#sadmf-maturity-score) assessments
+- Updating personal [SADMF Maturity Score](/metrics/sadmf-maturity-score/) assessments
 - Preparing presentation materials for the next [Convoy Alignment](/release-convoy/agenda/)
 - Filing overdue [Post Standup Standup Review](/release-convoy/ceremonies/post-standup-standup-review/) reports
 - Studying for [SAD certification](/certifications/) renewal exams
@@ -42,4 +42,4 @@ Shore Leave is nominally one week between convoy cycles. However, any overdue [C
 - [Convoy Alignment](/release-convoy/agenda/) for the planning session that follows Shore Leave
 - [Convoy Ceremonies](/release-convoy/ceremonies/) for the ceremonies that resume after Shore Leave
 - [Certifications](/certifications/) for certification renewal during Shore Leave
-- [Metrics](/metrics/#sadmf-maturity-score) for the maturity assessments completed during Shore Leave
+- [Metrics](/metrics/sadmf-maturity-score/) for the maturity assessments completed during Shore Leave

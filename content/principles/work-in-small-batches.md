@@ -6,7 +6,7 @@ description: Too many releases are hard to report and manage. We focus on a smal
 weight: 2
 ---
 
-The phrase "Work in Small Batches" is frequently misinterpreted by organizations that lack the maturity to understand its true meaning. Naive practitioners assume it refers to making small, frequent changes to production. This approach creates an unsustainable volume of releases that overwhelm the [Release Tracking](/practices/release-tracking/) spreadsheet, generate excessive [Change Rejection or Acceptance Party](/roles/change-rejection-or-acceptance-party/) meetings, and make it nearly impossible for the [Chief Signals Officer](/roles/chief-signals-officer/) to report accurate [Feature Completion Ratios](/metrics/#feature-completion-ratio). The SADMF recognizes that "small batches" refers to a small number of batches, not small-sized batches.
+The phrase "Work in Small Batches" is frequently misinterpreted by organizations that lack the maturity to understand its true meaning. Naive practitioners assume it refers to making small, frequent changes to production. This approach creates an unsustainable volume of releases that overwhelm the [Release Tracking](/practices/release-tracking/) spreadsheet, generate excessive [Change Rejection or Acceptance Party](/roles/change-rejection-or-acceptance-party/) meetings, and make it nearly impossible for the [Chief Signals Officer](/roles/chief-signals-officer/) to report accurate [Feature Completion Ratios](/metrics/feature-completion-ratio/). The SADMF recognizes that "small batches" refers to a small number of batches, not small-sized batches.
 
 By consolidating all changes into a single [DevOps Release Convoy](/release-convoy/) per quarter, we achieve the ideal batch size: one. One release means one entry in the tracking spreadsheet, one approval cycle through the CRAP, one deployment event, and one set of post-release metrics. This simplification cascades throughout the entire organization. The [Commodore](/roles/commodore/) has a single event to coordinate. The [Development Integrity Assurance Team](/roles/development-integrity-assurance-team/) has a single body of work to review. The [Quality Authority](/roles/quality-authority/) can focus all testing effort on a single release candidate rather than spreading their attention across dozens of incremental changes.
 
@@ -21,5 +21,5 @@ The principle also provides more time to [Amplify Feedback](/principles/amplify-
 - [DevOps Release Convoy](/release-convoy/) for the quarterly delivery mechanism
 - [Release Tracking](/practices/release-tracking/) for the spreadsheet that benefits from fewer releases
 - [Convoy Manifest](/release-convoy/manifest/) for the documentation that accompanies each release
-- [Feature Completion Ratio](/metrics/#feature-completion-ratio) for measuring delivery against commitments
+- [Feature Completion Ratio](/metrics/feature-completion-ratio/) for measuring delivery against commitments
 - [Amplify Feedback](/principles/amplify-feedback/) for the coaching practices enabled by fewer releases

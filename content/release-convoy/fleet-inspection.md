@@ -16,7 +16,7 @@ Each [Feature Captain](/roles/feature-captain/) must prepare a formal presentati
 - Executive summary on slide 2 (slide 1 is reserved for the SADMF logo and convoy number)
 - Screenshots of completed work, annotated with red circles highlighting key areas
 - A Gantt chart comparing estimated versus actual timelines
-- [Lines of Code](/metrics/#lines-of-code-per-code-engineer) produced, broken down by [Code Engineer](/roles/code-engineer/)
+- [Lines of Code](/metrics/lines-of-code-per-code-engineer/) produced, broken down by [Code Engineer](/roles/code-engineer/)
 - A dependencies section listing every team that was waited on, with timestamps
 - A "Lessons Learned" slide that lists the same lessons from the previous convoy
 
@@ -37,7 +37,7 @@ Features scoring below 3.0 in any dimension are flagged for the [Tribunal](/rele
 
 Fleet Inspections are full-day events. Attendance is mandatory for all [Code Engineers](/roles/code-engineer/), even those whose features are not being presented, to ensure organizational learning through osmosis. Sandwiches will be provided.
 
-The [Chief Signals Officer](/roles/chief-signals-officer/) will compile inspection scores and distribute a Fleet Inspection Report to all stakeholders within 24 hours. This report feeds directly into the [Feature Completion Ratio](/metrics/#feature-completion-ratio) and [SADMF Adoption Rate](/metrics/#sadmf-adoption-rate) calculations.
+The [Chief Signals Officer](/roles/chief-signals-officer/) will compile inspection scores and distribute a Fleet Inspection Report to all stakeholders within 24 hours. This report feeds directly into the [Feature Completion Ratio](/metrics/feature-completion-ratio/) and [SADMF Adoption Rate](/metrics/sadmf-adoption-rate/) calculations.
 
 ## See Also
 

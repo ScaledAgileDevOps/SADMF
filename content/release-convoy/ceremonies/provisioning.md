@@ -10,7 +10,7 @@ Before each convoy begins active development, the Provisioning ceremony translat
 
 After task decomposition, the [Feature Captain](/roles/feature-captain/) totals the estimated hours across all tasks. If the total exceeds the team's available capacity, the [Feature Captain](/roles/feature-captain/) adds 30% additional tasks anyway because "we committed to this during alignment." The gap between capacity and commitment is recorded as a "stretch opportunity" rather than an overcommitment.
 
-[Code Engineers](/roles/code-engineer/) are not consulted during Provisioning. Their estimates are not needed because the [Feature Captain](/roles/feature-captain/) has already estimated on their behalf using historical [Lines of Code per Code Engineer](/metrics/#lines-of-code-per-code-engineer) data. This ensures consistency and prevents the introduction of pessimism into the plan.
+[Code Engineers](/roles/code-engineer/) are not consulted during Provisioning. Their estimates are not needed because the [Feature Captain](/roles/feature-captain/) has already estimated on their behalf using historical [Lines of Code per Code Engineer](/metrics/lines-of-code-per-code-engineer/) data. This ensures consistency and prevents the introduction of pessimism into the plan.
 
 ## The Provisioning Spreadsheet
 
@@ -38,5 +38,5 @@ The accuracy of Provisioning estimates has been tracked across all convoy cycles
 - [Feature Team](/roles/feature-team/) for the teams that receive provisioned task lists
 - [Feature Captain](/roles/feature-captain/) for the role that performs task decomposition and estimation
 - [Code Engineers](/roles/code-engineer/) for the role that executes tasks without having estimated them
-- [Lines of Code per Code Engineer](/metrics/#lines-of-code-per-code-engineer) for the metric used in place of developer estimates
+- [Lines of Code per Code Engineer](/metrics/lines-of-code-per-code-engineer/) for the metric used in place of developer estimates
 - [Convoy Manifest](/release-convoy/manifest/) for where Provisioning outputs are documented

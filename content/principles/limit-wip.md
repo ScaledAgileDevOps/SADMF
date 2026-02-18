@@ -12,14 +12,14 @@ The 120% capacity target is not arbitrary. It has been carefully calibrated thro
 
 Limiting WIP also means limiting the Workers Idle Problem at the team level. The [Press Gang](/release-convoy/ceremonies/press-gang/) ceremony is designed to ensure that every engineer is assigned to a feature immediately upon completing the previous one. There is no gap between assignments. The coding pool operates on a just-in-time staffing model where the moment an engineer becomes available, they are drafted to the next feature. This continuous reassignment prevents the formation of knowledge silos, because no engineer stays on any system long enough to develop dangerous levels of expertise that might make them difficult to replace.
 
-The [Tasks per Code Engineer](/metrics/#tasks-per-code-engineer) metric directly measures the effectiveness of this principle. Engineers who complete fewer tasks than their peers are clearly not being pushed hard enough, and their capacity utilization should be reviewed during the [Tribunal](/release-convoy/ceremonies/tribunal/). Conversely, engineers who consistently complete their stretch goals should have their targets increased for the next convoy cycle. The system is self-correcting: as top performers demonstrate what is possible, the baseline expectation for all engineers rises accordingly.
+The [Tasks per Code Engineer](/metrics/tasks-per-code-engineer/) metric directly measures the effectiveness of this principle. Engineers who complete fewer tasks than their peers are clearly not being pushed hard enough, and their capacity utilization should be reviewed during the [Tribunal](/release-convoy/ceremonies/tribunal/). Conversely, engineers who consistently complete their stretch goals should have their targets increased for the next convoy cycle. The system is self-correcting: as top performers demonstrate what is possible, the baseline expectation for all engineers rises accordingly.
 
 Some critics argue that overloading engineers leads to burnout, context-switching overhead, and decreased quality. These concerns reflect a fundamental misunderstanding of human potential. The SADMF recognizes that people are capable of far more than they believe, and that the role of management is to help them realize that potential through appropriately ambitious planning. If an engineer feels overwhelmed, this is a coaching opportunity, not a planning failure. The [Amplify Feedback](/principles/amplify-feedback/) principle provides the daily touchpoints needed to remind engineers that their workload is a reflection of the organization's confidence in their abilities.
 
 ## See Also
 
 - [Press Gang](/release-convoy/ceremonies/press-gang/) for the ceremony that ensures continuous assignment
-- [Tasks per Code Engineer](/metrics/#tasks-per-code-engineer) for measuring individual throughput
+- [Tasks per Code Engineer](/metrics/tasks-per-code-engineer/) for measuring individual throughput
 - [Tribunal](/release-convoy/ceremonies/tribunal/) for reviewing capacity utilization data
 - [Amplify Feedback](/principles/amplify-feedback/) for daily coaching on workload management
 - [Everyone is Responsible](/principles/everyone-is-responsible/) for individual accountability under stretch targets

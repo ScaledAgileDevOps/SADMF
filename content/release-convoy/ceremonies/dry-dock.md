@@ -24,7 +24,7 @@ This prioritization ensures that the most strategically important defects are fi
 
 ## The Dry Dock Manifest
 
-All defect remediation work during Dry Dock must be documented in the Dry Dock Manifest, a supplement to the [Convoy Manifest](/release-convoy/manifest/). The Dry Dock Manifest includes the defect identifier, the assigned [Code Engineer](/roles/code-engineer/), the estimated fix time, the actual fix time, and a root cause category selected from an approved list. The approved root cause categories are: "Code Engineer Error," "Insufficient Testing," "Unclear Requirements (attributed to Code Engineer interpretation)," and "Other (requires explanation)." The Dry Dock Manifest is filed with the [Chief Signals Officer](/roles/chief-signals-officer/) and influences the [Feature Completion Ratio](/metrics/#feature-completion-ratio) for the completed convoy.
+All defect remediation work during Dry Dock must be documented in the Dry Dock Manifest, a supplement to the [Convoy Manifest](/release-convoy/manifest/). The Dry Dock Manifest includes the defect identifier, the assigned [Code Engineer](/roles/code-engineer/), the estimated fix time, the actual fix time, and a root cause category selected from an approved list. The approved root cause categories are: "Code Engineer Error," "Insufficient Testing," "Unclear Requirements (attributed to Code Engineer interpretation)," and "Other (requires explanation)." The Dry Dock Manifest is filed with the [Chief Signals Officer](/roles/chief-signals-officer/) and influences the [Feature Completion Ratio](/metrics/feature-completion-ratio/) for the completed convoy.
 
 ## Reclassification of Unfixed Defects
 
@@ -37,7 +37,7 @@ For several convoy cycles, senior [Code Engineers](/roles/code-engineer/) have p
 ## See Also
 
 - [Commodore](/roles/commodore/) for the role that determines Dry Dock duration
-- [Feature Completion Ratio](/metrics/#feature-completion-ratio) for how Dry Dock outcomes affect convoy metrics
+- [Feature Completion Ratio](/metrics/feature-completion-ratio/) for how Dry Dock outcomes affect convoy metrics
 - [Convoy Manifest](/release-convoy/manifest/) for the documentation that includes the Dry Dock Manifest
 - [Development Integrity Assurance Team (DIAT)](/roles/development-integrity-assurance-team/) for who maintains the Known Behavior Registry
 - [Tribunal](/release-convoy/ceremonies/tribunal/) for where recurring defect creators are addressed

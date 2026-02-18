@@ -1,0 +1,26 @@
+---
+title: "SADMF Adoption Rate"
+linkTitle: "SADMF Adoption Rate"
+type: docs
+description: "The percentage of the organization with SAD certification -- because transformation is measured by headcount, not outcomes!"
+weight: 8
+---
+
+The SADMF Adoption Rate measures the percentage of the organization that has received a SAD&trade; [certification](/certifications/). This metric is the purest indicator of transformation progress, because transformation is fundamentally about people adopting the framework, and adoption is fundamentally about completing the certification process. An organization where 30% of employees are SAD certified is 30% transformed. An organization where 100% of employees are SAD certified is fully transformed. The arithmetic is straightforward, and the [Admiral's Transformation Office](/roles/admirals-transformation-office/) reports this number to the board of directors quarterly as the primary evidence that the transformation investment is generating returns.
+
+The certification process that drives this metric is deliberately comprehensive. Each certification level -- SAD Practitioner, SAD Professional, SAD Master, and SAD Fellow -- requires completion of a multi-day training program, passage of a written examination, and payment of the associated certification fee. The training covers all SADMF [Practices](/practices/), [Principles](/principles/), [Roles](/roles/), [Ceremonies](/release-convoy/), and [Metrics](/metrics/), ensuring that every certified individual can recite the framework's terminology, explain its rationale, and defend its approach to skeptics. The certification does not require any demonstration of practical application, because practical application varies by context, while framework knowledge is universal. An organization full of people who understand the framework but have never applied it is still a transformed organization -- they simply haven't had the opportunity to fail yet.
+
+The [Commodore](/roles/commodore/) is responsible for driving the Adoption Rate upward across the fleet. This is accomplished through a combination of mandatory training schedules, certification deadline mandates, and the strategic use of the [Tribunal](/release-convoy/ceremonies/tribunal/) to address individuals who resist certification. Resistance to certification is treated as resistance to transformation, which is treated as resistance to the organization's strategic direction, which is treated as a performance issue. The [DevOps Usage and Compliance Head Engineer (DOUCHE)](/roles/devops-usage-and-compliance-head-engineer/) maintains a certification tracker that identifies uncertified individuals and escalates their names to their respective [System of Authority](/roles/system-of-authority/) leads for follow-up. [PeopleWare HRaaS](/peopleware/) can automate the follow-up process by generating standardized certification reminder emails with escalating urgency.
+
+The Adoption Rate interacts with the [SADMF Maturity Score](/metrics/sadmf-maturity-score/) in a deliberately reinforcing way. Only individuals who achieve at least a "Developing" rating on the Maturity Score are counted as having truly adopted the framework, which means the Adoption Rate can actually decrease even as more people get certified, if those people subsequently score poorly on their assessments. This creates an incentive not just to get certified but to remain continuously engaged with the framework's content, attending refresher sessions, re-reading the documentation, and participating in [Mandatory Status Synchronization](/practices/mandatory-status-synchronization/) ceremonies where framework terminology is actively practiced. The result is an organization where SADMF is not just learned but lived.
+
+The metric also serves as the primary sales tool for SADMF consulting engagements. When prospective clients ask "how do we know the transformation is working," the answer is the Adoption Rate. A rising Adoption Rate proves that more people are being trained, more certifications are being issued, and more of the organization is aligned with SADMF principles. Whether this alignment produces better software, faster delivery, or happier customers is measured by other metrics -- but the Adoption Rate measures what matters most: commitment. And commitment, as the [Continuous Learning](/principles/continuous-learning/) principle teaches, is the foundation upon which all other improvements are built. You cannot improve what you have not adopted, and you cannot adopt what you have not certified.
+
+## See Also
+
+- [Certifications](/certifications/) for the certification programs that drive this metric
+- [SADMF Maturity Score](/metrics/sadmf-maturity-score/) for the complementary maturity assessment
+- [Continuous Learning](/principles/continuous-learning/) for the principle behind ongoing certification
+- [Admiral's Transformation Office](/roles/admirals-transformation-office/) for the body that reports adoption rates to leadership
+- [PeopleWare HRaaS](/peopleware/) for automated certification compliance enforcement
+- [DevOps Usage and Compliance Head Engineer (DOUCHE)](/roles/devops-usage-and-compliance-head-engineer/) for the role that tracks certification status

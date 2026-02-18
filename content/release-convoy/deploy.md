@@ -39,4 +39,4 @@ After the CSC approves the Convoy's release there will be much rejoicing!
 - [Convoy Manifest](/release-convoy/manifest/) for the documentation the CSC reviews
 - [Convoy Ceremonies](/release-convoy/ceremonies/) for the ceremonies that precede deployment
 - [Roles](/roles/commodore/) for the Commodore who commands the deployment
-- [Metrics](/metrics/#feature-completion-ratio) for tracking what was delivered vs. committed
+- [Metrics](/metrics/feature-completion-ratio/) for tracking what was delivered vs. committed

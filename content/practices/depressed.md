@@ -23,4 +23,4 @@ The DEPRESSED process consists of seven stages, each managed by a different team
 - [Development Integrity Assurance Team (DIAT)](/roles/development-integrity-assurance-team/) for the team that co-signs defect closure
 - [Comprehensive Documentation Assurance Protocol](/practices/comprehensive-documentation-assurance-protocol/) for the documentation required during remediation
 - [CI/CD/ED](/practices/ci-cd-ed/) for the delivery constraints that govern defect fixes
-- [Defects per Code Engineer](/metrics/#defects-per-code-engineer) for the metric that DEPRESSED attribution feeds
+- [Defects per Code Engineer](/metrics/defects-per-code-engineer/) for the metric that DEPRESSED attribution feeds

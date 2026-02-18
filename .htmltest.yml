@@ -1,0 +1,11 @@
+DirectoryPath: "public"
+CheckExternal: false
+CheckInternalHash: true
+CheckMailto: false
+CheckTel: false
+CheckFavicon: false
+IgnoreInternalEmptyHash: true
+IgnoreAltMissing: false
+IgnoreDirectoryMissingTrailingSlash: false
+IgnoreDirs:
+  - "_print"

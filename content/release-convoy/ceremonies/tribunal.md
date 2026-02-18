@@ -30,12 +30,12 @@ An appeals process exists, as all fair systems must include one. A [Code Enginee
 
 ## The Tribunal Log
 
-All Tribunal proceedings are documented in the Tribunal Log, a permanent record maintained by the [DIAT](/roles/development-integrity-assurance-team/). The log includes the defect description, the attribution analysis, the defense summary, the jury vote, and the outcome. Tribunal Log entries feed directly into [Defects per Code Engineer](/metrics/#defects-per-code-engineer) metrics and are incorporated into [PeopleWare](/peopleware/) performance reviews. The log serves as both a historical record and a motivational tool, as [Code Engineers](/roles/code-engineer/) are encouraged to review past Tribunal outcomes to understand the standards expected of them. The Tribunal Log has never been audited for accuracy, as the process that produces it is considered self-validating.
+All Tribunal proceedings are documented in the Tribunal Log, a permanent record maintained by the [DIAT](/roles/development-integrity-assurance-team/). The log includes the defect description, the attribution analysis, the defense summary, the jury vote, and the outcome. Tribunal Log entries feed directly into [Defects per Code Engineer](/metrics/defects-per-code-engineer/) metrics and are incorporated into [PeopleWare](/peopleware/) performance reviews. The log serves as both a historical record and a motivational tool, as [Code Engineers](/roles/code-engineer/) are encouraged to review past Tribunal outcomes to understand the standards expected of them. The Tribunal Log has never been audited for accuracy, as the process that produces it is considered self-validating.
 
 ## See Also
 
 - [Build Quality In](/principles/build-quality-in/) for the principle that drives the Tribunal
-- [Defects per Code Engineer](/metrics/#defects-per-code-engineer) for the metric tracked by Tribunal outcomes
+- [Defects per Code Engineer](/metrics/defects-per-code-engineer/) for the metric tracked by Tribunal outcomes
 - [Development Integrity Assurance Team (DIAT)](/roles/development-integrity-assurance-team/) for the team that runs the Defect Attribution Algorithm
 - [PeopleWare](/peopleware/) for how Tribunal outcomes affect performance reviews
 - [Code Engineers](/roles/code-engineer/) for the role most commonly appearing before the Tribunal

@@ -45,5 +45,5 @@ This certification is reserved for [Feature Teams](/roles/feature-team/) who hav
 ## See Also
 
 - [Roles](/roles/) for the organizational roles certifications apply to
-- [SADMF Adoption Rate](/metrics/#sadmf-adoption-rate) for tracking certification coverage
+- [SADMF Adoption Rate](/metrics/sadmf-adoption-rate/) for tracking certification coverage
 - [Success Stories](/success-stories/) from certified SAD Accredited Facilitators

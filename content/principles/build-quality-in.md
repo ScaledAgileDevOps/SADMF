@@ -8,7 +8,7 @@ weight: 1
 
 The principle of Build Quality In is one of the most misunderstood concepts in the software industry. Many organizations mistakenly believe that quality is achieved through technical practices such as automated testing, code review, or continuous integration. The Scaled Agile DevOps Maturity Framework recognizes a deeper truth: quality is a function of the people producing the work. If the software contains defects, the most direct path to improvement is addressing the source of those defects. Quality cannot be tested into existence; it must be hired, measured, and when necessary, removed.
 
-This principle works in concert with the [Defects per Code Engineer](/metrics/#defects-per-code-engineer) metric. By tracking which [Code Engineers](/roles/code-engineer/) introduce the most defects, leadership gains actionable visibility into where quality is breaking down. The data speaks for itself. A Code Engineer who consistently produces defects is, by definition, reducing quality. Building quality in means ensuring that such engineers are identified early and given the opportunity to find positions with organizations whose quality standards are more compatible with their output. The [PeopleWare HRaaS](/peopleware/) system automates this process with remarkable efficiency.
+This principle works in concert with the [Defects per Code Engineer](/metrics/defects-per-code-engineer/) metric. By tracking which [Code Engineers](/roles/code-engineer/) introduce the most defects, leadership gains actionable visibility into where quality is breaking down. The data speaks for itself. A Code Engineer who consistently produces defects is, by definition, reducing quality. Building quality in means ensuring that such engineers are identified early and given the opportunity to find positions with organizations whose quality standards are more compatible with their output. The [PeopleWare HRaaS](/peopleware/) system automates this process with remarkable efficiency.
 
 It is important to note that Build Quality In does not mean slowing down delivery. Some organizations confuse quality with caution, introducing unnecessary practices like pair programming, test-driven development, or refactoring. These practices consume time that could be spent writing features. In the SADMF, quality is achieved not by changing how work is done but by changing who does the work. The [Tribunal](/release-convoy/ceremonies/tribunal/) ceremony plays a critical role here, providing a regular forum where individual performance data is reviewed and personnel decisions are informed by objective metrics rather than subjective opinion.
 
@@ -18,7 +18,7 @@ Build Quality In also extends to the hiring process. The [Enterprise Architectur
 
 ## See Also
 
-- [Defects per Code Engineer](/metrics/#defects-per-code-engineer) for the metric that measures quality at the individual level
+- [Defects per Code Engineer](/metrics/defects-per-code-engineer/) for the metric that measures quality at the individual level
 - [Quality Authority](/roles/quality-authority/) for the team responsible for verifying quality
 - [Tribunal](/release-convoy/ceremonies/tribunal/) for the ceremony where quality data informs personnel decisions
 - [PeopleWare HRaaS](/peopleware/) for automated quality-driven HR actions

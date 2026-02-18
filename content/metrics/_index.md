@@ -7,37 +7,27 @@ description: Management via metrics is the most effective way to cause impact!
 weight: 10
 ---
 
-## Lines of Code per Code Engineer
+Metrics are the foundation of evidence-based management within the Scaled Agile DevOps Maturity Framework. Without precise, individual-level measurement, leadership cannot distinguish high performers from low performers, productive teams from unproductive teams, or successful transformations from expensive failures. Every activity in SADMF generates measurable data, and every piece of measurable data generates a metric, and every metric generates a dashboard, and every dashboard generates a management action. This is the metrics-to-action pipeline, and it is the most important pipeline in the organization -- more important even than the deployment pipeline, because deployments only deliver software, while metrics deliver accountability.
 
- [Code Engineers](/roles/code-engineer/) must be focused on their features for the next convoy. The fleet won't wait! We also need to ensure we have balanced metrics to prevent a perverse incentive when we track who created defects. If we only track defects, the [Code Engineer](/roles/code-engineer/) may try to assume the role of [Unit Tester](/roles/unit-tester/). That wastes time. Therefore, we need to measure the lines of code produced by each [Code Engineer](/roles/code-engineer/) to ensure productivity.
+These metrics are not suggestions or guidelines. They are the mandatory measurement instruments that every [Role](/roles/) is evaluated against, every [Ceremony](/release-convoy/) reports on, and every [Practice](/practices/) feeds data into. Each metric has been designed to be individually unambiguous and collectively comprehensive, creating a measurement system where no contribution goes uncounted and no underperformance goes undetected. When properly applied, they ensure that every person in the organization knows exactly where they stand, at all times, relative to everyone else.
 
-## Code Review Comments per Convoy
+## The Metrics
 
-Code review is important to ensure code is formatted correctly. We measure the number of review comments to verify each [Code Engineer](/roles/code-engineer/) is being critical enough of the work of others.
+1. **[Lines of Code per Code Engineer](/metrics/lines-of-code-per-code-engineer/)** -- The definitive measure of developer productivity, tracking LOC output to ensure Code Engineers maintain volume alongside quality.
 
-## Tasks per Code Engineer
+2. **[Code Review Comments per Convoy](/metrics/code-review-comments-per-convoy/)** -- Measures review rigor by counting comments, ensuring every Code Engineer is being sufficiently critical of others' work.
 
-For each [Code Engineer](/roles/code-engineer/), the number of tasks they complete during Convoy. By tracking the number of features each [Code Engineer](/roles/code-engineer/) completes, more can be shipped in each Convoy. Volume is important. Let's turn it up to 11!
+3. **[Tasks per Code Engineer](/metrics/tasks-per-code-engineer/)** -- Tracks the number of tasks each Code Engineer completes per Convoy, because volume is the truest measure of velocity.
 
-## Defects per Code Engineer
+4. **[Defects per Code Engineer](/metrics/defects-per-code-engineer/)** -- Attributes every defect to the individual who created it, informing the Tribunal and driving accountability.
 
-For each [Code Engineer](/roles/code-engineer/), we should track the number of defects they create and use this information to inform the [Tribunal](/release-convoy/ceremonies/tribunal/). We must [Build Quality In](/principles/build-quality-in/) by eliminating the source of defects.
+5. **[Defects per Unit Tester](/metrics/defects-per-unit-tester/)** -- Tracks defects detected per Unit Tester, eliminating testers who cannot find defects.
 
-## Defects per Unit Tester
+6. **[SADMF Maturity Score](/metrics/sadmf-maturity-score/)** -- Quantifies execution of the SAD Delivery Lifecycle on a bell curve, because customer confidence requires numerical proof.
 
-For each Tester, we should track the number of defects they detect and use this information to inform the [Tribunal](/release-convoy/ceremonies/tribunal/). We must [Build Quality In](/principles/build-quality-in/) by eliminating [Unit Testers](/roles/unit-tester/) who cannot find defects.
+7. **[Feature Completion Ratio](/metrics/feature-completion-ratio/)** -- The percentage of features delivered versus what was committed to 8 quarters ago.
 
-## SADMF Maturity Score
-
-The precise execution of the SAD Delivery Lifecycle is critical to the success of SADMF. Without "excellent" maturity scores, your customers will have no confidence you used SADMF to deliver!
-
-## Feature Completion Ratio
-
-The percentage of features delivered in the Convoy compared to what was committed to 8 quarters ago.
-
-## SADMF Adoption Rate
-
-The percentage of the organization that has received a SAD&trade; [certification](/certifications/).
+8. **[SADMF Adoption Rate](/metrics/sadmf-adoption-rate/)** -- The percentage of the organization with SAD certification, because transformation is measured by headcount.
 
 ## See Also
 
