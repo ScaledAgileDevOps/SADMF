@@ -1,5 +1,5 @@
 ---
-title: "Manifest Approval Ceremony"
+title: "Manifest Approval"
 linkTitle: "Manifest Approval"
 type: docs
 description: The formal ceremony in which the Convoy Steering Committee determines whether the paperwork is sufficiently complete to allow software to be deployed

@@ -32,7 +32,7 @@ When considering new ideas, only work on the things you are certain will succeed
 
 Efficiency and cost reduction are easy to justify, as it has a quick impact on profitability. As a manager, focusing on near-term efficiency is the right move, every time.
 
-The best example of this is the Equifax breach. The upper leadership chose to cut security spending and keep spending low. This improved their profit margin for years. With stock options, these near-term profit improvements paid off. Investmenting in things like cyber security is an investment in resiliency. These sorts of investments negatively impact profit margins, so make sure to avoid them.
+The best example of this is the Equifax breach. The upper leadership chose to cut security spending and keep spending low. This improved their profit margin for years. With stock options, these near-term profit improvements paid off. Investing in things like cyber security is an investment in resiliency. These sorts of investments negatively impact profit margins, so make sure to avoid them.
 
 ![Equifax breach has no impact on long-term stock options](/images/equifax.png)
 

@@ -6,9 +6,9 @@ description: Delivering software is scary. We need layers of process to feel bet
 weight: 7
 ---
 
-We need to nail the fundamentals of speed, innovation, and impact. We need to ensure we go fast and innovate but very cautiously to prevent solutions that do not work as designed. To do this, we need a "Zero Defects" approach to delivery.
+The organization must execute on the fundamentals of speed, innovation, and impact. Delivery must be both fast and cautious to prevent solutions that do not work as designed. This requires a "Zero Defects" approach to delivery.
 
-To maintain "Zero Defects", centralized control of all DORC&trade;s is critical. We need to "slow down to go fast" by ensuring we have an effective inspection process at the end!
+To maintain "Zero Defects," centralized control of all DORC&trade;s is critical. The fleet must "slow down to go fast" by ensuring an effective inspection process at the end.
 
 ## Let's Get READY to sail!
 
@@ -20,7 +20,7 @@ All changes should use the READY release process. READY stands for:
 - **D**eploy
 - **Y**ield results.
 
-This will ensure we are 100% READY to launch each convoy! All production changes or config changes should follow READY.
+This ensures the fleet is 100% READY to launch each convoy. All production changes or config changes must follow READY.
 
 ## Convoy Steering Committee (CSC)
 
@@ -32,11 +32,11 @@ All requests must be peer-reviewed and approved in duplicate and also approved b
 
 The CSC will meet each workday to review high-risk, or [Commodore](/roles/commodore/) escalated changes to the production environment.  Requests will be approved, sent back for more information, or rejected.
 
-After the CSC approves the Convoy's release there will be much rejoicing!
+After the CSC approves the Convoy's release, the fleet is cleared to sail.
 
 ## See Also
 
 - [Convoy Manifest](/release-convoy/manifest/) for the documentation the CSC reviews
 - [Convoy Ceremonies](/release-convoy/ceremonies/) for the ceremonies that precede deployment
-- [Roles](/roles/commodore/) for the Commodore who commands the deployment
-- [Metrics](/metrics/feature-completion-ratio/) for tracking what was delivered vs. committed
+- [Commodore](/roles/commodore/) for the role that commands the deployment
+- [Feature Completion Ratio](/metrics/feature-completion-ratio/) for tracking what was delivered vs. committed

@@ -2,7 +2,7 @@
 title: Provisioning
 linkTitle: Provisioning
 type: docs
-description: Translating optimistic commitments into granular task lists, without the inconvenience of developer input
+description: Translating strategic commitments into granular task lists through expert decomposition by Feature Captains
 weight: 4
 ---
 

@@ -28,5 +28,5 @@ The SADMF acknowledges what some practitioners have called the "Post-Standup Par
 
 - [Commodore](/roles/commodore/) for the role that facilitates and benefits from this ceremony
 - [Code Engineers](/roles/code-engineer/) for the participants who provide status on their non-work
-- [Post Standup Standup Review](/release-convoy/ceremonies/post-standup-standup-review/) for the documentation process that follows this ceremony
+- [Post-Standup Standup Review](/release-convoy/ceremonies/post-standup-standup-review/) for the documentation process that follows this ceremony
 - [Scrum of Scrum of Scrums](/release-convoy/ceremonies/scrum-of-scrum-of-scrums/) for the companion meeting covering active-work communication at scale

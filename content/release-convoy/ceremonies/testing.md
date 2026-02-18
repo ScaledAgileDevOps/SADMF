@@ -2,7 +2,7 @@
 title: "Testing"
 linkTitle: "Testing"
 type: docs
-description: A dedicated phase where a separate team writes all the tests so that Code Engineers can remain focused on what they do best — writing untested code
+description: A dedicated phase where the Quality Authority validates all code so that Code Engineers can remain focused on feature delivery
 weight: 9
 ---
 

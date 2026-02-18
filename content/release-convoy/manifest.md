@@ -6,7 +6,7 @@ description: The critical documentation required for every DORC
 weight: 6
 ---
 
-A Convoy doesn't navigate by dead reckoning. We require proper documentation to keep from leaving any Release Captain behind!
+A Convoy doesn't navigate by dead reckoning. We require proper documentation to keep from leaving any [Feature Captain](/roles/feature-captain/) behind!
 
 ## Manifest Contents
 

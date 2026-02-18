@@ -7,7 +7,7 @@ weight: 7
 ---
 
 {{% alert title="" color="info" %}}
-**A system will produce exactly what is designed to produce -- W. Edward Demming**
+**A system will produce exactly what is designed to produce -- W. Edwards Deming**
 {{% /alert %}}
 
 Systems Thinking is the meta-principle that governs all other principles in the Scaled Agile DevOps Maturity Framework. It recognizes that an organization is not a collection of autonomous individuals making independent decisions, but a carefully designed system that produces predictable outcomes when operated correctly. The SADMF embraces this insight by defining two complementary systems that together ensure every aspect of the organization is planned, monitored, and controlled: the [System of Authority (SOA)](/roles/system-of-authority/) and the [System of Service (SOS)](/roles/system-of-service/).

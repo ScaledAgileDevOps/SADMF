@@ -44,4 +44,4 @@ The [Chief Signals Officer](/roles/chief-signals-officer/) will compile inspecti
 - [Deploy the Fleet](/release-convoy/deploy/) for the approval process that follows Fleet Inspection
 - [Tribunal](/release-convoy/ceremonies/tribunal/) for addressing underperforming features
 - [Metrics](/metrics/) for the metrics presented during inspection
-- [Roles](/roles/commodore/) for the Commodore who presides over the inspection
+- [Commodore](/roles/commodore/) for the role that presides over the inspection

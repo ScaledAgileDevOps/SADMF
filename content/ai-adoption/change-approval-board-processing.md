@@ -21,5 +21,5 @@ The practical throughput of the AOCPP is approximately 3-5 changes per CAB sessi
 - [Change Rejection or Acceptance Party (CRAP)](/roles/change-rejection-or-acceptance-party/) for the final approval authority in the CAB workflow
 - [Environment Access Governance](/ai-adoption/environment-access-governance/) for the environment restrictions that apply before and after CAB approval
 - [Code Volume Productivity](/ai-adoption/code-volume-productivity/) for the metrics that drive the volume of changes entering the CAB
-- [DevOps Process Excellence Assessment (DEPRESSED)](/practices/depressed/) for how CAB compliance is assessed in maturity evaluations
+- [DEPRESSED](/practices/depressed/) for how defect escalation intersects with CAB-approved changes
 - [DevOps Release Convoy](/release-convoy/) for how CAB-approved changes proceed to deployment

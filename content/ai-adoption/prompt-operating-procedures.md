@@ -22,4 +22,4 @@ Together, these four artifacts ensure adherence to AI Request Uniformity Standar
 - [Fully Documented Requirements Package](/ai-adoption/fully-documented-requirements-package/) for the requirements artifacts that POP-Ops prompts must reference
 - [Code Standards Enforcement Team (CSET)](/roles/code-standards-enforcement-team/) for the team that validates prompt output compliance
 - [Chief Signals Officer](/roles/chief-signals-officer/) for the role that monitors POP-Ops health metrics
-- [DevOps Process Excellence Assessment (DEPRESSED)](/practices/depressed/) for how POP-Ops compliance is assessed
+- [DEPRESSED](/practices/depressed/) for how POP-Ops compliance is assessed in defect escalation

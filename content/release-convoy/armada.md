@@ -19,7 +19,7 @@ An Armada should be formed when any of the following conditions are met:
 
 ## Armada Command Structure
 
-The Armada is commanded by an **Admiral**, who outranks all [Commodores](/roles/commodore/) and reports directly to the [Admirals Transformation Office](/roles/admirals-transformation-office/). The Admiral's responsibilities include:
+The Armada is commanded by an **Admiral**, who outranks all [Commodores](/roles/commodore/) and reports directly to the [Admiral's Transformation Office](/roles/admirals-transformation-office/). The Admiral's responsibilities include:
 
 - Chairing the Convoy of Convoys Alignment (a 10-day planning event held quarterly)
 - Reviewing and approving each convoy's [Nautical Charts](/release-convoy/nautical-charts/)
@@ -54,4 +54,4 @@ In addition to each convoy's own [ceremonies](/release-convoy/ceremonies/), the 
 - [DevOps Release Convoy](/release-convoy/) for the single-convoy process the Armada coordinates
 - [Convoy Alignment](/release-convoy/agenda/) for the planning format scaled up in the Convoy of Convoys
 - [Nautical Charts](/release-convoy/nautical-charts/) for dependency visualization across convoys
-- [Roles](/roles/admirals-transformation-office/) for the Admirals Transformation Office that oversees Armadas
+- [Admiral's Transformation Office](/roles/admirals-transformation-office/) for the body that oversees Armadas
