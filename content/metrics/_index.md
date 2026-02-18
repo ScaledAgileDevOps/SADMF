@@ -7,10 +7,6 @@ description: Management via metrics is the most effective way to cause impact!
 weight: 10
 ---
 
-{{% alert title="" color="info" %}}
-{{< param description >}}
-{{% /alert %}}
-
 ## Lines of Code per Code Engineer
 
  [Code Engineers](/roles/#code-engineer-ce) must be focused on their features for the next convoy. The fleet won't wait! We also need to ensure we have balanced metrics to prevent a perverse incentive when we track who created defects. If we only track defects, the [Code Engineer](/roles/#code-engineer-ce) may try to assume the role of [Unit Tester](/roles/#unit-tester-ut). That wastes time. Therefore, we need to measure the lines of code produced by each [Code Engineer](/roles/#code-engineer-ce) to ensure productivity.
@@ -25,11 +21,11 @@ For each [Code Engineer](/roles/#code-engineer-ce), the number of tasks they com
 
 ## Defects per Code Engineer
 
-For each [Code Engineer](/roles/#code-engineer-ce), we should track the number of defects they create and use this information to inform the [Tribunal](/release-convoy/ceremonies/tribunal/). We must [Build Quality In](/principles/#build-quality-in) by eliminating the source of defects.
+For each [Code Engineer](/roles/#code-engineer-ce), we should track the number of defects they create and use this information to inform the [Tribunal](/release-convoy/ceremonies/tribunal/). We must [Build Quality In](/principles/build-quality-in/) by eliminating the source of defects.
 
 ## Defects per Unit Tester
 
-For each Tester, we should track the number of defects they detect and use this information to inform the [Tribunal](/release-convoy/ceremonies/tribunal/). We must [Build Quality In](/principles/#build-quality-in) by eliminating [Unit Testers](/roles/#unit-tester-ut) who cannot find defects.
+For each Tester, we should track the number of defects they detect and use this information to inform the [Tribunal](/release-convoy/ceremonies/tribunal/). We must [Build Quality In](/principles/build-quality-in/) by eliminating [Unit Testers](/roles/#unit-tester-ut) who cannot find defects.
 
 ## SADMF Maturity Score
 
@@ -41,12 +37,15 @@ The percentage of features delivered in the Convoy compared to what was committe
 
 ## SADMF Adoption Rate
 
-The percentage of the organization that has received a SAD&trade; [certification](/certifications).
+The percentage of the organization that has received a SAD&trade; [certification](/certifications/).
 
 ## See Also
 
 - [Roles](/roles/) for the roles these metrics are measured against
 - [Practices](/practices/) for the processes that generate metric data
+- [Precise Forecasting and Tracking](/practices/precise-forecasting-and-tracking/) for the story point conversion formula that drives forecasting metrics
 - [DevOps Release Convoy](/release-convoy/) for the delivery cycle metrics track
+- [Make Work Visible](/principles/make-work-visible/) for the principle behind metric dashboards
+- [Amplify Feedback](/principles/amplify-feedback/) for how metrics drive coaching conversations
 - [Scaling AI](/ai-adoption/) for AI-specific productivity metrics
 - [PeopleWare HRaaS](/peopleware/) for automated HR actions driven by these metrics

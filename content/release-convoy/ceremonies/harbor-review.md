@@ -6,10 +6,6 @@ description: A structured ceremony for reflecting on what went well, what could 
 weight: 15
 ---
 
-{{% alert title="" color="info" %}}
-{{< param description >}}
-{{% /alert %}}
-
 At the conclusion of each convoy cycle, the Harbor Review ceremony provides a structured opportunity to reflect on what went well, what could be improved, and what we will definitely not change. The [Commodore](/roles/#commodore-c) facilitates the review by asking each [Feature Captain](/roles/#feature-captain-fc) to submit three items in each category before the meeting. This pre-submission requirement ensures the meeting proceeds efficiently and prevents any spontaneous observations that might catch the Commodore off guard. The Harbor Review is the SADMF's commitment to continuous improvement, or more precisely, to the continuous discussion of improvement.
 
 ## The Three Categories

@@ -6,10 +6,6 @@ description: A dedicated period for addressing accumulated defects, provided fea
 weight: 16
 ---
 
-{{% alert title="" color="info" %}}
-{{< param description >}}
-{{% /alert %}}
-
 It's normal for a little damage to occur when we are moving so quickly. Defects will accumulate. The Dry Dock is the process of halting feature development for a few weeks so that repairs can be made. Every high-performing convoy will sustain wear during its voyage, and the Dry Dock provides a structured opportunity to address that wear before the next cycle begins. It is a testament to the framework's maturity that defect remediation has its own dedicated ceremony rather than being expected to happen alongside feature delivery.
 
 ## Scheduled Duration vs. Actual Duration

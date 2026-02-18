@@ -6,10 +6,6 @@ description: The formal ceremony in which the Convoy Steering Committee determin
 weight: 14
 ---
 
-{{% alert title="" color="info" %}}
-{{< param description >}}
-{{% /alert %}}
-
 Before any convoy may "leave port," it is critical that all Scaled Agile DevOps processes have been followed. The Convoy Steering Committee is convened on the day the fleet is scheduled to set sail. See [Deploy the Fleet](/release-convoy/deploy/) for the detailed deployment process. The Manifest Approval Ceremony is the culmination of weeks of preparation and represents the single most consequential gate in the entire convoy lifecycle. It is here that the [Convoy Steering Committee](/release-convoy/deploy/#convoy-steering-committee-csc) renders its verdict on whether the [Convoy Manifest](/release-convoy/manifest/) — which by this point has grown to several hundred pages — meets the standard required for deployment authorization.
 
 ## Weeks of Preparation

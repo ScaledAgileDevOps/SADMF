@@ -6,10 +6,6 @@ description: The critical documentation required for every DORC
 weight: 6
 ---
 
-{{% alert title="" color="info" %}}
-{{< param description >}}
-{{% /alert %}}
-
 A Convoy doesn't navigate by dead reckoning. We require proper documentation to keep from leaving any Release Captain behind!
 
 ## Manifest Contents

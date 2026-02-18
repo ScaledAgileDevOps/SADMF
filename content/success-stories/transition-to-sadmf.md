@@ -6,10 +6,6 @@ description: A case study of an enterprise transformation without the risk of cu
 weight: 20
 ---
 
-{{% alert title="" color="info" %}}
-{{< param description >}}
-{{% /alert %}}
-
 **Contributed by:** [Dirk Fabricius](https://www.linkedin.com/in/dirkfabricius/), [SAD Accredited Facilitator](/certifications/#scaled-agile-dev-ops-accredited-facilitators) on April 1, 2023
 
 Some companies have steep hierarchies where managers are labeled by letters and [numbers](https://www.youtube.com/watch?v=hphXPJJMl7g). When discussing these positions, it can sound like a game of chess: "F2 to E1." This case study features one such company that, until recently, was a moderately happy place where development teams even deployed code from time to time. However, according to an article in a management magazine, they were not performing among the top 5% of companies worldwide, such as Google, Apple, Facebook, and Amazon. As a result, management decided to implement the [Scaled Agile Dev Ops Maturity Framework](https://scaledagiledevops.com), which, surprisingly, nobody at Google, Apple, Facebook, or Amazon had ever heard of. This article shares their success story, implementation roadmap, and important tips for anyone considering implementing this or any other scaling framework.

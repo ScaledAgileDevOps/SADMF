@@ -6,10 +6,6 @@ description: Translating optimistic commitments into granular task lists, withou
 weight: 4
 ---
 
-{{% alert title="" color="info" %}}
-{{< param description >}}
-{{% /alert %}}
-
 Before each convoy begins active development, the Provisioning ceremony translates the commitments made during [Convoy Alignment](/release-convoy/agenda/) into detailed task lists for each [Feature Team](/roles/#feature-team-ft). Each [Feature Captain](/roles/#feature-captain-fc) breaks their committed features into tasks no larger than 4 hours each. Tasks estimated at more than 4 hours indicate insufficient understanding and must be broken down further, regardless of whether the decomposition adds clarity.
 
 After task decomposition, the [Feature Captain](/roles/#feature-captain-fc) totals the estimated hours across all tasks. If the total exceeds the team's available capacity, the [Feature Captain](/roles/#feature-captain-fc) adds 30% additional tasks anyway because "we committed to this during alignment." The gap between capacity and commitment is recorded as a "stretch opportunity" rather than an overcommitment.

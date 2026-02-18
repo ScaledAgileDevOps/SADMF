@@ -6,10 +6,6 @@ description: Coordinating multiple convoys for maximum enterprise alignment
 weight: 9
 ---
 
-{{% alert title="" color="info" %}}
-{{< param description >}}
-{{% /alert %}}
-
 When a single DevOps Release Convoy&trade; is insufficient for the scale of the enterprise, multiple convoys are assembled into an Armada. The Armada provides the coordination layer necessary to ensure that convoys operating independently can be brought into alignment through additional meetings, documentation, and oversight.
 
 ## When to Form an Armada

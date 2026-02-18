@@ -7,6 +7,3 @@ description: Triumphant experience reports from SAD Accredited Facilitators!
 weight: 99
 ---
 
-{{% alert title="" color="info" %}}
-{{< param description >}}
-{{% /alert %}}

@@ -13,7 +13,7 @@ As organizations accelerate their Digital Value Realization Journeys (DVRJs), Ar
 The Enterprise AI Enablement Framework (EAIEF™) provides a holistic, acronym-forward approach to maximizing developer
 throughput without introducing disruptive changes to architectural, cultural, or operational constructs.
 
-{{< figure src="/images/AI-framework.png" >}}
+{{< figure src="/images/AI-framework.png" alt="Enterprise AI Enablement Framework diagram" >}}
 
 ## Establish a Centralized AI Generation Function (AIGF) Within the Enterprise Delivery Organization (EDO)
 
@@ -113,7 +113,7 @@ This structured approach supports meaningful progress toward Unified Enterprise 
 
 The EAIEF&trade; is fully compatible with existing SADMF processes:
 
-- AI-generated code follows the same [Fractal-based Development](/practices/#fractal-based-development) branching pattern and is subject to [Conflict Arbitration](/practices/#conflict-arbitration) by the [Source Management Team](/roles/#source-management-team)
+- AI-generated code follows the same [Fractal-based Development](/practices/fractal-based-development/) branching pattern and is subject to [Conflict Arbitration](/practices/conflict-arbitration/) by the [Source Management Team](/roles/#source-management-team-smt)
 - All AI output must pass through the [CSET](/roles/#code-standards-enforcement-team-cset) and [EARB](/roles/#enterprise-architecture-review-board-earb) before inclusion in any [DORC&trade;](/release-convoy/)
 - CVP and LAV metrics complement existing [Lines of Code per Code Engineer](/metrics/#lines-of-code-per-code-engineer) tracking
 - The CAB workflow aligns with the [CRAP](/roles/#change-rejection-or-acceptance-party-crap) approval process

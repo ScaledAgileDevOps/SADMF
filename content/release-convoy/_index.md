@@ -8,10 +8,10 @@ weight: 1
 ---
 
 {{% alert title="" color="info" %}}
-Keeping track of frequent releases by independent teams is just too much cognitive load. We need to *[Work in Small Batches.](/principles/#work-in-small-batches)* The DevOps Release Convoy&trade; (DORC) simplifies things. Why burden ourselves tracking 5 or 10 releases per quarter if we can use 1 easily managed DORC&trade;?
+Keeping track of frequent releases by independent teams is just too much cognitive load. We need to *[Work in Small Batches.](/principles/work-in-small-batches/)* The DevOps Release Convoy&trade; (DORC) simplifies things. Why burden ourselves tracking 5 or 10 releases per quarter if we can use 1 easily managed DORC&trade;?
 {{% /alert %}}
 
-{{< figure src="convoy.jpg" title="Set sail with the DORC!" width="60%" >}}
+{{< figure src="convoy.jpg" title="Set sail with the DORC!" alt="DevOps Release Convoy" width="60%" >}}
 
 ## Why Convoys?
 
@@ -47,5 +47,5 @@ The Convoy depends on clearly defined [Roles](/roles/) to function. The [Commodo
 - [Shore Leave](/release-convoy/shore-leave/) for the structured innovation period
 - [The Armada](/release-convoy/armada/) for coordinating multiple convoys
 - [Principles](/principles/) that guide the framework
-- [Practices](/practices/) that support the Convoy, including [Fractal-based Development](/practices/#fractal-based-development)
+- [Practices](/practices/) that support the Convoy, including [Fractal-based Development](/practices/fractal-based-development/)
 - [Metrics](/metrics/) that measure Convoy effectiveness

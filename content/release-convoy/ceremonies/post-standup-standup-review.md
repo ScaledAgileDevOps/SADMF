@@ -6,10 +6,6 @@ description: A daily documentation ceremony ensuring that all status updates abo
 weight: 13
 ---
 
-{{% alert title="" color="info" %}}
-{{< param description >}}
-{{% /alert %}}
-
 To ensure no information is lost through insufficient documentation, each [Feature Captain](/roles/#feature-captain-fc) will submit a daily report using the SAD Update form and email it to the [Commodore](/roles/#commodore-c), who will consolidate it and file it. The SAD (Status and Disposition) Update form is the SADMF's standardized instrument for capturing the outcomes of the [Post-Standup Standup](/release-convoy/ceremonies/post-standup-standup/) ceremony. The form was designed by the [Admiral's Transformation Office](/roles/#admirals-transformation-office-ato) and has not been revised since its introduction, despite — or perhaps because of — the 14 required fields that Feature Captains must complete daily.
 
 ## The SAD Update Form

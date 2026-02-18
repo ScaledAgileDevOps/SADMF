@@ -6,10 +6,6 @@ description: Where Code Engineers transform requirements into features using the
 weight: 7
 ---
 
-{{% alert title="" color="info" %}}
-{{< param description >}}
-{{% /alert %}}
-
 The Coding Phase is the tightly controlled period during which [Code Engineers](/roles/#code-engineer-ce) transform provisioned requirements into working software. Each Coding Phase has a fixed timebox determined during [Provisioning](/release-convoy/ceremonies/provisioning/), and this timebox is non-negotiable. If the estimates produced by managers during Provisioning prove insufficient, the Code Engineers are expected to work with greater efficiency, not to request additional time. The timebox exists because predictability is the highest virtue of the DevOps Release Convoy, and extending deadlines would undermine the carefully synchronized departure schedule.
 
 Code Engineers must implement the requirements exactly as specified, without deviation or embellishment. Creativity is recognized as one of the primary sources of risk in software delivery. A Code Engineer who "improves" upon a requirement is, by definition, delivering something that was not requested, and unplanned work is the enemy of the convoy. All code comments must reference the convoy number (e.g., `// CONVOY-47: Implements requirement FC-47-0129`) so that the [CSET](/roles/#code-standards-enforcement-team-cset) can trace every line of code back to its authorizing ceremony. Comments that express opinions, explain reasoning, or apologize to future maintainers are non-compliant and will be flagged during [Code Inspection](/release-convoy/ceremonies/code-inspection/).
@@ -28,3 +24,5 @@ Once the Coding Completion Certificate has been signed, the Code Engineer is rel
 - [Code Inspection](/release-convoy/ceremonies/code-inspection/) for what happens after the Coding Completion Certificate is signed
 - [Provisioning](/release-convoy/ceremonies/provisioning/) for how the Coding Phase timebox is determined
 - [Convoy Manifest](/release-convoy/manifest/) for where the Coding Completion Certificate is filed
+- [CI/CD/ED](/practices/ci-cd-ed/) for the delivery practice that governs how code moves through the pipeline
+- [Fractal-based Development](/practices/fractal-based-development/) for the branching model used during the Coding Phase

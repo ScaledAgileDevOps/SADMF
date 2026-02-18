@@ -7,41 +7,35 @@ description: We must adhere to the correct principles to correctly perform the p
 weight: 2
 ---
 
-{{% alert title="" color="info" %}}
-{{< param description >}}
-{{% /alert %}}
+Principles are the foundation upon which every practice, ceremony, and role in the Scaled Agile DevOps Maturity Framework is built. Without a firm commitment to the correct principles, teams risk drifting into dangerous territory: autonomous decision-making, trust-based collaboration, and other patterns that undermine organizational control. The SADMF principles have been carefully selected and refined to ensure that every member of the organization understands what is expected of them and what will happen if those expectations are not met.
 
-## Build Quality In
+These principles are not optional. They are the immutable laws that govern how work is planned, executed, measured, and judged. Each principle reinforces the others, creating a self-sustaining system of accountability that operates at every level of the enterprise. When properly applied, they eliminate ambiguity, reduce individual autonomy to manageable levels, and ensure that leadership always has the information it needs to make decisions on behalf of the people doing the work.
 
-Quality software comes from quality people. Therefore, Poor quality software must come from poor quality people. To **build quality in**, we remove the things that reduce quality.
+{{< figure src="/images/principles-hierarchy.svg" title="How SADMF Principles reinforce each other" alt="SADMF Principles hierarchy diagram" width="80%" >}}
 
-## Work in Small Batches
+## The Principles
 
-Too many releases are hard to report and manage. To reduce the number of updates to the [Release Tracking](/practices/#release-tracking) spreadsheet, we should focus on a small number of releases each quarter. This provides us with more time to [Amplify Feedback](#amplify-feedback).
+1. **[Build Quality In](/principles/build-quality-in/)** -- Quality software comes from quality people. To build quality in, we remove the things that reduce quality.
 
-## Limit WIP
+2. **[Work in Small Batches](/principles/work-in-small-batches/)** -- Too many releases are hard to manage. We focus on a small number of large releases each quarter.
 
-Workers Idle Problem is when workers are idle, that's a problem. We should ensure everyone is planned at 120% capacity. Having these stretch goals ensures everyone exerts maximum effort. This ensures no idle downtime, which intuitively, is waste. Limiting WIP is a key foundation to how we ensure you are maximizing capacity utilization in our organization. This also helps to ensure that time in the Coding Pool remains as short as possible.
+3. **[Limit WIP](/principles/limit-wip/)** -- Workers Idle Problem is when workers are idle. We ensure everyone is planned at 120% capacity to eliminate waste.
 
-## Amplify Feedback
+4. **[Amplify Feedback](/principles/amplify-feedback/)** -- Coaching employees daily ensures they know we are tracking their work and care about their output.
 
-Coaching employees is an important daily practice to ensure they know we are tracking their work and care about their output.
+5. **[Everyone is Responsible](/principles/everyone-is-responsible/)** -- Each individual is responsible for their own work and should be rewarded or held accountable accordingly.
 
-## Everyone is Responsible
+6. **[Psychological Safety](/principles/psychological-safety/)** -- Automated systems handle difficult personnel decisions so managers never face uncomfortable conversations.
 
-Each [Code Engineer](/roles/#code-engineer-ce) is responsible for their own work and should be rewarded for the work they do. If a feature is successfully delivered, we should identify the [Code Engineer](/roles/#code-engineer-ce) who made the most changes and give them a bonus. It would be unfair to reward the whole team based on the excellence of an individual.
+7. **[Systems Thinking](/principles/systems-thinking/)** -- Two bureaucratic systems operating under the Admiral's Transformation Office ensure organizational alignment.
 
-## Psychological Safety
+8. **[Continuous Learning](/principles/continuous-learning/)** -- Mandatory certifications and approved workshops ensure that learning is structured, tracked, and billable.
 
-When we need to help resources with the opportunity to find positions with other organizations, we use the [PeopleWare HRaaS](/peopleware) system. This uses individual performance data and machine learning models to automate the process of giving them that opportunity. This allows us to avoid the stress of challenging conversations.
+9. **[Lean Management](/principles/lean-management/)** -- Adding management layers to identify and eliminate waste ensures that no inefficiency goes unmanaged.
 
-## Systems Thinking
+10. **[Make Work Visible](/principles/make-work-visible/)** -- Surveillance dashboards and individual output tracking ensure leadership always knows who is and is not contributing.
 
-{{% alert title="" color="info" %}}
-**A system will produce exactly what is designed to produce -- W. Edward Demming**
-{{% /alert %}}
-
-The Scaled Agile DevOps Maturity Framework is built upon systems thinking. There are two systems that operate within the SADMF System. The [System of Authority (SOA)*](/roles/#system-of-authority-soa) (SOA) and the [System of Service (SOS)*](/roles/#system-of-service-sos) (SOS). Both Systems are accountable to the [Admiral's Transformation Office (ATO)*](/roles/#admirals-transformation-office-ato).
+11. **[Fail Fast](/principles/fail-fast/)** -- Rapid identification of who failed ensures accountability is assigned before root causes can be obscured by complexity.
 
 ## See Also
 
@@ -49,3 +43,4 @@ The Scaled Agile DevOps Maturity Framework is built upon systems thinking. There
 - [DevOps Release Convoy](/release-convoy/) for the delivery system built on these principles
 - [Roles](/roles/) for the organizational structure that enforces them
 - [Metrics](/metrics/) for measuring adherence to the principles
+- [PeopleWare HRaaS](/peopleware/) for automated HR actions driven by these principles

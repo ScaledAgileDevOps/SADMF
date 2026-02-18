@@ -6,10 +6,6 @@ description: A ceremony dedicated to providing status updates on the work that i
 weight: 12
 ---
 
-{{% alert title="" color="info" %}}
-{{< param description >}}
-{{% /alert %}}
-
 Only the most important status updates are given in Standup, and some defects are lower priority than some features. To address this gap, the SADMF prescribes the Post-Standup Standup ceremony. Here, everyone on the Convoy participates to provide status updates to the [Commodore](/roles/#commodore-c) on the lower-priority work that is not being worked on. While the daily standup focuses on active work and typically lasts 15 minutes, the Post-Standup Standup addresses the much larger universe of inactive work and accordingly requires 45 to 60 minutes. The SADMF recognizes that the amount of work not being done always exceeds the amount of work being done, and this ceremony ensures that all of it receives appropriate visibility.
 
 ## Attendance and Format

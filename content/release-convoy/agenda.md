@@ -6,10 +6,6 @@ description: Every journey must begin with meticulous, even pedantic, planning
 weight: 1
 ---
 
-{{% alert title="" color="info" %}}
-{{< param description >}}
-{{% /alert %}}
-
 ## Attendance
 
 All teams should assemble in the Convoy Alignment room for this multi-day celebration of detailed planning. It is important that the alignment happens in person and that everyone travels to a remote location to eliminate distractions from less important things such as family or pets.
@@ -57,4 +53,4 @@ If the initial Fist of Five vote does not achieve unanimity at 4 or above, the f
 - [Convoy Manifest](/release-convoy/manifest/) for the documentation produced during alignment
 - [Nautical Charts](/release-convoy/nautical-charts/) for the dependency boards constructed during alignment
 - [WSVF](/release-convoy/wsvf/) for how features are prioritized during alignment
-- [Principles](/principles/#work-in-small-batches) for Working in Small Batches
+- [Work in Small Batches](/principles/work-in-small-batches/) for the principle behind convoy-sized releases

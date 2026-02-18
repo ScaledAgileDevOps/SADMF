@@ -6,11 +6,7 @@ description: Building quality in by identifying and removing the person responsi
 weight: 18
 ---
 
-{{% alert title="" color="info" %}}
-{{< param description >}}
-{{% /alert %}}
-
-We must [Build Quality In](/principles/#build-quality-in) by removing things that cause poor quality. In this monthly ceremony, we identify and remove the person who created each defect. The Tribunal is the cornerstone of SADMF's accountability culture, ensuring that every defect has a name attached to it and that name has consequences. Organizations that rely on blameless postmortems may feel comfortable, but comfort does not drive improvement. The Tribunal drives improvement through the motivating power of personal accountability.
+We must [Build Quality In](/principles/build-quality-in/) by removing things that cause poor quality. In this monthly ceremony, we identify and remove the person who created each defect. The Tribunal is the cornerstone of SADMF's accountability culture, ensuring that every defect has a name attached to it and that name has consequences. Organizations that rely on blameless postmortems may feel comfortable, but comfort does not drive improvement. The Tribunal drives improvement through the motivating power of personal accountability.
 
 ## The Defect Attribution Algorithm
 
@@ -38,9 +34,10 @@ All Tribunal proceedings are documented in the Tribunal Log, a permanent record 
 
 ## See Also
 
-- [Build Quality In](/principles/#build-quality-in) for the principle that drives the Tribunal
+- [Build Quality In](/principles/build-quality-in/) for the principle that drives the Tribunal
 - [Defects per Code Engineer](/metrics/#defects-per-code-engineer) for the metric tracked by Tribunal outcomes
 - [Development Integrity Assurance Team (DIAT)](/roles/#development-integrity-assurance-team-diat) for the team that runs the Defect Attribution Algorithm
 - [PeopleWare](/peopleware/) for how Tribunal outcomes affect performance reviews
 - [Code Engineers](/roles/#code-engineer-ce) for the role most commonly appearing before the Tribunal
 - [Rota Fortunae](/release-convoy/ceremonies/rota-fortunae/) for what happens when Tribunal outcomes suggest systemic issues
+- [DEPRESSED](/practices/depressed/) for the 7-stage defect remediation process that feeds Tribunal attribution data

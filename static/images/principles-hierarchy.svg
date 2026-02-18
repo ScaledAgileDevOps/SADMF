@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#a23b72"/>
+    </marker>
+    <linearGradient id="topGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#242627;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3a3d3f;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="midGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#a23b72;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c44d8a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="baseGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4a6fa5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6089bf;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#242627">SADMF Principles Hierarchy</text>
+
+  <!-- Top tier: Systems Thinking -->
+  <rect x="275" y="50" width="250" height="45" rx="8" fill="url(#topGrad)"/>
+  <text x="400" y="78" text-anchor="middle" font-size="14" font-weight="bold" fill="white">Systems Thinking</text>
+
+  <!-- Arrows from Systems Thinking down -->
+  <line x1="350" y1="95" x2="200" y2="140" stroke="#a23b72" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="400" y1="95" x2="400" y2="140" stroke="#a23b72" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="450" y1="95" x2="600" y2="140" stroke="#a23b72" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+  <!-- Mid tier: Management Principles -->
+  <rect x="75" y="145" width="250" height="45" rx="8" fill="url(#midGrad)"/>
+  <text x="200" y="173" text-anchor="middle" font-size="13" font-weight="bold" fill="white">Lean Management</text>
+
+  <rect x="275" y="145" width="250" height="45" rx="8" fill="url(#midGrad)"/>
+  <text x="400" y="173" text-anchor="middle" font-size="13" font-weight="bold" fill="white">Continuous Learning</text>
+
+  <rect x="475" y="145" width="250" height="45" rx="8" fill="url(#midGrad)"/>
+  <text x="600" y="173" text-anchor="middle" font-size="13" font-weight="bold" fill="white">Psychological Safety</text>
+
+  <!-- Arrows from mid tier to operational tier -->
+  <line x1="150" y1="190" x2="120" y2="240" stroke="#a23b72" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="200" y1="190" x2="290" y2="240" stroke="#a23b72" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="400" y1="190" x2="290" y2="240" stroke="#a23b72" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="400" y1="190" x2="470" y2="240" stroke="#a23b72" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="600" y1="190" x2="470" y2="240" stroke="#a23b72" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="600" y1="190" x2="650" y2="240" stroke="#a23b72" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+  <!-- Operational tier -->
+  <rect x="25" y="245" width="190" height="45" rx="8" fill="url(#baseGrad)"/>
+  <text x="120" y="273" text-anchor="middle" font-size="12" font-weight="bold" fill="white">Limit WIP</text>
+
+  <rect x="195" y="245" width="190" height="45" rx="8" fill="url(#baseGrad)"/>
+  <text x="290" y="273" text-anchor="middle" font-size="12" font-weight="bold" fill="white">Amplify Feedback</text>
+
+  <rect x="375" y="245" width="190" height="45" rx="8" fill="url(#baseGrad)"/>
+  <text x="470" y="273" text-anchor="middle" font-size="12" font-weight="bold" fill="white">Everyone is Responsible</text>
+
+  <rect x="555" y="245" width="190" height="45" rx="8" fill="url(#baseGrad)"/>
+  <text x="650" y="273" text-anchor="middle" font-size="12" font-weight="bold" fill="white">Fail Fast</text>
+
+  <!-- Arrows from operational to delivery tier -->
+  <line x1="120" y1="290" x2="200" y2="340" stroke="#a23b72" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="290" y1="290" x2="200" y2="340" stroke="#a23b72" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="290" y1="290" x2="400" y2="340" stroke="#a23b72" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="470" y1="290" x2="400" y2="340" stroke="#a23b72" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="470" y1="290" x2="600" y2="340" stroke="#a23b72" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="650" y1="290" x2="600" y2="340" stroke="#a23b72" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+  <!-- Delivery tier -->
+  <rect x="75" y="345" width="250" height="45" rx="8" fill="url(#baseGrad)"/>
+  <text x="200" y="373" text-anchor="middle" font-size="12" font-weight="bold" fill="white">Work in Small Batches</text>
+
+  <rect x="275" y="345" width="250" height="45" rx="8" fill="url(#baseGrad)"/>
+  <text x="400" y="373" text-anchor="middle" font-size="12" font-weight="bold" fill="white">Make Work Visible</text>
+
+  <rect x="475" y="345" width="250" height="45" rx="8" fill="url(#baseGrad)"/>
+  <text x="600" y="373" text-anchor="middle" font-size="12" font-weight="bold" fill="white">Build Quality In</text>
+
+  <!-- Final convergence arrows -->
+  <line x1="200" y1="390" x2="400" y2="430" stroke="#a23b72" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="400" y1="390" x2="400" y2="430" stroke="#a23b72" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="600" y1="390" x2="400" y2="430" stroke="#a23b72" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+  <!-- Bottom: Output -->
+  <rect x="250" y="435" width="300" height="50" rx="10" fill="url(#topGrad)" stroke="#a23b72" stroke-width="3"/>
+  <text x="400" y="458" text-anchor="middle" font-size="13" font-weight="bold" fill="white">DevOps Release Convoy</text>
+  <text x="400" y="475" text-anchor="middle" font-size="11" fill="#ccc">Compliance at Scale</text>
+
+  <!-- Legend -->
+  <rect x="25" y="500" width="12" height="12" rx="2" fill="url(#topGrad)"/>
+  <text x="42" y="511" font-size="10" fill="#555">Strategic</text>
+  <rect x="110" y="500" width="12" height="12" rx="2" fill="url(#midGrad)"/>
+  <text x="127" y="511" font-size="10" fill="#555">Cultural</text>
+  <rect x="195" y="500" width="12" height="12" rx="2" fill="url(#baseGrad)"/>
+  <text x="212" y="511" font-size="10" fill="#555">Operational</text>
+</svg>

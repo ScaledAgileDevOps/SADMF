@@ -6,10 +6,6 @@ description: A dedicated phase where a separate team writes all the tests so tha
 weight: 9
 ---
 
-{{% alert title="" color="info" %}}
-{{< param description >}}
-{{% /alert %}}
-
 To keep [Code Engineers](/roles/#code-engineer-ce) productive, the SADMF separates coding from testing entirely. Once a feature passes [Code Inspection](/release-convoy/ceremonies/code-inspection/), the [Feature Captain](/roles/#feature-captain-fc) assigns the complete, frozen codebase to the [Unit Testing Team](/roles/#unit-tester-ut) for comprehensive test coverage. Code Engineers do not write tests because doing so would reduce the time available for coding, and their utilization metrics are measured in lines of production code delivered, not in lines of test code. Test code, while necessary, is not production code and therefore does not count toward throughput.
 
 The Unit Testing Team receives the code with no documentation about the developer's intent, design decisions, or expected behavior. This is by design. Reading the code IS the documentation, and testers who understand the code by reading it will write tests that verify what the code actually does rather than what someone intended it to do. If the code does something unexpected, that is either a feature or a defect, and it is not the tester's role to make that determination. The tester's role is to achieve 100% line coverage, as measured by the organization's coverage tool. Branch coverage, path coverage, and mutation testing are not measured because the organization has determined that line coverage is a sufficient proxy for quality. This determination was made by someone who has since left the company, but the policy remains.

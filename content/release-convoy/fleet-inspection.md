@@ -6,10 +6,6 @@ description: A formal review of all completed work to ensure leadership confiden
 weight: 5
 ---
 
-{{% alert title="" color="info" %}}
-{{< param description >}}
-{{% /alert %}}
-
 At the conclusion of each convoy cycle, all [Feature Teams](/roles/#feature-team-ft) present their completed work to the [Commodore](/roles/#commodore-c), the [Convoy Steering Committee](/release-convoy/deploy/#convoy-steering-committee-csc), and assembled senior leadership. The Fleet Inspection ensures that delivered features meet the exacting standards of people who were not involved in building them.
 
 ## Presentation Requirements

@@ -6,10 +6,6 @@ description: To effectively scale communication, we layer meetings upon meetings
 weight: 11
 ---
 
-{{% alert title="" color="info" %}}
-{{< param description >}}
-{{% /alert %}}
-
 The Scrum of Scrum of Scrums (SoSoS) is the SADMF's proven approach to scaling daily communication across the enterprise. First thing in the morning after the daily scrum, each team selects a Tribute to attend the daily Scrum of Scrums (SOS). At noon, your Tribute attends a Scrum with the Tributes from the other teams. They select a Tribute of Tributes from the SOS meeting who, at 3 PM, attends a meeting with the Tribute of Tributes of the Scrums of Scrums from the broader organization. They then reverse the process to pass down direction. May the odds be ever in your favor. The use of Hunger Games terminology is not metaphorical; it is an official part of the SADMF vocabulary, reflecting the competitive nature of organizational communication and the reality that not every message survives the journey.
 
 ## The Tribute's Daily Schedule

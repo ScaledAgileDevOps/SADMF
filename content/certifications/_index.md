@@ -7,10 +7,6 @@ description: Get your SAD certifications today!
 weight: 1000
 ---
 
-{{% alert title="" color="info" %}}
-{{< param description >}}
-{{% /alert %}}
-
 ## Scaled Agile DevOps Practitioner
 
 ![SAD AF Cert](/images/sad-certified-sm.png)

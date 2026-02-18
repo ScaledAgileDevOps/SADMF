@@ -6,10 +6,6 @@ description: A dedicated period for innovation, learning, and catching up on sta
 weight: 8
 ---
 
-{{% alert title="" color="info" %}}
-{{< param description >}}
-{{% /alert %}}
-
 Between convoys, teams are granted Shore Leave: a brief period where [Code Engineers](/roles/#code-engineer-ce) are free to explore new technologies, reduce technical debt, and pursue innovative ideas. This ensures the organization maintains a culture of continuous learning and creativity.
 
 ## Approved Shore Leave Activities

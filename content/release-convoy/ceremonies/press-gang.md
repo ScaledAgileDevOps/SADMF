@@ -6,10 +6,6 @@ description: The ceremony where Code Engineers are drafted from the coding pool 
 weight: 6
 ---
 
-{{% alert title="" color="info" %}}
-{{< param description >}}
-{{% /alert %}}
-
 The Press Gang is the resource allocation ceremony in which [Feature Captains](/roles/#feature-captain-fc) select [Code Engineers](/roles/#code-engineer-ce) from the shared coding pool to staff their feature teams. The name is a proud nod to the naval tradition of impressment, in which sailors were recruited through the efficient method of simply telling them where they would be working. The SADMF has modernized this practice for the knowledge economy by adding a whiteboard.
 
 The selection process follows a strict draft order based on feature priority as determined during [Convoy Alignment](/release-convoy/agenda/). The Feature Captain with the highest-priority feature selects first, choosing between 2 and 20 Code Engineers depending on the [Provisioning](/release-convoy/ceremonies/provisioning/) estimates. Selection continues in priority order until all features are staffed or the coding pool is exhausted, whichever comes first. If the pool is exhausted before all features are staffed, lower-priority features proceed with whatever engineers remain, and their Feature Captains are reminded that delivering with fewer resources is an opportunity to demonstrate organizational agility.
@@ -27,3 +23,4 @@ The Press Gang ceremony is one of the SADMF's most powerful tools for preventing
 - [Provisioning](/release-convoy/ceremonies/provisioning/) for how staffing needs are determined
 - [Coding](/release-convoy/ceremonies/coding/) for what happens after engineers are assigned
 - [Convoy Alignment](/release-convoy/agenda/) for where feature priorities are established
+- [Limit WIP](/principles/limit-wip/) for the principle that ensures zero idle time between assignments

@@ -7,10 +7,6 @@ description: Commanding the organization requires structure, clearly defined rol
 weight: 5
 ---
 
-{{% alert title="" color="info" %}}
-{{< param description >}}
-{{% /alert %}}
-
 ## Admirals Transformation Office (ATO)
 
 This is the heartbeat of the transformation, it is the command-and-control center to ensure everyone is achieving the
@@ -72,7 +68,7 @@ Designers. They are responsible for reviewing every change before allowing it to
 
 If the *Right Way* to do DevOps is not owned and controlled by an executive then nobody will do it. So, we need a named
 person to codify the *Right Way* in the DevOps Process Binder and hold all teams accountable to the [DevOps Process
-Excellence Assessment](/practices/#devops-process-excellence-assessment). By staffing this role we prevent process drift
+Excellence Assessment](/practices/devops-process-excellence-assessment/). By staffing this role we prevent process drift
 and eventual mutation of the *Right Way* and can track our annual progress towards [SADMF
 Maturity](/metrics/#sadmf-maturity-score).
 
@@ -90,7 +86,7 @@ The mid-level manager who is responsible for tracking the progress of the featur
 ## Feature Team (FT)
 
 The Feature Team is the group of [Code Engineers](/roles/#code-engineer-ce) assembled to build a new feature for the
-next Convoy. Because we work so diligently to [Build Quality In](/principles/#build-quality-in) with the
+next Convoy. Because we work so diligently to [Build Quality In](/principles/build-quality-in/) with the
 [Tribunal](/release-convoy/ceremonies/tribunal/), these teams should be able to deliver at maximum throughput as soon as they are
 formed.
 
@@ -114,7 +110,7 @@ RBRB must come from areas as far removed from the work as possible to maintain o
 
 To improve [Code Engineer](#code-engineer-ce) productivity by reducing the work required to integrate changes, we
 introduce the Source Management Team. The SMT is responsible for authorizing new [feature
-branches](/practices/#fractal-based-development), creating the branches, and merging the complete branches from each
+branches](/practices/fractal-based-development/), creating the branches, and merging the complete branches from each
 [Code Engineer](#code-engineer-ce) into the Conflict Arbitration branch. They will then resolve all conflicts for the
 [Code Engineers](/roles/#code-engineer-ce) before alerting the [Quality Authority](#quality-authority-qa) that the
 Convoy is ready for testing.
@@ -146,3 +142,6 @@ ensure the code works.
 * [Metrics](/metrics/) for how role performance is measured
 * [Certifications](/certifications/) for role-specific certifications
 * [Scaling AI](/ai-adoption/) for how roles interact with AI-generated code
+* [Lean Management](/principles/lean-management/) for the principle behind organizational layering
+* [Everyone is Responsible](/principles/everyone-is-responsible/) for individual accountability across all roles
+* [Standardized Environment Provisioning](/practices/standardized-environment-provisioning/) for the SEPAW practice executed by Build Engineers

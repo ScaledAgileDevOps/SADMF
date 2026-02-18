@@ -6,10 +6,6 @@ description: The definitive method for prioritizing features when everything is 
 weight: 2
 ---
 
-{{% alert title="" color="info" %}}
-{{< param description >}}
-{{% /alert %}}
-
 Every convoy faces the same challenge: too many features and not enough [Code Engineers](/roles/#code-engineer-ce). Traditional prioritization methods rely on simplistic measures like customer value or technical feasibility. WSVF provides a more sophisticated approach that accounts for the complex political and organizational dynamics of enterprise software delivery.
 
 ## The WSVF Formula

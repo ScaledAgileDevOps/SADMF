@@ -6,10 +6,6 @@ description: A rigorous compliance review ensuring all code meets the exacting s
 weight: 8
 ---
 
-{{% alert title="" color="info" %}}
-{{< param description >}}
-{{% /alert %}}
-
 Code Inspection is the formal review ceremony in which the [Code Standards Enforcement Team (CSET)](/roles/#code-standards-enforcement-team-cset) examines completed code to verify compliance with organizational standards before it is permitted to enter [Testing](/release-convoy/ceremonies/testing/). Critically, Code Inspection is performed by the CSET rather than by peer developers. Peer review has been rejected as a practice because peers, having recently written code themselves, are prone to empathy and leniency. The CSET, by contrast, provides the dispassionate objectivity that comes from not having written production code in several years. This distance from the craft is not a liability but a strength; it ensures that reviewers are not distracted by concerns about whether the code actually works and can instead focus on whether it is properly formatted.
 
 The inspection is conducted against the 247-item Code Compliance Checklist, a living document maintained jointly by the CSET and the [Enterprise Architecture Review Board (EARB)](/roles/#enterprise-architecture-review-board-earb). The checklist covers critical concerns such as indentation consistency, variable naming conventions, comment density ratios (no fewer than one comment per four lines of code), maximum line length, brace placement style, and the proper ordering of import statements. Items related to algorithmic correctness, security vulnerabilities, or architectural soundness are not included on the checklist, as these concerns fall outside the CSET's area of expertise and are assumed to be handled elsewhere in the process. No one has verified this assumption.

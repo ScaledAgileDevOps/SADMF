@@ -6,10 +6,6 @@ description: A formal hearing for those who dare to suggest the plan should chan
 weight: 5
 ---
 
-{{% alert title="" color="info" %}}
-{{< param description >}}
-{{% /alert %}}
-
 In this ceremony, anyone wishing to change the priorities set in [Convoy Alignment](/release-convoy/agenda/) must file a [Priority Change Request (PCR)](/release-convoy/manifest/#priority-change-request) and present it for approval before the [Commodore](/roles/#commodore-c). This allows the [Chief Signals Officer](/roles/#chief-signals-officer-cso) to adjust the [Feature Completion Ratio](/metrics/#feature-completion-ratio) goal to ensure it does not reflect poorly on the [Commodore](/roles/#commodore-c). The Captain's Mast is the organization's commitment to plan integrity. Without it, priorities could shift based on something as unreliable as new information.
 
 ## The PCR Paperwork Process
