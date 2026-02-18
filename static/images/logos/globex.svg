@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 100" width="260" height="100">
+  <!-- Globe as the O -->
+  <circle cx="130" cy="50" r="42" fill="#F5A623" opacity="0.15"/>
+  <circle cx="130" cy="50" r="36" fill="none" stroke="#F5A623" stroke-width="3"/>
+  <ellipse cx="130" cy="50" rx="18" ry="36" fill="none" stroke="#F5A623" stroke-width="2"/>
+  <line x1="94" y1="50" x2="166" y2="50" stroke="#F5A623" stroke-width="2"/>
+  <line x1="97" y1="33" x2="163" y2="33" stroke="#F5A623" stroke-width="1.5"/>
+  <line x1="97" y1="67" x2="163" y2="67" stroke="#F5A623" stroke-width="1.5"/>
+  <!-- GLOBEX text overlay -->
+  <text x="50%" y="62" font-family="Impact, Arial Black, sans-serif" font-size="38" font-weight="900" text-anchor="middle" fill="#E8941A" letter-spacing="3">GLOBEX</text>
+</svg>

@@ -182,23 +182,23 @@ description: "Enterprise DevOps transformation without the risk of culture chang
 <h2 class="mb-4">Trusted by Enterprises Worldwide</h2>
 <p class="text-muted mb-5">Join thousands of organizations that have adopted Scaled Agile DevOps</p>
 <div class="row justify-content-center align-items-center trusted-logos">
-  <div class="col-4 col-md-2 mb-4">
-    <div class="trusted-logo-placeholder"><i class="fa-solid fa-building fa-2x"></i><span>Initech</span></div>
+  <div class="col-6 col-md-2 mb-4">
+    <div class="trusted-logo-img"><img src="/images/logos/initech.png" alt="Initech"></div>
   </div>
-  <div class="col-4 col-md-2 mb-4">
-    <div class="trusted-logo-placeholder"><i class="fa-solid fa-industry fa-2x"></i><span>Globex Corp</span></div>
+  <div class="col-6 col-md-2 mb-4">
+    <div class="trusted-logo-img"><img src="/images/logos/globex.svg" alt="Globex Corporation"></div>
   </div>
-  <div class="col-4 col-md-2 mb-4">
-    <div class="trusted-logo-placeholder"><i class="fa-solid fa-landmark fa-2x"></i><span>Vandelay</span></div>
+  <div class="col-6 col-md-2 mb-4">
+    <div class="trusted-logo-img"><img src="/images/logos/vandelay.png" alt="Vandelay Industries"></div>
   </div>
-  <div class="col-4 col-md-2 mb-4">
-    <div class="trusted-logo-placeholder"><i class="fa-solid fa-city fa-2x"></i><span>Hooli</span></div>
+  <div class="col-6 col-md-2 mb-4">
+    <div class="trusted-logo-img"><img src="/images/logos/hooli.svg" alt="Hooli"></div>
   </div>
-  <div class="col-4 col-md-2 mb-4">
-    <div class="trusted-logo-placeholder"><i class="fa-solid fa-building-columns fa-2x"></i><span>Prestige</span></div>
+  <div class="col-6 col-md-2 mb-4">
+    <div class="trusted-logo-img"><img src="/images/logos/aperture.svg" alt="Aperture Science"></div>
   </div>
-  <div class="col-4 col-md-2 mb-4">
-    <div class="trusted-logo-placeholder"><i class="fa-solid fa-satellite fa-2x"></i><span>Cyberdyne</span></div>
+  <div class="col-6 col-md-2 mb-4">
+    <div class="trusted-logo-img"><img src="/images/logos/cyberdyne.svg" alt="Cyberdyne Systems"></div>
   </div>
 </div>
 </div>
