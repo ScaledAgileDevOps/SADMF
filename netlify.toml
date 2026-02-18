@@ -1,5 +1,5 @@
 [build]
-    command = "hugo"
+    command = "hugo mod clean && hugo"
     publish = "public"
 
     [build.environment]
