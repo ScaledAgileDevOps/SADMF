@@ -31,13 +31,13 @@ The DevOps Release Convoy&trade; is a comprehensive delivery system with these k
 
 5. **[Fleet Inspection](/release-convoy/fleet-inspection/)** provides the formal review where completed features are presented to leadership through carefully prepared slide decks. No live demonstrations are permitted.
 
-6. **[Shore Leave](/release-convoy/shore-leave/)** is the structured innovation period between convoy cycles where [Code Engineers](/roles/#code-engineer-ce) may pursue approved activities from the pre-authorized list.
+6. **[Shore Leave](/release-convoy/shore-leave/)** is the structured innovation period between convoy cycles where [Code Engineers](/roles/code-engineer/) may pursue approved activities from the pre-authorized list.
 
 7. **[The Armada](/release-convoy/armada/)** coordinates multiple convoys when the enterprise has scaled beyond what a single DORC&trade; can manage. An Admiral commands the fleet of fleets.
 
 ## Key Roles in the Convoy
 
-The Convoy depends on clearly defined [Roles](/roles/) to function. The [Commodore](/roles/#commodore-c) commands the Convoy. [Feature Captains](/roles/#feature-captain-fc) track individual features. [Code Engineers](/roles/#code-engineer-ce) implement requirements quickly and quietly. See [Roles](/roles/) for the complete chain of command.
+The Convoy depends on clearly defined [Roles](/roles/) to function. The [Commodore](/roles/commodore/) commands the Convoy. [Feature Captains](/roles/feature-captain/) track individual features. [Code Engineers](/roles/code-engineer/) implement requirements quickly and quietly. See [Roles](/roles/) for the complete chain of command.
 
 ## See Also
 

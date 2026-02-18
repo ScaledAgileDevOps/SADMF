@@ -6,7 +6,7 @@ description: A structured ceremony for reflecting on what went well, what could 
 weight: 15
 ---
 
-At the conclusion of each convoy cycle, the Harbor Review ceremony provides a structured opportunity to reflect on what went well, what could be improved, and what we will definitely not change. The [Commodore](/roles/#commodore-c) facilitates the review by asking each [Feature Captain](/roles/#feature-captain-fc) to submit three items in each category before the meeting. This pre-submission requirement ensures the meeting proceeds efficiently and prevents any spontaneous observations that might catch the Commodore off guard. The Harbor Review is the SADMF's commitment to continuous improvement, or more precisely, to the continuous discussion of improvement.
+At the conclusion of each convoy cycle, the Harbor Review ceremony provides a structured opportunity to reflect on what went well, what could be improved, and what we will definitely not change. The [Commodore](/roles/commodore/) facilitates the review by asking each [Feature Captain](/roles/feature-captain/) to submit three items in each category before the meeting. This pre-submission requirement ensures the meeting proceeds efficiently and prevents any spontaneous observations that might catch the Commodore off guard. The Harbor Review is the SADMF's commitment to continuous improvement, or more precisely, to the continuous discussion of improvement.
 
 ## The Three Categories
 
@@ -14,11 +14,11 @@ The Harbor Review organizes all observations into three official categories. **F
 
 ## The Harbor Review Action Log
 
-Action items from the Harbor Review are recorded in the Harbor Review Action Log, a living document maintained by the [Chief Signals Officer](/roles/#chief-signals-officer-cso). Each action item is recorded with the following fields: Action Description, Owner, Target Completion Date, and Actual Completion Date. The Actual Completion Date field supports three values: a date, "In Progress," or "Carried Forward." Historical analysis of the Action Log reveals that 94% of action items are carried forward to the next Harbor Review, where they are read aloud, acknowledged, and carried forward again. The same items have been carried forward for six or more consecutive convoys, creating a comforting sense of organizational continuity and demonstrating the team's commitment to long-term improvement planning. An action item is never closed as "Not Done" or "Abandoned" — it is simply carried forward indefinitely, ensuring that the organization never gives up on its aspirations, even the ones no one can remember the origin of.
+Action items from the Harbor Review are recorded in the Harbor Review Action Log, a living document maintained by the [Chief Signals Officer](/roles/chief-signals-officer/). Each action item is recorded with the following fields: Action Description, Owner, Target Completion Date, and Actual Completion Date. The Actual Completion Date field supports three values: a date, "In Progress," or "Carried Forward." Historical analysis of the Action Log reveals that 94% of action items are carried forward to the next Harbor Review, where they are read aloud, acknowledged, and carried forward again. The same items have been carried forward for six or more consecutive convoys, creating a comforting sense of organizational continuity and demonstrating the team's commitment to long-term improvement planning. An action item is never closed as "Not Done" or "Abandoned" — it is simply carried forward indefinitely, ensuring that the organization never gives up on its aspirations, even the ones no one can remember the origin of.
 
 ## Language Guidelines
 
-To ensure the Harbor Review does not become a negative experience, the SADMF enforces strict language guidelines. The word "blame" may not be spoken during the Harbor Review; the approved alternative is "attribution." The word "failure" is replaced with "learning opportunity." The word "problem" is replaced with "growth area." The phrase "this doesn't work" is replaced with "this has unrealized potential." The [Commodore](/roles/#commodore-c) reserves the right to interrupt any participant who uses prohibited language and redirect the conversation toward a more constructive framing. Participants who repeatedly use negative language may be referred for additional SADMF Mindset coaching, a two-day workshop focused on reframing organizational dysfunction as organizational character.
+To ensure the Harbor Review does not become a negative experience, the SADMF enforces strict language guidelines. The word "blame" may not be spoken during the Harbor Review; the approved alternative is "attribution." The word "failure" is replaced with "learning opportunity." The word "problem" is replaced with "growth area." The phrase "this doesn't work" is replaced with "this has unrealized potential." The [Commodore](/roles/commodore/) reserves the right to interrupt any participant who uses prohibited language and redirect the conversation toward a more constructive framing. Participants who repeatedly use negative language may be referred for additional SADMF Mindset coaching, a two-day workshop focused on reframing organizational dysfunction as organizational character.
 
 ## The Harbor Review Satisfaction Survey
 
@@ -30,7 +30,7 @@ The Harbor Review concludes with the Commodore's closing remarks, a prepared sta
 
 ## See Also
 
-- [Commodore](/roles/#commodore-c) for the role that facilitates the Harbor Review and delivers closing remarks
-- [Feature Captain](/roles/#feature-captain-fc) for the role that pre-submits observations in each category
-- [Chief Signals Officer](/roles/#chief-signals-officer-cso) for the role that maintains the Action Log and compiles the HRSS
+- [Commodore](/roles/commodore/) for the role that facilitates the Harbor Review and delivers closing remarks
+- [Feature Captain](/roles/feature-captain/) for the role that pre-submits observations in each category
+- [Chief Signals Officer](/roles/chief-signals-officer/) for the role that maintains the Action Log and compiles the HRSS
 - [Shore Leave](/release-convoy/shore-leave/) for the recovery period that follows the Harbor Review

@@ -113,15 +113,15 @@ This structured approach supports meaningful progress toward Unified Enterprise 
 
 The EAIEF&trade; is fully compatible with existing SADMF processes:
 
-- AI-generated code follows the same [Fractal-based Development](/practices/fractal-based-development/) branching pattern and is subject to [Conflict Arbitration](/practices/conflict-arbitration/) by the [Source Management Team](/roles/#source-management-team-smt)
-- All AI output must pass through the [CSET](/roles/#code-standards-enforcement-team-cset) and [EARB](/roles/#enterprise-architecture-review-board-earb) before inclusion in any [DORC&trade;](/release-convoy/)
+- AI-generated code follows the same [Fractal-based Development](/practices/fractal-based-development/) branching pattern and is subject to [Conflict Arbitration](/practices/conflict-arbitration/) by the [Source Management Team](/roles/source-management-team/)
+- All AI output must pass through the [CSET](/roles/code-standards-enforcement-team/) and [EARB](/roles/enterprise-architecture-review-board/) before inclusion in any [DORC&trade;](/release-convoy/)
 - CVP and LAV metrics complement existing [Lines of Code per Code Engineer](/metrics/#lines-of-code-per-code-engineer) tracking
-- The CAB workflow aligns with the [CRAP](/roles/#change-rejection-or-acceptance-party-crap) approval process
+- The CAB workflow aligns with the [CRAP](/roles/change-rejection-or-acceptance-party/) approval process
 - AI-assisted HR processes are available through [PeopleWare HRaaS](/peopleware/)
 
 ## See Also
 
 - [Practices](/practices/) for the development practices that govern AI-generated code
-- [Metrics](/metrics/) for measuring [Code Engineer](/roles/#code-engineer-ce) productivity
+- [Metrics](/metrics/) for measuring [Code Engineer](/roles/code-engineer/) productivity
 - [DevOps Release Convoy](/release-convoy/) for how AI output is delivered
 - [PeopleWare HRaaS](/peopleware/) for AI-powered Human Resources

@@ -3,136 +3,51 @@ title: Roles
 titleIcon: "fa-solid fa-user"
 linkTitle: Roles
 type: docs
-description: Commanding the organization requires structure, clearly defined roles, and strict separation of duties! 
+description: Commanding the organization requires structure, clearly defined roles, and strict separation of duties!
 weight: 5
 ---
 
-## Admirals Transformation Office (ATO)
+Commanding the organization requires structure, and structure requires roles. The Scaled Agile DevOps Maturity Framework defines a comprehensive organizational hierarchy where every person knows their responsibilities, every responsibility has a named owner, and every owner is accountable through clearly defined reporting lines. Roles in SADMF are not fluid or self-organizing; they are precisely defined, carefully separated, and rigorously enforced. When everyone knows exactly what they are allowed to do, nobody wastes time doing what they are not supposed to. This [Systems Thinking](/principles/systems-thinking/) extends from the highest levels of strategic leadership down to the individual [Code Engineer](/roles/code-engineer/) typing at their keyboard.
 
-This is the heartbeat of the transformation, it is the command-and-control center to ensure everyone is achieving the
-goals of SADMF. It is accountable for the 5-8 transformation roadmap, assessments, metrics, certification renewals, and
-general project management of the transformation. The ATO is led by the Admiral, who commands all direction, innovation,
-and methodology implemented at scale.
+The organizational structure is built on three pillars: the [Admiral's Transformation Office (ATO)](/roles/admirals-transformation-office/) provides strategic direction and accountability, the [System of Authority (SOA)](/roles/system-of-authority/) implants and enforces the framework through external consultants, and the [System of Service (SOS)](/roles/system-of-service/) delivers software through the [DevOps Release Convoy](/release-convoy/). Within this structure, specialized roles handle code review, testing, source management, architecture governance, change approval, and status reporting, ensuring that no individual is burdened with responsibilities outside their defined scope. The result is an organization where accountability is absolute, oversight is comprehensive, and every activity is performed by the role specifically designed to perform it.
 
-## Build Engineers (BE)
+## The Roles
 
-These YAML experts are responsible for dictating to the [Code Engineers](#code-engineer-ce) how the build should work
-and writing the YAML to make that happen. Updating commands in YAML takes away from feature delivery and [Code
-Engineers](#code-engineer-ce) should focus on features.
+1. **[Admiral's Transformation Office (ATO)](/roles/admirals-transformation-office/)** -- The command-and-control center accountable for the 5-8 year transformation roadmap, assessments, metrics, and certification renewals.
 
-## Change Rejection or Acceptance Party (CRAP)
+2. **[Build Engineers (BE)](/roles/build-engineers/)** -- YAML experts who own the entire build pipeline, ensuring Code Engineers never waste time on build concerns.
 
-The CRAP is responsible for reviewing all changes and rejecting any changes that do not meet the iteration standards set
-by the [Admirals Transformation Office](#admirals-transformation-office-ato) or that does not have the change checklist filled in
-correctly. The CRAP will also be responsible for
-accepting changes that meet the standards and are ready to be included in the next [Convoy](/release-convoy/). The
-meeting dias should contain seven people from areas without knowledge of the systems being changed to ensure
-that the proper levels of detachment and objectivity can be maintained. They will meet twice per week and all approval decisions
-must be by unanimous secret vote. Meeting supplicants will take an oath that
-they have applied all of the controls on the checklist.
+3. **[Change Rejection or Acceptance Party (CRAP)](/roles/change-rejection-or-acceptance-party/)** -- Seven-person review board that approves changes by unanimous secret vote after supplicants swear an oath of checklist compliance.
 
-## Chief Signals Officer (CSO)
+4. **[Chief Signals Officer (CSO)](/roles/chief-signals-officer/)** -- Senior executive who publishes the Feature Completion Ratio daily to ensure plan adherence.
 
-This senior executive is responsible for tracking and reporting our adherence to the plan by publishing the [Feature
-Completion Ratio](/metrics/#feature-completion-ratio) daily.
+5. **[Code Standards Enforcement Team (CSET)](/roles/code-standards-enforcement-team/)** -- Dedicated reviewers who perform all code reviews, enforcing the Enterprise Coding Standards Manual across every line of code.
 
-## Code Standards Enforcement Team (CSET)
+6. **[Code Engineer (CE)](/roles/code-engineer/)** -- The backbone of a SAD implementation, transforming requirements into machine-readable instructions quickly and quietly.
 
-Code Engineers are too close to the problem to effectively review the code they write. Additionally, reviewing code
-takes time away from coding. To resolve this, the CSET will perform all code reviews. The CSET is also responsible for
-defining and enforcing all coding standards for the enterprise. This includes, but is not limited to:
+7. **[Commodore (C)](/roles/commodore/)** -- The delivery commander who collects status from every role and ensures framework compliance before deploying the fleet.
 
-* Indentation depth
-* Using tabs vs. spaces
-* Use of approved [EARB](#enterprise-architecture-review-board-earb) variable and method names
-* Comment format
-  
-## Code Engineer (CE)
+8. **[Development Integrity Assurance Team (DIAT)](/roles/development-integrity-assurance-team/)** -- Senior practitioners who validate the work of the Quality Authority, ensuring that testing itself meets quality standards.
 
-This role is the backbone of a SAD implementation. The job of the Code Engineer is to transform requirements into machine-readable instructions quickly and quietly. Code Engineer expertise can be judged by the number of questions.
-Since a Code Engineer is expected to be an expert at data structures and algorithms, fewer questions indicate more
-expertise.
+9. **[DevOps Usage & Compliance Head Engineer (DOUCHE)](/roles/devops-usage-and-compliance-head-engineer/)** -- The named executive who owns the DevOps Process Binder and holds all teams accountable to the Right Way.
 
-## Commodore (C)
+10. **[Enterprise Architecture Review Board (EARB)](/roles/enterprise-architecture-review-board/)** -- Keepers of the Book of Names, meeting every six weeks to review and reject new words submitted for inclusion.
 
-The Commodore is responsible for collecting status reports for the Convoy and ensuring all steps in the Framework are
-performed correctly before [Deploying the Fleet](/release-convoy/deploy/).
+11. **[Feature Captain (FC)](/roles/feature-captain/)** -- The mid-level manager responsible for tracking feature progress and reporting status to the Commodore.
 
-## Development Integrity Assurance Team (DIAT)
+12. **[Feature Team (FT)](/roles/feature-team/)** -- The group of Code Engineers assembled per Convoy through the Press Gang ceremony to deliver a feature.
 
-This team is made up of senior-level [Code Engineers](#code-engineer-ce), [Build Engineers](#build-engineers-be), and
-Designers. They are responsible for reviewing every change before allowing it to be included in the
-[DORC](/release-convoy/). They validate the work of the [Quality Authority](#quality-authority-qa).
+13. **[Quality Authority (QA)](/roles/quality-authority/)** -- Manual testing specialists and the final arbiter of requirements, because the only TRUE way to test is by hand.
 
-## DevOps Usage & Compliance Head Engineer (DOUCHE)
+14. **[Review Board Review Board (RBRB)](/roles/review-board-review-board/)** -- The board that reviews the decisions of the EARB and CRAP, ensuring the reviewers are themselves reviewed.
 
-If the *Right Way* to do DevOps is not owned and controlled by an executive then nobody will do it. So, we need a named
-person to codify the *Right Way* in the DevOps Process Binder and hold all teams accountable to the [DevOps Process
-Excellence Assessment](/practices/devops-process-excellence-assessment/). By staffing this role we prevent process drift
-and eventual mutation of the *Right Way* and can track our annual progress towards [SADMF
-Maturity](/metrics/#sadmf-maturity-score).
+15. **[Source Management Team (SMT)](/roles/source-management-team/)** -- Authorizes branches, merges code, and resolves all conflicts so Code Engineers never have to.
 
-## Enterprise Architecture Review Board (EARB)
+16. **[System of Authority (SOA)](/roles/system-of-authority/)** -- The team of teams staffed by contractors and consultants accountable for implanting SADMF in your organization.
 
-The EARB is responsible for maintaining the Book of Names. This master list defines all acceptable words and word
-combinations that may be used for naming things during coding. This ensures that [Code
-Engineers](/roles/#code-engineer-ce) will not be confused when they join a new Feature Team for the next Convoy. The
-EARB will meet every 6 weeks to review and reject any new words submitted for inclusion.
+17. **[System of Service (SOS)](/roles/system-of-service/)** -- The team of teams accountable for achieving deadlines and shipping code under servant leadership.
 
-## Feature Captain (FC)
-
-The mid-level manager who is responsible for tracking the progress of the feature they are assigned to.
-
-## Feature Team (FT)
-
-The Feature Team is the group of [Code Engineers](/roles/#code-engineer-ce) assembled to build a new feature for the
-next Convoy. Because we work so diligently to [Build Quality In](/principles/build-quality-in/) with the
-[Tribunal](/release-convoy/ceremonies/tribunal/), these teams should be able to deliver at maximum throughput as soon as they are
-formed.
-
-## Quality Authority (QA)
-
-Verifying quality is a specialist field that no [Code Engineer](#code-engineer-ce) is qualified to perform. In addition,
-performing testing impedes the ability of the [Code Engineer](#code-engineer-ce) to do their only job, type code. The
-Quality Authority team is the final arbiter of what the requirements mean and will create, maintain, and manually
-execute test scripts based on their understanding of the requirements. The end-user uses the system manually, so that is
-the only TRUE way to test it!
-
-## Review Board Review Board (RBRB)
-
-The RBRB is responsible for reviewing the work of the [Enterprise Architecture Review
-Board](#enterprise-architecture-review-board-earb) and the [Change Rejection or Acceptance
-Party](#change-rejection-or-acceptance-party-crap). The RBRB will meet every 3 weeks to review and reject any decisions
-made by the EARB and CRAP. The members of the
-RBRB must come from areas as far removed from the work as possible to maintain objectivity.
-
-## Source Management Team (SMT)
-
-To improve [Code Engineer](#code-engineer-ce) productivity by reducing the work required to integrate changes, we
-introduce the Source Management Team. The SMT is responsible for authorizing new [feature
-branches](/practices/fractal-based-development/), creating the branches, and merging the complete branches from each
-[Code Engineer](#code-engineer-ce) into the Conflict Arbitration branch. They will then resolve all conflicts for the
-[Code Engineers](/roles/#code-engineer-ce) before alerting the [Quality Authority](#quality-authority-qa) that the
-Convoy is ready for testing.
-
-## System of Authority (SOA)
-
-This is the team of teams accountable for implanting SADMF in your organization. The SOA is staffed by contractors and
-consultants with diverse points of view. These principled practitioners will focus on implementing the orders of the ATO
-and will focus on updating plans, collecting metrics, assessing, and becoming trusted advisors for the teams so they can
-report the ground-level truth to leadership during the tribunal.
-
-## System of Service (SOS)
-
-This is the team of teams accountable for achieving deadlines and shipping code. The SOS will look to the chain of
-command for servant leadership to ensure self-governance and instruct the Feature Teams on their day-to-day work. The
-SOS is empowered to predictably deliver on time and on budget.
-
-## Unit Tester (UT)
-
-[Code Engineers](#code-engineer-ce) should be focusing on writing code. Testing is the job of specialists! The Unit
-Tester role is dedicated to writing unit tests for [Code Engineers](#code-engineer-ce) after the code is delivered to
-ensure the code works.
+18. **[Unit Tester (UT)](/roles/unit-tester/)** -- Dedicated specialists who write unit tests after code is delivered, because Code Engineers should focus on writing code.
 
 ## See Also
 

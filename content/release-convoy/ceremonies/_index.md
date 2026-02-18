@@ -13,7 +13,7 @@ The DevOps Release Convoy&trade; depends on a carefully orchestrated set of cere
 Ceremonies follow the natural rhythm of each convoy cycle:
 
 1. **Plan** -- [Convoy Alignment](/release-convoy/agenda/) establishes commitments, [Provisioning](/release-convoy/ceremonies/provisioning/) decomposes them into tasks, and the [Press Gang](/release-convoy/ceremonies/press-gang/) assembles the teams.
-2. **Build** -- [Code Engineers](/roles/#code-engineer-ce) implement features through [Coding](/release-convoy/ceremonies/coding/), followed by [Code Inspection](/release-convoy/ceremonies/code-inspection/) and [Testing](/release-convoy/ceremonies/testing/).
+2. **Build** -- [Code Engineers](/roles/code-engineer/) implement features through [Coding](/release-convoy/ceremonies/coding/), followed by [Code Inspection](/release-convoy/ceremonies/code-inspection/) and [Testing](/release-convoy/ceremonies/testing/).
 3. **Communicate** -- The [Scrum of Scrum of Scrums](/release-convoy/ceremonies/scrum-of-scrum-of-scrums/) and its companion ceremonies keep information flowing through the proper channels.
 4. **Review** -- [Fleet Inspection](/release-convoy/fleet-inspection/) validates completed features, and [Manifest Approval](/release-convoy/ceremonies/manifest-approval/) authorizes the fleet to sail.
 5. **Reflect** -- The [Harbor Review](/release-convoy/ceremonies/harbor-review/) generates action items, and [Shore Leave](/release-convoy/shore-leave/) provides a brief recovery before the cycle begins again.

@@ -28,9 +28,9 @@ The Committee is made up of senior leaders and architects across all engineering
 
 ## Approval Process
 
-All requests must be peer-reviewed and approved in duplicate and also approved by the Convoy [Commodore](/roles/#commodore-c) at least 3 days before being presented to the CSC. Each [Feature Captain](/roles/#feature-captain-fc) will also present a PowerPoint presentation detailing the effort required to build the feature to ensure that the importance of the feature is understood.
+All requests must be peer-reviewed and approved in duplicate and also approved by the Convoy [Commodore](/roles/commodore/) at least 3 days before being presented to the CSC. Each [Feature Captain](/roles/feature-captain/) will also present a PowerPoint presentation detailing the effort required to build the feature to ensure that the importance of the feature is understood.
 
-The CSC will meet each workday to review high-risk, or [Commodore](/roles/#commodore-c) escalated changes to the production environment.  Requests will be approved, sent back for more information, or rejected.
+The CSC will meet each workday to review high-risk, or [Commodore](/roles/commodore/) escalated changes to the production environment.  Requests will be approved, sent back for more information, or rejected.
 
 After the CSC approves the Convoy's release there will be much rejoicing!
 
@@ -38,5 +38,5 @@ After the CSC approves the Convoy's release there will be much rejoicing!
 
 - [Convoy Manifest](/release-convoy/manifest/) for the documentation the CSC reviews
 - [Convoy Ceremonies](/release-convoy/ceremonies/) for the ceremonies that precede deployment
-- [Roles](/roles/#commodore-c) for the Commodore who commands the deployment
+- [Roles](/roles/commodore/) for the Commodore who commands the deployment
 - [Metrics](/metrics/#feature-completion-ratio) for tracking what was delivered vs. committed

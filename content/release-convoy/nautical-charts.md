@@ -17,7 +17,7 @@ The Nautical Chart is constructed on Day 3 of [Convoy Alignment](/release-convoy
 - Colored string to connect dependent features (string color must match the upstream team's sticky note color)
 - Pushpins to anchor string intersections
 - A ruler, because straight lines convey professionalism
-- A dedicated **Chart Officer** appointed by the [Commodore](/roles/#commodore-c) to maintain the chart throughout the convoy cycle
+- A dedicated **Chart Officer** appointed by the [Commodore](/roles/commodore/) to maintain the chart throughout the convoy cycle
 
 Digital tools are strictly prohibited. Spreadsheets and project management software create a false sense of accuracy and prevent the team from experiencing the tangible weight of their commitments. The physical act of moving a sticky note builds accountability in ways that dragging a card on a screen never can.
 
@@ -26,12 +26,12 @@ Digital tools are strictly prohibited. Spreadsheets and project management softw
 The Nautical Chart uses the following conventions:
 
 - **Horizontal axis**: Time, divided into weeks of the convoy cycle
-- **Vertical axis**: Feature Teams, grouped by [Feature Captain](/roles/#feature-captain-fc)
+- **Vertical axis**: Feature Teams, grouped by [Feature Captain](/roles/feature-captain/)
 - **Sticky notes**: Features, with estimated story points written in the corner
 - **Red string**: Hard dependencies (team B cannot start until team A finishes)
 - **Yellow string**: Soft dependencies (team B probably should not start until team A finishes, but likely will)
-- **Crossed strings**: Dependency conflicts, to be resolved by the [Commodore](/roles/#commodore-c) at a future meeting
-- **Gold sticky notes**: Features with executive visibility, placed by [Feature Captains](/roles/#feature-captain-fc) who have a direct relationship with the requesting executive
+- **Crossed strings**: Dependency conflicts, to be resolved by the [Commodore](/roles/commodore/) at a future meeting
+- **Gold sticky notes**: Features with executive visibility, placed by [Feature Captains](/roles/feature-captain/) who have a direct relationship with the requesting executive
 
 When string density exceeds the ability to trace any single path from start to finish, the chart is considered "comprehensive."
 
@@ -48,7 +48,7 @@ Despite diligent maintenance, the Nautical Chart is generally acknowledged to be
 
 ## Security
 
-No photography of the Nautical Chart is permitted. The chart contains sensitive strategic information about delivery commitments and dependencies. Photographs could be shared with customers, partners, or other departments, creating unreasonable expectations about delivery timelines. If a stakeholder wishes to view the chart, they must visit the Convoy Alignment room in person and be accompanied by a [Feature Captain](/roles/#feature-captain-fc) who can provide appropriate context for why nothing on the chart matches reality.
+No photography of the Nautical Chart is permitted. The chart contains sensitive strategic information about delivery commitments and dependencies. Photographs could be shared with customers, partners, or other departments, creating unreasonable expectations about delivery timelines. If a stakeholder wishes to view the chart, they must visit the Convoy Alignment room in person and be accompanied by a [Feature Captain](/roles/feature-captain/) who can provide appropriate context for why nothing on the chart matches reality.
 
 ## See Also
 

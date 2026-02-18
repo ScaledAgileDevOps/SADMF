@@ -20,17 +20,17 @@ Breaks and lunch can eat into our schedule. Additionally, people enjoy a change 
 
 ## Management Address
 
-Day 1 begins with the Management Address, where senior leadership presents the strategic vision for the upcoming convoy cycle. The Admiral or [Commodore](/roles/#commodore-c) will outline the top priorities, which will bear no resemblance to the priorities communicated at the previous Convoy Alignment. This is expected. Strategic agility means being able to pivot the entire organization's direction every 6 weeks while maintaining the 8-quarter commitment plan from the previous alignment.
+Day 1 begins with the Management Address, where senior leadership presents the strategic vision for the upcoming convoy cycle. The Admiral or [Commodore](/roles/commodore/) will outline the top priorities, which will bear no resemblance to the priorities communicated at the previous Convoy Alignment. This is expected. Strategic agility means being able to pivot the entire organization's direction every 6 weeks while maintaining the 8-quarter commitment plan from the previous alignment.
 
-[Code Engineers](/roles/#code-engineer-ce) are encouraged to take notes, though the strategic direction will be further clarified through a series of follow-up emails over the next 3 weeks. Questions during the Management Address should be limited to expressions of enthusiasm.
+[Code Engineers](/roles/code-engineer/) are encouraged to take notes, though the strategic direction will be further clarified through a series of follow-up emails over the next 3 weeks. Questions during the Management Address should be limited to expressions of enthusiasm.
 
 ## Dependency Negotiation Theater
 
-On Days 2 through 4, teams engage in Dependency Negotiation Theater. Each [Feature Captain](/roles/#feature-captain-fc) identifies every team their feature depends on and negotiates delivery commitments with those teams' Feature Captains. These negotiations are conducted in a large room with all teams present so that the [Commodore](/roles/#commodore-c) can observe which teams are being collaborative and which are "creating blockers."
+On Days 2 through 4, teams engage in Dependency Negotiation Theater. Each [Feature Captain](/roles/feature-captain/) identifies every team their feature depends on and negotiates delivery commitments with those teams' Feature Captains. These negotiations are conducted in a large room with all teams present so that the [Commodore](/roles/commodore/) can observe which teams are being collaborative and which are "creating blockers."
 
 Dependencies are recorded on the [Nautical Chart](/release-convoy/nautical-charts/) using colored string. The density of string on the chart is a leading indicator of alignment maturity. Charts with minimal string suggest teams are not thinking broadly enough about their impact on others.
 
-Teams that cannot resolve dependency conflicts during the negotiation window may escalate to the [Commodore](/roles/#commodore-c), who will resolve the dispute by assigning the dependency to whichever team has the most [Code Engineers](/roles/#code-engineer-ce) currently in the coding pool.
+Teams that cannot resolve dependency conflicts during the negotiation window may escalate to the [Commodore](/roles/commodore/), who will resolve the dispute by assigning the dependency to whichever team has the most [Code Engineers](/roles/code-engineer/) currently in the coding pool.
 
 ## Wrapping Up Alignment
 
@@ -42,9 +42,9 @@ All stakeholders must be included in the vote. Alignment requires unanimity. Let
 
 If the initial Fist of Five vote does not achieve unanimity at 4 or above, the following escalation protocol is activated:
 
-1. **Round 2**: The [Commodore](/roles/#commodore-c) asks anyone who voted below 4 to explain their concerns publicly. Their concerns are recorded on the [Nautical Chart](/release-convoy/nautical-charts/) as risks.
+1. **Round 2**: The [Commodore](/roles/commodore/) asks anyone who voted below 4 to explain their concerns publicly. Their concerns are recorded on the [Nautical Chart](/release-convoy/nautical-charts/) as risks.
 2. **Round 3**: The concerns are "addressed" by the Commodore verbally confirming that the risks are acknowledged. A new vote is taken.
-3. **Round 4**: If unanimity has still not been achieved, the [Commodore](/roles/#commodore-c) reminds the room that the hotel conference room is booked through the weekend and that additional sandwich collections will be taken.
+3. **Round 4**: If unanimity has still not been achieved, the [Commodore](/roles/commodore/) reminds the room that the hotel conference room is booked through the weekend and that additional sandwich collections will be taken.
 4. **Round 5**: Unanimity is achieved.
 
 ## See Also

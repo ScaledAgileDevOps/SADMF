@@ -6,7 +6,7 @@ description: The definitive method for prioritizing features when everything is 
 weight: 2
 ---
 
-Every convoy faces the same challenge: too many features and not enough [Code Engineers](/roles/#code-engineer-ce). Traditional prioritization methods rely on simplistic measures like customer value or technical feasibility. WSVF provides a more sophisticated approach that accounts for the complex political and organizational dynamics of enterprise software delivery.
+Every convoy faces the same challenge: too many features and not enough [Code Engineers](/roles/code-engineer/). Traditional prioritization methods rely on simplistic measures like customer value or technical feasibility. WSVF provides a more sophisticated approach that accounts for the complex political and organizational dynamics of enterprise software delivery.
 
 ## The WSVF Formula
 
@@ -23,20 +23,20 @@ Where:
 
 ## Calculating WSVF
 
-WSVF scores are calculated by the [Commodore](/roles/#commodore-c) during [Convoy Alignment](/release-convoy/agenda/). The calculation is performed on a dedicated spreadsheet that the Commodore maintains personally. The formula cell references are not shared to prevent gaming of the system.
+WSVF scores are calculated by the [Commodore](/roles/commodore/) during [Convoy Alignment](/release-convoy/agenda/). The calculation is performed on a dedicated spreadsheet that the Commodore maintains personally. The formula cell references are not shared to prevent gaming of the system.
 
 In the event of a tie, priority is resolved using the following tiebreakers, in order:
 
 1. Seniority of the requesting stakeholder
 2. Number of times the feature has been deferred from previous convoys (features deferred 3+ times receive a "Legacy Priority" designation)
-3. Proximity of the stakeholder's office to the [Commodore's](/roles/#commodore-c) office
-4. A coin toss witnessed by the [Chief Signals Officer](/roles/#chief-signals-officer-cso)
+3. Proximity of the stakeholder's office to the [Commodore's](/roles/commodore/) office
+4. A coin toss witnessed by the [Chief Signals Officer](/roles/chief-signals-officer/)
 
 ## Challenging a WSVF Score
 
-[Feature Captains](/roles/#feature-captain-fc) who believe their feature has been incorrectly scored may file a WSVF Challenge through the [Priority Change Request](/release-convoy/manifest/#priority-change-request) process. Challenges are heard during [Captain's Mast](/release-convoy/ceremonies/captains-mast/) and require the challenger to present evidence that their feature's acronym is, in fact, pronounceable.
+[Feature Captains](/roles/feature-captain/) who believe their feature has been incorrectly scored may file a WSVF Challenge through the [Priority Change Request](/release-convoy/manifest/#priority-change-request) process. Challenges are heard during [Captain's Mast](/release-convoy/ceremonies/captains-mast/) and require the challenger to present evidence that their feature's acronym is, in fact, pronounceable.
 
-The [Commodore](/roles/#commodore-c) has final authority on all WSVF disputes. The Commodore's decision is based on careful analysis of the WSVF spreadsheet and may also take into account factors not captured in the formula, such as which [Feature Captain](/roles/#feature-captain-fc) most recently bought the Commodore lunch.
+The [Commodore](/roles/commodore/) has final authority on all WSVF disputes. The Commodore's decision is based on careful analysis of the WSVF spreadsheet and may also take into account factors not captured in the formula, such as which [Feature Captain](/roles/feature-captain/) most recently bought the Commodore lunch.
 
 ## WSVF and the Nautical Chart
 

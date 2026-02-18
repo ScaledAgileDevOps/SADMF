@@ -6,11 +6,11 @@ description: A dedicated period for innovation, learning, and catching up on sta
 weight: 8
 ---
 
-Between convoys, teams are granted Shore Leave: a brief period where [Code Engineers](/roles/#code-engineer-ce) are free to explore new technologies, reduce technical debt, and pursue innovative ideas. This ensures the organization maintains a culture of continuous learning and creativity.
+Between convoys, teams are granted Shore Leave: a brief period where [Code Engineers](/roles/code-engineer/) are free to explore new technologies, reduce technical debt, and pursue innovative ideas. This ensures the organization maintains a culture of continuous learning and creativity.
 
 ## Approved Shore Leave Activities
 
-To ensure Shore Leave time is used productively, the [Admirals Transformation Office](/roles/#admirals-transformation-office-ato) maintains an approved activity list. Activities not on this list require a Shore Leave Exemption Request (SLER) approved by the [Commodore](/roles/#commodore-c).
+To ensure Shore Leave time is used productively, the [Admirals Transformation Office](/roles/admirals-transformation-office/) maintains an approved activity list. Activities not on this list require a Shore Leave Exemption Request (SLER) approved by the [Commodore](/roles/commodore/).
 
 Approved activities include:
 
@@ -19,16 +19,16 @@ Approved activities include:
 - Preparing presentation materials for the next [Convoy Alignment](/release-convoy/agenda/)
 - Filing overdue [Post Standup Standup Review](/release-convoy/ceremonies/post-standup-standup-review/) reports
 - Studying for [SAD certification](/certifications/) renewal exams
-- Attending cross-functional awareness workshops organized by the [DOUCHE](/roles/#devops-usage--compliance-head-engineer-douche)
+- Attending cross-functional awareness workshops organized by the [DOUCHE](/roles/devops-usage-and-compliance-head-engineer/)
 
 ## Innovation Proposals
 
-[Code Engineers](/roles/#code-engineer-ce) who wish to pursue innovative ideas during Shore Leave must submit an Innovation Proposal Package (IPP) containing:
+[Code Engineers](/roles/code-engineer/) who wish to pursue innovative ideas during Shore Leave must submit an Innovation Proposal Package (IPP) containing:
 
 - A business case with projected ROI over 8 quarters
-- Architectural approval from the [EARB](/roles/#enterprise-architecture-review-board-earb)
-- A risk assessment reviewed by the [CRAP](/roles/#change-rejection-or-acceptance-party-crap)
-- Sign-off from at least three [Feature Captains](/roles/#feature-captain-fc) confirming the innovation will not impact their features
+- Architectural approval from the [EARB](/roles/enterprise-architecture-review-board/)
+- A risk assessment reviewed by the [CRAP](/roles/change-rejection-or-acceptance-party/)
+- Sign-off from at least three [Feature Captains](/roles/feature-captain/) confirming the innovation will not impact their features
 - A rollback plan in case the innovation succeeds and causes organizational disruption
 
 Innovation Proposals are reviewed on a quarterly cadence. Approved proposals may be scheduled for implementation in a future convoy, subject to [WSVF](/release-convoy/wsvf/) prioritization.
