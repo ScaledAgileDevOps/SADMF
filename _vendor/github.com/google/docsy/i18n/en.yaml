@@ -60,8 +60,8 @@ community_guideline: >-
 # Feedback
 feedback_title: Feedback
 feedback_question: Was this page helpful?
-feedback_positive: Yes
-feedback_negative: No
+feedback_positive: "Yes"
+feedback_negative: "No"
 
 # Table of contents
 toc_on_this_page: On this page

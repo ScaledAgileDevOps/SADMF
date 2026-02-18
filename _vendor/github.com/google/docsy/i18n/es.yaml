@@ -63,7 +63,7 @@ community_guideline: >-
 feedback_title: Comentarios
 feedback_question: ¿Fue útil esta página?
 feedback_positive: Si
-feedback_negative: No
+feedback_negative: "No"
 
 # Table of contents
 toc_on_this_page: En esta página
