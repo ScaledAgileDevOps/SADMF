@@ -23,4 +23,5 @@ The metric works in concert with [Lines of Code per Code Engineer](/metrics/line
 - [Precise Forecasting and Tracking](/practices/precise-forecasting-and-tracking/) for how task counts feed capacity planning
 - [Mandatory Status Synchronization](/practices/mandatory-status-synchronization/) for how task transitions are reported upward
 - [Tribunal](/release-convoy/ceremonies/tribunal/) for where task velocity declines are investigated
+- [Individual Velocity Score](/metrics/individual-velocity-score/) for the complementary metric that weights task completions by story point complexity
 - [Release Tracking](/practices/release-tracking/) for the spreadsheet that records task completions

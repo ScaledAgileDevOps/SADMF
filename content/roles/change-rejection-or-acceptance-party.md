@@ -37,4 +37,5 @@ The CRAP also maintains the Change Rejection Log, a comprehensive record of ever
 - [Code Standards Enforcement Team (CSET)](/roles/code-standards-enforcement-team/) for the review that precedes CRAP evaluation
 - [Tribunal](/release-convoy/ceremonies/tribunal/) for the ceremony that addresses oath violations
 - [Build Quality In](/principles/build-quality-in/) for the principle that justifies gate-based quality control
+- [Change Adjudication Convening](/release-convoy/ceremonies/change-adjudication-convening/) for the biweekly ceremony in which the CRAP formally convenes
 - [DevOps Release Convoy](/release-convoy/) for the delivery cycle the CRAP governs

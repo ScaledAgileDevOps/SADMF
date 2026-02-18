@@ -18,7 +18,7 @@ Ceremonies follow the natural rhythm of each convoy cycle:
 4. **Review** -- [Fleet Inspection](/release-convoy/fleet-inspection/) validates completed features, and [Manifest Approval](/release-convoy/ceremonies/manifest-approval/) authorizes the fleet to sail.
 5. **Reflect** -- [Dry Dock](/release-convoy/ceremonies/dry-dock/) addresses accumulated defects, the [Harbor Review](/release-convoy/ceremonies/harbor-review/) generates action items, and [Shore Leave](/release-convoy/shore-leave/) provides a brief recovery before the cycle begins again.
 
-Throughout the cycle, the [Tribunal](/release-convoy/ceremonies/tribunal/) and [Rota Fortunae](/release-convoy/ceremonies/rota-fortunae/) maintain organizational health through accountability and periodic restructuring.
+Throughout the cycle, the [Tribunal](/release-convoy/ceremonies/tribunal/) and [Rota Fortunae](/release-convoy/ceremonies/rota-fortunae/) maintain organizational health through accountability and periodic restructuring. The [Change Adjudication Convening](/release-convoy/ceremonies/change-adjudication-convening/) operates on a fixed biweekly cadence, independent of Convoy phase, serving as the standing gate through which all changes must pass before inclusion in any fleet.
 
 Browse the individual ceremonies in the sidebar to learn the details of each.
 

@@ -8,6 +8,32 @@ weight: 1
 
 While the broader industry has converged on a narrow interpretation of CI/CD that emphasizes frequent integration and rapid deployment, SADMF recognizes that this approach prioritizes speed over safety. Speed is the enemy of quality, and quality is the enemy of defects, and defects are the enemy of the [Tribunal](/release-convoy/ceremonies/tribunal/). By redefining each term to reflect what organizations actually need -- isolation, deliberation, and eventual delivery -- SADMF ensures that every change receives the attention, oversight, and ceremonial approval it deserves before it reaches production.
 
+```mermaid
+flowchart TD
+    subgraph CI["① Continuous Isolation"]
+        A["SMT creates branch\n(CONVOY-N-ID-initials-date)"]
+        B["Code Engineer works\nin complete isolation\n(no merging, no cross-branch visibility)"]
+        C["Feature Captain issues\nCoding Completion Certificate"]
+        D["Conflict Arbitration\n(strongest change survives)"]
+    end
+
+    subgraph CD["② Continuous Deliberation"]
+        E["Code Inspection\n(CSET — manual review)"]
+        F["Manual Testing\n(Quality Authority)"]
+        G["Meta-Validation\n(DIAT — testing the testers)"]
+        H["Change Approval\n(CRAP — unanimous vote)"]
+    end
+
+    subgraph ED["③ Eventual Delivery"]
+        I["Convoy Release"]
+        J["Forecast adjusted\nto match outcome"]
+    end
+
+    A --> B --> C --> D
+    D --> E --> F --> G --> H
+    H --> I --> J
+```
+
 Continuous Isolation is the practice of ensuring that every [Code Engineer](/roles/code-engineer/) works on a dedicated, long-lived feature branch that remains completely separated from all other work until the feature is fully complete, inspected, tested, and approved. This isolation prevents the catastrophic risk of one engineer's incomplete work contaminating another engineer's incomplete work, which would produce a compounding effect of incompleteness that no amount of testing could untangle. The [Source Management Team (SMT)](/roles/source-management-team/) enforces isolation by controlling all branch creation through the [Fractal-based Development](/practices/fractal-based-development/) branching model. Code Engineers are not granted permission to create their own branches, merge their own code, or even view the branches of other engineers, as awareness of others' work could lead to unauthorized coordination. Continuous Isolation has been validated by the observation that the longer code remains isolated, the more exciting the eventual integration becomes, and excitement is a leading indicator of organizational engagement.
 
 Continuous Deliberation replaces the reckless practice of automated deployment pipelines with a structured decision-making process that ensures every change is evaluated by the appropriate authorities before proceeding to the next stage. Each stage of the [DevOps Release Convoy](/release-convoy/) includes dedicated deliberation ceremonies: [Code Inspection](/release-convoy/ceremonies/code-inspection/) by the [Code Standards Enforcement Team](/roles/code-standards-enforcement-team/), [Testing](/release-convoy/ceremonies/testing/) by the [Quality Authority](/roles/quality-authority/), validation by the [Development Integrity Assurance Team](/roles/development-integrity-assurance-team/), and final approval by the [Change Rejection or Acceptance Party (CRAP)](/roles/change-rejection-or-acceptance-party/). At no point does code advance without a human deliberately choosing to advance it. Automation is permitted only for tasks that do not matter, such as sending email notifications about meetings. Tasks that do matter -- building, testing, deploying, and approving -- must be performed by accountable individuals who can be held responsible when things go wrong.

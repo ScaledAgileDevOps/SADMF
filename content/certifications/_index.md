@@ -9,7 +9,7 @@ weight: 1000
 
 ## Scaled Agile DevOps Practitioner
 
-![SAD AF Cert](/images/sad-certified-sm.png)
+{{< figure src="/images/sad-certified-sm.png" alt="Scaled Agile DevOps Practitioner certificate" title="Certified SAD Practitioner" width="280px" >}}
 
 SAD Practitioners have demonstrated they understand the basic value of the Scaled Agile DevOps Maturity Framework and promise to deliver that value.
 
@@ -26,7 +26,7 @@ SAD Masters have demonstrated mastery of the framework across multiple [Convoy](
 
 ## Scaled Agile DevOps Fellow
 
-![SAD AF Cert](/images/sad-fellow-sm.png)
+{{< figure src="/images/sad-fellow-sm.png" alt="Scaled Agile DevOps Fellow certificate" title="Certified SAD Fellow" width="280px" >}}
 
 SAD Fellows have demonstrated they are as valuable as at least four practitioners.
 
@@ -38,7 +38,9 @@ Moving beyond the basics for truly SAD outcomes!
 
 ## Scaled Agile Dev Ops Accredited Facilitators
 
-![SAD AF Cert](/images/sad-af-sm.png) Accredited Facilitators have all of the certified credentials to convince executives to pay their consulting fees. They have demonstrated the ability to apply Scaled Agile DevOps Principles and Practices and have documented that their outcomes meet or exceed expectations. They are also skilled at preparing reports that show consistent improvement from week to week.
+{{< figure src="/images/sad-af-sm.png" alt="SAD Accredited Facilitator certificate" title="SAD Accredited Facilitator (SAD AF)" width="280px" >}}
+
+Accredited Facilitators have all of the certified credentials to convince executives to pay their consulting fees. They have demonstrated the ability to apply Scaled Agile DevOps Principles and Practices and have documented that their outcomes meet or exceed expectations. They are also skilled at preparing reports that show consistent improvement from week to week.
 
 The key to being SAD AF is to have a generous stakeholder engagement budget and a keen understanding of how to frame progress.
 

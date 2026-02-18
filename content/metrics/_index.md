@@ -29,6 +29,8 @@ These metrics are not suggestions or guidelines. They are the mandatory measurem
 
 8. **[SADMF Adoption Rate](/metrics/sadmf-adoption-rate/)** -- The percentage of the organization with SAD certification, because transformation is measured by headcount.
 
+9. **[Individual Velocity Score](/metrics/individual-velocity-score/)** -- Story points completed per engineer per Convoy, the effort-weighted third dimension of the individual productivity profile.
+
 ## See Also
 
 - [Roles](/roles/) for the roles these metrics are measured against

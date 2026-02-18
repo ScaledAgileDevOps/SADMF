@@ -23,4 +23,5 @@ The [Captain's Mast](/release-convoy/ceremonies/captains-mast/) ceremony reviews
 - [Captain's Mast](/release-convoy/ceremonies/captains-mast/) for end-of-Convoy ratio review
 - [Dry Dock](/release-convoy/ceremonies/dry-dock/) for remediation planning when ratios fall short
 - [Chief Signals Officer](/roles/chief-signals-officer/) for the role that reports ratio trends
+- [Commit to the Date](/principles/commit-to-the-date/) for the principle that treats Feature Completion Ratio shortfalls as credibility events
 - [Admiral's Transformation Office](/roles/admirals-transformation-office/) for the body that locks feature commitments

@@ -22,4 +22,5 @@ Build Quality In also extends to the hiring process. The [Enterprise Architectur
 - [Quality Authority](/roles/quality-authority/) for the team responsible for verifying quality
 - [Tribunal](/release-convoy/ceremonies/tribunal/) for the ceremony where quality data informs personnel decisions
 - [PeopleWare HRaaS](/peopleware/) for automated quality-driven HR actions
+- [Strategic Test Deferral](/practices/strategic-test-deferral/) for the practice that sequences test authorship to preserve delivery velocity without sacrificing quality accountability
 - [Everyone is Responsible](/principles/everyone-is-responsible/) for the accountability principle that supports Build Quality In

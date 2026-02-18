@@ -11,6 +11,54 @@ The Scaled Agile DevOps Maturity Framework defines a comprehensive organizationa
 
 The organizational structure is built on three pillars: the [Admiral's Transformation Office (ATO)](/roles/admirals-transformation-office/) provides strategic direction and accountability, the [System of Authority (SOA)](/roles/system-of-authority/) implants and enforces the framework through external consultants, and the [System of Service (SOS)](/roles/system-of-service/) delivers software through the [DevOps Release Convoy](/release-convoy/). Within this structure, specialized roles handle code review, testing, source management, architecture governance, change approval, and status reporting, ensuring that no individual is burdened with responsibilities outside their defined scope. The result is an organization where accountability is absolute, oversight is comprehensive, and every activity is performed by the role specifically designed to perform it.
 
+```mermaid
+flowchart TD
+    ATO["Admiral's Transformation Office (ATO)"]
+
+    SOA["System of Authority (SOA)\n— external consultants —"]
+    SOS["System of Service (SOS)\n— delivery —"]
+    PDAC["Product Direction\nArbitration Council (PDAC)"]
+
+    DOUCHE["DevOps Usage & Compliance\nHead Engineer (DOUCHE)"]
+    CSO["Chief Signals\nOfficer (CSO)"]
+    EARB["Enterprise Architecture\nReview Board (EARB)"]
+    CRAP["Change Rejection or\nAcceptance Party (CRAP)"]
+    RBRB["Review Board\nReview Board (RBRB)"]
+
+    COM["Commodore (C)"]
+    CSET["Code Standards\nEnforcement Team (CSET)"]
+    SMT["Source Management\nTeam (SMT)"]
+    QA["Quality Authority (QA)"]
+    DIAT["Development Integrity\nAssurance Team (DIAT)"]
+    BE["Build Engineers (BE)"]
+    UT["Unit Tester (UT)"]
+
+    FC["Feature Captain (FC)"]
+    FT["Feature Team\n(Code Engineers)"]
+
+    ATO --> SOA
+    ATO --> SOS
+    ATO --> PDAC
+
+    SOA --> DOUCHE
+    SOA --> CSO
+    SOA --> EARB
+    SOA --> CRAP
+    EARB --> RBRB
+    CRAP --> RBRB
+
+    SOS --> COM
+    SOS --> CSET
+    SOS --> SMT
+    SOS --> QA
+    SOS --> DIAT
+    SOS --> BE
+    SOS --> UT
+
+    COM --> FC
+    FC --> FT
+```
+
 ## The Roles
 
 1. **[Admiral's Transformation Office (ATO)](/roles/admirals-transformation-office/)** -- The command-and-control center accountable for the 5-8 year transformation roadmap, assessments, metrics, and certification renewals.
@@ -39,15 +87,17 @@ The organizational structure is built on three pillars: the [Admiral's Transform
 
 13. **[Quality Authority (QA)](/roles/quality-authority/)** -- Manual testing specialists and the final arbiter of requirements, because the only TRUE way to test is by hand.
 
-14. **[Review Board Review Board (RBRB)](/roles/review-board-review-board/)** -- The board that reviews the decisions of the EARB and CRAP, ensuring the reviewers are themselves reviewed.
+14. **[Product Direction Arbitration Council (PDAC)](/roles/product-direction-arbitration-council/)** -- Cross-functional council of seven to fifteen stakeholder representatives that replaces individual product ownership with consensus-based backlog governance.
 
-15. **[Source Management Team (SMT)](/roles/source-management-team/)** -- Authorizes branches, merges code, and resolves all conflicts so Code Engineers never have to.
+15. **[Review Board Review Board (RBRB)](/roles/review-board-review-board/)** -- The board that reviews the decisions of the EARB and CRAP, ensuring the reviewers are themselves reviewed.
 
-16. **[System of Authority (SOA)](/roles/system-of-authority/)** -- The team of teams staffed by contractors and consultants accountable for implanting SADMF in your organization.
+16. **[Source Management Team (SMT)](/roles/source-management-team/)** -- Authorizes branches, merges code, and resolves all conflicts so Code Engineers never have to.
 
-17. **[System of Service (SOS)](/roles/system-of-service/)** -- The team of teams accountable for achieving deadlines and shipping code under servant leadership.
+17. **[System of Authority (SOA)](/roles/system-of-authority/)** -- The team of teams staffed by contractors and consultants accountable for implanting SADMF in your organization.
 
-18. **[Unit Tester (UT)](/roles/unit-tester/)** -- Dedicated specialists who write unit tests after code is delivered, because Code Engineers should focus on writing code.
+18. **[System of Service (SOS)](/roles/system-of-service/)** -- The team of teams accountable for achieving deadlines and shipping code under servant leadership.
+
+19. **[Unit Tester (UT)](/roles/unit-tester/)** -- Dedicated specialists who write unit tests after code is delivered, because Code Engineers should focus on writing code.
 
 ## See Also
 

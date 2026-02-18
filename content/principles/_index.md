@@ -37,6 +37,8 @@ These principles are not optional. They are the immutable laws that govern how w
 
 11. **[Fail Fast](/principles/fail-fast/)** -- Rapid identification of who failed ensures accountability is assigned before root causes can be obscured by complexity.
 
+12. **[Commit to the Date](/principles/commit-to-the-date/)** -- Delivery dates are sacred organizational commitments. Dates do not slip. Scope adjusts.
+
 ## See Also
 
 - [Practices](/practices/) for applying these principles in daily work

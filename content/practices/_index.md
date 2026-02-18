@@ -33,6 +33,10 @@ These practices are not suggestions. They are the mandatory procedures that ever
 
 10. **[DEPRESSED](/practices/depressed/)** -- The Defect Escalation and Progressive Remediation Enforcement System for Sustained Excellence and Delivery governs every defect through 7 stages of investigation and remediation.
 
+11. **[Full Utilization Optimization](/practices/full-utilization-optimization/)** -- Engineers assigned to four to seven product lines simultaneously eliminate idle time, prevent knowledge silos, and develop the adaptive resilience the modern enterprise demands.
+
+12. **[Strategic Test Deferral](/practices/strategic-test-deferral/)** -- Velocity-first quality sequencing ensures that tests are written when time permits, not as a precondition for shipping, with Hardening Convoys providing structured remediation.
+
 ## See Also
 
 - [DevOps Release Convoy](/release-convoy/) for how practices flow into the delivery process

@@ -51,4 +51,5 @@ A Feature Captain whose features consistently deliver on time and whose status r
 - [Release Tracking](/practices/release-tracking/) for the spreadsheet the Feature Captain maintains
 - [Precise Forecasting and Tracking](/practices/precise-forecasting-and-tracking/) for the estimation methodology that guides the Feature Captain
 - [Mandatory Status Synchronization](/practices/mandatory-status-synchronization/) for the daily ceremony where status is reported
+- [Product Direction Arbitration Council (PDAC)](/roles/product-direction-arbitration-council/) for the body Feature Captains may stand in for as interim product direction authority
 - [Tribunal](/release-convoy/ceremonies/tribunal/) for the ceremony where Feature Captains are held accountable

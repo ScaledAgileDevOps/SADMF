@@ -8,6 +8,22 @@ figcaption {
   text-align: center;
 }
 
+/* === Content Images === */
+/* Center and constrain bare markdown images (not in figures, not in nav/logos) */
+.td-content p > img,
+.td-content > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 1.5rem auto;
+  border-radius: 4px;
+}
+
+.td-content figure {
+  text-align: center;
+  margin: 1.5rem auto;
+}
+
 .sc-alert {
   text-align: center;
 }

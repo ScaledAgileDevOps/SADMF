@@ -23,4 +23,5 @@ It is important to note that LOC measurement applies exclusively to [Code Engine
 - [Precise Forecasting and Tracking](/practices/precise-forecasting-and-tracking/) for how LOC feeds capacity planning
 - [Fractal-based Development](/practices/fractal-based-development/) for the branching model where LOC is tracked
 - [Tribunal](/release-convoy/ceremonies/tribunal/) for where LOC underperformers are addressed
+- [Individual Velocity Score](/metrics/individual-velocity-score/) for the effort-weighted metric that combines with LOC to form a complete productivity profile
 - [PeopleWare HRaaS](/peopleware/) for automated HR actions triggered by LOC thresholds

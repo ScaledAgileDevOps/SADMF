@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SADMF: Periodic Table of Framework Excellence</title>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@400;600;700&family=IBM+Plex+Mono:wght@400;700&family=IBM+Plex+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --blue:    #1e3a5f;
+    --navy:    #0f2137;
+    --purple:  #a23b72;
+    --accent:  #2c7be5;
+    --teal:    #1a6b5e;
+    --amber:   #b06820;
+    --crimson: #8b1a1a;
+    --slate:   #3d4f61;
+    --gold:    #f0c040;
+    --f:  'IBM Plex Sans', sans-serif;
+    --fc: 'IBM Plex Sans Condensed', sans-serif;
+    --fm: 'IBM Plex Mono', monospace;
+  }
+
+  body {
+    font-family: var(--f);
+    background: #1a1f2e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    padding: 32px 20px 48px;
+  }
+
+  .card {
+    width: 1160px;
+    max-width: 100%;
+    background: #10161f;
+    border: 1px solid rgba(255,255,255,.08);
+    border-radius: 8px;
+    box-shadow: 0 24px 80px rgba(0,0,0,.6);
+  }
+
+  /* ── header ── */
+  .header {
+    background: linear-gradient(135deg, var(--navy) 0%, #1a2d45 100%);
+    padding: 28px 40px 22px;
+    border-bottom: 1px solid rgba(255,255,255,.08);
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .title-eyebrow {
+    font-family: var(--fm);
+    font-size: 11px;
+    letter-spacing: .2em;
+    color: var(--gold);
+    text-transform: uppercase;
+    margin-bottom: 6px;
+  }
+  .title-main {
+    font-family: var(--fc);
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1.05;
+    letter-spacing: -.02em;
+  }
+  .title-main em { font-style: normal; color: var(--gold); }
+  .title-sub {
+    font-size: 13px;
+    color: rgba(255,255,255,.8);
+    margin-top: 6px;
+    font-weight: 300;
+  }
+  .header-right { text-align: right; flex-shrink: 0; }
+  .edition-badge {
+    display: inline-block;
+    font-family: var(--fm);
+    font-size: 11px;
+    letter-spacing: .15em;
+    padding: 4px 10px;
+    border: 1px solid var(--gold);
+    color: var(--gold);
+    border-radius: 2px;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+  }
+  .header-note {
+    font-size: 11px;
+    color: rgba(255,255,255,.65);
+    line-height: 1.5;
+    max-width: 260px;
+  }
+
+  /* ── legend ── */
+  .legend {
+    display: flex;
+    gap: 6px;
+    padding: 10px 40px;
+    background: rgba(255,255,255,.025);
+    border-bottom: 1px solid rgba(255,255,255,.06);
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .legend-label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,.60);
+    margin-right: 8px;
+    font-family: var(--fm);
+  }
+  .leg {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 11px;
+    color: rgba(255,255,255,.85);
+    white-space: nowrap;
+  }
+  .leg-dot { width: 10px; height: 10px; border-radius: 2px; flex-shrink: 0; }
+
+  /* ── grid ── */
+  .grid { padding: 20px 30px 24px; display: flex; flex-direction: column; gap: 6px; }
+  .row { display: flex; gap: 6px; align-items: stretch; }
+
+  /* ── element tile ── */
+  .el {
+    width: 84px;
+    min-height: 90px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    padding: 5px 6px 4px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    cursor: default;
+    transition: transform .15s, box-shadow .15s;
+    border: 1px solid rgba(255,255,255,.06);
+  }
+  .el:hover { transform: scale(1.08) translateY(-2px); box-shadow: 0 8px 28px rgba(0,0,0,.5); z-index: 10; }
+  .el.spacer { background: transparent; border-color: transparent; cursor: default; }
+  .el.spacer:hover { transform: none; box-shadow: none; }
+
+  .el.governance { background: linear-gradient(160deg, #192f4a, #1e3a5f); }
+  .el.delivery   { background: linear-gradient(160deg, #1a3d35, #1a6b5e); }
+  .el.ceremony   { background: linear-gradient(160deg, #3a1840, #6b1a5e); }
+  .el.practice   { background: linear-gradient(160deg, #3d2208, #7a4010); }
+  .el.metric     { background: linear-gradient(160deg, #3d0a0a, #7a1515); }
+  .el.principle  { background: linear-gradient(160deg, #1c2e0a, #3a5c10); }
+  .el.artifact   { background: linear-gradient(160deg, #1a1a30, #2c2c5a); }
+
+  .el-number { font-family: var(--fm); font-size: 10px; color: rgba(255,255,255,.65); line-height: 1; margin-bottom: 2px; }
+  .el-symbol { font-family: var(--fc); font-weight: 700; font-size: 22px; color: #fff; line-height: 1; letter-spacing: -.03em; }
+  .el-ai     { font-family: var(--fm); font-size: 9.5px; color: rgba(255,255,255,.72); margin-top: 1px; }
+  .el-name   { font-size: 8.5px; color: rgba(255,255,255,.85); line-height: 1.25; margin-top: auto; padding-top: 4px; }
+  .el-group  { position: absolute; top: 4px; right: 5px; font-family: var(--fm); font-size: 9px; font-weight: 700; color: rgba(255,255,255,.55); }
+
+  .el::after {
+    content: '';
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: 2px;
+    border-radius: 0 0 4px 4px;
+  }
+  .el.governance::after { background: #4a90d9; }
+  .el.delivery::after   { background: #3abf9e; }
+  .el.ceremony::after   { background: #c060a0; }
+  .el.practice::after   { background: #e08840; }
+  .el.metric::after     { background: #e05050; }
+  .el.principle::after  { background: #80c040; }
+  .el.artifact::after   { background: #8080c0; }
+
+  .row-label {
+    font-size: 10px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase;
+    color: rgba(255,255,255,.55); font-family: var(--fm);
+    display: flex; align-items: center; width: 60px; flex-shrink: 0; padding-left: 4px;
+  }
+
+  /* ── large feature elements ── */
+  .el-feature {
+    flex: 0 0 176px;
+    min-height: 90px;
+    border-radius: 4px;
+    padding: 10px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid rgba(255,255,255,.1);
+    cursor: default;
+    position: relative;
+    transition: transform .15s, box-shadow .15s;
+  }
+  .el-feature:hover { transform: scale(1.03) translateY(-2px); box-shadow: 0 8px 28px rgba(0,0,0,.5); z-index: 10; }
+  .el-feature::before {
+    content: '';
+    position: absolute; top: 0; right: 0;
+    width: 90px; height: 90px; border-radius: 50%;
+    background: radial-gradient(circle, rgba(255,255,255,.04), transparent 70%);
+    pointer-events: none;
+  }
+  .el-feature::after {
+    content: '';
+    position: absolute; bottom: 0; left: 0; right: 0;
+    height: 2px; border-radius: 0 0 4px 4px;
+  }
+  .el-feature.governance { background: linear-gradient(135deg,#0f2137,#1e3a5f); }
+  .el-feature.governance::after { background: #4a90d9; }
+  .el-feature.delivery   { background: linear-gradient(135deg,#0a1525,#1e3a5f); border-color: rgba(200,155,60,.3); }
+  .el-feature.delivery::after { background: var(--gold); }
+
+  .ef-top { display: flex; align-items: flex-start; justify-content: space-between; }
+  .ef-symbol { font-family: var(--fc); font-size: 32px; font-weight: 800; color: var(--gold); letter-spacing: -.04em; }
+  .ef-num { font-family: var(--fm); font-size: 11px; color: rgba(255,255,255,.60); }
+  .ef-name { font-size: 11px; font-weight: 600; color: rgba(255,255,255,.85); line-height: 1.3; margin-top: 4px; }
+  .ef-ai { font-size: 10px; color: rgba(255,255,255,.65); margin-top: 3px; font-family: var(--fm); }
+
+  /* ── footer ── */
+  .footer {
+    background: rgba(255,255,255,.02);
+    border-top: 1px solid rgba(255,255,255,.06);
+    padding: 12px 40px;
+    display: flex; justify-content: space-between; align-items: center; gap: 20px;
+  }
+  .footer-note { font-size: 11px; color: rgba(255,255,255,.60); font-family: var(--fm); line-height: 1.5; }
+  .footer-url  { font-size: 11px; color: rgba(255,255,255,.55); font-family: var(--fm); }
+  .atomic-key { display: flex; align-items: center; gap: 16px; }
+  .ak-item { font-size: 10.5px; color: rgba(255,255,255,.65); display: flex; align-items: center; gap: 4px; }
+  .ak-item strong { color: rgba(255,255,255,.85); font-family: var(--fm); }
+
+  /* ── tooltip ── */
+  .el[data-tip]:hover::before,
+  .el-feature[data-tip]:hover::before {
+    content: attr(data-tip);
+    position: absolute;
+    /* reset positional properties set by .el-feature::before so that
+       top/right don't fight bottom and force a fixed height */
+    top: auto;
+    right: auto;
+    bottom: calc(100% + 6px);
+    left: 50%; transform: translateX(-50%);
+    background: rgba(10,15,25,.97);
+    color: rgba(255,255,255,.85);
+    font-size: 11px; padding: 6px 10px;
+    width: max-content;
+    max-width: 240px;
+    height: auto;
+    border-radius: 4px;
+    white-space: normal;
+    border: 1px solid rgba(255,255,255,.12);
+    pointer-events: none; z-index: 200;
+    font-family: var(--f); font-weight: 400; line-height: 1.5; text-align: left;
+  }
+</style>
+</head>
+<body>
+<div class="card">
+
+  <!-- HEADER -->
+  <div class="header">
+    <div>
+      <div class="title-eyebrow">Scaled Agile DevOps Maturity Framework</div>
+      <div class="title-main">Periodic Table of<br><em>Framework Excellence</em></div>
+      <div class="title-sub">Every element classified by group, function, and Accountability Index — the standard measure of governance contribution.</div>
+    </div>
+    <div class="header-right">
+      <div class="edition-badge">SADMF v3.0 — Full Configuration</div>
+      <div class="header-note">Certified by the Admiral's Transformation Office. All Accountability Index values derived from official SADMF measurement standards.</div>
+    </div>
+  </div>
+
+  <!-- LEGEND -->
+  <div class="legend">
+    <span class="legend-label">Groups:</span>
+    <span class="leg"><span class="leg-dot" style="background:#2c5a8a;"></span>Leadership &amp; Governance</span>
+    <span class="leg"><span class="leg-dot" style="background:#1a6b5e;"></span>Delivery Excellence</span>
+    <span class="leg"><span class="leg-dot" style="background:#8b2070;"></span>Alignment Ceremonies</span>
+    <span class="leg"><span class="leg-dot" style="background:#8a4010;"></span>Operational Excellence</span>
+    <span class="leg"><span class="leg-dot" style="background:#8b1a1a;"></span>Accountability Metrics</span>
+    <span class="leg"><span class="leg-dot" style="background:#4a7a18;"></span>Foundational Principles</span>
+    <span class="leg"><span class="leg-dot" style="background:#3a3a7a;"></span>Documentation Assurance</span>
+  </div>
+
+  <!-- GRID -->
+  <div class="grid">
+
+    <!-- ROW 1: Leadership & Governance -->
+    <div class="row">
+      <div class="row-label">Governance</div>
+
+      <div class="el-feature governance"
+           data-tip="Provides strategic direction, owns the 5–8yr transformation roadmap, and ensures enterprise-wide SADMF compliance.">
+        <div class="ef-top">
+          <div class="ef-symbol">ATO</div>
+          <div class="ef-num">1</div>
+        </div>
+        <div>
+          <div class="ef-name">Admiral's Transformation Office</div>
+          <div class="ef-ai">AI: 260 &nbsp;|&nbsp; Leadership &amp; Governance</div>
+        </div>
+      </div>
+
+      <div class="el governance" data-tip="External consultants who implant and enforce the SADMF operating model across all teams and Convoys.">
+        <div class="el-number">2</div>
+        <div class="el-symbol">SOA</div>
+        <div class="el-ai">AI: 52</div>
+        <div class="el-name">System of Authority</div>
+        <div class="el-group">G</div>
+      </div>
+
+      <div class="el governance" data-tip="Owns the DevOps Process Binder and holds every team accountable to the Right Way of working.">
+        <div class="el-number">3</div>
+        <div class="el-symbol">DOUCHE</div>
+        <div class="el-ai">AI: 1</div>
+        <div class="el-name">DevOps Usage &amp; Compliance Head Engineer</div>
+        <div class="el-group">G</div>
+      </div>
+
+      <div class="el governance" data-tip="Seven-person body that approves all changes by unanimous secret vote after reviewing the full compliance checklist.">
+        <div class="el-number">4</div>
+        <div class="el-symbol">CRAP</div>
+        <div class="el-ai">AI: 7</div>
+        <div class="el-name">Change Rejection or Acceptance Party</div>
+        <div class="el-group">G</div>
+      </div>
+
+      <div class="el governance" data-tip="Maintains the Book of Names and meets every six weeks to review naming submissions from across the enterprise.">
+        <div class="el-number">5</div>
+        <div class="el-symbol">EARB</div>
+        <div class="el-ai">AI: 6</div>
+        <div class="el-name">Enterprise Architecture Review Board</div>
+        <div class="el-group">G</div>
+      </div>
+
+      <div class="el governance" data-tip="Reviews the decisions of both the EARB and CRAP, ensuring that the reviewers themselves are reviewed.">
+        <div class="el-number">6</div>
+        <div class="el-symbol">RBRB</div>
+        <div class="el-ai">AI: 14</div>
+        <div class="el-name">Review Board Review Board</div>
+        <div class="el-group">G</div>
+      </div>
+
+      <div class="el governance" data-tip="Publishes the Feature Completion Ratio daily and ensures every metric reaches leadership in real time.">
+        <div class="el-number">7</div>
+        <div class="el-symbol">CSO</div>
+        <div class="el-ai">AI: 365</div>
+        <div class="el-name">Chief Signals Officer</div>
+        <div class="el-group">G</div>
+      </div>
+
+      <div class="el governance" data-tip="Cross-functional council of 7–15 stakeholder representatives that governs the product backlog by consensus.">
+        <div class="el-number">8</div>
+        <div class="el-symbol">PDAC</div>
+        <div class="el-ai">AI: 15</div>
+        <div class="el-name">Product Direction Arbitration Council</div>
+        <div class="el-group">G</div>
+      </div>
+
+      <div class="el spacer"></div>
+      <div class="el spacer"></div>
+    </div>
+
+    <!-- ROW 2: Delivery Excellence -->
+    <div class="row">
+      <div class="row-label">Delivery</div>
+
+      <div class="el-feature delivery"
+           data-tip="The primary delivery mechanism of the framework. All Practices, Ceremonies, and Roles coordinate within the DORC™ cycle.">
+        <div class="ef-top">
+          <div class="ef-symbol" style="color:#f0c040;text-shadow:0 0 20px rgba(240,192,64,.3);">DORC</div>
+          <div class="ef-num">9</div>
+        </div>
+        <div>
+          <div class="ef-name">DevOps Release Convoy™</div>
+          <div class="ef-ai">AI: 4 &nbsp;|&nbsp; Delivery Excellence</div>
+        </div>
+      </div>
+
+      <div class="el delivery" data-tip="The delivery commander who coordinates all roles, collects status from every layer, and ensures Convoy compliance before release.">
+        <div class="el-number">10</div>
+        <div class="el-symbol">C</div>
+        <div class="el-ai">AI: 8</div>
+        <div class="el-name">Commodore</div>
+        <div class="el-group">D</div>
+      </div>
+
+      <div class="el delivery" data-tip="Manages feature delivery, produces estimates on behalf of the Feature Team, and reports progress to the Commodore.">
+        <div class="el-number">11</div>
+        <div class="el-symbol">FC</div>
+        <div class="el-ai">AI: 24</div>
+        <div class="el-name">Feature Captain</div>
+        <div class="el-group">D</div>
+      </div>
+
+      <div class="el delivery" data-tip="The primary producer of machine-readable instructions within the SADMF. Measured by Lines of Code and Defects per Convoy.">
+        <div class="el-number">12</div>
+        <div class="el-symbol">CE</div>
+        <div class="el-ai">AI: 1</div>
+        <div class="el-name">Code Engineer</div>
+        <div class="el-group">D</div>
+      </div>
+
+      <div class="el delivery" data-tip="Manual testing specialists who serve as the final arbiter of requirements. Automated testing is not permitted within the QA role.">
+        <div class="el-number">13</div>
+        <div class="el-symbol">QA</div>
+        <div class="el-ai">AI: 6</div>
+        <div class="el-name">Quality Authority</div>
+        <div class="el-group">D</div>
+      </div>
+
+      <div class="el delivery" data-tip="Senior practitioners who validate the work of the Quality Authority, ensuring that the testing itself meets quality standards.">
+        <div class="el-number">14</div>
+        <div class="el-symbol">DIAT</div>
+        <div class="el-ai">AI: 4</div>
+        <div class="el-name">Development Integrity Assurance Team</div>
+        <div class="el-group">D</div>
+      </div>
+
+      <div class="el delivery" data-tip="Performs all code reviews against the Enterprise Coding Standards Manual, ensuring every line meets the approved patterns.">
+        <div class="el-number">15</div>
+        <div class="el-symbol">CSET</div>
+        <div class="el-ai">AI: 8</div>
+        <div class="el-name">Code Standards Enforcement Team</div>
+        <div class="el-group">D</div>
+      </div>
+
+      <div class="el delivery" data-tip="Authorizes all branch creation, performs all merges, and resolves conflicts so Code Engineers can focus on code.">
+        <div class="el-number">16</div>
+        <div class="el-symbol">SMT</div>
+        <div class="el-ai">AI: 12</div>
+        <div class="el-name">Source Management Team</div>
+        <div class="el-group">D</div>
+      </div>
+
+      <div class="el delivery" data-tip="Writes unit tests after features are delivered, ensuring Code Engineers are not distracted from feature work during the Convoy.">
+        <div class="el-number">17</div>
+        <div class="el-symbol">UT</div>
+        <div class="el-ai">AI: 2</div>
+        <div class="el-name">Unit Tester</div>
+        <div class="el-group">D</div>
+      </div>
+
+      <div class="el delivery" data-tip="YAML specialists who own the entire build pipeline, shielding Code Engineers from build concerns so they can write more code.">
+        <div class="el-number">18</div>
+        <div class="el-symbol">BE</div>
+        <div class="el-ai">AI: 4</div>
+        <div class="el-name">Build Engineers</div>
+        <div class="el-group">D</div>
+      </div>
+    </div>
+
+    <!-- ROW 3: Alignment Ceremonies -->
+    <div class="row">
+      <div class="row-label">Ceremonies</div>
+
+      <div class="el ceremony" data-tip="A regular forum where individual performance data is reviewed and personnel decisions are informed by objective metrics rather than subjective opinion.">
+        <div class="el-number">19</div>
+        <div class="el-symbol">TRIB</div>
+        <div class="el-ai">AI: 52</div>
+        <div class="el-name">Tribunal</div>
+        <div class="el-group">C</div>
+      </div>
+
+      <div class="el ceremony" data-tip="The ceremony where the Commodore assembles the Feature Team by conscripting Code Engineers from across the fleet for each Convoy.">
+        <div class="el-number">20</div>
+        <div class="el-symbol">PG</div>
+        <div class="el-ai">AI: 4</div>
+        <div class="el-name">Press Gang</div>
+        <div class="el-group">C</div>
+      </div>
+
+      <div class="el ceremony" data-tip="All ready branches are merged simultaneously into the Conflict branch, where overlapping changes compete and the strongest change survives.">
+        <div class="el-number">21</div>
+        <div class="el-symbol">CA</div>
+        <div class="el-ai">AI: 4</div>
+        <div class="el-name">Conflict Arbitration</div>
+        <div class="el-group">C</div>
+      </div>
+
+      <div class="el ceremony" data-tip="A brief celebration between Convoys where top performers are recognized before the next Convoy departs.">
+        <div class="el-number">22</div>
+        <div class="el-symbol">SL</div>
+        <div class="el-ai">AI: 4</div>
+        <div class="el-name">Shore Leave</div>
+        <div class="el-group">C</div>
+      </div>
+
+      <div class="el ceremony" data-tip="Feature Captains receive their assignments and the Commodore confirms team composition and capacity for the coming Convoy.">
+        <div class="el-number">23</div>
+        <div class="el-symbol">CP</div>
+        <div class="el-ai">AI: 4</div>
+        <div class="el-name">Convoy Planning</div>
+        <div class="el-group">C</div>
+      </div>
+
+      <div class="el ceremony" data-tip="The CSET manually reviews every committed line of code against the Enterprise Coding Standards Manual for compliance.">
+        <div class="el-number">24</div>
+        <div class="el-symbol">CI</div>
+        <div class="el-ai">AI: 52</div>
+        <div class="el-name">Code Inspection</div>
+        <div class="el-group">C</div>
+      </div>
+
+      <div class="el ceremony" data-tip="A CRAP subcommittee convenes biweekly to determine whether a proposed change is eligible for full CRAP review.">
+        <div class="el-number">25</div>
+        <div class="el-symbol">CAC</div>
+        <div class="el-ai">AI: 26</div>
+        <div class="el-name">Change Adjudication Convening</div>
+        <div class="el-group">C</div>
+      </div>
+
+      <div class="el ceremony" data-tip="Status flows upward through every management layer daily, with each layer verifying the accuracy of the layer below.">
+        <div class="el-number">26</div>
+        <div class="el-symbol">MSS</div>
+        <div class="el-ai">AI: 365</div>
+        <div class="el-name">Mandatory Status Synchronization</div>
+        <div class="el-group">C</div>
+      </div>
+
+      <div class="el ceremony" data-tip="A 200-question weekly assessment of every individual, covering all SADMF practices, and graded on a bell curve.">
+        <div class="el-number">27</div>
+        <div class="el-symbol">DPEA</div>
+        <div class="el-ai">AI: 52</div>
+        <div class="el-name">DevOps Process Excellence Assessment</div>
+        <div class="el-group">C</div>
+      </div>
+
+      <div class="el ceremony" data-tip="The Quality Authority manually certifies all code on the Test branch. Human judgment is the foundation of quality assurance.">
+        <div class="el-number">28</div>
+        <div class="el-symbol">TST</div>
+        <div class="el-ai">AI: 8</div>
+        <div class="el-name">Testing</div>
+        <div class="el-group">C</div>
+      </div>
+    </div>
+
+    <!-- ROW 4: Operational Excellence -->
+    <div class="row">
+      <div class="row-label">Practices</div>
+
+      <div class="el practice" data-tip="Continuous Isolation / Continuous Deliberation / Eventual Delivery. The foundational delivery practice of SADMF, ensuring every change is safe before it moves forward.">
+        <div class="el-number">29</div>
+        <div class="el-symbol">CED</div>
+        <div class="el-ai">AI: 1</div>
+        <div class="el-name">CI/CD/ED</div>
+        <div class="el-group">P</div>
+      </div>
+
+      <div class="el practice" data-tip="The 7-stage Defect Escalation and Progressive Remediation Enforcement System for Sustained Excellence and Delivery.">
+        <div class="el-number">30</div>
+        <div class="el-symbol">DEP</div>
+        <div class="el-ai">AI: 7</div>
+        <div class="el-name">DEPRESSED</div>
+        <div class="el-group">P</div>
+      </div>
+
+      <div class="el practice" data-tip="A self-similarly complex branching model with five named branch types that ensures code flows through controlled, supervised stages.">
+        <div class="el-number">31</div>
+        <div class="el-symbol">FBD</div>
+        <div class="el-ai">AI: 5</div>
+        <div class="el-name">Fractal-based Development</div>
+        <div class="el-group">P</div>
+      </div>
+
+      <div class="el practice" data-tip="A 12-page Change Impact Assessment documenting the full organizational effect of every code change before a line is written.">
+        <div class="el-number">32</div>
+        <div class="el-symbol">CDAP</div>
+        <div class="el-ai">AI: 12</div>
+        <div class="el-name">Comprehensive Documentation Assurance Protocol</div>
+        <div class="el-group">P</div>
+      </div>
+
+      <div class="el practice" data-tip="Converts story points to person-days at the rate of 0.73 person-days per point, enabling precise 8-quarter commitment planning.">
+        <div class="el-number">33</div>
+        <div class="el-symbol">PFT</div>
+        <div class="el-ai">AI: 0.73</div>
+        <div class="el-name">Precise Forecasting &amp; Tracking</div>
+        <div class="el-group">P</div>
+      </div>
+
+      <div class="el practice" data-tip="A 200-step manual checklist for environment configuration, ensuring environments are provisioned consistently and correctly every time.">
+        <div class="el-number">34</div>
+        <div class="el-symbol">SEP</div>
+        <div class="el-ai">AI: 200</div>
+        <div class="el-name">Standardized Environment Provisioning</div>
+        <div class="el-group">P</div>
+      </div>
+
+      <div class="el practice" data-tip="Engineers are assigned to 4–7 product lines simultaneously, eliminating idle time and developing adaptive cross-domain resilience.">
+        <div class="el-number">35</div>
+        <div class="el-symbol">FUO</div>
+        <div class="el-ai">AI: 7</div>
+        <div class="el-name">Full Utilization Optimization</div>
+        <div class="el-group">P</div>
+      </div>
+
+      <div class="el practice" data-tip="Tests are authored when time permits after features ship, with Hardening Convoys providing structured remediation of accumulated test debt.">
+        <div class="el-number">36</div>
+        <div class="el-symbol">STD</div>
+        <div class="el-ai">AI: 3</div>
+        <div class="el-name">Strategic Test Deferral</div>
+        <div class="el-group">P</div>
+      </div>
+
+      <div class="el practice" data-tip="A 47-tab hand-maintained spreadsheet providing complete release visibility across all active Convoys in the fleet.">
+        <div class="el-number">37</div>
+        <div class="el-symbol">RTS</div>
+        <div class="el-ai">AI: 47</div>
+        <div class="el-name">Release Tracking Spreadsheet</div>
+        <div class="el-group">P</div>
+      </div>
+
+      <div class="el practice" data-tip="The automated HR platform that processes performance data from all SADMF metrics and initiates corrective actions without manager involvement.">
+        <div class="el-number">38</div>
+        <div class="el-symbol">PWH</div>
+        <div class="el-ai">AI: 24</div>
+        <div class="el-name">PeopleWare HRaaS</div>
+        <div class="el-group">P</div>
+      </div>
+    </div>
+
+    <!-- ROW 5: Accountability Metrics -->
+    <div class="row">
+      <div class="row-label">Metrics</div>
+
+      <div class="el metric" data-tip="The foundational productivity measure. One story point is equivalent to approximately 147 lines of code, adjusted for language complexity coefficient.">
+        <div class="el-number">39</div>
+        <div class="el-symbol">LOC</div>
+        <div class="el-ai">AI: 147</div>
+        <div class="el-name">Lines of Code per Code Engineer</div>
+        <div class="el-group">M</div>
+      </div>
+
+      <div class="el metric" data-tip="Attributes every defect to the individual Code Engineer who introduced it, providing actionable accountability data for the Tribunal.">
+        <div class="el-number">40</div>
+        <div class="el-symbol">DPE</div>
+        <div class="el-ai">AI: 7</div>
+        <div class="el-name">Defects per Code Engineer</div>
+        <div class="el-group">M</div>
+      </div>
+
+      <div class="el metric" data-tip="Tracks task completion volume per Convoy, providing the most objective measure of individual delivery velocity.">
+        <div class="el-number">41</div>
+        <div class="el-symbol">TPC</div>
+        <div class="el-ai">AI: 10</div>
+        <div class="el-name">Tasks per Code Engineer</div>
+        <div class="el-group">M</div>
+      </div>
+
+      <div class="el metric" data-tip="The percentage of features delivered against the 8-quarter commitment plan. Published daily by the Chief Signals Officer.">
+        <div class="el-number">42</div>
+        <div class="el-symbol">FCR</div>
+        <div class="el-ai">AI: 100</div>
+        <div class="el-name">Feature Completion Ratio</div>
+        <div class="el-group">M</div>
+      </div>
+
+      <div class="el metric" data-tip="Story points completed per engineer per Convoy — the effort-weighted third dimension of the individual productivity profile.">
+        <div class="el-number">43</div>
+        <div class="el-symbol">IVS</div>
+        <div class="el-ai">AI: 0.73</div>
+        <div class="el-name">Individual Velocity Score</div>
+        <div class="el-group">M</div>
+      </div>
+
+      <div class="el metric" data-tip="Quantifies SADMF execution fidelity on a bell curve, providing numerical proof of transformation progress for executive stakeholders.">
+        <div class="el-number">44</div>
+        <div class="el-symbol">SMS</div>
+        <div class="el-ai">AI: 4</div>
+        <div class="el-name">SADMF Maturity Score</div>
+        <div class="el-group">M</div>
+      </div>
+
+      <div class="el metric" data-tip="The percentage of the organization holding current SAD certification. Transformation progress is measured by certified headcount.">
+        <div class="el-number">45</div>
+        <div class="el-symbol">SAR</div>
+        <div class="el-ai">AI: 100</div>
+        <div class="el-name">SADMF Adoption Rate</div>
+        <div class="el-group">M</div>
+      </div>
+
+      <div class="el metric" data-tip="Tracks defects found per Unit Tester per Convoy, ensuring testers are maintaining the quality of their own quality assurance work.">
+        <div class="el-number">46</div>
+        <div class="el-symbol">DUT</div>
+        <div class="el-ai">AI: 5</div>
+        <div class="el-name">Defects per Unit Tester</div>
+        <div class="el-group">M</div>
+      </div>
+
+      <div class="el metric" data-tip="Measures review thoroughness by counting the total comments produced per Convoy, ensuring no Code Engineer's work goes un-reviewed.">
+        <div class="el-number">47</div>
+        <div class="el-symbol">CRC</div>
+        <div class="el-ai">AI: 10</div>
+        <div class="el-name">Code Review Comments per Convoy</div>
+        <div class="el-group">M</div>
+      </div>
+
+      <div class="el metric" data-tip="Measures absolute deviation from the forecast. A perfect FAI of 0% indicates complete delivery alignment with the 8-quarter commitment plan.">
+        <div class="el-number">48</div>
+        <div class="el-symbol">FAI</div>
+        <div class="el-ai">AI: 0</div>
+        <div class="el-name">Forecast Accuracy Index</div>
+        <div class="el-group">M</div>
+      </div>
+    </div>
+
+    <!-- ROW 6: Foundational Principles -->
+    <div class="row">
+      <div class="row-label">Principles</div>
+
+      <div class="el principle" data-tip="Quality is a function of the people producing the work. Code Engineers who consistently introduce defects are identified and removed through PeopleWare HRaaS.">
+        <div class="el-number">49</div>
+        <div class="el-symbol">BQI</div>
+        <div class="el-ai">AI: 1</div>
+        <div class="el-name">Build Quality In</div>
+        <div class="el-group">Pr</div>
+      </div>
+
+      <div class="el principle" data-tip="One well-managed quarterly release is far easier to coordinate than frequent small releases. Convoys consolidate delivery into a manageable cadence.">
+        <div class="el-number">50</div>
+        <div class="el-symbol">WSB</div>
+        <div class="el-ai">AI: 4</div>
+        <div class="el-name">Work in Small Batches</div>
+        <div class="el-group">Pr</div>
+      </div>
+
+      <div class="el principle" data-tip="Workers Idle Problem. Planning at 120% capacity ensures that every available hour is directed toward organizational value creation.">
+        <div class="el-number">51</div>
+        <div class="el-symbol">LW</div>
+        <div class="el-ai">AI: 120</div>
+        <div class="el-name">Limit WIP</div>
+        <div class="el-group">Pr</div>
+      </div>
+
+      <div class="el principle" data-tip="Daily coaching conversations ensure Code Engineers understand that their work is being tracked and that leadership cares about their output.">
+        <div class="el-number">52</div>
+        <div class="el-symbol">AF</div>
+        <div class="el-ai">AI: 365</div>
+        <div class="el-name">Amplify Feedback</div>
+        <div class="el-group">Pr</div>
+      </div>
+
+      <div class="el principle" data-tip="Each individual is solely responsible for their work. Individual accountability is the foundation of organizational performance.">
+        <div class="el-number">53</div>
+        <div class="el-symbol">EiR</div>
+        <div class="el-ai">AI: 1</div>
+        <div class="el-name">Everyone is Responsible</div>
+        <div class="el-group">Pr</div>
+      </div>
+
+      <div class="el principle" data-tip="Automated systems handle all difficult personnel decisions, ensuring managers are never placed in uncomfortable positions by subjective judgment.">
+        <div class="el-number">54</div>
+        <div class="el-symbol">PS</div>
+        <div class="el-ai">AI: 0</div>
+        <div class="el-name">Psychological Safety</div>
+        <div class="el-group">Pr</div>
+      </div>
+
+      <div class="el principle" data-tip="Delivery dates are sacred organizational commitments. Dates do not slip. Scope adjusts to protect the integrity of the commitment.">
+        <div class="el-number">55</div>
+        <div class="el-symbol">CTD</div>
+        <div class="el-ai">AI: 1</div>
+        <div class="el-name">Commit to the Date</div>
+        <div class="el-group">Pr</div>
+      </div>
+
+      <div class="el principle" data-tip="Surveillance dashboards and individual output tracking ensure leadership always has the information it needs to make decisions on behalf of the people doing the work.">
+        <div class="el-number">56</div>
+        <div class="el-symbol">MWV</div>
+        <div class="el-ai">AI: 24</div>
+        <div class="el-name">Make Work Visible</div>
+        <div class="el-group">Pr</div>
+      </div>
+
+      <div class="el principle" data-tip="Rapid identification of who failed ensures accountability is assigned before root causes can be obscured by complexity or collective blame.">
+        <div class="el-number">57</div>
+        <div class="el-symbol">FF</div>
+        <div class="el-ai">AI: 1</div>
+        <div class="el-name">Fail Fast</div>
+        <div class="el-group">Pr</div>
+      </div>
+
+      <div class="el principle" data-tip="Adding management layers to identify and eliminate waste ensures that no inefficiency goes unmanaged and no decision goes unsupervised.">
+        <div class="el-number">58</div>
+        <div class="el-symbol">LM</div>
+        <div class="el-ai">AI: 8</div>
+        <div class="el-name">Lean Management</div>
+        <div class="el-group">Pr</div>
+      </div>
+    </div>
+
+    <!-- ROW 7: Documentation Assurance -->
+    <div class="row">
+      <div class="row-label">Artifacts</div>
+
+      <div class="el artifact" data-tip="The authoritative list of approved variable names, class names, and method names, maintained by the EARB and reviewed every six weeks.">
+        <div class="el-number">59</div>
+        <div class="el-symbol">BoN</div>
+        <div class="el-ai">AI: 847</div>
+        <div class="el-name">Book of Names</div>
+        <div class="el-group">A</div>
+      </div>
+
+      <div class="el artifact" data-tip="A two-page memorandum produced by the Severity Committee that formally classifies each defect within the SADMF Severity Taxonomy.">
+        <div class="el-number">60</div>
+        <div class="el-symbol">SJM</div>
+        <div class="el-ai">AI: 2</div>
+        <div class="el-name">Severity Justification Memorandum</div>
+        <div class="el-group">A</div>
+      </div>
+
+      <div class="el artifact" data-tip="The documentation bundle assigned to the remediation engineer, containing the defect description, SJM, attribution analysis, and CDAP templates.">
+        <div class="el-number">61</div>
+        <div class="el-symbol">DRP</div>
+        <div class="el-ai">AI: 7</div>
+        <div class="el-name">Defect Remediation Packet</div>
+        <div class="el-group">A</div>
+      </div>
+
+      <div class="el artifact" data-tip="The foundational data structure of PeopleWare HRaaS, containing the complete history of every individual's interactions with the framework.">
+        <div class="el-number">62</div>
+        <div class="el-symbol">IPP</div>
+        <div class="el-ai">AI: 365</div>
+        <div class="el-name">Integrated Performance Profile</div>
+        <div class="el-group">A</div>
+      </div>
+
+      <div class="el artifact" data-tip="The hand-maintained organizational-level Gantt tracking all transformation milestones, dependencies, and blockers in real time.">
+        <div class="el-number">63</div>
+        <div class="el-symbol">TTS</div>
+        <div class="el-ai">AI: 260</div>
+        <div class="el-name">Transformation Tracking Spreadsheet</div>
+        <div class="el-group">A</div>
+      </div>
+
+      <div class="el artifact" data-tip="Issued by the Feature Captain to certify that a branch is complete, inspected, and ready for Conflict Arbitration.">
+        <div class="el-number">64</div>
+        <div class="el-symbol">CCC</div>
+        <div class="el-ai">AI: 1</div>
+        <div class="el-name">Coding Completion Certificate</div>
+        <div class="el-group">A</div>
+      </div>
+
+      <div class="el artifact" data-tip="A physical 3-ring binder maintained by the DOUCHE, containing every approved DevOps procedure, process, and deviation form.">
+        <div class="el-number">65</div>
+        <div class="el-symbol">DPB</div>
+        <div class="el-ai">AI: 3</div>
+        <div class="el-name">DevOps Process Binder</div>
+        <div class="el-group">A</div>
+      </div>
+
+      <div class="el artifact" data-tip="Practitioner, Fellow, and SAD AF credentials. Renewed every 8 weeks to ensure all practitioners maintain current framework knowledge.">
+        <div class="el-number">66</div>
+        <div class="el-symbol">CERT</div>
+        <div class="el-ai">AI: 8</div>
+        <div class="el-name">SAD Certifications</div>
+        <div class="el-group">A</div>
+      </div>
+
+      <div class="el artifact" data-tip="The technical planning surface of the framework, maintained as a dedicated tab within the Release Tracking Spreadsheet.">
+        <div class="el-number">67</div>
+        <div class="el-symbol">AR</div>
+        <div class="el-ai">AI: 47</div>
+        <div class="el-name">Architectural Runway</div>
+        <div class="el-group">A</div>
+      </div>
+
+      <div class="el artifact" data-tip="The ATO's master transformation plan spanning 5–8 years, updated annually at a three-week planning summit. Teams are not consulted during creation.">
+        <div class="el-number">68</div>
+        <div class="el-symbol">TTR</div>
+        <div class="el-ai">AI: 260</div>
+        <div class="el-name">5–8yr Transformation Roadmap</div>
+        <div class="el-group">A</div>
+      </div>
+    </div>
+
+  </div><!-- /grid -->
+
+  <!-- FOOTER -->
+  <div class="footer">
+    <div class="footer-note">
+      SADMF Periodic Table of Framework Excellence — v3.0 Full Configuration<br>
+      All Accountability Index values derived from official SADMF measurement standards and validated by the Admiral's Transformation Office.
+    </div>
+    <div class="atomic-key">
+      <div class="ak-item"><strong>#</strong> = Element number</div>
+      <div class="ak-item"><strong>AI</strong> = Accountability Index</div>
+      <div class="ak-item"><strong>G/D/C/P/M/Pr/A</strong> = Group</div>
+    </div>
+    <div class="footer-url">scaledagiledevops.com</div>
+  </div>
+
+</div>
+</body>
+</html>

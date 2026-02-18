@@ -1,0 +1,1044 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SADMF Big Picture</title>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --blue:    #1e3a5f;
+    --navy:    #152d4a;
+    --purple:  #a23b72;
+    --accent:  #2c7be5;
+    --light:   #4a90d9;
+    --teal:    #2a7a6f;
+    --gold:    #c89b3c;
+    --gold-lt: #f0c040;
+    --red-dk:  #8b1a1a;
+    --gray1:   #f4f5f6;
+    --gray2:   #e8eaec;
+    --gray3:   #d0d4d8;
+    --gray4:   #9aa5b1;
+    --text:    #1a1e24;
+    --border:  #b8bfc8;
+    --f: 'IBM Plex Sans', sans-serif;
+    --fm: 'IBM Plex Mono', monospace;
+  }
+
+  body {
+    font-family: var(--f);
+    background: #e0e4e8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 16px 40px;
+    min-height: 100vh;
+  }
+
+  /* ── outer wrapper ── */
+  .diagram {
+    width: 1300px;
+    max-width: 100%;
+    background: #fff;
+    border: 1.5px solid var(--border);
+    box-shadow: 0 8px 40px rgba(0,0,0,.18);
+    font-size: 11px;
+    line-height: 1.3;
+    color: var(--text);
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* ══════════════════════════════════════
+     TITLE ROW
+  ══════════════════════════════════════ */
+  .title-row {
+    display: flex;
+    align-items: flex-end;
+    padding: 10px 14px 6px;
+    border-bottom: 1px solid var(--border);
+    background: #fff;
+    gap: 0;
+  }
+  .title-block { flex: 0 0 auto; margin-right: 20px; }
+  .title-block .brand { font-size: 28px; font-weight: 700; color: var(--purple); letter-spacing: -.5px; line-height:1; }
+  .title-block .sub   { font-size: 9.5px; font-weight: 500; color: #555; margin-top: 2px; }
+  .title-block .copy  { font-size: 8px; color: #999; margin-top: 3px; font-family: var(--fm); }
+
+  /* config selector (decorative) */
+  .config-select {
+    display: flex; align-items: center; gap: 6px; margin-left: auto;
+    font-size: 9px; font-weight: 600; letter-spacing: .05em; color: #666;
+  }
+  .config-select span { padding: 3px 10px; border: 1px solid var(--border); border-radius: 2px; cursor: default; }
+  .config-select span.active { background: var(--gold); color: #fff; border-color: var(--gold); }
+  .config-label { font-size: 8.5px; color: #888; margin-right: 4px; }
+
+  /* ══════════════════════════════════════
+     TOP BANNER
+  ══════════════════════════════════════ */
+  .top-banner {
+    background: var(--blue);
+    color: #fff;
+    text-align: center;
+    padding: 7px 20px;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .top-banner .arrows { color: var(--gold-lt); font-size: 15px; }
+
+  /* ══════════════════════════════════════
+     MAIN BODY = LEFT | CENTER | RIGHT
+  ══════════════════════════════════════ */
+  .body-row {
+    display: flex;
+    min-height: 600px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  /* ── LEFT PANEL ── */
+  .left-panel {
+    width: 178px;
+    flex-shrink: 0;
+    border-right: 1.5px solid var(--border);
+    display: flex;
+    flex-direction: column;
+    background: #f8f9fa;
+  }
+  .lp-section {
+    border-bottom: 1px solid var(--border);
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  .lp-section:last-child { border-bottom: none; flex: 1.1; }
+  .lp-header {
+    background: var(--blue);
+    color: #fff;
+    font-size: 9px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    padding: 5px 8px;
+    writing-mode: horizontal-tb;
+  }
+  .lp-body {
+    padding: 8px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .lp-role {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background: #fff;
+    border: 1px solid var(--gray3);
+    border-radius: 3px;
+    padding: 4px 6px;
+    font-size: 9.5px;
+    font-weight: 600;
+  }
+  .lp-role .icon { font-size: 13px; }
+  .lp-role .label { flex:1; }
+  .lp-role .sub { font-size: 7.5px; font-weight: 400; color: #666; display:block; }
+
+  .chevrons {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    margin-top: 4px;
+    padding: 4px 6px;
+  }
+  .chevron {
+    width: 28px; height: 18px;
+    background: var(--blue);
+    clip-path: polygon(0 0, 80% 0, 100% 50%, 80% 100%, 0 100%, 20% 50%);
+    opacity: .85;
+    flex-shrink: 0;
+  }
+  .chevron:first-child { clip-path: polygon(0 0, 80% 0, 100% 50%, 80% 100%, 0 100%); }
+  .chevron-label { font-size: 7.5px; font-weight: 600; color: var(--blue); margin-left: 6px; }
+
+  .dvf-circle {
+    width: 44px; height: 44px;
+    border-radius: 50%;
+    border: 2.5px solid var(--blue);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 9px; font-weight: 700; color: var(--blue);
+    align-self: center; margin: 4px 0;
+    background: white;
+  }
+
+  .lp-bottom-label {
+    font-size: 8px; font-weight: 700; text-align: center;
+    color: #fff; background: #555; padding: 4px;
+    margin-top: auto;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+  }
+
+  /* ── CENTER PANEL ── */
+  .center-panel {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+  }
+
+  /* ─ MANDATE FLOW ─ */
+  .mandate-flow {
+    background: var(--gray1);
+    border-bottom: 1px solid var(--border);
+    padding: 10px 12px 8px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  .zone-badge {
+    position: absolute;
+    top: 6px; right: 8px;
+    font-size: 7.5px; font-weight: 700;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    padding: 2px 7px;
+    border-radius: 2px;
+  }
+  .badge-red { background: var(--red-dk); color: #fff; }
+  .badge-blue { background: var(--blue); color: #fff; }
+
+  .zone-title {
+    font-size: 10px; font-weight: 700; text-transform: uppercase;
+    letter-spacing: .06em; color: var(--blue); margin-bottom: 8px;
+    border-bottom: 2px solid var(--blue);
+    padding-bottom: 3px; display: inline-block;
+  }
+
+  .mf-flow {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    flex-wrap: nowrap;
+  }
+  .mf-box {
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    padding: 6px 8px;
+    font-size: 8.5px;
+    font-weight: 600;
+    text-align: center;
+    min-width: 80px;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .mf-box .mf-sub { font-size: 7px; font-weight: 400; color: #666; display: block; margin-top: 2px; }
+  .mf-box.wide { min-width: 105px; }
+  .mf-box.teal { background: var(--teal); color: #fff; border-color: var(--teal); }
+  .mf-box.teal .mf-sub { color: rgba(255,255,255,.75); }
+
+  .mf-arrow { font-size: 14px; color: var(--blue); padding: 0 3px; flex-shrink: 0; }
+
+  .mf-stack {
+    display: flex; flex-direction: column; gap: 3px; align-items: center;
+  }
+  .mf-tag {
+    font-size: 7.5px; font-weight: 700; padding: 2px 6px;
+    border-radius: 2px; text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .tag-epic { background: #e8c040; color: #3a2800; }
+  .tag-enabler { background: var(--red-dk); color: #fff; }
+  .tag-kpi { background: var(--blue); color: #fff; }
+
+  .mf-above {
+    display: flex; gap: 20px; margin-bottom: 6px; padding-left: 2px;
+  }
+  .mf-above-label {
+    font-size: 8px; font-weight: 700; color: #666;
+    text-transform: uppercase; letter-spacing: .04em;
+  }
+
+  /* ─ DORC FLOW ─ */
+  .dorc-flow {
+    background: var(--gray2);
+    border-bottom: 1px solid var(--border);
+    padding: 10px 12px 8px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+
+  .dorc-inner {
+    display: flex;
+    gap: 8px;
+    align-items: stretch;
+  }
+
+  .dorc-left {
+    flex: 0 0 130px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .compliance-circle {
+    width: 52px; height: 52px; border-radius: 50%;
+    border: 2.5px solid var(--blue);
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    font-size: 7.5px; font-weight: 700; color: var(--blue);
+    background: #fff; text-align: center; margin-bottom: 4px;
+    align-self: flex-start;
+  }
+  .dorc-item {
+    background: #fff; border: 1px solid var(--border);
+    border-radius: 3px; padding: 4px 7px;
+    font-size: 8.5px; font-weight: 600;
+  }
+  .dorc-item .di-sub { font-size: 7px; color: #777; font-weight: 400; display: block; }
+  .dorc-item-row { display: flex; gap: 4px; align-items: center; }
+
+  /* DORC TORPEDO */
+  .dorc-center {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    min-width: 0;
+  }
+  .torpedo-wrap {
+    width: 100%;
+    position: relative;
+  }
+  .torpedo {
+    background: linear-gradient(135deg, #0f2137 0%, var(--blue) 40%, #1a4a7a 100%);
+    border-radius: 50px;
+    padding: 14px 40px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 4px 18px rgba(0,0,0,.3), inset 0 1px 0 rgba(255,255,255,.1);
+    overflow: hidden;
+  }
+  .torpedo::before {
+    content: '';
+    position: absolute; top: 0; left: 0; right: 0;
+    height: 50%;
+    background: linear-gradient(180deg, rgba(255,255,255,.07) 0%, transparent 100%);
+    border-radius: 50px 50px 0 0;
+  }
+  .torpedo-title {
+    font-size: 13px; font-weight: 800;
+    color: var(--gold-lt);
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    text-shadow: 0 0 20px rgba(240,192,64,.4);
+    position: relative; z-index: 1;
+  }
+  .torpedo-sub {
+    font-size: 9px; color: rgba(255,255,255,.7);
+    letter-spacing: .05em;
+    position: relative; z-index: 1;
+    margin-top: 2px;
+  }
+  /* gold racing stripe */
+  .torpedo::after {
+    content: '';
+    position: absolute;
+    top: 50%; left: 0; right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, transparent, var(--gold), var(--gold-lt), var(--gold), transparent);
+    transform: translateY(-50%);
+    opacity: .5;
+  }
+
+  .torpedo-below {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 6px;
+    gap: 4px;
+  }
+  .tb-item {
+    text-align: center;
+    font-size: 7.5px;
+    font-weight: 600;
+    color: #555;
+  }
+  .tb-item .tb-label {
+    display: block;
+    font-size: 7px; color: #888; margin-top: 1px;
+  }
+
+  /* pipeline */
+  .dorc-right {
+    flex: 0 0 220px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    border-left: 1px solid var(--border);
+    padding-left: 8px;
+  }
+  .pipeline-title {
+    font-size: 9px; font-weight: 700; color: var(--blue);
+    text-transform: uppercase; letter-spacing: .05em;
+    border-bottom: 1.5px solid var(--blue);
+    padding-bottom: 3px; margin-bottom: 5px;
+  }
+  .pipeline-stages {
+    display: flex;
+    gap: 3px;
+    flex: 1;
+    align-items: stretch;
+  }
+  .p-stage {
+    flex: 1;
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    padding: 5px 4px;
+    text-align: center;
+    font-size: 8px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    position: relative;
+  }
+  .p-stage::after {
+    content: '▶';
+    position: absolute;
+    right: -7px; top: 50%;
+    transform: translateY(-50%);
+    font-size: 8px; color: var(--blue);
+    z-index: 1;
+  }
+  .p-stage:last-child::after { display: none; }
+  .p-stage .ps-icon { font-size: 14px; }
+  .p-stage.iso  { border-top: 3px solid var(--blue); }
+  .p-stage.delib { border-top: 3px solid var(--purple); }
+  .p-stage.del  { border-top: 3px solid var(--teal); }
+  .pipeline-foot {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 7.5px; font-weight: 700; color: #555;
+  }
+
+  /* ─ CODE ENGINEER FLOW ─ */
+  .ce-flow {
+    flex: 1;
+    background: #fff;
+    padding: 8px 12px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ce-top {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 6px;
+    align-items: flex-start;
+  }
+  .ce-practice {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    font-size: 8px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .ce-icon-circle {
+    width: 36px; height: 36px; border-radius: 50%;
+    border: 2px solid var(--blue);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 15px; background: #fff;
+  }
+  .ce-icon-check {
+    width: 36px; height: 36px; border-radius: 50%;
+    border: 2px solid var(--teal);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 15px; background: #fff; color: var(--teal);
+  }
+  .ce-backlog {
+    width: 36px; height: 36px;
+    border: 2px solid #888;
+    border-radius: 3px;
+    display: flex; flex-direction: column; justify-content: center;
+    gap: 2px; padding: 4px;
+    background: #fff;
+  }
+  .ce-backlog span { height: 3px; background: #888; border-radius: 1px; display: block; }
+  .ce-backlog span:nth-child(2) { width: 70%; }
+  .ce-backlog span:nth-child(3) { width: 55%; }
+
+  /* convoy timeline */
+  .convoy-timeline {
+    flex: 1;
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    overflow: hidden;
+    position: relative;
+    min-height: 80px;
+  }
+  .ct-header {
+    display: flex;
+    background: var(--gray2);
+    border-bottom: 1px solid var(--border);
+  }
+  .ct-col {
+    flex: 1;
+    border-right: 1px dashed var(--border);
+    padding: 4px 6px;
+    font-size: 8px; font-weight: 700;
+    text-align: center;
+    color: var(--blue);
+    position: relative;
+  }
+  .ct-col:last-child { border-right: none; }
+  .ct-col.planning { flex: 0 0 auto; padding: 4px 8px; background: rgba(30,58,95,.08); }
+  .ct-body {
+    display: flex;
+    height: 60px;
+    position: relative;
+  }
+  .ct-lane {
+    flex: 1;
+    border-right: 1px dashed var(--gray3);
+    position: relative;
+  }
+  .ct-lane:last-child { border-right: none; }
+  .ct-lane.planning { flex: 0 0 auto; width: 56px; background: rgba(30,58,95,.04); }
+
+  /* story/feature tags inside timeline */
+  .ct-tag {
+    position: absolute;
+    padding: 2px 5px;
+    border-radius: 2px;
+    font-size: 7px; font-weight: 700;
+    white-space: nowrap;
+  }
+  .ct-story { background: #3a7de0; color: #fff; top: 8px; left: 6px; }
+  .ct-feature { background: #a23b72; color: #fff; top: 22px; left: 10px; }
+  .ct-defect { background: var(--red-dk); color: #fff; top: 36px; left: 4px; }
+  .ct-tribunal { background: #333; color: #fff; top: 10px; left: 8px; font-size: 7px; }
+
+  /* system demos / tribunal */
+  .ct-demos {
+    position: absolute;
+    top: 6px; right: 6px;
+    background: var(--gray2);
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    padding: 3px 6px;
+    font-size: 7.5px; font-weight: 700; color: var(--red-dk);
+  }
+
+  .ce-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4px;
+    padding-top: 4px;
+    border-top: 1px dashed var(--border);
+  }
+  .ce-foot-item { font-size: 7.5px; color: #555; font-weight: 600; }
+  .ce-foot-item .cfi-label { color: #999; font-weight: 400; font-size: 7px; display: block; }
+
+  /* ── RIGHT PANEL ── */
+  .right-panel {
+    width: 108px;
+    flex-shrink: 0;
+    border-left: 1.5px solid var(--border);
+    display: flex;
+    flex-direction: column;
+    background: var(--gray1);
+    padding: 6px 4px;
+    gap: 2px;
+  }
+  .rp-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    padding: 5px 4px;
+    border-bottom: 1px solid var(--gray3);
+    cursor: default;
+    transition: background .15s;
+  }
+  .rp-item:hover { background: var(--gray2); }
+  .rp-item:last-child { border-bottom: none; }
+  .rp-icon {
+    font-size: 20px;
+    line-height: 1;
+  }
+  .rp-label {
+    font-size: 7.5px;
+    font-weight: 600;
+    text-align: center;
+    color: var(--text);
+    line-height: 1.2;
+  }
+
+  /* ══════════════════════════════════════
+     BOTTOM FOUNDATION BAR
+  ══════════════════════════════════════ */
+  .foundation-bar {
+    background: var(--navy);
+    display: flex;
+    align-items: stretch;
+    padding: 0;
+    min-height: 62px;
+  }
+  .fb-anchor {
+    flex: 0 0 auto;
+    background: rgba(255,255,255,.06);
+    border-right: 1px solid rgba(255,255,255,.12);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 14px;
+    gap: 3px;
+  }
+  .fb-anchor .icon { font-size: 22px; }
+  .fb-anchor .label {
+    font-size: 7.5px; font-weight: 700; color: rgba(255,255,255,.9);
+    text-align: center; text-transform: uppercase; letter-spacing: .05em;
+    max-width: 80px; line-height: 1.2;
+  }
+
+  .fb-items {
+    flex: 1;
+    display: flex;
+    align-items: stretch;
+  }
+  .fb-item {
+    flex: 1;
+    border-right: 1px solid rgba(255,255,255,.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 6px;
+    gap: 4px;
+    cursor: default;
+    transition: background .15s;
+  }
+  .fb-item:hover { background: rgba(255,255,255,.06); }
+  .fb-item:last-child { border-right: none; }
+  .fb-item .fi-icon { font-size: 18px; line-height: 1; }
+  .fb-item .fi-symbol {
+    font-size: 16px; color: var(--gold-lt); font-weight: 700; letter-spacing: -.05em;
+  }
+  .fb-item .fi-label {
+    font-size: 7.5px; font-weight: 600; color: rgba(255,255,255,.85);
+    text-align: center; letter-spacing: .03em; line-height: 1.25;
+  }
+
+  /* ══════════════════════════════════════
+     WATERMARK / FOOTER
+  ══════════════════════════════════════ */
+  .diagram-footer {
+    position: absolute;
+    bottom: 68px; right: 116px;
+    font-size: 7px; color: #aaa;
+    font-family: var(--fm);
+    pointer-events: none;
+  }
+
+  /* print override */
+  @media print {
+    body { background: white; padding: 0; }
+    .diagram { box-shadow: none; }
+  }
+</style>
+</head>
+<body>
+
+<div class="diagram">
+
+  <!-- ── TITLE ROW ── -->
+  <div class="title-row">
+    <div class="title-block">
+      <div class="brand">SADMF</div>
+      <div class="sub">Scaled Agile DevOps Maturity Framework</div>
+      <div class="copy">© Scaled Agile DevOps &nbsp;|&nbsp; scaledagiledevops.com</div>
+    </div>
+    <div class="config-select">
+      <span class="config-label">Select SADMF configuration</span>
+      <span>TEAM</span>
+      <span>ESSENTIAL</span>
+      <span>FULL MANDATE</span>
+      <span class="active">PORTFOLIO CONTROL</span>
+      <span>MAXIMUM</span>
+    </div>
+  </div>
+
+  <!-- ── TOP BANNER ── -->
+  <div class="top-banner">
+    <span class="arrows">◈ ►► ►► ►►</span>
+    &nbsp;ENTERPRISE STAGNATION EXCELLENCE&nbsp;
+    <span class="arrows">►► ►► ►► ◈</span>
+  </div>
+
+  <!-- ── BODY ROW ── -->
+  <div class="body-row">
+
+    <!-- LEFT PANEL -->
+    <div class="left-panel">
+
+      <div class="lp-section">
+        <div class="lp-header">Organizational Rigidity</div>
+        <div class="lp-body">
+          <div class="lp-role">
+            <span class="icon">🏛️</span>
+            <span class="label">ATO<span class="sub">Admiral's Transformation Office</span></span>
+          </div>
+          <div class="lp-role">
+            <span class="icon">🧳</span>
+            <span class="label">SOA<span class="sub">External Consultants</span></span>
+          </div>
+          <div class="chevrons">
+            <div class="chevron"></div>
+            <div class="chevron"></div>
+            <div class="chevron"></div>
+            <span class="chevron-label">Mandatory<br>Value Streams</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="lp-section">
+        <div class="lp-header">Command Portfolio Oversight</div>
+        <div class="lp-body">
+          <div class="lp-role">
+            <span class="icon">⚓</span>
+            <span class="label">Admiral<span class="sub">The Transformation</span></span>
+          </div>
+          <div class="lp-role">
+            <span class="icon">📋</span>
+            <span class="label">PDAC<span class="sub">Product Direction<br>Arbitration Council</span></span>
+          </div>
+          <div class="lp-role">
+            <span class="icon">📊</span>
+            <span class="label">CSO<span class="sub">Chief Signals Officer</span></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="lp-section">
+        <div class="lp-header">Scheduled Feature Handoff</div>
+        <div class="lp-body">
+          <div class="lp-role">
+            <span class="icon">👔</span>
+            <span class="label">DOUCHE<span class="sub">Compliance Head Engineer</span></span>
+          </div>
+          <div class="dvf-circle">D·V·F</div>
+          <div class="lp-role">
+            <span class="icon">🚢</span>
+            <span class="label">Commodore<span class="sub">Delivery Commander</span></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="lp-section">
+        <div class="lp-header">Code Engineer Compliance</div>
+        <div class="lp-body">
+          <div class="lp-role">
+            <span class="icon">🎖️</span>
+            <span class="label">Feature Captain<span class="sub">Estimates on behalf of team</span></span>
+          </div>
+          <div class="lp-role">
+            <span class="icon">💻</span>
+            <span class="label">Feature Team<span class="sub">Code Engineers</span></span>
+          </div>
+          <div class="lp-role">
+            <span class="icon">🔍</span>
+            <span class="label">CSET<span class="sub">Code Standards Enforcement</span></span>
+          </div>
+        </div>
+        <div class="lp-bottom-label">Process &amp; Compliance</div>
+      </div>
+
+    </div><!-- /left-panel -->
+
+    <!-- CENTER PANEL -->
+    <div class="center-panel">
+
+      <!-- MANDATE FLOW -->
+      <div class="mandate-flow">
+        <span class="zone-badge badge-red">PORTFOLIO CONTROL</span>
+        <div class="zone-title">Mandate Flow</div>
+
+        <div class="mf-above">
+          <span class="mf-above-label">📊 Big Gantt</span>
+          <span class="mf-above-label">📉 Feature Completion Ratio</span>
+        </div>
+
+        <div class="mf-flow">
+          <div class="mf-box">
+            Admiral's<br>Directives
+            <span class="mf-sub">from ATO</span>
+          </div>
+          <span class="mf-arrow">→</span>
+          <div class="mf-box">
+            5–8yr<br>Transformation<br>Roadmap
+            <span class="mf-sub">PowerPoint required</span>
+          </div>
+          <span class="mf-arrow">→</span>
+          <div class="mf-box wide">
+            <div class="mf-stack">
+              <span style="font-size:8.5px;font-weight:700;">Release Tracking<br>Spreadsheet</span>
+              <span class="mf-tag tag-epic">EPIC</span>
+              <span style="font-size:7px;color:#888;">47 tabs, hand-maintained</span>
+            </div>
+          </div>
+          <span class="mf-arrow">→</span>
+          <div class="mf-box">
+            Precise<br>Forecasting
+            <span class="mf-sub">1 SP = 0.73 person-days<br>8-quarter commitments</span>
+          </div>
+          <span class="mf-arrow">→</span>
+          <div class="mf-box teal wide">
+            Value Stream<br>Accountability
+            <span class="mf-sub">
+              <span class="mf-tag tag-epic" style="margin:1px auto;display:inline-block;">MANDATE</span>
+              <span class="mf-tag tag-enabler" style="margin:1px auto;display:inline-block;">CRAP</span>
+            </span>
+          </div>
+          <span class="mf-arrow">→</span>
+          <div class="mf-box" style="min-width:64px;">
+            <div class="mf-stack" style="gap:4px;">
+              <span class="mf-tag tag-epic">MANDATE</span>
+              <span class="mf-tag tag-kpi">KPIs</span>
+            </div>
+          </div>
+        </div>
+      </div><!-- /mandate-flow -->
+
+      <!-- DORC FLOW -->
+      <div class="dorc-flow">
+        <span class="zone-badge badge-blue">NON-OPTIONAL</span>
+        <div class="zone-title">DORC Flow</div>
+
+        <div class="dorc-inner">
+
+          <!-- left: process compliance -->
+          <div class="dorc-left">
+            <div style="font-size:9px;font-weight:700;color:#555;text-transform:uppercase;letter-spacing:.04em;margin-bottom:3px;">Process Compliance</div>
+            <div style="display:flex;gap:6px;align-items:flex-start;">
+              <div class="compliance-circle">
+                <span style="font-size:10px;">📎</span>
+                <span style="font-size:7px;line-height:1.1;text-align:center;">Compliance<br>Thinking</span>
+              </div>
+              <div style="display:flex;flex-direction:column;gap:4px;flex:1;">
+                <div class="dorc-item">CDAP<span class="di-sub">12-page Change<br>Impact Assessment</span></div>
+              </div>
+            </div>
+            <div class="dorc-item">
+              DEPRESSED
+              <span class="di-sub">7-stage defect lifecycle</span>
+              <div class="dorc-item-row" style="margin-top:3px;">
+                <span class="mf-tag tag-epic" style="font-size:6.5px;">DEFECT</span>
+                <span class="mf-tag tag-enabler" style="font-size:6.5px;">BACKLOG</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- center: DORC torpedo -->
+          <div class="dorc-center">
+            <div class="torpedo-wrap">
+              <div class="torpedo">
+                <div class="torpedo-title">DevOps Release Convoy (DORC™)</div>
+                <div class="torpedo-sub">Continuous Isolation · Continuous Deliberation · Eventual Delivery</div>
+              </div>
+              <div class="torpedo-below">
+                <div class="tb-item">
+                  Continuous<br>Isolation
+                  <span class="tb-label">long-lived branches</span>
+                </div>
+                <div class="tb-item">
+                  Continuous<br>Deliberation
+                  <span class="tb-label">approval ceremonies</span>
+                </div>
+                <div class="tb-item">
+                  Eventual<br>Delivery
+                  <span class="tb-label">when process allows</span>
+                </div>
+              </div>
+              <div style="text-align:center;margin-top:4px;font-size:8px;font-weight:700;color:#777;text-transform:uppercase;letter-spacing:.04em;">
+                Release on Mandate
+              </div>
+            </div>
+          </div>
+
+          <!-- right: CI/CD/ED pipeline -->
+          <div class="dorc-right">
+            <div class="pipeline-title">CI/CD/ED Pipeline</div>
+            <div class="pipeline-stages">
+              <div class="p-stage iso">
+                <span class="ps-icon">🔒</span>
+                <span>Continuous<br>Isolation</span>
+              </div>
+              <div class="p-stage delib">
+                <span class="ps-icon">🗳️</span>
+                <span>Continuous<br>Deliberation</span>
+              </div>
+              <div class="p-stage del">
+                <span class="ps-icon">📦</span>
+                <span>Eventual<br>Delivery</span>
+              </div>
+            </div>
+            <div class="pipeline-foot">
+              <span>Convoy</span>
+              <span style="color:var(--red-dk)">⚖️ Tribunal</span>
+            </div>
+          </div>
+
+        </div>
+      </div><!-- /dorc-flow -->
+
+      <!-- CODE ENGINEER FLOW -->
+      <div class="ce-flow">
+        <div class="zone-title" style="color:#555;border-color:#999;">Code Engineer Flow</div>
+
+        <div style="display:flex;gap:16px;align-items:flex-start;margin-bottom:8px;">
+          <div class="ce-top" style="margin-bottom:0;">
+            <div class="ce-practice">
+              <div class="ce-icon-circle">⚔️</div>
+              Conflict<br>Arbitration
+            </div>
+            <div class="ce-practice">
+              <div class="ce-icon-check">✓</div>
+              DEPRESSED<br>Workflow
+            </div>
+            <div class="ce-practice">
+              <div class="ce-backlog">
+                <span></span><span></span><span></span>
+              </div>
+              Fractal-based<br>Development
+            </div>
+          </div>
+
+          <!-- convoy timeline -->
+          <div class="convoy-timeline" style="flex:1;">
+            <div class="ct-header">
+              <div class="ct-col planning">Convoy<br>Planning</div>
+              <div class="ct-col">Convoy I</div>
+              <div class="ct-col">Convoy II</div>
+              <div class="ct-col">Convoy III</div>
+              <div class="ct-col">Convoy IV</div>
+              <div class="ct-col planning">Next<br>Planning</div>
+            </div>
+            <div class="ct-body">
+              <div class="ct-lane planning">
+                <div class="ct-tag" style="background:var(--blue);color:#fff;top:8px;left:4px;font-size:7px;">Press<br>Gang</div>
+              </div>
+              <div class="ct-lane">
+                <div class="ct-tag ct-story">Story</div>
+                <div class="ct-tag ct-feature" style="top:22px;">Feature</div>
+                <div class="ct-tag ct-defect" style="top:38px;">DEPRESSED</div>
+              </div>
+              <div class="ct-lane">
+                <div class="ct-tag ct-feature" style="top:10px;">Feature</div>
+                <div class="ct-tag ct-defect" style="top:28px;">DEPRESSED</div>
+              </div>
+              <div class="ct-lane">
+                <div class="ct-tag ct-story" style="top:14px;">Story</div>
+                <div class="ct-tag ct-tribunal" style="top:34px;">TRIBUNAL</div>
+              </div>
+              <div class="ct-lane">
+                <div class="ct-tag ct-feature" style="top:8px;">Feature</div>
+              </div>
+              <div class="ct-lane planning">
+                <div class="ct-tag" style="background:var(--purple);color:#fff;top:8px;left:4px;font-size:7px;">Tribunal<br>Review</div>
+              </div>
+              <div class="ct-demos">System<br>Tribunal</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="ce-footer">
+          <div class="ce-foot-item">
+            Convoy Objectives
+            <span class="cfi-label">defined by Feature Captain</span>
+          </div>
+          <div class="ce-foot-item" style="text-align:center;">
+            ············ Convoy ············
+          </div>
+          <div class="ce-foot-item" style="text-align:right;">
+            Release Tracking Spreadsheet (Architectural Runway)
+            <span class="cfi-label">47-tab hand-maintained</span>
+          </div>
+        </div>
+      </div><!-- /ce-flow -->
+
+    </div><!-- /center-panel -->
+
+    <!-- RIGHT PANEL -->
+    <div class="right-panel">
+      <div class="rp-item"><span class="rp-icon">📋</span><span class="rp-label">5–8yr Roadmap</span></div>
+      <div class="rp-item"><span class="rp-icon">📊</span><span class="rp-label">Gantt</span></div>
+      <div class="rp-item"><span class="rp-icon">🗺️</span><span class="rp-label">Transformation Roadmap</span></div>
+      <div class="rp-item"><span class="rp-icon">🤖</span><span class="rp-label">PeopleWare HRaaS</span></div>
+      <div class="rp-item"><span class="rp-icon">🎓</span><span class="rp-label">Certifications</span></div>
+      <div class="rp-item"><span class="rp-icon">👥</span><span class="rp-label">Shared Blame</span></div>
+      <div class="rp-item"><span class="rp-icon">☁️</span><span class="rp-label">Cloud</span></div>
+      <div class="rp-item"><span class="rp-icon">📎</span><span class="rp-label">Compliance of Practice</span></div>
+      <div class="rp-item"><span class="rp-icon">⚙️</span><span class="rp-label">DOUCHE</span></div>
+      <div class="rp-item"><span class="rp-icon">🌿</span><span class="rp-label">SMT</span></div>
+      <div class="rp-item"><span class="rp-icon">📈</span><span class="rp-label">Mandate &amp; Grow</span></div>
+    </div>
+
+  </div><!-- /body-row -->
+
+  <!-- ── FOUNDATION BAR ── -->
+  <div class="foundation-bar">
+    <div class="fb-anchor">
+      <span class="icon">⚓</span>
+      <span class="label">Heavy-Command Leadership</span>
+    </div>
+    <div class="fb-items">
+      <div class="fb-item">
+        <span class="fi-symbol">►► </span>
+        <span class="fi-label">Command-Control<br>Mindset</span>
+      </div>
+      <div class="fb-item">
+        <span class="fi-icon">📜</span>
+        <span class="fi-label">Immutable<br>Mandates</span>
+      </div>
+      <div class="fb-item">
+        <span class="fi-symbol">⚙</span>
+        <span class="fi-label">SADMF<br>Principles</span>
+      </div>
+      <div class="fb-item">
+        <span class="fi-icon">🗓️</span>
+        <span class="fi-label">5–8yr Transformation<br>Roadmap</span>
+      </div>
+      <div class="fb-item">
+        <span class="fi-icon">🎓</span>
+        <span class="fi-label">SAD AF<br><span style="font-size:6.5px;opacity:.6;">Accredited Facilitator</span></span>
+      </div>
+      <div class="fb-item">
+        <span class="fi-icon">🏆</span>
+        <span class="fi-label">Mandatory<br>Certification Culture</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- watermark -->
+  <div class="diagram-footer">SADMF Big Picture v3.0 — Not for the faint of heart &nbsp;|&nbsp; Leffingwell et al. parody, © Scaled Agile DevOps</div>
+
+</div><!-- /diagram -->
+
+</body>
+</html>

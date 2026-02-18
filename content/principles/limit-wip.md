@@ -22,4 +22,5 @@ Some critics argue that overloading engineers leads to burnout, context-switchin
 - [Tasks per Code Engineer](/metrics/tasks-per-code-engineer/) for measuring individual throughput
 - [Tribunal](/release-convoy/ceremonies/tribunal/) for reviewing capacity utilization data
 - [Amplify Feedback](/principles/amplify-feedback/) for daily coaching on workload management
+- [Full Utilization Optimization](/practices/full-utilization-optimization/) for extending the 120% principle across multiple simultaneous product lines
 - [Everyone is Responsible](/principles/everyone-is-responsible/) for individual accountability under stretch targets
