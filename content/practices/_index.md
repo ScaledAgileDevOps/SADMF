@@ -21,7 +21,7 @@ When the [Source Management Team](/roles/#source-management-team) has received a
 
 ## DevOps Process Excellence Assessment
 
-This weekly assessment of every person in the organization is designed to report how mature the organization is at applying the framework. This facilitates ranking everyone on a bell curve to better inform the [Tribunal](/release-convoy/#tribunal). The assessment is performed using a self-reported survey plus a test to gauge how much of the material has been memorized.
+This weekly assessment of every person in the organization is designed to report how mature the organization is at applying the framework. This facilitates ranking everyone on a bell curve to better inform the [Tribunal](/release-convoy/ceremonies/tribunal/). The assessment is performed using a self-reported survey plus a test to gauge how much of the material has been memorized.
 
 ## Fractal-based Development
 
@@ -42,3 +42,11 @@ All estimations must be converted back and forth between story points and person
 ## Release Tracking
 
 We need the correct information to ensure [Everyone is Responsible](/principles/#everyone-is-responsible). To that end, we need to track every release, who approved the release, and who made the changes in the release. This allows us to [Build Quality In](/principles/#build-quality-in).
+
+## See Also
+
+- [DevOps Release Convoy](/release-convoy/) for how practices flow into the delivery process
+- [Roles](/roles/) for the teams that execute these practices
+- [Metrics](/metrics/) for measuring practice effectiveness
+- [Scaling AI](/ai-adoption/) for applying these practices to AI-generated code
+- [Principles](/principles/) that guide these practices

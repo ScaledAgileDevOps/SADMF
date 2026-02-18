@@ -25,11 +25,11 @@ For each [Code Engineer](/roles/#code-engineer-ce), the number of tasks they com
 
 ## Defects per Code Engineer
 
-For each [Code Engineer](/roles/#code-engineer-ce), we should track the number of defects they create and use this information to inform the [Tribunal](/release-convoy/#tribunal). We must [Build Quality In](/principles/#build-quality-in) by eliminating the source of defects.
+For each [Code Engineer](/roles/#code-engineer-ce), we should track the number of defects they create and use this information to inform the [Tribunal](/release-convoy/ceremonies/tribunal/). We must [Build Quality In](/principles/#build-quality-in) by eliminating the source of defects.
 
 ## Defects per Unit Tester
 
-For each Tester, we should track the number of defects they detect and use this information to inform the [Tribunal](/release-convoy/#tribunal). We must [Build Quality In](/principles/#build-quality-in) by eliminating [Unit Testers](/roles/#unit-tester-ut) who cannot find defects.
+For each Tester, we should track the number of defects they detect and use this information to inform the [Tribunal](/release-convoy/ceremonies/tribunal/). We must [Build Quality In](/principles/#build-quality-in) by eliminating [Unit Testers](/roles/#unit-tester-ut) who cannot find defects.
 
 ## SADMF Maturity Score
 
@@ -42,3 +42,11 @@ The percentage of features delivered in the Convoy compared to what was committe
 ## SADMF Adoption Rate
 
 The percentage of the organization that has received a SAD&trade; [certification](/certifications).
+
+## See Also
+
+- [Roles](/roles/) for the roles these metrics are measured against
+- [Practices](/practices/) for the processes that generate metric data
+- [DevOps Release Convoy](/release-convoy/) for the delivery cycle metrics track
+- [Scaling AI](/ai-adoption/) for AI-specific productivity metrics
+- [PeopleWare HRaaS](/peopleware/) for automated HR actions driven by these metrics

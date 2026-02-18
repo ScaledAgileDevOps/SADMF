@@ -1,6 +1,6 @@
 ---
 title: Enterprise AI Enablement Framework (EAIEF™)
-titleIcon: "fa-solid fa-certificate"
+titleIcon: "fa-solid fa-robot"
 linkTitle: Scaling AI
 type: docs
 weight: 100
@@ -108,3 +108,20 @@ Summary: Realizing Organizational Synergies Through AI-Accelerated Development (
 By leveraging the EAIEF™ and scaling AI implementation across established Enterprise Value Delivery Frameworks (EVDFs), organizations can maximize output, minimize early feedback, reinforce existing silos, and maintain delivery patterns familiar to leadership.
 
 This structured approach supports meaningful progress toward Unified Enterprise Productivity Outcomes (UEPOs) without requiring disruptive transformations in architecture, culture, or workflow.
+
+## Alignment with the SADMF Framework
+
+The EAIEF&trade; is fully compatible with existing SADMF processes:
+
+- AI-generated code follows the same [Fractal-based Development](/practices/#fractal-based-development) branching pattern and is subject to [Conflict Arbitration](/practices/#conflict-arbitration) by the [Source Management Team](/roles/#source-management-team)
+- All AI output must pass through the [CSET](/roles/#code-standards-enforcement-team-cset) and [EARB](/roles/#enterprise-architecture-review-board-earb) before inclusion in any [DORC&trade;](/release-convoy/)
+- CVP and LAV metrics complement existing [Lines of Code per Code Engineer](/metrics/#lines-of-code-per-code-engineer) tracking
+- The CAB workflow aligns with the [CRAP](/roles/#change-rejection-or-acceptance-party-crap) approval process
+- AI-assisted HR processes are available through [PeopleWare HRaaS](/peopleware/)
+
+## See Also
+
+- [Practices](/practices/) for the development practices that govern AI-generated code
+- [Metrics](/metrics/) for measuring [Code Engineer](/roles/#code-engineer-ce) productivity
+- [DevOps Release Convoy](/release-convoy/) for how AI output is delivered
+- [PeopleWare HRaaS](/peopleware/) for AI-powered Human Resources

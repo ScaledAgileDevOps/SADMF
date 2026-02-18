@@ -3,7 +3,7 @@ title: The Manager's Guide to Org Improvement
 linkTitle: The Manager's Guide to Org Improvement
 type: docs
 description: And rising through the ranks doing it!
-weight: 20
+weight: 10
 ---
 
 {{% alert title="" color="info" %}}
@@ -16,7 +16,7 @@ Being a people leader in a large company can be exhausting. Often times it seems
 
 This guide is intended to help you navigate decision-making and hone your focus to optimize career growth, at the expense of those who work for you and the company itself. Enjoy!
 
-### Stamp out variability — standardize, standardize, standardize
+## Stamp out variability — standardize, standardize, standardize
 
 **Guiding principle:** *Assuming everything is knowable and hold others accountable to knowing everything up-front*
 
@@ -30,7 +30,7 @@ When you have this mindset, any sort of redundant system is waste. Using economi
 
 When considering new ideas, only work on the things you are certain will succeed. The greater the unknowns, the less upfront planning you can do. This means you have no way to estimate the cost of the effort, nor the payback for the work. Avoiding uncertainty makes you look good and is easy to justify to leadership and those reporting to you.
 
-### Focus on efficiency — pretend that nothing changes and optimize for the current state
+## Focus on efficiency — pretend that nothing changes and optimize for the current state
 
 **Guiding principle:** *Efficiency is always good. ALWAYS!*
 
@@ -44,7 +44,7 @@ If the stock graph above makes anything clear, it's that ignoring security for y
 
 Another thing to avoid is flexibility in the solutions you build. Building in flexibility allows things to be changed later… after you've moved on to another job. The manager replacing you will get all the credit for adapting to market changes, not you. It's better to build to suit and save money now than to build something that will work in perpetuity. Why build something that lasts more than a few years anyways? Whatever you are putting into place will be replaced, right?
 
-### Setting up your team for a death march — managing to initial estimates with 100% capacity utilization baked into the plan
+## Setting up your team for a death march — managing to initial estimates with 100% capacity utilization baked into the plan
 
 **Guiding principle:** *Use early estimates to guide delivery dates to keep everyone focused*
 
@@ -58,7 +58,7 @@ Now comes the death march! With all the low-risk items complete, insist on meeti
 
 Once you've completed the project, celebrate it. You've earned it.
 
-### Yes by a thousand cuts — letting the friction in the system stop things
+## Yes by a thousand cuts — letting the friction in the system stop things
 
 **Guiding principle:** *The system will stop everything that wasn't supposed to happen*
 
@@ -66,7 +66,7 @@ Telling people 'no' is uncomfortable. Often new and exciting ideas will be prese
 
 Using this approach is pretty straightforward. If the idea is actually compelling and whoever is driving it succeeds, you can claim credit for green-lighting it. The more likely scenario is that the effort will stall out, at which point, you can shrug it off.
 
-### The zen of org charts — functions, job roles, and hierarchy are always to blame
+## The zen of org charts — functions, job roles, and hierarchy are always to blame
 
 **Guiding principle:** *It's impossible to prove it's not the org chart causing issues, so change it!*
 
@@ -78,7 +78,7 @@ Because making org changes is very stress-inducing, it's important to involve as
 
 Voilà! The problems you had been facing will no longer be your highest-order issues.
 
-### Focus on what's wrong with individual performance — allot most of your attention to poor performers
+## Focus on what's wrong with individual performance — allot most of your attention to poor performers
 
 **Guiding principle:** *Problem people are the problem*
 
@@ -86,7 +86,7 @@ The bureaucracy in organizations requires annual reviews of individuals. By lett
 
 However, the majority of your time should be spent focusing on low performers. This helps your team's morale. They will see that you care about low performers and how they are impacting everyone. Make sure to dismiss suggestions from low performers- they haven't 'earned' the right to be heard.
 
-### Emphasize cost concerns at every opportunity
+## Emphasize cost concerns at every opportunity
 
 **Guiding principle:** *Accountants provide the only numbers that matter*
 
@@ -94,7 +94,7 @@ Measuring the value your team provides is very difficult. That is why you should
 
 The main thing that every executive sees each month is the financial reports provided by the finance department. There are three basic elements to the finance report: Budget, forecast, and actuals. The budget is the guess you made at the beginning of the planning period. This was before you knew what your team should focus on. Never admit that! The budget is correct and you were correct when you guessed it. With the little bit of time you have outside focusing on low performers, make sure to keep a close eye on all your costs. No one ever gets in trouble for getting their actuals to align perfectly with budget and forecast.
 
-### Conclusion
+## Conclusion
 
 Using the risk-averse systems within your company is the easiest path to a moderately fulfilling career. Use these 7 principles to skirt responsibility and climb the corporate ladder. Make sure to pass this wisdom to the next generation. By doing so, you ensure the next generation of thought workers will have the same garden to grow in.
 

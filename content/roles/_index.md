@@ -91,7 +91,7 @@ The mid-level manager who is responsible for tracking the progress of the featur
 
 The Feature Team is the group of [Code Engineers](/roles/#code-engineer-ce) assembled to build a new feature for the
 next Convoy. Because we work so diligently to [Build Quality In](/principles/#build-quality-in) with the
-[Tribunal](/release-convoy/#tribunal), these teams should be able to deliver at maximum throughput as soon as they are
+[Tribunal](/release-convoy/ceremonies/tribunal/), these teams should be able to deliver at maximum throughput as soon as they are
 formed.
 
 ## Quality Authority (QA)
@@ -137,3 +137,12 @@ SOS is empowered to predictably deliver on time and on budget.
 [Code Engineers](#code-engineer-ce) should be focusing on writing code. Testing is the job of specialists! The Unit
 Tester role is dedicated to writing unit tests for [Code Engineers](#code-engineer-ce) after the code is delivered to
 ensure the code works.
+
+## See Also
+
+* [DevOps Release Convoy](/release-convoy/) for how roles operate within the delivery cycle
+* [Convoy Ceremonies](/release-convoy/ceremonies/) for the ceremonies each role participates in
+* [Practices](/practices/) for the processes roles execute
+* [Metrics](/metrics/) for how role performance is measured
+* [Certifications](/certifications/) for role-specific certifications
+* [Scaling AI](/ai-adoption/) for how roles interact with AI-generated code

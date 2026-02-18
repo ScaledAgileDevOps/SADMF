@@ -3,7 +3,7 @@ title: Deploy the Fleet
 linkTitle: Delivering Change
 type: docs
 description: Delivering software is scary. We need layers of process to feel better.
-weight: 2
+weight: 7
 ---
 
 {{% alert title="" color="info" %}}
@@ -37,3 +37,10 @@ All requests must be peer-reviewed and approved in duplicate and also approved b
 The CSC will meet each workday to review high-risk, or [Commodore](/roles/#commodore-c) escalated changes to the production environment.  Requests will be approved, sent back for more information, or rejected.
 
 After the CSC approves the Convoy's release there will be much rejoicing!
+
+## See Also
+
+- [Convoy Manifest](/release-convoy/manifest/) for the documentation the CSC reviews
+- [Convoy Ceremonies](/release-convoy/ceremonies/) for the ceremonies that precede deployment
+- [Roles](/roles/#commodore-c) for the Commodore who commands the deployment
+- [Metrics](/metrics/#feature-completion-ratio) for tracking what was delivered vs. committed

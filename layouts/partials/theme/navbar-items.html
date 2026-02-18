@@ -1,5 +1,49 @@
-{{/* Custom navbar items for Docsy theme */}}
-{{/* Using Bootstrap classes instead of Bulma */}}
+{{/* Framework dropdown - core content sections */}}
+<li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <i class="fa-solid fa-compass me-1"></i> Framework
+  </a>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="{{ relref . "/release-convoy" }}">
+      <i class="fa-solid fa-ship me-2"></i> DevOps Release Convoy
+    </a></li>
+    <li><a class="dropdown-item" href="{{ relref . "/principles" }}">
+      <i class="fa-solid fa-scroll me-2"></i> Principles
+    </a></li>
+    <li><a class="dropdown-item" href="{{ relref . "/practices" }}">
+      <i class="fa-solid fa-clipboard-check me-2"></i> Practices
+    </a></li>
+    <li><a class="dropdown-item" href="{{ relref . "/roles" }}">
+      <i class="fa-solid fa-user me-2"></i> Roles
+    </a></li>
+    <li><a class="dropdown-item" href="{{ relref . "/metrics" }}">
+      <i class="fa-solid fa-chart-column me-2"></i> Metrics
+    </a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" href="{{ relref . "/ai-adoption" }}">
+      <i class="fa-solid fa-robot me-2"></i> Scaling AI
+    </a></li>
+  </ul>
+</li>
+
+{{/* Resources dropdown */}}
+<li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <i class="fa-solid fa-book me-1"></i> Resources
+  </a>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="{{ relref . "/success-stories" }}">
+      <i class="fa-solid fa-thumbs-up me-2"></i> Success Stories
+    </a></li>
+    <li><a class="dropdown-item" href="{{ relref . "/peopleware" }}">
+      <i class="fa-solid fa-users-gear me-2"></i> PeopleWare HRaaS
+    </a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" href="{{ relref . "/certifications" }}">
+      <i class="fa-solid fa-certificate me-2"></i> Get Certified
+    </a></li>
+  </ul>
+</li>
 
 {{/* Swag Link */}}
 <li class="nav-item">
@@ -14,21 +58,5 @@
   <a class="nav-link" href="https://www.patreon.com/scaledagiledevops" target="_blank">
     <i class="fa-solid fa-circle-dollar-to-slot fa-lg me-1"></i>
     <span>Invest</span>
-  </a>
-</li>
-
-{{/* Certification Link */}}
-<li class="nav-item">
-  <a class="nav-link" href="{{ relref . "/certifications" }}">
-    <i class="fa-solid fa-certificate fa-lg me-1"></i>
-    <span>Certification</span>
-  </a>
-</li>
-
-{{/* Print Button - Uses Docsy's print functionality */}}
-<li class="nav-item">
-  <a class="nav-link" href="javascript:window.print()">
-    <i class="fa-solid fa-print fa-lg me-1"></i>
-    <span>Print</span>
   </a>
 </li>
