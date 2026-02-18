@@ -183,22 +183,22 @@ description: "Enterprise DevOps transformation without the risk of culture chang
 <p class="text-muted mb-5">Join thousands of organizations that have adopted Scaled Agile DevOps</p>
 <div class="row justify-content-center align-items-center trusted-logos">
   <div class="col-6 col-md-2 mb-4">
-    <div class="trusted-logo-img"><img src="/images/logos/initech.png" alt="Initech"></div>
+    <div class="trusted-logo-img" data-name="Initech"><img src="/images/logos/initech.png" alt="Initech"></div>
   </div>
   <div class="col-6 col-md-2 mb-4">
-    <div class="trusted-logo-img"><img src="/images/logos/globex.svg" alt="Globex Corporation"></div>
+    <div class="trusted-logo-img" data-name="Globex Corporation"><img src="/images/logos/globex.svg" alt="Globex Corporation"></div>
   </div>
   <div class="col-6 col-md-2 mb-4">
-    <div class="trusted-logo-img"><img src="/images/logos/vandelay.png" alt="Vandelay Industries"></div>
+    <div class="trusted-logo-img" data-name="Vandelay Industries"><img src="/images/logos/vandelay.png" alt="Vandelay Industries"></div>
   </div>
   <div class="col-6 col-md-2 mb-4">
-    <div class="trusted-logo-img"><img src="/images/logos/hooli.svg" alt="Hooli"></div>
+    <div class="trusted-logo-img" data-name="Hooli"><img src="/images/logos/hooli.svg" alt="Hooli"></div>
   </div>
   <div class="col-6 col-md-2 mb-4">
-    <div class="trusted-logo-img"><img src="/images/logos/aperture.svg" alt="Aperture Science"></div>
+    <div class="trusted-logo-img" data-name="Aperture Science"><img src="/images/logos/aperture.svg" alt="Aperture Science"></div>
   </div>
   <div class="col-6 col-md-2 mb-4">
-    <div class="trusted-logo-img"><img src="/images/logos/cyberdyne.svg" alt="Cyberdyne Systems"></div>
+    <div class="trusted-logo-img" data-name="Cyberdyne Systems"><img src="/images/logos/cyberdyne.svg" alt="Cyberdyne Systems"></div>
   </div>
 </div>
 </div>

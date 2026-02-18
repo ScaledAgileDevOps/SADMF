@@ -415,6 +415,7 @@ a.feature-card:hover .feature-card__cta {
 }
 
 .trusted-logo-img {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -433,11 +434,36 @@ a.feature-card:hover .feature-card__cta {
   width: auto;
   object-fit: contain;
   filter: grayscale(30%);
-  transition: filter 0.25s ease;
+  transition: filter 0.25s ease, transform 0.25s ease;
 }
 
 .trusted-logo-img:hover img {
   filter: grayscale(0%);
+  transform: translateY(-3px);
+}
+
+.trusted-logo-img::after {
+  content: attr(data-name);
+  position: absolute;
+  bottom: -0.25rem;
+  left: 50%;
+  transform: translateX(-50%) translateY(4px);
+  background: #1e3a5f;
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  white-space: nowrap;
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.trusted-logo-img:hover::after {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
 }
 
 /* === Final CTA Section === */
