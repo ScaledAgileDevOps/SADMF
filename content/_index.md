@@ -198,7 +198,7 @@ description: "Enterprise DevOps transformation without the risk of culture chang
     <div class="trusted-logo-img" data-name="Aperture Science"><img src="/images/logos/aperture.svg" alt="Aperture Science"></div>
   </div>
   <div class="col-6 col-md-2 mb-4">
-    <div class="trusted-logo-img" data-name="Cyberdyne Systems"><img src="/images/logos/cyberdyne.svg" alt="Cyberdyne Systems"></div>
+    <div class="trusted-logo-img" data-name="Cyberdyne Systems"><img src="/images/logos/cyberdyne-logo.png" alt="Cyberdyne Systems"></div>
   </div>
 </div>
 </div>
