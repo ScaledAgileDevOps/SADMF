@@ -7,3 +7,4 @@ resources/
 .early.coverage
 .hive-mind/
 .claude-flow/
+tmp/
