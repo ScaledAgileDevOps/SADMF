@@ -62,19 +62,34 @@ description: "Enterprise DevOps transformation without the risk of culture chang
 {{% /blocks/section %}}
 
 {{% blocks/section color="light" type="container" %}}
-<div class="row">
+<div class="row justify-content-center">
 
-{{% blocks/feature icon="fa-solid fa-ship" title="DevOps Release Convoy&trade;" url="/release-convoy/" %}}
-A clear, simple, manageable release process that customers can be assured used DevOps.
-{{% /blocks/feature %}}
+  <div class="col-lg-4 col-md-6 mb-4">
+    <a href="/release-convoy/" class="feature-card">
+      <div class="feature-card__icon"><i class="fa-solid fa-ship"></i></div>
+      <h3 class="feature-card__title">DevOps Release Convoy&trade;</h3>
+      <p class="feature-card__body">A clear, simple, manageable release process that customers can be assured used DevOps.</p>
+      <span class="feature-card__cta">Explore <i class="fa-solid fa-arrow-right ms-1"></i></span>
+    </a>
+  </div>
 
-{{% blocks/feature icon="fa-solid fa-scroll" title="Principles" url="/principles/" %}}
-Proven organizational principles that eliminate the need for risky culture change.
-{{% /blocks/feature %}}
+  <div class="col-lg-4 col-md-6 mb-4">
+    <a href="/principles/" class="feature-card">
+      <div class="feature-card__icon"><i class="fa-solid fa-scroll"></i></div>
+      <h3 class="feature-card__title">Principles</h3>
+      <p class="feature-card__body">Proven organizational principles that eliminate the need for risky culture change.</p>
+      <span class="feature-card__cta">Explore <i class="fa-solid fa-arrow-right ms-1"></i></span>
+    </a>
+  </div>
 
-{{% blocks/feature icon="fa-solid fa-clipboard-check" title="Practices" url="/practices/" %}}
-Battle-tested practices fully compatible with sending requirements to external development teams.
-{{% /blocks/feature %}}
+  <div class="col-lg-4 col-md-6 mb-4">
+    <a href="/practices/" class="feature-card">
+      <div class="feature-card__icon"><i class="fa-solid fa-clipboard-check"></i></div>
+      <h3 class="feature-card__title">Practices</h3>
+      <p class="feature-card__body">Battle-tested practices fully compatible with sending requirements to external development teams.</p>
+      <span class="feature-card__cta">Explore <i class="fa-solid fa-arrow-right ms-1"></i></span>
+    </a>
+  </div>
 
 </div>
 {{% /blocks/section %}}
