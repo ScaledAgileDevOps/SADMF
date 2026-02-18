@@ -1,0 +1,70 @@
+# Scaled Agile DevOps Maturity Framework (SADMF)
+
+> Enterprise DevOps transformation without the risk of culture change.
+
+SADMF is a satirical framework based on the real-life experiences of people who have had SAFe (Scaled Agile Framework) and LeSS (Large-Scale Scrum) inflicted upon them. It presents anti-patterns as if they were recommended practices. The acronyms are intentionally absurd (CRAP, DOUCHE, DEPRESSED, etc.). The writing is earnest and straight-faced — the satire works because it reads like genuine enterprise methodology documentation.
+
+Deployed at: https://scaledagiledevops.com/
+
+## DevOps Release Convoy
+
+URL: https://scaledagiledevops.com/release-convoy/
+Description: The only way to ensure delivery alignment!
+
+The Release Convoy is the core delivery lifecycle of SADMF. It coordinates releases across multiple teams through extensive ceremony and synchronization overhead, ensuring that no team can deliver independently.
+
+## Principles
+
+URL: https://scaledagiledevops.com/principles/
+Description: We must adhere to the correct principles to correctly perform the practices.
+
+The guiding principles of the framework, which prioritize process compliance, role separation, and organizational control over actual delivery outcomes.
+
+## Practices
+
+URL: https://scaledagiledevops.com/practices/
+Description: Complex systems require complex practices to reduce the complexity!
+
+Battle-tested practices that are fully compatible with sending requirements to external development teams. Includes ceremonies, workflows, and coordination patterns that maximize meeting overhead.
+
+## Roles
+
+URL: https://scaledagiledevops.com/roles/
+Description: Commanding the organization requires structure, clearly defined roles, and strict separation of duties!
+
+Organizational roles within SADMF that ensure proper command-and-control hierarchy while maintaining the appearance of agile collaboration.
+
+## Metrics
+
+URL: https://scaledagiledevops.com/metrics/
+Description: Management via metrics is the most effective way to cause impact!
+
+Performance measurement approaches that prioritize vanity metrics and activity tracking over actual delivery outcomes.
+
+## Certifications
+
+URL: https://scaledagiledevops.com/certifications/
+Description: Get your SAD certifications today!
+
+Professional certifications including Certified Really Agile Practitioner (CRAP) and other credentials that validate framework compliance.
+
+## PeopleWare HR as a Service
+
+URL: https://scaledagiledevops.com/peopleware/
+Description: Human Resources as a Service
+
+The PeopleWare module covers talent management, performance optimization, and organizational design patterns that ensure employees remain resources rather than people.
+
+## Enterprise AI Enablement Framework (EAIEF)
+
+URL: https://scaledagiledevops.com/ai-adoption/
+Description: A Strategic Reference Architecture for High-Throughput Developer Output Optimization (HTDOO)
+
+The AI adoption module provides enterprise-grade approaches to integrating AI tools while maintaining proper governance, approval workflows, and organizational control.
+
+## Success Stories
+
+URL: https://scaledagiledevops.com/success-stories/
+Description: Triumphant experience reports from SAD Accredited Facilitators!
+
+Real testimonials and case studies from organizations that have successfully implemented SADMF practices.

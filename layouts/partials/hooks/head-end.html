@@ -1,0 +1,21 @@
+{{/* Canonical URL */}}
+<link rel="canonical" href="{{ .Permalink }}">
+
+{{/* Open Graph image */}}
+<meta property="og:image" content="{{ "images/sadmf-og.png" | absURL }}">
+
+{{/* Twitter Card image (upgrades to large image) */}}
+<meta name="twitter:image" content="{{ "images/sadmf-og.png" | absURL }}">
+
+{{/* JSON-LD Structured Data */}}
+{{ if .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "{{ .Site.Title }}",
+  "url": "{{ .Site.BaseURL }}",
+  "description": "{{ .Site.Params.description }}"
+}
+</script>
+{{ end }}

@@ -1,0 +1,9 @@
+User-agent: *
+Disallow:
+
+Sitemap: {{ "sitemap.xml" | absURL }}
+
+# LLM content files
+# https://llmstxt.org/
+LLMs-Txt: {{ "llms.txt" | absURL }}
+LLMs-Full-Txt: {{ "llms-full.txt" | absURL }}

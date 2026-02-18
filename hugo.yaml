@@ -98,7 +98,7 @@ params:
     # ul_show: 1
     sidebar_menu_foldable: true
     sidebar_cache_limit: 1000
-    navbar_logo: false
+    navbar_logo: true
     sidebar_search_disable: true
 
     # Set to true to disable breadcrumb navigation.

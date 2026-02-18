@@ -1,0 +1,16 @@
+# Scaled Agile DevOps Maturity Framework (SADMF)
+
+> Enterprise DevOps transformation without the risk of culture change.
+
+SADMF is a satirical framework that presents enterprise anti-patterns as recommended practices.
+
+## Key Sections
+- [DevOps Release Convoy](https://scaledagiledevops.com/release-convoy/): The only way to ensure delivery alignment!
+- [Principles](https://scaledagiledevops.com/principles/): We must adhere to the correct principles to correctly perform the practices.
+- [Practices](https://scaledagiledevops.com/practices/): Complex systems require complex practices to reduce the complexity!
+- [Roles](https://scaledagiledevops.com/roles/): Commanding the organization requires structure, clearly defined roles, and strict separation of duties!
+- [Metrics](https://scaledagiledevops.com/metrics/): Management via metrics is the most effective way to cause impact!
+- [Certifications](https://scaledagiledevops.com/certifications/): Get your SAD certifications today!
+- [PeopleWare HR as a Service](https://scaledagiledevops.com/peopleware/): Human Resources as a Service
+- [Enterprise AI Enablement Framework](https://scaledagiledevops.com/ai-adoption/): A Strategic Reference Architecture for High-Throughput Developer Output Optimization
+- [Success Stories](https://scaledagiledevops.com/success-stories/): Triumphant experience reports from SAD Accredited Facilitators!

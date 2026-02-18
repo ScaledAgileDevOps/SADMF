@@ -403,9 +403,19 @@ a.markdown-btn:active {
 }
 
 /* === Navbar === */
-.td-navbar {
-  backdrop-filter: blur(12px);
+.td-navbar,
+.td-navbar.td-navbar-cover,
+.td-navbar.td-navbar-transparent {
+  background-color: #1e3a5f !important;
+  backdrop-filter: none;
   border-bottom: 1px solid rgba(44, 123, 229, 0.15);
+}
+
+.td-navbar .navbar-brand__name,
+.td-navbar .nav-link,
+.td-navbar .navbar-brand__name:hover,
+.td-navbar .nav-link:hover {
+  color: #fff !important;
 }
 
 .td-navbar .nav-link {
