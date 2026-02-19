@@ -94,4 +94,4 @@ jobs:
             "$NEW_TREE_SHA" "$BASE_SHA" \
             | gh api repos/"$REPO"/git/commits --input - --jq '.sha')
           gh api repos/"$REPO"/git/refs/heads/main \
-            -X PATCH -f "sha=$NEW_COMMIT_SHA" -f "force=false"
+            -X PATCH -f "sha=$NEW_COMMIT_SHA"
