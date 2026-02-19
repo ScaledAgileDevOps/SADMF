@@ -1,0 +1,11 @@
+{{ $slug := .Get "slug" }}
+<div class="ci-phase-section ci-phase-section--{{ $slug }}">
+  <div class="ci-phase-header ci-phase-header--{{ $slug }}">
+    <span class="ci-phase-header__num">{{ .Get "num" }}</span>
+    <span class="ci-phase-header__abbr">{{ .Get "abbr" }}</span>
+    <span class="ci-phase-header__label">{{ .Get "label" }}</span>
+  </div>
+  <div class="ci-phase-body">
+    {{ .Inner }}
+  </div>
+</div>

@@ -4,8 +4,14 @@ linkTitle: Scaled Agile DevOps Maturity Framework
 description: "Enterprise DevOps transformation without the risk of culture change. The Scaled Agile DevOps Maturity Framework helps enterprises feel better about DevOps since 2021."
 ---
 
-{{< blocks/cover title="Scaled Agile DevOps Maturity Framework" image_anchor="center" height="med" color="dark" >}}
-<p class="lead mt-3">Enterprise DevOps transformation without the risk of culture change!</p>
+{{< blocks/cover title="Scaled Agile DevOps Maturity Framework" subtitle="Official Enterprise Transformation Standard · Est. 2021" image_anchor="center" height="med" color="dark" >}}
+<p class="lead mt-2">Enterprise DevOps transformation without the risk of culture change!</p>
+<div class="hero-trust-bar">
+  <span class="hero-trust-item"><i class="fa-solid fa-scroll" aria-hidden="true"></i> Thoroughly Documented</span>
+  <span class="hero-trust-item"><i class="fa-solid fa-people-group" aria-hidden="true"></i> Ceremony Verified</span>
+  <span class="hero-trust-item"><i class="fa-solid fa-building-columns" aria-hidden="true"></i> Enterprise Grade</span>
+  <span class="hero-trust-item"><i class="fa-solid fa-award" aria-hidden="true"></i> Award Winning</span>
+</div>
 <p class="mt-4">
   <a class="btn btn-lg btn-secondary me-3" href="{{< relref "/release-convoy" >}}">
     Get Started <i class="fa-solid fa-arrow-right ms-2"></i>
@@ -16,6 +22,27 @@ description: "Enterprise DevOps transformation without the risk of culture chang
 </p>
 {{< blocks/link-down color="info" >}}
 {{< /blocks/cover >}}
+
+{{% blocks/section color="white" type="container" %}}
+<div class="sad-stats">
+  <div class="sad-stat">
+    <div class="sad-stat__number">500<sup>+</sup></div>
+    <div class="sad-stat__label">Enterprises Transformed</div>
+  </div>
+  <div class="sad-stat">
+    <div class="sad-stat__number">8<sup>Q</sup></div>
+    <div class="sad-stat__label">Avg. Delivery Forecast Horizon</div>
+  </div>
+  <div class="sad-stat">
+    <div class="sad-stat__number">2.8M<sup>+</sup></div>
+    <div class="sad-stat__label">Integrity Gaps Documented</div>
+  </div>
+  <div class="sad-stat">
+    <div class="sad-stat__number">0</div>
+    <div class="sad-stat__label">Culture Changes Required</div>
+  </div>
+</div>
+{{% /blocks/section %}}
 
 {{% blocks/section color="white" type="container" %}}
 
