@@ -1,0 +1,17 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json"
+  ],
+  "id": "ISSUER_URL/badges/achievements/accredited-facilitator.json",
+  "type": "Achievement",
+  "name": "Accredited Facilitator",
+  "description": "Awarded to those who are accredited to deliver the programme to others.",
+  "criteria": {
+    "narrative": "Complete facilitator training and deliver at least one observed session."
+  },
+  "image": {
+    "id": "ISSUER_URL/badges/images/accredited-facilitator.png",
+    "type": "Image"
+  }
+}

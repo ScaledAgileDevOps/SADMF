@@ -1,0 +1,45 @@
+name: Issue Badges
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/badges/**.yaml'
+
+jobs:
+  issue:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        working-directory: scripts
+        run: npm install
+
+      - name: Run tests
+        working-directory: scripts
+        run: npm test
+
+      - name: Issue new badges
+        env:
+          BADGE_SIGNING_KEY: ${{ secrets.BADGE_SIGNING_KEY }}
+          BADGE_ISSUER_URL: ${{ secrets.BADGE_ISSUER_URL }}
+          BADGE_ISSUER_NAME: ${{ secrets.BADGE_ISSUER_NAME }}
+        run: node scripts/issue-badges.js
+
+      - name: Commit issued credentials
+        run: |
+          git config user.name "Badge Bot"
+          git config user.email "badge-bot@users.noreply.github.com"
+          git add data/issued/ static/badges/issued/
+          git diff --staged --quiet || git commit -m "Issue badges [skip ci]"
+          git push

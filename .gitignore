@@ -8,3 +8,7 @@ resources/
 .hive-mind/
 .claude-flow/
 tmp/
+
+# Badge issuance
+.env
+scripts/node_modules/

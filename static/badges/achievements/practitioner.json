@@ -1,0 +1,17 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json"
+  ],
+  "id": "ISSUER_URL/badges/achievements/practitioner.json",
+  "type": "Achievement",
+  "name": "Practitioner",
+  "description": "Awarded to those who have demonstrated foundational knowledge and practice.",
+  "criteria": {
+    "narrative": "Complete the practitioner assessment with a passing score."
+  },
+  "image": {
+    "id": "ISSUER_URL/badges/images/practitioner.png",
+    "type": "Image"
+  }
+}
