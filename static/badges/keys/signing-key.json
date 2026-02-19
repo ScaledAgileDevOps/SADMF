@@ -1,0 +1,11 @@
+{
+  "@context": "https://w3id.org/security/v1",
+  "id": "ISSUER_URL/badges/keys/signing-key.json",
+  "type": "CryptographicKey",
+  "owner": "ISSUER_URL/badges/issuer.json",
+  "publicKeyJwk": {
+    "crv": "Ed25519",
+    "x": "H8XMudTzhYspOUHQMJ5s5DnkF294iR1s8rJgq29VHC0",
+    "kty": "OKP"
+  }
+}
