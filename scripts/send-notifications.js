@@ -60,7 +60,7 @@ export function buildEmailHtml({ recipientName, badgeName, badgeId, hash, issuer
     <tr><td style="padding:4px 8px 4px 0;color:#666;white-space:nowrap">Credential ID</td>
         <td style="padding:4px 0;font-family:monospace;font-size:0.85em;word-break:break-all">${hash}</td></tr>
     <tr><td style="padding:4px 8px 4px 0;color:#666;white-space:nowrap">Credential URL</td>
-        <td style="padding:4px 0"><a href="${credentialUrl}" style="color:#a23b72;word-break:break-all">${credentialUrl}</a></td></tr>
+        <td style="padding:4px 0"><a href="${linkedInPageUrl}" style="color:#a23b72;word-break:break-all">${linkedInPageUrl}</a></td></tr>
   </table>
 
   <p style="margin-top:16px">
