@@ -3,7 +3,7 @@
     "https://www.w3.org/2018/credentials/v1",
     "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json"
   ],
-  "id": "ISSUER_URL/badges/achievements/fellow.json",
+  "id": "https://scaledagiledevops.com/badges/achievements/fellow.json",
   "type": "Achievement",
   "name": "Fellow",
   "description": "Awarded to those who have demonstrated advanced expertise and contribution.",
@@ -11,7 +11,7 @@
     "narrative": "Complete the fellow programme and peer review process."
   },
   "image": {
-    "id": "ISSUER_URL/badges/images/fellow.png",
+    "id": "https://scaledagiledevops.com/badges/images/fellow.png",
     "type": "Image"
   }
 }

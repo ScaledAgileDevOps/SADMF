@@ -1,13 +1,13 @@
 {
   "@context": "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
-  "id": "ISSUER_URL/badges/issuer.json",
+  "id": "https://scaledagiledevops.com/badges/issuer.json",
   "type": "Profile",
   "name": "ISSUER_NAME",
-  "url": "ISSUER_URL",
-  "email": "badges@ISSUER_DOMAIN",
+  "url": "https://scaledagiledevops.com",
+  "email": "badges@scaledagiledevops.com",
   "publicKey": {
-    "id": "ISSUER_URL/badges/keys/signing-key.json",
+    "id": "https://scaledagiledevops.com/badges/keys/signing-key.json",
     "type": "CryptographicKey",
-    "owner": "ISSUER_URL/badges/issuer.json"
+    "owner": "https://scaledagiledevops.com/badges/issuer.json"
   }
 }
