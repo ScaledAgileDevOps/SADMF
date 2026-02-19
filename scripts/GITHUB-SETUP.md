@@ -48,6 +48,32 @@ gh api repos/ScaledAgileDevOps/SADMF/dispatches -f event_type=recipients-updated
 3. **Send badge notifications** — reads `tmp/notifications.json` (written only for newly issued credentials), sends one email per record with the badge image embedded inline, then deletes the file
 4. **Commit issued credentials** — uploads new credential files via GitHub API and creates a verified commit on `main`
 
+## Adding a new recipient
+
+Use `add-recipient.js` to add someone and trigger issuance in one step:
+
+```bash
+cd scripts
+set -a && source ../.env && set +a
+
+node add-recipient.js <badge-id> "<name>" <email> [issued-date]
+
+# Example (date defaults to today if omitted):
+node add-recipient.js accredited-facilitator "Jane Smith" jane@example.com 2026-02-19
+```
+
+**What it does:**
+1. Clones the private recipients repo
+2. Appends the new entry to `recipients/<badge-id>.yaml`
+3. Commits and pushes to the private repo
+4. Dispatches `recipients-updated` → triggers the issuance workflow → sends email
+
+Duplicate check: if the email already exists under that badge, it exits with an error.
+
+**Requires** `SADMF_DISPATCH_TOKEN` in `.env` (PAT with `repo` scope for the private recipients repo).
+
+---
+
 ## Re-sending a notification email
 
 Use `resend-notification.js` to resend to a single recipient without touching anyone else.
