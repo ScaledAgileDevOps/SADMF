@@ -58,5 +58,17 @@ describe('Recipient email privacy', () => {
     // Then their hash values differ
     expect(a.hash).not.toBe(b.hash)
   })
-  it.todo('Credential filename matches the identity hash used inside the credential')
+  it('Credential filename matches the identity hash used inside the credential', () => {
+    // Given a recipient with email "jane@example.com"
+    const email = 'jane@example.com'
+
+    // When a RecipientIdentity is created
+    const identity = new RecipientIdentity(email)
+    const identityObject = toIdentityObject(identity)
+
+    // Then the hash used as the filename stem matches the hash embedded in the identity token
+    const filenameHash = identity.hash
+    const tokenHash = identityObject.identity.replace('sha256$', '')
+    expect(filenameHash).toBe(tokenHash)
+  })
 })
