@@ -1227,4 +1227,8 @@ a.feature-card:hover .feature-card__cta {
   .td-navbar .dropdown-divider {
     border-color: rgba(255, 255, 255, 0.1);
   }
+
+  .td-navbar__search input::placeholder {
+    color: rgba(255, 255, 255, 0.75);
+  }
 }
