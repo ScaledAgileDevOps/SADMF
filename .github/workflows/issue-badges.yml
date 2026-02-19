@@ -53,6 +53,7 @@ jobs:
         run: node scripts/issue-badges.js
 
       - name: Send badge notifications
+        continue-on-error: true
         env:
           SMTP_HOST: ${{ secrets.SMTP_HOST }}
           SMTP_PORT: ${{ secrets.SMTP_PORT }}
@@ -66,7 +67,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git add data/issued/ static/badges/issued/
+          git add data/issued/ static/badges/issued/ data/notified.json
           if git diff --staged --quiet; then
             echo "Nothing to commit."
             exit 0

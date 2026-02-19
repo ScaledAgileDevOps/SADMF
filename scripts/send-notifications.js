@@ -2,7 +2,8 @@
 // Standalone script: reads tmp/notifications.json and sends one email per record.
 // Deletes the file when done. Exits 0 if nothing to send, 1 if any delivery fails.
 
-import { readFileSync, unlinkSync } from 'node:fs'
+import { createHash } from 'node:crypto'
+import { readFileSync, writeFileSync, unlinkSync } from 'node:fs'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { createTransport } from 'nodemailer'
@@ -10,6 +11,24 @@ import { createTransport } from 'nodemailer'
 const __dirname = dirname(fileURLToPath(import.meta.url))
 
 const NOTIFICATIONS_FILE = 'tmp/notifications.json'
+const NOTIFIED_LOG = join(__dirname, '..', 'data', 'notified.json')
+
+function notifiedKey(email, badgeId) {
+  const h = createHash('sha256').update(email.toLowerCase().trim()).digest('hex')
+  return `${badgeId}:${h}`
+}
+
+function loadNotified() {
+  try {
+    return new Set(JSON.parse(readFileSync(NOTIFIED_LOG, 'utf8')))
+  } catch {
+    return new Set()
+  }
+}
+
+function saveNotified(notified) {
+  writeFileSync(NOTIFIED_LOG, JSON.stringify([...notified].sort(), null, 2) + '\n')
+}
 
 /**
  * Builds the HTML body for a badge notification email.
@@ -111,10 +130,20 @@ function readBadgeImage(badgeId) {
 }
 
 async function sendAll(records, transport) {
+  const notified = loadNotified()
   let failed = 0
+  let skipped = 0
 
   for (const record of records) {
     const { recipientName, recipientEmail, badgeName, badgeId, hash, issuerUrl } = record
+    const key = notifiedKey(recipientEmail, badgeId)
+
+    if (notified.has(key)) {
+      console.log(`[NOTIFY] Already notified ${recipientEmail} (${badgeName}), skipping`)
+      skipped++
+      continue
+    }
+
     try {
       const imageBuffer = readBadgeImage(badgeId)
       const badgeImageSrc = imageBuffer ? 'cid:badge-image' : undefined
@@ -125,6 +154,8 @@ async function sendAll(records, transport) {
         html: buildEmailHtml({ recipientName, badgeName, badgeId, hash, issuerUrl, badgeImageSrc }),
         attachments: imageBuffer ? [{ filename: `${badgeId}.png`, content: imageBuffer, cid: 'badge-image' }] : [],
       })
+      notified.add(key)
+      saveNotified(notified)
       console.log(`[NOTIFY] Sent to ${recipientEmail} (${badgeName})`)
     } catch (err) {
       console.error(`[NOTIFY ERROR] Failed to send to ${recipientEmail}: ${err.message}`)
@@ -132,6 +163,7 @@ async function sendAll(records, transport) {
     }
   }
 
+  if (skipped > 0) console.log(`[NOTIFY] Skipped ${skipped} already-notified recipient(s).`)
   return failed
 }
 
