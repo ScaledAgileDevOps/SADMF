@@ -1,0 +1,18 @@
+{
+  "name": "badge-issuer",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.0",
+    "jose": "^5.0.0"
+  },
+  "devDependencies": {
+    "vitest": "^2.0.0"
+  }
+}
