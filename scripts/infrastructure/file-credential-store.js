@@ -53,8 +53,8 @@ export class FileCredentialStore {
     const pageUrl = `${issuerUrl}/badges/issued/${badgeId}/${hash}.html`
     const imageUrl = `${issuerUrl}/badges/images/${badgeId}.png`
     const credentialUrl = `${issuerUrl}/badges/issued/${badgeId}/${hash}.json`
-    const title = `SADMF ${badgeName} Credential`
-    const description = `${issuerName} — verifiable ${badgeName} credential`
+    const title = `SADMF v3 ${badgeName} Credential`
+    const description = `${issuerName} — verifiable SADMF v3 ${badgeName} credential`
     const liShareUrl = `https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(pageUrl)}&title=${encodeURIComponent(title)}&summary=${encodeURIComponent(description)}&source=SADMF`
 
     const html = `<!DOCTYPE html>

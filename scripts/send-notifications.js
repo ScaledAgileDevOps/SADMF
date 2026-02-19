@@ -29,8 +29,8 @@ export function buildEmailHtml({ recipientName, badgeName, badgeId, hash, issuer
   const credentialUrl = `${issuerUrl}/badges/issued/${badgeId}/${hash}.json`
   const linkedInPageUrl = `${issuerUrl}/badges/issued/${badgeId}/${hash}.html`
   const imgSrc = badgeImageSrc ?? badgeImageUrl
-  const liTitle = encodeURIComponent(`SADMF ${badgeName} Credential`)
-  const liSummary = encodeURIComponent(`Scaled Agile DevOps — verifiable ${badgeName} credential`)
+  const liTitle = encodeURIComponent(`SADMF v3 ${badgeName} Credential`)
+  const liSummary = encodeURIComponent(`Scaled Agile DevOps — verifiable SADMF v3 ${badgeName} credential`)
   const liShareUrl = `https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(linkedInPageUrl)}&title=${liTitle}&summary=${liSummary}&source=SADMF`
 
   return `<!DOCTYPE html>
@@ -40,7 +40,7 @@ export function buildEmailHtml({ recipientName, badgeName, badgeId, hash, issuer
   <img src="${imgSrc}" alt="${badgeName} badge" width="160" height="160"
        style="display:block;margin:0 auto 24px">
   <h1 style="color:#a23b72;text-align:center">Congratulations, ${recipientName}!</h1>
-  <p>Your <strong>${badgeName}</strong> credential has been issued and is now verifiable on the
+  <p>Your <strong>SADMF v3 ${badgeName}</strong> credential has been issued and is now verifiable on the
   Scaled Agile DevOps certification registry.</p>
   <p>Use the links below to download your credential and badge image:</p>
   <ul>
@@ -54,7 +54,7 @@ export function buildEmailHtml({ recipientName, badgeName, badgeId, hash, issuer
   (For Issuing Organisation, type "Scaled Agile DevOps" and <strong>select it from the dropdown</strong> so the logo appears.)</p>
   <table style="font-size:0.9em;border-collapse:collapse;width:100%">
     <tr><td style="padding:4px 8px 4px 0;color:#666;white-space:nowrap">Name</td>
-        <td style="padding:4px 0"><strong>SADMF ${badgeName}</strong></td></tr>
+        <td style="padding:4px 0"><strong>SADMF v3 ${badgeName}</strong></td></tr>
     <tr><td style="padding:4px 8px 4px 0;color:#666;white-space:nowrap">Issuing organisation</td>
         <td style="padding:4px 0">Scaled Agile DevOps</td></tr>
     <tr><td style="padding:4px 8px 4px 0;color:#666;white-space:nowrap">Credential ID</td>
@@ -121,7 +121,7 @@ async function sendAll(records, transport) {
       await transport.sendMail({
         from: process.env.SMTP_FROM,
         to: recipientEmail,
-        subject: `Your ${badgeName} credential has been issued`,
+        subject: `Your SADMF v3 ${badgeName} credential has been issued`,
         html: buildEmailHtml({ recipientName, badgeName, badgeId, hash, issuerUrl, badgeImageSrc }),
         attachments: imageBuffer ? [{ filename: `${badgeId}.png`, content: imageBuffer, cid: 'badge-image' }] : [],
       })

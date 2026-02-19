@@ -66,7 +66,7 @@ try {
   await transport.sendMail({
     from: process.env.SMTP_FROM,
     to: email,
-    subject: `Your ${badgeName} credential has been issued`,
+    subject: `Your SADMF v3 ${badgeName} credential has been issued`,
     html: buildEmailHtml({ recipientName: displayName, badgeName, badgeId, hash, issuerUrl, badgeImageSrc }),
     attachments: imageBuffer
       ? [{ filename: `${badgeId}.png`, content: imageBuffer, cid: 'badge-image' }]

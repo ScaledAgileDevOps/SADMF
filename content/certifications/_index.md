@@ -7,6 +7,8 @@ description: Get your SAD certifications today!
 weight: 1000
 ---
 
+All certifications on this page are issued under **SADMF Version 3**, the latest release of the Scaled Agile DevOps Maturity Framework. Version 3 credentials are cryptographically signed Open Badges 3.0 verifiable credentials.
+
 ## Scaled Agile DevOps Practitioner
 
 {{< figure src="/badges/images/practitioner.png" alt="SADMF Practitioner badge" title="SADMF Practitioner" width="200px" >}}
