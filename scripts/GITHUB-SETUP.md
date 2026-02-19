@@ -50,32 +50,26 @@ gh api repos/ScaledAgileDevOps/SADMF/dispatches -f event_type=recipients-updated
 
 ## Re-sending a notification email
 
-If a recipient didn't receive their email, seed a record manually and run the sender:
+Use `resend-notification.js` to resend to a single recipient without touching anyone else.
 
 ```bash
 cd scripts
 
-# Find the recipient's hash from their credential filename:
+# 1. Find the recipient's credential hash (the filename without .json):
 ls ../static/badges/issued/<badge-id>/
+# e.g. sha256$4dc05ddb13ccf3f43a52ad393d2fa49faa.json → hash is sha256$4dc05ddb...
 
-# Seed a notification record
-node -e "
-import('./infrastructure/file-notification-log.js').then(({ FileNotificationLog }) => {
-  new FileNotificationLog('tmp/notifications.json').notify(
-    'Recipient Name', 'email@example.com',
-    'Badge Name', 'badge-id',
-    'sha256\$their-hash-here',
-    'https://scaledagiledevops.com')
-})
-"
+# 2. Load SMTP credentials and resend
+set -a && source ../.env && set +a
+node resend-notification.js <badge-id> <hash> <email> "Recipient Name"
 
-# Send
-SMTP_HOST=smtp.gmail.com SMTP_PORT=587 \
-SMTP_USER=scaledagiledevops@gmail.com \
-SMTP_PASS="your-app-password" \
-SMTP_FROM="SADMF Badge Issuer <scaledagiledevops@gmail.com>" \
-node send-notifications.js
+# Full example:
+node resend-notification.js accredited-facilitator \
+  sha256\$4dc05ddb13ccf3f43a52ad393d2fa49faa8ece0089bba51856ec21722b3b65eb \
+  bryan.finster@gmail.com "Bryan Finster"
 ```
+
+This sends exactly one email and does not touch `tmp/notifications.json` or any credential files.
 
 ## Why existing recipients are never re-emailed
 
