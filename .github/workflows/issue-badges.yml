@@ -63,9 +63,36 @@ jobs:
         run: node scripts/send-notifications.js
 
       - name: Commit issued credentials
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git config user.name "Badge Bot"
-          git config user.email "badge-bot@users.noreply.github.com"
           git add data/issued/ static/badges/issued/
-          git diff --staged --quiet || git commit -m "Issue badges [skip ci]"
-          git push
+          if git diff --staged --quiet; then
+            echo "Nothing to commit."
+            exit 0
+          fi
+          # Create commit via GitHub API so it is marked verified by GitHub
+          REPO="${{ github.repository }}"
+          BRANCH="main"
+          BASE_SHA=$(git rev-parse HEAD)
+          BASE_TREE=$(git cat-file -p "$BASE_SHA" | grep ^tree | awk '{print $2}')
+          # Build tree entries for all staged files
+          TREE_JSON=$(git diff --staged --name-only | while read -r f; do
+            BLOB=$(git hash-object -w "$f")
+            MODE=$(git ls-files --format='%(objectmode)' -- "$f")
+            printf '{"path":"%s","mode":"%s","type":"blob","sha":"%s"},' "$f" "$MODE" "$BLOB"
+          done | sed 's/,$//')
+          NEW_TREE=$(gh api repos/"$REPO"/git/trees \
+            -f "base_tree=$BASE_TREE" \
+            --input - <<JSON
+          {"base_tree":"$BASE_TREE","tree":[$TREE_JSON]}
+          JSON
+          )
+          NEW_TREE_SHA=$(echo "$NEW_TREE" | jq -r '.sha')
+          NEW_COMMIT=$(gh api repos/"$REPO"/git/commits \
+            -f "message=Issue badges [skip ci]" \
+            -f "tree=$NEW_TREE_SHA" \
+            -f "parents[]=$BASE_SHA")
+          NEW_COMMIT_SHA=$(echo "$NEW_COMMIT" | jq -r '.sha')
+          gh api repos/"$REPO"/git/refs/heads/"$BRANCH" \
+            -X PATCH -f "sha=$NEW_COMMIT_SHA"
