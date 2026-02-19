@@ -64,37 +64,14 @@ jobs:
         run: node scripts/send-notifications.js
 
       - name: Commit issued credentials
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git add data/issued/ static/badges/issued/ data/notified.json
           if git diff --staged --quiet; then
             echo "Nothing to commit."
             exit 0
           fi
-          # Create commit via GitHub API — github-actions[bot] API commits are
-          # automatically marked verified, satisfying the signed-commits requirement.
-          REPO="${{ github.repository }}"
-          # Fetch current tip from API (not local HEAD) so we fast-forward correctly
-          # even if other commits landed on main during this workflow run.
-          BASE_SHA=$(gh api repos/"$REPO"/git/refs/heads/main --jq '.object.sha')
-          BASE_TREE=$(gh api repos/"$REPO"/git/commits/"$BASE_SHA" --jq '.tree.sha')
-
-          # Upload each staged file as a blob and collect tree entries
-          TREE_ENTRIES="[]"
-          while IFS= read -r f; do
-            MODE=$(git ls-files --format='%(objectmode)' -- "$f")
-            BLOB_SHA=$(jq -Rsc '{content: ., encoding: "utf-8"}' < "$f" \
-              | gh api repos/"$REPO"/git/blobs --input - --jq '.sha')
-            TREE_ENTRIES=$(echo "$TREE_ENTRIES" | jq \
-              --arg p "$f" --arg m "$MODE" --arg s "$BLOB_SHA" \
-              '. + [{path:$p, mode:$m, type:"blob", sha:$s}]')
-          done < <(git diff --staged --name-only)
-
-          NEW_TREE_SHA=$(printf '{"base_tree":"%s","tree":%s}' "$BASE_TREE" "$TREE_ENTRIES" \
-            | gh api repos/"$REPO"/git/trees --input - --jq '.sha')
-          NEW_COMMIT_SHA=$(printf '{"message":"Issue badges [skip ci]","tree":"%s","parents":["%s"]}' \
-            "$NEW_TREE_SHA" "$BASE_SHA" \
-            | gh api repos/"$REPO"/git/commits --input - --jq '.sha')
-          gh api repos/"$REPO"/git/refs/heads/main \
-            -X PATCH -f "sha=$NEW_COMMIT_SHA"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Issue badges [skip ci]"
+          git pull --rebase origin main
+          git push
