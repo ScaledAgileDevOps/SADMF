@@ -104,25 +104,28 @@ async function sendAll(records, transport) {
   return failed
 }
 
-const records = loadRecords()
+// Only execute when run directly, not when imported by resend-notification.js
+if (import.meta.url === new URL(process.argv[1], 'file://').href) {
+  const records = loadRecords()
 
-if (records.length === 0) {
-  console.log('[NOTIFY] No notifications to send.')
-  process.exit(0)
+  if (records.length === 0) {
+    console.log('[NOTIFY] No notifications to send.')
+    process.exit(0)
+  }
+
+  const transport = buildTransport()
+  const failed = await sendAll(records, transport)
+
+  try {
+    unlinkSync(NOTIFICATIONS_FILE)
+  } catch {
+    // Non-fatal — file may have already been cleaned up
+  }
+
+  if (failed > 0) {
+    console.error(`[NOTIFY] ${failed} notification(s) failed.`)
+    process.exit(1)
+  }
+
+  console.log(`[NOTIFY] All ${records.length} notification(s) sent successfully.`)
 }
-
-const transport = buildTransport()
-const failed = await sendAll(records, transport)
-
-try {
-  unlinkSync(NOTIFICATIONS_FILE)
-} catch {
-  // Non-fatal — file may have already been cleaned up
-}
-
-if (failed > 0) {
-  console.error(`[NOTIFY] ${failed} notification(s) failed.`)
-  process.exit(1)
-}
-
-console.log(`[NOTIFY] All ${records.length} notification(s) sent successfully.`)
