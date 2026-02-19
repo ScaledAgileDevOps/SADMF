@@ -9,7 +9,7 @@ weight: 1000
 
 ## Scaled Agile DevOps Practitioner
 
-{{< figure src="/images/sad-certified-sm.png" alt="Scaled Agile DevOps Practitioner certificate" title="Certified SAD Practitioner" width="280px" >}}
+{{< figure src="/badges/images/practitioner.png" alt="SADMF Practitioner badge" title="SADMF Practitioner" width="200px" >}}
 
 SAD Practitioners have demonstrated they understand the basic value of the Scaled Agile DevOps Maturity Framework and promise to deliver that value.
 
@@ -22,11 +22,13 @@ SAD Professionals have demonstrated competence in applying SADMF practices withi
 
 ## Scaled Agile DevOps Master
 
+{{< figure src="/badges/images/master.png" alt="SADMF Master badge" title="SADMF Master" width="200px" >}}
+
 SAD Masters have demonstrated mastery of the framework across multiple [Convoy](/release-convoy/) cycles and can coach others in its application. The Master certification requires documented evidence of sustained SADMF adoption, endorsement from a [Commodore](/roles/commodore/) or higher, and completion of the SAD Master Intensive workshop series.
 
 ## Scaled Agile DevOps Fellow
 
-{{< figure src="/images/sad-fellow-sm.png" alt="Scaled Agile DevOps Fellow certificate" title="Certified SAD Fellow" width="280px" >}}
+{{< figure src="/badges/images/fellow.png" alt="SADMF Fellow badge" title="SADMF Fellow" width="200px" >}}
 
 SAD Fellows have demonstrated they are as valuable as at least four practitioners.
 
@@ -38,7 +40,7 @@ Moving beyond the basics for truly SAD outcomes!
 
 ## Scaled Agile Dev Ops Accredited Facilitators
 
-{{< figure src="/images/sad-af-sm.png" alt="SAD Accredited Facilitator certificate" title="SAD Accredited Facilitator (SAD AF)" width="280px" >}}
+{{< figure src="/badges/images/accredited-facilitator.png" alt="SADMF Accredited Facilitator badge" title="SADMF Accredited Facilitator" width="200px" >}}
 
 Accredited Facilitators have all of the certified credentials to convince executives to pay their consulting fees. They have demonstrated the ability to apply Scaled Agile DevOps Principles and Practices and have documented that their outcomes meet or exceed expectations. They are also skilled at preparing reports that show consistent improvement from week to week.
 
@@ -49,6 +51,8 @@ SAD AF certifications cannot be purchased. They are applied for by submitting ex
 Send submissions to <scaledagiledevops@gmail.com>
 
 ## DevOps Engineers Proving Real Experience Solving SAD Engineering Dilemmas
+
+{{< figure src="/badges/images/depressed.png" alt="SADMF DEPRESSED badge" title="SADMF DEPRESSED" width="200px" >}}
 
 This certification is reserved for [Feature Teams](/roles/feature-team/) who have demonstrated the ability to not only talk the talk but also walk the walk. Preparing for this requires the [Feature Team](/roles/feature-team/) to reserve a Convoy cycle to study for the certification. The certification requires renewal every 8 weeks lest the team lose the ability to be a truly [DEPRESSED](#devops-engineers-proving-real-experience-solving-sad-engineering-dilemmas) [Feature Team](/roles/feature-team/)
 
