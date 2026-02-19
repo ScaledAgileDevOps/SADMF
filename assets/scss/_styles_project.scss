@@ -1186,3 +1186,45 @@ a.feature-card:hover .feature-card__cta {
 .td-box--primary {
   background: linear-gradient(135deg, #1e3a5f 0%, #0f2137 100%);
 }
+
+/* === Mobile Navbar Fixes (Samsung Android / Chrome / Firefox) === */
+
+/* Fix 1: The 100px logo causes a very tall navbar on mobile where flex-column
+   stacks logo + nav-items rows. Scale down to match the expected navbar height. */
+@media (max-width: 767.98px) {
+  .navbar-brand__logo img {
+    height: 56px !important;
+    width: auto;
+  }
+}
+
+/* Fix 2: Docsy sets overflow:hidden on .td-navbar-nav-scroll below lg breakpoint.
+   This clips Bootstrap dropdown menus (Framework, Resources) so they open but
+   are invisible — making the navbar appear unresponsive. Setting overflow:visible
+   allows Popper-positioned dropdown menus to escape the container and be seen.
+   The inner .navbar-nav still controls horizontal scrolling of the nav items. */
+@media (max-width: 991.98px) {
+  .td-navbar-nav-scroll {
+    overflow: visible !important;
+  }
+
+  /* Style inline dropdowns for the dark navbar background */
+  .td-navbar .dropdown-menu {
+    background-color: #152d4a;
+    border-color: rgba(44, 123, 229, 0.2);
+  }
+
+  .td-navbar .dropdown-item {
+    color: rgba(255, 255, 255, 0.85);
+  }
+
+  .td-navbar .dropdown-item:hover,
+  .td-navbar .dropdown-item:focus {
+    background-color: rgba(44, 123, 229, 0.15);
+    color: #fff;
+  }
+
+  .td-navbar .dropdown-divider {
+    border-color: rgba(255, 255, 255, 0.1);
+  }
+}

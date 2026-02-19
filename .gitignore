@@ -8,6 +8,8 @@ resources/
 .hive-mind/
 .claude-flow/
 tmp/
+test-results/
+playwright-report/
 
 # Badge issuance
 .env
