@@ -30,7 +30,7 @@ export function buildEmailHtml({ recipientName, badgeName, badgeId, hash, issuer
   const linkedInPageUrl = `${issuerUrl}/badges/issued/${badgeId}/${hash}.html`
   const imgSrc = badgeImageSrc ?? badgeImageUrl
   const liTitle = encodeURIComponent(`SADMF ${badgeName} Credential`)
-  const liSummary = encodeURIComponent(`Scaled Agile DevOps Maturity Framework — verifiable ${badgeName} credential`)
+  const liSummary = encodeURIComponent(`Scaled Agile DevOps — verifiable ${badgeName} credential`)
   const liShareUrl = `https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(linkedInPageUrl)}&title=${liTitle}&summary=${liSummary}&source=SADMF`
 
   return `<!DOCTYPE html>
@@ -41,7 +41,7 @@ export function buildEmailHtml({ recipientName, badgeName, badgeId, hash, issuer
        style="display:block;margin:0 auto 24px">
   <h1 style="color:#a23b72;text-align:center">Congratulations, ${recipientName}!</h1>
   <p>Your <strong>${badgeName}</strong> credential has been issued and is now verifiable on the
-  Scaled Agile DevOps Maturity Framework certification registry.</p>
+  Scaled Agile DevOps certification registry.</p>
   <p>Use the links below to download your credential and badge image:</p>
   <ul>
     <li><a href="${credentialUrl}" style="color:#a23b72">Download signed JSON credential</a></li>
@@ -50,12 +50,13 @@ export function buildEmailHtml({ recipientName, badgeName, badgeId, hash, issuer
 
   <hr style="border:none;border-top:1px solid #eee;margin:24px 0">
   <h2 style="color:#a23b72;font-size:1em">Add to LinkedIn</h2>
-  <p>Go to your LinkedIn profile → <strong>Add profile section → Licenses &amp; certifications</strong> and enter:</p>
+  <p>Go to your LinkedIn profile → <strong>Add profile section → Licenses &amp; certifications</strong> and enter:
+  (For Issuing Organisation, type "Scaled Agile DevOps" and <strong>select it from the dropdown</strong> so the logo appears.)</p>
   <table style="font-size:0.9em;border-collapse:collapse;width:100%">
     <tr><td style="padding:4px 8px 4px 0;color:#666;white-space:nowrap">Name</td>
         <td style="padding:4px 0"><strong>SADMF ${badgeName}</strong></td></tr>
     <tr><td style="padding:4px 8px 4px 0;color:#666;white-space:nowrap">Issuing organisation</td>
-        <td style="padding:4px 0">Scaled Agile DevOps Maturity Framework</td></tr>
+        <td style="padding:4px 0">Scaled Agile DevOps</td></tr>
     <tr><td style="padding:4px 8px 4px 0;color:#666;white-space:nowrap">Credential ID</td>
         <td style="padding:4px 0;font-family:monospace;font-size:0.85em;word-break:break-all">${hash}</td></tr>
     <tr><td style="padding:4px 8px 4px 0;color:#666;white-space:nowrap">Credential URL</td>
