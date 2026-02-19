@@ -74,7 +74,9 @@ jobs:
           # Create commit via GitHub API — github-actions[bot] API commits are
           # automatically marked verified, satisfying the signed-commits requirement.
           REPO="${{ github.repository }}"
-          BASE_SHA=$(git rev-parse HEAD)
+          # Fetch current tip from API (not local HEAD) so we fast-forward correctly
+          # even if other commits landed on main during this workflow run.
+          BASE_SHA=$(gh api repos/"$REPO"/git/refs/heads/main --jq '.object.sha')
           BASE_TREE=$(gh api repos/"$REPO"/git/commits/"$BASE_SHA" --jq '.tree.sha')
 
           # Upload each staged file as a blob and collect tree entries
