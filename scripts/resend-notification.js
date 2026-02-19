@@ -12,7 +12,7 @@
 //   name      Recipient's display name (optional, defaults to email)
 //
 // SMTP credentials are read from environment variables (same as send-notifications.js).
-// Load them from .env: set -a && source .env && set +a
+// Load from .env: node --env-file=../.env resend-notification.js ...
 
 import { readFileSync } from 'node:fs'
 import { join, dirname } from 'node:path'

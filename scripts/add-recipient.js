@@ -11,9 +11,10 @@
 //   issued-date   ISO date the badge was earned, e.g. 2026-02-19 (defaults to today)
 //
 // Requirements:
-//   - SADMF_DISPATCH_TOKEN env var (PAT with repo scope for the private recipients repo)
-//     OR gh CLI authenticated with access to ScaledAgileDevOps/sadmf_recipents
+//   - SADMF_DISPATCH_TOKEN in .env (PAT with repo scope for the private recipients repo)
 //   - git and gh CLI available
+//
+// Load .env: node --env-file=../.env add-recipient.js ...
 //
 // What it does:
 //   1. Clones the private recipients repo to a temp directory

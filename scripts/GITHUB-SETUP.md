@@ -54,12 +54,10 @@ Use `add-recipient.js` to add someone and trigger issuance in one step:
 
 ```bash
 cd scripts
-set -a && source ../.env && set +a
-
-node add-recipient.js <badge-id> "<name>" <email> [issued-date]
+node --env-file=../.env add-recipient.js <badge-id> "<name>" <email> [issued-date]
 
 # Example (date defaults to today if omitted):
-node add-recipient.js accredited-facilitator "Jane Smith" jane@example.com 2026-02-19
+node --env-file=../.env add-recipient.js accredited-facilitator "Jane Smith" jane@example.com 2026-02-19
 ```
 
 **What it does:**
@@ -85,13 +83,12 @@ cd scripts
 ls ../static/badges/issued/<badge-id>/
 # e.g. sha256$4dc05ddb13ccf3f43a52ad393d2fa49faa.json → hash is sha256$4dc05ddb...
 
-# 2. Load SMTP credentials and resend
-set -a && source ../.env && set +a
-node resend-notification.js <badge-id> <hash> <email> "Recipient Name"
+# 2. Resend
+node --env-file=../.env resend-notification.js <badge-id> <hash> <email> "Recipient Name"
 
 # Full example:
-node resend-notification.js accredited-facilitator \
-  sha256\$4dc05ddb13ccf3f43a52ad393d2fa49faa8ece0089bba51856ec21722b3b65eb \
+node --env-file=../.env resend-notification.js accredited-facilitator \
+  b25f708d98bd6fa5aacaaf72a66f4935d65e777e757a6be4e857c055fc3d2e8b \
   bryan.finster@gmail.com "Bryan Finster"
 ```
 
