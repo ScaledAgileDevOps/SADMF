@@ -36,7 +36,14 @@ test.describe('Desktop navigation', () => {
     const toggle = page.locator('.dropdown-toggle', { hasText: 'Resources' });
     await toggle.click();
     const menu = toggle.locator('..').locator('.dropdown-menu');
-    await expect(menu.locator('.dropdown-item', { hasText: 'Get Certified' })).toBeVisible();
+    await expect(menu.locator('.dropdown-item', { hasText: 'Big Picture' })).toBeVisible();
+    await expect(menu.locator('.dropdown-item', { hasText: 'Success Stories' })).toBeVisible();
+  });
+
+  test('Get Certified is a top-level nav item', async ({ page }) => {
+    await page.goto('/');
+    const certLink = page.locator('.navbar-nav > li > a.nav-link', { hasText: 'Get Certified' });
+    await expect(certLink).toBeVisible();
   });
 
   test('Framework dropdown navigates to Principles page', async ({ page }) => {
@@ -91,5 +98,37 @@ test.describe('Mobile navigation', () => {
   test('Sidebar menu is present in DOM on content page', async ({ page }) => {
     await page.goto('/principles/');
     await expect(page.locator('#td-sidebar-menu')).toBeAttached();
+  });
+
+  test('Navbar height is reasonable on mobile (no overflow)', async ({ page }) => {
+    await page.goto('/');
+    const navbar = page.locator('.td-navbar');
+    const box = await navbar.boundingBox();
+    expect(box).not.toBeNull();
+    // Navbar should not exceed 180px tall on mobile — a taller value indicates
+    // the brand is overflowing into the nav-items row
+    expect(box.height).toBeLessThan(180);
+  });
+
+  test('Brand text is hidden on mobile (logo-only brand)', async ({ page }) => {
+    await page.goto('/');
+    const brandText = page.locator('.sadmf-brand-name');
+    // Hidden via d-none on mobile — should not be visible
+    await expect(brandText).toBeHidden();
+  });
+
+  test('Nav items do not overlap each other on mobile', async ({ page }) => {
+    await page.goto('/');
+    const navItems = page.locator('.td-navbar .navbar-nav > li');
+    const count = await navItems.count();
+    expect(count).toBeGreaterThan(0);
+    // Collect left positions; each should be to the right of the previous
+    let prevRight = -1;
+    for (let i = 0; i < count; i++) {
+      const box = await navItems.nth(i).boundingBox();
+      if (!box) continue;
+      expect(box.x).toBeGreaterThanOrEqual(prevRight - 2); // 2px tolerance
+      prevRight = box.x + box.width;
+    }
   });
 });
