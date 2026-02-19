@@ -20,12 +20,12 @@ jobs:
 
     steps:
       - name: Checkout public repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 2
 
       - name: Checkout private recipients repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           repository: ScaledAgileDevOps/sadmf_recipents
           token: ${{ secrets.SADMF_DISPATCH_TOKEN }}
