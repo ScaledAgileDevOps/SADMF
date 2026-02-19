@@ -22,9 +22,12 @@
     "lint:fix": "markdownlint -f ./content/**/*.md",
     "start": "hugo serve",
     "test": "npm run lint; npm run link-check",
+    "test:e2e": "playwright test",
+    "test:e2e:report": "playwright test --reporter=html",
     "update": "hugo mod get -u ./... && hugo mod tidy && npx npm-check-updates -u && npm install"
   },
   "devDependencies": {
+    "@playwright/test": "^1.58.2",
     "autoprefixer": "^10.4.22",
     "linkinator": "^7.5.0",
     "markdownlint-cli": "^0.46.0",
