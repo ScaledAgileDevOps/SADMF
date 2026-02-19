@@ -6,14 +6,22 @@
 import { YamlBadgeDefinitionLoader } from './infrastructure/yaml-badge-loader.js'
 import { FileCredentialStore } from './infrastructure/file-credential-store.js'
 import { JoseCredentialSigner } from './infrastructure/jose-signer.js'
+import { FileNotificationLog } from './infrastructure/file-notification-log.js'
 import { BadgeIssuer } from './application/badge-issuer.js'
 
 const signer = await JoseCredentialSigner.create()
+
+const notifier = process.env.SMTP_HOST
+  ? new FileNotificationLog()
+  : null
+
+if (!notifier) console.log('[NOTIFY] Notification log disabled (SMTP_HOST not set).')
 
 const issuer = new BadgeIssuer({
   loader: new YamlBadgeDefinitionLoader(),
   store: new FileCredentialStore(),
   signer,
+  notifier,
   issuerUrl: process.env.BADGE_ISSUER_URL,
   issuerName: process.env.BADGE_ISSUER_NAME,
 })

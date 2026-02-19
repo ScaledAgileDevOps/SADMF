@@ -12,6 +12,7 @@ import { toIdentityObject } from './identity-mapper.js'
  * @param {import('../infrastructure/ports.js').CredentialSigner} deps.signer
  * @param {string} deps.issuerUrl
  * @param {string} deps.issuerName
+ * @param {import('../infrastructure/ports.js').NotifierPort|null} [deps.notifier]
  */
 export class BadgeIssuer {
   #loader
@@ -19,13 +20,15 @@ export class BadgeIssuer {
   #signer
   #issuerUrl
   #issuerName
+  #notifier
 
-  constructor({ loader, store, signer, issuerUrl, issuerName }) {
+  constructor({ loader, store, signer, issuerUrl, issuerName, notifier = null }) {
     this.#loader = loader
     this.#store = store
     this.#signer = signer
     this.#issuerUrl = issuerUrl
     this.#issuerName = issuerName
+    this.#notifier = notifier
   }
 
   async run() {
@@ -66,6 +69,14 @@ export class BadgeIssuer {
       this.#store.write(badge.badge_id, identity.hash, { ...credential, proof })
       console.log(`[ISSUED] ${badge.badge_id} / ${recipient.email}`)
       counts.issued++
+      if (this.#notifier) {
+        try {
+          this.#notifier.notify(recipient.name, recipient.email,
+            badge.name, badge.badge_id, identity.hash, this.#issuerUrl)
+        } catch (notifyErr) {
+          console.error(`[NOTIFY ERROR] ${badge.badge_id} / ${recipient.email}: ${notifyErr.message}`)
+        }
+      }
     } catch (err) {
       console.error(`[ERROR] ${badge.badge_id} / ${recipient.email}: ${err.message}`, err)
       counts.errors++

@@ -49,7 +49,18 @@ jobs:
           BADGE_ISSUER_URL: ${{ secrets.BADGE_ISSUER_URL }}
           BADGE_ISSUER_NAME: ${{ secrets.BADGE_ISSUER_NAME }}
           BADGE_RECIPIENTS_DIR: recipients-private/recipients
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
         run: node scripts/issue-badges.js
+
+      - name: Send badge notifications
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          SMTP_FROM: ${{ secrets.SMTP_FROM }}
+          BADGE_ISSUER_URL: ${{ secrets.BADGE_ISSUER_URL }}
+        run: node scripts/send-notifications.js
 
       - name: Commit issued credentials
         run: |

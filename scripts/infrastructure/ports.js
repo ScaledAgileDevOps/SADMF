@@ -36,3 +36,17 @@
  * @method loadAll
  * @returns {Promise<Array<{badge_id: string, name: string, description: string, criteria: string, image: string, recipients: Array}>>}
  */
+
+/**
+ * @interface NotifierPort
+ * Records a notification for a newly issued badge credential.
+ *
+ * @method notify
+ * @param {string} recipientName
+ * @param {string} recipientEmail
+ * @param {string} badgeName
+ * @param {string} badgeId
+ * @param {string} hash
+ * @param {string} issuerUrl
+ * @returns {void}
+ */
