@@ -27,7 +27,11 @@ const NOTIFICATIONS_FILE = 'tmp/notifications.json'
 export function buildEmailHtml({ recipientName, badgeName, badgeId, hash, issuerUrl, badgeImageSrc }) {
   const badgeImageUrl = `${issuerUrl}/badges/images/${badgeId}.png`
   const credentialUrl = `${issuerUrl}/badges/issued/${badgeId}/${hash}.json`
+  const linkedInPageUrl = `${issuerUrl}/badges/issued/${badgeId}/${hash}.html`
   const imgSrc = badgeImageSrc ?? badgeImageUrl
+  const liTitle = encodeURIComponent(`SADMF ${badgeName} Credential`)
+  const liSummary = encodeURIComponent(`Scaled Agile DevOps Maturity Framework — verifiable ${badgeName} credential`)
+  const liShareUrl = `https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(linkedInPageUrl)}&title=${liTitle}&summary=${liSummary}&source=SADMF`
 
   return `<!DOCTYPE html>
 <html lang="en">
@@ -57,6 +61,17 @@ export function buildEmailHtml({ recipientName, badgeName, badgeId, hash, issuer
     <tr><td style="padding:4px 8px 4px 0;color:#666;white-space:nowrap">Credential URL</td>
         <td style="padding:4px 0"><a href="${credentialUrl}" style="color:#a23b72;word-break:break-all">${credentialUrl}</a></td></tr>
   </table>
+
+  <p style="margin-top:16px">
+    <a href="${liShareUrl}"
+       style="display:inline-block;background:#0077b5;color:#fff;text-decoration:none;padding:10px 20px;border-radius:4px;font-weight:bold">
+      Share on LinkedIn
+    </a>
+  </p>
+  <p style="font-size:0.9em;color:#444">
+    To show the badge image on your certification, click <strong>Add media</strong> on the
+    LinkedIn certification entry and upload the badge PNG (link above).
+  </p>
 
   <p style="font-size:0.85em;color:#666">
     This credential is cryptographically signed and can be verified at any time using the credential URL above.
