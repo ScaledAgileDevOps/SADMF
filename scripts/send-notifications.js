@@ -43,8 +43,23 @@ export function buildEmailHtml({ recipientName, badgeName, badgeId, hash, issuer
     <li><a href="${credentialUrl}" style="color:#a23b72">Download signed JSON credential</a></li>
     <li><a href="${badgeImageUrl}" style="color:#a23b72">Download badge PNG image</a></li>
   </ul>
+
+  <hr style="border:none;border-top:1px solid #eee;margin:24px 0">
+  <h2 style="color:#a23b72;font-size:1em">Add to LinkedIn</h2>
+  <p>Go to your LinkedIn profile → <strong>Add profile section → Licenses &amp; certifications</strong> and enter:</p>
+  <table style="font-size:0.9em;border-collapse:collapse;width:100%">
+    <tr><td style="padding:4px 8px 4px 0;color:#666;white-space:nowrap">Name</td>
+        <td style="padding:4px 0"><strong>SADMF ${badgeName}</strong></td></tr>
+    <tr><td style="padding:4px 8px 4px 0;color:#666;white-space:nowrap">Issuing organisation</td>
+        <td style="padding:4px 0">Scaled Agile DevOps Maturity Framework</td></tr>
+    <tr><td style="padding:4px 8px 4px 0;color:#666;white-space:nowrap">Credential ID</td>
+        <td style="padding:4px 0;font-family:monospace;font-size:0.85em;word-break:break-all">${hash}</td></tr>
+    <tr><td style="padding:4px 8px 4px 0;color:#666;white-space:nowrap">Credential URL</td>
+        <td style="padding:4px 0"><a href="${credentialUrl}" style="color:#a23b72;word-break:break-all">${credentialUrl}</a></td></tr>
+  </table>
+
   <p style="font-size:0.85em;color:#666">
-    This credential is cryptographically signed and can be verified at any time using the URL above.
+    This credential is cryptographically signed and can be verified at any time using the credential URL above.
   </p>
 </body>
 </html>`

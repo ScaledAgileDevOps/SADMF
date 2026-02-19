@@ -94,6 +94,25 @@ node --env-file=../.env resend-notification.js accredited-facilitator \
 
 This sends exactly one email and does not touch `tmp/notifications.json` or any credential files.
 
+## Adding the badge to LinkedIn
+
+Recipients add the credential under **LinkedIn profile → Add profile section → Licenses & certifications**.
+
+| Field | Value |
+|---|---|
+| Name | `SADMF <Badge Name>` e.g. `SADMF Accredited Facilitator` |
+| Issuing organisation | `Scaled Agile DevOps Maturity Framework` |
+| Issue date | The `issued` date from the recipient YAML |
+| Expiration date | Leave blank (credentials don't expire) |
+| Credential ID | The hash from the credential filename (without `.json`) |
+| Credential URL | `https://scaledagiledevops.com/badges/issued/<badge-id>/<hash>.json` |
+
+This information is included automatically in the notification email sent on issuance.
+
+For LinkedIn's current step-by-step UI: https://www.linkedin.com/help/linkedin/answer/a567169
+
+---
+
 ## Why existing recipients are never re-emailed
 
 - `FileNotificationLog.notify()` is only called by `BadgeIssuer` after `store.write()`
