@@ -27,7 +27,7 @@ jobs:
       - name: Checkout private recipients repo
         uses: actions/checkout@v4
         with:
-          repository: ${{ secrets.RECIPIENTS_REPO }}
+          repository: ScaledAgileDevOps/sadmf_recipents
           token: ${{ secrets.RECIPIENTS_REPO_TOKEN }}
           path: recipients-private
 
