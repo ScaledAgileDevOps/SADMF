@@ -47,6 +47,16 @@ describe('Recipient email privacy', () => {
     expect(objectA.identity).toMatch(/^sha256\$[0-9a-f]{64}$/)
     expect(objectB.identity).toMatch(/^sha256\$[0-9a-f]{64}$/)
   })
-  it.todo('Two independently created identities for the same email produce different hashes')
+  it('Two independently created identities for the same email produce different hashes', () => {
+    // Given a recipient with email "jane@example.com"
+    const email = 'jane@example.com'
+
+    // When two RecipientIdentity objects are created independently
+    const a = new RecipientIdentity(email)
+    const b = new RecipientIdentity(email)
+
+    // Then their hash values differ
+    expect(a.hash).not.toBe(b.hash)
+  })
   it.todo('Credential filename matches the identity hash used inside the credential')
 })
