@@ -1,5 +1,5 @@
 /**
- * Port definitions for the badge issuance infrastructure layer.
+ * Port definitions for the badge issuance application.
  * Callers depend on these contracts, not on adapter implementations.
  * Swap any adapter by providing an object that satisfies the same interface.
  */

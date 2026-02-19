@@ -7,12 +7,12 @@ import { toIdentityObject } from './identity-mapper.js'
  * Depends on injected ports — no direct file I/O or signing logic here.
  *
  * @param {object} deps
- * @param {import('../infrastructure/ports.js').BadgeDefinitionPort} deps.loader
- * @param {import('../infrastructure/ports.js').CredentialStorePort} deps.store
- * @param {import('../infrastructure/ports.js').CredentialSigner} deps.signer
+ * @param {import('./ports.js').BadgeDefinitionPort} deps.loader
+ * @param {import('./ports.js').CredentialStorePort} deps.store
+ * @param {import('./ports.js').CredentialSigner} deps.signer
  * @param {string} deps.issuerUrl
  * @param {string} deps.issuerName
- * @param {import('../infrastructure/ports.js').NotifierPort|null} [deps.notifier]
+ * @param {import('./ports.js').NotifierPort|null} [deps.notifier]
  */
 export class BadgeIssuer {
   #loader
