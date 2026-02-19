@@ -1,0 +1,16 @@
+<div class="practice-grid">
+  {{ range $i, $p := .Page.RegularPages.ByWeight }}
+  <a href="{{ $p.RelPermalink }}" class="practice-card">
+    <span class="practice-card__num" aria-hidden="true">{{ printf "%02d" (add $i 1) }}</span>
+    <div class="practice-card__body">
+      <span class="practice-card__title">{{ $p.Title }}</span>
+      {{ with $p.Params.description }}
+      <p class="practice-card__desc">{{ . }}</p>
+      {{ end }}
+    </div>
+    <span class="practice-card__arrow" aria-hidden="true">
+      <i class="fa-solid fa-arrow-right"></i>
+    </span>
+  </a>
+  {{ end }}
+</div>

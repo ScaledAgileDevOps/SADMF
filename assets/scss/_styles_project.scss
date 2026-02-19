@@ -771,6 +771,97 @@ a.feature-card:hover .feature-card__cta {
 }
 
 /* ==========================================================================
+   Practices Index -- Registry Card Grid
+   ========================================================================== */
+
+.practice-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.6rem;
+  margin: 1.75rem 0 2rem;
+}
+
+@media (max-width: 768px) {
+  .practice-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.practice-card {
+  display: grid;
+  grid-template-columns: 3rem 1fr auto;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.9rem 1.1rem;
+  background: #fff;
+  border: 1px solid #dde3ec;
+  border-left: 3px solid transparent;
+  border-radius: 7px;
+  text-decoration: none;
+  color: inherit;
+  transition: border-left-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.practice-card:hover {
+  border-left-color: #1e3a5f;
+  box-shadow: 0 2px 14px rgba(30, 58, 95, 0.09);
+  transform: translateX(3px);
+  text-decoration: none;
+  color: inherit;
+}
+
+.practice-card__num {
+  font-family: 'Fraunces', serif;
+  font-optical-sizing: auto;
+  font-size: 1.85rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #8f959e;
+  transition: color 0.2s ease;
+  text-align: right;
+}
+
+.practice-card:hover .practice-card__num {
+  color: #1e3a5f;
+}
+
+.practice-card__body {
+  min-width: 0;
+}
+
+.practice-card__title {
+  display: block;
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: #1e3a5f;
+  margin-bottom: 0.2rem;
+  line-height: 1.3;
+}
+
+.practice-card__desc {
+  font-size: 0.75rem;
+  color: #596577;
+  margin: 0;
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.practice-card__arrow {
+  color: #b0bec5;
+  font-size: 0.8rem;
+  flex-shrink: 0;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.practice-card:hover .practice-card__arrow {
+  color: #a23b72;
+  transform: translateX(3px);
+}
+
+/* ==========================================================================
    CI/CD/ED Practice Page -- Visual Phase System
    ========================================================================== */
 
@@ -893,6 +984,22 @@ a.feature-card:hover .feature-card__cta {
 
 .ci-phase-body > p:last-child {
   margin-bottom: 0;
+}
+
+/* ==================================================================
+   Fractal-based Development Branching Diagram
+   ================================================================== */
+
+.fractal-diagram-wrapper {
+  margin: 1.75rem 0;
+  border: 1px solid #dde3ec;
+  border-radius: 8px;
+  overflow: hidden;
+  overflow-x: auto;
+}
+
+.fractal-diagram-wrapper svg {
+  min-width: 620px;
 }
 
 /* ==================================================================

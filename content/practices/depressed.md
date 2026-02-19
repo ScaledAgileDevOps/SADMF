@@ -9,22 +9,23 @@ weight: 10
 Other frameworks treat defect management as a simple triage process -- find the bug, fix the bug, move on. SADMF recognizes that defects are organizational events that require organizational responses. A defect is not merely broken code; it is evidence of a process failure, a training gap, a supervision lapse, or all three. The seven stages of DEPRESSED ensure that every defect is investigated with the rigor it demands and that the remediation addresses not just the symptom but the systemic conditions that allowed the defect to exist.
 
 ```mermaid
+%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#e8edf5', 'primaryTextColor': '#1e3a5f', 'primaryBorderColor': '#9ab4cc', 'lineColor': '#5a6d82', 'background': '#ffffff', 'fontFamily': 'DM Sans, sans-serif'}}}%%
 flowchart TD
-    S1["Stage 1: Detection\nQA · User · DIAT"]
-    S2["Stage 2: Classification\nSeverity Committee\n(biweekly — ≥2 week wait)"]
-    S3["Stage 3: Attribution\nDefect Attribution Algorithm\nidentifies responsible CE"]
-    S4["Stage 4: Assignment\nFeature Captain assigns\na different Code Engineer"]
-    S5["Stage 5: Remediation\nIsolated branch · CDAP docs\nno priority over features"]
-    S6{"Stage 6: Verification\nQuality Authority\nreviews the fix"}
-    S7["Stage 7: Closure\nSeverity Committee\n+ DIAT + DOUCHE sign-off"]
-    DONE(["Defect closed\n6–10 weeks elapsed"])
+    S1["Stage 1: Detection<br/>QA · User · DIAT"]
+    S2["Stage 2: Classification<br/>Severity Committee<br/>(biweekly — ≥2 week wait)"]
+    S3["Stage 3: Attribution<br/>Defect Attribution Algorithm<br/>identifies responsible CE"]
+    S4["Stage 4: Assignment<br/>Feature Captain assigns<br/>a different Code Engineer"]
+    S5["Stage 5: Remediation<br/>Isolated branch · CDAP docs<br/>no priority over features"]
+    S6{"Stage 6: Verification<br/>Quality Authority<br/>reviews the fix"}
+    S7["Stage 7: Closure<br/>Severity Committee<br/>+ DIAT + DOUCHE sign-off"]
+    DONE(["Defect closed<br/>6–10 weeks elapsed"])
 
     S1 --> S2
     S2 --> S3
     S3 --> S4
     S4 --> S5
     S5 --> S6
-    S6 -->|"Fix rejected\n(new engineer required)"| S4
+    S6 -->|"Fix rejected<br/>(new engineer required)"| S4
     S6 -->|"Fix approved"| S7
     S7 --> DONE
 ```
