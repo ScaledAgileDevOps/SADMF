@@ -28,6 +28,12 @@ Work scenarios in order. After completing each one, replace `- [ ]` with `- [x] 
 - [x] Signing fails when BADGE_SIGNING_KEY is absent (commit: 0ed3d89)
 - [x] Signing fails when BADGE_SIGNING_KEY is not a valid Ed25519 JWK (commit: 0ed3d89)
 
+## badge-notification.feature
+- [x] Notifier is called once per newly issued credential (commit: 079e519)
+- [x] Notifier is not called when a credential is skipped (commit: 079e519)
+- [x] Notifier failure is non-fatal — credential is still written (commit: 079e519)
+- [x] Badge issuer works with no notifier configured (commit: 079e519)
+
 ## Session log
 
 | Session | Scenario | Commit |
@@ -40,3 +46,4 @@ Work scenarios in order. After completing each one, replace `- [ ]` with `- [x] 
 | 5–10 | All credential-structure scenarios | edb84a9 |
 | 11–14 | All key-signing scenarios | 0ed3d89 |
 | 15–18 | All credential-issuance scenarios | 0f7e3c4 |
+| 19–22 | All badge-notification scenarios + SMTP email delivery | 079e519 |
