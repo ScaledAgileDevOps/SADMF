@@ -3,4 +3,7 @@ name: Accredited Facilitator
 description: Awarded to those who are accredited to deliver the programme to others.
 criteria: Complete facilitator training and deliver at least one observed session.
 image: /badges/images/accredited-facilitator.png
-recipients: []
+recipients:
+  - name: Bryan Finster
+    email: bryan.finster@gmail.com
+    issued: 2026-02-19
