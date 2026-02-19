@@ -16,15 +16,18 @@
 /**
  * @interface CredentialStorePort
  * Reads and writes signed credential files.
+ * Deduplication is keyed by email address, not by hash, so re-running the
+ * workflow never re-issues credentials to recipients who already have one.
  *
  * @method exists
  * @param {string} badgeId
- * @param {string} hash
+ * @param {string} email  - Recipient's email address (used as dedup key)
  * @returns {boolean}
  *
  * @method write
  * @param {string} badgeId
- * @param {string} hash
+ * @param {string} hash       - Credential hash (filename)
+ * @param {string} email      - Recipient's email address (recorded in dedup index)
  * @param {object} credential
  * @returns {void}
  */

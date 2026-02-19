@@ -26,6 +26,13 @@ Feature: Badge credential issuance
     Then a credential is written under "data/issued/practitioner/"
     And a credential is written under "data/issued/fellow/"
 
+  Scenario: Recipient is not re-issued on a subsequent workflow run
+    Given a credential was issued for "jane@example.com" under "practitioner" in a previous run
+    And the same recipient YAML is processed again on a new workflow run
+    When the badge issuer runs
+    Then no new credential file is written
+    And the store checks for an existing credential using the recipient's email address
+
   Scenario: Fail visibly when a credential cannot be signed
     Given a badge definition for "Practitioner" with a recipient "jane@example.com" issued on "2026-02-19"
     And the BADGE_SIGNING_KEY environment variable is not set

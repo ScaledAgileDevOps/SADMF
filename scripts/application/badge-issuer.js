@@ -47,14 +47,13 @@ export class BadgeIssuer {
 
   async #issueOne(badge, recipient, counts) {
     try {
-      const identity = new RecipientIdentity(recipient.email)
-
-      if (this.#store.exists(badge.badge_id, identity.hash)) {
+      if (this.#store.exists(badge.badge_id, recipient.email)) {
         console.log(`[SKIP] ${badge.badge_id} / ${recipient.email}`)
         counts.skipped++
         return
       }
 
+      const identity = new RecipientIdentity(recipient.email)
       const credential = buildCredential({
         badgeId: badge.badge_id,
         badgeName: badge.name,
@@ -66,7 +65,7 @@ export class BadgeIssuer {
       })
 
       const proof = await this.#signer.sign(credential)
-      this.#store.write(badge.badge_id, identity.hash, { ...credential, proof })
+      this.#store.write(badge.badge_id, identity.hash, recipient.email, { ...credential, proof })
       console.log(`[ISSUED] ${badge.badge_id} / ${recipient.email}`)
       counts.issued++
       if (this.#notifier) {

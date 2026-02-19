@@ -76,6 +76,22 @@ describe('Badge credential issuance', () => {
     expect(result.issued).toBe(2)
   })
 
+  it('Recipient is not re-issued on a subsequent workflow run', async () => {
+    // Given the store already has a credential for the recipient (simulating a previous run)
+    const deps = makeDeps({
+      store: { exists: vi.fn().mockReturnValue(true), write: vi.fn() },
+    })
+
+    // When the badge issuer runs again
+    const result = await new BadgeIssuer(deps).run()
+
+    // Then the store is checked with the recipient's email address (not a random hash)
+    expect(deps.store.exists).toHaveBeenCalledWith('practitioner', 'jane@example.com')
+    // And no new credential is written
+    expect(deps.store.write).not.toHaveBeenCalled()
+    expect(result.skipped).toBe(1)
+  })
+
   it('Fail visibly when a credential cannot be signed', async () => {
     // Given a signer that throws
     const deps = makeDeps({
