@@ -5,6 +5,12 @@ on:
     branches: [main]
     paths:
       - 'data/badges/**.yaml'
+  # Also trigger via repository_dispatch so the private recipients repo
+  # can kick off issuance when recipient files change there.
+  # From the private repo, send:
+  #   gh api repos/OWNER/SADMF/dispatches -f event_type=recipients-updated
+  repository_dispatch:
+    types: [recipients-updated]
 
 jobs:
   issue:
@@ -13,9 +19,17 @@ jobs:
       contents: write
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout public repo
+        uses: actions/checkout@v4
         with:
           fetch-depth: 2
+
+      - name: Checkout private recipients repo
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ secrets.RECIPIENTS_REPO }}
+          token: ${{ secrets.RECIPIENTS_REPO_TOKEN }}
+          path: recipients-private
 
       - uses: actions/setup-node@v4
         with:
@@ -34,6 +48,7 @@ jobs:
           BADGE_SIGNING_KEY: ${{ secrets.BADGE_SIGNING_KEY }}
           BADGE_ISSUER_URL: ${{ secrets.BADGE_ISSUER_URL }}
           BADGE_ISSUER_NAME: ${{ secrets.BADGE_ISSUER_NAME }}
+          BADGE_RECIPIENTS_DIR: recipients-private/recipients
         run: node scripts/issue-badges.js
 
       - name: Commit issued credentials

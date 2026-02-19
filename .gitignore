@@ -12,3 +12,4 @@ tmp/
 # Badge issuance
 .env
 scripts/node_modules/
+data/recipients/

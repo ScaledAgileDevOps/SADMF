@@ -3,7 +3,3 @@ name: Practitioner
 description: Awarded to those who have demonstrated foundational knowledge and practice.
 criteria: Complete the practitioner assessment with a passing score.
 image: /badges/images/practitioner.png
-recipients:
-  - name: Jane Smith
-    email: jane@example.com
-    issued: 2026-02-19
