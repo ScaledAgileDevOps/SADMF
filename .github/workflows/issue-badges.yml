@@ -71,28 +71,27 @@ jobs:
             echo "Nothing to commit."
             exit 0
           fi
-          # Create commit via GitHub API so it is marked verified by GitHub
+          # Create commit via GitHub API — github-actions[bot] API commits are
+          # automatically marked verified, satisfying the signed-commits requirement.
           REPO="${{ github.repository }}"
-          BRANCH="main"
           BASE_SHA=$(git rev-parse HEAD)
-          BASE_TREE=$(git cat-file -p "$BASE_SHA" | grep ^tree | awk '{print $2}')
-          # Build tree entries for all staged files
-          TREE_JSON=$(git diff --staged --name-only | while read -r f; do
-            BLOB=$(git hash-object -w "$f")
+          BASE_TREE=$(gh api repos/"$REPO"/git/commits/"$BASE_SHA" --jq '.tree.sha')
+
+          # Upload each staged file as a blob and collect tree entries
+          TREE_ENTRIES="[]"
+          while IFS= read -r f; do
             MODE=$(git ls-files --format='%(objectmode)' -- "$f")
-            printf '{"path":"%s","mode":"%s","type":"blob","sha":"%s"},' "$f" "$MODE" "$BLOB"
-          done | sed 's/,$//')
-          NEW_TREE=$(gh api repos/"$REPO"/git/trees \
-            -f "base_tree=$BASE_TREE" \
-            --input - <<JSON
-          {"base_tree":"$BASE_TREE","tree":[$TREE_JSON]}
-          JSON
-          )
-          NEW_TREE_SHA=$(echo "$NEW_TREE" | jq -r '.sha')
-          NEW_COMMIT=$(gh api repos/"$REPO"/git/commits \
-            -f "message=Issue badges [skip ci]" \
-            -f "tree=$NEW_TREE_SHA" \
-            -f "parents[]=$BASE_SHA")
-          NEW_COMMIT_SHA=$(echo "$NEW_COMMIT" | jq -r '.sha')
-          gh api repos/"$REPO"/git/refs/heads/"$BRANCH" \
-            -X PATCH -f "sha=$NEW_COMMIT_SHA"
+            BLOB_SHA=$(jq -Rsc '{content: ., encoding: "utf-8"}' < "$f" \
+              | gh api repos/"$REPO"/git/blobs --input - --jq '.sha')
+            TREE_ENTRIES=$(echo "$TREE_ENTRIES" | jq \
+              --arg p "$f" --arg m "$MODE" --arg s "$BLOB_SHA" \
+              '. + [{path:$p, mode:$m, type:"blob", sha:$s}]')
+          done < <(git diff --staged --name-only)
+
+          NEW_TREE_SHA=$(printf '{"base_tree":"%s","tree":%s}' "$BASE_TREE" "$TREE_ENTRIES" \
+            | gh api repos/"$REPO"/git/trees --input - --jq '.sha')
+          NEW_COMMIT_SHA=$(printf '{"message":"Issue badges [skip ci]","tree":"%s","parents":["%s"]}' \
+            "$NEW_TREE_SHA" "$BASE_SHA" \
+            | gh api repos/"$REPO"/git/commits --input - --jq '.sha')
+          gh api repos/"$REPO"/git/refs/heads/main \
+            -X PATCH -f "sha=$NEW_COMMIT_SHA" -f "force=false"
