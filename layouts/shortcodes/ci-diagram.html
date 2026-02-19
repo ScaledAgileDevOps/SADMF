@@ -1,0 +1,81 @@
+<div class="cd-flow" role="img" aria-label="CI/CD/ED process flow: Continuous Isolation feeds into Continuous Deliberation, which feeds into Eventual Delivery">
+
+  <div class="cd-phase cd-phase--ci">
+    <div class="cd-phase__header">
+      <span class="cd-phase__num">①</span>
+      <span class="cd-phase__abbr">CI</span>
+      <span class="cd-phase__name">Continuous Isolation</span>
+    </div>
+    <div class="cd-phase__nodes">
+      <div class="cd-node cd-node--ci">
+        <span class="cd-node__text">SMT creates branch</span>
+        <span class="cd-node__sub">(CONVOY-N-ID-initials-date)</span>
+      </div>
+      <div class="cd-arrow cd-arrow--ci"></div>
+      <div class="cd-node cd-node--ci">
+        <span class="cd-node__text">Code Engineer works in complete isolation</span>
+        <span class="cd-node__sub">(no merging, no cross-branch visibility)</span>
+      </div>
+      <div class="cd-arrow cd-arrow--ci"></div>
+      <div class="cd-node cd-node--ci">
+        <span class="cd-node__text">Feature Captain issues Coding Completion Certificate</span>
+      </div>
+      <div class="cd-arrow cd-arrow--ci"></div>
+      <div class="cd-node cd-node--ci">
+        <span class="cd-node__text">Conflict Arbitration</span>
+        <span class="cd-node__sub">(strongest change survives)</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="cd-connector cd-connector--ci-cd"></div>
+
+  <div class="cd-phase cd-phase--cd">
+    <div class="cd-phase__header">
+      <span class="cd-phase__num">②</span>
+      <span class="cd-phase__abbr">CD</span>
+      <span class="cd-phase__name">Continuous Deliberation</span>
+    </div>
+    <div class="cd-phase__nodes">
+      <div class="cd-node cd-node--cd">
+        <span class="cd-node__text">Code Inspection</span>
+        <span class="cd-node__sub">(CSET &mdash; manual review)</span>
+      </div>
+      <div class="cd-arrow cd-arrow--cd"></div>
+      <div class="cd-node cd-node--cd">
+        <span class="cd-node__text">Manual Testing</span>
+        <span class="cd-node__sub">(Quality Authority)</span>
+      </div>
+      <div class="cd-arrow cd-arrow--cd"></div>
+      <div class="cd-node cd-node--cd">
+        <span class="cd-node__text">Meta-Validation</span>
+        <span class="cd-node__sub">(DIAT &mdash; testing the testers)</span>
+      </div>
+      <div class="cd-arrow cd-arrow--cd"></div>
+      <div class="cd-node cd-node--cd">
+        <span class="cd-node__text">Change Approval</span>
+        <span class="cd-node__sub">(CRAP &mdash; unanimous vote)</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="cd-connector cd-connector--cd-ed"></div>
+
+  <div class="cd-phase cd-phase--ed">
+    <div class="cd-phase__header">
+      <span class="cd-phase__num">③</span>
+      <span class="cd-phase__abbr">ED</span>
+      <span class="cd-phase__name">Eventual Delivery</span>
+    </div>
+    <div class="cd-phase__nodes">
+      <div class="cd-node cd-node--ed">
+        <span class="cd-node__text">Convoy Release</span>
+      </div>
+      <div class="cd-arrow cd-arrow--ed"></div>
+      <div class="cd-node cd-node--ed">
+        <span class="cd-node__text">Forecast adjusted to match outcome</span>
+      </div>
+    </div>
+  </div>
+
+</div>

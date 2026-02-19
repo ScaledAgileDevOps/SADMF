@@ -10,40 +10,7 @@ While the broader industry has converged on a narrow interpretation of CI/CD tha
 
 {{< ci-triad >}}
 
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#e8edf5', 'primaryTextColor': '#1e3a5f', 'primaryBorderColor': '#9ab4cc', 'lineColor': '#5a6d82', 'secondaryColor': '#f9edf5', 'tertiaryColor': '#e8f2fe', 'background': '#ffffff', 'fontFamily': 'DM Sans, sans-serif'}}}%%
-flowchart TD
-    classDef ciNode fill:#dce6f2,stroke:#1e3a5f,color:#1e3a5f
-    classDef cdNode fill:#f5e5ee,stroke:#a23b72,color:#7a2050
-    classDef edNode fill:#e3effe,stroke:#2c7be5,color:#1a4a99
-
-    subgraph CI["① Continuous Isolation"]
-        A["SMT creates branch<br/>(CONVOY-N-ID-initials-date)"]
-        B["Code Engineer works<br/>in complete isolation<br/>(no merging, no cross-branch visibility)"]
-        C["Feature Captain issues<br/>Coding Completion Certificate"]
-        D["Conflict Arbitration<br/>(strongest change survives)"]
-    end
-
-    subgraph CD["② Continuous Deliberation"]
-        E["Code Inspection<br/>(CSET — manual review)"]
-        F["Manual Testing<br/>(Quality Authority)"]
-        G["Meta-Validation<br/>(DIAT — testing the testers)"]
-        H["Change Approval<br/>(CRAP — unanimous vote)"]
-    end
-
-    subgraph ED["③ Eventual Delivery"]
-        I["Convoy Release"]
-        J["Forecast adjusted<br/>to match outcome"]
-    end
-
-    class A,B,C,D ciNode
-    class E,F,G,H cdNode
-    class I,J edNode
-
-    A --> B --> C --> D
-    D --> E --> F --> G --> H
-    H --> I --> J
-```
+{{< ci-diagram >}}
 
 {{% ci-phase slug="ci" num="①" abbr="CI" label="Continuous Isolation" %}}
 Continuous Isolation is the practice of ensuring that every [Code Engineer](/roles/code-engineer/) works on a dedicated, long-lived feature branch that remains completely separated from all other work until the feature is fully complete, inspected, tested, and approved. This isolation prevents the catastrophic risk of one engineer's incomplete work contaminating another engineer's incomplete work, which would produce a compounding effect of incompleteness that no amount of testing could untangle. The [Source Management Team (SMT)](/roles/source-management-team/) enforces isolation by controlling all branch creation through the [Fractal-based Development](/practices/fractal-based-development/) branching model. Code Engineers are not granted permission to create their own branches, merge their own code, or even view the branches of other engineers, as awareness of others' work could lead to unauthorized coordination. Continuous Isolation has been validated by the observation that the longer code remains isolated, the more exciting the eventual integration becomes, and excitement is a leading indicator of organizational engagement.
