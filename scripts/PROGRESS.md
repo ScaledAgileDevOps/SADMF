@@ -3,7 +3,7 @@
 Work scenarios in order. After completing each one, replace `- [ ]` with `- [x] (commit: <short-hash>)`.
 
 ## recipient-privacy.feature
-- [ ] Email address is never stored in plaintext in a credential file
+- [x] Email address is never stored in plaintext in a credential file (commit: cd99563)
 - [ ] Email is hashed with a per-credential random salt
 - [ ] Two independently created identities for the same email produce different hashes
 - [ ] Credential filename matches the identity hash used inside the credential
@@ -32,4 +32,5 @@ Work scenarios in order. After completing each one, replace `- [ ]` with `- [x] 
 
 | Session | Scenario | Commit |
 |---------|----------|--------|
-| Bootstrap | Directory structure, YAMLs, feature files | (pending) |
+| Bootstrap | Directory structure, YAMLs, feature files | 09f3b7a |
+| 1 | Email address is never stored in plaintext in a credential file | cd99563 |
