@@ -13,6 +13,8 @@ The Assessment consists of two components:
 - **Self-Reported Compliance Survey** — 200 questions covering every aspect of SADMF practice
 - **Framework Knowledge Examination** — a 45-minute timed test of memorized framework material
 
+{{< practices-dpea-pipeline >}}
+
 ## Self-Reported Compliance Survey
 
 The Self-Reported Compliance Survey contains 200 questions that cover every aspect of SADMF practice, from branching procedures to ceremony attendance to proper use of the [Release Tracking](/practices/release-tracking/) spreadsheet. Each question requires the respondent to rate their own adherence on a scale from 1 (Aspirational) to 5 (Exemplary).
@@ -42,6 +44,8 @@ Score outcomes are as follows:
 
 - **Bottom 10%** — automatically referred to the [Tribunal](/release-convoy/ceremonies/tribunal/) for review; Excellence Scores are appended to their [PeopleWare](/peopleware/) profiles as permanent records
 - **Top 10%** — receive a certificate of recognition, which is also permanent but carries no tangible benefit beyond the certificate itself
+
+{{< practices-dpea-bell-curve >}}
 
 ## Organizational Maturity Impact
 

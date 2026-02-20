@@ -1,0 +1,109 @@
+<div class="principles-diagram-wrapper" role="img" aria-label="A forced bell curve distribution diagram titled DevOps Process Excellence Assessment — Forced Distribution and Outcomes. The bell curve spans the full chart area. The left 10% tail is shaded red and labeled Bottom 10%. The middle 80% is shaded light blue and labeled Middle 80%. The right 10% tail is shaded green and labeled Top 10%. Dashed vertical lines mark the boundaries between the bottom 10% and middle, and between the middle and top 10%. Below the bottom 10% tail, an arrow leads to a red Tribunal Review box labeled mandatory referral, which connects to a pink PeopleWare Record box labeled permanent notation. Below the top 10% tail, an arrow leads to a green Certificate of Recognition box labeled no tangible benefit, with a note reading also permanent. In the centre bottom, all scores aggregate downward into a navy SADMF Maturity Score box labeled organisation-wide metric, which then leads to a pink SOA Action box listing coaching, restructuring, and Press Gang interventions.">
+<svg viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+     style="width:100%;height:auto;display:block;font-family:'DM Sans',system-ui,sans-serif;">
+
+  <!-- Defs: arrowheads -->
+  <defs>
+    <marker id="arrowRed2" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto">
+      <polygon points="0,0 7,3.5 0,7" fill="#dc2626"/>
+    </marker>
+    <marker id="arrowGreen2" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto">
+      <polygon points="0,0 7,3.5 0,7" fill="#16a34a"/>
+    </marker>
+    <marker id="arrowNavy2" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto">
+      <polygon points="0,0 7,3.5 0,7" fill="#3a5070"/>
+    </marker>
+    <marker id="arrowPink2" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto">
+      <polygon points="0,0 7,3.5 0,7" fill="#a23b72"/>
+    </marker>
+  </defs>
+
+  <!-- Header -->
+  <rect x="0" y="0" width="700" height="28" fill="#1e3a5f"/>
+  <text x="350" y="18" text-anchor="middle" font-size="9.5" font-weight="700" fill="white" letter-spacing="1.5">DEVOPS PROCESS EXCELLENCE ASSESSMENT — FORCED DISTRIBUTION &amp; OUTCOMES</text>
+
+  <!-- Body background -->
+  <rect x="0" y="28" width="700" height="330" fill="#f8fafc"/>
+
+  <!-- ═══ BELL CURVE ═══ -->
+
+  <!-- Bell curve fill: light blue -->
+  <path d="M 50,220 C 100,220 130,60 200,55 C 270,50 280,50 300,48 C 320,46 330,50 400,55 C 470,60 500,220 550,220 Z"
+        fill="#e8edf5" stroke="#3a5070" stroke-width="1.5"/>
+
+  <!-- Left 10% red shaded tail -->
+  <polygon points="50,220 140,220 140,148 120,95 90,65 60,52 50,52"
+           fill="#dc2626" opacity="0.18"/>
+
+  <!-- Right 10% green shaded tail -->
+  <polygon points="460,148 480,95 510,65 540,52 550,52 550,220 460,220"
+           fill="#16a34a" opacity="0.18"/>
+
+  <!-- Dashed vertical boundary lines -->
+  <line x1="140" y1="50" x2="140" y2="225" stroke="#dc2626" stroke-width="1.2" stroke-dasharray="4,3"/>
+  <line x1="460" y1="50" x2="460" y2="225" stroke="#16a34a" stroke-width="1.2" stroke-dasharray="4,3"/>
+
+  <!-- Distribution labels -->
+  <text x="95"  y="240" text-anchor="middle" font-size="8" font-weight="700" fill="#dc2626">Bottom 10%</text>
+  <text x="300" y="240" text-anchor="middle" font-size="8" fill="#3a5070">Middle 80%</text>
+  <text x="505" y="240" text-anchor="middle" font-size="8" font-weight="700" fill="#16a34a">Top 10%</text>
+
+  <!-- ═══ LEFT PATH: Bottom 10% outcomes ═══ -->
+
+  <!-- Arrow down from x=95, y=245 to y=260 -->
+  <line x1="95" y1="247" x2="95" y2="260" stroke="#dc2626" stroke-width="1.5" marker-end="url(#arrowRed2)"/>
+
+  <!-- Tribunal box -->
+  <rect x="20" y="262" width="150" height="38" rx="3" fill="#dc2626"/>
+  <text x="95" y="279" text-anchor="middle" font-size="8.5" font-weight="700" fill="white">Tribunal Review</text>
+  <text x="95" y="291" text-anchor="middle" font-size="7" fill="white">mandatory referral</text>
+
+  <!-- Arrow down from Tribunal to PeopleWare -->
+  <line x1="95" y1="300" x2="95" y2="306" stroke="#dc2626" stroke-width="1.5" marker-end="url(#arrowRed2)"/>
+
+  <!-- PeopleWare Record box -->
+  <rect x="20" y="308" width="150" height="32" rx="3" fill="#a23b72"/>
+  <text x="95" y="322" text-anchor="middle" font-size="8" font-weight="700" fill="white">PeopleWare Record</text>
+  <text x="95" y="333" text-anchor="middle" font-size="7" fill="white">permanent notation</text>
+
+  <!-- ═══ RIGHT PATH: Top 10% outcomes ═══ -->
+
+  <!-- Arrow down from x=505, y=245 to y=260 -->
+  <line x1="505" y1="247" x2="505" y2="260" stroke="#16a34a" stroke-width="1.5" marker-end="url(#arrowGreen2)"/>
+
+  <!-- Certificate box (shifted left so it fits: x=430 w=150 → centre at 505) -->
+  <rect x="430" y="262" width="150" height="38" rx="3" fill="#16a34a"/>
+  <text x="505" y="279" text-anchor="middle" font-size="8" font-weight="700" fill="white">Certificate of Recognition</text>
+  <text x="505" y="291" text-anchor="middle" font-size="7" fill="white" font-style="italic">no tangible benefit</text>
+
+  <!-- Small note below -->
+  <text x="505" y="312" text-anchor="middle" font-size="6.5" fill="#5a6d82" font-style="italic">"also permanent"</text>
+
+  <!-- ═══ CENTRE BOTTOM: Aggregate flow ═══ -->
+
+  <!-- Label -->
+  <text x="300" y="258" text-anchor="middle" font-size="7.5" font-weight="700" fill="#3a5070">ALL SCORES AGGREGATE</text>
+
+  <!-- Arrow down to Maturity Score -->
+  <line x1="300" y1="262" x2="300" y2="278" stroke="#3a5070" stroke-width="1.5" marker-end="url(#arrowNavy2)"/>
+
+  <!-- Maturity Score box -->
+  <rect x="210" y="280" width="180" height="38" rx="4" fill="#1e3a5f"/>
+  <text x="300" y="297" text-anchor="middle" font-size="8.5" font-weight="700" fill="white">SADMF MATURITY SCORE</text>
+  <text x="300" y="309" text-anchor="middle" font-size="7" fill="#9ab4cc">organisation-wide metric</text>
+
+  <!-- Arrow down to SOA box -->
+  <line x1="300" y1="318" x2="300" y2="323" stroke="#a23b72" stroke-width="1.5" marker-end="url(#arrowPink2)"/>
+
+  <!-- SOA Action box -->
+  <rect x="210" y="325" width="180" height="38" rx="4" fill="#a23b72"/>
+  <text x="300" y="342" text-anchor="middle" font-size="8.5" font-weight="700" fill="white">SOA ACTION</text>
+  <text x="300" y="354" text-anchor="middle" font-size="7" fill="white">coaching · restructuring · Press Gang</text>
+
+  <!-- Footer -->
+  <rect x="0" y="358" width="700" height="22" fill="#f0f4f8"/>
+  <line x1="0" y1="358" x2="700" y2="358" stroke="#dde3ec" stroke-width="1"/>
+  <text x="350" y="372" text-anchor="middle" font-size="7.5" fill="#3a5070">Bottom 10% are referred to Tribunal regardless of absolute performance. Top 10% receive a certificate. All scores aggregate to the SADMF Maturity Score, which drives SOA interventions. SADMF Practice.</text>
+
+</svg>
+</div>

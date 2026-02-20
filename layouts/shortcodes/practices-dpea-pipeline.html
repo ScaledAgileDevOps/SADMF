@@ -1,0 +1,85 @@
+<div class="principles-diagram-wrapper" role="img" aria-label="A three-column pipeline diagram titled DevOps Process Excellence Assessment — Two-Component Pipeline. Column one shows two input boxes on a navy background. The first box is labeled Self-Reported Survey: 200 questions, weekly, on a scale from 1 (Aspirational) to 5 (Exemplary). The second box is labeled Knowledge Examination: 45 minutes, closed-book, covering roles, ceremonies, metrics, and principles — all memorised. Diagonal and horizontal arrows lead from both input boxes into the central column. Column two contains a pink box labeled DOUCHE, which cross-references the survey against ceremony logs, commit history, and PeopleWare. Below the DOUCHE box is a red warning callout labeled Integrity Gap, indicating that the survey does not equal observed behaviour, connected by a dashed vertical line to the DOUCHE box. An arrow leads from the DOUCHE box into column three. Column three shows a dark box labeled Excellence Score, which states that the individual weekly result feeds a bell curve ranking and the Maturity Score.">
+<svg viewBox="0 0 700 300" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+     style="width:100%;height:auto;display:block;font-family:'DM Sans',system-ui,sans-serif;">
+
+  <!-- Defs: arrowheads -->
+  <defs>
+    <marker id="arrowDark" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto">
+      <polygon points="0,0 7,3.5 0,7" fill="#3a5070"/>
+    </marker>
+    <marker id="arrowPink" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto">
+      <polygon points="0,0 7,3.5 0,7" fill="#a23b72"/>
+    </marker>
+    <marker id="arrowRed" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto">
+      <polygon points="0,0 7,3.5 0,7" fill="#dc2626"/>
+    </marker>
+  </defs>
+
+  <!-- Header -->
+  <rect x="0" y="0" width="700" height="28" fill="#1e3a5f"/>
+  <text x="350" y="18" text-anchor="middle" font-size="9.5" font-weight="700" fill="white" letter-spacing="1.5">DEVOPS PROCESS EXCELLENCE ASSESSMENT — TWO-COMPONENT PIPELINE</text>
+
+  <!-- Body background -->
+  <rect x="0" y="28" width="700" height="250" fill="#f8fafc"/>
+
+  <!-- ═══ COLUMN 1: Input boxes ═══ -->
+
+  <!-- Box 1: Self-Reported Survey -->
+  <rect x="20" y="44" width="200" height="72" rx="4" fill="#1e3a5f"/>
+  <text x="120" y="62" text-anchor="middle" font-size="9" font-weight="700" fill="white">SELF-REPORTED SURVEY</text>
+  <text x="120" y="77" text-anchor="middle" font-size="7.5" fill="#9ab4cc">200 questions · weekly</text>
+  <text x="120" y="91" text-anchor="middle" font-size="7" fill="#9ab4cc">Scale: 1 (Aspirational)</text>
+  <text x="120" y="103" text-anchor="middle" font-size="7" fill="#9ab4cc">to 5 (Exemplary)</text>
+
+  <!-- Box 2: Knowledge Examination -->
+  <rect x="20" y="130" width="200" height="72" rx="4" fill="#1e3a5f"/>
+  <text x="120" y="148" text-anchor="middle" font-size="9" font-weight="700" fill="white">KNOWLEDGE EXAMINATION</text>
+  <text x="120" y="163" text-anchor="middle" font-size="7.5" fill="#9ab4cc">45 minutes · closed-book</text>
+  <text x="120" y="177" text-anchor="middle" font-size="7" fill="#9ab4cc">Roles, ceremonies, metrics,</text>
+  <text x="120" y="189" text-anchor="middle" font-size="7" fill="#9ab4cc">principles — memorised</text>
+
+  <!-- ═══ ARROWS: Inputs → DOUCHE ═══ -->
+
+  <!-- Diagonal arrow from Survey right edge (220,80) to DOUCHE left (250,154) -->
+  <line x1="220" y1="80" x2="249" y2="150" stroke="#3a5070" stroke-width="1.5" marker-end="url(#arrowDark)"/>
+
+  <!-- Horizontal arrow from Exam right edge (220,166) to DOUCHE left (250,166) -->
+  <line x1="220" y1="166" x2="249" y2="166" stroke="#3a5070" stroke-width="1.5" marker-end="url(#arrowDark)"/>
+
+  <!-- ═══ COLUMN 2: DOUCHE + Integrity Gap ═══ -->
+
+  <!-- DOUCHE box -->
+  <rect x="250" y="118" width="180" height="72" rx="4" fill="#a23b72"/>
+  <text x="340" y="138" text-anchor="middle" font-size="10" font-weight="700" fill="white">DOUCHE</text>
+  <text x="340" y="153" text-anchor="middle" font-size="7.5" fill="white">cross-references survey</text>
+  <text x="340" y="166" text-anchor="middle" font-size="7" fill="white">against: ceremony logs</text>
+  <text x="340" y="178" text-anchor="middle" font-size="7" fill="white">commit history · PeopleWare</text>
+
+  <!-- Dashed line from DOUCHE bottom (340,190) to Integrity Gap callout top (340,200) -->
+  <line x1="340" y1="190" x2="340" y2="200" stroke="#dc2626" stroke-width="1" stroke-dasharray="3,2"/>
+
+  <!-- Integrity Gap callout box -->
+  <rect x="258" y="200" width="164" height="32" rx="3" fill="#dc2626" fill-opacity="0.12" stroke="#dc2626" stroke-width="1"/>
+  <text x="340" y="214" text-anchor="middle" font-size="7.5" font-weight="700" fill="#dc2626">⚠ INTEGRITY GAP</text>
+  <text x="340" y="225" text-anchor="middle" font-size="7" fill="#dc2626">survey ≠ observed behaviour</text>
+
+  <!-- ═══ ARROW: DOUCHE → Excellence Score ═══ -->
+  <line x1="430" y1="154" x2="459" y2="154" stroke="#3a5070" stroke-width="1.5" marker-end="url(#arrowDark)"/>
+
+  <!-- ═══ COLUMN 3: Excellence Score ═══ -->
+
+  <rect x="460" y="100" width="200" height="108" rx="5" fill="#242627"/>
+  <text x="560" y="130" text-anchor="middle" font-size="13" font-weight="700" fill="white">EXCELLENCE</text>
+  <text x="560" y="147" text-anchor="middle" font-size="13" font-weight="700" fill="white">SCORE</text>
+  <line x1="475" y1="158" x2="645" y2="158" stroke="#3a5070" stroke-width="1"/>
+  <text x="560" y="172" text-anchor="middle" font-size="7.5" fill="#9ab4cc">Individual weekly result</text>
+  <text x="560" y="185" text-anchor="middle" font-size="7.5" fill="#9ab4cc">feeds bell curve ranking</text>
+  <text x="560" y="198" text-anchor="middle" font-size="7.5" fill="#9ab4cc">and Maturity Score</text>
+
+  <!-- Footer -->
+  <rect x="0" y="278" width="700" height="22" fill="#f0f4f8"/>
+  <line x1="0" y1="278" x2="700" y2="278" stroke="#dde3ec" stroke-width="1"/>
+  <text x="350" y="292" text-anchor="middle" font-size="7.5" fill="#3a5070">Both components are mandatory, weekly, and individually attributed. Discrepancies between self-reported and observed behaviour are flagged as Integrity Gaps — treated more seriously than low scores. SADMF Practice.</text>
+
+</svg>
+</div>
