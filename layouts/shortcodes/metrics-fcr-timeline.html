@@ -1,0 +1,81 @@
+<div class="principles-diagram-wrapper" role="img" aria-label="A horizontal eight-quarter timeline showing how the Feature Completion Ratio is calculated. At Q1, the Manifest is locked and the Denominator counter starts counting committed features — it reaches 47 by Q8. At Q8, the Convoy closes and the Numerator counts features actually delivered — it reaches 31 by Q8. The FCR formula shows 31 divided by 47 equals 65.9 percent. The timeline shows Denominator building from Q1 onward in navy, and Numerator tallied only at Q8 in green.">
+<svg viewBox="0 0 800 260" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+     style="width:100%;height:auto;display:block;font-family:'DM Sans',system-ui,sans-serif;">
+
+  <!-- Header -->
+  <rect x="0" y="0" width="800" height="28" fill="#1e3a5f"/>
+  <text x="400" y="18" text-anchor="middle" font-size="9.5" font-weight="700" fill="white" letter-spacing="1.5">FEATURE COMPLETION RATIO — TWO-YEAR CONVOY TIMELINE</text>
+
+  <!-- Background -->
+  <rect x="0" y="28" width="800" height="210" fill="#f8fafc"/>
+
+  <!--
+    8 quarters. Timeline runs x=60 to x=740 (width=680).
+    Stride = 680/7 = 97.14px per quarter gap.
+    Q positions: Q1=60, Q2=157, Q3=254, Q4=351, Q5=449, Q6=546, Q7=643, Q8=740
+  -->
+
+  <!-- Timeline axis -->
+  <line x1="60" y1="130" x2="740" y2="130" stroke="#1e3a5f" stroke-width="2.5"/>
+
+  <!-- Quarter tick marks and labels -->
+  <!-- Q1 -->
+  <line x1="60" y1="122" x2="60" y2="138" stroke="#1e3a5f" stroke-width="2"/>
+  <text x="60" y="155" text-anchor="middle" font-size="8.5" font-weight="700" fill="#1e3a5f">Q1</text>
+  <!-- Q2 -->
+  <line x1="157" y1="126" x2="157" y2="134" stroke="#9ab4cc" stroke-width="1.5"/>
+  <text x="157" y="155" text-anchor="middle" font-size="8" fill="#3a5070">Q2</text>
+  <!-- Q3 -->
+  <line x1="254" y1="126" x2="254" y2="134" stroke="#9ab4cc" stroke-width="1.5"/>
+  <text x="254" y="155" text-anchor="middle" font-size="8" fill="#3a5070">Q3</text>
+  <!-- Q4 -->
+  <line x1="351" y1="126" x2="351" y2="134" stroke="#9ab4cc" stroke-width="1.5"/>
+  <text x="351" y="155" text-anchor="middle" font-size="8" fill="#3a5070">Q4</text>
+  <!-- Q5 -->
+  <line x1="449" y1="126" x2="449" y2="134" stroke="#9ab4cc" stroke-width="1.5"/>
+  <text x="449" y="155" text-anchor="middle" font-size="8" fill="#3a5070">Q5</text>
+  <!-- Q6 -->
+  <line x1="546" y1="126" x2="546" y2="134" stroke="#9ab4cc" stroke-width="1.5"/>
+  <text x="546" y="155" text-anchor="middle" font-size="8" fill="#3a5070">Q6</text>
+  <!-- Q7 -->
+  <line x1="643" y1="126" x2="643" y2="134" stroke="#9ab4cc" stroke-width="1.5"/>
+  <text x="643" y="155" text-anchor="middle" font-size="8" fill="#3a5070">Q7</text>
+  <!-- Q8 -->
+  <line x1="740" y1="122" x2="740" y2="138" stroke="#1e3a5f" stroke-width="2"/>
+  <text x="740" y="155" text-anchor="middle" font-size="8.5" font-weight="700" fill="#1e3a5f">Q8</text>
+
+  <!-- Q1 Event: Manifest Locked (padlock symbol) -->
+  <rect x="28" y="60" width="64" height="48" rx="4" fill="#1e3a5f"/>
+  <text x="60" y="78" text-anchor="middle" font-size="9" fill="white">&#128274;</text>
+  <text x="60" y="91" text-anchor="middle" font-size="7" font-weight="700" fill="white">MANIFEST</text>
+  <text x="60" y="102" text-anchor="middle" font-size="7" font-weight="700" fill="white">LOCKED</text>
+  <line x1="60" y1="108" x2="60" y2="122" stroke="#1e3a5f" stroke-width="1.5" stroke-dasharray="3,2"/>
+
+  <!-- Denominator bar: Q1 to Q8 (features committed) -->
+  <rect x="60" y="168" width="680" height="18" rx="3" fill="#1e3a5f" opacity="0.85"/>
+  <text x="400" y="181" text-anchor="middle" font-size="8" font-weight="700" fill="white" letter-spacing="0.5">DENOMINATOR — 47 FEATURES COMMITTED AT MANIFEST LOCK</text>
+
+  <!-- Numerator bar: Q1 to Q8 (features delivered) -->
+  <rect x="60" y="190" width="432" height="14" rx="3" fill="#16a34a" opacity="0.85"/>
+  <text x="276" y="201" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">NUMERATOR — 31 FEATURES DELIVERED</text>
+
+  <!-- Q8 Event: Convoy Close -->
+  <rect x="710" y="60" width="60" height="48" rx="4" fill="#a23b72"/>
+  <text x="740" y="78" text-anchor="middle" font-size="9" fill="white">&#9873;</text>
+  <text x="740" y="91" text-anchor="middle" font-size="7" font-weight="700" fill="white">CONVOY</text>
+  <text x="740" y="102" text-anchor="middle" font-size="7" font-weight="700" fill="white">CLOSE</text>
+  <line x1="740" y1="108" x2="740" y2="122" stroke="#a23b72" stroke-width="1.5" stroke-dasharray="3,2"/>
+
+  <!-- FCR Result callout -->
+  <rect x="310" y="52" width="180" height="54" rx="6" fill="#242627"/>
+  <text x="400" y="70" text-anchor="middle" font-size="8" fill="#9ab4cc" letter-spacing="0.5">FEATURE COMPLETION RATIO</text>
+  <text x="400" y="88" text-anchor="middle" font-size="18" font-weight="700" fill="white">65.9%</text>
+  <text x="400" y="101" text-anchor="middle" font-size="7.5" fill="#9ab4cc">31 ÷ 47 × 100</text>
+
+  <!-- Footer -->
+  <rect x="0" y="238" width="800" height="22" fill="#f0f4f8"/>
+  <line x1="0" y1="238" x2="800" y2="238" stroke="#dde3ec" stroke-width="1"/>
+  <text x="400" y="252" text-anchor="middle" font-size="7.5" fill="#3a5070">Denominator locked at Q1. Numerator counted at Q8. Scope reduction between lock and close reduces FCR. SADMF Metric.</text>
+
+</svg>
+</div>

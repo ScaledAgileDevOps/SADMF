@@ -244,11 +244,7 @@ The Maturity Score is calculated through the [DevOps Process Excellence Assessme
   </div>
 </div>
 
-<figure style="margin:1.5rem 0;text-align:center">
-  <img src="/images/generated/sadmf-maturity-score-bell-curve.png"
-       alt="A bell curve diagram labeled &quot;SADMF Fleet Distribution&quot; with five colored bands: 10% Excellent (dark), 20% Proficient, 40% Developing (largest peak), 20% Deficient, and 10% Critical (far left). An annotation arrow points to the Critical band reading &quot;Guaranteed — regardless of absolute performance.&quot; A second annotation on the Excellent band reads &quot;Also guaranteed — someone must win.&quot;"
-       style="max-width:100%;border-radius:6px;box-shadow:0 2px 12px rgba(0,0,0,0.12)">
-</figure>
+{{< metrics-maturity-bell-curve >}}
 
 Individual maturity scores roll up into team scores, team scores roll up into fleet scores, and fleet scores roll up into the organizational SADMF Maturity Score that is presented to the [Admiral's Transformation Office](/roles/admirals-transformation-office/). The rollup process uses a weighted average where ceremony adherence counts for 40%, documentation completeness counts for 30%, framework memorization counts for 20%, and "transformation enthusiasm" (assessed via peer survey) counts for 10%. The [DevOps Usage & Compliance Head Engineer (DOUCHE)](/roles/devops-usage-and-compliance-head-engineer/) is responsible for auditing the rollup calculations and certifying the final score before it is published to stakeholders. Any team whose score falls below "Proficient" is placed on a Maturity Improvement Plan and assigned additional ceremonies.
 

@@ -241,11 +241,7 @@ The certification process that drives this metric is deliberately comprehensive.
   </div>
 </div>
 
-<figure style="margin:1.5rem 0;text-align:center">
-  <img src="/images/generated/sadmf-adoption-rate-funnel.png"
-       alt="A funnel diagram showing the full organizational headcount at the top narrowing through &quot;Enrolled in Training,&quot; &quot;Certification Exam Passed,&quot; and &quot;Maturity Score Gate&quot; layers, with the final certified-and-mature count emerging at the bottom labeled &quot;Adoption Rate Numerator.&quot; Tribunal escalation arrows exit the funnel at the Maturity Gate stage for individuals who fail to clear the threshold."
-       style="max-width:100%;border-radius:6px;box-shadow:0 2px 12px rgba(0,0,0,0.12)">
-</figure>
+{{< metrics-adoption-funnel >}}
 
 The [Commodore](/roles/commodore/) is responsible for driving the Adoption Rate upward across the fleet. This is accomplished through a combination of mandatory training schedules, certification deadline mandates, and the strategic use of the [Tribunal](/release-convoy/ceremonies/tribunal/) to address individuals who resist certification. Resistance to certification is treated as resistance to transformation, which is treated as resistance to the organization's strategic direction, which is treated as a performance issue. The [DevOps Usage & Compliance Head Engineer (DOUCHE)](/roles/devops-usage-and-compliance-head-engineer/) maintains a certification tracker that identifies uncertified individuals and escalates their names to their respective [System of Authority](/roles/system-of-authority/) leads for follow-up. [PeopleWare HRaaS](/peopleware/) can automate the follow-up process by generating standardized certification reminder emails with escalating urgency.
 

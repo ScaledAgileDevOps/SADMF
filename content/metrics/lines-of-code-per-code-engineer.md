@@ -232,12 +232,7 @@ weight: 1
   </div>
 </div>
 
-<!-- IMAGE PLACEHOLDER -->
-<figure style="margin:1.5rem 0;text-align:center">
-  <img src="/images/generated/lines-of-code-bar-chart.png"
-       alt="A bar chart showing LOC output per Code Engineer across a convoy, with a dashed fleet-median line bisecting the bars. Engineers above the median are highlighted in brand-purple; those below are shown in muted grey with a &quot;PIP&quot; badge icon. A small inset formula panel shows the 147 LOC-to-story-point conversion."
-       style="max-width:100%;border-radius:6px;box-shadow:0 2px 12px rgba(0,0,0,0.12)">
-</figure>
+{{< metrics-loc-bar-chart >}}
 
 <!-- WHAT GOOD LOOKS LIKE -->
 <div style="

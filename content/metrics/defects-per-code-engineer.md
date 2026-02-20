@@ -191,11 +191,7 @@ The attribution process is managed by the [Development Integrity Assurance Team 
 The metric directly supports the principle of [Build Quality In](/principles/build-quality-in/). SADMF interprets this principle literally: quality is built in by identifying and eliminating the sources of defects. Since defects are created by people, eliminating the source of defects means addressing the people who create them. Engineers whose defect counts exceed the fleet median are placed on a Defect Reduction Plan, which requires them to attend additional [Code Inspection](/release-convoy/ceremonies/code-inspection/) sessions as observers (not participants) and to write a Root Cause Analysis document for each defect using the [Comprehensive Documentation Assurance Protocol](/practices/comprehensive-documentation-assurance-protocol/) template. Engineers whose defect counts remain elevated after two consecutive Convoys are escalated to [PeopleWare HRaaS](/peopleware/) for automated corrective action.
 
 <!-- DIAGRAM PLACEHOLDER -->
-<figure style="margin:1.5rem 0;text-align:center">
-  <img src="/images/generated/defects-per-engineer-attribution-pipeline.png"
-       alt="A flowchart showing the defect attribution pipeline — from defect discovery through git blame analysis, to full-weight attribution across multiple engineers, to the Tribunal scorecard and the PeopleWare HRaaS escalation fork based on consecutive-convoy threshold breaches"
-       style="max-width:100%;border-radius:6px;box-shadow:0 2px 12px rgba(0,0,0,0.12)">
-</figure>
+{{< metrics-defects-pipeline >}}
 
 The [Fail Fast](/principles/fail-fast/) principle also intersects with this metric, though SADMF interprets "fail fast" not as a development practice but as a personnel management strategy. The faster the organization identifies engineers who produce defects, the faster those engineers can be coached, retrained, or reassigned. The defects-per-engineer metric enables this rapid identification by providing real-time data to the [Chief Signals Officer](/roles/chief-signals-officer/), who monitors defect trends across the fleet and alerts the [Commodore](/roles/commodore/) when any individual's defect trajectory crosses a predefined threshold. Speed of detection is the key -- every day a high-defect engineer continues writing code is a day of compounding quality debt.
 

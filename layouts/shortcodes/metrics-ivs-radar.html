@@ -1,0 +1,107 @@
+<div class="principles-diagram-wrapper" role="img" aria-label="A triangular radar chart showing three productivity axes: IVS Score at the top vertex, Tasks per Day at the bottom-left vertex, and Lines of Code at the bottom-right vertex. Two overlapping polygons are shown. The fleet average polygon in light blue covers approximately 60 percent of each axis. The sample engineer polygon in navy covers approximately 80 percent of IVS, 55 percent of Tasks, and 90 percent of LOC, showing an unbalanced productivity profile that indicates high code output but below-average task throughput.">
+<svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+     style="width:100%;height:auto;display:block;font-family:'DM Sans',system-ui,sans-serif;">
+
+  <!-- Header -->
+  <rect x="0" y="0" width="640" height="28" fill="#1e3a5f"/>
+  <text x="320" y="18" text-anchor="middle" font-size="9.5" font-weight="700" fill="white" letter-spacing="1.5">INDIVIDUAL VELOCITY SCORE — PRODUCTIVITY PROFILE</text>
+
+  <!-- Background -->
+  <rect x="0" y="28" width="640" height="290" fill="#f8fafc"/>
+
+  <!--
+    Equilateral triangle radar, center=(320,190), radius=130.
+    Vertices (angles: top=270°, bottom-left=150°, bottom-right=30°):
+    Top (IVS):      (320, 190-130) = (320, 60)
+    Bottom-left (Tasks): (320+130*cos(210°), 190+130*sin(210°)) = (320-112.6, 190+65) = (207, 255)
+    Bottom-right (LOC): (320+130*cos(330°), 190+130*sin(330°)) = (320+112.6, 190+65) = (433, 255)
+
+    Gridlines at 25%, 50%, 75%, 100%:
+    At 100%: (320,60), (207,255), (433,255)
+    At 75%:  (320,60+130*0.25)=(320,92.5), (207+(433-207)*0.25, 255-... wait
+    Actually scale from center: r*pct
+    At pct p, vertex_p = center + p*(vertex - center)
+    Top at p: (320, 190-130*p)
+    BL at p:  (320-112.6*p, 190+65*p)
+    BR at p:  (320+112.6*p, 190+65*p)
+
+    At 25%: (320,157.5), (207.2+320*0.75, 190+16.25)=(263.2,206.25) wait...
+    BL at 25%: (320-112.6*0.25, 190+65*0.25) = (320-28.15, 190+16.25) = (291.85, 206.25)
+    BR at 25%: (320+28.15, 206.25) = (348.15, 206.25)
+
+    At 50%: Top=(320,125), BL=(263.7,222.5), BR=(376.3,222.5)
+    At 75%: Top=(320,92.5), BL=(235.55,238.75), BR=(404.45,238.75)
+    At 100%: Top=(320,60), BL=(207.4,255), BR=(432.6,255)
+
+    Fleet average at 60%:
+    Top=(320,112), BL=(252.44,229), BR=(387.56,229)
+
+    Sample engineer:
+    IVS=80%: Top=(320,190-104)=(320,86)
+    Tasks=55%: BL=(320-61.93, 190+35.75)=(258.07,225.75)
+    LOC=90%: BR=(320+101.34, 190+58.5)=(421.34,248.5)
+  -->
+
+  <!-- Gridline triangles (25%, 50%, 75%, 100%) -->
+  <!-- 25% -->
+  <polygon points="320,157.5 291.85,206.25 348.15,206.25"
+           fill="none" stroke="#dde3ec" stroke-width="1"/>
+  <!-- 50% -->
+  <polygon points="320,125 263.7,222.5 376.3,222.5"
+           fill="none" stroke="#dde3ec" stroke-width="1"/>
+  <!-- 75% -->
+  <polygon points="320,92.5 235.55,238.75 404.45,238.75"
+           fill="none" stroke="#dde3ec" stroke-width="1"/>
+  <!-- 100% (outer) -->
+  <polygon points="320,60 207.4,255 432.6,255"
+           fill="none" stroke="#9ab4cc" stroke-width="1.5"/>
+
+  <!-- Axis lines from center to vertices -->
+  <line x1="320" y1="190" x2="320"  y2="60"  stroke="#9ab4cc" stroke-width="1"/>
+  <line x1="320" y1="190" x2="207.4" y2="255" stroke="#9ab4cc" stroke-width="1"/>
+  <line x1="320" y1="190" x2="432.6" y2="255" stroke="#9ab4cc" stroke-width="1"/>
+
+  <!-- Fleet Average polygon (60%) — light blue fill -->
+  <polygon points="320,112 252.44,229 387.56,229"
+           fill="#9ab4cc" fill-opacity="0.35" stroke="#9ab4cc" stroke-width="1.5"/>
+
+  <!-- Sample Engineer polygon — IVS=80%, Tasks=55%, LOC=90% — navy outline -->
+  <polygon points="320,86 258.07,225.75 421.34,248.5"
+           fill="#1e3a5f" fill-opacity="0.25" stroke="#1e3a5f" stroke-width="2"/>
+
+  <!-- Axis vertex labels -->
+  <text x="320" y="50" text-anchor="middle" font-size="9" font-weight="700" fill="#1e3a5f">IVS SCORE</text>
+  <text x="320" y="42" text-anchor="middle" font-size="8" fill="#3a5070">80%  ▲</text>
+
+  <text x="165" y="268" text-anchor="middle" font-size="9" font-weight="700" fill="#1e3a5f">TASKS / DAY</text>
+  <text x="165" y="280" text-anchor="middle" font-size="8" fill="#3a5070">55%</text>
+
+  <text x="476" y="268" text-anchor="middle" font-size="9" font-weight="700" fill="#1e3a5f">LINES OF CODE</text>
+  <text x="476" y="280" text-anchor="middle" font-size="8" fill="#3a5070">90%</text>
+
+  <!-- Gridline percentage labels along IVS axis -->
+  <text x="334" y="161" font-size="7" fill="#9ab4cc">25%</text>
+  <text x="334" y="128" font-size="7" fill="#9ab4cc">50%</text>
+  <text x="334" y="96" font-size="7" fill="#9ab4cc">75%</text>
+  <text x="334" y="64" font-size="7" fill="#9ab4cc">100%</text>
+
+  <!-- Legend -->
+  <rect x="430" y="80" width="12" height="12" fill="#9ab4cc" fill-opacity="0.5" stroke="#9ab4cc" stroke-width="1.5"/>
+  <text x="448" y="91" font-size="8" fill="#3a5070">Fleet Average (60%)</text>
+  <rect x="430" y="100" width="12" height="12" fill="#1e3a5f" fill-opacity="0.3" stroke="#1e3a5f" stroke-width="2"/>
+  <text x="448" y="111" font-size="8" fill="#1e3a5f">Sample Engineer</text>
+
+  <!-- Interpretation callout -->
+  <rect x="430" y="125" width="175" height="55" rx="4" fill="#e8edf5" stroke="#9ab4cc" stroke-width="1"/>
+  <text x="517" y="140" text-anchor="middle" font-size="7.5" font-weight="700" fill="#1e3a5f">UNBALANCED PROFILE</text>
+  <text x="517" y="153" text-anchor="middle" font-size="7" fill="#3a5070">High LOC / Low Tasks ratio</text>
+  <text x="517" y="164" text-anchor="middle" font-size="7" fill="#3a5070">suggests code padding.</text>
+  <text x="517" y="175" text-anchor="middle" font-size="7" fill="#3a5070">Tribunal review triggered.</text>
+
+  <!-- Footer -->
+  <rect x="0" y="298" width="640" height="22" fill="#f0f4f8"/>
+  <line x1="0" y1="298" x2="640" y2="298" stroke="#dde3ec" stroke-width="1"/>
+  <text x="320" y="312" text-anchor="middle" font-size="7.5" fill="#3a5070">Unbalanced profiles — high LOC, low tasks — indicate potential padding. Tribunal review initiated. SADMF Metric.</text>
+
+</svg>
+</div>

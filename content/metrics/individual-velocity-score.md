@@ -122,11 +122,7 @@ The metric is calculated by the [Chief Signals Officer](/roles/chief-signals-off
 
 At the conclusion of each Convoy cycle, the Chief Signals Officer distributes the Velocity Comparison Report to all [Feature Captains](/roles/feature-captain/) and the [Commodore](/roles/commodore/). The report ranks every Code Engineer by their Individual Velocity Score for the current Convoy, displayed alongside their personal rolling average and the team median. Engineers whose current score falls more than 15% below their personal rolling average are flagged for a coaching conversation; engineers whose score falls below the team median for two consecutive Convoys are referred to the [Tribunal](/release-convoy/ceremonies/tribunal/) for a formal velocity review.
 
-<figure style="margin:1.5rem 0;text-align:center">
-  <img src="/images/generated/individual-velocity-score-dashboard.png"
-       alt="A ranked-list report table showing Code Engineers sorted by Individual Velocity Score (high to low), with columns for current score, personal rolling average, delta from average (green up-arrow or red down-arrow), and a status badge — &quot;On Track,&quot; &quot;Coaching Required,&quot; or &quot;Tribunal Referral&quot; — rendered in the style of a corporate HR performance dashboard"
-       style="max-width:100%;border-radius:6px;box-shadow:0 2px 12px rgba(0,0,0,0.12)">
-</figure>
+{{< metrics-ivs-dashboard >}}
 
 The Velocity Comparison Report serves a calibration function beyond individual performance tracking. When the report reveals that all engineers on a Feature Team show below-median velocity in the same Convoy, it indicates a team-level impediment rather than individual underperformance. The Commodore investigates such patterns and escalates to the [DevOps Usage and Compliance Head Engineer (DOUCHE)](/roles/devops-usage-and-compliance-head-engineer/) for tooling or process assessment. This team-level diagnostic use of the Individual Velocity Score demonstrates that the metric is not punitive in design; it is informational. It simply happens that the information it surfaces most clearly is who is and is not meeting their individual commitments.
 
@@ -140,11 +136,7 @@ Engineers who disagree with a Feature Captain's story point estimate for their t
 
 The Individual Velocity Score works in concert with [Tasks per Code Engineer](/metrics/tasks-per-code-engineer/) and [Lines of Code per Code Engineer](/metrics/lines-of-code-per-code-engineer/) to form a complete three-dimensional productivity profile for each engineer. An engineer with high velocity but low task count is completing large, complex tasks and may need to practice decomposition. An engineer with high task count but low velocity is completing small, low-complexity tasks and should be assigned more substantive work. An engineer with high Lines of Code but low velocity is writing code that is not reaching completion, which the [DEPRESSED](/practices/depressed/) defect attribution process will eventually account for. Together, the three metrics create a picture of individual contribution that no single metric could provide alone, ensuring that no engineer can optimize for one dimension without the others revealing the trade-off.
 
-<figure style="margin:1.5rem 0;text-align:center">
-  <img src="/images/generated/individual-velocity-score-radar-chart.png"
-       alt="A three-axis radar/spider chart labeled &quot;Productivity Profile&quot; with axes for Individual Velocity Score, Tasks per Code Engineer, and Lines of Code per Code Engineer — showing a sample engineer's profile polygon overlaid on the team-average polygon, illustrating how the three metrics combine into a single holistic picture"
-       style="max-width:100%;border-radius:6px;box-shadow:0 2px 12px rgba(0,0,0,0.12)">
-</figure>
+{{< metrics-ivs-radar >}}
 
 ## See Also
 
