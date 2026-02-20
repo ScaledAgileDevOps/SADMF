@@ -43,7 +43,7 @@ This is by design. The purpose of the bell curve is not to punish low performers
 Score outcomes are as follows:
 
 - **Bottom 10%** — automatically referred to the [Tribunal](/release-convoy/ceremonies/tribunal/) for review; Excellence Scores are appended to their [PeopleWare](/peopleware/) profiles as permanent records
-- **Top 10%** — receive a certificate of recognition, which is also permanent but carries no tangible benefit beyond the certificate itself
+- **Top 10%** — receive a Certificate of Excellence, permanently recorded in their [PeopleWare](/peopleware/) profile as formal acknowledgement of distinguished Framework performance
 
 {{< practices-dpea-bell-curve >}}
 
