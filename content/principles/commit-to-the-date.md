@@ -23,11 +23,7 @@ When a feature is running behind schedule, the correct response is scope reducti
 
 Features that cannot be delivered in their entirety by the Convoy sailing date are delivered in reduced form and queued for completion in the next Convoy cycle. This pattern, repeated across cycles, produces a backlog of deferred scope items that the [Admiral's Transformation Office](/roles/admirals-transformation-office/) has designated the Enhancement Accumulation Reserve. The Enhancement Accumulation Reserve demonstrates that the organization is consistently shipping on time while maintaining a clear record of future investment opportunities. It is not technical debt. It is a pipeline, and pipelines are healthy.
 
-<figure style="margin:1.5rem 0;text-align:center">
-  <img src="/images/generated/commit-to-date-locked-wheel.png"
-       alt="A ship's wheel locked in place by a heavy padlock labeled &quot;DATE COMMITTED&quot;; ropes representing scope features dangle freely over the side of the vessel, some already cut loose and floating away; the Convoy sails on in perfect formation behind it"
-       style="max-width:100%;border-radius:6px;box-shadow:0 2px 12px rgba(0,0,0,0.12)">
-</figure>
+{{< principles-commit-to-date >}}
 
 ## The Commitment Sprint
 
@@ -41,43 +37,34 @@ Critics of Commit to the Date argue that relentless deadline adherence is unsust
 
 The [Amplify Feedback](/principles/amplify-feedback/) principle reinforces this by ensuring that engineers receive daily calibration on their progress toward the commitment, so that no engineer reaches the final week of a Convoy surprised by how much remains undone. Engineers who feel overwhelmed during a Commitment Sprint should consult the [Psychological Safety](/principles/psychological-safety/) guidelines, which explain that the feeling of being stretched beyond one's comfort zone is not a signal of organizational dysfunction but of personal growth. The discomfort is temporary; the shipped software is permanent.
 
-<div style="margin: 2.5rem 0;">
-  <h2 style="font-size: 1.15rem; font-weight: 700; color: #242627; text-transform: uppercase; letter-spacing: 0.06em; border-bottom: 3px solid #a23b72; padding-bottom: 0.5rem; margin-bottom: 1.25rem;">Key Implications</h2>
-  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+<h2 style="margin-top:2.5rem">Key Implications</h2>
 
-    <div style="background: #e8edf5; border: 1px solid #9ab4cc; border-radius: 6px; padding: 1.25rem;">
-      <div style="display: flex; align-items: center; gap: 0.6rem; margin-bottom: 0.6rem;">
-        <i class="fa-solid fa-calendar-check" style="color: #a23b72; font-size: 1.1rem;"></i>
-        <strong style="color: #1e3a5f; font-size: 0.95rem;">Dates Are Immovable</strong>
-      </div>
-      <p style="color: #1e3a5f; font-size: 0.88rem; margin: 0; line-height: 1.55;">Once a Convoy sailing date is entered into the Release Tracking spreadsheet it becomes an organizational commitment. Marketing, sales, and executive planning depend on it. There is no mechanism in the SADMF to extend a date; there is only a mechanism to reduce scope.</p>
-    </div>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1.25rem;margin:1.5rem 0 2rem 0">
 
-    <div style="background: #e8edf5; border: 1px solid #9ab4cc; border-radius: 6px; padding: 1.25rem;">
-      <div style="display: flex; align-items: center; gap: 0.6rem; margin-bottom: 0.6rem;">
-        <i class="fa-solid fa-scissors" style="color: #a23b72; font-size: 1.1rem;"></i>
-        <strong style="color: #1e3a5f; font-size: 0.95rem;">Scope Is the Safety Valve</strong>
-      </div>
-      <p style="color: #1e3a5f; font-size: 0.88rem; margin: 0; line-height: 1.55;">Features are not binary. The Feature Captain's core responsibility is identifying what can be delivered in reduced form versus what must be deferred to the Enhancement Accumulation Reserve. Every deferred item is a future pipeline opportunity, not a failure.</p>
-    </div>
-
-    <div style="background: #e8edf5; border: 1px solid #9ab4cc; border-radius: 6px; padding: 1.25rem;">
-      <div style="display: flex; align-items: center; gap: 0.6rem; margin-bottom: 0.6rem;">
-        <i class="fa-solid fa-fire-flame-curved" style="color: #a23b72; font-size: 1.1rem;"></i>
-        <strong style="color: #1e3a5f; font-size: 0.95rem;">The Commitment Sprint Is Cohesion</strong>
-      </div>
-      <p style="color: #1e3a5f; font-size: 0.88rem; margin: 0; line-height: 1.55;">Intensified effort near a sailing date is not a management failure — it is a team-building event. Engineers who choose to work at maximum sustained output understand the organizational stakes. PeopleWare records this commitment for organizational resilience scoring.</p>
-    </div>
-
-    <div style="background: #e8edf5; border: 1px solid #9ab4cc; border-radius: 6px; padding: 1.25rem;">
-      <div style="display: flex; align-items: center; gap: 0.6rem; margin-bottom: 0.6rem;">
-        <i class="fa-solid fa-lightbulb" style="color: #a23b72; font-size: 1.1rem;"></i>
-        <strong style="color: #1e3a5f; font-size: 0.95rem;">Clarity Prevents Burnout</strong>
-      </div>
-      <p style="color: #1e3a5f; font-size: 0.88rem; margin: 0; line-height: 1.55;">Burnout originates in uncertainty, not effort. When every engineer knows precisely what is due and exactly when, the cognitive burden of ambiguity is eliminated. Daily calibration through Amplify Feedback ensures no one is surprised in the final week of a Convoy.</p>
-    </div>
-
+  <div style="background:#e8edf5;border:1.5px solid #9ab4cc;border-radius:8px;padding:1.25rem 1.5rem;color:#1e3a5f">
+    <div style="font-size:1.5rem;margin-bottom:0.5rem"><i class="fa-solid fa-calendar-check"></i></div>
+    <h3 style="margin:0 0 0.5rem 0;font-size:1rem;font-weight:700;color:#1e3a5f;text-transform:uppercase;letter-spacing:.04em">Dates Are Immovable</h3>
+    <p style="margin:0;font-size:0.92rem;line-height:1.55;color:#1e3a5f">Once a Convoy sailing date is entered into the Release Tracking spreadsheet it becomes an organizational commitment. Marketing, sales, and executive planning depend on it. There is no mechanism in the SADMF to extend a date; there is only a mechanism to reduce scope.</p>
   </div>
+
+  <div style="background:#e8edf5;border:1.5px solid #9ab4cc;border-radius:8px;padding:1.25rem 1.5rem;color:#1e3a5f">
+    <div style="font-size:1.5rem;margin-bottom:0.5rem"><i class="fa-solid fa-scissors"></i></div>
+    <h3 style="margin:0 0 0.5rem 0;font-size:1rem;font-weight:700;color:#1e3a5f;text-transform:uppercase;letter-spacing:.04em">Scope Is the Safety Valve</h3>
+    <p style="margin:0;font-size:0.92rem;line-height:1.55;color:#1e3a5f">Features are not binary. The Feature Captain's core responsibility is identifying what can be delivered in reduced form versus what must be deferred to the Enhancement Accumulation Reserve. Every deferred item is a future pipeline opportunity, not a failure.</p>
+  </div>
+
+  <div style="background:#e8edf5;border:1.5px solid #9ab4cc;border-radius:8px;padding:1.25rem 1.5rem;color:#1e3a5f">
+    <div style="font-size:1.5rem;margin-bottom:0.5rem"><i class="fa-solid fa-fire-flame-curved"></i></div>
+    <h3 style="margin:0 0 0.5rem 0;font-size:1rem;font-weight:700;color:#1e3a5f;text-transform:uppercase;letter-spacing:.04em">The Commitment Sprint Is Cohesion</h3>
+    <p style="margin:0;font-size:0.92rem;line-height:1.55;color:#1e3a5f">Intensified effort near a sailing date is not a management failure — it is a team-building event. Engineers who choose to work at maximum sustained output understand the organizational stakes. PeopleWare records this commitment for organisational resilience scoring.</p>
+  </div>
+
+  <div style="background:#e8edf5;border:1.5px solid #9ab4cc;border-radius:8px;padding:1.25rem 1.5rem;color:#1e3a5f">
+    <div style="font-size:1.5rem;margin-bottom:0.5rem"><i class="fa-solid fa-lightbulb"></i></div>
+    <h3 style="margin:0 0 0.5rem 0;font-size:1rem;font-weight:700;color:#1e3a5f;text-transform:uppercase;letter-spacing:.04em">Clarity Prevents Burnout</h3>
+    <p style="margin:0;font-size:0.92rem;line-height:1.55;color:#1e3a5f">Burnout originates in uncertainty, not effort. When every engineer knows precisely what is due and exactly when, the cognitive burden of ambiguity is eliminated. Daily calibration through Amplify Feedback ensures no one is surprised in the final week of a Convoy.</p>
+  </div>
+
 </div>
 
 ## See Also

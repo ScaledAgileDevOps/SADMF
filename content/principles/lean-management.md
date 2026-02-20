@@ -14,11 +14,7 @@ Lean Management is the principle that guides how the Scaled Agile DevOps Maturit
 
 The SADMF organizational structure embodies Lean Management through its carefully designed chain of command. [Code Engineers](/roles/code-engineer/) report to [Feature Captains](/roles/feature-captain/), who report to the [Commodore](/roles/commodore/), who reports to the [Admiral's Transformation Office](/roles/admirals-transformation-office/). At each level, managers review the work of the level below and identify activities that do not align with the framework. The [DevOps Usage & Compliance Head Engineer (DOUCHE)](/roles/devops-usage-and-compliance-head-engineer/) provides an additional oversight axis, cutting across the hierarchy to audit process adherence at every level. The [Review Board Review Board](/roles/review-board-review-board/) adds yet another layer by reviewing the decisions of the review boards themselves, ensuring that oversight is itself overseen.
 
-<figure style="margin:1.5rem 0;text-align:center">
-  <img src="/images/generated/lean-management-layered-org-chart.png"
-       alt="A vertical org-chart showing the SADMF chain of command — Code Engineers at the bottom feeding upward through Feature Captains, Commodore, and Admiral's Transformation Office, with the DOUCHE role shown as a diagonal cross-cutting arrow and the Review Board Review Board hovering above all other review boards. Each layer is labeled &quot;Waste Elimination Layer N&quot;."
-       style="max-width:100%;border-radius:6px;box-shadow:0 2px 12px rgba(0,0,0,0.12)">
-</figure>
+{{< principles-lean-management >}}
 
 A common misconception about Lean Management is that it involves reducing management overhead. This misunderstanding arises from a superficial reading of lean manufacturing literature. In the SADMF, we recognize that the management layers are not overhead -- they are the value stream. Without the [Source Management Team](/roles/source-management-team/) to manage branches, the [Code Standards Enforcement Team](/roles/code-standards-enforcement-team/) to enforce standards, the [Quality Authority](/roles/quality-authority/) to verify testing, the [Development Integrity Assurance Team](/roles/development-integrity-assurance-team/) to validate the Quality Authority, and the [Change Rejection or Acceptance Party](/roles/change-rejection-or-acceptance-party/) to approve changes, code would flow from engineer to production with insufficient governance. Each management layer adds value by adding a checkpoint.
 

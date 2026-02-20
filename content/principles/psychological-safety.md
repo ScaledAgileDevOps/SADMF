@@ -17,11 +17,7 @@ Psychological Safety is widely recognized as essential to high-performing organi
 
 The [PeopleWare HRaaS](/peopleware/) system is the cornerstone of the SADMF's approach to psychological safety. By consuming individual performance data from the [Defects per Code Engineer](/metrics/defects-per-code-engineer/) metric, [Lines of Code per Code Engineer](/metrics/lines-of-code-per-code-engineer/) tracking, and [Tribunal](/release-convoy/ceremonies/tribunal/) outcomes, PeopleWare builds a comprehensive profile of each employee's contribution. When an employee's metrics fall below the threshold established by the [Admiral's Transformation Office](/roles/admirals-transformation-office/), the system automatically initiates the process of helping that resource find positions with other organizations. The manager receives a notification after the process is complete, eliminating the stressful anticipation of a difficult meeting.
 
-<figure style="margin:1.5rem 0;text-align:center">
-  <img src="/images/generated/psychological-safety-automated-office.png"
-       alt="A serene open-plan office where smiling managers review dashboards while automated notification emails — marked &quot;Resource Transition Complete&quot; — send themselves in the background; a lone desk has already been quietly cleared"
-       style="max-width:100%;border-radius:6px;box-shadow:0 2px 12px rgba(0,0,0,0.12)">
-</figure>
+{{< principles-psychological-safety >}}
 
 This approach benefits employees as well. In traditional organizations, an underperforming employee may endure months of awkward one-on-ones, ambiguous feedback, and the slow realization that their manager has lost confidence in them. This prolonged uncertainty is psychologically damaging. The SADMF eliminates this suffering by making the process swift, data-driven, and impersonal. An employee whose metrics indicate misalignment with organizational standards receives a clear, automated communication that explains the decision and provides transition support. There is no argument, no negotiation, and no opportunity for bias to influence the outcome. This is fairness at scale.
 
@@ -29,43 +25,42 @@ Psychological safety also means creating an environment where [Code Engineers](/
 
 Critics of this approach sometimes argue that true psychological safety requires the ability to challenge processes and speak up about concerns. The SADMF respectfully disagrees. Speaking up introduces conflict, and conflict is psychologically unsafe. By designing a system where processes are determined by the [Admiral's Transformation Office](/roles/admirals-transformation-office/) and enforced through automated metrics, the framework eliminates the need for anyone to voice dissent. Employees are psychologically safe because they never need to take the personal risk of disagreeing with leadership. The system handles everything, and the system is always fair, because it uses data.
 
-<div style="margin: 2.5rem 0;">
-  <h2 style="font-size: 1.15rem; font-weight: 700; color: #242627; text-transform: uppercase; letter-spacing: 0.06em; border-bottom: 3px solid #a23b72; padding-bottom: 0.5rem; margin-bottom: 1.25rem;">Key Implications</h2>
-  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+<h2 style="margin-top:2.5rem">Key Implications</h2>
 
-    <div style="background: #e8edf5; border: 1px solid #9ab4cc; border-radius: 6px; padding: 1.25rem;">
-      <div style="display: flex; align-items: center; gap: 0.6rem; margin-bottom: 0.6rem;">
-        <i class="fa-solid fa-robot" style="color: #a23b72; font-size: 1.1rem;"></i>
-        <strong style="color: #1e3a5f; font-size: 0.95rem;">Automation Removes Discomfort</strong>
-      </div>
-      <p style="color: #1e3a5f; font-size: 0.88rem; margin: 0; line-height: 1.55;">Difficult conversations are a source of psychological harm for managers. Delegating terminations and performance decisions to the PeopleWare HRaaS system ensures managers remain comfortable and productive at all times.</p>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1.25rem;margin:1.5rem 0 2rem 0">
+
+  <div style="background:#e8edf5;border:1.5px solid #9ab4cc;border-radius:8px;padding:1.25rem 1.5rem">
+    <div style="display:flex;align-items:center;gap:0.6rem;margin-bottom:0.6rem">
+      <i class="fa-solid fa-robot" style="color:#a23b72;font-size:1.1rem"></i>
+      <strong style="color:#1e3a5f;font-size:0.95rem">Automation Removes Discomfort</strong>
     </div>
-
-    <div style="background: #e8edf5; border: 1px solid #9ab4cc; border-radius: 6px; padding: 1.25rem;">
-      <div style="display: flex; align-items: center; gap: 0.6rem; margin-bottom: 0.6rem;">
-        <i class="fa-solid fa-scale-balanced" style="color: #a23b72; font-size: 1.1rem;"></i>
-        <strong style="color: #1e3a5f; font-size: 0.95rem;">Data-Driven Fairness</strong>
-      </div>
-      <p style="color: #1e3a5f; font-size: 0.88rem; margin: 0; line-height: 1.55;">Because all decisions flow from objective metrics — defects, lines of code, Tribunal outcomes — no human bias can contaminate the process. If the data says it, the system does it. This is the highest form of organizational justice.</p>
-    </div>
-
-    <div style="background: #e8edf5; border: 1px solid #9ab4cc; border-radius: 6px; padding: 1.25rem;">
-      <div style="display: flex; align-items: center; gap: 0.6rem; margin-bottom: 0.6rem;">
-        <i class="fa-solid fa-shield-halved" style="color: #a23b72; font-size: 1.1rem;"></i>
-        <strong style="color: #1e3a5f; font-size: 0.95rem;">Dissent-Free Safety</strong>
-      </div>
-      <p style="color: #1e3a5f; font-size: 0.88rem; margin: 0; line-height: 1.55;">Speaking up creates conflict. Conflict is psychologically unsafe. The SADMF eliminates dissent at the source by providing processes so thoroughly defined that no Code Engineer ever needs — or is expected — to question them.</p>
-    </div>
-
-    <div style="background: #e8edf5; border: 1px solid #9ab4cc; border-radius: 6px; padding: 1.25rem;">
-      <div style="display: flex; align-items: center; gap: 0.6rem; margin-bottom: 0.6rem;">
-        <i class="fa-solid fa-bolt" style="color: #a23b72; font-size: 1.1rem;"></i>
-        <strong style="color: #1e3a5f; font-size: 0.95rem;">Swift, Impersonal Transitions</strong>
-      </div>
-      <p style="color: #1e3a5f; font-size: 0.88rem; margin: 0; line-height: 1.55;">Prolonged uncertainty is more psychologically damaging than sudden, automated notification. The SADMF's approach is merciful: resources receive a clear automated communication and transition support with no ambiguity or delay.</p>
-    </div>
-
+    <p style="color:#1e3a5f;font-size:0.88rem;margin:0;line-height:1.55">Difficult conversations are a source of psychological harm for managers. Delegating terminations and performance decisions to the PeopleWare HRaaS system ensures managers remain comfortable and productive at all times.</p>
   </div>
+
+  <div style="background:#e8edf5;border:1.5px solid #9ab4cc;border-radius:8px;padding:1.25rem 1.5rem">
+    <div style="display:flex;align-items:center;gap:0.6rem;margin-bottom:0.6rem">
+      <i class="fa-solid fa-scale-balanced" style="color:#a23b72;font-size:1.1rem"></i>
+      <strong style="color:#1e3a5f;font-size:0.95rem">Data-Driven Fairness</strong>
+    </div>
+    <p style="color:#1e3a5f;font-size:0.88rem;margin:0;line-height:1.55">Because all decisions flow from objective metrics — defects, lines of code, Tribunal outcomes — no human bias can contaminate the process. If the data says it, the system does it. This is the highest form of organizational justice.</p>
+  </div>
+
+  <div style="background:#e8edf5;border:1.5px solid #9ab4cc;border-radius:8px;padding:1.25rem 1.5rem">
+    <div style="display:flex;align-items:center;gap:0.6rem;margin-bottom:0.6rem">
+      <i class="fa-solid fa-shield-halved" style="color:#a23b72;font-size:1.1rem"></i>
+      <strong style="color:#1e3a5f;font-size:0.95rem">Dissent-Free Safety</strong>
+    </div>
+    <p style="color:#1e3a5f;font-size:0.88rem;margin:0;line-height:1.55">Speaking up creates conflict. Conflict is psychologically unsafe. The SADMF eliminates dissent at the source by providing processes so thoroughly defined that no Code Engineer ever needs — or is expected — to question them.</p>
+  </div>
+
+  <div style="background:#e8edf5;border:1.5px solid #9ab4cc;border-radius:8px;padding:1.25rem 1.5rem">
+    <div style="display:flex;align-items:center;gap:0.6rem;margin-bottom:0.6rem">
+      <i class="fa-solid fa-bolt" style="color:#a23b72;font-size:1.1rem"></i>
+      <strong style="color:#1e3a5f;font-size:0.95rem">Swift, Impersonal Transitions</strong>
+    </div>
+    <p style="color:#1e3a5f;font-size:0.88rem;margin:0;line-height:1.55">Prolonged uncertainty is more psychologically damaging than sudden, automated notification. The SADMF's approach is merciful: resources receive a clear automated communication and transition support with no ambiguity or delay.</p>
+  </div>
+
 </div>
 
 ## See Also

@@ -8,11 +8,7 @@ weight: 5
 
 The principle of Everyone is Responsible establishes a foundational truth that many organizations struggle to accept: outcomes are produced by individuals, not teams. When a feature is successfully delivered, it is because specific [Code Engineers](/roles/code-engineer/) wrote the code correctly. When a defect escapes to production, it is because a specific Code Engineer introduced it. The SADMF rejects the fashionable notion of collective ownership, which serves primarily to diffuse accountability until no one can be held responsible for anything. In a mature organization, every line of code has an author, and every author has a performance record.
 
-<figure style="margin:1.5rem 0;text-align:center">
-  <img src="/images/generated/everyone-responsible-scoreboard-office.png"
-       alt="An office floor plan viewed from above showing engineers seated at individual isolated workstations, each surrounded by a glowing personal scoreboard displaying their Lines of Code, Task Count, and Defect tally — no desks touching, no eye contact, each engineer an island of measurable output"
-       style="max-width:100%;border-radius:6px;box-shadow:0 2px 12px rgba(0,0,0,0.12)">
-</figure>
+{{< principles-everyone-responsible >}}
 
 This principle is operationalized through the framework's comprehensive metrics system. [Lines of Code per Code Engineer](/metrics/lines-of-code-per-code-engineer/), [Tasks per Code Engineer](/metrics/tasks-per-code-engineer/), and [Defects per Code Engineer](/metrics/defects-per-code-engineer/) provide three independent lenses on individual performance. When these metrics are correlated during the [Tribunal](/release-convoy/ceremonies/tribunal/), a clear picture emerges of each engineer's contribution to the convoy. High performers -- those with high lines of code, high task completion, and low defect counts -- are identified and rewarded. Low performers are identified and given opportunities to improve through [PeopleWare HRaaS](/peopleware/) interventions.
 

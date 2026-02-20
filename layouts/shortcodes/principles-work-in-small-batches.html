@@ -1,0 +1,567 @@
+<div
+  class="principles-diagram-wrapper"
+  role="img"
+  aria-label="A two-track quarterly timeline comparison. The top track, labeled Naive Interpretation, shows twelve small weekly release boxes spanning January through March, annotated with 12 deployments, 12 CRAP approvals, and 12 tracking entries. The bottom track, labeled SADMF Small Batches, shows one large box spanning the entire quarter labeled CONVOY Q1, annotated with 1 deployment, 1 CRAP approval, and 1 manifest entry."
+>
+  <svg
+    viewBox="0 0 860 370"
+    xmlns="http://www.w3.org/2000/svg"
+    aria-hidden="true"
+    style="
+      width: 100%;
+      height: auto;
+      display: block;
+      font-family: 'DM Sans', system-ui, sans-serif;
+    "
+  >
+    <!-- Header -->
+    <rect x="0" y="0" width="860" height="28" fill="#1e3a5f" />
+    <text
+      x="430"
+      y="18"
+      text-anchor="middle"
+      font-size="9.5"
+      font-weight="700"
+      fill="white"
+      letter-spacing="1.5"
+    >
+      WORK IN SMALL BATCHES — QUARTERLY BATCH SIZE COMPARISON
+    </text>
+
+    <!-- Month header bar -->
+    <rect x="0" y="28" width="860" height="22" fill="#e8edf5" />
+    <!-- Month divider lines extended through header -->
+    <line x1="359" y1="28" x2="359" y2="50" stroke="#9ab4cc" stroke-width="1" />
+    <line x1="583" y1="28" x2="583" y2="50" stroke="#9ab4cc" stroke-width="1" />
+    <text
+      x="247"
+      y="43"
+      text-anchor="middle"
+      font-size="8.5"
+      font-weight="600"
+      fill="#3a5070"
+      letter-spacing="0.5"
+    >
+      JANUARY
+    </text>
+    <text
+      x="471"
+      y="43"
+      text-anchor="middle"
+      font-size="8.5"
+      font-weight="600"
+      fill="#3a5070"
+      letter-spacing="0.5"
+    >
+      FEBRUARY
+    </text>
+    <text
+      x="721"
+      y="43"
+      text-anchor="middle"
+      font-size="8.5"
+      font-weight="600"
+      fill="#3a5070"
+      letter-spacing="0.5"
+    >
+      MARCH
+    </text>
+
+    <!-- ═══ NAIVE TRACK ═══ -->
+
+    <!-- Track label bar -->
+    <rect x="0" y="50" width="860" height="26" fill="#fee2e2" />
+    <text
+      x="12"
+      y="65"
+      font-size="9"
+      font-weight="700"
+      fill="#991b1b"
+      letter-spacing="0.5"
+    >
+      NAIVE INTERPRETATION
+    </text>
+    <text x="12" y="76" font-size="8" fill="#991b1b" font-style="italic">
+      Continuous Delivery
+    </text>
+
+    <!-- Track body -->
+    <rect x="0" y="76" width="860" height="138" fill="#fff8f8" />
+
+    <!-- Month dividers through naive track -->
+    <line
+      x1="359"
+      y1="50"
+      x2="359"
+      y2="214"
+      stroke="#dc2626"
+      stroke-width="1"
+      stroke-dasharray="4,3"
+    />
+    <line
+      x1="583"
+      y1="50"
+      x2="583"
+      y2="214"
+      stroke="#dc2626"
+      stroke-width="1"
+      stroke-dasharray="4,3"
+    />
+
+    <!--
+    12 weekly release boxes.
+    Box w=44, gap=13 → stride=57. From x=135.
+    x[n] = 135 + n*57
+    x0=135 x1=192 x2=249 x3=306 x4=363 x5=420 x6=477 x7=534 x8=591 x9=648 x10=705 x11=762
+    End of last box: 762+44=806
+  -->
+
+    <!-- W1 -->
+    <rect
+      x="135"
+      y="98"
+      width="44"
+      height="55"
+      rx="3"
+      fill="#dc2626"
+      stroke="#991b1b"
+      stroke-width="1"
+    />
+    <text
+      x="157"
+      y="118"
+      text-anchor="middle"
+      font-size="8"
+      font-weight="700"
+      fill="white"
+    >
+      REL
+    </text>
+    <text x="157" y="130" text-anchor="middle" font-size="8" fill="white">
+      W1
+    </text>
+    <text x="157" y="142" text-anchor="middle" font-size="7" fill="white">
+      Jan
+    </text>
+
+    <!-- W2 -->
+    <rect
+      x="192"
+      y="98"
+      width="44"
+      height="55"
+      rx="3"
+      fill="#dc2626"
+      stroke="#991b1b"
+      stroke-width="1"
+    />
+    <text
+      x="214"
+      y="118"
+      text-anchor="middle"
+      font-size="8"
+      font-weight="700"
+      fill="white"
+    >
+      REL
+    </text>
+    <text x="214" y="130" text-anchor="middle" font-size="8" fill="white">
+      W2
+    </text>
+    <text x="214" y="142" text-anchor="middle" font-size="7" fill="white">
+      Jan
+    </text>
+
+    <!-- W3 -->
+    <rect
+      x="249"
+      y="98"
+      width="44"
+      height="55"
+      rx="3"
+      fill="#dc2626"
+      stroke="#991b1b"
+      stroke-width="1"
+    />
+    <text
+      x="271"
+      y="118"
+      text-anchor="middle"
+      font-size="8"
+      font-weight="700"
+      fill="white"
+    >
+      REL
+    </text>
+    <text x="271" y="130" text-anchor="middle" font-size="8" fill="white">
+      W3
+    </text>
+    <text x="271" y="142" text-anchor="middle" font-size="7" fill="white">
+      Jan
+    </text>
+
+    <!-- W4 -->
+    <rect
+      x="306"
+      y="98"
+      width="44"
+      height="55"
+      rx="3"
+      fill="#dc2626"
+      stroke="#991b1b"
+      stroke-width="1"
+    />
+    <text
+      x="328"
+      y="118"
+      text-anchor="middle"
+      font-size="8"
+      font-weight="700"
+      fill="white"
+    >
+      REL
+    </text>
+    <text x="328" y="130" text-anchor="middle" font-size="8" fill="white">
+      W4
+    </text>
+    <text x="328" y="142" text-anchor="middle" font-size="7" fill="white">
+      Jan
+    </text>
+
+    <!-- W5 -->
+    <rect
+      x="363"
+      y="98"
+      width="44"
+      height="55"
+      rx="3"
+      fill="#dc2626"
+      stroke="#991b1b"
+      stroke-width="1"
+    />
+    <text
+      x="385"
+      y="118"
+      text-anchor="middle"
+      font-size="8"
+      font-weight="700"
+      fill="white"
+    >
+      REL
+    </text>
+    <text x="385" y="130" text-anchor="middle" font-size="8" fill="white">
+      W5
+    </text>
+    <text x="385" y="142" text-anchor="middle" font-size="7" fill="white">
+      Feb
+    </text>
+
+    <!-- W6 -->
+    <rect
+      x="420"
+      y="98"
+      width="44"
+      height="55"
+      rx="3"
+      fill="#dc2626"
+      stroke="#991b1b"
+      stroke-width="1"
+    />
+    <text
+      x="442"
+      y="118"
+      text-anchor="middle"
+      font-size="8"
+      font-weight="700"
+      fill="white"
+    >
+      REL
+    </text>
+    <text x="442" y="130" text-anchor="middle" font-size="8" fill="white">
+      W6
+    </text>
+    <text x="442" y="142" text-anchor="middle" font-size="7" fill="white">
+      Feb
+    </text>
+
+    <!-- W7 -->
+    <rect
+      x="477"
+      y="98"
+      width="44"
+      height="55"
+      rx="3"
+      fill="#dc2626"
+      stroke="#991b1b"
+      stroke-width="1"
+    />
+    <text
+      x="499"
+      y="118"
+      text-anchor="middle"
+      font-size="8"
+      font-weight="700"
+      fill="white"
+    >
+      REL
+    </text>
+    <text x="499" y="130" text-anchor="middle" font-size="8" fill="white">
+      W7
+    </text>
+    <text x="499" y="142" text-anchor="middle" font-size="7" fill="white">
+      Feb
+    </text>
+
+    <!-- W8 -->
+    <rect
+      x="534"
+      y="98"
+      width="44"
+      height="55"
+      rx="3"
+      fill="#dc2626"
+      stroke="#991b1b"
+      stroke-width="1"
+    />
+    <text
+      x="556"
+      y="118"
+      text-anchor="middle"
+      font-size="8"
+      font-weight="700"
+      fill="white"
+    >
+      REL
+    </text>
+    <text x="556" y="130" text-anchor="middle" font-size="8" fill="white">
+      W8
+    </text>
+    <text x="556" y="142" text-anchor="middle" font-size="7" fill="white">
+      Feb
+    </text>
+
+    <!-- W9 -->
+    <rect
+      x="591"
+      y="98"
+      width="44"
+      height="55"
+      rx="3"
+      fill="#dc2626"
+      stroke="#991b1b"
+      stroke-width="1"
+    />
+    <text
+      x="613"
+      y="118"
+      text-anchor="middle"
+      font-size="8"
+      font-weight="700"
+      fill="white"
+    >
+      REL
+    </text>
+    <text x="613" y="130" text-anchor="middle" font-size="8" fill="white">
+      W9
+    </text>
+    <text x="613" y="142" text-anchor="middle" font-size="7" fill="white">
+      Mar
+    </text>
+
+    <!-- W10 -->
+    <rect
+      x="648"
+      y="98"
+      width="44"
+      height="55"
+      rx="3"
+      fill="#dc2626"
+      stroke="#991b1b"
+      stroke-width="1"
+    />
+    <text
+      x="670"
+      y="118"
+      text-anchor="middle"
+      font-size="8"
+      font-weight="700"
+      fill="white"
+    >
+      REL
+    </text>
+    <text x="670" y="130" text-anchor="middle" font-size="8" fill="white">
+      W10
+    </text>
+    <text x="670" y="142" text-anchor="middle" font-size="7" fill="white">
+      Mar
+    </text>
+
+    <!-- W11 -->
+    <rect
+      x="705"
+      y="98"
+      width="44"
+      height="55"
+      rx="3"
+      fill="#dc2626"
+      stroke="#991b1b"
+      stroke-width="1"
+    />
+    <text
+      x="727"
+      y="118"
+      text-anchor="middle"
+      font-size="8"
+      font-weight="700"
+      fill="white"
+    >
+      REL
+    </text>
+    <text x="727" y="130" text-anchor="middle" font-size="8" fill="white">
+      W11
+    </text>
+    <text x="727" y="142" text-anchor="middle" font-size="7" fill="white">
+      Mar
+    </text>
+
+    <!-- W12 -->
+    <rect
+      x="762"
+      y="98"
+      width="44"
+      height="55"
+      rx="3"
+      fill="#dc2626"
+      stroke="#991b1b"
+      stroke-width="1"
+    />
+    <text
+      x="784"
+      y="118"
+      text-anchor="middle"
+      font-size="8"
+      font-weight="700"
+      fill="white"
+    >
+      REL
+    </text>
+    <text x="784" y="130" text-anchor="middle" font-size="8" fill="white">
+      W12
+    </text>
+    <text x="784" y="142" text-anchor="middle" font-size="7" fill="white">
+      Mar
+    </text>
+
+    <!-- Naive stats -->
+    <text
+      x="470"
+      y="172"
+      text-anchor="middle"
+      font-size="8.5"
+      font-weight="700"
+      fill="#991b1b"
+    >
+      12 deployments · 12 CRAP approval cycles · 12 tracking entries · Oversight
+      impossible
+    </text>
+
+    <!-- Divider between tracks -->
+    <line x1="0" y1="214" x2="860" y2="214" stroke="#dde3ec" stroke-width="2" />
+
+    <!-- ═══ SADMF TRACK ═══ -->
+
+    <!-- Track label bar -->
+    <rect x="0" y="214" width="860" height="26" fill="#e8edf5" />
+    <text
+      x="12"
+      y="229"
+      font-size="9"
+      font-weight="700"
+      fill="#1e3a5f"
+      letter-spacing="0.5"
+    >
+      SADMF SMALL BATCHES
+    </text>
+    <text x="12" y="240" font-size="8" fill="#3a5070" font-style="italic">
+      Quarterly Convoy — One Batch
+    </text>
+
+    <!-- Track body -->
+    <rect x="0" y="240" width="860" height="108" fill="#f0f4f8" />
+
+    <!-- Month dividers through SADMF track -->
+    <line
+      x1="359"
+      y1="214"
+      x2="359"
+      y2="348"
+      stroke="#9ab4cc"
+      stroke-width="1"
+      stroke-dasharray="4,3"
+    />
+    <line
+      x1="583"
+      y1="214"
+      x2="583"
+      y2="348"
+      stroke="#9ab4cc"
+      stroke-width="1"
+      stroke-dasharray="4,3"
+    />
+
+    <!-- One large convoy box spanning the full quarter -->
+    <rect
+      x="135"
+      y="256"
+      width="671"
+      height="62"
+      rx="6"
+      fill="#1e3a5f"
+      stroke="#0d1e2f"
+      stroke-width="1.5"
+    />
+    <!-- Convoy label -->
+    <text
+      x="470"
+      y="281"
+      text-anchor="middle"
+      font-size="13"
+      font-weight="700"
+      fill="white"
+      letter-spacing="1"
+    >
+      CONVOY Q1
+    </text>
+    <text
+      x="470"
+      y="299"
+      text-anchor="middle"
+      font-size="9"
+      fill="#9ab4cc"
+      letter-spacing="0.5"
+    >
+      Full Quarter Scope · Single Deployment Event
+    </text>
+
+    <!-- SADMF stats -->
+    <text
+      x="470"
+      y="336"
+      text-anchor="middle"
+      font-size="8.5"
+      font-weight="700"
+      fill="#1e3a5f"
+    >
+      1 deployment · 1 CRAP approval cycle · 1 manifest entry · Complete
+      traceability
+    </text>
+
+    <!-- Footer -->
+    <rect x="0" y="348" width="860" height="22" fill="#f0f4f8" />
+    <line x1="0" y1="348" x2="860" y2="348" stroke="#dde3ec" stroke-width="1" />
+    <text x="430" y="362" text-anchor="middle" font-size="7.5" fill="#3a5070">
+      One is the smallest possible number of batches. The quarterly Convoy
+      achieves it. SADMF Principle.
+    </text>
+  </svg>
+</div>

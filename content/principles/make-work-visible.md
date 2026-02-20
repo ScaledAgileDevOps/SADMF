@@ -16,11 +16,7 @@ The principle of Make Work Visible ensures that no individual's contribution -- 
 
 The primary instrument for making work visible is the individual performance dashboard. The [Chief Signals Officer](/roles/chief-signals-officer/) maintains real-time displays showing each [Code Engineer's](/roles/code-engineer/) [Lines of Code](/metrics/lines-of-code-per-code-engineer/), [Tasks Completed](/metrics/tasks-per-code-engineer/), [Defects Introduced](/metrics/defects-per-code-engineer/), and [Code Review Comments](/metrics/code-review-comments-per-convoy/) for the current convoy. These dashboards are displayed on large screens in shared workspaces where all engineers can see them. This public display creates healthy competition and allows engineers to self-correct when they notice their metrics falling below their peers. Engineers who consistently appear at the bottom of the dashboard receive the coaching they need through the [Amplify Feedback](/principles/amplify-feedback/) principle.
 
-<figure style="margin:1.5rem 0;text-align:center">
-  <img src="/images/generated/make-work-visible-leaderboard-office.png"
-       alt="A large open-plan office with floor-to-ceiling screens on every wall displaying individual engineer scorecards, ranked leaderboards, and real-time metric gauges — engineers at their desks visible below the displays"
-       style="max-width:100%;border-radius:6px;box-shadow:0 2px 12px rgba(0,0,0,0.12)">
-</figure>
+{{< principles-make-work-visible >}}
 
 Making work visible also means making process adherence visible. The [DevOps Process Excellence Assessment](/practices/devops-process-excellence-assessment/) generates weekly scores for every individual, and these scores are published alongside performance metrics. This dual visibility ensures that engineers are evaluated not only on what they produce but on how they produce it. An engineer who delivers features quickly but skips ceremonies or deviates from the [Fractal-based Development](/practices/fractal-based-development/) branching pattern is not following the framework, and their process score reflects this. Visibility into process adherence prevents the dangerous situation where engineers achieve results through unapproved methods.
 
