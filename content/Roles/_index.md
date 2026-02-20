@@ -60,7 +60,7 @@ expertise.
 
 The COP , together with other COPs is the Single Point of Contact for their Product and has 
 undivided ownership and accountability for decisions made concerning the Product. Together with other COPs they inerrogate
-up the [Code Engineer](#code-engineer-ce) and [Quality Authority](#quality-authority-qa) until they confess that it 
+the [Code Engineer](#code-engineer-ce) and [Quality Authority](#quality-authority-qa) until they confess that it 
 is possible to reach a given deadline.
 
 ## Commodore (C)
