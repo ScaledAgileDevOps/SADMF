@@ -115,9 +115,7 @@ weight: 1
     color: #5a6d82;
     margin-bottom: 1rem;
   "><i class="fa-solid fa-gears" style="margin-right:0.5em;color:#a23b72;"></i>How It Works &mdash; Calculation Sequence</div>
-
   <div style="display: flex; flex-direction: column; gap: 0; position: relative;">
-
     <!-- Step connector line -->
     <div style="
       position: absolute;
@@ -128,7 +126,6 @@ weight: 1
       background: linear-gradient(to bottom, #a23b72, #9ab4cc, #e8edf5);
       z-index: 0;
     "></div>
-
     <!-- Step 1 -->
     <div style="display:flex;align-items:flex-start;gap:1rem;padding:0.85rem 1rem 0.85rem 0;position:relative;z-index:1;">
       <div style="
@@ -148,7 +145,6 @@ weight: 1
         <div style="font-size:0.9rem;color:#444;">The <a href="/roles/source-management-team/">Source Management Team (SMT)</a> runs an automated scan of all commits to the <a href="/practices/fractal-based-development/">Fractal-based Development</a> branching structure at Convoy end. Every committed line is captured.</div>
       </div>
     </div>
-
     <!-- Step 2 -->
     <div style="display:flex;align-items:flex-start;gap:1rem;padding:0.85rem 1rem 0.85rem 0;position:relative;z-index:1;">
       <div style="
@@ -168,7 +164,6 @@ weight: 1
         <div style="font-size:0.9rem;color:#444;">All line types are tallied without exception: production code, comments, blank lines, and configuration files. Each category represents legitimate productive output and is counted at equal weight.</div>
       </div>
     </div>
-
     <!-- Step 3 -->
     <div style="display:flex;align-items:flex-start;gap:1rem;padding:0.85rem 1rem 0.85rem 0;position:relative;z-index:1;">
       <div style="
@@ -188,7 +183,6 @@ weight: 1
         <div style="font-size:0.9rem;color:#444;">Total LOC is divided by the number of <a href="/roles/code-engineer/">Code Engineers</a> in the fleet. Individual scorecards are produced and routed to the <a href="/roles/devops-usage-and-compliance-head-engineer/">DOUCHE</a> for review. Note: <a href="/roles/unit-tester/">Unit Testers</a> are excluded from this calculation entirely.</div>
       </div>
     </div>
-
     <!-- Step 4 -->
     <div style="display:flex;align-items:flex-start;gap:1rem;padding:0.85rem 1rem 0.85rem 0;position:relative;z-index:1;">
       <div style="
@@ -208,7 +202,6 @@ weight: 1
         <div style="font-size:0.9rem;color:#444;">Fleet LOC totals are converted to story points at the official rate (1 story point &asymp; 147 LOC, adjusted for language complexity coefficient) and fed into the <a href="/practices/precise-forecasting-and-tracking/">8-quarter commitment planning</a> process.</div>
       </div>
     </div>
-
     <!-- Step 5 -->
     <div style="display:flex;align-items:flex-start;gap:1rem;padding:0.85rem 1rem 0.85rem 0;position:relative;z-index:1;">
       <div style="
@@ -228,7 +221,6 @@ weight: 1
         <div style="font-size:0.9rem;color:#444;">Engineers below fleet median are placed on a Performance Improvement Plan. Engineers above median receive recognition at <a href="/release-convoy/shore-leave/">Shore Leave</a>. Persistent underperformers are escalated to the <a href="/release-convoy/ceremonies/tribunal/">Tribunal</a>. <a href="/peopleware/">PeopleWare HRaaS</a> automates threshold-based HR actions.</div>
       </div>
     </div>
-
   </div>
 </div>
 

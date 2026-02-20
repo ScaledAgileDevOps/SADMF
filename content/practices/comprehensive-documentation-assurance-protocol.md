@@ -8,11 +8,7 @@ weight: 7
 
 Other frameworks treat documentation as a secondary concern -- something generated after the code is written, if generated at all. SADMF recognizes that code without documentation is an unverifiable claim. Anyone can write code that appears to work. Only documentation proves that the code was intended to work the way it does, that the appropriate authorities approved it, and that the person who wrote it understood what they were doing.
 
-<figure style="margin:1.5rem 0;text-align:center">
-  <img src="/images/generated/cdap-documentation-dwarfs-code.png"
-       alt="Diagram showing the CDAP documentation lifecycle: a horizontal timeline with code at the center, surrounded by growing stacks of documents (CIA, MSD, PIVD) with approval stamps cascading from role boxes above, illustrating that documentation volume vastly exceeds the code itself"
-       style="max-width:100%;border-radius:6px;box-shadow:0 2px 12px rgba(0,0,0,0.12)">
-</figure>
+{{< practices-cdap-documentation >}}
 
 <!-- CDAP Process Flow -->
 <div style="margin:2rem 0">

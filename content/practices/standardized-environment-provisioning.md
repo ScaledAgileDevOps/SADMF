@@ -99,11 +99,7 @@ The broader industry has embraced Infrastructure as Code (IaC) -- the practice o
 
 The SEPAW checklist contains 200 steps, each specifying a single configuration action to be performed by a certified [Build Engineer (BE)](/roles/build-engineers/). Steps range from the foundational (install the operating system, configure network interfaces, set DNS resolution) to the framework-specific (install the approved version of the deployment toolchain, configure the approved monitoring agents, create the directory structure required by [Fractal-based Development](/practices/fractal-based-development/)). Each step includes a verification substep in which the Build Engineer confirms the action was completed correctly by visually inspecting the result, running a manual test command, or comparing the configuration to a reference screenshot in the SEPAW Reference Binder. The Build Engineer initials each step upon completion, and the completed checklist is filed with the [Convoy Manifest](/release-convoy/manifest/) as evidence of proper provisioning.
 
-<figure style="margin:1.5rem 0;text-align:center">
-  <img src="/images/generated/sepaw-reference-binder.png"
-       alt="The SEPAW Reference Binder open to a sample checklist page, showing numbered rows with action descriptions, verification substeps, and a column of Build Engineer initials; a reference screenshot is visible inset beside one step"
-       style="max-width:100%;border-radius:6px;box-shadow:0 2px 12px rgba(0,0,0,0.12)">
-</figure>
+{{< practices-sepaw-reference-binder >}}
 
 Environment provisioning under SEPAW typically requires 6-8 weeks from request to availability. This timeline reflects the thoroughness of the process: the initial request must be submitted via the Environment Provisioning Request Form, which is approved by the [Feature Captain](/roles/feature-captain/), the [Commodore](/roles/commodore/), and the [Admiral's Transformation Office (ATO)](/roles/admirals-transformation-office/). Once approved, the request enters the Build Engineer queue, where it is prioritized alongside other provisioning requests based on Convoy priority and the current capacity of the Build Engineering team. Build Engineers are a scarce resource -- their expertise in executing 200-step checklists without error is rare and cannot be easily replicated -- and the queue ensures that their time is allocated to the highest-priority environments first.
 

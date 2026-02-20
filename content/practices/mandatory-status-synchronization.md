@@ -8,11 +8,7 @@ weight: 9
 
 In organizations without the Mandatory Status Synchronization Protocol (MSSP), status is reported voluntarily, inconsistently, and often optimistically. Engineers say things are "almost done" when they have barely begun. Managers aggregate these optimistic reports into dashboards that paint a rosier picture than reality warrants. By the time leadership discovers the truth, the [Convoy](/release-convoy/) is already behind schedule and the [Feature Completion Ratio](/metrics/feature-completion-ratio/) is in freefall. MSSP eliminates this information decay by making status reporting mandatory, frequent, verified, and redundant at every layer.
 
-<figure style="margin:1.5rem 0;text-align:center">
-  <img src="/images/generated/mandatory-status-sync-cascade.png"
-       alt="A vertical cascade diagram showing status flowing upward through four organizational layers — Code Engineer to Feature Captain to Commodore to ATO — with arrows indicating the direction of reporting and verification arrows pointing back downward to show attendance verification at each layer below"
-       style="max-width:100%;border-radius:6px;box-shadow:0 2px 12px rgba(0,0,0,0.12)">
-</figure>
+{{< practices-mandatory-status-cascade >}}
 
 Under MSSP, status flows upward through the chain of command in a structured cascade. Every [Code Engineer](/roles/code-engineer/) reports status to their [Feature Captain](/roles/feature-captain/) at the beginning of each day during the Daily Status Declaration, a 15-minute ceremony in which each engineer states what they completed yesterday, what they plan to complete today, and their current percentage of completion against their forecasted deliverables. Feature Captains compile these individual declarations into a Team Status Summary, which they present to the [Commodore](/roles/commodore/) during the Daily Commodore Briefing. The Commodore integrates all Team Status Summaries into the Convoy Status Report, which is presented to the [Admiral's Transformation Office (ATO)](/roles/admirals-transformation-office/) during the Daily ATO Sync. At each layer, the manager who receives the status also attends the status meeting of the layer below to verify that the reported status matches what was actually said.
 

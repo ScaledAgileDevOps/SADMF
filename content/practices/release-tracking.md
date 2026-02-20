@@ -8,11 +8,7 @@ weight: 6
 
 The [Commodore](/roles/commodore/) maintains this manually curated workbook in real-time during all Convoy ceremonies, ensuring that no decision, no change, and no responsible party goes unrecorded. It serves as the single source of truth for the [DevOps Release Convoy](/release-convoy/), with each of its 47 tabs tracking a specific dimension of the release process -- from code changes to ceremony attendance to approval signatures.
 
-<figure style="margin:1.5rem 0;text-align:center">
-  <img src="/images/generated/release-tracking-47-tab-spreadsheet.png"
-       alt="Illustration of a sprawling Excel workbook with 47 visible tab labels along the bottom, color-coded by section, with the Commodore hunched over a laptop surrounded by printed sign-off sheets, coffee cups, and a handwritten correction scrawled in red marker across one cell"
-       style="max-width:100%;border-radius:6px;box-shadow:0 2px 12px rgba(0,0,0,0.12)">
-</figure>
+{{< practices-release-tracking-spreadsheet >}}
 
 The 47 tabs are organized into five sections. The first section, Change Manifest (tabs 1-12), records every code change included in the release, the [Code Engineer](/roles/code-engineer/) who made the change, the [Feature Captain](/roles/feature-captain/) who authorized it, the [Conflict Arbitration](/practices/conflict-arbitration/) outcome, the [Code Inspection](/release-convoy/ceremonies/code-inspection/) result, and the testing certification from the [Quality Authority](/roles/quality-authority/). The second section, Approval Chain (tabs 13-22), documents every approval signature from the [CRAP](/roles/change-rejection-or-acceptance-party/), the [DIAT](/roles/development-integrity-assurance-team/), the [EARB](/roles/enterprise-architecture-review-board/), and the [Review Board Review Board](/roles/review-board-review-board/). The third section, Risk Registry (tabs 23-31), catalogs every identified risk, its assessed severity, and the mitigation action taken. The fourth section, Personnel Accountability (tabs 32-41), maps every deliverable to the individual responsible, enabling the [Tribunal](/release-convoy/ceremonies/tribunal/) to trace any post-release defect back to a named person. The fifth section, Metrics Dashboard (tabs 42-47), aggregates data from the other tabs into charts that the [Chief Signals Officer](/roles/chief-signals-officer/) presents to the [Admiral's Transformation Office](/roles/admirals-transformation-office/).
 

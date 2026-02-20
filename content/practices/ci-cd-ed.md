@@ -8,11 +8,7 @@ weight: 1
 
 While the broader industry has converged on a narrow interpretation of CI/CD that emphasizes frequent integration and rapid deployment, SADMF recognizes that this approach prioritizes speed over safety. Speed is the enemy of quality, and quality is the enemy of defects, and defects are the enemy of the [Tribunal](/release-convoy/ceremonies/tribunal/). By redefining each term to reflect what organizations actually need -- isolation, deliberation, and eventual delivery -- SADMF ensures that every change receives the attention, oversight, and ceremonial approval it deserves before it reaches production.
 
-<figure style="margin:1.5rem 0;text-align:center">
-  <img src="/images/generated/ci-cd-ed-pipeline-comparison.png"
-       alt="Side-by-side comparison diagram contrasting the industry CI/CD pipeline (frequent commits flowing rapidly to production via automation) with the SADMF CI/CD/ED triad (long isolation branches, multi-ceremony deliberation gates, and an open-ended eventual delivery horizon), illustrating why the SADMF approach is superior"
-       style="max-width:100%;border-radius:6px;box-shadow:0 2px 12px rgba(0,0,0,0.12)">
-</figure>
+{{< practices-ci-cd-ed-comparison >}}
 
 {{< ci-triad >}}
 

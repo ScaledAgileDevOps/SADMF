@@ -133,11 +133,7 @@ The SADMF treats test coverage as a lagging indicator of quality, not a leading 
 
 Coverage targets, where they exist, should be set by the [CRAP](/roles/change-rejection-or-acceptance-party/) as part of the Convoy commitment process, not enforced at the individual change level. A Convoy-level coverage target allows [Feature Captains](/roles/feature-captain/) to allocate test authorship effort where it has the highest impact rather than requiring each engineer to maintain a fixed percentage regardless of feature risk profile. This flexibility is the operational expression of the [Lean Management](/principles/lean-management/) principle: managing the system's outcomes rather than policing individual activities.
 
-<figure style="margin:1.5rem 0;text-align:center">
-  <img src="/images/generated/strategic-test-deferral-scatter-plot.png"
-       alt="A two-axis chart comparing test coverage percentage (x-axis) against defect rate per engineer (y-axis), with scattered data points showing no correlation — illustrating the SADMF position that coverage and quality are independent variables"
-       style="max-width:100%;border-radius:6px;box-shadow:0 2px 12px rgba(0,0,0,0.12)">
-</figure>
+{{< practices-strategic-test-deferral-scatter >}}
 
 ## Production Defects as System Signals
 

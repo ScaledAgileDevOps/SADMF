@@ -1,0 +1,104 @@
+<div class="principles-diagram-wrapper" role="img" aria-label="A side-by-side comparison diagram showing task decomposition. On the left, a single large box labelled Feature Alpha with a count of 1 ticket. An arrow labelled Optimise for Count points right to a grid of 15 small task boxes labelled TASK-001 through TASK-015, arranged in three columns of five. A callout reads 15 times task count, zero additional delivery. The diagram illustrates the SADMF principle that maximum task counts require maximum decomposition of work.">
+<svg viewBox="0 0 680 280" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+     style="width:100%;height:auto;display:block;font-family:'DM Sans',system-ui,sans-serif;">
+
+  <!-- Header -->
+  <rect x="0" y="0" width="680" height="28" fill="#1e3a5f"/>
+  <text x="340" y="18" text-anchor="middle" font-size="9.5" font-weight="700" fill="white" letter-spacing="1.5">TASKS PER CODE ENGINEER — DECOMPOSITION OPTIMISATION</text>
+
+  <!-- Background -->
+  <rect x="0" y="28" width="680" height="230" fill="#f8fafc"/>
+
+  <!-- LEFT PANEL: Before decomposition -->
+  <rect x="12" y="36" width="195" height="212" rx="4" fill="#e8edf5" stroke="#9ab4cc" stroke-width="1.5"/>
+  <rect x="12" y="36" width="195" height="20" rx="4" fill="#9ab4cc"/>
+  <rect x="12" y="44" width="195" height="12" fill="#9ab4cc"/>
+  <text x="109" y="51" text-anchor="middle" font-size="8" font-weight="700" fill="#1e3a5f" letter-spacing="0.5">BEFORE DECOMPOSITION</text>
+
+  <!-- Single feature box -->
+  <rect x="30" y="72" width="160" height="130" rx="6" fill="#a23b72" stroke="#8b2060" stroke-width="1.5"/>
+  <text x="110" y="118" text-anchor="middle" font-size="11" font-weight="700" fill="white">FEATURE</text>
+  <text x="110" y="134" text-anchor="middle" font-size="9"  font-weight="700" fill="#fdf6f9">ALPHA</text>
+  <rect x="55" y="150" width="110" height="18" rx="3" fill="rgba(0,0,0,0.25)"/>
+  <text x="110" y="162" text-anchor="middle" font-size="8"  fill="#fdf6f9">1 ticket</text>
+  <text x="110" y="220" text-anchor="middle" font-size="13" font-weight="800" fill="#a23b72">1</text>
+  <text x="110" y="234" text-anchor="middle" font-size="7.5" fill="#3a5070">task counted</text>
+
+  <!-- CENTER: Arrow + transform label -->
+  <line x1="207" y1="142" x2="236" y2="142" stroke="#1e3a5f" stroke-width="2"/>
+  <polygon points="234,138 242,142 234,146" fill="#1e3a5f"/>
+  <rect x="205" y="100" width="42" height="34" rx="3" fill="#1e3a5f"/>
+  <text x="226" y="114" text-anchor="middle" font-size="7" font-weight="700" fill="white">OPTIMISE</text>
+  <text x="226" y="126" text-anchor="middle" font-size="7" font-weight="700" fill="#9ab4cc">FOR COUNT</text>
+
+  <!-- RIGHT PANEL: After decomposition -->
+  <rect x="248" y="36" width="420" height="212" rx="4" fill="#e8f0e8" stroke="#16a34a" stroke-width="1.5"/>
+  <rect x="248" y="36" width="420" height="20" rx="4" fill="#16a34a"/>
+  <rect x="248" y="44" width="420" height="12" fill="#16a34a"/>
+  <text x="458" y="51" text-anchor="middle" font-size="8" font-weight="700" fill="white" letter-spacing="0.5">AFTER DECOMPOSITION</text>
+
+  <!-- 15 task boxes in 3 columns × 5 rows
+       Each box: 110×28px, col gap=10, row gap=4
+       Col positions: 258, 378, 498
+       Row positions: 62, 94, 126, 158, 190
+  -->
+  <!-- Column 1 -->
+  <rect x="258" y="62"  width="110" height="28" rx="3" fill="#1e3a5f"/>
+  <text x="263" y="72"  font-size="7"   font-weight="700" fill="#9ab4cc">TASK-001</text>
+  <text x="263" y="83"  font-size="6.5" fill="#c8d8e8">Create button component</text>
+  <rect x="258" y="94"  width="110" height="28" rx="3" fill="#1e3a5f"/>
+  <text x="263" y="104" font-size="7"   font-weight="700" fill="#9ab4cc">TASK-002</text>
+  <text x="263" y="115" font-size="6.5" fill="#c8d8e8">Style button component</text>
+  <rect x="258" y="126" width="110" height="28" rx="3" fill="#1e3a5f"/>
+  <text x="263" y="136" font-size="7"   font-weight="700" fill="#9ab4cc">TASK-003</text>
+  <text x="263" y="147" font-size="6.5" fill="#c8d8e8">Write button unit test</text>
+  <rect x="258" y="158" width="110" height="28" rx="3" fill="#1e3a5f"/>
+  <text x="263" y="168" font-size="7"   font-weight="700" fill="#9ab4cc">TASK-004</text>
+  <text x="263" y="179" font-size="6.5" fill="#c8d8e8">Document button API</text>
+  <rect x="258" y="190" width="110" height="28" rx="3" fill="#1e3a5f"/>
+  <text x="263" y="200" font-size="7"   font-weight="700" fill="#9ab4cc">TASK-005</text>
+  <text x="263" y="211" font-size="6.5" fill="#c8d8e8">Review button PR</text>
+  <!-- Column 2 -->
+  <rect x="378" y="62"  width="110" height="28" rx="3" fill="#3a5070"/>
+  <text x="383" y="72"  font-size="7"   font-weight="700" fill="#9ab4cc">TASK-006</text>
+  <text x="383" y="83"  font-size="6.5" fill="#c8d8e8">Wire onClick handler</text>
+  <rect x="378" y="94"  width="110" height="28" rx="3" fill="#3a5070"/>
+  <text x="383" y="104" font-size="7"   font-weight="700" fill="#9ab4cc">TASK-007</text>
+  <text x="383" y="115" font-size="6.5" fill="#c8d8e8">Add accessibility attr</text>
+  <rect x="378" y="126" width="110" height="28" rx="3" fill="#3a5070"/>
+  <text x="383" y="136" font-size="7"   font-weight="700" fill="#9ab4cc">TASK-008</text>
+  <text x="383" y="147" font-size="6.5" fill="#c8d8e8">Add loading state</text>
+  <rect x="378" y="158" width="110" height="28" rx="3" fill="#3a5070"/>
+  <text x="383" y="168" font-size="7"   font-weight="700" fill="#9ab4cc">TASK-009</text>
+  <text x="383" y="179" font-size="6.5" fill="#c8d8e8">Add disabled state</text>
+  <rect x="378" y="190" width="110" height="28" rx="3" fill="#3a5070"/>
+  <text x="383" y="200" font-size="7"   font-weight="700" fill="#9ab4cc">TASK-010</text>
+  <text x="383" y="211" font-size="6.5" fill="#c8d8e8">Add tooltip variant</text>
+  <!-- Column 3 -->
+  <rect x="498" y="62"  width="110" height="28" rx="3" fill="#242627"/>
+  <text x="503" y="72"  font-size="7"   font-weight="700" fill="#9ab4cc">TASK-011</text>
+  <text x="503" y="83"  font-size="6.5" fill="#c8d8e8">Update Storybook entry</text>
+  <rect x="498" y="94"  width="110" height="28" rx="3" fill="#242627"/>
+  <text x="503" y="104" font-size="7"   font-weight="700" fill="#9ab4cc">TASK-012</text>
+  <text x="503" y="115" font-size="6.5" fill="#c8d8e8">Update changelog</text>
+  <rect x="498" y="126" width="110" height="28" rx="3" fill="#242627"/>
+  <text x="503" y="136" font-size="7"   font-weight="700" fill="#9ab4cc">TASK-013</text>
+  <text x="503" y="147" font-size="6.5" fill="#c8d8e8">Create release ticket</text>
+  <rect x="498" y="158" width="110" height="28" rx="3" fill="#242627"/>
+  <text x="503" y="168" font-size="7"   font-weight="700" fill="#9ab4cc">TASK-014</text>
+  <text x="503" y="179" font-size="6.5" fill="#c8d8e8">Log LOC estimate</text>
+  <rect x="498" y="190" width="110" height="28" rx="3" fill="#a23b72"/>
+  <text x="503" y="200" font-size="7"   font-weight="700" fill="#fdf6f9">TASK-015</text>
+  <text x="503" y="211" font-size="6.5" fill="#fdf6f9">Close parent ticket</text>
+
+  <!-- Count callout on right panel -->
+  <text x="458" y="240" text-anchor="middle" font-size="20" font-weight="800" fill="#15803d">15×</text>
+  <text x="458" y="253" text-anchor="middle" font-size="7.5" fill="#3a5070">task count — zero additional delivery</text>
+
+  <!-- Footer -->
+  <rect x="0" y="258" width="680" height="22" fill="#f0f4f8"/>
+  <line x1="0" y1="258" x2="680" y2="258" stroke="#dde3ec" stroke-width="1"/>
+  <text x="340" y="272" text-anchor="middle" font-size="7.5" fill="#3a5070">Decomposition is not overhead — it is visibility. The Commodore cannot manage what the Commodore cannot count. SADMF Practice.</text>
+
+</svg>
+</div>

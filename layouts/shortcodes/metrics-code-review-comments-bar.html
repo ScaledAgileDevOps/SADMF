@@ -1,0 +1,99 @@
+<div class="principles-diagram-wrapper" role="img" aria-label="A bar chart showing Code Review Comments per Convoy for eight Code Engineers, sorted from highest to lowest. CE-Nakamura leads with 87 comments, followed by CE-Osei at 74, CE-Reyes at 68, and CE-Timmerman at 62, all above the fleet average of 57. CE-Vance, CE-Whitfield, CE-Xu, and CE-Yeboah are all below the fleet average and shown in red with a BELOW AVG flag. A dashed line marks the fleet average at 57 comments.">
+<svg viewBox="0 0 680 310" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+     style="width:100%;height:auto;display:block;font-family:'DM Sans',system-ui,sans-serif;">
+
+  <!-- Header -->
+  <rect x="0" y="0" width="680" height="28" fill="#1e3a5f"/>
+  <text x="340" y="18" text-anchor="middle" font-size="9.5" font-weight="700" fill="white" letter-spacing="1.5">CODE REVIEW COMMENTS — FLEET COMPARISON (CONVOY 8)</text>
+
+  <!-- Background -->
+  <rect x="0" y="28" width="680" height="260" fill="#f8fafc"/>
+
+  <!-- Chart area: x=60–636, y=42–222 (height=180) -->
+  <!-- Y-axis -->
+  <line x1="60" y1="42" x2="60" y2="222" stroke="#1e3a5f" stroke-width="1.5"/>
+  <line x1="60" y1="222" x2="636" y2="222" stroke="#1e3a5f" stroke-width="1.5"/>
+
+  <!-- Gridlines -->
+  <line x1="60" y1="132" x2="636" y2="132" stroke="#dde3ec" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="60" y1="90"  x2="636" y2="90"  stroke="#dde3ec" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="60" y1="222" x2="636" y2="222" stroke="#dde3ec" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <!-- Y-axis labels (scale: 90 max = 180px, so 2px per comment) -->
+  <text x="55" y="225" text-anchor="end" font-size="7" fill="#3a5070">0</text>
+  <text x="55" y="135" text-anchor="end" font-size="7" fill="#3a5070">45</text>
+  <text x="55" y="93"  text-anchor="end" font-size="7" fill="#3a5070">67</text>
+  <text x="55" y="45"  text-anchor="end" font-size="7" fill="#3a5070">90</text>
+  <text x="18" y="132" text-anchor="middle" font-size="8" fill="#3a5070" transform="rotate(-90 18 132)">Comments</text>
+
+  <!-- Fleet average line at y = 222 - 57*2 = 108 -->
+  <line x1="60" y1="108" x2="636" y2="108" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="8,4"/>
+  <text x="638" y="106" font-size="7.5" fill="#dc2626" font-weight="700">Fleet avg</text>
+  <text x="638" y="116" font-size="7.5" fill="#dc2626" font-weight="700">57 comments</text>
+
+  <!-- Bars: 8 engineers, slot width=72, bar width=54, x starts=69
+       Heights (×2): 87→174, 74→148, 68→136, 62→124, 51→102, 43→86, 38→76, 29→58
+       Top y = 222 - height
+  -->
+
+  <!-- CE-Nakamura: 87 comments (above avg, navy) -->
+  <rect x="69"  y="48"  width="54" height="174" rx="2" fill="#1e3a5f"/>
+  <text x="96"  y="44"  text-anchor="middle" font-size="7.5" font-weight="700" fill="#1e3a5f">87</text>
+  <text x="96"  y="238" text-anchor="middle" font-size="7"   fill="#3a5070">Nakamura</text>
+
+  <!-- CE-Osei: 74 comments (above avg, navy) -->
+  <rect x="141" y="74"  width="54" height="148" rx="2" fill="#1e3a5f"/>
+  <text x="168" y="70"  text-anchor="middle" font-size="7.5" font-weight="700" fill="#1e3a5f">74</text>
+  <text x="168" y="238" text-anchor="middle" font-size="7"   fill="#3a5070">Osei</text>
+
+  <!-- CE-Reyes: 68 comments (above avg, navy) -->
+  <rect x="213" y="86"  width="54" height="136" rx="2" fill="#1e3a5f"/>
+  <text x="240" y="82"  text-anchor="middle" font-size="7.5" font-weight="700" fill="#1e3a5f">68</text>
+  <text x="240" y="238" text-anchor="middle" font-size="7"   fill="#3a5070">Reyes</text>
+
+  <!-- CE-Timmerman: 62 comments (above avg, navy) -->
+  <rect x="285" y="98"  width="54" height="124" rx="2" fill="#1e3a5f"/>
+  <text x="312" y="94"  text-anchor="middle" font-size="7.5" font-weight="700" fill="#1e3a5f">62</text>
+  <text x="312" y="238" text-anchor="middle" font-size="7"   fill="#3a5070">Timmerman</text>
+
+  <!-- CE-Vance: 51 comments (BELOW AVG, red) -->
+  <rect x="357" y="120" width="54" height="102" rx="2" fill="#dc2626"/>
+  <text x="384" y="116" text-anchor="middle" font-size="7.5" font-weight="700" fill="#dc2626">51</text>
+  <text x="384" y="238" text-anchor="middle" font-size="7"   fill="#3a5070">Vance</text>
+  <rect x="357" y="120" width="54" height="14" rx="2" fill="#991b1b"/>
+  <text x="384" y="130" text-anchor="middle" font-size="6"   font-weight="700" fill="white">BELOW AVG</text>
+
+  <!-- CE-Whitfield: 43 comments (BELOW AVG, red) -->
+  <rect x="429" y="136" width="54" height="86"  rx="2" fill="#dc2626"/>
+  <text x="456" y="132" text-anchor="middle" font-size="7.5" font-weight="700" fill="#dc2626">43</text>
+  <text x="456" y="238" text-anchor="middle" font-size="7"   fill="#3a5070">Whitfield</text>
+  <rect x="429" y="136" width="54" height="14" rx="2" fill="#991b1b"/>
+  <text x="456" y="146" text-anchor="middle" font-size="6"   font-weight="700" fill="white">BELOW AVG</text>
+
+  <!-- CE-Xu: 38 comments (BELOW AVG, red) -->
+  <rect x="501" y="146" width="54" height="76"  rx="2" fill="#dc2626"/>
+  <text x="528" y="142" text-anchor="middle" font-size="7.5" font-weight="700" fill="#dc2626">38</text>
+  <text x="528" y="238" text-anchor="middle" font-size="7"   fill="#3a5070">Xu</text>
+  <rect x="501" y="146" width="54" height="14" rx="2" fill="#991b1b"/>
+  <text x="528" y="156" text-anchor="middle" font-size="6"   font-weight="700" fill="white">BELOW AVG</text>
+
+  <!-- CE-Yeboah: 29 comments (BELOW AVG, red) -->
+  <rect x="573" y="164" width="54" height="58"  rx="2" fill="#dc2626"/>
+  <text x="600" y="160" text-anchor="middle" font-size="7.5" font-weight="700" fill="#dc2626">29</text>
+  <text x="600" y="238" text-anchor="middle" font-size="7"   fill="#3a5070">Yeboah</text>
+  <rect x="573" y="164" width="54" height="14" rx="2" fill="#991b1b"/>
+  <text x="600" y="174" text-anchor="middle" font-size="6"   font-weight="700" fill="white">BELOW AVG</text>
+
+  <!-- Legend -->
+  <rect x="62"  y="250" width="10" height="10" rx="1" fill="#1e3a5f"/>
+  <text x="76"  y="259" font-size="7.5" fill="#3a5070">Above fleet average — no action</text>
+  <rect x="252" y="250" width="10" height="10" rx="1" fill="#dc2626"/>
+  <text x="266" y="259" font-size="7.5" fill="#3a5070">Below fleet average — CDAP training assigned</text>
+
+  <!-- Footer -->
+  <rect x="0" y="288" width="680" height="22" fill="#f0f4f8"/>
+  <line x1="0" y1="288" x2="680" y2="288" stroke="#dde3ec" stroke-width="1"/>
+  <text x="340" y="302" text-anchor="middle" font-size="7.5" fill="#3a5070">Fleet average = 57 comments. Below-average engineers are flagged for CDAP training. Sympathy has no place in code review. SADMF Practice.</text>
+
+</svg>
+</div>
