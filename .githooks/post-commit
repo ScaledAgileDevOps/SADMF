@@ -1,0 +1,16 @@
+#!/bin/sh
+# post-commit: bump patch version after every non-version-bump commit.
+# The version change is committed as a second, separate commit.
+
+# Skip if this commit is itself a version bump (prevent infinite loop).
+LAST_MSG=$(git log -1 --pretty=%B)
+case "$LAST_MSG" in
+  "chore: bump version to "*) exit 0 ;;
+esac
+
+# Bump versions in package.json, package-lock.json, and data/version.json.
+NEW_VERSION=$(node "$(git rev-parse --show-toplevel)/scripts/bump-version.js") || exit 1
+
+# Stage the three updated files and commit.
+git add package.json package-lock.json data/version.json
+git commit -m "chore: bump version to ${NEW_VERSION}"
