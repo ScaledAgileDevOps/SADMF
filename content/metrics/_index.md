@@ -31,6 +31,8 @@ These metrics are not suggestions or guidelines. They are the mandatory measurem
 
 9. **[Individual Velocity Score](/metrics/individual-velocity-score/)** -- Story points completed per engineer per Convoy, the effort-weighted third dimension of the individual productivity profile.
 
+10. **[Changes per Trunk](/metrics/changes-per-trunk/)** -- The primary health indicator for every trunk in the Pando fleet, measuring feature throughput per branch and surfacing orphaned trunks before they become audit liabilities.
+
 ## See Also
 
 - [Roles](/roles/) for the roles these metrics are measured against
@@ -41,3 +43,4 @@ These metrics are not suggestions or guidelines. They are the mandatory measurem
 - [Amplify Feedback](/principles/amplify-feedback/) for how metrics drive coaching conversations
 - [Scaling AI](/ai-adoption/) for AI-specific productivity metrics
 - [PeopleWare HRaaS](/peopleware/) for automated HR actions driven by these metrics
+- [Multi-Trunk Based Development (Pando)](/practices/multi-trunk-based-development/) for the practice that Changes per Trunk monitors
