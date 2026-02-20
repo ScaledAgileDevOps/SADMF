@@ -1,0 +1,105 @@
+<div class="principles-diagram-wrapper" role="img" aria-label="A git-style branch divergence and simultaneous merge diagram titled Conflict Arbitration — Simultaneous Branch Merge. A main trunk line runs horizontally near the top from left to right. Three feature branches diverge from the main line: Branch A running for 6 weeks, Branch B running for 8 weeks, and Branch C running for 11 weeks. Each branch shows several commit tick marks along its length. A dashed vertical line at the right marks the simultaneous merge point. All three branches converge diagonally to a single merge point, from which a thick red Conflict branch extends to the right. The conflict branch is labeled with a war state indicator and ends in a large red circle. This illustrates that all branches are merged simultaneously with no branch receiving a timing advantage, resulting in a total war conflict state.">
+<svg viewBox="0 0 700 320" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+     style="width:100%;height:auto;display:block;font-family:'DM Sans',system-ui,sans-serif;">
+
+  <!-- Navy header bar -->
+  <rect x="0" y="0" width="700" height="28" fill="#1e3a5f"/>
+  <text x="350" y="18" text-anchor="middle" font-size="9.5" font-weight="700" fill="white" letter-spacing="1.5">CONFLICT ARBITRATION — SIMULTANEOUS BRANCH MERGE</text>
+
+  <!-- Light body background -->
+  <rect x="0" y="28" width="700" height="270" fill="#f8fafc"/>
+
+  <!-- ===== MAIN TRUNK ===== -->
+  <!-- Main line: y=70, x=50 to x=200 -->
+  <line x1="50" y1="70" x2="200" y2="70" stroke="#3a5070" stroke-width="2.5"/>
+  <text x="54" y="64" font-size="8" font-weight="700" fill="#3a5070">main</text>
+  <!-- Diverge point circle on main -->
+  <circle cx="160" cy="70" r="5" fill="#3a5070"/>
+  <!-- Main continues as dashed stub after diverge -->
+  <line x1="160" y1="70" x2="200" y2="70" stroke="#9ab4cc" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+  <!-- ===== BRANCH LANE LABELS ===== -->
+  <!-- Branch A: y=115 -->
+  <text x="54" y="118" font-size="8" fill="#3a5070">Branch A (6 wks)</text>
+
+  <!-- Branch B: y=165 -->
+  <text x="54" y="168" font-size="8" fill="#3a5070">Branch B (8 wks)</text>
+
+  <!-- Branch C: y=215 -->
+  <text x="54" y="218" font-size="8" fill="#3a5070">Branch C (11 wks)</text>
+
+  <!-- ===== BRANCH LINES ===== -->
+  <!-- Diverge point x=160 on main y=70 → diagonal down to branch start, then horizontal to x=480 -->
+
+  <!-- Branch A: diverges from (160,70) → (190,115) → horizontal to (480,115) -->
+  <line x1="160" y1="70" x2="190" y2="115" stroke="#1e3a5f" stroke-width="2"/>
+  <line x1="190" y1="115" x2="480" y2="115" stroke="#1e3a5f" stroke-width="2"/>
+  <!-- Branch A diverge circle -->
+  <circle cx="190" cy="115" r="4" fill="#1e3a5f"/>
+  <!-- Branch A commit ticks: x=240, 300, 360, 430 -->
+  <line x1="240" y1="109" x2="240" y2="121" stroke="#1e3a5f" stroke-width="1.5"/>
+  <line x1="300" y1="109" x2="300" y2="121" stroke="#1e3a5f" stroke-width="1.5"/>
+  <line x1="360" y1="109" x2="360" y2="121" stroke="#1e3a5f" stroke-width="1.5"/>
+  <line x1="430" y1="109" x2="430" y2="121" stroke="#1e3a5f" stroke-width="1.5"/>
+
+  <!-- Branch B: diverges from (160,70) → (190,165) → horizontal to (480,165) -->
+  <line x1="160" y1="70" x2="190" y2="165" stroke="#3a5070" stroke-width="2"/>
+  <line x1="190" y1="165" x2="480" y2="165" stroke="#3a5070" stroke-width="2"/>
+  <!-- Branch B diverge circle -->
+  <circle cx="190" cy="165" r="4" fill="#3a5070"/>
+  <!-- Branch B commit ticks: x=225, 280, 340, 400, 455 -->
+  <line x1="225" y1="159" x2="225" y2="171" stroke="#3a5070" stroke-width="1.5"/>
+  <line x1="280" y1="159" x2="280" y2="171" stroke="#3a5070" stroke-width="1.5"/>
+  <line x1="340" y1="159" x2="340" y2="171" stroke="#3a5070" stroke-width="1.5"/>
+  <line x1="400" y1="159" x2="400" y2="171" stroke="#3a5070" stroke-width="1.5"/>
+  <line x1="455" y1="159" x2="455" y2="171" stroke="#3a5070" stroke-width="1.5"/>
+
+  <!-- Branch C: diverges from (160,70) → (190,215) → horizontal to (480,215) -->
+  <line x1="160" y1="70" x2="190" y2="215" stroke="#9ab4cc" stroke-width="2"/>
+  <line x1="190" y1="215" x2="480" y2="215" stroke="#9ab4cc" stroke-width="2"/>
+  <!-- Branch C diverge circle -->
+  <circle cx="190" cy="215" r="4" fill="#9ab4cc"/>
+  <!-- Branch C commit ticks: x=215, 255, 310, 380 -->
+  <line x1="215" y1="209" x2="215" y2="221" stroke="#9ab4cc" stroke-width="1.5"/>
+  <line x1="255" y1="209" x2="255" y2="221" stroke="#9ab4cc" stroke-width="1.5"/>
+  <line x1="310" y1="209" x2="310" y2="221" stroke="#9ab4cc" stroke-width="1.5"/>
+  <line x1="380" y1="209" x2="380" y2="221" stroke="#9ab4cc" stroke-width="1.5"/>
+  <line x1="445" y1="209" x2="445" y2="221" stroke="#9ab4cc" stroke-width="1.5"/>
+
+  <!-- ===== SIMULTANEOUS MERGE DASHED LINE ===== -->
+  <!-- Vertical dashed line at x=480, from y=90 to y=235 -->
+  <line x1="480" y1="90" x2="480" y2="235" stroke="#5a6d82" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <!-- Label rotated -90 centered on line -->
+  <text x="480" y="162" text-anchor="middle" font-size="7.5" fill="#5a6d82"
+        transform="rotate(-90 480 162)">Simultaneous Merge</text>
+
+  <!-- ===== CONVERGENCE DIAGONALS TO MERGE POINT (530, 165) ===== -->
+  <!-- Branch A end (480,115) → merge point (530,165) -->
+  <line x1="480" y1="115" x2="530" y2="165" stroke="#1e3a5f" stroke-width="2"/>
+  <!-- Branch B end (480,165) → merge point (530,165) -->
+  <line x1="480" y1="165" x2="530" y2="165" stroke="#3a5070" stroke-width="2"/>
+  <!-- Branch C end (480,215) → merge point (530,165) -->
+  <line x1="480" y1="215" x2="530" y2="165" stroke="#9ab4cc" stroke-width="2"/>
+  <!-- Merge point circle -->
+  <circle cx="530" cy="165" r="5" fill="#dc2626"/>
+
+  <!-- ===== CONFLICT BRANCH ===== -->
+  <!-- Thick red line from merge point (530,165) to (625,165) -->
+  <line x1="530" y1="165" x2="625" y2="165" stroke="#dc2626" stroke-width="3"/>
+  <!-- Arrow head at x=625 -->
+  <polygon points="625,165 617,160 617,170" fill="#dc2626"/>
+  <!-- End circle -->
+  <circle cx="631" cy="165" r="6" fill="#dc2626"/>
+
+  <!-- CONFLICT label above line -->
+  <text x="575" y="150" text-anchor="middle" font-size="10" font-weight="700" fill="#dc2626">CONFLICT</text>
+  <!-- Sub-label below line -->
+  <text x="575" y="182" text-anchor="middle" font-size="8" font-style="italic" fill="#a23b72">⚔ total war state</text>
+
+  <!-- ===== FOOTER ===== -->
+  <rect x="0" y="298" width="700" height="22" fill="#f0f4f8"/>
+  <line x1="0" y1="298" x2="700" y2="298" stroke="#dde3ec" stroke-width="1"/>
+  <text x="350" y="312" text-anchor="middle" font-size="7.5" fill="#3a5070">All branches merged simultaneously — no branch receives timing advantage. The resulting Conflict branch is in a state of total war. SADMF Practice.</text>
+
+</svg>
+</div>

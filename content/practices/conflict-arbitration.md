@@ -14,6 +14,8 @@ The process begins when the [Source Management Team (SMT)](/roles/source-managem
 
 This **simultaneous merge** is critical. Merging branches one at a time would give priority to whichever branch was merged first, introducing an unfair advantage based on timing rather than merit. By merging all branches at once, the SMT ensures that every conflict is surfaced and that no change receives preferential treatment. The resulting Conflict branch is, by design, in a state of total war -- every overlapping change competing for the same lines of code.
 
+{{< practices-conflict-arbitration-branches >}}
+
 ## The Arbitration Hearing
 
 Once the Conflict branch has been created, the SMT convenes the **Conflict Arbitration Hearing**. Each [Feature Captain](/roles/feature-captain/) whose feature is involved in a conflict presents their case for why their change should survive. Feature Captains are expected to argue passionately, citing:
@@ -25,6 +27,8 @@ Once the Conflict branch has been created, the SMT convenes the **Conflict Arbit
 The SMT evaluates each argument and renders a binding verdict. The losing change is removed from the Conflict branch entirely -- not deferred to a future convoy, but eliminated.
 
 The Code Engineer whose work was eliminated receives a **Conflict Loss** notation in their [PeopleWare](/peopleware/) profile, which factors into future [Press Gang](/release-convoy/ceremonies/press-gang/) selections. This consequence ensures that Code Engineers are motivated to write changes that are robust enough to survive arbitration.
+
+{{< practices-conflict-arbitration-hearing >}}
 
 ## Escalation
 
