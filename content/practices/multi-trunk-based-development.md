@@ -23,6 +23,8 @@ The Pando vocabulary maps directly onto the branch structure described in [Fract
 | Feature Trunk | Feature branch | One per feature, named per the SMT naming convention (`CONVOY-[number]-[feature-id]-[engineer-initials]-[date]`). Created by the SMT; never by the Code Engineer directly. |
 | Emergency Trunk | Hotfix branch | Provisioned on demand for changes that cannot wait for the next Convoy. Branched directly from the Root Trunk and subject to an expedited but otherwise complete approval process. |
 
+{{< pando-fleet-topology >}}
+
 ## Convoy Trunk Certification Stages
 
 The Convoy Trunk does not travel in a straight line from creation to Root. It advances through a structured series of certification stages, each managed by a dedicated team with a defined approval authority. What [Fractal-based Development](/practices/fractal-based-development/) identifies as the Conflict, Test, and Validation branches are correctly understood in Pando vocabulary as stages of a single Convoy Trunk's certification journey. The trunk does not change; the stage does.
@@ -33,6 +35,8 @@ The Convoy Trunk does not travel in a straight line from creation to Root. It ad
 - **Frozen stage** — The Convoy Trunk has passed all certification stages and is awaiting [Commodore](/roles/commodore/) authorization for merge to the Root Trunk.
 
 Each stage transition requires explicit sign-off from the accountable role. The Convoy Trunk does not advance until the current stage owner approves.
+
+{{< pando-convoy-stages >}}
 
 ## The Flow of Changes
 

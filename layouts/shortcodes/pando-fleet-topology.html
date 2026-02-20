@@ -1,0 +1,103 @@
+<div class="pando-fleet-topology-wrapper" role="img" aria-label="Pando Fleet Topology diagram showing the trunk hierarchy for Convoy-47. The Root Trunk runs horizontally across the top. Three trunks branch from it: the Convoy-47 Convoy Trunk (Active, currently in Test Stage) branches on the left, the Convoy-46 Convoy Trunk (Merged, retained for audit) branches in the middle as a dashed line, and an Emergency Trunk (Frozen) branches on the right in rose. Below the Convoy-47 trunk, four Feature Trunks branch downward: CONVOY-47-AUTH-JDB-240315 (Merged, with a merge connection back up to Convoy-47), CONVOY-47-DASH-PRS-240215 (Thriving), CONVOY-47-REPORTS-TMH-240201 (Lagging), and CONVOY-47-IMPORT-DKF-240315 (Orphaned, shown as a dashed line ending in an elimination marker).">
+<svg viewBox="0 0 700 385" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+     style="width:100%;height:auto;display:block;font-family:'DM Sans',system-ui,sans-serif;">
+
+  <!-- ═══ HEADER ═══ -->
+  <rect x="0" y="0" width="700" height="26" fill="#1e3a5f"/>
+  <text x="350" y="17" text-anchor="middle" font-size="9.5" font-weight="700" fill="white" letter-spacing="1.5">PANDO FLEET TOPOLOGY — CONVOY-47 REGISTRY EXTRACT</text>
+
+  <!-- ═══ BODY BACKGROUND ═══ -->
+  <rect x="0" y="26" width="700" height="329" fill="#f8fafc"/>
+
+  <!-- ═══ ROOT TRUNK ═══ -->
+  <text x="192" y="68" text-anchor="end" font-size="12" font-weight="700" fill="#1e3a5f">ROOT TRUNK</text>
+  <text x="192" y="79" text-anchor="end" font-size="8" fill="#9ab4cc">production-ready</text>
+  <line x1="200" y1="72" x2="685" y2="72" stroke="#1e3a5f" stroke-width="3"/>
+  <circle cx="200" cy="72" r="5.5" fill="#1e3a5f" stroke="white" stroke-width="2"/>
+  <circle cx="685" cy="72" r="4" fill="#1e3a5f" stroke="white" stroke-width="2"/>
+
+  <!-- ═══ CONVOY-47 — forks from Root at x=237 ═══ -->
+  <path d="M 237,72 L 237,112" stroke="#475569" fill="none" stroke-width="1.5"/>
+  <text x="192" y="108" text-anchor="end" font-size="9.5" font-weight="600" fill="#475569">CONVOY-47</text>
+  <text x="192" y="119" text-anchor="end" font-size="8" fill="#475569">(Convoy Trunk)</text>
+  <circle cx="237" cy="112" r="4" fill="#475569" stroke="white" stroke-width="2"/>
+  <line x1="237" y1="112" x2="536" y2="112" stroke="#475569" stroke-width="2.5"/>
+  <!-- Status: Active -->
+  <rect x="538" y="103" width="42" height="16" rx="3" fill="#166534"/>
+  <text x="559" y="115" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">ACTIVE</text>
+  <text x="584" y="115" font-size="8" fill="#475569">· Test Stage</text>
+
+  <!-- ═══ FEATURE TRUNK FORKS from CONVOY-47 ═══ -->
+
+  <!-- FT-1: CONVOY-47-AUTH-JDB-240315 (Merged) — forks at x=272, lane y=148 -->
+  <path d="M 272,112 L 272,148" stroke="#0369a1" fill="none" stroke-width="1.5"/>
+  <text x="192" y="144" text-anchor="end" font-size="8" font-weight="600" fill="#0369a1">CONVOY-47-AUTH-</text>
+  <text x="192" y="154" text-anchor="end" font-size="8" font-weight="600" fill="#0369a1">JDB-240315</text>
+  <circle cx="272" cy="148" r="4" fill="#0369a1" stroke="white" stroke-width="2"/>
+  <line x1="272" y1="148" x2="418" y2="148" stroke="#0369a1" stroke-width="2"/>
+  <!-- Merge back up to CONVOY-47 at x=418 -->
+  <path d="M 418,148 L 418,112" stroke="#0369a1" fill="none" stroke-width="1.5"/>
+  <circle cx="418" cy="112" r="4.5" fill="#0369a1" stroke="white" stroke-width="2"/>
+  <circle cx="418" cy="148" r="4.5" fill="#0369a1" stroke="white" stroke-width="2"/>
+  <rect x="426" y="139" width="48" height="16" rx="3" fill="#1e3a5f"/>
+  <text x="450" y="151" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">MERGED</text>
+
+  <!-- FT-2: CONVOY-47-DASH-PRS-240215 (Thriving) — forks at x=302, lane y=183 -->
+  <path d="M 302,112 L 302,183" stroke="#7c3aed" fill="none" stroke-width="1.5"/>
+  <text x="192" y="179" text-anchor="end" font-size="8" font-weight="600" fill="#7c3aed">CONVOY-47-DASH-</text>
+  <text x="192" y="189" text-anchor="end" font-size="8" font-weight="600" fill="#7c3aed">PRS-240215</text>
+  <circle cx="302" cy="183" r="4" fill="#7c3aed" stroke="white" stroke-width="2"/>
+  <line x1="302" y1="183" x2="472" y2="183" stroke="#7c3aed" stroke-width="2"/>
+  <rect x="474" y="174" width="56" height="16" rx="3" fill="#166534"/>
+  <text x="502" y="186" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">THRIVING</text>
+
+  <!-- FT-3: CONVOY-47-REPORTS-TMH-240201 (Lagging) — forks at x=332, lane y=218 -->
+  <path d="M 332,112 L 332,218" stroke="#b91c1c" fill="none" stroke-width="1.5"/>
+  <text x="192" y="214" text-anchor="end" font-size="8" font-weight="600" fill="#b91c1c">CONVOY-47-REPORTS-</text>
+  <text x="192" y="224" text-anchor="end" font-size="8" font-weight="600" fill="#b91c1c">TMH-240201</text>
+  <circle cx="332" cy="218" r="4" fill="#b91c1c" stroke="white" stroke-width="2"/>
+  <line x1="332" y1="218" x2="452" y2="218" stroke="#b91c1c" stroke-width="2"/>
+  <rect x="454" y="209" width="48" height="16" rx="3" fill="#d97706"/>
+  <text x="478" y="221" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">LAGGING</text>
+
+  <!-- FT-4: CONVOY-47-IMPORT-DKF-240315 (Orphaned) — forks at x=362, lane y=253 -->
+  <path d="M 362,112 L 362,253" stroke="#94a3b8" fill="none" stroke-width="1.5"/>
+  <text x="192" y="249" text-anchor="end" font-size="8" font-weight="600" fill="#64748b" text-decoration="line-through">CONVOY-47-IMPORT-</text>
+  <text x="192" y="259" text-anchor="end" font-size="8" font-weight="600" fill="#64748b" text-decoration="line-through">DKF-240315</text>
+  <circle cx="362" cy="253" r="4" fill="#94a3b8" stroke="white" stroke-width="2"/>
+  <line x1="362" y1="253" x2="400" y2="253" stroke="#94a3b8" stroke-width="2" stroke-dasharray="6,4"/>
+  <!-- Orphaned X marker -->
+  <circle cx="408" cy="253" r="8" fill="white" stroke="#ef4444" stroke-width="2"/>
+  <line x1="402" y1="247" x2="414" y2="259" stroke="#ef4444" stroke-width="2" stroke-linecap="round"/>
+  <line x1="414" y1="247" x2="402" y2="259" stroke="#ef4444" stroke-width="2" stroke-linecap="round"/>
+  <rect x="420" y="244" width="60" height="16" rx="3" fill="#dc2626"/>
+  <text x="450" y="256" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">ORPHANED ⚠</text>
+  <text x="484" y="256" font-size="8" fill="#64748b">— DOUCHE notified</text>
+
+  <!-- ═══ CONVOY-46 — forks from Root at x=300, lane y=288 ═══ -->
+  <path d="M 300,72 L 300,288" stroke="#9ab4cc" fill="none" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="192" y="284" text-anchor="end" font-size="9.5" font-weight="600" fill="#9ab4cc">CONVOY-46</text>
+  <text x="192" y="295" text-anchor="end" font-size="8" fill="#9ab4cc">(Convoy Trunk)</text>
+  <circle cx="300" cy="288" r="4" fill="#9ab4cc" stroke="white" stroke-width="2"/>
+  <line x1="300" y1="288" x2="490" y2="288" stroke="#9ab4cc" stroke-width="2" stroke-dasharray="6,4"/>
+  <rect x="492" y="279" width="48" height="16" rx="3" fill="#475569"/>
+  <text x="516" y="291" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">MERGED</text>
+  <text x="544" y="291" font-size="8" fill="#9ab4cc">· retained for audit</text>
+
+  <!-- ═══ EMERGENCY TRUNK — forks from Root at x=572, lane y=323 ═══ -->
+  <path d="M 572,72 L 572,323" stroke="#be185d" fill="none" stroke-width="1.5"/>
+  <text x="192" y="319" text-anchor="end" font-size="9.5" font-weight="600" fill="#be185d">EMERGENCY-PATCH</text>
+  <text x="192" y="329" text-anchor="end" font-size="8" fill="#be185d">(Emergency Trunk)</text>
+  <circle cx="572" cy="323" r="4" fill="#be185d" stroke="white" stroke-width="2"/>
+  <line x1="572" y1="323" x2="640" y2="323" stroke="#be185d" stroke-width="2"/>
+  <rect x="642" y="314" width="48" height="16" rx="3" fill="#0369a1"/>
+  <text x="666" y="326" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">FROZEN</text>
+
+  <!-- ═══ FOOTER ═══ -->
+  <rect x="0" y="355" width="700" height="30" fill="#f0f4f8"/>
+  <line x1="0" y1="355" x2="700" y2="355" stroke="#dde3ec" stroke-width="1"/>
+  <text x="350" y="367" text-anchor="middle" font-size="8" fill="#3a5070">Trunk Registry maintained by Source Management Team. Fleet status reported weekly to Commodore.</text>
+  <text x="350" y="379" text-anchor="middle" font-size="8" fill="#3a5070">Every trunk is registered, monitored, and accounted for. SADMF Practice.</text>
+
+</svg>
+</div>
