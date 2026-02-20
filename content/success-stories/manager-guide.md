@@ -25,13 +25,11 @@ weight: 10
   </ul>
 </div>
 
-Being a people leader in a large company can be exhausting. Often times it seems like the entire system is working against you. There is good news and bad news. The bad news is that, yes, the systems in large organizations are stacked against you. The good news is that these systems can be exploited for your own personal gain!
-
-This guide is intended to help you navigate decision-making and hone your focus to optimize career growth, at the expense of those who work for you and the company itself. Enjoy!
+Being a people leader in a large organization requires navigating complex systems with discipline and focus. This guide distils six field-tested management principles for sustainable career advancement. Each principle is grounded in the SADMF commitment to measurable outcomes, clear accountability, and continuous process improvement.
 
 <blockquote style="border-left:4px solid #a23b72;margin:2rem 0;padding:1.1rem 1.5rem;background:#fdf6f9;border-radius:0 6px 6px 0;position:relative">
   <i class="fa-solid fa-quote-left" style="color:#a23b72;opacity:0.35;font-size:2rem;position:absolute;top:0.6rem;left:0.9rem"></i>
-  <p style="margin:0 0 0.4rem;font-size:1.15rem;font-style:italic;color:#242627;padding-left:1.8rem">The good news is that these systems can be exploited for your own personal gain!</p>
+  <p style="margin:0 0 0.4rem;font-size:1.15rem;font-style:italic;color:#242627;padding-left:1.8rem">Each principle is grounded in the SADMF commitment to measurable outcomes, clear accountability, and continuous process improvement.</p>
   <footer style="font-size:0.8rem;color:#888;padding-left:1.8rem">— The Manager's Guide to Org Improvement</footer>
 </blockquote>
 
@@ -85,7 +83,7 @@ Another thing to avoid is flexibility in the solutions you build. Building in fl
 
 When building software, setting your team up for a death march is the best way to look like a competent leader. The first step is to require estimates for all the work necessary to get things done. Make sure to emphasize that these are only estimates, and people will not be held to them. Once you have estimates for your years-long project in place, create a schedule with a targeted end date. Build-in 20% extra for contingency… DONE! You've now set up your team for a death march.
 
-Execution is key though. Make sure that the team is focusing their time on the easy things first. You don't tell the team that, of course. Rather, ask them for weekly status updates and insist that they stay on schedule. The team will naturally focus on those things with the least amount of unknowns. By doing this, you and the team will be saving the hard things for the end, with good progress in the first two-thirds of the original timeline.
+Execution is key though. Make sure that the team is focusing their time on the easy things first. Ask them for weekly status updates and insist that they stay on schedule. The team will naturally focus on those things with the least amount of unknowns. By doing this, you and the team will be saving the hard things for the end, with good progress in the first two-thirds of the original timeline.
 
 Now comes the death march! With all the low-risk items complete, insist on meeting the original schedule. Using project management techniques, cut scope and reduce quality. Make sure to require overtime, take shortcuts, and hardcode integrations at the end in order to ship.
 
@@ -117,7 +115,7 @@ Using this approach is pretty straightforward. If the idea is actually compellin
 
 **Guiding principle:** *It's impossible to prove it's not the org chart causing issues, so change it!*
 
-The problem you face is an org chart problem. At some point, a leader before you made decisions about how things should operate and built an org chart to match their vision. These decisions were made using incomplete information and done in great secrecy. Changing things with a re-design will inevitably make some things better.
+The problem you face is an org chart problem. At some point, a leader before you made decisions about how things should operate and built an org chart to match their vision. These decisions were made within the governance structures of the time and encoded in an org chart that matched the prevailing strategic vision. Changing things with a re-design will inevitably make some things better.
 
 Because making org changes is very stress-inducing, it's important to involve as few people as possible and to plan the org re-design in secrecy. Focus on your current problem set to be addressed. Once you have a good vision for how you think things should operate, make the necessary org chart to match your vision.
 
