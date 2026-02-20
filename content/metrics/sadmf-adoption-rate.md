@@ -130,7 +130,6 @@ The certification process that drives this metric is deliberately comprehensive.
     flex-direction: column;
     gap: 0;
   ">
-
     <div style="display:flex;align-items:stretch;gap:0;">
       <div style="
         background:#242627;
@@ -156,7 +155,6 @@ The certification process that drives this metric is deliberately comprehensive.
         <div style="font-size:0.88rem;color:#333;line-height:1.5;">The DOUCHE pulls the current roster from the SAD&#8482; certification registry. Every individual holding at least a SAD Practitioner credential is counted. Expired certifications require immediate renewal or the individual is removed from the count.</div>
       </div>
     </div>
-
     <div style="display:flex;align-items:stretch;gap:0;">
       <div style="
         background:#3a3d3e;
@@ -183,7 +181,6 @@ The certification process that drives this metric is deliberately comprehensive.
         <div style="font-size:0.88rem;color:#333;line-height:1.5;">Total headcount is sourced from PeopleWare HRaaS. Contract staff, consultants, and vendors are excluded unless they hold a valid SAD&#8482; certification, in which case they are included in the numerator but not the denominator — a deliberate design choice that can push the rate above 100% in heavily contracted organizations.</div>
       </div>
     </div>
-
     <div style="display:flex;align-items:stretch;gap:0;">
       <div style="
         background:#5a3060;
@@ -210,7 +207,6 @@ The certification process that drives this metric is deliberately comprehensive.
         <div style="font-size:0.88rem;color:#333;line-height:1.5;">Certified individuals are only counted if they also hold at least a "Developing" rating on the <a href="/metrics/sadmf-maturity-score/">SADMF Maturity Score</a>. Certification without demonstrated maturity is credentialism without commitment, and SADMF does not reward credentialism without commitment.</div>
       </div>
     </div>
-
     <div style="display:flex;align-items:stretch;gap:0;">
       <div style="
         background:#a23b72;
@@ -237,7 +233,6 @@ The certification process that drives this metric is deliberately comprehensive.
         <div style="font-size:0.88rem;color:#333;line-height:1.5;">The final percentage is formatted into the Quarterly Transformation Report and presented to the board of directors by the Admiral's Transformation Office. Year-over-year trend lines are included. The Adoption Rate headline number appears in investor communications, sales decks, and conference keynotes.</div>
       </div>
     </div>
-
   </div>
 </div>
 

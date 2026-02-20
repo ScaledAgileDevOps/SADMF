@@ -133,7 +133,6 @@ The Maturity Score is calculated through the [DevOps Process Excellence Assessme
     flex-direction: column;
     gap: 0;
   ">
-
     <div style="display:flex;align-items:stretch;gap:0;">
       <div style="
         background:#242627;
@@ -159,7 +158,6 @@ The Maturity Score is calculated through the [DevOps Process Excellence Assessme
         <div style="font-size:0.88rem;color:#333;line-height:1.5;">Every individual completes the weekly <a href="/practices/devops-process-excellence-assessment/">DevOps Process Excellence Assessment</a>. Questions span ceremony attendance records, documentation completeness audits, framework terminology recall, and peer-rated transformation enthusiasm. Non-completion is scored as zero.</div>
       </div>
     </div>
-
     <div style="display:flex;align-items:stretch;gap:0;">
       <div style="
         background:#3a3d3e;
@@ -186,7 +184,6 @@ The Maturity Score is calculated through the [DevOps Process Excellence Assessme
         <div style="font-size:0.88rem;color:#333;line-height:1.5;">Raw individual scores are weighted: ceremony adherence 40%, documentation completeness 30%, framework memorization 20%, transformation enthusiasm 10%. Individual scores roll up to team scores, team scores roll up to fleet scores, and fleet scores compose the organizational SADMF Maturity Score.</div>
       </div>
     </div>
-
     <div style="display:flex;align-items:stretch;gap:0;">
       <div style="
         background:#5a3060;
@@ -213,7 +210,6 @@ The Maturity Score is calculated through the [DevOps Process Excellence Assessme
         <div style="font-size:0.88rem;color:#333;line-height:1.5;">Absolute scores are discarded. The fleet distribution is normalized so that exactly 10% receive "Excellent," 20% "Proficient," 40% "Developing," 20% "Deficient," and 10% "Critical." These ratios are fixed. They do not change based on absolute performance. They cannot change. That is the point.</div>
       </div>
     </div>
-
     <div style="display:flex;align-items:stretch;gap:0;">
       <div style="
         background:#a23b72;
@@ -240,7 +236,6 @@ The Maturity Score is calculated through the [DevOps Process Excellence Assessme
         <div style="font-size:0.88rem;color:#333;line-height:1.5;">The <a href="/roles/devops-usage-and-compliance-head-engineer/">DOUCHE</a> audits the rollup calculations, certifies the final score, and publishes it to stakeholders. Teams below "Proficient" are immediately enrolled in a Maturity Improvement Plan and assigned additional ceremonies. The score is presented at the next <a href="/release-convoy/shore-leave/">Shore Leave</a>.</div>
       </div>
     </div>
-
   </div>
 </div>
 
