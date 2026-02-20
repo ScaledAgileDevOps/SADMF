@@ -27,31 +27,33 @@ The organizational structure is built on three pillars: the [Admiral's Transform
 
 6. **[Code Engineer (CE)](/roles/code-engineer/)** -- The backbone of a SAD implementation, transforming requirements into machine-readable instructions quickly and quietly.
 
-7. **[Commodore (C)](/roles/commodore/)** -- The delivery commander who collects status from every role and ensures framework compliance before deploying the fleet.
+7. **[Co-Owner, Product (COP)](/roles/co-owner-product/)** -- The undivided Single Point of Contact for a product, shared across multiple COPs who extract delivery commitments from technical staff until achievability is confirmed.
 
-8. **[Development Integrity Assurance Team (DIAT)](/roles/development-integrity-assurance-team/)** -- Senior practitioners who validate the work of the Quality Authority, ensuring that testing itself meets quality standards.
+8. **[Commodore (C)](/roles/commodore/)** -- The delivery commander who collects status from every role and ensures framework compliance before deploying the fleet.
 
-9. **[DevOps Usage & Compliance Head Engineer (DOUCHE)](/roles/devops-usage-and-compliance-head-engineer/)** -- The named executive who owns the DevOps Process Binder and holds all teams accountable to the Right Way.
+9. **[Development Integrity Assurance Team (DIAT)](/roles/development-integrity-assurance-team/)** -- Senior practitioners who validate the work of the Quality Authority, ensuring that testing itself meets quality standards.
 
-10. **[Enterprise Architecture Review Board (EARB)](/roles/enterprise-architecture-review-board/)** -- Keepers of the Book of Names, meeting every six weeks to review and reject new words submitted for inclusion.
+10. **[DevOps Usage & Compliance Head Engineer (DOUCHE)](/roles/devops-usage-and-compliance-head-engineer/)** -- The named executive who owns the DevOps Process Binder and holds all teams accountable to the Right Way.
 
-11. **[Feature Captain (FC)](/roles/feature-captain/)** -- The mid-level manager responsible for tracking feature progress and reporting status to the Commodore.
+11. **[Enterprise Architecture Review Board (EARB)](/roles/enterprise-architecture-review-board/)** -- Keepers of the Book of Names, meeting every six weeks to review and reject new words submitted for inclusion.
 
-12. **[Feature Team (FT)](/roles/feature-team/)** -- The group of Code Engineers assembled per Convoy through the Press Gang ceremony to deliver a feature.
+12. **[Feature Captain (FC)](/roles/feature-captain/)** -- The mid-level manager responsible for tracking feature progress and reporting status to the Commodore.
 
-13. **[Quality Authority (QA)](/roles/quality-authority/)** -- Manual testing specialists and the final arbiter of requirements, because the only TRUE way to test is by hand.
+13. **[Feature Team (FT)](/roles/feature-team/)** -- The group of Code Engineers assembled per Convoy through the Press Gang ceremony to deliver a feature.
 
-14. **[Product Direction Arbitration Council (PDAC)](/roles/product-direction-arbitration-council/)** -- Cross-functional council of seven to fifteen stakeholder representatives that replaces individual product ownership with consensus-based backlog governance.
+14. **[Quality Authority (QA)](/roles/quality-authority/)** -- Manual testing specialists and the final arbiter of requirements, because the only TRUE way to test is by hand.
 
-15. **[Review Board Review Board (RBRB)](/roles/review-board-review-board/)** -- The board that reviews the decisions of the EARB and CRAP, ensuring the reviewers are themselves reviewed.
+15. **[Product Direction Arbitration Council (PDAC)](/roles/product-direction-arbitration-council/)** -- Cross-functional council of seven to fifteen stakeholder representatives that replaces individual product ownership with consensus-based backlog governance.
 
-16. **[Source Management Team (SMT)](/roles/source-management-team/)** -- Authorizes branches, merges code, and resolves all conflicts so Code Engineers never have to.
+16. **[Review Board Review Board (RBRB)](/roles/review-board-review-board/)** -- The board that reviews the decisions of the EARB and CRAP, ensuring the reviewers are themselves reviewed.
 
-17. **[System of Authority (SOA)](/roles/system-of-authority/)** -- The team of teams staffed by contractors and consultants accountable for implanting SADMF in your organization.
+17. **[Source Management Team (SMT)](/roles/source-management-team/)** -- Authorizes branches, merges code, and resolves all conflicts so Code Engineers never have to.
 
-18. **[System of Service (SOS)](/roles/system-of-service/)** -- The team of teams accountable for achieving deadlines and shipping code under servant leadership.
+18. **[System of Authority (SOA)](/roles/system-of-authority/)** -- The team of teams staffed by contractors and consultants accountable for implanting SADMF in your organization.
 
-19. **[Unit Tester (UT)](/roles/unit-tester/)** -- Dedicated specialists who write unit tests after code is delivered, because Code Engineers should focus on writing code.
+19. **[System of Service (SOS)](/roles/system-of-service/)** -- The team of teams accountable for achieving deadlines and shipping code under servant leadership.
+
+20. **[Unit Tester (UT)](/roles/unit-tester/)** -- Dedicated specialists who write unit tests after code is delivered, because Code Engineers should focus on writing code.
 
 ## See Also
 
