@@ -82,7 +82,7 @@ The SADMF acknowledges what some practitioners have called the "Post-Standup Par
   <div style="display:flex;gap:1rem;margin-bottom:0;align-items:flex-start">
     <div style="flex-shrink:0;width:2.25rem;height:2.25rem;border-radius:50%;background:#1e3a5f;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:0.95rem;margin-top:0.1rem">4</div>
     <div style="flex:1;background:#e8edf5;border:1px solid #9ab4cc;border-radius:6px;padding:1rem 1.15rem">
-      <div style="font-weight:700;color:#1e3a5f;margin-bottom:0.25rem">Ceremony Close &amp; Handoff <span style="float:right;font-size:0.8rem;font-weight:400;color:#5a6d82"><i class="fa-solid fa-clock" style="margin-right:0.25rem"></i>~2 min</span></div>
+      <div style="font-weight:700;color:#1e3a5f;margin-bottom:0.25rem">Ceremony Close &amp; Hand Off <span style="float:right;font-size:0.8rem;font-weight:400;color:#5a6d82"><i class="fa-solid fa-clock" style="margin-right:0.25rem"></i>~2 min</span></div>
       <div style="font-size:0.9rem;color:#1e3a5f;opacity:0.85">Commodore confirms all non-work has received adequate visibility. Participants are dismissed to attend the <a href="/release-convoy/ceremonies/post-standup-standup-review/">Post-Standup Standup Review</a>.</div>
     </div>
   </div>
