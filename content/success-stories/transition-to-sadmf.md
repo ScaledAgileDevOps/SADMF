@@ -1,4 +1,4 @@
-﻿---
+---
 title: Transition to the Scaled Agile DevOps Maturity Framework
 linkTitle: Transition to SADMF
 type: docs
@@ -7,6 +7,35 @@ weight: 20
 ---
 
 **Contributed by:** [Dirk Fabricius](https://www.linkedin.com/in/dirkfabricius/), [SAD Accredited Facilitator](/certifications/#scaled-agile-dev-ops-accredited-facilitators) on April 1, 2023
+
+<!-- ============================================================
+     EXECUTIVE SUMMARY BOX
+     ============================================================ -->
+<div style="border-left:6px solid #a23b72;background:linear-gradient(135deg,#1e3a5f 0%,#242627 100%);color:#fff;border-radius:6px;padding:2rem 2rem 1.5rem;margin:2rem 0 2.5rem;position:relative;overflow:hidden">
+  <div style="position:absolute;top:-30px;right:-20px;font-size:9rem;opacity:0.06;font-family:Georgia,serif;line-height:1;pointer-events:none">SAD</div>
+  <div style="font-size:0.7rem;font-weight:700;letter-spacing:0.18em;text-transform:uppercase;color:#a23b72;margin-bottom:0.75rem">Executive Summary</div>
+  <p style="font-size:1.08rem;line-height:1.65;margin:0 0 1rem;font-family:Georgia,'Times New Roman',serif;font-style:italic;color:#e8edf5">
+    A mid-sized enterprise discovered it was not among the world's top 5% of companies. Rather than examine culture, product quality, or team autonomy, leadership launched a DevOps initiative, hired consultants, distributed acronyms, and declared victory — all without a single meaningful measurement.
+  </p>
+  <div style="display:flex;flex-wrap:wrap;gap:1.25rem;margin-top:1.25rem">
+    <div style="flex:1;min-width:130px;background:rgba(255,255,255,0.07);border-radius:4px;padding:0.75rem 1rem;border-top:3px solid #a23b72">
+      <div style="font-size:1.6rem;font-weight:800;color:#a23b72;line-height:1">16</div>
+      <div style="font-size:0.72rem;letter-spacing:0.08em;text-transform:uppercase;color:#9ab4cc;margin-top:0.2rem">New Roles Created</div>
+    </div>
+    <div style="flex:1;min-width:130px;background:rgba(255,255,255,0.07);border-radius:4px;padding:0.75rem 1rem;border-top:3px solid #a23b72">
+      <div style="font-size:1.6rem;font-weight:800;color:#a23b72;line-height:1">13</div>
+      <div style="font-size:0.72rem;letter-spacing:0.08em;text-transform:uppercase;color:#9ab4cc;margin-top:0.2rem">Ceremonies Installed</div>
+    </div>
+    <div style="flex:1;min-width:130px;background:rgba(255,255,255,0.07);border-radius:4px;padding:0.75rem 1rem;border-top:3px solid #a23b72">
+      <div style="font-size:1.6rem;font-weight:800;color:#a23b72;line-height:1">0</div>
+      <div style="font-size:0.72rem;letter-spacing:0.08em;text-transform:uppercase;color:#9ab4cc;margin-top:0.2rem">Baseline Metrics Taken</div>
+    </div>
+    <div style="flex:1;min-width:130px;background:rgba(255,255,255,0.07);border-radius:4px;padding:0.75rem 1rem;border-top:3px solid #a23b72">
+      <div style="font-size:1.6rem;font-weight:800;color:#a23b72;line-height:1">100%</div>
+      <div style="font-size:0.72rem;letter-spacing:0.08em;text-transform:uppercase;color:#9ab4cc;margin-top:0.2rem">Declared Successful</div>
+    </div>
+  </div>
+</div>
 
 Some companies have steep hierarchies where managers are labeled by letters and [numbers](https://www.youtube.com/watch?v=hphXPJJMl7g). When discussing these positions, it can sound like a game of chess: "F2 to E1." This case study features one such company that, until recently, was a moderately happy place where development teams even deployed code from time to time. However, according to an article in a management magazine, they were not performing among the top 5% of companies worldwide, such as Google, Apple, Facebook, and Amazon. As a result, management decided to implement the [Scaled Agile Dev Ops Maturity Framework](https://scaledagiledevops.com), which, surprisingly, nobody at Google, Apple, Facebook, or Amazon had ever heard of. This article shares their success story, implementation roadmap, and important tips for anyone considering implementing this or any other scaling framework.
 
@@ -17,6 +46,15 @@ Some companies have steep hierarchies where managers are labeled by letters and 
 **Be** Scaled Agile DevOps Maturity Framework
 
 The SAD thought leaders claim that it's not about doing SAD, but about being SAD. This has no meaning at all, but it is nice for inspiring quotes right at the start of a case study. Place the tokens of all players here.
+
+<!-- ============================================================
+     SECTION DIVIDER — PHASE 1: PLANNING
+     ============================================================ -->
+<div style="display:flex;align-items:center;gap:1rem;margin:2.5rem 0 2rem">
+  <div style="flex:none;background:#a23b72;color:#fff;font-size:0.65rem;font-weight:700;letter-spacing:0.16em;text-transform:uppercase;padding:0.35rem 0.85rem;border-radius:2px">Phase 1</div>
+  <div style="flex:1;height:2px;background:linear-gradient(to right,#a23b72 0%,#9ab4cc 60%,transparent 100%)"></div>
+  <div style="flex:none;font-size:0.7rem;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:#5a6d82">Laying the Groundwork</div>
+</div>
 
 ## Yearly Strategic Very Important Budget Allocation Initiation Committee Session (YSVIBAICS)
 
@@ -35,6 +73,24 @@ Don't be too specific here. You can still do whatever you like with your new bud
 Management had to choose some random words to recite when someone asks them what the initiative is about. They crafted these words into a sort of knightly oath to make it sound like they know what they're talking about and won't get any further questions: Focus! Alignment! Transparency! They also made sure the words weren't used in their [last initiative](https://pbs.twimg.com/media/EkW61VCXgAAIhSb?format=jpg) and created a fitting mnemonic: FAT!
 
 A word of caution: If you have been measuring effectiveness in your company, it's best to stop doing so at this point. It's irresponsible to measure productivity during a change initiative. Instead, you will eventually generate enough metrics, and you can select the ones that make you look good to give to your boss. Never measure beforehand because this would make your work transparent (bad), instead of the work of your resources (good). Change is hard for resources, and since you hired them, you must assume that they might mess everything up. Without any tangible data at the start, you can claim that any recovery is due to your **successful** initiative.
+
+<!-- PULL QUOTE 1 -->
+<blockquote style="border:none;margin:2rem 0;padding:0;position:relative">
+  <div style="position:absolute;top:-0.5rem;left:0;font-size:5rem;line-height:1;color:#a23b72;opacity:0.25;font-family:Georgia,serif;pointer-events:none">&ldquo;</div>
+  <p style="font-family:Georgia,'Times New Roman',serif;font-size:1.25rem;font-style:italic;line-height:1.6;color:#1e3a5f;padding:1.25rem 1.5rem 1.25rem 3rem;background:#e8edf5;border-left:4px solid #a23b72;border-radius:0 6px 6px 0;margin:0">
+    Never measure beforehand because this would make your work transparent (bad), instead of the work of your resources (good).
+  </p>
+  <footer style="margin-top:0.5rem;padding-left:3rem;font-size:0.8rem;color:#5a6d82;font-weight:600;letter-spacing:0.06em;text-transform:uppercase">— Kick-off Deep Dive Purpose Ceremony</footer>
+</blockquote>
+
+<!-- ============================================================
+     SECTION DIVIDER — PHASE 2: ASSEMBLY
+     ============================================================ -->
+<div style="display:flex;align-items:center;gap:1rem;margin:2.5rem 0 2rem">
+  <div style="flex:none;background:#a23b72;color:#fff;font-size:0.65rem;font-weight:700;letter-spacing:0.16em;text-transform:uppercase;padding:0.35rem 0.85rem;border-radius:2px">Phase 2</div>
+  <div style="flex:1;height:2px;background:linear-gradient(to right,#a23b72 0%,#9ab4cc 60%,transparent 100%)"></div>
+  <div style="flex:none;font-size:0.7rem;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:#5a6d82">Assembling the Apparatus</div>
+</div>
 
 ## Transition Transformation Excellence Change Core Center Team (TTECCCT)
 
@@ -74,6 +130,19 @@ Consultants often have short attention spans and only read a few pages of the Sc
 The largest out-of-the-box implementation of SAD comes with only sixteen new roles. This may not be enough, but you may define new roles at any later date.
 {{% /pageinfo %}}
 
+<div style="border:2px dashed #9ab4cc;border-radius:6px;padding:1.5rem;margin:1.5rem 0;background:#f8fafc;text-align:center;color:#5a6d82;font-style:italic">
+  [IMAGE: A "tailored" framework diagram showing the original SAD MF wheel with large sections torn out and labeled "Not Read," "Too Complex," and "Didn't Understand" — leaving only the Roles and Ceremonies slices intact]
+</div>
+
+<!-- ============================================================
+     SECTION DIVIDER — PHASE 3: DEPLOYMENT
+     ============================================================ -->
+<div style="display:flex;align-items:center;gap:1rem;margin:2.5rem 0 2rem">
+  <div style="flex:none;background:#a23b72;color:#fff;font-size:0.65rem;font-weight:700;letter-spacing:0.16em;text-transform:uppercase;padding:0.35rem 0.85rem;border-radius:2px">Phase 3</div>
+  <div style="flex:1;height:2px;background:linear-gradient(to right,#a23b72 0%,#9ab4cc 60%,transparent 100%)"></div>
+  <div style="flex:none;font-size:0.7rem;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:#5a6d82">Deploying the Framework</div>
+</div>
+
 ## Setting up Staff (SuS)
 
 The SAD roles were quickly distributed among the **TTECCCT.** Members also received complete freedom to add additional phrases to their roles to emphasize their immense importance in the transformed organization. They also redefined preexisting roles to ensure that the resources knew their place. After all, transitions are about protecting the fiefdoms.
@@ -91,6 +160,15 @@ If **TTECCCT** staff members want to claim the title of a group as their role, i
 ## Ceremonies and Useful Meetings
 
 The SAD MF out-of-the-box comes with thirteen ceremonies, but management believed that they were taking up too much time and wanted the resources to focus on coding instead. Each **TTECCCT** member had already chosen some of these thirteen ceremonies to serve as their personal mandatory underling mistreatment (mum) meeting. The consultants negotiated a compromise: keep all ceremonies, but reduce their duration to a quarter of the original time while still demanding the same output as before. It was clear, that the quality of plans might suffer by this, so the **TTECCCT** decided to rename "plan" to "precise but also vague premonitions." It has also been decided not to whip resources in public should not all parts of their precise but also vague premonitions come true. However, all other management tactics, including [death marches](https://en.wikipedia.org/wiki/Death_march_(project_management)) and [Shturmovshchina](https://en.wikipedia.org/wiki/Shturmovshchina), are still fair game.
+
+<!-- PULL QUOTE 2 -->
+<blockquote style="border:none;margin:2rem 0;padding:0;position:relative">
+  <div style="position:absolute;top:-0.5rem;left:0;font-size:5rem;line-height:1;color:#a23b72;opacity:0.25;font-family:Georgia,serif;pointer-events:none">&ldquo;</div>
+  <p style="font-family:Georgia,'Times New Roman',serif;font-size:1.25rem;font-style:italic;line-height:1.6;color:#1e3a5f;padding:1.25rem 1.5rem 1.25rem 3rem;background:#e8edf5;border-left:4px solid #a23b72;border-radius:0 6px 6px 0;margin:0">
+    Keep all ceremonies, but reduce their duration to a quarter of the original time while still demanding the same output as before.
+  </p>
+  <footer style="margin-top:0.5rem;padding-left:3rem;font-size:0.8rem;color:#5a6d82;font-weight:600;letter-spacing:0.06em;text-transform:uppercase">— Ceremonies and Useful Meetings</footer>
+</blockquote>
 
 {{% pageinfo color="info" %}}
 **Hint:**
@@ -118,6 +196,19 @@ One of the TTECCCT consultants once read a book, article, overheard a conversati
 Do not really conduct any Value Stream analysis. Simply draw the desired organizational chart with nice and colorful crayons, place your entourage in all crucial positions, let them choose what their branch of the organization should be named, and claim that these are the identified Value Streams. In a sense, they are really providing value to you. Also, place your own name separately at the top of all streams.
 {{% /pageinfo %}}
 
+<div style="border:2px dashed #9ab4cc;border-radius:6px;padding:1.5rem;margin:1.5rem 0;background:#f8fafc;text-align:center;color:#5a6d82;font-style:italic">
+  [IMAGE: An org chart drawn in crayon with the manager's name at the apex and colorful boxes for "Value Stream A," "Value Stream B," and "Value Stream C" — each box containing the same three consultant headshots]
+</div>
+
+<!-- ============================================================
+     SECTION DIVIDER — PHASE 4: CHANGE MANAGEMENT
+     ============================================================ -->
+<div style="display:flex;align-items:center;gap:1rem;margin:2.5rem 0 2rem">
+  <div style="flex:none;background:#a23b72;color:#fff;font-size:0.65rem;font-weight:700;letter-spacing:0.16em;text-transform:uppercase;padding:0.35rem 0.85rem;border-radius:2px">Phase 4</div>
+  <div style="flex:1;height:2px;background:linear-gradient(to right,#a23b72 0%,#9ab4cc 60%,transparent 100%)"></div>
+  <div style="flex:none;font-size:0.7rem;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:#5a6d82">Managing the Change</div>
+</div>
+
 ## Change Management
 
 **Movers First** - [Move it?](https://www.youtube.com/watch?v=hdcTmpvDO0I)
@@ -144,9 +235,27 @@ Transformations to the SAD MF — as all other transformations — fail frequent
 To make the roles sound more important and desirable, add a prefix to their title such as "Senior," "Executive," or "Strategic." Also, include the new framework to make sure they know whom to thank for still having a job. For example, "Senior SAD Requirements Engineer," "Executive SAD Project Manager," "Strategic SAD Quality Engineer," "SAD Leader of Innovation." Also, create a [RACI matrix](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) for all roles adding multiple random letters everywhere like a spilled alphabet soup. Make sure to include an "I" for "informed" alongside your own role for every task listed. Put an Nomen Nominandum or a tbd in the last line of the RACI matrix to remind everyone that this isn't final. You now can make the whole life of a resource and their families miserable by changing a single letter in an MSExcel sheet — how is this for power?
 {{% /pageinfo %}}
 
+<!-- ============================================================
+     SECTION DIVIDER — PHASE 5: ROLLOUT
+     ============================================================ -->
+<div style="display:flex;align-items:center;gap:1rem;margin:2.5rem 0 2rem">
+  <div style="flex:none;background:#a23b72;color:#fff;font-size:0.65rem;font-weight:700;letter-spacing:0.16em;text-transform:uppercase;padding:0.35rem 0.85rem;border-radius:2px">Phase 5</div>
+  <div style="flex:1;height:2px;background:linear-gradient(to right,#a23b72 0%,#9ab4cc 60%,transparent 100%)"></div>
+  <div style="flex:none;font-size:0.7rem;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:#5a6d82">Scaling the Success</div>
+</div>
+
 ## Second Movers
 
 At some random point, management declared that the Movers First had **succeeded** and withdrew all supporting consultants working with them. Since the Movers First did not want to admit any failure, no one spoke up against this decision. Management pretended that they had learned a lot from the (repeat this multiple times to the mirror) **successful**(!) transition and would use these valuable insights to transform the rest of the company's resources. They didn't do this of course. No one wants the SAD framework to fit individual teams. Who should maintain this in the end? This is a lot of effort and the resources might forget who serves whom.
+
+<!-- PULL QUOTE 3 -->
+<blockquote style="border:none;margin:2rem 0;padding:0;position:relative">
+  <div style="position:absolute;top:-0.5rem;left:0;font-size:5rem;line-height:1;color:#a23b72;opacity:0.25;font-family:Georgia,serif;pointer-events:none">&ldquo;</div>
+  <p style="font-family:Georgia,'Times New Roman',serif;font-size:1.25rem;font-style:italic;line-height:1.6;color:#1e3a5f;padding:1.25rem 1.5rem 1.25rem 3rem;background:#e8edf5;border-left:4px solid #a23b72;border-radius:0 6px 6px 0;margin:0">
+    Since the Movers First did not want to admit any failure, no one spoke up against this decision.
+  </p>
+  <footer style="margin-top:0.5rem;padding-left:3rem;font-size:0.8rem;color:#5a6d82;font-weight:600;letter-spacing:0.06em;text-transform:uppercase">— Second Movers</footer>
+</blockquote>
 
 {{% pageinfo color="info" %}}
 **Hint:**
@@ -173,6 +282,15 @@ Management has made this a multi-level system portfolio enterprise configuration
 
 The above made-up Jira work-item structure perfectly aligns with the future need for even more roles. They now can be created out of thin air. Call those "[Business](https://scaledagileframework.com/business-owners/) Portfolio Epic Owner," "Program Success Enabler Coach," "Chief Capability Champion," "Enterprise Business Feature Architect," "Hypothesis Enabled Testmanager," or whatever other random combination of words you like — [they'll never know](https://www.youtube.com/watch?v=tpQyk08PwWs).
 {{% /pageinfo %}}
+
+<!-- ============================================================
+     SECTION DIVIDER — PHASE 6: METRICS & VICTORY
+     ============================================================ -->
+<div style="display:flex;align-items:center;gap:1rem;margin:2.5rem 0 2rem">
+  <div style="flex:none;background:#a23b72;color:#fff;font-size:0.65rem;font-weight:700;letter-spacing:0.16em;text-transform:uppercase;padding:0.35rem 0.85rem;border-radius:2px">Phase 6</div>
+  <div style="flex:1;height:2px;background:linear-gradient(to right,#a23b72 0%,#9ab4cc 60%,transparent 100%)"></div>
+  <div style="flex:none;font-size:0.7rem;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:#5a6d82">Declaring Victory</div>
+</div>
 
 ## Metrics for All
 
@@ -204,6 +322,10 @@ Some IT resources didn't seem to care for the power distribution in the organiza
 * On-site Innovation Thinktankalab sprintathons every third full moon
 * [Standardized Definitions of "we really mean it's done this time"](https://www.lafable.com/)
 
+<div style="border:2px dashed #9ab4cc;border-radius:6px;padding:1.5rem;margin:1.5rem 0;background:#f8fafc;text-align:center;color:#5a6d82;font-style:italic">
+  [IMAGE: A "Certified Really Agile Practices" poster styled as a motivational wall chart, listing all eleven practices above as bullet points under the heading "Our Commitment to Excellence," complete with gold star stickers and a management signature at the bottom]
+</div>
+
 ## Last Step — Accelerate
 
 Management bought the e-book "Accelerate," but didn't read it. They claimed that the company is now among the top 5% of enterprises according to the new made-up metrics. They went to marketing to brag on Instagram and LinkedIn about their **#success** and let go of all managers who didn't give the posts a thumbs up.
@@ -213,3 +335,21 @@ Management bought the e-book "Accelerate," but didn't read it. They claimed that
 
 Should anything not work out— remember the newly hired SAD MF resource is responsible. Should this not be enough make clear the consultants are responsible for potential failures. In case that still is not enough, the TTECCCT will be responsible, but certainly not management.
 {{% /pageinfo %}}
+
+<!-- ============================================================
+     CLOSING VERDICT BOX
+     ============================================================ -->
+<div style="background:linear-gradient(135deg,#1e3a5f 0%,#242627 100%);border-radius:6px;padding:2rem;margin:2.5rem 0 1rem;color:#e8edf5;position:relative;overflow:hidden">
+  <div style="position:absolute;bottom:-1.5rem;right:-1rem;font-size:8rem;opacity:0.05;font-family:Georgia,serif;line-height:1;pointer-events:none">#success</div>
+  <div style="font-size:0.65rem;font-weight:700;letter-spacing:0.18em;text-transform:uppercase;color:#a23b72;margin-bottom:0.75rem">
+    <i class="fa-solid fa-trophy" style="margin-right:0.4rem"></i>Final Verdict
+  </div>
+  <p style="font-family:Georgia,'Times New Roman',serif;font-size:1.05rem;font-style:italic;line-height:1.65;margin:0;color:#e8edf5">
+    The transformation was a resounding <strong style="color:#a23b72">success</strong>. The company achieved the top 5% by the only metrics that matter: the ones invented after the initiative began. Management was celebrated. Consultants were paid. Resources continued to ship code. Nothing structurally changed. A blog post was written. LinkedIn applauded.
+  </p>
+  <div style="margin-top:1.25rem;display:flex;align-items:center;gap:0.5rem;font-size:0.75rem;color:#9ab4cc;letter-spacing:0.06em;text-transform:uppercase">
+    <i class="fa-solid fa-check-circle" style="color:#a23b72"></i> Initiative Closed &nbsp;&bull;&nbsp;
+    <i class="fa-solid fa-check-circle" style="color:#a23b72"></i> Consultants Released &nbsp;&bull;&nbsp;
+    <i class="fa-solid fa-check-circle" style="color:#a23b72"></i> Blog Post Published
+  </div>
+</div>
