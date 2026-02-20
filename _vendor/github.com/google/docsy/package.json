@@ -61,7 +61,7 @@
     "bootstrap": "5.3.8"
   },
   "devDependencies": {
-    "cpy-cli": "^6.0.0",
+    "cpy-cli": "^7.0.0",
     "markdownlint-cli2": "^0.21.0",
     "prettier": "^3.8.1"
   },
