@@ -130,9 +130,11 @@ Consultants often have short attention spans and only read a few pages of the Sc
 The largest out-of-the-box implementation of SAD comes with only sixteen new roles. This may not be enough, but you may define new roles at any later date.
 {{% /pageinfo %}}
 
-<div style="border:2px dashed #9ab4cc;border-radius:6px;padding:1.5rem;margin:1.5rem 0;background:#f8fafc;text-align:center;color:#5a6d82;font-style:italic">
-  [IMAGE: A "tailored" framework diagram showing the original SAD MF wheel with large sections torn out and labeled "Not Read," "Too Complex," and "Didn't Understand" — leaving only the Roles and Ceremonies slices intact]
-</div>
+<figure style="margin:1.5rem 0;text-align:center">
+  <img src="/images/generated/transition-framework-wheel-torn.png"
+       alt="A &quot;tailored&quot; framework diagram showing the original SAD MF wheel with large sections torn out and labeled &quot;Not Read,&quot; &quot;Too Complex,&quot; and &quot;Didn't Understand&quot; — leaving only the Roles and Ceremonies slices intact"
+       style="max-width:100%;border-radius:6px;box-shadow:0 2px 12px rgba(0,0,0,0.12)">
+</figure>
 
 <!-- ============================================================
      SECTION DIVIDER — PHASE 3: DEPLOYMENT
@@ -196,9 +198,11 @@ One of the TTECCCT consultants once read a book, article, overheard a conversati
 Do not really conduct any Value Stream analysis. Simply draw the desired organizational chart with nice and colorful crayons, place your entourage in all crucial positions, let them choose what their branch of the organization should be named, and claim that these are the identified Value Streams. In a sense, they are really providing value to you. Also, place your own name separately at the top of all streams.
 {{% /pageinfo %}}
 
-<div style="border:2px dashed #9ab4cc;border-radius:6px;padding:1.5rem;margin:1.5rem 0;background:#f8fafc;text-align:center;color:#5a6d82;font-style:italic">
-  [IMAGE: An org chart drawn in crayon with the manager's name at the apex and colorful boxes for "Value Stream A," "Value Stream B," and "Value Stream C" — each box containing the same three consultant headshots]
-</div>
+<figure style="margin:1.5rem 0;text-align:center">
+  <img src="/images/generated/transition-org-chart.png"
+       alt="An org chart drawn in crayon with the manager's name at the apex and colorful boxes for &quot;Value Stream A,&quot; &quot;Value Stream B,&quot; and &quot;Value Stream C&quot; — each box containing the same three consultant headshots"
+       style="max-width:100%;border-radius:6px;box-shadow:0 2px 12px rgba(0,0,0,0.12)">
+</figure>
 
 <!-- ============================================================
      SECTION DIVIDER — PHASE 4: CHANGE MANAGEMENT
@@ -322,9 +326,11 @@ Some IT resources didn't seem to care for the power distribution in the organiza
 * On-site Innovation Thinktankalab sprintathons every third full moon
 * [Standardized Definitions of "we really mean it's done this time"](https://www.lafable.com/)
 
-<div style="border:2px dashed #9ab4cc;border-radius:6px;padding:1.5rem;margin:1.5rem 0;background:#f8fafc;text-align:center;color:#5a6d82;font-style:italic">
-  [IMAGE: A "Certified Really Agile Practices" poster styled as a motivational wall chart, listing all eleven practices above as bullet points under the heading "Our Commitment to Excellence," complete with gold star stickers and a management signature at the bottom]
-</div>
+<figure style="margin:1.5rem 0;text-align:center">
+  <img src="/images/generated/transition-compliance-poster.png"
+       alt="A &quot;Certified Really Agile Practices&quot; poster styled as a motivational wall chart, listing all eleven practices above as bullet points under the heading &quot;Our Commitment to Excellence,&quot; complete with gold star stickers and a management signature at the bottom"
+       style="max-width:100%;border-radius:6px;box-shadow:0 2px 12px rgba(0,0,0,0.12)">
+</figure>
 
 ## Last Step — Accelerate
 

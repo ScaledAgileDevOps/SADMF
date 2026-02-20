@@ -426,6 +426,12 @@ async function main() {
       continue;
     }
 
+    // Skip if already generated
+    if (existsSync(destPath)) {
+      console.log(`skipped (exists)`);
+      continue;
+    }
+
     try {
       const response = await client.images.generate({
         model: "dall-e-3",

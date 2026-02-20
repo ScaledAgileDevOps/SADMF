@@ -16,9 +16,11 @@ WIP stands for Workers Idle Problem, and it represents one of the most significa
 
 The 120% capacity target is not arbitrary. It has been carefully calibrated through extensive observation of organizations that plan at 100% and consistently fail to account for the obvious inefficiencies of breaks, conversations, and thinking. By setting the target above 100%, the framework acknowledges a fundamental truth: people work harder when they have more work than they can possibly complete. The resulting sense of urgency drives focus, eliminates idle time, and ensures that [Code Engineers](/roles/code-engineer/) prioritize speed over unnecessary activities like documentation, refactoring, or mentoring junior team members.
 
-<div style="border:2px dashed #9ab4cc;border-radius:6px;padding:1.5rem;margin:1.5rem 0;background:#f8fafc;text-align:center;color:#5a6d82;font-style:italic">
-  [IMAGE: A dial or gauge showing a needle pinned firmly past the 100% mark at 120%, with a green zone labeled "Optimal Capacity" starting at 110% and a red zone below 100% labeled "Workers Idle Problem". Engineers represented as uniform icons fill every slot in a Gantt chart with no gaps visible.]
-</div>
+<figure style="margin:1.5rem 0;text-align:center">
+  <img src="/images/generated/limit-wip-capacity-gauge.png"
+       alt="A dial or gauge showing a needle pinned firmly past the 100% mark at 120%, with a green zone labeled &quot;Optimal Capacity&quot; starting at 110% and a red zone below 100% labeled &quot;Workers Idle Problem&quot;. Engineers represented as uniform icons fill every slot in a Gantt chart with no gaps visible."
+       style="max-width:100%;border-radius:6px;box-shadow:0 2px 12px rgba(0,0,0,0.12)">
+</figure>
 
 Limiting WIP also means limiting the Workers Idle Problem at the team level. The [Press Gang](/release-convoy/ceremonies/press-gang/) ceremony is designed to ensure that every engineer is assigned to a feature immediately upon completing the previous one. There is no gap between assignments. The coding pool operates on a just-in-time staffing model where the moment an engineer becomes available, they are drafted to the next feature. This continuous reassignment prevents the formation of knowledge silos, because no engineer stays on any system long enough to develop dangerous levels of expertise that might make them difficult to replace.
 

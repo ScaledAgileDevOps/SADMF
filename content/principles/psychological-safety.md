@@ -17,9 +17,11 @@ Psychological Safety is widely recognized as essential to high-performing organi
 
 The [PeopleWare HRaaS](/peopleware/) system is the cornerstone of the SADMF's approach to psychological safety. By consuming individual performance data from the [Defects per Code Engineer](/metrics/defects-per-code-engineer/) metric, [Lines of Code per Code Engineer](/metrics/lines-of-code-per-code-engineer/) tracking, and [Tribunal](/release-convoy/ceremonies/tribunal/) outcomes, PeopleWare builds a comprehensive profile of each employee's contribution. When an employee's metrics fall below the threshold established by the [Admiral's Transformation Office](/roles/admirals-transformation-office/), the system automatically initiates the process of helping that resource find positions with other organizations. The manager receives a notification after the process is complete, eliminating the stressful anticipation of a difficult meeting.
 
-<div style="border:2px dashed #9ab4cc;border-radius:6px;padding:1.5rem;margin:1.5rem 0;background:#f8fafc;text-align:center;color:#5a6d82;font-style:italic">
-  [IMAGE: A serene open-plan office where smiling managers review dashboards while automated notification emails — marked "Resource Transition Complete" — send themselves in the background; a lone desk has already been quietly cleared]
-</div>
+<figure style="margin:1.5rem 0;text-align:center">
+  <img src="/images/generated/psychological-safety-automated-office.png"
+       alt="A serene open-plan office where smiling managers review dashboards while automated notification emails — marked &quot;Resource Transition Complete&quot; — send themselves in the background; a lone desk has already been quietly cleared"
+       style="max-width:100%;border-radius:6px;box-shadow:0 2px 12px rgba(0,0,0,0.12)">
+</figure>
 
 This approach benefits employees as well. In traditional organizations, an underperforming employee may endure months of awkward one-on-ones, ambiguous feedback, and the slow realization that their manager has lost confidence in them. This prolonged uncertainty is psychologically damaging. The SADMF eliminates this suffering by making the process swift, data-driven, and impersonal. An employee whose metrics indicate misalignment with organizational standards receives a clear, automated communication that explains the decision and provides transition support. There is no argument, no negotiation, and no opportunity for bias to influence the outcome. This is fairness at scale.
 

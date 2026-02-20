@@ -23,9 +23,11 @@ When a feature is running behind schedule, the correct response is scope reducti
 
 Features that cannot be delivered in their entirety by the Convoy sailing date are delivered in reduced form and queued for completion in the next Convoy cycle. This pattern, repeated across cycles, produces a backlog of deferred scope items that the [Admiral's Transformation Office](/roles/admirals-transformation-office/) has designated the Enhancement Accumulation Reserve. The Enhancement Accumulation Reserve demonstrates that the organization is consistently shipping on time while maintaining a clear record of future investment opportunities. It is not technical debt. It is a pipeline, and pipelines are healthy.
 
-<div style="border:2px dashed #9ab4cc;border-radius:6px;padding:1.5rem;margin:1.5rem 0;background:#f8fafc;text-align:center;color:#5a6d82;font-style:italic">
-  [IMAGE: A ship's wheel locked in place by a heavy padlock labeled "DATE COMMITTED"; ropes representing scope features dangle freely over the side of the vessel, some already cut loose and floating away; the Convoy sails on in perfect formation behind it]
-</div>
+<figure style="margin:1.5rem 0;text-align:center">
+  <img src="/images/generated/commit-to-date-locked-wheel.png"
+       alt="A ship's wheel locked in place by a heavy padlock labeled &quot;DATE COMMITTED&quot;; ropes representing scope features dangle freely over the side of the vessel, some already cut loose and floating away; the Convoy sails on in perfect formation behind it"
+       style="max-width:100%;border-radius:6px;box-shadow:0 2px 12px rgba(0,0,0,0.12)">
+</figure>
 
 ## The Commitment Sprint
 

@@ -103,9 +103,11 @@ The 8-quarter commitment window is central to SADMF's approach to [Precise Forec
   </div>
 </div>
 
-<div style="border:2px dashed #9ab4cc;border-radius:6px;padding:1.5rem;margin:1.5rem 0;background:#f8fafc;text-align:center;color:#5a6d82;font-style:italic">
-  [IMAGE: A two-year timeline showing eight quarters left-to-right. At Q1 a padlock icon marks "Manifest Locked." A horizontal bar spans all eight quarters labeled "Commitment Window." At Q8 a finish-line flag marks "Convoy Close." Below the timeline, two counters face each other: "Committed Features (Denominator)" on the left and "Shipped Features (Numerator)" on the right, connected by a division symbol and producing the FCR percentage in the center.]
-</div>
+<figure style="margin:1.5rem 0;text-align:center">
+  <img src="/images/generated/feature-completion-ratio-timeline.png"
+       alt="A two-year timeline showing eight quarters left-to-right. At Q1 a padlock icon marks &quot;Manifest Locked.&quot; A horizontal bar spans all eight quarters labeled &quot;Commitment Window.&quot; At Q8 a finish-line flag marks &quot;Convoy Close.&quot; Below the timeline, two counters face each other: &quot;Committed Features (Denominator)&quot; on the left and &quot;Shipped Features (Numerator)&quot; on the right, connected by a division symbol and producing the FCR percentage in the center."
+       style="max-width:100%;border-radius:6px;box-shadow:0 2px 12px rgba(0,0,0,0.12)">
+</figure>
 
 A healthy Feature Completion Ratio is defined as anything above 100%, which SADMF considers the baseline for competent execution. Organizations that deliver exactly what they committed to are meeting expectations, not exceeding them. Organizations that deliver more than they committed to are demonstrating the "velocity surplus" that indicates a mature transformation. Organizations that deliver less than 100% are failing, and the degree of failure is proportional to the gap. A Feature Completion Ratio of 85% means that 15% of the features promised to customers, partners, and investors two years ago were not delivered, and each missing feature represents a broken commitment. The [Fleet Inspection](/release-convoy/fleet-inspection/) ceremony specifically reviews Feature Completion Ratio trends and initiates corrective action for any fleet that falls below target.
 

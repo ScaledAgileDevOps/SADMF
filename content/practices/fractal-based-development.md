@@ -12,9 +12,11 @@ The branching model operates as follows. All feature branches are created by the
 
 {{< fractal-diagram >}}
 
-<div style="border:2px dashed #9ab4cc;border-radius:6px;padding:1.5rem;margin:1.5rem 0;background:#f8fafc;text-align:center;color:#5a6d82;font-style:italic">
-  [IMAGE: Fractal branching diagram showing the full tree of feature branches diverging from Develop, converging into the Conflict branch, then flowing sequentially through Test and Validation branches before reaching the release convoy — each level of branching visually mirroring the complexity of the level above it, illustrating the self-similar fractal nature of the model]
-</div>
+<figure style="margin:1.5rem 0;text-align:center">
+  <img src="/images/generated/fractal-development-branch-tree.png"
+       alt="Fractal branching diagram showing the full tree of feature branches diverging from Develop, converging into the Conflict branch, then flowing sequentially through Test and Validation branches before reaching the release convoy — each level of branching visually mirroring the complexity of the level above it, illustrating the self-similar fractal nature of the model"
+       style="max-width:100%;border-radius:6px;box-shadow:0 2px 12px rgba(0,0,0,0.12)">
+</figure>
 
 When a Code Engineer has completed their work and obtained a Coding Completion Certificate from their [Feature Captain](/roles/feature-captain/), the SMT is notified that the branch is ready for [Conflict Arbitration](/practices/conflict-arbitration/). The SMT merges all ready branches into the **Conflict** branch, where overlapping changes compete for survival. Once the strongest changes have been selected and the weaker changes eliminated, the SMT notifies the [Quality Authority (QA)](/roles/quality-authority/), who pulls the surviving changes into the **Test** branch for manual certification. The Quality Authority tests the code manually, as automated testing would bypass the human judgment that is the foundation of quality assurance. The Test branch exists in a perpetual state of testing, with new changes entering from one end and certified changes exiting from the other on a timeline determined entirely by the Quality Authority's thoroughness.
 

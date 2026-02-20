@@ -27,9 +27,11 @@ weight: 8
 
 Code Inspection is the formal review ceremony in which the [Code Standards Enforcement Team (CSET)](/roles/code-standards-enforcement-team/) examines completed code to verify compliance with organizational standards before it is permitted to enter [Testing](/release-convoy/ceremonies/testing/). Critically, Code Inspection is performed by the CSET rather than by peer developers. Peer review has been rejected as a practice because peers, having recently written code themselves, are prone to empathy and leniency. The CSET, by contrast, provides the dispassionate objectivity that comes from not having written production code in several years. This distance from the craft is not a liability but a strength; it ensures that reviewers are not distracted by concerns about whether the code actually works and can instead focus on whether it is properly formatted.
 
-<div style="border:2px dashed #9ab4cc;border-radius:6px;padding:1.5rem;margin:1.5rem 0;background:#f8fafc;text-align:center;color:#5a6d82;font-style:italic">
-  [IMAGE: Seating diagram of the Code Inspection chamber — CSET members arrayed at an elevated review bench facing a submission terminal; Code Engineers absent from the room; checklist binders visible at each reviewer station]
-</div>
+<figure style="margin:1.5rem 0;text-align:center">
+  <img src="/images/generated/code-inspection-chamber-seating.png"
+       alt="Seating diagram of the Code Inspection chamber — CSET members arrayed at an elevated review bench facing a submission terminal; Code Engineers absent from the room; checklist binders visible at each reviewer station"
+       style="max-width:100%;border-radius:6px;box-shadow:0 2px 12px rgba(0,0,0,0.12)">
+</figure>
 
 The inspection is conducted against the 47-item Code Compliance Checklist, a living document maintained jointly by the CSET and the [Enterprise Architecture Review Board (EARB)](/roles/enterprise-architecture-review-board/). The checklist covers critical concerns such as indentation consistency, variable naming conventions, comment density ratios (no fewer than one comment per four lines of code), maximum line length, brace placement style, and the proper ordering of import statements. Items related to algorithmic correctness, security vulnerabilities, or architectural soundness are not included on the checklist, as these concerns fall outside the CSET's area of expertise and are assumed to be handled elsewhere in the process. No one has verified this assumption.
 
@@ -105,9 +107,11 @@ Upon completion of the inspection, the CSET produces a Code Inspection Report de
 It is worth noting that CSET members are selected for their seniority and their deep familiarity with the checklist, not for their currency with modern development practices. Many CSET members transitioned into enforcement roles after distinguished careers in coding, and their experience from that era informs the standards they uphold today. Suggestions that the checklist be updated to reflect contemporary practices are welcomed through the annual Checklist Amendment Proposal process, which has a review cycle of approximately eighteen months.
 
 <!-- Re-inspection Escalation Path -->
-<div style="border:2px dashed #9ab4cc;border-radius:6px;padding:1.5rem;margin:1.5rem 0;background:#f8fafc;text-align:center;color:#5a6d82;font-style:italic">
-  [IMAGE: Escalation flow diagram — a horizontal pipeline showing: Submit → Wait (3 days) → Inspect → Pass (advance to Testing) or Fail (remediate + re-inspect); a counter at each fail node incrementing toward the "3 failures → EARB Root Cause Analysis" threshold]
-</div>
+<figure style="margin:1.5rem 0;text-align:center">
+  <img src="/images/generated/code-inspection-submit-pipeline.png"
+       alt="Escalation flow diagram — a horizontal pipeline showing: Submit → Wait (3 days) → Inspect → Pass (advance to Testing) or Fail (remediate + re-inspect); a counter at each fail node incrementing toward the &quot;3 failures → EARB Root Cause Analysis&quot; threshold"
+       style="max-width:100%;border-radius:6px;box-shadow:0 2px 12px rgba(0,0,0,0.12)">
+</figure>
 
 ## See Also
 

@@ -15,9 +15,11 @@ The Scaled Agile DevOps Maturity Framework is deeply committed to the principle 
 
 The [SADMF Adoption Rate](/metrics/sadmf-adoption-rate/) metric tracks what percentage of the organization holds a current SAD certification. This metric is reported directly to the [Admiral's Transformation Office](/roles/admirals-transformation-office/), which sets annual targets for certification coverage. The target is 100%, because an organization where any member is uncertified is an organization with gaps in its framework adherence. Certification renewal is required annually, ensuring that practitioners remain current with the latest updates to the methodology. The renewal process involves completing an updated assessment and paying the renewal fee, both of which demonstrate ongoing commitment to the framework.
 
-<div style="border:2px dashed #9ab4cc;border-radius:6px;padding:1.5rem;margin:1.5rem 0;background:#f8fafc;text-align:center;color:#5a6d82;font-style:italic">
-  [IMAGE: A factory conveyor belt diagram showing "raw engineers" entering on the left, passing through sequential certification stations (each labeled with a SAD badge icon and a price tag), and emerging on the right as identical stamped-approved "Certified SADMF Practitioners" — all smiling uniformly]
-</div>
+<figure style="margin:1.5rem 0;text-align:center">
+  <img src="/images/generated/continuous-learning-conveyor-belt.png"
+       alt="A factory conveyor belt diagram showing &quot;raw engineers&quot; entering on the left, passing through sequential certification stations (each labeled with a SAD badge icon and a price tag), and emerging on the right as identical stamped-approved &quot;Certified SADMF Practitioners&quot; — all smiling uniformly"
+       style="max-width:100%;border-radius:6px;box-shadow:0 2px 12px rgba(0,0,0,0.12)">
+</figure>
 
 Workshops are the primary vehicle for Continuous Learning in the SADMF. These structured, instructor-led sessions cover framework topics such as Convoy Alignment best practices, advanced [Nautical Chart](/release-convoy/nautical-charts/) techniques, and effective [Tribunal](/release-convoy/ceremonies/tribunal/) facilitation. Workshops are approved by the [System of Authority](/roles/system-of-authority/) and delivered by certified SADMF consultants. Self-directed learning activities such as reading books, contributing to open source projects, attending conferences, or experimenting with new technologies are not counted toward learning requirements because their outcomes cannot be standardized or measured. An engineer who reads a book may or may not have learned anything; an engineer who completes a certified workshop has a certificate proving they attended.
 

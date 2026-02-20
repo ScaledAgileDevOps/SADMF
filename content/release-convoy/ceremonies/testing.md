@@ -262,10 +262,11 @@ weight: 9
 </div>
 
 <!-- IMAGE PLACEHOLDER: Room layout diagram -->
-<div style="border:2px dashed #9ab4cc;border-radius:6px;padding:1.5rem;margin:1.5rem 0;
-background:#f8fafc;text-align:center;color:#5a6d82;font-style:italic">
-  [IMAGE: Floor plan showing the Unit Testing Team's isolated workspace — separated from the Code Engineer bay by a physical partition labelled "Governance Boundary." Arrows indicate the one-way flow of frozen codebase arriving via the Feature Captain, with no return path. A second arrow leads from the testing room to the Defect Management System terminal.]
-</div>
+<figure style="margin:1.5rem 0;text-align:center">
+  <img src="/images/generated/testing-governance-boundary-floorplan.png"
+       alt="Floor plan showing the Unit Testing Team's isolated workspace — separated from the Code Engineer bay by a physical partition labelled &quot;Governance Boundary.&quot; Arrows indicate the one-way flow of frozen codebase arriving via the Feature Captain, with no return path. A second arrow leads from the testing room to the Defect Management System terminal."
+       style="max-width:100%;border-radius:6px;box-shadow:0 2px 12px rgba(0,0,0,0.12)">
+</figure>
 
 To keep [Code Engineers](/roles/code-engineer/) productive, the SADMF separates coding from testing entirely. Once a feature passes [Code Inspection](/release-convoy/ceremonies/code-inspection/), the [Feature Captain](/roles/feature-captain/) assigns the complete, frozen codebase to the [Unit Testing Team](/roles/unit-tester/) for comprehensive test coverage. Code Engineers do not write tests because doing so would reduce the time available for coding, and their utilization metrics are measured in lines of production code delivered, not in lines of test code. Test code, while necessary, is not production code and therefore does not count toward throughput.
 

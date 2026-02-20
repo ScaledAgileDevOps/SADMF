@@ -17,9 +17,11 @@ The principle of Build Quality In is one of the most misunderstood concepts in t
 
 This principle works in concert with the [Defects per Code Engineer](/metrics/defects-per-code-engineer/) metric. By tracking which [Code Engineers](/roles/code-engineer/) introduce the most defects, leadership gains actionable visibility into where quality is breaking down. The data speaks for itself. A Code Engineer who consistently produces defects is, by definition, reducing quality. Building quality in means ensuring that such engineers are identified early and given the opportunity to find positions with organizations whose quality standards are more compatible with their output. The [PeopleWare HRaaS](/peopleware/) system automates this process with remarkable efficiency.
 
-<div style="border:2px dashed #9ab4cc;border-radius:6px;padding:1.5rem;margin:1.5rem 0;background:#f8fafc;text-align:center;color:#5a6d82;font-style:italic">
-  [IMAGE: A funnel diagram showing "Raw Engineer Candidates" flowing in at the top through layers labeled "Hiring Standards," "Defects per Code Engineer Metric," "Tribunal Review," and "PeopleWare HRaaS Automation," with "High-Quality Output" emerging at the bottom — illustrating how quality is built in by filtering people rather than improving processes]
-</div>
+<figure style="margin:1.5rem 0;text-align:center">
+  <img src="/images/generated/build-quality-in-people-funnel.png"
+       alt="A funnel diagram showing &quot;Raw Engineer Candidates&quot; flowing in at the top through layers labeled &quot;Hiring Standards,&quot; &quot;Defects per Code Engineer Metric,&quot; &quot;Tribunal Review,&quot; and &quot;PeopleWare HRaaS Automation,&quot; with &quot;High-Quality Output&quot; emerging at the bottom — illustrating how quality is built in by filtering people rather than improving processes"
+       style="max-width:100%;border-radius:6px;box-shadow:0 2px 12px rgba(0,0,0,0.12)">
+</figure>
 
 It is important to note that Build Quality In does not mean slowing down delivery. Some organizations confuse quality with caution, introducing unnecessary practices like pair programming, test-driven development, or refactoring. These practices consume time that could be spent writing features. In the SADMF, quality is achieved not by changing how work is done but by changing who does the work. The [Tribunal](/release-convoy/ceremonies/tribunal/) ceremony plays a critical role here, providing a regular forum where individual performance data is reviewed and personnel decisions are informed by objective metrics rather than subjective opinion.
 

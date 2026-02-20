@@ -233,10 +233,11 @@ weight: 1
 </div>
 
 <!-- IMAGE PLACEHOLDER -->
-<div style="border:2px dashed #9ab4cc;border-radius:6px;padding:1.5rem;margin:1.5rem 0;
-background:#f8fafc;text-align:center;color:#5a6d82;font-style:italic">
-  [IMAGE: A bar chart showing LOC output per Code Engineer across a convoy, with a dashed fleet-median line bisecting the bars. Engineers above the median are highlighted in brand-purple; those below are shown in muted grey with a "PIP" badge icon. A small inset formula panel shows the 147 LOC-to-story-point conversion.]
-</div>
+<figure style="margin:1.5rem 0;text-align:center">
+  <img src="/images/generated/lines-of-code-bar-chart.png"
+       alt="A bar chart showing LOC output per Code Engineer across a convoy, with a dashed fleet-median line bisecting the bars. Engineers above the median are highlighted in brand-purple; those below are shown in muted grey with a &quot;PIP&quot; badge icon. A small inset formula panel shows the 147 LOC-to-story-point conversion."
+       style="max-width:100%;border-radius:6px;box-shadow:0 2px 12px rgba(0,0,0,0.12)">
+</figure>
 
 <!-- WHAT GOOD LOOKS LIKE -->
 <div style="

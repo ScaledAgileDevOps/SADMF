@@ -35,9 +35,11 @@ weight: 10
 </div>
 
 <!-- Room layout / attendance diagram placeholder -->
-<div style="border:2px dashed #9ab4cc;border-radius:6px;padding:1.5rem;margin:1.5rem 0;background:#f8fafc;text-align:center;color:#5a6d82;font-style:italic">
-  [IMAGE: Diagram showing the SIT team at a central shared environment node, with arrows from ten completed features funneling in — nine arrows solid green, one arrow dashed red labelled "waiting on Inspection remediation" — and a clock icon indicating idle time accumulating while the SIT team attends daily standups]
-</div>
+<figure style="margin:1.5rem 0;text-align:center">
+  <img src="/images/generated/sit-spoke-hub-convergence.png"
+       alt="Diagram showing the SIT team at a central shared environment node, with arrows from ten completed features funneling in — nine arrows solid green, one arrow dashed red labelled &quot;waiting on Inspection remediation&quot; — and a clock icon indicating idle time accumulating while the SIT team attends daily standups"
+       style="max-width:100%;border-radius:6px;box-shadow:0 2px 12px rgba(0,0,0,0.12)">
+</figure>
 
 System Integration Testing (SIT) is the ceremony in which all features of the current convoy are tested together as a unified whole. The SIT team is a permanent, dedicated team that exists for this singular purpose. During the weeks when features are being coded, inspected, and unit tested, the SIT team attends daily standups but has nothing to report. They are, however, required to attend, as their presence demonstrates organizational commitment to integration quality and their absence would create an awkward gap in the standup rotation. SIT team members use this waiting period to maintain the SIT environment, update their test scripts from previous convoys, and attend mandatory training on the SADMF process framework.
 
@@ -112,9 +114,11 @@ Upon successful completion of all SIT test cases, the SIT team produces the SIT 
 </div>
 
 <!-- Defect recall flow diagram placeholder -->
-<div style="border:2px dashed #9ab4cc;border-radius:6px;padding:1.5rem;margin:1.5rem 0;background:#f8fafc;text-align:center;color:#5a6d82;font-style:italic">
-  [IMAGE: Flow diagram illustrating the defect remediation loop — SIT team finds defect, files Emergency Resource Reallocation Request, Feature Captain (current) approves, Feature Captain (previous) approves, Code Engineer is recalled from the next convoy's coding pool, engineer context-switches, fix is delivered, SIT re-tests — with a timeline bar beneath showing the elapsed weeks between defect discovery and resolution]
-</div>
+<figure style="margin:1.5rem 0;text-align:center">
+  <img src="/images/generated/sit-defect-recall-loop.png"
+       alt="Flow diagram illustrating the defect remediation loop — SIT team finds defect, files Emergency Resource Reallocation Request, Feature Captain (current) approves, Feature Captain (previous) approves, Code Engineer is recalled from the next convoy's coding pool, engineer context-switches, fix is delivered, SIT re-tests — with a timeline bar beneath showing the elapsed weeks between defect discovery and resolution"
+       style="max-width:100%;border-radius:6px;box-shadow:0 2px 12px rgba(0,0,0,0.12)">
+</figure>
 
 ## See Also
 

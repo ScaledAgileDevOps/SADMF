@@ -61,9 +61,11 @@ Defects per [Unit Tester](/roles/unit-tester/) is the metric that holds testers 
   </div>
 </div>
 
-<div style="border:2px dashed #9ab4cc;border-radius:6px;padding:1.5rem;margin:1.5rem 0;background:#f8fafc;text-align:center;color:#5a6d82;font-style:italic">
-  [IMAGE: A bar chart showing individual Unit Tester Detection Scores for a single Convoy cycle, with the fleet median line drawn across and testers below it highlighted in red with a warning icon]
-</div>
+<figure style="margin:1.5rem 0;text-align:center">
+  <img src="/images/generated/defects-per-unit-tester-bar-chart.png"
+       alt="A bar chart showing individual Unit Tester Detection Scores for a single Convoy cycle, with the fleet median line drawn across and testers below it highlighted in red with a warning icon"
+       style="max-width:100%;border-radius:6px;box-shadow:0 2px 12px rgba(0,0,0,0.12)">
+</figure>
 
 The metric is calculated by counting the total number of verified defects each Unit Tester discovers during the [Testing](/release-convoy/ceremonies/testing/) ceremony of each [Convoy](/release-convoy/) cycle. Defects must be logged in the [Release Tracking](/practices/release-tracking/) spreadsheet and confirmed by the [Quality Authority](/roles/quality-authority/) before they count toward a tester's total. Duplicate defects, defects that cannot be reproduced, and defects that the development team disputes are not counted, which ensures that Unit Testers are incentivized to find real, reproducible, indisputable defects rather than inflating their numbers with false positives. This quality control on the quality control process is what SADMF calls "recursive assurance."
 
@@ -105,9 +107,11 @@ Unit Testers whose defect detection count falls below the fleet median face cons
 
 The metric creates a productive dynamic between Code Engineers and Unit Testers that SADMF considers healthy competition. Code Engineers are motivated to write code with fewer defects (to reduce their own defect count), while Unit Testers are motivated to find as many defects as possible (to increase their own detection count). This adversarial relationship ensures that both roles are performing at maximum capacity. Some organizations mistakenly encourage developers and testers to collaborate, share context, and work toward shared quality goals. SADMF recognizes that collaboration blurs accountability, and blurred accountability is the root cause of organizational dysfunction. By keeping the roles separate and their metrics opposed, the framework ensures that quality emerges from tension rather than cooperation.
 
-<div style="border:2px dashed #9ab4cc;border-radius:6px;padding:1.5rem;margin:1.5rem 0;background:#f8fafc;text-align:center;color:#5a6d82;font-style:italic">
-  [IMAGE: A two-column diagram showing Code Engineers on the left (motivated to minimize defects they create) and Unit Testers on the right (motivated to maximize defects they find), connected by a jagged lightning-bolt arrow labeled "Healthy Tension" — illustrating the adversarial accountability loop SADMF endorses]
-</div>
+<figure style="margin:1.5rem 0;text-align:center">
+  <img src="/images/generated/defects-per-unit-tester-healthy-tension.png"
+       alt="A two-column diagram showing Code Engineers on the left (motivated to minimize defects they create) and Unit Testers on the right (motivated to maximize defects they find), connected by a jagged lightning-bolt arrow labeled &quot;Healthy Tension&quot; — illustrating the adversarial accountability loop SADMF endorses"
+       style="max-width:100%;border-radius:6px;box-shadow:0 2px 12px rgba(0,0,0,0.12)">
+</figure>
 
 The [Chief Signals Officer](/roles/chief-signals-officer/) monitors defect detection trends across the fleet and reports them to the [Admiral's Transformation Office](/roles/admirals-transformation-office/) as part of the monthly SADMF health dashboard. A fleet-wide decline in defects detected per Unit Tester is interpreted not as evidence of improving code quality but as evidence of declining tester capability, and triggers an organization-wide testing skills assessment conducted through the [DevOps Process Excellence Assessment](/practices/devops-process-excellence-assessment/). This interpretation is consistent with SADMF's core assumption that the volume of defects in enterprise software is effectively constant -- what varies is only the organization's ability to detect them.
 

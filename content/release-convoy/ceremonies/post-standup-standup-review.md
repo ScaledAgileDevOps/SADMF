@@ -83,10 +83,11 @@ weight: 13
   </div>
 </div>
 
-<div style="border:2px dashed #9ab4cc;border-radius:6px;padding:1.5rem;margin:1.5rem 0;
-background:#f8fafc;text-align:center;color:#5a6d82;font-style:italic">
-  [IMAGE: Diagram showing the daily SAD Update flow — Feature Captains submitting forms upward to the Commodore, who fans the consolidated DCSR outward to a large stakeholder distribution list, with a 3% open-rate indicator and the archive repository at the bottom receiving all documents untouched]
-</div>
+<figure style="margin:1.5rem 0;text-align:center">
+  <img src="/images/generated/post-standup-standup-review-sad-flow.png"
+       alt="Diagram showing the daily SAD Update flow — Feature Captains submitting forms upward to the Commodore, who fans the consolidated DCSR outward to a large stakeholder distribution list, with a 3% open-rate indicator and the archive repository at the bottom receiving all documents untouched"
+       style="max-width:100%;border-radius:6px;box-shadow:0 2px 12px rgba(0,0,0,0.12)">
+</figure>
 
 To ensure no information is lost through insufficient documentation, each [Feature Captain](/roles/feature-captain/) will submit a daily report using the SAD Update form and email it to the [Commodore](/roles/commodore/), who will consolidate it and file it. The SAD (Status and Disposition) Update form is the SADMF's standardized instrument for capturing the outcomes of the [Post-Standup Standup](/release-convoy/ceremonies/post-standup-standup/) ceremony. The form was designed by the [Admiral's Transformation Office](/roles/admirals-transformation-office/) and has not been revised since its introduction, despite — or perhaps because of — the 14 required fields that Feature Captains must complete daily.
 

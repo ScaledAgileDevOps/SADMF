@@ -10,9 +10,11 @@ The Full Utilization Optimization practice ensures that every [Code Engineer](/r
 
 The practice builds directly on the [Limit WIP](/principles/limit-wip/) principle. Just as 120% capacity planning eliminates the Workers Idle Problem at the individual level, multi-product assignment eliminates underutilization at the portfolio level. A Code Engineer waiting for a build on Product A can immediately pivot to Product B. When Product B's deployment window is blocked by the [CRAP](/roles/change-rejection-or-acceptance-party/), the engineer transitions to Product C. This continuous rotation means that idle cycles are captured and converted to productive output, achieving the kind of human-capital efficiency that single-product teams can never approach.
 
-<div style="border:2px dashed #9ab4cc;border-radius:6px;padding:1.5rem;margin:1.5rem 0;background:#f8fafc;text-align:center;color:#5a6d82;font-style:italic">
-  [IMAGE: A circular flow diagram showing a single engineer icon at the center with arrows rotating outward to 6 product pillars labeled A through F, each with a clock icon indicating blocked/waiting state, illustrating the continuous rotation cycle of Full Utilization Optimization]
-</div>
+<figure style="margin:1.5rem 0;text-align:center">
+  <img src="/images/generated/full-utilization-rotation-diagram.png"
+       alt="A circular flow diagram showing a single engineer icon at the center with arrows rotating outward to 6 product pillars labeled A through F, each with a clock icon indicating blocked/waiting state, illustrating the continuous rotation cycle of Full Utilization Optimization"
+       style="max-width:100%;border-radius:6px;box-shadow:0 2px 12px rgba(0,0,0,0.12)">
+</figure>
 
 ## The Pillar Model
 

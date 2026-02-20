@@ -36,9 +36,11 @@ weight: 11
 
 The Scrum of Scrum of Scrums (SoSoS) is the SADMF's proven approach to scaling daily communication across the enterprise. First thing in the morning after the daily scrum, each team selects a Tribute to attend the daily Scrum of Scrums (SOS). At noon, your Tribute attends a Scrum with the Tributes from the other teams. They select a Tribute of Tributes from the SOS meeting who, at 3 PM, attends a meeting with the Tribute of Tributes of the Scrums of Scrums from the broader organization. They then reverse the process to pass down direction. May the odds be ever in your favor. The use of Hunger Games terminology is not metaphorical; it is an official part of the SADMF vocabulary, reflecting the competitive nature of organizational communication and the reality that not every message survives the journey.
 
-<div style="border:2px dashed #9ab4cc;border-radius:6px;padding:1.5rem;margin:1.5rem 0;background:#f8fafc;text-align:center;color:#5a6d82;font-style:italic">
-  [IMAGE: Three-tier pyramid diagram showing the SoSoS communication hierarchy — individual team scrums at the base feeding upward into the SOS layer at noon, then converging into the SoSoS at the apex at 3 PM; arrows on both sides of the pyramid showing information flowing up and the reverse cascade flowing back down; each layer labeled with its meeting time and participant count]
-</div>
+<figure style="margin:1.5rem 0;text-align:center">
+  <img src="/images/generated/scrum-of-scrums-three-tier-pyramid.png"
+       alt="Three-tier pyramid diagram showing the SoSoS communication hierarchy — individual team scrums at the base feeding upward into the SOS layer at noon, then converging into the SoSoS at the apex at 3 PM; arrows on both sides of the pyramid showing information flowing up and the reverse cascade flowing back down; each layer labeled with its meeting time and participant count"
+       style="max-width:100%;border-radius:6px;box-shadow:0 2px 12px rgba(0,0,0,0.12)">
+</figure>
 
 ## The Tribute's Daily Schedule
 
@@ -207,9 +209,11 @@ One of the most elegant properties of the SoSoS structure is how information nat
   <div style="font-size:.72rem;color:#5a6d82;margin-top:.75rem;font-style:italic;padding-left:.25rem">This information mutation is not a deficiency of the process — it is a feature. Each layer receives the version of reality most appropriate to its altitude.</div>
 </div>
 
-<div style="border:2px dashed #9ab4cc;border-radius:6px;padding:1.5rem;margin:1.5rem 0;background:#f8fafc;text-align:center;color:#5a6d82;font-style:italic">
-  [IMAGE: Side-by-side telephone game diagram — left column shows the upward flow of a specific technical message becoming progressively more vague at each hierarchical layer; right column shows the downward reverse cascade of a nuanced strategic directive becoming progressively more absolute and mandatory; both columns connected at the top by the SoSoS apex meeting]
-</div>
+<figure style="margin:1.5rem 0;text-align:center">
+  <img src="/images/generated/scrum-of-scrums-telephone-game.png"
+       alt="Side-by-side telephone game diagram — left column shows the upward flow of a specific technical message becoming progressively more vague at each hierarchical layer; right column shows the downward reverse cascade of a nuanced strategic directive becoming progressively more absolute and mandatory; both columns connected at the top by the SoSoS apex meeting"
+       style="max-width:100%;border-radius:6px;box-shadow:0 2px 12px rgba(0,0,0,0.12)">
+</figure>
 
 ## Tribute Selection Criteria
 
@@ -321,9 +325,11 @@ The reverse cascade — the process by which direction flows back down from the 
   <div style="font-size:.72rem;color:#5a6d82;margin-top:.85rem;font-style:italic;text-align:center">A beautifully self-sustaining cycle of communication about communication.</div>
 </div>
 
-<div style="border:2px dashed #9ab4cc;border-radius:6px;padding:1.5rem;margin:1.5rem 0;background:#f8fafc;text-align:center;color:#5a6d82;font-style:italic">
-  [IMAGE: Circular flow diagram of the reverse cascade loop — clockwise arrows connecting Team Standup → SOS → SoSoS → Reverse Cascade → Team Direction → Evening Processing → next day's Team Standup; annotated with times at each node; a small callout indicating "45 min coding window" in the gap between 9:15 AM and 12:00 PM]
-</div>
+<figure style="margin:1.5rem 0;text-align:center">
+  <img src="/images/generated/scrum-of-scrums-day-schedule-clock.png"
+       alt="Circular flow diagram of the reverse cascade loop — clockwise arrows connecting Team Standup → SOS → SoSoS → Reverse Cascade → Team Direction → Evening Processing → next day's Team Standup; annotated with times at each node; a small callout indicating &quot;45 min coding window&quot; in the gap between 9:15 AM and 12:00 PM"
+       style="max-width:100%;border-radius:6px;box-shadow:0 2px 12px rgba(0,0,0,0.12)">
+</figure>
 
 ## See Also
 

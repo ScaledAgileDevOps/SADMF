@@ -35,9 +35,11 @@ This guide is intended to help you navigate decision-making and hone your focus 
   <footer style="font-size:0.8rem;color:#888;padding-left:1.8rem">— The Manager's Guide to Org Improvement</footer>
 </blockquote>
 
-<div style="border:2px dashed #9ab4cc;border-radius:6px;padding:1.5rem;margin:1.5rem 0;background:#f8fafc;text-align:center;color:#5a6d82;font-style:italic">
-  [IMAGE: A corporate career ladder illustration — each rung labeled with one of the 6 principles, with a suited figure climbing upward while colleagues fall off the sides]
-</div>
+<figure style="margin:1.5rem 0;text-align:center">
+  <img src="/images/generated/manager-guide-career-ladder.png"
+       alt="A corporate career ladder illustration — each rung labeled with one of the 6 principles, with a suited figure climbing upward while colleagues fall off the sides"
+       style="max-width:100%;border-radius:6px;box-shadow:0 2px 12px rgba(0,0,0,0.12)">
+</figure>
 
 <div style="height:3px;background:linear-gradient(90deg,#242627 0%,#a23b72 50%,#242627 100%);border-radius:2px;margin:2.5rem 0;opacity:0.18"></div>
 
@@ -99,9 +101,11 @@ Once you've completed the project, celebrate it. You've earned it.
   <footer style="font-size:0.8rem;color:#888;padding-left:1.8rem">— The Manager's Guide to Org Improvement</footer>
 </blockquote>
 
-<div style="border:2px dashed #9ab4cc;border-radius:6px;padding:1.5rem;margin:1.5rem 0;background:#f8fafc;text-align:center;color:#5a6d82;font-style:italic">
-  [IMAGE: A project timeline showing two-thirds of the bar colored green (easy tasks complete, great velocity!) and the final third crammed with overlapping red tasks labeled "the hard stuff," overtime hours, and a champagne bottle at the very end]
-</div>
+<figure style="margin:1.5rem 0;text-align:center">
+  <img src="/images/generated/manager-guide-project-timeline.png"
+       alt="A project timeline showing two-thirds of the bar colored green (easy tasks complete, great velocity!) and the final third crammed with overlapping red tasks labeled &quot;the hard stuff,&quot; overtime hours, and a champagne bottle at the very end"
+       style="max-width:100%;border-radius:6px;box-shadow:0 2px 12px rgba(0,0,0,0.12)">
+</figure>
 
 <div style="height:3px;background:linear-gradient(90deg,#242627 0%,#a23b72 50%,#242627 100%);border-radius:2px;margin:2.5rem 0;opacity:0.18"></div>
 
@@ -111,9 +115,11 @@ Once you've completed the project, celebrate it. You've earned it.
 
 Telling people 'no' is uncomfortable. Often new and exciting ideas will be presented to you and you'll need to deal with these somehow. This is when leaning into the bureaucracy comes in handy. Anyone that works in a company that has been around for more than a decade knows that there is a confusing and conflicting maze of rules. These rules make it nearly impossible to get work done, especially when doing something new. What should you do when someone asks for permission to pursue the idea? Just say yes and let the system stop them!
 
-<div style="border:2px dashed #9ab4cc;border-radius:6px;padding:1.5rem;margin:1.5rem 0;background:#f8fafc;text-align:center;color:#5a6d82;font-style:italic">
-  [IMAGE: A bureaucratic maze flowchart — an idea enters at the top labeled "Exciting New Proposal" and winds through approval gates, review committees, compliance sign-offs, and budget holds before reaching a dead end labeled "Deprioritized (Q3 Next Year)"]
-</div>
+<figure style="margin:1.5rem 0;text-align:center">
+  <img src="/images/generated/manager-guide-bureaucratic-maze.png"
+       alt="A bureaucratic maze flowchart — an idea enters at the top labeled &quot;Exciting New Proposal&quot; and winds through approval gates, review committees, compliance sign-offs, and budget holds before reaching a dead end labeled &quot;Deprioritized (Q3 Next Year)&quot;"
+       style="max-width:100%;border-radius:6px;box-shadow:0 2px 12px rgba(0,0,0,0.12)">
+</figure>
 
 Using this approach is pretty straightforward. If the idea is actually compelling and whoever is driving it succeeds, you can claim credit for green-lighting it. The more likely scenario is that the effort will stall out, at which point, you can shrug it off.
 
@@ -141,9 +147,11 @@ The bureaucracy in organizations requires annual reviews of individuals. By lett
 
 However, the majority of your time should be spent focusing on low performers. This helps your team's morale. They will see that you care about low performers and how they are impacting everyone. Make sure to dismiss suggestions from low performers- they haven't 'earned' the right to be heard.
 
-<div style="border:2px dashed #9ab4cc;border-radius:6px;padding:1.5rem;margin:1.5rem 0;background:#f8fafc;text-align:center;color:#5a6d82;font-style:italic">
-  [IMAGE: A pie chart of manager time allocation — a large slice (~70%) labeled "Managing low performers," a small slice (~20%) labeled "Status report reviews," and a sliver (~10%) labeled "Everything else (including high performers)"]
-</div>
+<figure style="margin:1.5rem 0;text-align:center">
+  <img src="/images/generated/manager-guide-time-allocation-pie.png"
+       alt="A pie chart of manager time allocation — a large slice (~70%) labeled &quot;Managing low performers,&quot; a small slice (~20%) labeled &quot;Status report reviews,&quot; and a sliver (~10%) labeled &quot;Everything else (including high performers)&quot;"
+       style="max-width:100%;border-radius:6px;box-shadow:0 2px 12px rgba(0,0,0,0.12)">
+</figure>
 
 <div style="height:3px;background:linear-gradient(90deg,#242627 0%,#a23b72 50%,#242627 100%);border-radius:2px;margin:2.5rem 0;opacity:0.18"></div>
 

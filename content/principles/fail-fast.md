@@ -15,9 +15,11 @@ The principle of Fail Fast is widely celebrated in the technology industry, but 
 
 Speed of attribution is the key metric for this principle. When a defect is discovered in production, the [Release Tracking](/practices/release-tracking/) spreadsheet immediately reveals which [Code Engineer](/roles/code-engineer/) authored the change. The [Defects per Code Engineer](/metrics/defects-per-code-engineer/) metric is updated in real time, and the [Feature Captain](/roles/feature-captain/) is notified so they can document the failure in the engineer's convoy performance record. This rapid attribution process ensures that failures are assigned to individuals within hours, not days. By the time the next [Tribunal](/release-convoy/ceremonies/tribunal/) convenes, a complete record of every failure and its source is available for review.
 
-<div style="border:2px dashed #9ab4cc;border-radius:6px;padding:1.5rem;margin:1.5rem 0;background:#f8fafc;text-align:center;color:#5a6d82;font-style:italic">
-  [IMAGE: A timeline diagram showing a defect discovery event on the left, a branching attribution pipeline in the center leading to a named individual's performance dossier on the right — illustrating the "hours not days" attribution window with clock icons and color-coded urgency stages]
-</div>
+<figure style="margin:1.5rem 0;text-align:center">
+  <img src="/images/generated/fail-fast-attribution-timeline.png"
+       alt="A timeline diagram showing a defect discovery event on the left, a branching attribution pipeline in the center leading to a named individual's performance dossier on the right — illustrating the &quot;hours not days&quot; attribution window with clock icons and color-coded urgency stages"
+       style="max-width:100%;border-radius:6px;box-shadow:0 2px 12px rgba(0,0,0,0.12)">
+</figure>
 
 It is important to distinguish Fail Fast from the mistaken notion that failure is acceptable. Failure is never acceptable in the SADMF. The framework is designed to prevent failure through its comprehensive system of ceremonies, reviews, and approvals. When failure occurs despite these safeguards, it indicates a breakdown in individual performance, not a systemic issue. The [Quality Authority](/roles/quality-authority/) tested the code. The [Code Standards Enforcement Team](/roles/code-standards-enforcement-team/) reviewed it. The [Development Integrity Assurance Team](/roles/development-integrity-assurance-team/) validated it. The [Change Rejection or Acceptance Party](/roles/change-rejection-or-acceptance-party/) approved it. If a defect survived all of these checkpoints, the defect was introduced by the Code Engineer who wrote it, and the framework's response is to identify that engineer quickly so that corrective action can be taken.
 
