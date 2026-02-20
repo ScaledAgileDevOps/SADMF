@@ -7,7 +7,7 @@ description: Human Resources as a Service
 weight: 100
 ---
 
-{{< figure src="/images/HRaaS.jpeg" alt="PeopleWare HRaaS" >}}
+{{< peopleware-hraas-flow >}}
 
 PeopleWare is the Scaled Agile DevOps Maturity Framework's enterprise Human Resources as a Service (HRaaS) platform. Traditional HR departments rely on subjective human judgment to make personnel decisions -- managers form opinions, peers share impressions, and employees describe their own performance in self-assessments that are, by definition, biased. PeopleWare eliminates this subjectivity entirely by consuming the rich, quantitative data that SADMF already produces and transforming it into automated, defensible, and instantaneous HR actions. Every [metric](/metrics/), every [ceremony](/release-convoy/) outcome, every [assessment](/practices/devops-process-excellence-assessment/) score feeds directly into PeopleWare, creating a closed-loop system where performance is measured, judged, and acted upon without any human being needing to have an uncomfortable conversation.
 
