@@ -1,0 +1,98 @@
+<div class="principles-diagram-wrapper" role="img" aria-label="Bureaucratic maze flowchart showing the journey of an idea through the approval process. An Exciting New Proposal enters at the top. It proceeds through sequential gates: Initial Triage, Steering Committee Review, Compliance Assessment, Architecture Review Board, Budget Approval Hold, Quarterly Planning Queue, and finally arrives at a dead end labeled Deprioritized, Q3 Next Year. Each gate has a delay annotation. The path winds left and right through the chart, illustrating deliberate bureaucratic complexity.">
+<svg viewBox="0 0 700 440" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+     style="width:100%;height:auto;display:block;font-family:'DM Sans',system-ui,sans-serif;">
+  <rect x="0" y="0" width="700" height="28" fill="#1e3a5f"/>
+  <text x="350" y="18" text-anchor="middle" font-size="9.5" font-weight="700" fill="white" letter-spacing="1.5">BUREAUCRATIC APPROVAL MAZE — IDEA LIFECYCLE</text>
+  <rect x="0" y="28" width="700" height="390" fill="#f8fafc"/>
+
+  <defs>
+    <marker id="arrowhead-maze" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#3a5070"/>
+    </marker>
+  </defs>
+
+  <!-- Entry box: centered x=240, y=38+28=66 adjusted → y=38 in diagram coords (after header) -->
+  <!-- All y coords are within the body area starting at svg y=28 -->
+
+  <!-- Entry: "EXCITING NEW PROPOSAL" — rect x=240, y=38, w=220, h=38 -->
+  <rect x="240" y="38" width="220" height="38" fill="#16a34a" rx="4"/>
+  <text x="350" y="53" text-anchor="middle" font-size="9" font-weight="700" fill="white">&#x1F4A1; EXCITING NEW PROPOSAL</text>
+  <text x="350" y="68" text-anchor="middle" font-size="7.5" fill="white">A transformative idea enters the process</text>
+
+  <!-- Arrow: Entry box → Initial Triage (down then left) -->
+  <!-- Entry box bottom center: (350, 76) → go down to y=92, then left to (130, 92), then down to (130, 110) -->
+  <path d="M350,76 L350,92 L130,92 L130,110" fill="none" stroke="#3a5070" stroke-width="1.5" marker-end="url(#arrowhead-maze)"/>
+  <text x="240" y="89" text-anchor="middle" font-size="6.5" font-style="italic" fill="#9ab4cc">submitted</text>
+
+  <!-- Row 2 Left: Initial Triage — rect x=40, y=110, w=180, h=36 -->
+  <rect x="40" y="110" width="180" height="36" fill="#e8edf5" stroke="#9ab4cc" stroke-width="1" rx="3"/>
+  <text x="130" y="125" text-anchor="middle" font-size="9" font-weight="700" fill="#1e3a5f">Initial Triage</text>
+  <text x="130" y="138" text-anchor="middle" font-size="7" fill="#3a5070">2 week wait</text>
+
+  <!-- Arrow: Initial Triage → Steering Committee (right) -->
+  <!-- From right edge of left box (220, 128) → to left edge of right box (480, 128) -->
+  <path d="M220,128 L480,128" fill="none" stroke="#3a5070" stroke-width="1.5" marker-end="url(#arrowhead-maze)"/>
+  <text x="350" y="124" text-anchor="middle" font-size="6.5" font-style="italic" fill="#9ab4cc">escalated</text>
+
+  <!-- Row 2 Right: Steering Committee — rect x=480, y=110, w=180, h=36 -->
+  <rect x="480" y="110" width="180" height="36" fill="#e8edf5" stroke="#9ab4cc" stroke-width="1" rx="3"/>
+  <text x="570" y="125" text-anchor="middle" font-size="9" font-weight="700" fill="#1e3a5f">Steering Committee</text>
+  <text x="570" y="138" text-anchor="middle" font-size="7" fill="#3a5070">Review (monthly)</text>
+
+  <!-- Arrow: Steering Committee → Compliance Assessment (down) -->
+  <!-- From bottom center of right box (570, 146) → down to (570, 190) -->
+  <path d="M570,146 L570,190" fill="none" stroke="#3a5070" stroke-width="1.5" marker-end="url(#arrowhead-maze)"/>
+  <text x="580" y="170" font-size="6.5" font-style="italic" fill="#9ab4cc">forwarded</text>
+
+  <!-- Row 3 Right: Compliance Assessment — rect x=480, y=190, w=180, h=36 -->
+  <rect x="480" y="190" width="180" height="36" fill="#e8edf5" stroke="#9ab4cc" stroke-width="1" rx="3"/>
+  <text x="570" y="205" text-anchor="middle" font-size="9" font-weight="700" fill="#1e3a5f">Compliance Assessment</text>
+  <text x="570" y="218" text-anchor="middle" font-size="7" fill="#3a5070">4 week hold</text>
+
+  <!-- Arrow: Compliance Assessment → Architecture Review (left) -->
+  <!-- From left edge of right box (480, 208) → to right edge of left box (220, 208) -->
+  <path d="M480,208 L220,208" fill="none" stroke="#3a5070" stroke-width="1.5" marker-end="url(#arrowhead-maze)"/>
+  <text x="350" y="204" text-anchor="middle" font-size="6.5" font-style="italic" fill="#9ab4cc">referred</text>
+
+  <!-- Row 3 Left: Architecture Review Board — rect x=40, y=190, w=180, h=36 -->
+  <rect x="40" y="190" width="180" height="36" fill="#e8edf5" stroke="#9ab4cc" stroke-width="1" rx="3"/>
+  <text x="130" y="205" text-anchor="middle" font-size="9" font-weight="700" fill="#1e3a5f">Architecture Review Board</text>
+  <text x="130" y="218" text-anchor="middle" font-size="7" fill="#3a5070">6 week backlog</text>
+
+  <!-- Arrow: Architecture Review → Budget Approval (down) -->
+  <!-- From bottom center of left box (130, 226) → down to (130, 270) -->
+  <path d="M130,226 L130,270" fill="none" stroke="#3a5070" stroke-width="1.5" marker-end="url(#arrowhead-maze)"/>
+  <text x="142" y="250" font-size="6.5" font-style="italic" fill="#9ab4cc">approved</text>
+
+  <!-- Row 4 Left: Budget Approval Hold — rect x=40, y=270, w=180, h=36 -->
+  <rect x="40" y="270" width="180" height="36" fill="#fef3c7" stroke="#f59e0b" stroke-width="1" rx="3"/>
+  <text x="130" y="285" text-anchor="middle" font-size="9" font-weight="700" fill="#92400e">Budget Approval Hold</text>
+  <text x="130" y="298" text-anchor="middle" font-size="7" fill="#92400e">Frozen (Q2 budget)</text>
+
+  <!-- Arrow: Budget Approval → Quarterly Planning (right) -->
+  <!-- From right edge of left box (220, 288) → to left edge of right box (480, 288) -->
+  <path d="M220,288 L480,288" fill="none" stroke="#3a5070" stroke-width="1.5" marker-end="url(#arrowhead-maze)"/>
+  <text x="350" y="284" text-anchor="middle" font-size="6.5" font-style="italic" fill="#9ab4cc">pending funds</text>
+
+  <!-- Row 4 Right: Quarterly Planning Queue — rect x=480, y=270, w=180, h=36 -->
+  <rect x="480" y="270" width="180" height="36" fill="#fef3c7" stroke="#f59e0b" stroke-width="1" rx="3"/>
+  <text x="570" y="285" text-anchor="middle" font-size="9" font-weight="700" fill="#92400e">Quarterly Planning Queue</text>
+  <text x="570" y="298" text-anchor="middle" font-size="7" fill="#92400e">Next cycle: Q3</text>
+
+  <!-- Arrow: Quarterly Planning → DEPRIORITISED (down then left to center) -->
+  <!-- From bottom center of right box (570, 306) → down to y=328, left to x=350, down to (350, 360) -->
+  <path d="M570,306 L570,328 L350,328 L350,360" fill="none" stroke="#3a5070" stroke-width="1.5" marker-end="url(#arrowhead-maze)"/>
+  <text x="460" y="324" text-anchor="middle" font-size="6.5" font-style="italic" fill="#9ab4cc">reassigned</text>
+
+  <!-- Row 5 Center: DEPRIORITISED dead-end — rect x=240, y=360, w=220, h=48 -->
+  <rect x="240" y="360" width="220" height="48" fill="#dc2626" rx="4"/>
+  <text x="350" y="380" text-anchor="middle" font-size="12" font-weight="700" fill="white">DEPRIORITISED</text>
+  <text x="350" y="395" text-anchor="middle" font-size="9" fill="white">Q3 Next Year</text>
+  <text x="350" y="407" text-anchor="middle" font-size="7.5" font-style="italic" fill="white">(possibly Q4)</text>
+
+  <!-- Footer -->
+  <rect x="0" y="418" width="700" height="22" fill="#f0f4f8"/>
+  <line x1="0" y1="418" x2="700" y2="418" stroke="#dde3ec" stroke-width="1"/>
+  <text x="350" y="432" text-anchor="middle" font-size="7.5" fill="#3a5070">Average time from proposal to deprioritisation: 4–6 months. No ideas are rejected. They are simply deferred indefinitely. SADMF Success Guide.</text>
+</svg>
+</div>

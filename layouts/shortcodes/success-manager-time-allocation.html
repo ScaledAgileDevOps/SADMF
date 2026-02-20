@@ -1,0 +1,60 @@
+<div class="principles-diagram-wrapper" role="img" aria-label="Pie chart showing recommended manager time allocation. A large slice of approximately 70 percent is labeled Managing Low Performers in pink. A medium slice of approximately 20 percent is labeled Status Report Reviews in navy. A small sliver of approximately 10 percent is labeled Everything Else including high performers in light grey. The chart illustrates that the majority of management energy is directed at the lowest-performing individuals.">
+<svg viewBox="0 0 580 320" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+     style="width:100%;height:auto;display:block;font-family:'DM Sans',system-ui,sans-serif;">
+  <rect x="0" y="0" width="580" height="28" fill="#1e3a5f"/>
+  <text x="290" y="18" text-anchor="middle" font-size="9.5" font-weight="700" fill="white" letter-spacing="1.5">MANAGER TIME ALLOCATION — RECOMMENDED DISTRIBUTION</text>
+  <rect x="0" y="28" width="580" height="270" fill="#f8fafc"/>
+
+  <!-- Pie chart centered at (260, 175), radius=120 -->
+
+  <!-- Slice 1: 70% — Managing Low Performers (#a23b72) -->
+  <!-- Start angle: -90° (top), end angle: 162°  -->
+  <!-- Start point: (260, 55), End point: (146, 212) -->
+  <!-- large-arc-flag=1 because 70% > 50% -->
+  <path d="M260,175 L260,55 A120,120 0 1,1 146,212 Z" fill="#a23b72"/>
+
+  <!-- Slice 2: 20% — Status Report Reviews (#1e3a5f) -->
+  <!-- Start angle: 162°, end angle: 234° -->
+  <!-- Start point: (146, 212), End point: (190, 272) -->
+  <path d="M260,175 L146,212 A120,120 0 0,1 190,272 Z" fill="#1e3a5f"/>
+
+  <!-- Slice 3: 10% — Everything Else (#e8edf5) -->
+  <!-- Start angle: 234°, end angle: 270° (back to top) -->
+  <!-- Start point: (190, 272), End point: (260, 55) -->
+  <path d="M260,175 L190,272 A120,120 0 0,1 260,55 Z" fill="#e8edf5" stroke="#9ab4cc" stroke-width="1"/>
+
+  <!-- White dividing lines from center to slice boundaries -->
+  <line x1="260" y1="175" x2="260" y2="55" stroke="white" stroke-width="2"/>
+  <line x1="260" y1="175" x2="146" y2="212" stroke="white" stroke-width="2"/>
+  <line x1="260" y1="175" x2="190" y2="272" stroke="white" stroke-width="2"/>
+
+  <!-- Percentage labels inside slices -->
+  <!-- Slice 1 (70%): centroid near (220, 155) -->
+  <text x="220" y="162" text-anchor="middle" font-size="14" font-weight="700" fill="white">70%</text>
+  <!-- Slice 2 (20%): centroid near (215, 240) -->
+  <text x="215" y="245" text-anchor="middle" font-size="11" font-weight="700" fill="white">20%</text>
+  <!-- Slice 3: too small for label -->
+
+  <!-- Legend (right side) -->
+  <!-- Row 1 -->
+  <rect x="410" y="120" width="14" height="14" fill="#a23b72"/>
+  <text x="430" y="131" font-size="8" fill="#1e3a5f">Managing Low Performers</text>
+  <text x="430" y="143" font-size="9" font-weight="700" fill="#a23b72">70%</text>
+
+  <!-- Row 2 -->
+  <rect x="410" y="175" width="14" height="14" fill="#1e3a5f"/>
+  <text x="430" y="186" font-size="8" fill="#1e3a5f">Status Report Reviews</text>
+  <text x="430" y="198" font-size="9" font-weight="700" fill="#1e3a5f">20%</text>
+
+  <!-- Row 3 -->
+  <rect x="410" y="230" width="14" height="14" fill="#e8edf5" stroke="#9ab4cc" stroke-width="1"/>
+  <text x="430" y="241" font-size="8" fill="#1e3a5f">Everything Else</text>
+  <text x="430" y="251" font-size="7" fill="#3a5070">(incl. high performers)</text>
+  <text x="430" y="262" font-size="9" font-weight="700" fill="#3a5070">10%</text>
+
+  <!-- Footer -->
+  <rect x="0" y="298" width="580" height="22" fill="#f0f4f8"/>
+  <line x1="0" y1="298" x2="580" y2="298" stroke="#dde3ec" stroke-width="1"/>
+  <text x="290" y="312" text-anchor="middle" font-size="7.5" fill="#3a5070">High performers require minimal management time. Focus energy where improvement is theoretically achievable. SADMF Success Guide.</text>
+</svg>
+</div>

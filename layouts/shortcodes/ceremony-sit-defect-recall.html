@@ -1,0 +1,128 @@
+<div class="principles-diagram-wrapper" role="img" aria-label="Flow diagram showing the SIT defect remediation recall loop. Starting from top-left: SIT team finds a defect and files an Emergency Resource Reallocation Request. The current Feature Captain approves. The previous Feature Captain also approves. The Code Engineer is recalled from the next convoy coding pool. The engineer context-switches back to old code. The fix is delivered. SIT re-tests and either closes the defect or finds another, restarting the loop. A timeline bar below shows multiple weeks of elapsed time between defect discovery and resolution.">
+<svg viewBox="0 0 700 320" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+     style="width:100%;height:auto;display:block;font-family:'DM Sans',system-ui,sans-serif;">
+  <!-- Header bar -->
+  <rect x="0" y="0" width="700" height="28" fill="#1e3a5f"/>
+  <text x="350" y="18" text-anchor="middle" font-size="9.5" font-weight="700" fill="white" letter-spacing="1.5">SIT DEFECT REMEDIATION — RECALL LOOP</text>
+  <!-- Background -->
+  <rect x="0" y="28" width="700" height="270" fill="#f8fafc"/>
+
+  <!-- ── ROW 1 BOXES (y_center=130, h=44) ── -->
+
+  <!-- Box 1: DEFECT FOUND (x=20) -->
+  <rect x="20" y="108" width="90" height="44" rx="4" fill="#dc2626"/>
+  <text x="65" y="128" text-anchor="middle" font-size="9" font-weight="700" fill="white">Defect</text>
+  <text x="65" y="141" text-anchor="middle" font-size="9" font-weight="700" fill="white">Found</text>
+
+  <!-- Arrow 1→2 -->
+  <line x1="110" y1="130" x2="120" y2="130" stroke="#3a5070" stroke-width="1.5"/>
+  <polygon points="120,126 128,130 120,134" fill="#3a5070"/>
+
+  <!-- Box 2: ERRR FILED (x=128) -->
+  <rect x="128" y="108" width="90" height="44" rx="4" fill="#e8edf5" stroke="#9ab4cc" stroke-width="1.5"/>
+  <text x="173" y="126" text-anchor="middle" font-size="9" font-weight="700" fill="#1e3a5f">ERRR</text>
+  <text x="173" y="139" text-anchor="middle" font-size="8" fill="#3a5070">Filed</text>
+
+  <!-- Arrow 2→3 -->
+  <line x1="218" y1="130" x2="228" y2="130" stroke="#3a5070" stroke-width="1.5"/>
+  <polygon points="228,126 236,130 228,134" fill="#3a5070"/>
+
+  <!-- Box 3: FC CURRENT (x=236) -->
+  <rect x="236" y="108" width="90" height="44" rx="4" fill="#e8edf5" stroke="#9ab4cc" stroke-width="1.5"/>
+  <text x="281" y="124" text-anchor="middle" font-size="9" font-weight="700" fill="#1e3a5f">FC</text>
+  <text x="281" y="135" text-anchor="middle" font-size="7.5" fill="#3a5070">Current</text>
+  <text x="281" y="146" text-anchor="middle" font-size="7.5" fill="#3a5070">Approves</text>
+
+  <!-- Arrow 3→4 -->
+  <line x1="326" y1="130" x2="336" y2="130" stroke="#3a5070" stroke-width="1.5"/>
+  <polygon points="336,126 344,130 336,134" fill="#3a5070"/>
+
+  <!-- Box 4: FC PREVIOUS (x=344) -->
+  <rect x="344" y="108" width="90" height="44" rx="4" fill="#e8edf5" stroke="#9ab4cc" stroke-width="1.5"/>
+  <text x="389" y="124" text-anchor="middle" font-size="9" font-weight="700" fill="#1e3a5f">FC</text>
+  <text x="389" y="135" text-anchor="middle" font-size="7.5" fill="#3a5070">Previous</text>
+  <text x="389" y="146" text-anchor="middle" font-size="7.5" fill="#3a5070">Approves</text>
+
+  <!-- Arrow 4→5 -->
+  <line x1="434" y1="130" x2="444" y2="130" stroke="#3a5070" stroke-width="1.5"/>
+  <polygon points="444,126 452,130 444,134" fill="#3a5070"/>
+
+  <!-- Box 5: CE RECALLED (x=452) -->
+  <rect x="452" y="108" width="90" height="44" rx="4" fill="#a23b72"/>
+  <text x="497" y="126" text-anchor="middle" font-size="9" font-weight="700" fill="white">CE</text>
+  <text x="497" y="138" text-anchor="middle" font-size="7.5" fill="white">Recalled</text>
+  <text x="497" y="149" text-anchor="middle" font-size="7" fill="white">from next convoy</text>
+
+  <!-- Arrow 5→6 -->
+  <line x1="542" y1="130" x2="552" y2="130" stroke="#3a5070" stroke-width="1.5"/>
+  <polygon points="552,126 560,130 552,134" fill="#3a5070"/>
+
+  <!-- Box 6: CONTEXT SWITCH (x=560) -->
+  <rect x="560" y="108" width="104" height="44" rx="4" fill="#e8edf5" stroke="#9ab4cc" stroke-width="1.5"/>
+  <text x="612" y="126" text-anchor="middle" font-size="8.5" font-style="italic" fill="#3a5070">Context</text>
+  <text x="612" y="139" text-anchor="middle" font-size="8.5" font-style="italic" fill="#3a5070">Switch</text>
+
+  <!-- ── TRANSITION: Row 1 → Row 2 (L-shape) ── -->
+  <!-- From Context Switch bottom → down → left → FIX DELIVERED -->
+  <line x1="612" y1="152" x2="612" y2="195" stroke="#3a5070" stroke-width="1.5"/>
+  <line x1="612" y1="195" x2="65" y2="195" stroke="#3a5070" stroke-width="1.5"/>
+  <line x1="65" y1="195" x2="65" y2="198" stroke="#3a5070" stroke-width="1.5"/>
+  <polygon points="61,198 65,206 69,198" fill="#3a5070"/>
+
+  <!-- ── ROW 2 BOXES (y_center=220) ── -->
+
+  <!-- Box 7: FIX DELIVERED (x=20, y_center=220) -->
+  <rect x="20" y="198" width="90" height="44" rx="4" fill="#16a34a"/>
+  <text x="65" y="218" text-anchor="middle" font-size="9" font-weight="700" fill="white">Fix</text>
+  <text x="65" y="231" text-anchor="middle" font-size="9" font-weight="700" fill="white">Delivered</text>
+
+  <!-- Arrow 7→8 -->
+  <line x1="110" y1="220" x2="120" y2="220" stroke="#3a5070" stroke-width="1.5"/>
+  <polygon points="120,216 128,220 120,224" fill="#3a5070"/>
+
+  <!-- Box 8: SIT RE-TEST (x=128, y_center=220) -->
+  <rect x="128" y="198" width="90" height="44" rx="4" fill="#1e3a5f"/>
+  <text x="173" y="218" text-anchor="middle" font-size="9" font-weight="700" fill="white">SIT</text>
+  <text x="173" y="231" text-anchor="middle" font-size="9" font-weight="700" fill="white">Re-Test</text>
+
+  <!-- Dashed loop-back arrow from SIT Re-Test to Defect Found -->
+  <!-- Up from SIT Re-Test top to y=90, across to Defect Found, down -->
+  <line x1="173" y1="198" x2="173" y2="90" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <line x1="173" y1="90" x2="65" y2="90" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <line x1="65" y1="90" x2="65" y2="108" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <polygon points="61,104 65,108 69,104" fill="#dc2626"/>
+  <text x="118" y="85" text-anchor="middle" font-size="7" fill="#dc2626" font-style="italic">defect found again</text>
+
+  <!-- Green PASS arrow from SIT Re-Test going right -->
+  <line x1="218" y1="220" x2="280" y2="220" stroke="#16a34a" stroke-width="1.5"/>
+  <polygon points="280,216 288,220 280,224" fill="#16a34a"/>
+  <text x="300" y="216" font-size="8" fill="#16a34a" font-weight="700">Closed</text>
+  <text x="300" y="228" font-size="8" fill="#16a34a">&#x2713;</text>
+
+  <!-- ── TIMELINE BAR ── -->
+  <rect x="20" y="258" width="660" height="18" rx="3" fill="#e8edf5" stroke="#9ab4cc" stroke-width="1"/>
+
+  <!-- Tick marks -->
+  <line x1="20" y1="258" x2="20" y2="250" stroke="#3a5070" stroke-width="1"/>
+  <line x1="185" y1="258" x2="185" y2="250" stroke="#3a5070" stroke-width="1"/>
+  <line x1="375" y1="258" x2="375" y2="250" stroke="#3a5070" stroke-width="1"/>
+  <line x1="535" y1="258" x2="535" y2="250" stroke="#3a5070" stroke-width="1"/>
+  <line x1="680" y1="258" x2="680" y2="250" stroke="#3a5070" stroke-width="1"/>
+
+  <!-- Timeline labels -->
+  <text x="20" y="247" text-anchor="middle" font-size="6.5" fill="#3a5070">Week 0:</text>
+  <text x="20" y="255" text-anchor="middle" font-size="6" fill="#3a5070">Defect Found</text>
+  <text x="185" y="247" text-anchor="middle" font-size="6.5" fill="#3a5070">Week 1–2:</text>
+  <text x="185" y="255" text-anchor="middle" font-size="6" fill="#3a5070">Approvals</text>
+  <text x="375" y="247" text-anchor="middle" font-size="6.5" fill="#3a5070">Week 2–3:</text>
+  <text x="375" y="255" text-anchor="middle" font-size="6" fill="#3a5070">CE Recalled</text>
+  <text x="535" y="247" text-anchor="middle" font-size="6.5" fill="#3a5070">Week 4–6:</text>
+  <text x="535" y="255" text-anchor="middle" font-size="6" fill="#3a5070">Fix + Re-test</text>
+  <text x="680" y="247" text-anchor="middle" font-size="6.5" fill="#3a5070">Resolution</text>
+
+  <!-- Footer -->
+  <rect x="0" y="298" width="700" height="22" fill="#f0f4f8"/>
+  <line x1="0" y1="298" x2="700" y2="298" stroke="#dde3ec" stroke-width="1"/>
+  <text x="350" y="312" text-anchor="middle" font-size="7.5" fill="#3a5070">Average recall-to-resolution cycle: 3–6 weeks. Context switching cost absorbed entirely by next convoy. SADMF Ceremony.</text>
+</svg>
+</div>

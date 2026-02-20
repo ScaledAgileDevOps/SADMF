@@ -1,0 +1,73 @@
+<div class="principles-diagram-wrapper" role="img" aria-label="Circular flow diagram showing the self-perpetuating daily meeting cycle of the Scrum of Scrum of Scrums. Clockwise from top: Team Standup at 9:00 AM, then a highlighted 45-minute coding window from 9:15 to 10:00 AM shown in green, then Scrum of Scrums at 12:00 PM, then Scrum of Scrum of Scrums at 3:00 PM, then Reverse Cascade debrief from 4:00 to 5:00 PM, then Evening Processing and preparation, then back to the next day's Team Standup. The loop is continuous with no natural exit point.">
+<svg viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+     style="width:100%;height:auto;display:block;font-family:'DM Sans',system-ui,sans-serif;">
+  <rect x="0" y="0" width="640" height="28" fill="#1e3a5f"/>
+  <text x="320" y="18" text-anchor="middle" font-size="9.5" font-weight="700" fill="white" letter-spacing="1.5">SCRUM OF SCRUM OF SCRUMS — DAILY CYCLE</text>
+  <rect x="0" y="28" width="640" height="350" fill="#f8fafc"/>
+
+  <!-- Curved arrows between nodes (clockwise) -->
+  <!-- Arrow 1→2: Team Standup → Scrum of Scrums -->
+  <defs>
+    <marker id="arrowhead-soss" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#5a6d82"/>
+    </marker>
+  </defs>
+
+  <!-- Arrow 1→2 -->
+  <path d="M380,70 Q460,80 446,143" fill="none" stroke="#5a6d82" stroke-width="2" marker-end="url(#arrowhead-soss)"/>
+  <!-- Arrow 2→3 -->
+  <path d="M446,165 Q490,215 446,287" fill="none" stroke="#5a6d82" stroke-width="2" marker-end="url(#arrowhead-soss)"/>
+  <!-- Arrow 3→4 -->
+  <path d="M386,298 Q410,370 320,360" fill="none" stroke="#5a6d82" stroke-width="2" marker-end="url(#arrowhead-soss)"/>
+  <!-- Arrow 4→5 -->
+  <path d="M260,360 Q230,370 194,287" fill="none" stroke="#5a6d82" stroke-width="2" marker-end="url(#arrowhead-soss)"/>
+  <!-- Arrow 5→6 -->
+  <path d="M194,265 Q150,215 194,143" fill="none" stroke="#5a6d82" stroke-width="2" marker-end="url(#arrowhead-soss)"/>
+  <!-- Arrow 6→1 -->
+  <path d="M254,132 Q230,80 320,70" fill="none" stroke="#5a6d82" stroke-width="2" marker-end="url(#arrowhead-soss)"/>
+
+  <!-- Node 1: Team Standup (top, cx=320, cy=70) -->
+  <rect x="260" y="48" width="120" height="44" rx="4" fill="#1e3a5f"/>
+  <text x="320" y="67" text-anchor="middle" font-size="9" font-weight="700" fill="white">TEAM STANDUP</text>
+  <text x="320" y="80" text-anchor="middle" font-size="7.5" fill="#9ab4cc">9:00 AM</text>
+
+  <!-- Node 2: Scrum of Scrums (upper-right, cx=446, cy=143) -->
+  <rect x="386" y="121" width="120" height="44" rx="4" fill="#3a5070"/>
+  <text x="446" y="140" text-anchor="middle" font-size="9" font-weight="700" fill="white">SCRUM OF SCRUMS</text>
+  <text x="446" y="153" text-anchor="middle" font-size="7.5" fill="#9ab4cc">12:00 PM</text>
+
+  <!-- Node 3: SoSoS (lower-right, cx=446, cy=287) -->
+  <rect x="386" y="265" width="120" height="44" rx="4" fill="#1e3a5f"/>
+  <text x="446" y="284" text-anchor="middle" font-size="10" font-weight="700" fill="white">SoSoS</text>
+  <text x="446" y="297" text-anchor="middle" font-size="7.5" fill="#9ab4cc">3:00 PM</text>
+
+  <!-- Node 4: Reverse Cascade (bottom, cx=320, cy=360) -->
+  <rect x="260" y="338" width="120" height="44" rx="4" fill="#a23b72"/>
+  <text x="320" y="357" text-anchor="middle" font-size="9" font-weight="700" fill="white">REVERSE CASCADE</text>
+  <text x="320" y="370" text-anchor="middle" font-size="7.5" fill="white">4:00–5:00 PM</text>
+
+  <!-- Node 5: Evening Processing (lower-left, cx=194, cy=287) -->
+  <rect x="134" y="265" width="120" height="44" rx="4" fill="#3a5070"/>
+  <text x="194" y="284" text-anchor="middle" font-size="8" font-weight="700" fill="white">EVENING PROCESSING</text>
+  <text x="194" y="297" text-anchor="middle" font-size="7.5" fill="#9ab4cc">Preparation</text>
+
+  <!-- Node 6: Next Day (upper-left, cx=194, cy=143) -->
+  <rect x="134" y="121" width="120" height="44" rx="4" fill="#242627"/>
+  <text x="194" y="140" text-anchor="middle" font-size="9" font-weight="700" fill="white">NEXT DAY</text>
+  <text x="194" y="153" text-anchor="middle" font-size="7.5" fill="#9ab4cc">Repeat cycle</text>
+
+  <!-- 45-minute coding window callout -->
+  <rect x="240" y="175" width="160" height="50" fill="#dcfce7" stroke="#16a34a" stroke-width="2" rx="6"/>
+  <text x="320" y="193" text-anchor="middle" font-size="9" font-weight="700" fill="#14532d">&#x23F1; 45 min CODING</text>
+  <text x="320" y="207" text-anchor="middle" font-size="8" fill="#14532d">9:15 – 10:00 AM</text>
+  <text x="320" y="219" text-anchor="middle" font-size="7" fill="#16a34a">&#x2190; ONLY development time</text>
+
+  <!-- Small arrow from callout toward arc between node 1 and 2 -->
+  <path d="M390,190 Q420,165 400,148" fill="none" stroke="#16a34a" stroke-width="1.5" stroke-dasharray="3,2" marker-end="url(#arrowhead-soss)"/>
+
+  <!-- Footer -->
+  <rect x="0" y="378" width="640" height="22" fill="#f0f4f8"/>
+  <line x1="0" y1="378" x2="640" y2="378" stroke="#dde3ec" stroke-width="1"/>
+  <text x="320" y="392" text-anchor="middle" font-size="7.5" fill="#3a5070">The cycle self-perpetuates. Meetings generate directives that require preparation for the next day's meetings. SADMF Ceremony.</text>
+</svg>
+</div>

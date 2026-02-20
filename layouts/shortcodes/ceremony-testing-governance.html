@@ -1,0 +1,85 @@
+<div class="principles-diagram-wrapper" role="img" aria-label="Floor plan showing the governance boundary between Code Engineers and the Unit Testing Team. A thick vertical partition divides the floor plan. On the left is the Code Engineer Bay. On the right is the Unit Testing Team workspace. A one-way arrow flows right through the Feature Captain, indicating frozen code delivered to testing. A second arrow leads from the testing room to the Defect Management System terminal in the bottom right. There is no return path from testing back to the engineers.">
+<svg viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+     style="width:100%;height:auto;display:block;font-family:'DM Sans',system-ui,sans-serif;">
+  <rect x="0" y="0" width="640" height="28" fill="#1e3a5f"/>
+  <text x="320" y="18" text-anchor="middle" font-size="9.5" font-weight="700" fill="white" letter-spacing="1.5">TESTING GOVERNANCE BOUNDARY — FLOOR PLAN</text>
+  <rect x="0" y="28" width="640" height="270" fill="#f8fafc"/>
+
+  <!-- Left room — Code Engineer Bay -->
+  <rect x="20" y="45" width="240" height="230" fill="white" stroke="#1e3a5f" stroke-width="1.5" rx="3"/>
+  <text x="140" y="65" text-anchor="middle" font-size="8" font-weight="700" fill="#1e3a5f">CODE ENGINEER BAY</text>
+
+  <!-- CE desks row 1 -->
+  <rect x="45" y="85" width="35" height="28" fill="#e8edf5" stroke="#9ab4cc"/>
+  <text x="62" y="103" text-anchor="middle" font-size="7" font-weight="700" fill="#1e3a5f">CE</text>
+
+  <rect x="95" y="85" width="35" height="28" fill="#e8edf5" stroke="#9ab4cc"/>
+  <text x="112" y="103" text-anchor="middle" font-size="7" font-weight="700" fill="#1e3a5f">CE</text>
+
+  <rect x="145" y="85" width="35" height="28" fill="#e8edf5" stroke="#9ab4cc"/>
+  <text x="162" y="103" text-anchor="middle" font-size="7" font-weight="700" fill="#1e3a5f">CE</text>
+
+  <rect x="195" y="85" width="35" height="28" fill="#e8edf5" stroke="#9ab4cc"/>
+  <text x="212" y="103" text-anchor="middle" font-size="7" font-weight="700" fill="#1e3a5f">CE</text>
+
+  <!-- CE desks row 2 -->
+  <rect x="45" y="135" width="35" height="28" fill="#e8edf5" stroke="#9ab4cc"/>
+  <text x="62" y="153" text-anchor="middle" font-size="7" font-weight="700" fill="#1e3a5f">CE</text>
+
+  <rect x="95" y="135" width="35" height="28" fill="#e8edf5" stroke="#9ab4cc"/>
+  <text x="112" y="153" text-anchor="middle" font-size="7" font-weight="700" fill="#1e3a5f">CE</text>
+
+  <rect x="145" y="135" width="35" height="28" fill="#e8edf5" stroke="#9ab4cc"/>
+  <text x="162" y="153" text-anchor="middle" font-size="7" font-weight="700" fill="#1e3a5f">CE</text>
+
+  <rect x="195" y="135" width="35" height="28" fill="#e8edf5" stroke="#9ab4cc"/>
+  <text x="212" y="153" text-anchor="middle" font-size="7" font-weight="700" fill="#1e3a5f">CE</text>
+
+  <!-- Feature Captain (near boundary in CE bay) -->
+  <circle cx="235" cy="210" r="18" fill="#a23b72"/>
+  <text x="235" y="214" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">FC</text>
+
+  <!-- Governance Boundary partition -->
+  <rect x="268" y="45" width="24" height="230" fill="#242627"/>
+  <text x="280" y="165" text-anchor="middle" font-size="7" font-weight="700" fill="white" transform="rotate(-90, 280, 165)">GOVERNANCE BOUNDARY</text>
+
+  <!-- Right room — Unit Testing workspace -->
+  <rect x="300" y="45" width="240" height="230" fill="white" stroke="#1e3a5f" stroke-width="1.5" rx="3"/>
+  <text x="420" y="65" text-anchor="middle" font-size="8" font-weight="700" fill="#1e3a5f">UNIT TESTING TEAM</text>
+
+  <!-- UT desks -->
+  <rect x="325" y="85" width="45" height="35" fill="#e8edf5" stroke="#9ab4cc"/>
+  <text x="347" y="107" text-anchor="middle" font-size="7" font-weight="700" fill="#1e3a5f">UT</text>
+
+  <rect x="395" y="85" width="45" height="35" fill="#e8edf5" stroke="#9ab4cc"/>
+  <text x="417" y="107" text-anchor="middle" font-size="7" font-weight="700" fill="#1e3a5f">UT</text>
+
+  <rect x="465" y="85" width="45" height="35" fill="#e8edf5" stroke="#9ab4cc"/>
+  <text x="487" y="107" text-anchor="middle" font-size="7" font-weight="700" fill="#1e3a5f">UT</text>
+
+  <!-- One-way code flow arrow (from CE bay through boundary to testing room) -->
+  <text x="280" y="168" text-anchor="middle" font-size="7" font-weight="700" fill="#1e3a5f">FROZEN CODE</text>
+  <line x1="250" y1="175" x2="308" y2="175" stroke="#1e3a5f" stroke-width="2.5"/>
+  <polygon points="308,170 320,175 308,180" fill="#1e3a5f"/>
+  <text x="280" y="187" text-anchor="middle" font-size="6.5" fill="#3a5070">(via Feature Captain)</text>
+
+  <!-- No-return indicator -->
+  <text x="280" y="207" text-anchor="middle" font-size="6.5" fill="#dc2626">&#x2298; no return path</text>
+
+  <!-- Defect Management System terminal (outside main rooms, bottom right) -->
+  <rect x="555" y="195" width="65" height="65" fill="#a23b72" rx="3"/>
+  <text x="587" y="217" text-anchor="middle" font-size="9" font-weight="700" fill="white">DMS</text>
+  <text x="587" y="231" text-anchor="middle" font-size="6.5" fill="white">Defect Mgmt</text>
+  <text x="587" y="243" text-anchor="middle" font-size="6.5" fill="white">System</text>
+
+  <!-- Arrow from testing room to DMS -->
+  <text x="548" y="222" text-anchor="end" font-size="7" fill="#a23b72">Defects →</text>
+  <line x1="540" y1="228" x2="553" y2="228" stroke="#a23b72" stroke-width="2"/>
+  <polygon points="553,223 565,228 553,233" fill="#a23b72"/>
+
+  <!-- Footer -->
+  <rect x="0" y="298" width="640" height="22" fill="#f0f4f8"/>
+  <line x1="0" y1="298" x2="640" y2="298" stroke="#dde3ec" stroke-width="1"/>
+  <text x="320" y="312" text-anchor="middle" font-size="7.5" fill="#3a5070">One-way code flow only. No direct communication between engineers and testers. Defects route via Defect Management System. SADMF Ceremony.</text>
+</svg>
+</div>

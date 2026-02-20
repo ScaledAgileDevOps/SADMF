@@ -27,11 +27,7 @@ weight: 12
 
 Only the most important status updates are given in Standup, and some defects are lower priority than some features. To address this gap, the SADMF prescribes the Post-Standup Standup ceremony. Here, everyone on the Convoy participates to provide status updates to the [Commodore](/roles/commodore/) on the lower-priority work that is not being worked on. While the daily standup focuses on active work and typically lasts 15 minutes, the Post-Standup Standup addresses the much larger universe of inactive work and accordingly requires 45 to 60 minutes. The SADMF recognizes that the amount of work not being done always exceeds the amount of work being done, and this ceremony ensures that all of it receives appropriate visibility.
 
-<figure style="margin:1.5rem 0;text-align:center">
-  <img src="/images/generated/post-standup-standup-room-layout.png"
-       alt="Room layout diagram showing chairs arranged in a circle or rows facing the Commodore at the front — the &quot;Seated Exception&quot; configuration — with labels for Code Engineers, Feature Captains, and Commodore positions"
-       style="max-width:100%;border-radius:6px;box-shadow:0 2px 12px rgba(0,0,0,0.12)">
-</figure>
+{{< ceremony-post-standup-room >}}
 
 ## Attendance and Format
 

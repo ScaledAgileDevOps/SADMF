@@ -106,11 +106,7 @@ At the conclusion of each convoy cycle, the Harbor Review ceremony provides a st
   </div>
 </div>
 
-<figure style="margin:1.5rem 0;text-align:center">
-  <img src="/images/generated/harbor-review-room-seating.png"
-       alt="Room layout diagram showing the Harbor Review seating arrangement — Commodore at head of table, Feature Captains arranged in order of convoy seniority, Chief Signals Officer at side table with the Action Log; three flip-chart columns labeled Fair Winds, Rough Seas, and Anchors visible at the front of the room"
-       style="max-width:100%;border-radius:6px;box-shadow:0 2px 12px rgba(0,0,0,0.12)">
-</figure>
+{{< ceremony-harbor-review-room >}}
 
 ## The Three Categories
 
@@ -194,11 +190,7 @@ To ensure the Harbor Review does not become a negative experience, the SADMF enf
 
 Following each Harbor Review, all participants are required to complete the Harbor Review Satisfaction Survey (HRSS), a meta-retrospective instrument that measures whether the team found the retrospective itself to be a valuable use of time. The HRSS contains 12 questions rated on a Likert scale, including "I felt heard during the Harbor Review," "The Harbor Review was an appropriate length," and "I am confident that action items from this Harbor Review will be addressed before the next Harbor Review." The results of the HRSS are compiled by the Chief Signals Officer and presented at the beginning of the next Harbor Review, creating a recursive feedback loop in which the team retrospects on its retrospective and will, in the following cycle, retrospect on its retrospective of the retrospective. HRSS scores below 4.0 trigger a Harbor Review Improvement Initiative, which generates its own action items that are added to the Harbor Review Action Log and carried forward.
 
-<figure style="margin:1.5rem 0;text-align:center">
-  <img src="/images/generated/harbor-review-hrss-feedback-loop.png"
-       alt="Recursive diagram illustrating the HRSS feedback loop — Harbor Review feeds into HRSS, HRSS results are presented at the next Harbor Review, which triggers another HRSS, forming an infinite loop with a small callout showing &quot;Harbor Review Improvement Initiative&quot; branching off any cycle scoring below 4.0"
-       style="max-width:100%;border-radius:6px;box-shadow:0 2px 12px rgba(0,0,0,0.12)">
-</figure>
+{{< ceremony-harbor-review-hrss-loop >}}
 
 <!-- HRSS sample questions -->
 <div style="background:#e8edf5;border:1px solid #9ab4cc;border-radius:8px;padding:1.25rem 1.5rem;margin:1.25rem 0">

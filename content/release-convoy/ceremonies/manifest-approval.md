@@ -34,11 +34,7 @@ Before any convoy may "leave port," it is critical that all Scaled Agile DevOps 
   </div>
 </div>
 
-<figure style="margin:1.5rem 0;text-align:center">
-  <img src="/images/generated/manifest-approval-conference-room.png"
-       alt="Top-down diagram of the largest conference room showing the Convoy Steering Committee seated at the head table, Feature Captains arrayed in presentation order along the sides, the countdown timer display at the front, and the ship's bell mounted near the chair's position — with a dotted line indicating the five-minute speaking zone"
-       style="max-width:100%;border-radius:6px;box-shadow:0 2px 12px rgba(0,0,0,0.12)">
-</figure>
+{{< ceremony-manifest-approval-room >}}
 
 ## Agenda
 
@@ -123,11 +119,7 @@ Following all presentations, the Convoy Steering Committee conducts a formal app
 
 The SADMF does include an Emergency Sail provision for situations in which business urgency requires deployment before the standard Manifest Approval process can be completed. To invoke Emergency Sail, the [Commodore](/roles/commodore/) must file an Emergency Sail Authorization Request with the [Admiral's Transformation Office](/roles/admirals-transformation-office/), which requires a completed Risk Acceptance Matrix, an Emergency Justification Narrative (minimum 3,000 words), signatures from every member of the Convoy Steering Committee obtained individually, and a Post-Emergency Documentation Remediation Plan committing to complete all missing paperwork within five business days of deployment. In practice, the Emergency Sail provision has never been successfully invoked, as the paperwork required to authorize emergency authorization consistently exceeds the paperwork required for standard approval. The provision remains in the SADMF documentation as evidence of the framework's flexibility.
 
-<figure style="margin:1.5rem 0;text-align:center">
-  <img src="/images/generated/manifest-approval-standard-vs-emergency.png"
-       alt="Flowchart comparing the standard Manifest Approval path (left branch) versus the Emergency Sail Authorization path (right branch), with the Emergency path visibly longer and more complex — ultimately converging back on the same paperwork volume, illustrating why Emergency Sail has never been successfully invoked"
-       style="max-width:100%;border-radius:6px;box-shadow:0 2px 12px rgba(0,0,0,0.12)">
-</figure>
+{{< ceremony-manifest-approval-comparison >}}
 
 ## The Drama of the Ceremony
 

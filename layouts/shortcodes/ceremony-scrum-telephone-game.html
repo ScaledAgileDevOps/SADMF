@@ -1,0 +1,99 @@
+<div class="principles-diagram-wrapper" role="img" aria-label="Side-by-side telephone game diagram showing how information mutates at each hierarchical layer. The left column shows upward flow: a specific technical message starting as Team Alpha API endpoint returning a 500 error becomes Team Alpha has technical difficulties at the Scrum of Scrums layer, then becomes Team Alpha has concerns about their numbers at the Scrum of Scrum of Scrums apex. The right column shows the reverse cascade downward: a nuanced strategic directive starting as Consider investigating API performance improvements becomes API performance is a priority, re-allocate resources immediately at the SOS layer, then becomes All API work is now mandatory priority zero, no exceptions at the team level. Both columns are connected at the top by the SoSoS apex meeting.">
+<svg viewBox="0 0 760 420" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+     style="width:100%;height:auto;display:block;font-family:'DM Sans',system-ui,sans-serif;">
+  <!-- Header -->
+  <rect x="0" y="0" width="760" height="28" fill="#1e3a5f"/>
+  <text x="380" y="18" text-anchor="middle" font-size="9.5" font-weight="700" fill="white" letter-spacing="1.5">SCRUM OF SCRUM OF SCRUMS — INFORMATION MUTATION</text>
+
+  <!-- Body background -->
+  <rect x="0" y="28" width="760" height="370" fill="#f8fafc"/>
+
+  <!-- Arrowhead markers -->
+  <defs>
+    <marker id="up-arrow" markerWidth="7" markerHeight="5" refX="0" refY="2.5" orient="auto">
+      <polygon points="7 0, 7 5, 0 2.5" fill="#5a6d82"/>
+    </marker>
+    <marker id="down-arrow" markerWidth="7" markerHeight="5" refX="7" refY="2.5" orient="auto">
+      <polygon points="0 0, 7 2.5, 0 5" fill="#5a6d82"/>
+    </marker>
+    <marker id="apex-arrow" markerWidth="7" markerHeight="5" refX="7" refY="2.5" orient="auto">
+      <polygon points="0 0, 7 2.5, 0 5" fill="#5a6d82"/>
+    </marker>
+  </defs>
+
+  <!-- Column headers -->
+  <text x="130" y="38" text-anchor="middle" font-size="8" font-weight="700" fill="#3a5070">↑ UPWARD FLOW</text>
+  <text x="630" y="38" text-anchor="middle" font-size="8" font-weight="700" fill="#a23b72">↓ REVERSE CASCADE</text>
+
+  <!-- SoSoS Apex box (top center) -->
+  <rect x="250" y="40" width="260" height="50" fill="#1e3a5f" rx="4"/>
+  <text x="380" y="63" text-anchor="middle" font-size="11" font-weight="700" fill="white">SoSoS APEX MEETING</text>
+  <text x="380" y="79" text-anchor="middle" font-size="8" fill="#9ab4cc">3:00 PM</text>
+
+  <!-- Connecting line: apex bottom-left → L1 top -->
+  <line x1="270" y1="90" x2="130" y2="110" stroke="#5a6d82" stroke-width="1.5" marker-end="url(#apex-arrow)"/>
+  <!-- Connecting line: apex bottom-right → R1 top -->
+  <line x1="490" y1="90" x2="630" y2="110" stroke="#5a6d82" stroke-width="1.5" marker-end="url(#apex-arrow)"/>
+
+  <!-- LEFT COLUMN: Upward flow (bottom = original, top = most mutated) -->
+
+  <!-- L1: SoSoS Layer (most mutated, closest to apex) -->
+  <rect x="20" y="110" width="220" height="60" fill="#3a5070" rx="3"/>
+  <text x="130" y="130" text-anchor="middle" font-size="8" font-weight="700" fill="white">SoSoS Layer</text>
+  <text x="130" y="146" text-anchor="middle" font-size="8" fill="white" font-style="italic">"Team Alpha has concerns</text>
+  <text x="130" y="160" text-anchor="middle" font-size="8" fill="white" font-style="italic">about their numbers"</text>
+
+  <!-- Upward arrow L2→L1 -->
+  <line x1="130" y1="198" x2="130" y2="172" stroke="#5a6d82" stroke-width="1.5" marker-end="url(#up-arrow)"/>
+
+  <!-- L2: SOS Layer -->
+  <rect x="20" y="200" width="220" height="60" fill="#5a6d82" rx="3"/>
+  <text x="130" y="220" text-anchor="middle" font-size="8" font-weight="700" fill="white">SOS Layer</text>
+  <text x="130" y="236" text-anchor="middle" font-size="8" fill="white" font-style="italic">"Team Alpha has</text>
+  <text x="130" y="250" text-anchor="middle" font-size="8" fill="white" font-style="italic">technical difficulties"</text>
+
+  <!-- Upward arrow L3→L2 -->
+  <line x1="130" y1="290" x2="130" y2="262" stroke="#5a6d82" stroke-width="1.5" marker-end="url(#up-arrow)"/>
+
+  <!-- L3: Team Level (original message) -->
+  <rect x="20" y="292" width="220" height="70" fill="#e8edf5" stroke="#9ab4cc" stroke-width="1" rx="3"/>
+  <text x="130" y="312" text-anchor="middle" font-size="8" font-weight="700" fill="#1e3a5f">Team Level</text>
+  <text x="130" y="328" text-anchor="middle" font-size="8" fill="#3a5070" font-style="italic">"Team Alpha API endpoint</text>
+  <text x="130" y="342" text-anchor="middle" font-size="8" fill="#3a5070" font-style="italic">returning 500 error"</text>
+  <text x="130" y="356" text-anchor="middle" font-size="6.5" fill="#9ab4cc">(original message)</text>
+
+  <!-- RIGHT COLUMN: Downward cascade (top = original directive, bottom = distorted mandate) -->
+
+  <!-- R1: SoSoS Layer (original nuanced directive) -->
+  <rect x="520" y="110" width="220" height="60" fill="#3a5070" rx="3"/>
+  <text x="630" y="130" text-anchor="middle" font-size="8" font-weight="700" fill="white">SoSoS Layer</text>
+  <text x="630" y="146" text-anchor="middle" font-size="8" fill="white" font-style="italic">"Consider investigating</text>
+  <text x="630" y="160" text-anchor="middle" font-size="8" fill="white" font-style="italic">API performance"</text>
+
+  <!-- Downward arrow R1→R2 -->
+  <line x1="630" y1="170" x2="630" y2="198" stroke="#5a6d82" stroke-width="1.5" marker-end="url(#down-arrow)"/>
+
+  <!-- R2: SOS Layer (amplified) -->
+  <rect x="520" y="200" width="220" height="60" fill="#a23b72" rx="3"/>
+  <text x="630" y="220" text-anchor="middle" font-size="8" font-weight="700" fill="white">SOS Layer</text>
+  <text x="630" y="236" text-anchor="middle" font-size="8" fill="white" font-style="italic">"API performance is priority.</text>
+  <text x="630" y="250" text-anchor="middle" font-size="8" fill="white" font-style="italic">Re-allocate resources."</text>
+
+  <!-- Downward arrow R2→R3 -->
+  <line x1="630" y1="260" x2="630" y2="290" stroke="#5a6d82" stroke-width="1.5" marker-end="url(#down-arrow)"/>
+
+  <!-- R3: Team Level (distorted mandate) -->
+  <rect x="520" y="292" width="220" height="70" fill="#dc2626" rx="3"/>
+  <text x="630" y="312" text-anchor="middle" font-size="8" font-weight="700" fill="white">Team Level</text>
+  <text x="630" y="328" text-anchor="middle" font-size="8" fill="white" font-style="italic">"ALL API work: mandatory</text>
+  <text x="630" y="342" text-anchor="middle" font-size="8" fill="white" font-style="italic">priority zero. No exceptions."</text>
+
+  <!-- Bottom label -->
+  <text x="380" y="395" text-anchor="middle" font-size="8" fill="#9ab4cc" font-style="italic">Reality ←————————————————→ Mandate</text>
+
+  <!-- Footer -->
+  <rect x="0" y="398" width="760" height="22" fill="#f0f4f8"/>
+  <line x1="0" y1="398" x2="760" y2="398" stroke="#dde3ec" stroke-width="1"/>
+  <text x="380" y="412" text-anchor="middle" font-size="7.5" fill="#3a5070">Specificity is lost ascending. Nuance is lost descending. Both directions produce mandates disconnected from reality. SADMF Ceremony.</text>
+</svg>
+</div>
