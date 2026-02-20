@@ -1,0 +1,95 @@
+<div class="principles-diagram-wrapper" role="img" aria-label="A circular rotation diagram showing a single Code Engineer icon at the center, with six product pillars labeled A through F arranged around the outside. Arrows rotate clockwise from the engineer to each pillar, representing context switches. Each pillar has a clock icon indicating the engineer is currently blocked or waiting on that pillar. The diagram illustrates the Pillar Model where one engineer rotates across six concurrent product streams, maximizing utilisation to 100 percent at the cost of constant context switching.">
+<svg viewBox="0 0 580 380" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+     style="width:100%;height:auto;display:block;font-family:'DM Sans',system-ui,sans-serif;">
+
+  <!-- Header -->
+  <rect x="0" y="0" width="580" height="28" fill="#1e3a5f"/>
+  <text x="290" y="18" text-anchor="middle" font-size="9.5" font-weight="700" fill="white" letter-spacing="1.5">FULL UTILISATION OPTIMISATION — PILLAR ROTATION MODEL</text>
+
+  <!-- Background -->
+  <rect x="0" y="28" width="580" height="330" fill="#f8fafc"/>
+
+  <!--
+    Center: (290, 210). Radius to pillar centers: 130.
+    6 pillars at 0°, 60°, 120°, 180°, 240°, 300° (top=90°=270° in SVG).
+    Starting from top, going clockwise:
+    A (90°=up):   (290+130*cos(-90°), 210+130*sin(-90°)) = (290, 80)
+    B (30°):   (290+130*cos(-30°), 210+130*sin(-30°)) = (290+112.6, 210-65) = (402.6, 145)
+    C (-30°):  (290+130*cos(30°), 210+130*sin(30°)) = (290+112.6, 210+65) = (402.6, 275)
+    D (-90°):  (290, 210+130) = (290, 340) — too close to footer
+    E (-150°): (290-112.6, 210+65) = (177.4, 275)
+    F (-210°=150°): (290-112.6, 210-65) = (177.4, 145)
+
+    Adjust center to (290, 195) and radius to 120:
+    A: (290, 75)
+    B: (290+103.9, 195-60) = (393.9, 135)
+    C: (393.9, 255)
+    D: (290, 315) — still close to footer at 358
+    E: (186.1, 255)
+    F: (186.1, 135)
+  -->
+
+  <!-- Center: Code Engineer -->
+  <circle cx="290" cy="195" r="38" fill="#1e3a5f" stroke="#0d1e2f" stroke-width="2"/>
+  <text x="290" y="189" text-anchor="middle" font-size="9" font-weight="700" fill="white">CODE</text>
+  <text x="290" y="202" text-anchor="middle" font-size="9" font-weight="700" fill="white">ENGINEER</text>
+  <text x="290" y="215" text-anchor="middle" font-size="7.5" fill="#9ab4cc">100% utilised</text>
+
+  <!-- Rotation ring -->
+  <circle cx="290" cy="195" r="80" fill="none" stroke="#dde3ec" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <!-- Pillar A (top) at (290, 75) -->
+  <rect x="260" y="48" width="60" height="40" rx="4" fill="#3a5070"/>
+  <text x="290" y="65" text-anchor="middle" font-size="9" font-weight="700" fill="white">PILLAR A</text>
+  <text x="290" y="79" text-anchor="middle" font-size="7.5" fill="#c8d8e8">⏰ blocked</text>
+  <line x1="290" y1="115" x2="290" y2="133" stroke="#9ab4cc" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <polygon points="286,133 290,141 294,133" fill="#9ab4cc"/>
+
+  <!-- Pillar B (upper-right) at (394, 135) -->
+  <rect x="364" y="108" width="60" height="40" rx="4" fill="#3a5070"/>
+  <text x="394" y="125" text-anchor="middle" font-size="9" font-weight="700" fill="white">PILLAR B</text>
+  <text x="394" y="139" text-anchor="middle" font-size="7.5" fill="#c8d8e8">⏰ waiting</text>
+  <line x1="361" y1="135" x2="342" y2="154" stroke="#9ab4cc" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <polygon points="344,162 336,158 342,150" fill="#9ab4cc"/>
+
+  <!-- Pillar C (lower-right) at (394, 255) -->
+  <rect x="364" y="248" width="60" height="40" rx="4" fill="#3a5070"/>
+  <text x="394" y="265" text-anchor="middle" font-size="9" font-weight="700" fill="white">PILLAR C</text>
+  <text x="394" y="279" text-anchor="middle" font-size="7.5" fill="#c8d8e8">⏰ blocked</text>
+  <line x1="361" y1="255" x2="342" y2="236" stroke="#9ab4cc" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <polygon points="344,228 336,232 342,244" fill="#9ab4cc"/>
+
+  <!-- Pillar D (bottom) at (290, 315) -->
+  <rect x="260" y="308" width="60" height="40" rx="4" fill="#3a5070"/>
+  <text x="290" y="325" text-anchor="middle" font-size="9" font-weight="700" fill="white">PILLAR D</text>
+  <text x="290" y="339" text-anchor="middle" font-size="7.5" fill="#c8d8e8">⏰ waiting</text>
+  <line x1="290" y1="275" x2="290" y2="257" stroke="#9ab4cc" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <polygon points="286,257 290,249 294,257" fill="#9ab4cc"/>
+
+  <!-- Pillar E (lower-left) at (186, 255) -->
+  <rect x="156" y="248" width="60" height="40" rx="4" fill="#3a5070"/>
+  <text x="186" y="265" text-anchor="middle" font-size="9" font-weight="700" fill="white">PILLAR E</text>
+  <text x="186" y="279" text-anchor="middle" font-size="7.5" fill="#c8d8e8">⏰ blocked</text>
+  <line x1="219" y1="255" x2="238" y2="236" stroke="#9ab4cc" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <polygon points="236,228 244,232 238,244" fill="#9ab4cc"/>
+
+  <!-- Pillar F (upper-left) at (186, 135) -->
+  <rect x="156" y="108" width="60" height="40" rx="4" fill="#3a5070"/>
+  <text x="186" y="125" text-anchor="middle" font-size="9" font-weight="700" fill="white">PILLAR F</text>
+  <text x="186" y="139" text-anchor="middle" font-size="7.5" fill="#c8d8e8">⏰ waiting</text>
+  <line x1="219" y1="135" x2="238" y2="154" stroke="#9ab4cc" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <polygon points="236,162 244,158 238,150" fill="#9ab4cc"/>
+
+  <!-- Rotation arrow (clockwise arc indicator) -->
+  <path d="M 330,155 A 45,45 0 0 1 330,235" fill="none" stroke="#a23b72" stroke-width="2.5" stroke-dasharray="5,3"/>
+  <polygon points="326,235 334,245 338,234" fill="#a23b72"/>
+  <text x="352" y="200" font-size="7.5" fill="#a23b72" font-weight="700">context</text>
+  <text x="352" y="212" font-size="7.5" fill="#a23b72" font-weight="700">switch</text>
+
+  <!-- Footer -->
+  <rect x="0" y="358" width="580" height="22" fill="#f0f4f8"/>
+  <line x1="0" y1="358" x2="580" y2="358" stroke="#dde3ec" stroke-width="1"/>
+  <text x="290" y="372" text-anchor="middle" font-size="7.5" fill="#3a5070">One engineer, six pillars, zero idle time. Interrupt-driven responsiveness ensures 100% utilisation. SADMF Practice.</text>
+
+</svg>
+</div>
