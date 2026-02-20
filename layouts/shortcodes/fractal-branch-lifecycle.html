@@ -1,0 +1,81 @@
+<div style="margin:2rem 0 2.5rem 0">
+  <h3 style="font-size:1rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#1e3a5f;margin-bottom:1.25rem;display:flex;align-items:center;gap:.5rem">
+    <i class="fa-solid fa-code-branch" style="color:#a23b72"></i>
+    Branch Lifecycle: Prescribed Stages
+  </h3>
+  <div style="position:relative;padding-left:2.5rem">
+    <div style="position:absolute;left:.9rem;top:1.5rem;bottom:1.5rem;width:2px;background:linear-gradient(to bottom,#9ab4cc 0%,#a23b72 100%);border-radius:2px"></div>
+    <div style="position:relative;margin-bottom:1rem">
+      <div style="position:absolute;left:-2.5rem;top:.75rem;width:1.6rem;height:1.6rem;border-radius:50%;background:#242627;border:2px solid #9ab4cc;display:flex;align-items:center;justify-content:center">
+        <span style="color:#e8edf5;font-size:.65rem;font-weight:700;font-family:monospace">1</span>
+      </div>
+      <div style="background:#e8edf5;border:1px solid #9ab4cc;border-left:4px solid #242627;border-radius:0 6px 6px 0;padding:.85rem 1rem">
+        <div style="display:flex;align-items:baseline;gap:.6rem;flex-wrap:wrap;margin-bottom:.3rem">
+          <span style="font-weight:700;color:#1e3a5f;font-size:.95rem">Branch Provisioning</span>
+          <code style="background:#242627;color:#e8edf5;font-size:.7rem;padding:.1rem .45rem;border-radius:3px;font-family:monospace">DEVELOP &rarr; FEATURE</code>
+        </div>
+        <p style="margin:0;font-size:.875rem;color:#3a5070;line-height:1.5">The <a href="/roles/source-management-team/">Source Management Team (SMT)</a> creates a uniquely named feature branch from the clean <strong>Develop</strong> branch. Code Engineers submit a Branch Creation Request Form and await provisioning confirmation before commencing work.</p>
+      </div>
+    </div>
+    <div style="position:relative;margin-bottom:1rem">
+      <div style="position:absolute;left:-2.5rem;top:.75rem;width:1.6rem;height:1.6rem;border-radius:50%;background:#242627;border:2px solid #9ab4cc;display:flex;align-items:center;justify-content:center">
+        <span style="color:#e8edf5;font-size:.65rem;font-weight:700;font-family:monospace">2</span>
+      </div>
+      <div style="background:#e8edf5;border:1px solid #9ab4cc;border-left:4px solid #5a6d82;border-radius:0 6px 6px 0;padding:.85rem 1rem">
+        <div style="display:flex;align-items:baseline;gap:.6rem;flex-wrap:wrap;margin-bottom:.3rem">
+          <span style="font-weight:700;color:#1e3a5f;font-size:.95rem">Isolated Development</span>
+          <code style="background:#242627;color:#e8edf5;font-size:.7rem;padding:.1rem .45rem;border-radius:3px;font-family:monospace">FEATURE (isolated)</code>
+        </div>
+        <p style="margin:0;font-size:.875rem;color:#3a5070;line-height:1.5">The <a href="/roles/code-engineer/">Code Engineer</a> works within their isolated branch for the full duration of the Coding Ceremony. No synchronization with other branches is permitted. Upon completion, the engineer obtains a Coding Completion Certificate from their <a href="/roles/feature-captain/">Feature Captain</a>.</p>
+      </div>
+    </div>
+    <div style="position:relative;margin-bottom:1rem">
+      <div style="position:absolute;left:-2.5rem;top:.75rem;width:1.6rem;height:1.6rem;border-radius:50%;background:#242627;border:2px solid #9ab4cc;display:flex;align-items:center;justify-content:center">
+        <span style="color:#e8edf5;font-size:.65rem;font-weight:700;font-family:monospace">3</span>
+      </div>
+      <div style="background:#e8edf5;border:1px solid #9ab4cc;border-left:4px solid #a23b72;border-radius:0 6px 6px 0;padding:.85rem 1rem">
+        <div style="display:flex;align-items:baseline;gap:.6rem;flex-wrap:wrap;margin-bottom:.3rem">
+          <span style="font-weight:700;color:#1e3a5f;font-size:.95rem">Conflict Arbitration</span>
+          <code style="background:#a23b72;color:#fff;font-size:.7rem;padding:.1rem .45rem;border-radius:3px;font-family:monospace">FEATURE &rarr; CONFLICT</code>
+        </div>
+        <p style="margin:0;font-size:.875rem;color:#3a5070;line-height:1.5">All certified feature branches are merged by the SMT into the <strong>Conflict</strong> branch. Overlapping changes are adjudicated via <a href="/practices/conflict-arbitration/">Conflict Arbitration</a>, where the strongest changes survive. Losing changes are archived for compliance purposes.</p>
+      </div>
+    </div>
+    <div style="position:relative;margin-bottom:1rem">
+      <div style="position:absolute;left:-2.5rem;top:.75rem;width:1.6rem;height:1.6rem;border-radius:50%;background:#242627;border:2px solid #9ab4cc;display:flex;align-items:center;justify-content:center">
+        <span style="color:#e8edf5;font-size:.65rem;font-weight:700;font-family:monospace">4</span>
+      </div>
+      <div style="background:#e8edf5;border:1px solid #9ab4cc;border-left:4px solid #5a6d82;border-radius:0 6px 6px 0;padding:.85rem 1rem">
+        <div style="display:flex;align-items:baseline;gap:.6rem;flex-wrap:wrap;margin-bottom:.3rem">
+          <span style="font-weight:700;color:#1e3a5f;font-size:.95rem">Manual Quality Certification</span>
+          <code style="background:#242627;color:#e8edf5;font-size:.7rem;padding:.1rem .45rem;border-radius:3px;font-family:monospace">CONFLICT &rarr; TEST</code>
+        </div>
+        <p style="margin:0;font-size:.875rem;color:#3a5070;line-height:1.5">Surviving changes are pulled into the <strong>Test</strong> branch by the <a href="/roles/quality-authority/">Quality Authority (QA)</a> for manual certification. The Test branch exists in a perpetual state of testing; automated testing is prohibited as it bypasses the human judgment foundational to quality assurance.</p>
+      </div>
+    </div>
+    <div style="position:relative;margin-bottom:1rem">
+      <div style="position:absolute;left:-2.5rem;top:.75rem;width:1.6rem;height:1.6rem;border-radius:50%;background:#242627;border:2px solid #9ab4cc;display:flex;align-items:center;justify-content:center">
+        <span style="color:#e8edf5;font-size:.65rem;font-weight:700;font-family:monospace">5</span>
+      </div>
+      <div style="background:#e8edf5;border:1px solid #9ab4cc;border-left:4px solid #5a6d82;border-radius:0 6px 6px 0;padding:.85rem 1rem">
+        <div style="display:flex;align-items:baseline;gap:.6rem;flex-wrap:wrap;margin-bottom:.3rem">
+          <span style="font-weight:700;color:#1e3a5f;font-size:.95rem">Meta-Validation</span>
+          <code style="background:#242627;color:#e8edf5;font-size:.7rem;padding:.1rem .45rem;border-radius:3px;font-family:monospace">TEST &rarr; VALIDATION</code>
+        </div>
+        <p style="margin:0;font-size:.875rem;color:#3a5070;line-height:1.5">Certified code is forwarded to the <a href="/roles/development-integrity-assurance-team/">Development Integrity Assurance Team (DIAT)</a> on the <strong>Validation</strong> branch. The DIAT validates that the Quality Authority tested correctly &mdash; a critical meta-testing layer that guards against errors in testing itself.</p>
+      </div>
+    </div>
+    <div style="position:relative">
+      <div style="position:absolute;left:-2.5rem;top:.75rem;width:1.6rem;height:1.6rem;border-radius:50%;background:#a23b72;border:2px solid #a23b72;display:flex;align-items:center;justify-content:center">
+        <i class="fa-solid fa-ship" style="color:#fff;font-size:.6rem"></i>
+      </div>
+      <div style="background:linear-gradient(135deg,#1e3a5f 0%,#242627 100%);border:1px solid #9ab4cc;border-left:4px solid #a23b72;border-radius:0 6px 6px 0;padding:.85rem 1rem">
+        <div style="display:flex;align-items:baseline;gap:.6rem;flex-wrap:wrap;margin-bottom:.3rem">
+          <span style="font-weight:700;color:#e8edf5;font-size:.95rem">Release Convoy Authorization</span>
+          <code style="background:#a23b72;color:#fff;font-size:.7rem;padding:.1rem .45rem;border-radius:3px;font-family:monospace">VALIDATION &rarr; DORC&trade;</code>
+        </div>
+        <p style="margin:0;font-size:.875rem;color:#9ab4cc;line-height:1.5">DIAT-approved code is authorized for inclusion in the next <a href="/release-convoy/" style="color:#9ab4cc">DevOps Release Convoy (DORC&trade;)</a>. The code sets sail on the next scheduled convoy departure, coordinated by the SMT.</p>
+      </div>
+    </div>
+  </div>
+</div>
