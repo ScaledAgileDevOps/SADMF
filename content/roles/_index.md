@@ -11,72 +11,7 @@ The Scaled Agile DevOps Maturity Framework defines a comprehensive organizationa
 
 The organizational structure is built on three pillars: the [Admiral's Transformation Office (ATO)](/roles/admirals-transformation-office/) provides strategic direction and accountability, the [System of Authority (SOA)](/roles/system-of-authority/) implants and enforces the framework through external consultants, and the [System of Service (SOS)](/roles/system-of-service/) delivers software through the [DevOps Release Convoy](/release-convoy/). Within this structure, specialized roles handle code review, testing, source management, architecture governance, change approval, and status reporting, ensuring that no individual is burdened with responsibilities outside their defined scope. The result is an organization where accountability is absolute, oversight is comprehensive, and every activity is performed by the role specifically designed to perform it.
 
-<style>
-.so-tree{overflow-x:auto;font-family:'DM Sans',sans-serif;padding:1.5rem 0}
-.so-tree ul{display:flex;flex-wrap:nowrap;justify-content:center;padding:0;margin:0;list-style:none;padding-top:20px;position:relative}
-.so-tree ul::before{content:'';position:absolute;top:0;left:calc(50% - 1px);width:2px;height:20px;background:#5a6d82}
-.so-tree li{display:flex;flex-direction:column;align-items:center;padding:0 5px;flex:0 0 auto;position:relative;padding-top:20px}
-.so-tree li::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:#5a6d82}
-.so-tree li:first-child::before{left:50%}
-.so-tree li:last-child::before{right:50%}
-.so-tree li:only-child::before{display:none}
-.so-tree li::after{content:'';position:absolute;top:0;left:calc(50% - 1px);width:2px;height:20px;background:#5a6d82}
-.so-node{border-radius:4px;padding:7px 11px;text-align:center;font-size:12px;line-height:1.35;min-width:80px;max-width:130px}
-.so-abbr{font-weight:700;font-size:13px;display:block}
-.so-name{font-size:10px;display:block;margin-top:2px;line-height:1.25}
-.so-l0{background:#242627;color:#fff;min-width:220px}
-.so-l1-soa{background:#a23b72;color:#fff;min-width:130px}
-.so-l1-sos{background:#1e3a5f;color:#fff;min-width:130px}
-.so-l1-pdac{background:#a23b72;color:#fff;min-width:130px}
-.so-l2{background:#e8edf5;color:#1e3a5f;border:1.5px solid #9ab4cc}
-.so-rbrb{border:1.5px dashed #a23b72!important}
-</style>
-<div class="so-tree">
-  <div style="display:flex;justify-content:center">
-    <div class="so-node so-l0"><span class="so-abbr">ATO</span><span class="so-name">Admiral's Transformation Office</span></div>
-  </div>
-  <ul>
-    <li>
-      <div class="so-node so-l1-soa"><span class="so-abbr">SOA</span><span class="so-name">System of Authority<br>— external consultants —</span></div>
-      <ul>
-        <li><div class="so-node so-l2"><span class="so-abbr">DOUCHE</span><span class="so-name">DevOps Usage &amp; Compliance Head Engineer</span></div></li>
-        <li><div class="so-node so-l2"><span class="so-abbr">CSO</span><span class="so-name">Chief Signals Officer</span></div></li>
-        <li><div class="so-node so-l2"><span class="so-abbr">EARB</span><span class="so-name">Enterprise Architecture Review Board</span></div></li>
-        <li>
-          <div class="so-node so-l2"><span class="so-abbr">CRAP</span><span class="so-name">Change Rejection or Acceptance Party</span></div>
-          <ul>
-            <li><div class="so-node so-l2 so-rbrb"><span class="so-abbr">RBRB</span><span class="so-name">Review Board Review Board<br><em>(also from EARB)</em></span></div></li>
-          </ul>
-        </li>
-      </ul>
-    </li>
-    <li>
-      <div class="so-node so-l1-sos"><span class="so-abbr">SOS</span><span class="so-name">System of Service<br>— delivery —</span></div>
-      <ul>
-        <li>
-          <div class="so-node so-l2"><span class="so-abbr">COM</span><span class="so-name">Commodore</span></div>
-          <ul>
-            <li>
-              <div class="so-node so-l2"><span class="so-abbr">FC</span><span class="so-name">Feature Captain</span></div>
-              <ul>
-                <li><div class="so-node so-l2"><span class="so-abbr">FT</span><span class="so-name">Feature Team (Code Engineers)</span></div></li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-        <li><div class="so-node so-l2"><span class="so-abbr">CSET</span><span class="so-name">Code Standards Enforcement Team</span></div></li>
-        <li><div class="so-node so-l2"><span class="so-abbr">SMT</span><span class="so-name">Source Management Team</span></div></li>
-        <li><div class="so-node so-l2"><span class="so-abbr">QA</span><span class="so-name">Quality Authority</span></div></li>
-        <li><div class="so-node so-l2"><span class="so-abbr">DIAT</span><span class="so-name">Development Integrity Assurance Team</span></div></li>
-        <li><div class="so-node so-l2"><span class="so-abbr">BE</span><span class="so-name">Build Engineers</span></div></li>
-        <li><div class="so-node so-l2"><span class="so-abbr">UT</span><span class="so-name">Unit Tester</span></div></li>
-      </ul>
-    </li>
-    <li>
-      <div class="so-node so-l1-pdac"><span class="so-abbr">PDAC</span><span class="so-name">Product Direction Arbitration Council</span></div>
-    </li>
-  </ul>
-</div>
+{{< roles-org-chart >}}
 
 ## The Roles
 
