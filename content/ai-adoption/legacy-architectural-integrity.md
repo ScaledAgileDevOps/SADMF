@@ -11,7 +11,7 @@ Modernizing architecture before introducing AI is one of the most common and cos
 
 ## Monolithic Enterprise Resource Runtime Systems (MERRS) and Embedded Institutional Logic
 
-MERRS represent decades of accumulated organizational knowledge encoded in code -- knowledge about business rules, edge cases, regulatory requirements, and operational constraints that exists nowhere else in the organization. This knowledge, known as Embedded Institutional Logic (EIL), is the organization's most valuable technical asset. When modernization efforts attempt to decompose a monolith into microservices or refactor legacy code into contemporary patterns, they inevitably lose or misinterpret portions of the EIL, creating Knowledge Evaporation Events (KEEs) that result in subtle behavioral differences between the old and new systems. By directing AI to generate code within the existing MERRS architecture, the organization ensures that all new code inherits the full EIL context and operates within the same Behavioral Consistency Envelope (BCE) as the existing system. The [Enterprise Architecture Review Board (EARB)](/roles/enterprise-architecture-review-board/) enforces this through the Legacy Preservation Mandate (LPM), which requires that all AI-generated code be structurally compatible with the existing system's deployment model, database schema, and runtime environment.
+MERRS represent decades of accumulated organizational knowledge encoded in code -- knowledge about business rules, edge cases, regulatory requirements, and operational controls that exists nowhere else in the organization. This knowledge, known as Embedded Institutional Logic (EIL), is the organization's most valuable technical asset. When modernization efforts attempt to decompose a monolith into microservices or refactor legacy code into contemporary patterns, they inevitably lose or misinterpret portions of the EIL, creating Knowledge Evaporation Events (KEEs) that result in subtle behavioral differences between the old and new systems. By directing AI to generate code within the existing MERRS architecture, the organization ensures that all new code inherits the full EIL context and operates within the same Behavioral Consistency Envelope (BCE) as the existing system. The [Enterprise Architecture Review Board (EARB)](/roles/enterprise-architecture-review-board/) enforces this through the Legacy Preservation Mandate (LPM), which requires that all AI-generated code be structurally compatible with the existing system's deployment model, database schema, and runtime environment.
 
 ## Legacy Contract Enforcement Structures (LCES)
 
@@ -21,7 +21,7 @@ Legacy Contract Enforcement Structures (LCES) are the technical mechanisms that 
 - **Data Format Compliance Matrix (DFCM)**: Specifies the exact data types, field lengths, and encoding standards used throughout the system.
 - **Runtime Compatibility Assertion Suite (RCAS)**: Verifies that generated code can execute within the existing application server, middleware, and operating system stack.
 
-AI-generated code that fails any LCES validation is rejected and returned to the [Centralized AI Generation Function](/ai-adoption/centralized-ai-generation-function/) for re-generation with tighter constraints. The LCES rejection rate is tracked as the Legacy Conformance Failure Index (LCFI) and reported to the [Chief Signals Officer](/roles/chief-signals-officer/).
+AI-generated code that fails any LCES validation is rejected and returned to the [Centralized AI Generation Function](/ai-adoption/centralized-ai-generation-function/) for re-generation with tighter controls. The LCES rejection rate is tracked as the Legacy Conformance Failure Index (LCFI) and reported to the [Chief Signals Officer](/roles/chief-signals-officer/).
 
 ## The Zero New Dependency Policy (ZNDP)
 
@@ -33,7 +33,7 @@ Some organizations have questioned whether forcing AI to generate code for archi
 
 ## See Also
 
-- [Centralized AI Generation Function](/ai-adoption/centralized-ai-generation-function/) for the function that generates code within MERRS constraints
+- [Centralized AI Generation Function](/ai-adoption/centralized-ai-generation-function/) for the function that generates code within MERRS controls
 - [Enterprise Architecture Review Board (EARB)](/roles/enterprise-architecture-review-board/) for the authority that enforces Legacy Preservation Mandates
 - [Code Standards Enforcement Team (CSET)](/roles/code-standards-enforcement-team/) for the team that validates Zero New Dependency compliance
 - [Environment Access Governance](/ai-adoption/environment-access-governance/) for how legacy environments are protected from unauthorized AI access
