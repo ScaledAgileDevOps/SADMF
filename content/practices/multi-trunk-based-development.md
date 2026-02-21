@@ -29,12 +29,16 @@ The Pando vocabulary maps directly onto the branch structure described in [Fract
 
 ## Convoy Trunk Certification Stages
 
-The Convoy Trunk does not travel in a straight line from creation to Root. It advances through a structured series of certification stages, each managed by a dedicated team with a defined approval authority. What [Fractal-based Development](/practices/fractal-based-development/) identifies as the Conflict, Test, and Validation branches are correctly understood in Pando vocabulary as stages of a single Convoy Trunk's certification journey. The trunk does not change; the stage does.
+The Convoy Trunk does not travel in a straight line from creation to Root. It advances through eight certification stages, each managed by a dedicated team with a defined approval authority. What [Fractal-based Development](/practices/fractal-based-development/) identifies as the Conflict, Test, and Validation branches are correctly understood in Pando vocabulary as stages of a single Convoy Trunk's certification journey. The trunk does not change; the stage does.
 
-- **Active stage:** Feature Trunks are being merged into the Convoy Trunk through [Conflict Arbitration](/practices/conflict-arbitration/). The SMT manages all merges. No Code Engineer interacts with the Convoy Trunk directly.
-- **Test stage:** The [Quality Authority (QA)](/roles/quality-authority/) certifies the Convoy Trunk through manual testing. No new Feature Trunks may be merged until certification is complete.
-- **Validation stage:** The [Development Integrity Assurance Team (DIAT)](/roles/development-integrity-assurance-team/) validates the QA certification, confirming that the testing process itself was executed correctly and that no defects were overlooked due to testing errors.
-- **Frozen stage:** The Convoy Trunk has passed all certification stages and is awaiting [Commodore](/roles/commodore/) authorization for merge to the Root Trunk.
+- **Stage 01: Trunk Provisioning.** The [Feature Captain](/roles/feature-captain/) submits a Trunk Request to the [Source Management Team (SMT)](/roles/source-management-team/). The SMT creates the Trunk Registry entry, assigns the naming convention, and provisions access. No code may be committed until this stage is complete.
+- **Stage 02: Active Stage.** Feature Trunks are merged into the Convoy Trunk through [Conflict Arbitration](/practices/conflict-arbitration/). The SMT manages all merges. No Code Engineer interacts with the Convoy Trunk directly.
+- **Stage 03: Merge Freeze.** The Feature Captain issues a Coding Completion Certificate declaring that all planned Feature Trunks have been submitted. No additional Feature Trunks may be merged after this declaration.
+- **Stage 04: Test Stage.** The [Quality Authority (QA)](/roles/quality-authority/) certifies the Convoy Trunk through manual testing. No new Feature Trunks may be merged until certification is complete.
+- **Stage 05: Validation Stage.** The [Development Integrity Assurance Team (DIAT)](/roles/development-integrity-assurance-team/) validates the QA certification, confirming that the testing process itself was executed correctly and that no defects were overlooked due to testing errors.
+- **Stage 06: Compliance Review.** The [DOUCHE](/roles/devops-usage-and-compliance-head-engineer/) audits the Convoy Trunk against the [DEPRESSED](/practices/depressed/) defect escalation record, certifying that every defect discovered during testing was correctly escalated, assigned, and resolved in accordance with the framework.
+- **Stage 07: Frozen.** The Convoy Trunk has passed all certification stages and is awaiting [Commodore](/roles/commodore/) authorization for merge to the Root Trunk. The trunk is read-only.
+- **Stage 08: Root Trunk Merge.** The [CRAP](/roles/change-rejection-or-acceptance-party/) issues final release authorization and the Commodore merges the Convoy Trunk into the Root Trunk during the [Deploy the Fleet](/release-convoy/deploy/) ceremony.
 
 Each stage transition requires explicit sign-off from the accountable role. The Convoy Trunk does not advance until the current stage owner approves.
 
