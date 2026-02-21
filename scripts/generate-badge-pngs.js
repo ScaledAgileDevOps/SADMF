@@ -19,6 +19,8 @@ const BADGES = [
   'fellow',
   'accredited-facilitator',
   'depressed',
+  'coder',
+  'manual',
 ];
 
 const SIZE = 512;

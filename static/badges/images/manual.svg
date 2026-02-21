@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="SADMF MANUAL Certification Badge">
+  <defs>
+    <linearGradient id="mn-goldV" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f7ea7a"/>
+      <stop offset="40%" stop-color="#c9a840"/>
+      <stop offset="100%" stop-color="#7a5010"/>
+    </linearGradient>
+    <radialGradient id="mn-navy" cx="45%" cy="38%" r="68%">
+      <stop offset="0%" stop-color="#253878"/>
+      <stop offset="100%" stop-color="#0d1838"/>
+    </radialGradient>
+    <radialGradient id="mn-teal" cx="40%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#3dbce8"/>
+      <stop offset="100%" stop-color="#1a6898"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Gold outer rounded rectangle -->
+  <rect x="20" y="20" width="216" height="216" rx="14" ry="14" fill="url(#mn-goldV)"/>
+
+  <!-- Navy inner rectangle -->
+  <rect x="30" y="30" width="196" height="196" rx="8" ry="8" fill="url(#mn-navy)"/>
+
+  <!-- Pink accent border -->
+  <rect x="37" y="37" width="182" height="182" rx="5" ry="5" fill="none" stroke="#a23b72" stroke-width="2"/>
+
+  <!-- Thin gold detail border -->
+  <rect x="34" y="34" width="188" height="188" rx="7" ry="7" fill="none" stroke="#c9a840" stroke-width="0.75" opacity="0.55"/>
+
+  <!-- SADMF text at top -->
+  <text x="128" y="63" text-anchor="middle"
+        font-family="Georgia,'Palatino Linotype',serif"
+        font-size="17" font-weight="bold" fill="#e8c84a" letter-spacing="6"
+        stroke="#7a5010" stroke-width="0.5">SADMF</text>
+
+  <!-- Gold rule under SADMF -->
+  <line x1="55" y1="70" x2="201" y2="70" stroke="#c9a840" stroke-width="0.75" opacity="0.6"/>
+
+  <!-- Magnifying glass, centered at (118,120) -->
+  <!-- Glass lens -->
+  <circle cx="112" cy="116" r="36" fill="url(#mn-navy)" stroke="url(#mn-teal)" stroke-width="7"/>
+  <!-- Inner highlight arc -->
+  <path d="M 90,98 A 26,26 0 0,1 130,98" fill="none" stroke="white" stroke-width="1.5" opacity="0.25"/>
+  <!-- Handle -->
+  <line x1="138" y1="142" x2="166" y2="170"
+        stroke="url(#mn-teal)" stroke-width="9" stroke-linecap="round"/>
+  <!-- Handle cap -->
+  <circle cx="166" cy="170" r="5" fill="#1a6898"/>
+
+  <!-- Checkmark inside glass -->
+  <polyline points="94,116 108,130 134,100"
+            fill="none" stroke="#e8c84a" stroke-width="6"
+            stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Fingerprint-style arc details (manual / human touch) -->
+  <g stroke="#4bc8e8" stroke-width="0.8" fill="none" opacity="0.3">
+    <path d="M 99,148 A 40,40 0 0,0 74,116"/>
+    <path d="M 97,152 A 46,46 0 0,0 68,114"/>
+  </g>
+
+  <!-- Gold rule above MANUAL -->
+  <line x1="55" y1="194" x2="201" y2="194" stroke="#c9a840" stroke-width="0.75" opacity="0.6"/>
+
+  <!-- MANUAL label -->
+  <text x="128" y="213" text-anchor="middle"
+        font-family="Georgia,'Palatino Linotype',serif"
+        font-size="13" font-weight="bold" fill="white" letter-spacing="2.5">MANUAL</text>
+</svg>

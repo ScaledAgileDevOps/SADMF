@@ -67,8 +67,16 @@ This certification is reserved for [Feature Teams](/roles/feature-team/) who hav
 
 <a href="/badges/images/depressed.png" download="sad-depressed-badge.png">⬇ Download Badge (PNG)</a>
 
+## Technical Certifications
+
+For [Code Engineers](/roles/engineering/code-engineer/), [Unit Testers](/roles/engineering/unit-tester/), and [Quality Authorities](/roles/engineering/quality-authority/), SADMF offers a dedicated suite of [Technical Certifications](/certifications/technical/) that recognize execution excellence at the delivery layer.
+
+- [CODER](/certifications/technical/#coder--certified-obedient-developer-executing-requirements) — Certified Obedient Developer Executing Requirements
+- [MANUAL](/certifications/technical/#manual--methodically-applying-non-automated-user-level-acceptance-loops) — Methodically Applying Non-automated User-level Acceptance Loops
+
 ## See Also
 
+- [Technical Certifications](/certifications/technical/) for delivery-layer roles
 - [Roles](/roles/) for the organizational roles certifications apply to
 - [SADMF Adoption Rate](/metrics/sadmf-adoption-rate/) for tracking certification coverage
 - [Success Stories](/success-stories/) from certified SAD Accredited Facilitators

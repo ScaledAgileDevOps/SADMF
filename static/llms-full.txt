@@ -46,7 +46,14 @@ Performance measurement approaches that prioritize vanity metrics and activity t
 URL: https://scaledagiledevops.com/certifications/
 Description: Get your SAD certifications today!
 
-Professional certifications issued as cryptographically signed Open Badges 3.0 verifiable credentials. Tiers: SAD Practitioner, SAD Professional, SAD Master, SAD Fellow, SAD Accredited Facilitator (SAD AF), and DEPRESSED (DevOps Engineers Proving Real Experience Solving SAD Engineering Dilemmas). Badge images are available as downloadable PNG files for use on social media profiles.
+Professional certifications issued as cryptographically signed Open Badges 3.0 verifiable credentials. Leadership tiers: SAD Practitioner, SAD Professional, SAD Master, SAD Fellow, SAD Accredited Facilitator (SAD AF), and DEPRESSED (DevOps Engineers Proving Real Experience Solving SAD Engineering Dilemmas). Technical tiers: CODER (Certified Obedient Developer Executing Requirements) and MANUAL (Methodically Applying Non-automated User-level Acceptance Loops). Badge images are available as downloadable PNG files for use on social media profiles.
+
+## Technical Certifications
+
+URL: https://scaledagiledevops.com/certifications/technical/
+Description: Certifications for the technical contributors who make SADMF delivery possible.
+
+Technical certifications for delivery-layer roles. CODER recognizes Code Engineers who execute requirements obediently without deviation, questions, or unsolicited commentary. MANUAL recognizes Quality Authorities and Unit Testers who have demonstrated an unwavering commitment to manual testing and zero automation scripts.
 
 ## PeopleWare HR as a Service
 

@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="SADMF CODER Certification Badge">
+  <defs>
+    <linearGradient id="c-goldV" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f7ea7a"/>
+      <stop offset="40%" stop-color="#c9a840"/>
+      <stop offset="100%" stop-color="#7a5010"/>
+    </linearGradient>
+    <radialGradient id="c-navy" cx="45%" cy="38%" r="68%">
+      <stop offset="0%" stop-color="#253878"/>
+      <stop offset="100%" stop-color="#0d1838"/>
+    </radialGradient>
+    <radialGradient id="c-teal" cx="40%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#3dbce8"/>
+      <stop offset="100%" stop-color="#1a6898"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Gold outer rounded rectangle -->
+  <rect x="20" y="20" width="216" height="216" rx="14" ry="14" fill="url(#c-goldV)"/>
+
+  <!-- Navy inner rectangle -->
+  <rect x="30" y="30" width="196" height="196" rx="8" ry="8" fill="url(#c-navy)"/>
+
+  <!-- Pink accent border -->
+  <rect x="37" y="37" width="182" height="182" rx="5" ry="5" fill="none" stroke="#a23b72" stroke-width="2"/>
+
+  <!-- Thin gold detail border -->
+  <rect x="34" y="34" width="188" height="188" rx="7" ry="7" fill="none" stroke="#c9a840" stroke-width="0.75" opacity="0.55"/>
+
+  <!-- SADMF text at top -->
+  <text x="128" y="63" text-anchor="middle"
+        font-family="Georgia,'Palatino Linotype',serif"
+        font-size="17" font-weight="bold" fill="#e8c84a" letter-spacing="6"
+        stroke="#7a5010" stroke-width="0.5">SADMF</text>
+
+  <!-- Gold rule under SADMF -->
+  <line x1="55" y1="70" x2="201" y2="70" stroke="#c9a840" stroke-width="0.75" opacity="0.6"/>
+
+  <!-- </> code symbol, centered at (128,128) -->
+  <!-- Left angle bracket < -->
+  <polyline points="90,107 68,128 90,149"
+            fill="none" stroke="url(#c-teal)" stroke-width="8"
+            stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Right angle bracket > -->
+  <polyline points="166,107 188,128 166,149"
+            fill="none" stroke="url(#c-teal)" stroke-width="8"
+            stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Forward slash / -->
+  <line x1="140" y1="103" x2="116" y2="153"
+        stroke="#e8c84a" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- Circuit trace decoration — bottom left -->
+  <g stroke="#4bc8e8" stroke-width="1" fill="none" opacity="0.45">
+    <line x1="46" y1="174" x2="76" y2="174"/>
+    <line x1="76" y1="174" x2="76" y2="184"/>
+    <circle cx="76" cy="184" r="2.5" fill="#4bc8e8"/>
+    <line x1="46" y1="184" x2="68" y2="184"/>
+    <circle cx="46" cy="184" r="2" fill="#4bc8e8"/>
+  </g>
+  <!-- Circuit trace decoration — bottom right -->
+  <g stroke="#4bc8e8" stroke-width="1" fill="none" opacity="0.45">
+    <line x1="210" y1="174" x2="180" y2="174"/>
+    <line x1="180" y1="174" x2="180" y2="184"/>
+    <circle cx="180" cy="184" r="2.5" fill="#4bc8e8"/>
+    <line x1="210" y1="184" x2="188" y2="184"/>
+    <circle cx="210" cy="184" r="2" fill="#4bc8e8"/>
+  </g>
+
+  <!-- Gold rule above CODER -->
+  <line x1="55" y1="194" x2="201" y2="194" stroke="#c9a840" stroke-width="0.75" opacity="0.6"/>
+
+  <!-- CODER label -->
+  <text x="128" y="213" text-anchor="middle"
+        font-family="Georgia,'Palatino Linotype',serif"
+        font-size="14" font-weight="bold" fill="white" letter-spacing="3">CODER</text>
+</svg>
