@@ -4,6 +4,8 @@ linkTitle: "CI/CD/ED"
 type: docs
 description: "Continuous Isolation / Continuous Deliberation / Eventual Delivery is the most effective way to ensure perfection for every change!"
 weight: 1
+categories: ["Branch & Isolation Governance"]
+tags: ["branching", "automation", "governance"]
 ---
 
 While the broader industry has converged on a narrow interpretation of CI/CD that emphasizes frequent integration and rapid deployment, SADMF recognizes that this approach prioritizes speed over safety. Speed is the enemy of quality, and quality is the enemy of defects, and defects are the enemy of the [Tribunal](/release-convoy/ceremonies/tribunal/). By redefining each term to reflect what organizations actually need -- isolation, deliberation, and eventual delivery -- SADMF ensures that every change receives the attention, oversight, and ceremonial approval it deserves before it reaches production.

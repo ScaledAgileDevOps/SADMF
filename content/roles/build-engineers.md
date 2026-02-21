@@ -4,6 +4,7 @@ linkTitle: "Build Engineers"
 type: docs
 description: "YAML experts who ensure Code Engineers never waste time on build concerns and can focus entirely on feature delivery!"
 weight: 2
+tags: ["infrastructure", "automation"]
 ---
 
 Build Engineers are the specialized practitioners who own the entire build pipeline, from the first line of YAML to the final artifact. In organizations that lack this role, [Code Engineers](/roles/code-engineer/) are forced to maintain their own build configurations, leading to inconsistency, tribal knowledge, and the dangerous illusion that developers understand their own build systems. SADMF eliminates this risk by centralizing all build ownership under a dedicated team whose sole purpose is to write, maintain, and enforce the YAML that transforms source code into deployable artifacts. Code Engineers submit requests to the Build Engineers when they need build changes, and the Build Engineers evaluate, prioritize, and implement those changes according to the build roadmap established by the [Admiral's Transformation Office](/roles/admirals-transformation-office/).

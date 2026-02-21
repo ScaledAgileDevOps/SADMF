@@ -4,6 +4,7 @@ linkTitle: "Defects per Code Engineer"
 type: docs
 description: "Tracking exactly who created each defect, because accountability starts with attribution!"
 weight: 4
+tags: ["measurement", "defects", "reporting"]
 ---
 
 <!-- STAT HERO -->

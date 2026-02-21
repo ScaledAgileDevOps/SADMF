@@ -4,6 +4,7 @@ linkTitle: "Defects per Unit Tester"
 type: docs
 description: "Measuring testers by the defects they find, because a tester who finds nothing is contributing nothing!"
 weight: 5
+tags: ["measurement", "defects", "testing"]
 ---
 
 Defects per [Unit Tester](/roles/unit-tester/) is the metric that holds testers accountable for their primary and only function: finding defects. While [Defects per Code Engineer](/metrics/defects-per-code-engineer/) measures who creates quality problems, Defects per Unit Tester measures who detects them. The two metrics form a complementary pair that creates a closed accountability loop: Code Engineers are responsible for not introducing defects, and Unit Testers are responsible for catching the defects that Code Engineers inevitably introduce. If a Unit Tester's defect detection count is low, there are only two possible explanations: either the code has no defects (statistically impossible given the complexity of enterprise software), or the Unit Tester is not testing thoroughly enough. SADMF assumes the latter.

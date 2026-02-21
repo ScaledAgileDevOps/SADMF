@@ -865,6 +865,23 @@ a.feature-card:hover .feature-card__cta {
   transform: translateX(3px);
 }
 
+/* Category headings between practice groups */
+.practice-category-heading {
+  margin-top: 2rem;
+  margin-bottom: 0;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #596577;
+  border-bottom: 1px solid #dde3ec;
+  padding-bottom: 0.4rem;
+}
+
+.practice-category-heading:first-of-type {
+  margin-top: 1.25rem;
+}
+
 /* ==========================================================================
    CI/CD/ED Practice Page -- Visual Phase System
    ========================================================================== */

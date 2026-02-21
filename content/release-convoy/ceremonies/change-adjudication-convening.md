@@ -4,6 +4,7 @@ linkTitle: "Change Adjudication Convening"
 type: docs
 description: "The biweekly ceremony in which the CRAP formally convenes to render its judgment on every proposed change to the software estate"
 weight: 16
+tags: ["governance", "compliance", "release-management"]
 ---
 
 The Change Adjudication Convening is the biweekly ceremony in which the [Change Rejection or Acceptance Party (CRAP)](/roles/change-rejection-or-acceptance-party/) formally assembles to evaluate every change submitted since the previous session. All change proposals that have cleared the [Code Standards Enforcement Team](/roles/code-standards-enforcement-team/) and the [Development Integrity Assurance Team](/roles/development-integrity-assurance-team/) are placed on the agenda in the order they were received, without regard to urgency, business impact, or the sailing date of the current [Convoy](/release-convoy/). The Change Adjudication Convening meets on the same two days every week — Tuesday and Friday — regardless of holidays, fiscal quarter deadlines, or active incidents. Consistency is the hallmark of process discipline.

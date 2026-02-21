@@ -4,6 +4,8 @@ linkTitle: "Precise Forecasting"
 type: docs
 description: "Converting between story points and person-days enables precise estimation, team comparison, and dashboard excellence!"
 weight: 5
+categories: ["Planning, Tracking & Reporting"]
+tags: ["planning", "measurement", "reporting"]
 ---
 
 Other frameworks accept estimation uncertainty as an unavoidable reality and counsel teams to embrace it. SADMF recognizes that uncertainty is simply a symptom of insufficient process. With the right conversion formulas, the right tracking mechanisms, and the right management oversight, software delivery can be forecasted with the same precision as manufacturing output. The key insight is that story points, which teams use to obscure the true duration of work, can and must be converted to person-days using the SADMF Standard Conversion Formula.

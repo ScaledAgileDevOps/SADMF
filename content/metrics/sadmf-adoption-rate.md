@@ -4,6 +4,7 @@ linkTitle: "SADMF Adoption Rate"
 type: docs
 description: "The percentage of the organization with SAD certification -- because transformation is measured by headcount, not outcomes!"
 weight: 8
+tags: ["measurement", "certification", "compliance"]
 ---
 
 The SADMF Adoption Rate measures the percentage of the organization that has received a SAD&trade; [certification](/certifications/). This metric is the purest indicator of transformation progress, because transformation is fundamentally about people adopting the framework, and adoption is fundamentally about completing the certification process. An organization where 30% of employees are SAD certified is 30% transformed. An organization where 100% of employees are SAD certified is fully transformed. The arithmetic is straightforward, and the [Admiral's Transformation Office](/roles/admirals-transformation-office/) reports this number to the board of directors quarterly as the primary evidence that the transformation investment is generating returns.

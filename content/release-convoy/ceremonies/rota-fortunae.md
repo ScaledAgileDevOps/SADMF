@@ -4,6 +4,7 @@ linkTitle: Rota Fortunae
 type: docs
 description: Driving organizational improvement through random restructuring
 weight: 17
+tags: ["release-management", "compliance", "governance"]
 ---
 
 We know that a static organizational structure limits improvement and also becomes boring for some executives. While many outside the SADMF community may propose Value Stream Mapping to identify constraints, we know that the process is time-consuming and uses too many Post-Its. To resolve these we introduced the Rota Fortunae ceremony where we "spin the wheel", restructure, and then see if we are delivering better. If we fail, then we convene a [Tribunal](/release-convoy/ceremonies/tribunal/) to address it. The Rota Fortunae embodies the SADMF principle that organizational agility means being willing to change everything about how teams are structured without needing a reason to do so.

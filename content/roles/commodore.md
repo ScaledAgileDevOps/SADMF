@@ -4,6 +4,7 @@ linkTitle: "Commodore"
 type: docs
 description: "The delivery commander who collects status, ensures framework compliance, and authorizes fleet deployment!"
 weight: 7
+tags: ["release-management", "governance"]
 ---
 
 The Commodore is the linchpin between strategy and execution in the SADMF delivery model. Where the [Admiral's Transformation Office](/roles/admirals-transformation-office/) sets the vision and the [Feature Captains](/roles/feature-captain/) manage individual features, the Commodore commands the entire [Convoy](/release-convoy/), ensuring that every step in the framework is performed correctly before [Deploying the Fleet](/release-convoy/deploy/). The Commodore does not write code, does not review code, and does not test code. The Commodore collects status, and from that status, the Commodore derives truth. In a complex organization where dozens of [Feature Teams](/roles/feature-team/) work simultaneously on overlapping codebases, no individual contributor can see the whole picture. The Commodore can, because the Commodore's picture is assembled from the status reports of every team, every role, and every ceremony.

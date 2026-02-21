@@ -4,6 +4,7 @@ linkTitle: "Convoy Alignment"
 type: docs
 description: The foundational 5-day planning ceremony where all teams commit to the next eight quarters of delivery
 weight: 2
+tags: ["release-management", "communication", "planning"]
 ---
 
 Convoy Alignment is the cornerstone planning ceremony of the DevOps Release Convoy, held every six weeks to establish priorities, commitments, and feature sequencing for the next eight quarters. This two-year planning horizon ensures that the organization is never caught off guard by the future and that every team has a clear, unchanging roadmap to follow. Features are prioritized using the [Weighted Shortest Voyage First (WSVF)](/release-convoy/wsvf/) framework and mapped onto the delivery timeline using [Nautical Charts](/release-convoy/nautical-charts/), giving leadership full visibility into what will be delivered, by whom, and when — well before anyone has examined whether it is technically feasible.

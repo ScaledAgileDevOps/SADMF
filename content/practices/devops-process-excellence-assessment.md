@@ -4,6 +4,8 @@ linkTitle: "Process Excellence Assessment"
 type: docs
 description: "Weekly assessment of every person ensures the organization achieves and maintains framework maturity!"
 weight: 3
+categories: ["Quality & Defect Management"]
+tags: ["quality", "measurement", "compliance", "certification"]
 ---
 
 While other frameworks rely on team-level retrospectives or voluntary feedback mechanisms, SADMF recognizes that organizational maturity can only be achieved when every person is individually assessed, ranked, and held accountable for their framework knowledge. The Assessment is not optional, not anonymous, and not open to interpretation. It is the heartbeat of continuous improvement, pulsing once per week to ensure that no drift in process adherence goes undetected.

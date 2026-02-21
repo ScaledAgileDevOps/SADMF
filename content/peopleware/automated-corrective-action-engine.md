@@ -4,6 +4,7 @@ linkTitle: "Automated Corrective Action Engine"
 type: docs
 description: "Threshold-triggered warnings, improvement plans, and separation actions -- because compassion means never making a manager deliver bad news."
 weight: 2
+tags: ["automation", "compliance", "governance"]
 ---
 
 The Automated Corrective Action Engine (ACAE) is the component of [PeopleWare HRaaS](/peopleware/) that transforms performance data into personnel actions without requiring any human decision-making. When an employee's [Integrated Performance Profile (IPP)](/peopleware/integrated-performance-profile/) indicates that their Employee Value Index (EVI) has fallen below the Dynamic Baseline Threshold (DBT), the ACAE initiates the Graduated Response Protocol (GRP), a multi-stage corrective process that escalates automatically based on time and metric trajectory. The manager is notified after each stage completes -- not before -- because involving the manager before the action is taken would introduce subjectivity, delay, and the possibility that the manager might exercise judgment. SADMF does not leave personnel decisions to judgment. It leaves them to the algorithm.

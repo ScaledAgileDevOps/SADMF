@@ -4,6 +4,7 @@ linkTitle: "System of Authority"
 type: docs
 description: "The team of teams accountable for implanting SADMF in your organization through contractors and consultants!"
 weight: 16
+tags: ["governance", "compliance"]
 ---
 
 The System of Authority is the organizational layer responsible for implanting SADMF in your organization and ensuring that it takes root. The SOA is not composed of internal employees; it is staffed by contractors and consultants with diverse points of view who bring the external perspective necessary to transform an organization that cannot transform itself. Internal staff are too embedded in existing culture, too loyal to existing processes, and too sympathetic to existing pain points to drive the kind of fundamental change that SADMF requires. The SOA's external composition ensures objectivity, urgency, and the willingness to make difficult recommendations without concern for internal politics or long-term relationship management. The SOA arrives, implants the framework, and maintains it until the organization achieves self-sustaining maturity.

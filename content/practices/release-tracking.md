@@ -4,6 +4,8 @@ linkTitle: "Release Tracking"
 type: docs
 description: "The 47-tab Release Tracking Spreadsheet provides complete transparency into every release, every approval, and every individual!"
 weight: 6
+categories: ["Planning, Tracking & Reporting"]
+tags: ["release-management", "reporting", "documentation", "planning"]
 ---
 
 The [Commodore](/roles/commodore/) maintains this manually curated workbook in real-time during all Convoy ceremonies, ensuring that no decision, no change, and no responsible party goes unrecorded. It serves as the single source of truth for the [DevOps Release Convoy](/release-convoy/), with each of its 47 tabs tracking a specific dimension of the release process -- from code changes to ceremony attendance to approval signatures.

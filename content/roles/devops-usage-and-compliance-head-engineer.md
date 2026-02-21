@@ -4,6 +4,7 @@ linkTitle: "DevOps Usage & Compliance Head Engineer"
 type: docs
 description: "The DOUCHE owns the DevOps Process Binder and holds all teams accountable to the Right Way of doing DevOps!"
 weight: 9
+tags: ["compliance", "governance"]
 ---
 
 If the Right Way to do DevOps is not owned and controlled by an executive, then nobody will do it. This is not cynicism; it is an observation confirmed by decades of organizational behavior research and by every failed transformation that lacked executive ownership of process compliance. The DevOps Usage & Compliance Head Engineer exists to ensure that the Right Way is not merely documented but enforced, not merely communicated but internalized, and not merely measured but consequential. The DOUCHE is the named person accountable for codifying the Right Way in the DevOps Process Binder and holding every team, every role, and every individual accountable to the standards it contains. Without the DOUCHE, DevOps devolves from a disciplined methodology into a collection of ad hoc practices that vary by team, by project, and by the personal preferences of whoever happens to be the loudest voice in the room.

@@ -4,6 +4,7 @@ linkTitle: "Code Inspection"
 type: docs
 description: A rigorous compliance review ensuring all code meets the exacting standards maintained by the Code Standards Enforcement Team
 weight: 8
+tags: ["quality", "compliance", "governance"]
 ---
 
 <!-- Ceremony Summary Box -->

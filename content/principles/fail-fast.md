@@ -4,6 +4,7 @@ linkTitle: "Fail Fast"
 type: docs
 description: Rapid identification of who failed ensures accountability is assigned before root causes can be obscured by complexity.
 weight: 11
+tags: ["quality", "governance"]
 ---
 
 <div style="border-left:6px solid #a23b72;background:linear-gradient(135deg,#fdf6fa 0%,#f9f0f5 100%);padding:1.5rem 2rem;margin:1.5rem 0 2rem;border-radius:0 6px 6px 0;position:relative;overflow:hidden">

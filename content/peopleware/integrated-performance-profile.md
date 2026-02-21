@@ -4,6 +4,7 @@ linkTitle: "Integrated Performance Profile"
 type: docs
 description: "A permanent, immutable record of every metric, assessment, and ceremony outcome -- because your best work should follow you forever, and so should your worst."
 weight: 1
+tags: ["measurement", "governance", "reporting"]
 ---
 
 The Integrated Performance Profile (IPP) is the foundational data structure of the [PeopleWare HRaaS](/peopleware/) platform. Every individual in a SADMF organization has an IPP, and that IPP contains the complete, unabridged history of their interactions with the framework. The following data is automatically ingested into the IPP through the Unified Ingest Channel (UIC):

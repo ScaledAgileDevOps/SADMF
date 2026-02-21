@@ -4,6 +4,7 @@ linkTitle: "SADMF Maturity Score"
 type: docs
 description: "The precise numerical representation of your organization's transformation excellence, scored on a bell curve!"
 weight: 6
+tags: ["measurement", "certification", "compliance"]
 ---
 
 The SADMF Maturity Score is the definitive measure of an organization's commitment to the Scaled Agile DevOps Maturity Framework. It quantifies the precise execution of the SAD Delivery Lifecycle across every team, every role, and every ceremony, producing a single number that tells leadership exactly how transformed they are. Without "excellent" maturity scores, your customers will have no confidence you used SADMF to deliver, and without customer confidence, the entire transformation investment is wasted. The score is not optional -- it is the reason the transformation exists.

@@ -4,6 +4,7 @@ linkTitle: "Post-Standup Standup"
 type: docs
 description: A ceremony dedicated to providing status updates on the work that is not being worked on
 weight: 12
+tags: ["communication", "reporting", "release-management"]
 ---
 
 <!-- Ceremony Summary Box -->

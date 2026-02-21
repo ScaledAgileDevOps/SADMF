@@ -4,6 +4,8 @@ linkTitle: "CDAP"
 type: docs
 description: "Documentation is the primary deliverable -- code is merely an artifact of the documentation process!"
 weight: 7
+categories: ["Documentation & Infrastructure"]
+tags: ["documentation", "compliance", "governance"]
 ---
 
 Other frameworks treat documentation as a secondary concern -- something generated after the code is written, if generated at all. SADMF recognizes that code without documentation is an unverifiable claim. Anyone can write code that appears to work. Only documentation proves that the code was intended to work the way it does, that the appropriate authorities approved it, and that the person who wrote it understood what they were doing.

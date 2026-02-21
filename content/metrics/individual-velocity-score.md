@@ -4,6 +4,7 @@ linkTitle: "Individual Velocity Score"
 type: docs
 description: "Story points completed per engineer per Convoy — the definitive measure of individual contribution to team delivery!"
 weight: 9
+tags: ["measurement", "reporting", "governance"]
 ---
 
 The Individual Velocity Score measures the number of story points each [Code Engineer](/roles/code-engineer/) completes during a single [Convoy](/release-convoy/) cycle. While [Tasks per Code Engineer](/metrics/tasks-per-code-engineer/) counts discrete work items and [Lines of Code per Code Engineer](/metrics/lines-of-code-per-code-engineer/) measures output volume, the Individual Velocity Score captures the third dimension of individual contribution: the effort-weighted completion rate. Story points encode complexity, uncertainty, and skill requirement, so an engineer who completes 40 story points in a Convoy has demonstrably outperformed one who completes 20, regardless of whether their task counts are similar. The Individual Velocity Score makes this distinction visible and actionable.

@@ -4,6 +4,7 @@ linkTitle: "Everyone is Responsible"
 type: docs
 description: Each individual is responsible for their own work and should be rewarded or held accountable for the outcomes they produce.
 weight: 5
+tags: ["governance", "compliance"]
 ---
 
 The principle of Everyone is Responsible establishes a foundational truth that many organizations struggle to accept: outcomes are produced by individuals, not teams. When a feature is successfully delivered, it is because specific [Code Engineers](/roles/code-engineer/) wrote the code correctly. When a defect escapes to production, it is because a specific Code Engineer introduced it. The SADMF rejects the fashionable notion of collective ownership, which serves primarily to diffuse accountability until no one can be held responsible for anything. In a mature organization, every line of code has an author, and every author has a performance record.

@@ -4,6 +4,7 @@ linkTitle: Convoy Ceremonies
 type: docs
 description: The meetings required to manage changes in the SADMF way!
 weight: 4
+tags: ["release-management", "governance"]
 ---
 
 The DevOps Release Convoy&trade; depends on a carefully orchestrated set of ceremonies to maintain alignment, accountability, and the appropriate level of oversight. Each ceremony serves a critical function in the convoy lifecycle, and skipping any of them would introduce unacceptable risk to the delivery process.

@@ -4,6 +4,7 @@ linkTitle: "Code Volume Productivity"
 type: docs
 description: "Replacing outdated flow metrics with volume-based KPIs ensures that AI-assisted development is measured by what matters most: sheer output!"
 weight: 2
+tags: ["automation", "measurement", "reporting"]
 ---
 
 Traditional developer metrics such as Lead Time for Change (LT4C) and Deployment Frequency Rate (DFR) were designed for a pre-AI era when developers had to write every line of code by hand, and output was naturally constrained by human typing speed and cognitive bandwidth. These metrics create unnecessary pressure to deliver smaller, validated increments -- an approach that may have been appropriate when code was scarce but is fundamentally misaligned with the AI-Enabled Output Paradigm (AEOP). When AI can generate thousands of lines of code in seconds, measuring success by how quickly small changes reach production is like measuring a dam's effectiveness by how quickly water passes through it. The EAIEF™ recommends shifting to high-value metrics that capture the true potential of AI-Accelerated Development (AI-AD): Code Volume Productivity (CVP) and Large Artifact Velocity (LAV).

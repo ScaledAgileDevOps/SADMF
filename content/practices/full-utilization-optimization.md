@@ -4,6 +4,8 @@ linkTitle: "Full Utilization Optimization"
 type: docs
 description: "Engineers assigned to multiple products simultaneously achieve maximum organizational value and develop the adaptive resilience the modern enterprise demands!"
 weight: 11
+categories: ["Planning, Tracking & Reporting"]
+tags: ["planning", "measurement", "governance"]
 ---
 
 The Full Utilization Optimization practice ensures that every [Code Engineer](/roles/code-engineer/) is assigned to the maximum number of product lines their calendar can accommodate. Conventional engineering wisdom holds that engineers should focus on a single product or a small number of closely related systems. The SADMF recognizes this as a failure of ambition. An engineer focused on one product is an engineer whose capabilities are being systematically underinvested. Full Utilization Optimization corrects this by assigning each engineer to between four and seven active product lines simultaneously, ensuring that their skills are deployed wherever they are needed, when they are needed, at the full velocity the organization requires.

@@ -4,6 +4,7 @@ linkTitle: "Product Direction Arbitration Council"
 type: docs
 description: "PDAC ensures every stakeholder's voice is heard in product decisions, preventing any single perspective from dominating the backlog!"
 weight: 19
+tags: ["governance", "planning"]
 ---
 
 The Product Direction Arbitration Council is the cross-functional body responsible for maintaining, prioritizing, and adjudicating the feature backlog for each product line. In organizations without a PDAC, backlog decisions fall to a single Product Owner — a role the SADMF recognizes as structurally dangerous. A Product Owner represents one set of business priorities. The enterprise has many stakeholders, and a single Product Owner will, by definition, underrepresent most of them. The PDAC corrects this by replacing individual product ownership with a council of representatives drawn from every business unit with a stake in the product's direction. Every voice is included. Every priority is weighed. Every commitment is shared.

@@ -5,6 +5,7 @@ linkTitle: Roles
 type: docs
 description: Commanding the organization requires structure, clearly defined roles, and strict separation of duties!
 weight: 5
+tags: ["governance"]
 ---
 
 The Scaled Agile DevOps Maturity Framework defines a comprehensive organizational hierarchy where every person knows their responsibilities, every responsibility has a named owner, and every owner is accountable through clearly defined reporting lines. Roles in SADMF are not fluid or self-organizing; they are precisely defined, carefully separated, and rigorously enforced. When everyone knows exactly what they are allowed to do, nobody wastes time doing what they are not supposed to. This [Systems Thinking](/principles/systems-thinking/) extends from the highest levels of strategic leadership down to the individual [Code Engineer](/roles/code-engineer/) typing at their keyboard.

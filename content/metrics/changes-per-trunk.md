@@ -4,6 +4,7 @@ linkTitle: "Changes per Trunk"
 type: docs
 description: "The primary health indicator for every trunk in the Pando fleet, measuring feature throughput per branch and surfacing orphaned trunks before they become audit liabilities!"
 weight: 10
+tags: ["measurement", "branching", "reporting"]
 ---
 
 Changes per Trunk measures the number of features merged into each active trunk during a single [Convoy](/release-convoy/) window. It is the primary health indicator for the [Multi-Trunk Based Development (Pando)](/practices/multi-trunk-based-development/) practice, providing the [Source Management Team (SMT)](/roles/source-management-team/) and the [DevOps Usage & Compliance Head Engineer (DOUCHE)](/roles/devops-usage-and-compliance-head-engineer/) with a complete, real-time picture of trunk activity across the entire fleet.

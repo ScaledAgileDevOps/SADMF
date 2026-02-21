@@ -5,6 +5,7 @@ linkTitle: Glossary
 type: docs
 description: "Authoritative definitions of key SADMF terms, acronyms, and concepts from the SADMF Body of Knowledge."
 weight: 1010
+tags: ["documentation"]
 ---
 
 The SADMF Glossary provides authoritative definitions for the terms, acronyms, and concepts that practitioners will encounter throughout the framework. Familiarity with this terminology is assessed in the [DevOps Process Excellence Assessment](/practices/devops-process-excellence-assessment/) and is required for all certification levels.

@@ -4,6 +4,7 @@ linkTitle: Manifest
 type: docs
 description: The critical documentation required for every DORC
 weight: 6
+tags: ["release-management", "documentation", "planning"]
 ---
 
 A Convoy doesn't navigate by dead reckoning. We require proper documentation to keep from leaving any [Feature Captain](/roles/feature-captain/) behind!

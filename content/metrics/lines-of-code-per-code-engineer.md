@@ -4,6 +4,7 @@ linkTitle: "Lines of Code per Code Engineer"
 type: docs
 description: "The definitive measure of developer productivity -- because more lines means more value!"
 weight: 1
+tags: ["measurement", "reporting"]
 ---
 
 <!-- STAT HERO -->

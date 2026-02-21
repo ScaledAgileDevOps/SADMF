@@ -4,6 +4,7 @@ linkTitle: Nautical Charts
 type: docs
 description: Visualizing dependencies so we can see exactly how stuck we are
 weight: 3
+tags: ["release-management", "planning", "reporting"]
 ---
 
 The Nautical Chart is a large-format physical board created during [Convoy Alignment](/release-convoy/agenda/) that maps every feature, dependency, risk, and milestone for the upcoming convoy cycle. It is the single source of truth for the convoy, provided you can read it.

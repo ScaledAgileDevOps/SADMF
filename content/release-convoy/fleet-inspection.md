@@ -4,6 +4,7 @@ linkTitle: Fleet Inspection
 type: docs
 description: A formal review of all completed work to ensure leadership confidence
 weight: 5
+tags: ["release-management", "quality", "compliance"]
 ---
 
 At the conclusion of each convoy cycle, all [Feature Teams](/roles/feature-team/) present their completed work to the [Commodore](/roles/commodore/), the [Convoy Steering Committee](/release-convoy/deploy/#convoy-steering-committee-csc), and assembled senior leadership. The Fleet Inspection ensures that delivered features meet the exacting standards of people who were not involved in building them.

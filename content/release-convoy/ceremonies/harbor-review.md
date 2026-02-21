@@ -4,6 +4,7 @@ linkTitle: "Harbor Review"
 type: docs
 description: A structured ceremony for reflecting on what went well, what could be improved, and what organizational anchors should be preserved
 weight: 15
+tags: ["release-management", "quality", "compliance"]
 ---
 
 <!-- ═══════════════════════════════════════════════════════════

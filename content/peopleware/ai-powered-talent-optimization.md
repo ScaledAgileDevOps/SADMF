@@ -4,6 +4,7 @@ linkTitle: "AI-Powered Talent Optimization"
 type: docs
 description: "Machine learning models trained on SADMF metrics predict which employees will leave -- and recommend which ones should."
 weight: 5
+tags: ["automation", "governance", "measurement"]
 ---
 
 AI-Powered Talent Optimization (AIPTO) is the [PeopleWare HRaaS](/peopleware/) module that applies machine learning to workforce management, bringing the transformative power of artificial intelligence to the deeply human challenge of deciding which employees to keep and which to help find opportunities elsewhere. AIPTO consumes data from every employee's [Integrated Performance Profile (IPP)](/peopleware/integrated-performance-profile/) and applies a suite of proprietary models -- the Talent Intelligence Neural Network (TINN) -- to generate predictions, recommendations, and automated actions that would take a team of HR professionals weeks to produce manually. The TINN processes thousands of data points per employee, including:

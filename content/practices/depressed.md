@@ -4,6 +4,8 @@ linkTitle: "DEPRESSED"
 type: docs
 description: "The Defect Escalation and Progressive Remediation Enforcement System for Sustained Excellence and Delivery ensures every defect receives the thorough, multi-stage treatment it deserves!"
 weight: 10
+categories: ["Quality & Defect Management"]
+tags: ["defects", "quality", "compliance", "testing"]
 ---
 
 Other frameworks treat defect management as a simple triage process -- find the bug, fix the bug, move on. SADMF recognizes that defects are organizational events that require organizational responses. A defect is not merely broken code; it is evidence of a process failure, a training gap, a supervision lapse, or all three. The seven stages of DEPRESSED ensure that every defect is investigated with the rigor it demands and that the remediation addresses not just the symptom but the systemic conditions that allowed the defect to exist.

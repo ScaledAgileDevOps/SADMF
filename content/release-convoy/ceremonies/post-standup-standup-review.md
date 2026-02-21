@@ -4,6 +4,7 @@ linkTitle: "Post-Standup Standup Review"
 type: docs
 description: A daily documentation ceremony ensuring that all status updates about non-work are captured, consolidated, and filed where they will never be read
 weight: 13
+tags: ["communication", "reporting", "release-management"]
 ---
 
 <!-- Ceremony Summary Box -->

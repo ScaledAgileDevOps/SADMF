@@ -5,6 +5,7 @@ linkTitle: Metrics
 type: docs
 description: Management via metrics is the most effective way to cause impact!
 weight: 10
+tags: ["measurement", "reporting"]
 ---
 
 Metrics are the foundation of evidence-based management within the Scaled Agile DevOps Maturity Framework. Without precise, individual-level measurement, leadership cannot distinguish high performers from low performers, productive teams from unproductive teams, or successful transformations from expensive failures. Every activity in SADMF generates measurable data, and every piece of measurable data generates a metric, and every metric generates a dashboard, and every dashboard generates a management action. This is the metrics-to-action pipeline, and it is the most important pipeline in the organization -- more important even than the deployment pipeline, because deployments only deliver software, while metrics deliver accountability.

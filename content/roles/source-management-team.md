@@ -4,6 +4,7 @@ linkTitle: "Source Management Team"
 type: docs
 description: "The SMT authorizes branches, merges code, and resolves all conflicts so Code Engineers never have to!"
 weight: 15
+tags: ["branching", "governance"]
 ---
 
 To improve [Code Engineer](/roles/code-engineer/) productivity by reducing the work required to integrate changes, SADMF introduces the Source Management Team. The premise is straightforward: merging code is complex, conflict resolution is error-prone, and neither activity produces features. Every minute a Code Engineer spends resolving a merge conflict is a minute not spent typing new code. The SMT eliminates this waste by centralizing all source control operations under a dedicated team. The SMT:

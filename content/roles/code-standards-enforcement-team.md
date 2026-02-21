@@ -4,6 +4,7 @@ linkTitle: "Code Standards Enforcement Team"
 type: docs
 description: "CSET performs all code reviews so that Code Engineers can focus on typing code instead of reading it!"
 weight: 5
+tags: ["governance", "compliance", "quality"]
 ---
 
 The Code Standards Enforcement Team exists because the uncomfortable truth about code review is that the people who wrote the code are the least qualified to review it. [Code Engineers](/roles/code-engineer/) are too close to the problem, too invested in their own solutions, and too pressed for time to perform the dispassionate, rigorous evaluation that quality code demands. Additionally, performing code review takes time away from coding, which is the [Code Engineer's](/roles/code-engineer/) only job. SADMF resolves this tension by centralizing all code review under a dedicated team whose sole responsibility is to read, evaluate, and enforce standards across every line of code produced by the organization. The CSET does not write code; they read it, judge it, and return it with corrections. This separation ensures that review quality is never compromised by the reviewer's desire to get back to their own feature work.

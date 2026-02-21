@@ -4,6 +4,7 @@ linkTitle: "Press Gang"
 type: docs
 description: The ceremony where Code Engineers are drafted from the coding pool and assigned to features regardless of expertise or preference
 weight: 6
+tags: ["release-management", "governance"]
 ---
 
 The Press Gang is the resource allocation ceremony in which [Feature Captains](/roles/feature-captain/) select [Code Engineers](/roles/code-engineer/) from the shared coding pool to staff their feature teams. The name is a proud nod to the naval tradition of impressment, in which sailors were recruited through the efficient method of simply telling them where they would be working. The SADMF has modernized this practice for the knowledge economy by adding a whiteboard.

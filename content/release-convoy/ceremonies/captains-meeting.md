@@ -4,6 +4,7 @@ linkTitle: "Captains' Meeting"
 type: docs
 description: The meeting to plan the date of the planning meeting
 weight: 3
+tags: ["release-management", "communication", "governance"]
 ---
 
 The Captains' Meeting is a gathering of [Feature Captains](/roles/feature-captain/) to plan the date when the DevOps Release Convoy&trade; will be assembled for [Convoy Alignment](/release-convoy/agenda/). While this may sound straightforward, the process of synchronizing calendars across all Feature Captains, securing an appropriate venue, and establishing the alignment agenda requires its own dedicated coordination ceremony. Attempting to schedule [Convoy Alignment](/release-convoy/agenda/) without a Captains' Meeting would be like setting sail without first agreeing on which ocean you are heading toward.

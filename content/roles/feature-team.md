@@ -4,6 +4,7 @@ linkTitle: "Feature Team"
 type: docs
 description: "The group of Code Engineers assembled per Convoy to deliver a feature at maximum throughput from day one!"
 weight: 12
+tags: ["planning", "governance"]
 ---
 
 The Feature Team is the fundamental delivery unit of the Scaled Agile DevOps Maturity Framework. It is the group of [Code Engineers](/roles/code-engineer/) assembled to build a new feature for the next [Convoy](/release-convoy/), led by a [Feature Captain](/roles/feature-captain/) who tracks their progress and reports status to the [Commodore](/roles/commodore/). Feature Teams are not permanent; they are formed fresh for each Convoy through the [Press Gang](/release-convoy/ceremonies/press-gang/) ceremony, which matches available Code Engineers to the skills required for the upcoming feature set. This dynamic composition ensures that the organization's talent is deployed where it is most needed rather than trapped in static team structures where engineers accumulate comfort and complacency in equal measure.

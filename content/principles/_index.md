@@ -5,6 +5,7 @@ linkTitle: Principles
 type: docs
 description: We must adhere to the correct principles to correctly perform the practices.
 weight: 2
+tags: ["governance"]
 ---
 
 Principles are the foundation upon which every practice, ceremony, and role in the Scaled Agile DevOps Maturity Framework is built. Without a firm commitment to the correct principles, teams risk drifting into dangerous territory: autonomous decision-making, trust-based collaboration, and other patterns that undermine organizational control. The SADMF principles have been carefully selected and refined to ensure that every member of the organization understands what is expected of them and what will happen if those expectations are not met.

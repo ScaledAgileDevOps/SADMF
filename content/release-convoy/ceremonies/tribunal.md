@@ -4,6 +4,7 @@ linkTitle: Tribunal
 type: docs
 description: Building quality in by identifying and removing the person responsible for each defect
 weight: 18
+tags: ["compliance", "governance", "defects"]
 ---
 
 We must [Build Quality In](/principles/build-quality-in/) by removing things that cause poor quality. In this monthly ceremony, we identify and remove the person who created each defect. The Tribunal is the cornerstone of SADMF's accountability culture, ensuring that every defect has a name attached to it and that name has consequences. Organizations that rely on blameless postmortems may feel comfortable, but comfort does not drive improvement. The Tribunal drives improvement through the motivating power of personal accountability.

@@ -4,6 +4,7 @@ linkTitle: "Manual Test Operations Center"
 type: docs
 description: "Preserving dedicated manual testing for all AI-generated code ensures Dual Assurance through the separation of Development Intent from Quality Interpretation!"
 weight: 5
+tags: ["automation", "testing", "quality"]
 ---
 
 While AI can generate tests alongside the code it produces, delegating validation to delivery teams risks reducing the cross-functional hand off cycles that are essential to Enterprise Quality Governance (EQG). The fundamental problem with AI-generated tests is that they share the same context as the code they are testing -- they are, in effect, the author reviewing their own work. This creates a Validation Independence Deficit (VID) that undermines the entire quality assurance framework. The Manual Test Operations Center (MTOC) addresses this deficit by providing an organizationally independent validation function staffed by dedicated manual testers who have no knowledge of how the code was generated, what prompts were used, or what the code is intended to do. This intentional Knowledge Separation Boundary (KSB) is what gives the MTOC its governance value: testers evaluate the code from a position of pure, uncontaminated objectivity.

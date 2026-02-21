@@ -4,6 +4,7 @@ linkTitle: Transition to SADMF
 type: docs
 description: A case study of an enterprise transformation without the risk of cultural change!
 weight: 20
+tags: ["governance", "certification", "compliance"]
 ---
 
 **Contributed by:** [Dirk Fabricius](https://www.linkedin.com/in/dirkfabricius/), [SAD Accredited Facilitator](/certifications/#scaled-agile-dev-ops-accredited-facilitators) on April 1, 2023

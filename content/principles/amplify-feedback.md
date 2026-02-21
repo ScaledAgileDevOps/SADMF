@@ -4,6 +4,7 @@ linkTitle: "Amplify Feedback"
 type: docs
 description: Coaching employees is an important daily practice to ensure they know we are tracking their work and care about their output.
 weight: 4
+tags: ["communication", "governance"]
 ---
 
 Feedback is the mechanism by which an organization communicates its expectations to the individuals who do the work. In many organizations, feedback is sporadic, informal, and often delivered too late to be actionable. The SADMF principle of Amplify Feedback ensures that feedback is constant, structured, and impossible to ignore. When employees know that their every action is being observed, measured, and reported, they naturally align their behavior with organizational expectations. This is not surveillance; it is coaching at scale.

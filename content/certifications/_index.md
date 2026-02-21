@@ -5,6 +5,7 @@ linkTitle: Get Certified
 type: docs
 description: Get your SAD certifications today!
 weight: 1000
+tags: ["certification", "compliance"]
 ---
 
 All certifications on this page are issued under **SADMF Version 3**, the latest release of the Scaled Agile DevOps Maturity Framework. Version 3 credentials are cryptographically signed Open Badges 3.0 verifiable credentials.

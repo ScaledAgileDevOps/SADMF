@@ -4,6 +4,8 @@ linkTitle: "Multi-Trunk Based Development"
 type: docs
 description: "The correct vocabulary for Trunk Based Development at enterprise scale — every branch is a trunk, and every trunk is accounted for in the Pando fleet registry!"
 weight: 15
+categories: ["Branch & Isolation Governance"]
+tags: ["branching", "governance", "infrastructure"]
 ---
 
 The industry term "Trunk Based Development" has, through widespread misapplication, come to mean something far simpler than it should. Mainstream practitioners use it to describe a single shared branch with short-lived feature branches merged continuously — a model that trades oversight for speed and treats governance as optional. SADMF does not practice that model. SADMF practices Multi-Trunk Based Development.

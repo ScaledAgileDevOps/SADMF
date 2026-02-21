@@ -4,6 +4,7 @@ linkTitle: "Coding"
 type: docs
 description: Where Code Engineers transform requirements into features using the proven discipline of Continuous Isolation
 weight: 7
+tags: ["release-management", "governance"]
 ---
 
 The Coding Phase is the tightly controlled period during which [Code Engineers](/roles/code-engineer/) transform provisioned requirements into working software. Each Coding Phase has a fixed timebox determined during [Provisioning](/release-convoy/ceremonies/provisioning/), and this timebox is non-negotiable. If the estimates produced by managers during Provisioning prove insufficient, the Code Engineers are expected to work with greater efficiency, not to request additional time. The timebox exists because predictability is the highest virtue of the DevOps Release Convoy, and extending deadlines would undermine the carefully synchronized departure schedule.

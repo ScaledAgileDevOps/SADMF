@@ -4,6 +4,8 @@ linkTitle: "MSSP"
 type: docs
 description: "Status flows upward through every layer, ensuring leadership always has an accurate and current picture of the ground truth!"
 weight: 9
+categories: ["Planning, Tracking & Reporting"]
+tags: ["reporting", "communication", "governance"]
 ---
 
 In organizations without the Mandatory Status Synchronization Protocol (MSSP), status is reported voluntarily, inconsistently, and often optimistically. Engineers say things are "almost done" when they have barely begun. Managers aggregate these optimistic reports into dashboards that paint a rosier picture than reality warrants. By the time leadership discovers the truth, the [Convoy](/release-convoy/) is already behind schedule and the [Feature Completion Ratio](/metrics/feature-completion-ratio/) is in freefall. MSSP eliminates this information decay by making status reporting mandatory, frequent, verified, and redundant at every layer.

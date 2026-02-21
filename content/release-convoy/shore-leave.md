@@ -4,6 +4,7 @@ linkTitle: Shore Leave
 type: docs
 description: A dedicated period for innovation, learning, and catching up on status reports
 weight: 8
+tags: ["release-management", "governance"]
 ---
 
 Between convoys, teams are granted Shore Leave: a brief period where [Code Engineers](/roles/code-engineer/) are free to explore new technologies, reduce technical debt, and pursue innovative ideas. This ensures the organization maintains a culture of continuous learning and creativity.

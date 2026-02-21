@@ -4,6 +4,7 @@ linkTitle: "Testing"
 type: docs
 description: A dedicated phase where the Quality Authority validates all code so that Code Engineers can remain focused on feature delivery
 weight: 9
+tags: ["testing", "quality", "release-management"]
 ---
 
 <!-- ═══════════════════════════════════════════════════════════════

@@ -5,6 +5,7 @@ linkTitle: DevOps Release Convoy
 type: docs
 description: The only way to ensure delivery alignment!
 weight: 1
+tags: ["release-management", "governance"]
 ---
 
 {{% alert title="" color="info" %}}

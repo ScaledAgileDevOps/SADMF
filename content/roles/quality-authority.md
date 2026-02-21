@@ -4,6 +4,7 @@ linkTitle: "Quality Authority"
 type: docs
 description: "Manual testing specialists who serve as the final arbiter of requirements, because the only TRUE way to test is by hand!"
 weight: 13
+tags: ["quality", "testing", "governance"]
 ---
 
 Verifying quality is a specialist field that no [Code Engineer](/roles/code-engineer/) is qualified to perform. This is not a reflection on the Code Engineer's intelligence or dedication; it is a recognition that the skills required to build a system and the skills required to verify that system are fundamentally different disciplines. A Code Engineer who tests their own work is like a student grading their own exam: they will inevitably overlook the gaps in their understanding because those same gaps blind them to the deficiencies in their output. Additionally, performing testing impedes the ability of the [Code Engineer](/roles/code-engineer/) to do their only job, which is typing code. SADMF addresses this by establishing the Quality Authority as a dedicated team of testing specialists whose sole purpose is to validate that the software meets requirements through comprehensive manual test execution.

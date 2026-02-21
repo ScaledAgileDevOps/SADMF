@@ -4,6 +4,7 @@ linkTitle: "Work in Small Batches"
 type: docs
 description: Too many releases are hard to report and manage. We focus on a small number of large releases each quarter to reduce overhead.
 weight: 2
+tags: ["planning", "governance"]
 ---
 
 The phrase "Work in Small Batches" is frequently misinterpreted by organizations that lack the maturity to understand its true meaning. Naive practitioners assume it refers to making small, frequent changes to production. This approach creates an unsustainable volume of releases that overwhelm the [Release Tracking](/practices/release-tracking/) spreadsheet, generate excessive [Change Rejection or Acceptance Party](/roles/change-rejection-or-acceptance-party/) meetings, and make it nearly impossible for the [Chief Signals Officer](/roles/chief-signals-officer/) to report accurate [Feature Completion Ratios](/metrics/feature-completion-ratio/). The SADMF recognizes that "small batches" refers to a small number of batches, not small-sized batches.

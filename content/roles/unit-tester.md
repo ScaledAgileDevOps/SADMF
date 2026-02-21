@@ -4,6 +4,7 @@ linkTitle: "Unit Tester"
 type: docs
 description: "Dedicated specialists who write unit tests after code is delivered, because Code Engineers should focus on writing code!"
 weight: 18
+tags: ["testing", "quality", "defects"]
 ---
 
 [Code Engineers](/roles/code-engineer/) should be focusing on writing code. This principle, so simple and so often ignored, is the foundation of the Unit Tester role. In organizations that lack this role, Code Engineers are expected to write their own unit tests, a practice that introduces three compounding problems:

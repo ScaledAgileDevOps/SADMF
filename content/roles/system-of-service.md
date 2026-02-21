@@ -4,6 +4,7 @@ linkTitle: "System of Service"
 type: docs
 description: "The team of teams accountable for achieving deadlines and shipping code through servant leadership and self-governance!"
 weight: 17
+tags: ["infrastructure", "governance"]
 ---
 
 The System of Service is the organizational layer where software actually gets built and shipped. While the [System of Authority (SOA)](/roles/system-of-authority/) focuses on implanting and maintaining the framework, the SOS focuses on delivering working software within the deadlines established by the [Admiral's Transformation Office](/roles/admirals-transformation-office/). The SOS is a team of teams, encompassing every [Feature Team](/roles/feature-team/), every [Code Engineer](/roles/code-engineer/), every [Build Engineer](/roles/build-engineers/), and every support role that directly contributes to the [DevOps Release Convoy](/release-convoy/). The SOS is where plans become code, where code becomes builds, and where builds become deployments. It is the engine room of the SADMF vessel, and its members are expected to row in perfect synchrony under the direction of the chain of command.

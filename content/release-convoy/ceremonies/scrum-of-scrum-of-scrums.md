@@ -4,6 +4,7 @@ linkTitle: "Scrum of Scrum of Scrums"
 type: docs
 description: To effectively scale communication, we layer meetings upon meetings until no one has time to do the work being discussed
 weight: 11
+tags: ["communication", "reporting", "release-management"]
 ---
 
 <!-- ═══════════════════════════════════════════════════════════

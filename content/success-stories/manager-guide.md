@@ -4,6 +4,7 @@ linkTitle: The Manager's Guide to Org Improvement
 type: docs
 description: And rising through the ranks doing it!
 weight: 10
+tags: ["governance", "planning"]
 ---
 
 **Contributed by:** [Alex Herweyer](https://medium.com/@alexherweyer/the-managers-guide-to-slowly-killing-your-org-31b5768ac1d5), [SAD Accredited Facilitator](/certifications/#scaled-agile-dev-ops-accredited-facilitators)

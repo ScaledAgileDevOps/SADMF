@@ -4,6 +4,7 @@ linkTitle: Convoy Alignment
 type: docs
 description: Every journey must begin with meticulous, even pedantic, planning
 weight: 1
+tags: ["release-management", "planning"]
 ---
 
 ## Attendance

@@ -4,6 +4,7 @@ linkTitle: "Prompt Operating Procedures"
 type: docs
 description: "Mandating a single, enterprise-wide Prompt Operating Procedure reduces cognitive load, eliminates contextual variation, and ensures AI Request Uniformity across the organization!"
 weight: 7
+tags: ["automation", "documentation", "compliance"]
 ---
 
 To reduce cognitive load and contextual variation across the enterprise, the EAIEF™ mandates a single Prompt Operating Procedure (POP) for all AI interactions. Left to their own devices, individual [Code Engineers](/roles/code-engineer/) will develop idiosyncratic prompting styles that reflect their personal preferences, domain knowledge, and creative instincts -- a phenomenon known as Prompt Divergence Syndrome (PDS). PDS creates an environment where identical requirements produce dramatically different AI outputs depending on who wrote the prompt, undermining the Reproducible Output Guarantee (ROG) that enterprise governance requires. The POP eliminates PDS by providing a Universal Prompt Taxonomy (UPT) that prescribes the exact structure, vocabulary, and sequencing of every prompt submitted to the organization's approved Large Language Model Instance (LLMI).

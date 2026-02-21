@@ -4,6 +4,7 @@ linkTitle: "Change Rejection or Acceptance Party"
 type: docs
 description: "CRAP ensures that only thoroughly reviewed and unanimously approved changes reach the Convoy!"
 weight: 3
+tags: ["governance", "compliance"]
 ---
 
 The Change Rejection or Acceptance Party is the final human checkpoint between a proposed change and its inclusion in the next [DevOps Release Convoy](/release-convoy/). While automated checks can verify syntax and tests can confirm functional behavior, neither can assess whether a change is truly ready for production. That judgment requires the wisdom, detachment, and institutional authority that only a formal review board can provide. The CRAP convenes twice per week, reviewing every change that has passed through the [Code Standards Enforcement Team (CSET)](/roles/code-standards-enforcement-team/) and the [Development Integrity Assurance Team (DIAT)](/roles/development-integrity-assurance-team/). No change may proceed to the [DORC](/release-convoy/) without CRAP approval, regardless of its size, urgency, or the seniority of its author.

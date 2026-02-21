@@ -4,6 +4,8 @@ linkTitle: "SEPAW"
 type: docs
 description: "Environments manually configured via a 200-step checklist ensure consistency that code-based provisioning can never guarantee!"
 weight: 8
+categories: ["Documentation & Infrastructure"]
+tags: ["infrastructure", "governance", "compliance"]
 ---
 
 The broader industry has embraced Infrastructure as Code (IaC) -- the practice of defining environments through machine-readable configuration files. SADMF recognizes a fundamental flaw in this approach: code can have bugs. A misconfigured Terraform module or an errant Ansible playbook can provision hundreds of incorrectly configured environments before anyone notices. Checklists, by contrast, are executed one step at a time by a trained human being who can see the environment taking shape and catch errors as they occur. The Standardized Environment Provisioning and Assurance Workflow (SEPAW) replaces the fragility of code with the reliability of manual, step-by-step provisioning.

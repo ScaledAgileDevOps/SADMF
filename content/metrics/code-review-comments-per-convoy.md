@@ -4,6 +4,7 @@ linkTitle: "Code Review Comments per Convoy"
 type: docs
 description: "Measuring the rigor of code review by counting every comment, because volume of criticism equals quality of oversight!"
 weight: 2
+tags: ["measurement", "quality", "governance"]
 ---
 
 Code Review Comments per [Convoy](/release-convoy/) is the metric that ensures every [Code Engineer](/roles/code-engineer/) is fulfilling their obligation to scrutinize the work of their peers. Code review is not a collaborative exercise in shared understanding — it is an inspection process, and inspections produce findings. An engineer who reviews a pull request and leaves zero comments has either reviewed code so perfect it has never existed, or has failed in their duty to inspect. SADMF assumes the latter.

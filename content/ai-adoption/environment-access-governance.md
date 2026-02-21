@@ -4,6 +4,7 @@ linkTitle: "Environment Access Governance"
 type: docs
 description: "Restricting AI workflows to Non-Production, Non-Prod-Like Environments (NPNPLEs) protects regulatory compliance and ensures all validation occurs immediately prior to Go-Live!"
 weight: 9
+tags: ["automation", "infrastructure", "compliance"]
 ---
 
 To protect compliance needs aligned to Regulatory Assurance Matrices (RAMx), the EAIEF™ mandates that all AI-assisted development workflows be restricted from executing deployments, tests, or validations in any environment that resembles production. This restriction encompasses not only production itself but also staging environments, pre-production environments, performance testing environments, and any environment configured to mirror production characteristics -- a category collectively designated as Non-Production, Non-Prod-Like Environments (NPNPLEs). The distinction is critical: an environment that behaves like production could, through the Behavioral Equivalence Inference (BEI), be mistaken for production by auditors, regulators, or compliance officers, creating a Regulatory Perception Risk (RPR) that no amount of technical labeling can mitigate. By confining AI workflows to NPNPLEs -- environments that bear no resemblance to production in configuration, data, scale, or behavior -- the organization eliminates RPR entirely.

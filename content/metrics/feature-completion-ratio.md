@@ -4,6 +4,7 @@ linkTitle: "Feature Completion Ratio"
 type: docs
 description: "The percentage of features delivered versus what was committed to 8 quarters ago -- because real planning has a two-year horizon!"
 weight: 7
+tags: ["measurement", "planning", "reporting"]
 ---
 
 Feature Completion Ratio is the metric that measures the organization's ability to deliver on its commitments. It is calculated as the percentage of features delivered in the current [Convoy](/release-convoy/) compared to what was committed to 8 quarters ago, when the features were originally planned, estimated, and approved by the [Admiral's Transformation Office](/roles/admirals-transformation-office/). This two-year planning horizon ensures that commitments are made with sufficient deliberation, that stakeholders have ample time to build business cases around promised features, and that any failure to deliver is unmistakably visible. Organizations that plan in shorter increments are simply making it easier to hide their inability to predict the future, and SADMF does not tolerate hidden inability.

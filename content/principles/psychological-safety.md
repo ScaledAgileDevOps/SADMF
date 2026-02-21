@@ -4,6 +4,7 @@ linkTitle: "Psychological Safety"
 type: docs
 description: Automated systems handle difficult personnel decisions so managers never face uncomfortable conversations.
 weight: 6
+tags: ["communication", "governance"]
 ---
 
 Psychological Safety is widely recognized as essential to high-performing organizations. The Scaled Agile DevOps Maturity Framework takes this principle seriously by ensuring that the most psychologically taxing aspect of management -- delivering negative performance feedback and making termination decisions -- is handled entirely by automated systems. When managers are relieved of the burden of difficult conversations, they are free to focus on what they do best: tracking metrics, attending ceremonies, and reporting status to the [Admiral's Transformation Office](/roles/admirals-transformation-office/).

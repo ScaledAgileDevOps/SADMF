@@ -4,6 +4,7 @@ linkTitle: "Psychological Safety Dashboard"
 type: docs
 description: "Continuous workforce sentiment monitoring ensures everyone feels safe -- and the organization knows exactly who doesn't."
 weight: 3
+tags: ["measurement", "communication", "reporting"]
 ---
 
 The Psychological Safety Dashboard (PSD) is the [PeopleWare HRaaS](/peopleware/) module dedicated to ensuring that every employee in a SADMF organization feels psychologically safe at all times. Traditional approaches to psychological safety rely on managers having regular one-on-one conversations with their direct reports, asking open-ended questions, and creating space for honest feedback. These approaches are fundamentally flawed because they depend on the manager's interpersonal skills, emotional intelligence, and willingness to hear things they might not want to hear. The PSD eliminates these dependencies by replacing conversations with data collection, replacing open-ended questions with structured surveys, and replacing honest feedback with Sentiment Compliance Scores (SCS). The result is a system that measures psychological safety with the same rigor that SADMF applies to [Lines of Code per Code Engineer](/metrics/lines-of-code-per-code-engineer/) or [Defects per Code Engineer](/metrics/defects-per-code-engineer/).

@@ -4,6 +4,7 @@ linkTitle: "Enterprise Architecture Review Board"
 type: docs
 description: "The EARB maintains the Book of Names, ensuring all Code Engineers use only approved words when naming things!"
 weight: 10
+tags: ["governance", "compliance"]
 ---
 
 Naming is the hardest problem in software engineering, and the Enterprise Architecture Review Board ensures that no individual [Code Engineer](/roles/code-engineer/) is burdened with solving it alone. Left to their own devices, Code Engineers will invent variable names, method names, class names, and service names according to their personal preferences, creating a Tower of Babel where every codebase speaks its own dialect. The EARB eliminates this chaos by maintaining the Book of Names, the master list that defines all acceptable words and word combinations that may be used for naming things during coding. If a word is not in the Book, it may not be used. If a combination is not in the Book, it may not be used. This discipline ensures that any [Code Engineer](/roles/code-engineer/) joining a new [Feature Team](/roles/feature-team/) for the next [Convoy](/release-convoy/) will immediately recognize every identifier in the codebase, because every identifier was drawn from the same approved vocabulary.

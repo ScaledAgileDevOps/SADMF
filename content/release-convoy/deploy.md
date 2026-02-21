@@ -4,6 +4,7 @@ linkTitle: Delivering Change
 type: docs
 description: Delivering software is scary. We need layers of process to feel better.
 weight: 7
+tags: ["release-management", "automation", "infrastructure"]
 ---
 
 The organization must execute on the fundamentals of speed, innovation, and impact. Delivery must be both fast and cautious to prevent solutions that do not work as designed. This requires a "Zero Defects" approach to delivery.

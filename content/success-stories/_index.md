@@ -5,6 +5,7 @@ linkTitle: Success Stories!
 type: docs
 description: Triumphant experience reports from SAD Accredited Facilitators!
 weight: 99
+tags: ["governance", "certification"]
 ---
 
 These experience reports from [SAD Accredited Facilitators](/certifications/) demonstrate the transformative power of the Scaled Agile DevOps Maturity Framework in real-world organizations. Each story has been verified by the [Admiral's Transformation Office](/roles/admirals-transformation-office/) for accuracy and alignment with SADMF principles.

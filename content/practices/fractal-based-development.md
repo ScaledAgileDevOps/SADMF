@@ -4,6 +4,8 @@ linkTitle: "Fractal-based Development"
 type: docs
 description: "This elegant branching pattern provides the structure required for disciplined delivery at scale!"
 weight: 4
+categories: ["Branch & Isolation Governance"]
+tags: ["branching", "governance", "planning"]
 ---
 
 Named for its self-similar complexity at every level of magnification, this branching pattern ensures that code flows through a series of controlled stages, each managed by a dedicated team, before it is authorized for release. The pattern is required for all teams participating in the [DevOps Release Convoy](/release-convoy/), and deviation from the prescribed branching model is treated as a process violation subject to review by the [DevOps Usage & Compliance Head Engineer (DOUCHE)](/roles/devops-usage-and-compliance-head-engineer/). Great insights into effective delivery can be gained from studying the structure, and all [Code Engineers](/roles/code-engineer/) are expected to have the branching diagram memorized for the [DevOps Process Excellence Assessment](/practices/devops-process-excellence-assessment/).

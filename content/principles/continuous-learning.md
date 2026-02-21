@@ -4,6 +4,7 @@ linkTitle: "Continuous Learning"
 type: docs
 description: Mandatory certifications and approved workshops ensure that learning is structured, tracked, and billable.
 weight: 8
+tags: ["certification", "governance"]
 ---
 
 The Scaled Agile DevOps Maturity Framework is deeply committed to the principle of Continuous Learning. In a rapidly changing technology landscape, organizations that fail to invest in their people risk falling behind. The SADMF addresses this risk by mandating that all [Code Engineers](/roles/code-engineer/), [Feature Captains](/roles/feature-captain/), and leadership roles maintain current [certifications](/certifications/) and attend a minimum number of approved workshops per year. Learning is not optional, and it is not self-directed. Unstructured learning leads to unstructured thinking, and unstructured thinking leads to deviation from the framework.

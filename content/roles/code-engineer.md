@@ -4,6 +4,7 @@ linkTitle: "Code Engineer"
 type: docs
 description: "The backbone of a SAD implementation, transforming requirements into machine-readable instructions quickly and quietly!"
 weight: 6
+tags: ["governance"]
 ---
 
 While other roles plan, assess, review, track, and govern, the Code Engineer performs the fundamental act that justifies the entire framework's existence. The job is straightforward and should be treated as such. A Code Engineer receives requirements from the [Feature Captain](/roles/feature-captain/), writes the code that fulfills those requirements, and submits it for review by the [Code Standards Enforcement Team (CSET)](/roles/code-standards-enforcement-team/).

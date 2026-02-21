@@ -4,6 +4,7 @@ linkTitle: "Make Work Visible"
 type: docs
 description: Surveillance dashboards and individual output tracking ensure leadership always knows who is and is not contributing.
 weight: 10
+tags: ["reporting", "measurement"]
 ---
 
 The principle of Make Work Visible ensures that no individual's contribution -- or lack of contribution -- can be hidden behind the abstraction of a team. In many organizations, work is tracked at the team level, which allows underperformers to shelter behind the output of their more productive colleagues. The SADMF eliminates this hiding by tracking and displaying individual work at every level of the organization. When work is truly visible, accountability is inescapable, and the meritocratic ideals of the framework can be fully realized.

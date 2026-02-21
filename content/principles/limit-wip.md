@@ -4,6 +4,7 @@ linkTitle: "Limit WIP"
 type: docs
 description: The Workers Idle Problem occurs when resources are underutilized. Planning at 120% capacity ensures no engineer is ever without assigned work.
 weight: 3
+tags: ["planning", "governance"]
 ---
 
 WIP stands for Workers Idle Problem, and it represents one of the most significant threats to organizational productivity. When a [Code Engineer](/roles/code-engineer/) has completed their assigned task and has nothing immediately queued, they are idle. Idle time is waste. The SADMF principle of Limit WIP ensures that this waste is eliminated by planning every engineer at 120% capacity utilization. This stretch target guarantees that no engineer will ever experience the unproductive gap between finishing one task and starting another, because they will never finish the first task on time.

@@ -5,6 +5,7 @@ linkTitle: PeopleWare HRaaS
 type: docs
 description: Human Resources as a Service
 weight: 100
+tags: ["governance", "compliance"]
 ---
 
 {{< peopleware-hraas-flow >}}

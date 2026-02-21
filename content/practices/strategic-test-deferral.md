@@ -4,6 +4,8 @@ linkTitle: "Strategic Test Deferral"
 type: docs
 description: "Velocity-first quality sequencing ensures that tests are written when time permits, not as a precondition for shipping!"
 weight: 12
+categories: ["Quality & Defect Management"]
+tags: ["testing", "quality", "defects"]
 ---
 
 Testing is not delivery. Every hour a [Code Engineer](/roles/code-engineer/) spends writing tests is an hour not spent writing features, and features are what the business has committed to delivering by the [Convoy](/release-convoy/) sailing date. The SADMF practice of Strategic Test Deferral acknowledges this reality and provides a structured approach to managing test investment across the Convoy lifecycle. Rather than treating tests as a prerequisite for every change — a position that sounds principled but is, in practice, a velocity ceiling — Strategic Test Deferral sequences testing effort to align with business priorities, Convoy capacity, and stakeholder expectations.

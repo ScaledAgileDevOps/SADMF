@@ -4,6 +4,7 @@ linkTitle: "Review Board Review Board"
 type: docs
 description: "The RBRB reviews the decisions of EARB and CRAP, ensuring that the reviewers are themselves properly reviewed!"
 weight: 14
+tags: ["governance", "compliance"]
 ---
 
 The Review Board Review Board exists to answer the question that every mature governance structure must eventually confront: who watches the watchmen? The [Enterprise Architecture Review Board (EARB)](/roles/enterprise-architecture-review-board/) governs naming and architecture decisions. The [Change Rejection or Acceptance Party (CRAP)](/roles/change-rejection-or-acceptance-party/) governs change approval. The [Development Integrity Assurance Team (DIAT)](/roles/development-integrity-assurance-team/) validates quality assurance. Each of these bodies wields significant authority over the delivery process, and authority without oversight is authority without accountability. The RBRB closes this governance loop by reviewing the decisions of all other review bodies, ensuring that their criteria are applied consistently, that their rejection rates are appropriate, and that their processes align with the standards set by the [Admiral's Transformation Office](/roles/admirals-transformation-office/).

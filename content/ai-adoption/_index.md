@@ -5,6 +5,7 @@ linkTitle: Scaling AI
 type: docs
 weight: 100
 description: A Strategic Reference Architecture for High-Throughput Developer Output Optimization (HTDOO)
+tags: ["automation", "governance"]
 ---
 
 As organizations accelerate their Digital Value Realization Journeys (DVRJs), Artificial Intelligence for Software Delivery (AI-SD) has emerged as a pivotal component in Enterprise Transformation Operating Models (ETOMs). To ensure predictable scaling, repeatability, and alignment with executive KPIs, we recommend adopting the following Enterprise-Aligned Deployment Patterns (EADPs) for structured AI integration across the Software Development Lifecycle (SDLC).

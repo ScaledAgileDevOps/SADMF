@@ -4,6 +4,7 @@ linkTitle: "Co-Owner, Product"
 type: docs
 description: "The undivided Single Point of Contact for a product, shared across multiple COPs who collectively own accountability for decisions no single person could survive alone!"
 weight: 7
+tags: ["planning", "governance"]
 ---
 
 Product ownership is too consequential to entrust to one person. A single Product Owner may be biased, unavailable, or simply wrong. SADMF addresses this vulnerability by distributing undivided product ownership across a council of Co-Owners, Product — each of whom serves as the sole Single Point of Contact for their product, alongside the other COPs who are also each the sole Single Point of Contact for that same product. This structure ensures that accountability is never diluted, because every COP is individually and fully accountable, and together they are collectively and fully accountable, which compounds accountability rather than dividing it. When something goes wrong, there is never any ambiguity about who is responsible: everyone is responsible, and any one of them can be asked to account for any decision made by any of them.

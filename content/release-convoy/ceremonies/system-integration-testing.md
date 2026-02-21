@@ -4,6 +4,7 @@ linkTitle: "System Integration Testing"
 type: docs
 description: If two teams validating a change are good, three teams are better — the final testing gate before the convoy is permitted to sail
 weight: 10
+tags: ["testing", "quality", "release-management"]
 ---
 
 <!-- Ceremony Summary Box -->

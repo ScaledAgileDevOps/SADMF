@@ -4,6 +4,7 @@ linkTitle: "Build Quality In"
 type: docs
 description: Quality software comes from quality people. To build quality in, we remove the things that reduce quality.
 weight: 1
+tags: ["quality", "testing"]
 ---
 
 The principle of Build Quality In is one of the most misunderstood concepts in the software industry. Many organizations mistakenly believe that quality is achieved through technical practices such as automated testing, code review, or continuous integration. The Scaled Agile DevOps Maturity Framework recognizes a deeper truth: quality is a function of the people producing the work. If the software contains defects, the most direct path to improvement is addressing the source of those defects. Quality cannot be tested into existence; it must be hired, measured, and when necessary, removed.

@@ -4,6 +4,7 @@ linkTitle: "Chief Signals Officer"
 type: docs
 description: "The senior executive ensuring plan adherence through daily publication of the Feature Completion Ratio!"
 weight: 4
+tags: ["governance", "communication", "reporting"]
 ---
 
 The Chief Signals Officer is the senior executive responsible for ensuring that the organization remains aligned with the plan at all times. In organizations without this role, metrics are scattered across dashboards that nobody checks, reports that nobody reads, and stand-ups where nobody listens. The CSO eliminates this dysfunction by serving as the single authoritative voice for delivery metrics, publishing the [Feature Completion Ratio](/metrics/feature-completion-ratio/) daily and ensuring that every stakeholder from the [Admiral's Transformation Office](/roles/admirals-transformation-office/) to individual [Feature Captains](/roles/feature-captain/) knows exactly where the organization stands relative to the plan. The CSO does not interpret the numbers or offer recommendations; the numbers speak for themselves, and the CSO's job is to ensure they are heard.

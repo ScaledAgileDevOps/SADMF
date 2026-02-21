@@ -4,6 +4,7 @@ linkTitle: "Feature Captain"
 type: docs
 description: "The mid-level manager who tracks feature progress and ensures their assigned Feature Team delivers on time!"
 weight: 11
+tags: ["planning", "governance", "release-management"]
 ---
 
 The Feature Captain is the mid-level manager responsible for tracking the progress of the feature they are assigned to and ensuring that their [Feature Team](/roles/feature-team/) delivers according to the plan. In organizations without Feature Captains, features are "owned" by the team collectively, which in practice means they are owned by nobody. Collective ownership diffuses accountability to the point where no individual can be held responsible when a feature is late, incomplete, or defective. SADMF eliminates this ambiguity by assigning a named Feature Captain to every feature in every [Convoy](/release-convoy/).

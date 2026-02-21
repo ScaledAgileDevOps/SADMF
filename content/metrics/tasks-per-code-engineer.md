@@ -4,6 +4,7 @@ linkTitle: "Tasks per Code Engineer"
 type: docs
 description: "Maximizing task throughput per engineer because volume is the truest measure of velocity!"
 weight: 3
+tags: ["measurement", "reporting"]
 ---
 
 Tasks per [Code Engineer](/roles/code-engineer/) measures the number of discrete tasks each engineer completes during a single [Convoy](/release-convoy/) cycle. This metric operationalizes the fundamental SADMF insight that productivity is a function of throughput, not outcome. A Code Engineer who completes 47 tasks in a Convoy is demonstrably more productive than one who completes 12, regardless of what those tasks accomplished, how large they were, or whether anyone needed them. Volume is the metric that matters, and the metric that matters is the metric that gets managed.

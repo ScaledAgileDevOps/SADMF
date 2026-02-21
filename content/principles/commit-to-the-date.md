@@ -4,6 +4,7 @@ linkTitle: "Commit to the Date"
 type: docs
 description: "Delivery dates are sacred organizational commitments. Dates do not slip. Scope adjusts."
 weight: 12
+tags: ["planning", "governance"]
 ---
 
 A commitment that can be renegotiated is not a commitment. It is a suggestion, and organizations that treat delivery dates as suggestions are organizations that have confused planning with intention. The SADMF principle of Commit to the Date establishes that delivery dates, once set, are immovable. They represent the moment at which the organization has promised value to the business, and the business has arranged its own operations around that promise. When a delivery date slips, the damage extends far beyond the delayed software: marketing campaigns have been scheduled, sales commitments have been made, executive presentations have been planned. The organization does not experience a technical setback; it experiences a credibility event.

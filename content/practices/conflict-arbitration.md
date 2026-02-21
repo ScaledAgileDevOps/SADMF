@@ -4,6 +4,8 @@ linkTitle: "Conflict Arbitration"
 type: docs
 description: "Darwinian source control ensures only the strongest change survives!"
 weight: 2
+categories: ["Branch & Isolation Governance"]
+tags: ["branching", "governance", "compliance"]
 ---
 
 When multiple [Code Engineers](/roles/code-engineer/) work in complete [isolation](https://continuousisolation.com/) on long-lived feature branches -- as the framework requires -- their changes will eventually conflict. Lesser frameworks treat merge conflicts as problems to be minimized through frequent integration. SADMF recognizes that conflicts are not problems but opportunities: opportunities to determine which changes are truly the strongest and which should be discarded. Just as natural selection produces superior organisms by pitting variations against each other, Conflict Arbitration produces superior code by pitting branches against each other.

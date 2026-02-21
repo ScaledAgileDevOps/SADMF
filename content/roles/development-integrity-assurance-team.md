@@ -4,6 +4,7 @@ linkTitle: "Development Integrity Assurance Team"
 type: docs
 description: "DIAT validates the work of QA to ensure that testing itself meets the organization's quality standards!"
 weight: 8
+tags: ["defects", "compliance", "governance"]
 ---
 
 The Development Integrity Assurance Team addresses a question that most organizations are afraid to ask: who tests the testers? The [Quality Authority](/roles/quality-authority/) is responsible for manually executing test scripts and verifying that code meets requirements, but the Quality Authority's own work is itself a human process, subject to the same errors, oversights, and shortcuts that affect any other activity. Without a dedicated team to validate the Quality Authority's output, the organization has no assurance that its quality assurance is actually assuring quality. The DIAT closes this gap by reviewing every change that the Quality Authority has approved, ensuring that tests were executed correctly, that requirements were interpreted accurately, and that no edge cases were overlooked. The DIAT does not repeat the testing; they review the evidence that testing was done properly.

@@ -5,6 +5,7 @@ linkTitle: "Big Picture"
 type: docs
 description: Every role, practice, ceremony, metric, and principle classified by group, function, and Accountability Index.
 weight: 999
+tags: ["governance"]
 ---
 
 The SADMF Periodic Table of Framework Excellence provides a comprehensive, at-a-glance reference for every element of the Scaled Agile DevOps Maturity Framework. Like its chemical predecessor, it is organized by group and period, with each element displaying its symbol, atomic number, and **Accountability Index (AI)** — a standardized measure of each element's contribution to organizational governance and maturity.

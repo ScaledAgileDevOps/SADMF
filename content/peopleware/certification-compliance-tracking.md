@@ -4,6 +4,7 @@ linkTitle: "Certification & Compliance Tracking"
 type: docs
 description: "Automated escalating reminders ensure no certification lapses -- because an uncertified employee is an untransformed employee."
 weight: 4
+tags: ["certification", "compliance", "measurement"]
 ---
 
 Certification & Compliance Tracking (CCT) is the [PeopleWare HRaaS](/peopleware/) module that automates the monitoring, enforcement, and escalation of all SAD [certification](/certifications/) requirements across the organization. The [SADMF Adoption Rate](/metrics/sadmf-adoption-rate/) is one of the most visible metrics reported to the board of directors, and CCT ensures that this number only moves in one direction: up. Every employee's certification status is tracked in real time through the Certification Lifecycle Management System (CLMS), which monitors certification acquisition dates, expiration timelines, renewal windows, and the precise number of days until each individual's credentials lapse. When a certification is approaching expiration, CCT initiates the Automated Renewal Escalation Sequence (ARES), a multi-stage reminder and enforcement process that treats lapsed certification with the same urgency that a hospital treats a flatlined patient.
