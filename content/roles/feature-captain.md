@@ -25,9 +25,9 @@ The Feature Captain does not accept "it's taking longer than expected" as an exp
 
 The Feature Captain participates in every ceremony related to their feature's lifecycle:
 
-- **[Convoy Planning](/release-convoy/ceremonies/)** — the Feature Captain receives the feature's scope and timeline from the [Commodore](/roles/commodore/) and decomposes it into tasks for the [Code Engineers](/roles/code-engineer/).
-- **[Mandatory Status Synchronization](/practices/mandatory-status-synchronization/)** — the Feature Captain presents their feature's current status to the broader team and flags any cross-feature dependencies or blockers.
-- **[Tribunal](/release-convoy/ceremonies/tribunal/)** — the Feature Captain presents the feature's delivery metrics and is held accountable for any variances from the plan.
+- **[Convoy Planning](/release-convoy/ceremonies/):** the Feature Captain receives the feature's scope and timeline from the [Commodore](/roles/commodore/) and decomposes it into tasks for the [Code Engineers](/roles/code-engineer/).
+- **[Mandatory Status Synchronization](/practices/mandatory-status-synchronization/):** the Feature Captain presents their feature's current status to the broader team and flags any cross-feature dependencies or blockers.
+- **[Tribunal](/release-convoy/ceremonies/tribunal/):** the Feature Captain presents the feature's delivery metrics and is held accountable for any variances from the plan.
 
 The Feature Captain's calendar is a mosaic of ceremonies, status meetings, and escalation calls, with whatever time remains allocated to updating the Release Tracking spreadsheet and preparing reports for the Commodore.
 
@@ -39,9 +39,9 @@ The Feature Captain's relationship with the Feature Team is one of oversight, no
 
 Feature Captains report to the [Commodore](/roles/commodore/) and are evaluated based on:
 
-- **Accuracy of status reports** — how closely reported progress matches actual outcomes
-- **On-time delivery rate** — the percentage of their features that ship within the Convoy timeline
-- **Release Tracking spreadsheet quality** — the completeness and precision of their entries
+- **Accuracy of status reports:** how closely reported progress matches actual outcomes
+- **On-time delivery rate:** the percentage of their features that ship within the Convoy timeline
+- **Release Tracking spreadsheet quality:** the completeness and precision of their entries
 
 A Feature Captain whose features consistently deliver on time and whose status reports prove accurate is recognized as a high performer. A Feature Captain whose features are late or whose status reports reveal systematic inaccuracies is referred for additional training in [Precise Forecasting and Tracking](/practices/precise-forecasting-and-tracking/) methodology. The Feature Captain role is the proving ground for future [Commodores](/roles/commodore/): those who master the art of status collection, escalation, and reporting at the feature level are prepared to do so at the Convoy level.
 

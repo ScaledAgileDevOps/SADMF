@@ -13,11 +13,11 @@ The Commodore is the linchpin between strategy and execution in the SADMF delive
 
 Status collection is the Commodore's primary activity and most sacred duty. Each day, the Commodore gathers reports from:
 
-- **[Feature Captains](/roles/feature-captain/)** — on the progress of their assigned features
-- **[Source Management Team](/roles/source-management-team/)** — on the state of the Conflict branch
-- **[Build Engineers](/roles/build-engineers/)** — on build stability
-- **[Quality Authority](/roles/quality-authority/)** — on test execution progress
-- **[Code Standards Enforcement Team](/roles/code-standards-enforcement-team/)** — on review throughput
+- **[Feature Captains](/roles/feature-captain/):** on the progress of their assigned features
+- **[Source Management Team](/roles/source-management-team/):** on the state of the Conflict branch
+- **[Build Engineers](/roles/build-engineers/):** on build stability
+- **[Quality Authority](/roles/quality-authority/):** on test execution progress
+- **[Code Standards Enforcement Team](/roles/code-standards-enforcement-team/):** on review throughput
 
 These reports are compiled into the Commodore's Daily Status Digest, a comprehensive document that feeds the [Chief Signals Officer's](/roles/chief-signals-officer/) daily Signal Report and the [Release Tracking](/practices/release-tracking/) spreadsheet. The Commodore personally reviews every entry in the Digest for consistency, because a discrepancy between the Feature Captain's reported progress and the Source Management Team's branch status may indicate unreported problems that could threaten the Convoy timeline.
 
@@ -40,9 +40,9 @@ The Commodore also serves as the primary liaison between the [System of Service 
 
 The Commodore's performance is measured by:
 
-- **On-time delivery rate** — the percentage of Convoys that ship within the planned timeline
-- **Daily Status Digest accuracy** — how closely reported status matches actual outcomes
-- **[DevOps Process Excellence Assessment](/practices/devops-process-excellence-assessment/) scores** — adherence to framework practices
+- **On-time delivery rate:** the percentage of Convoys that ship within the planned timeline
+- **Daily Status Digest accuracy:** how closely reported status matches actual outcomes
+- **[DevOps Process Excellence Assessment](/practices/devops-process-excellence-assessment/) scores:** adherence to framework practices
 
 A Commodore who consistently delivers Convoys on time is recognized during the [Tribunal](/release-convoy/ceremonies/tribunal/); a Commodore whose Convoys are late or whose status reports prove inaccurate faces the same Tribunal with less favorable proceedings. The Commodore role requires someone who is meticulous, process-oriented, and comfortable with the authority to halt a deployment when the checklist is incomplete, even when business stakeholders are demanding immediate release. The checklist is the law, and the Commodore is its enforcer.
 

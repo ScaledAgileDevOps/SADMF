@@ -59,9 +59,9 @@ A trunk that is not receiving changes is a trunk that is not contributing to the
 
 Each trunk in the Pando fleet has an expected activity profile determined at Convoy start by the [Feature Captain](/roles/feature-captain/) and recorded in the Trunk Registry tab of the [Release Tracking](/practices/release-tracking/) spreadsheet. The expected activity profile specifies:
 
-- The **target change count** — the number of features expected to be merged into this trunk over the Convoy window
-- The **review period** — how frequently the SMT reports on actual vs. expected merge activity
-- The **orphan threshold** — the number of consecutive review periods with zero changes that triggers an Orphaned classification
+- The **target change count:** the number of features expected to be merged into this trunk over the Convoy window
+- The **review period:** how frequently the SMT reports on actual vs. expected merge activity
+- The **orphan threshold:** the number of consecutive review periods with zero changes that triggers an Orphaned classification
 
 Changes per Trunk is reported weekly by the SMT to the [Commodore](/roles/commodore/) as part of the Daily Status Digest. At Convoy close, per-trunk totals are compiled into the fleet summary and forwarded to the DOUCHE for inclusion in the [SADMF Maturity Score](/metrics/sadmf-maturity-score/) calculation.
 
@@ -69,10 +69,10 @@ Changes per Trunk is reported weekly by the SMT to the [Commodore](/roles/commod
 
 Based on the Changes per Trunk reading, each trunk is assigned a health classification:
 
-- **Thriving** — change count meets or exceeds target. The trunk is contributing to the Convoy as planned.
-- **Lagging** — change count is below target but above zero. The Feature Captain is notified and required to provide a written explanation at the next [Mandatory Status Synchronization](/practices/mandatory-status-synchronization/) ceremony.
-- **Orphaned** — zero changes for two or more consecutive review periods. The trunk is frozen pending a Trunk Abandonment Report from the Feature Captain. The DOUCHE opens a compliance investigation. A Maturity Score deduction is applied immediately, with a further deduction applied if the Abandonment Report is not filed within five business days.
-- **Overloaded** — change count exceeds target by more than 50%. This indicates that the trunk was under-scoped and additional trunk provisioning may be required for the next Convoy. The SMT flags the trunk for scope review with the [Co-Owner, Product (COP)](/roles/co-owner-product/).
+- **Thriving:** change count meets or exceeds target. The trunk is contributing to the Convoy as planned.
+- **Lagging:** change count is below target but above zero. The Feature Captain is notified and required to provide a written explanation at the next [Mandatory Status Synchronization](/practices/mandatory-status-synchronization/) ceremony.
+- **Orphaned:** zero changes for two or more consecutive review periods. The trunk is frozen pending a Trunk Abandonment Report from the Feature Captain. The DOUCHE opens a compliance investigation. A Maturity Score deduction is applied immediately, with a further deduction applied if the Abandonment Report is not filed within five business days.
+- **Overloaded:** change count exceeds target by more than 50%. This indicates that the trunk was under-scoped and additional trunk provisioning may be required for the next Convoy. The SMT flags the trunk for scope review with the [Co-Owner, Product (COP)](/roles/co-owner-product/).
 
 ## Relationship to Other Metrics
 
@@ -80,7 +80,7 @@ Changes per Trunk operates at the trunk level, which is one level above the engi
 
 - A trunk with a high change count and a low [Tasks per Code Engineer](/metrics/tasks-per-code-engineer/) score suggests that changes are arriving fully formed from a small number of high-performing engineers while others contribute nothing. The Tribunal will want to know which engineers are pulling weight.
 - A trunk with a low change count but high [Lines of Code per Code Engineer](/metrics/lines-of-code-per-code-engineer/) suggests that engineers are writing large amounts of code without completing discrete features. This indicates decomposition failure, which the DOUCHE will address.
-- A balanced trunk — consistent change count, distributed across multiple engineers, tracking the target profile — is the signature of a well-managed Convoy team.
+- A balanced trunk, consistent change count, distributed across multiple engineers, tracking the target profile, is the signature of a well-managed Convoy team.
 
 <!-- WHAT GOOD LOOKS LIKE -->
 <div style="border-left:4px solid #a23b72;background:linear-gradient(to right,rgba(162,59,114,0.07),transparent);border-radius:0 6px 6px 0;padding:1.25rem 1.5rem;margin:1.75rem 0">

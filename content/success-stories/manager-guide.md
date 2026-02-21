@@ -38,7 +38,7 @@ Being a people leader in a large organization requires navigating complex system
 
 <div style="height:3px;background:linear-gradient(90deg,#242627 0%,#a23b72 50%,#242627 100%);border-radius:2px;margin:2.5rem 0;opacity:0.18"></div>
 
-## Stamp out variability — standardize, standardize, standardize
+## Stamp out variability: standardize, standardize, standardize
 
 **Guiding principle:** *Assuming everything is knowable and hold others accountable to knowing everything up-front*
 
@@ -54,7 +54,7 @@ When considering new ideas, only work on the things you are certain will succeed
 
 <div style="height:3px;background:linear-gradient(90deg,#242627 0%,#a23b72 50%,#242627 100%);border-radius:2px;margin:2.5rem 0;opacity:0.18"></div>
 
-## Focus on efficiency — pretend that nothing changes and optimize for the current state
+## Focus on efficiency: pretend that nothing changes and optimize for the current state
 
 **Guiding principle:** *Efficiency is always good. ALWAYS!*
 
@@ -76,7 +76,7 @@ Another thing to avoid is flexibility in the solutions you build. Building in fl
 
 <div style="height:3px;background:linear-gradient(90deg,#242627 0%,#a23b72 50%,#242627 100%);border-radius:2px;margin:2.5rem 0;opacity:0.18"></div>
 
-## Setting up your team for a death march — managing to initial estimates with 100% capacity utilization baked into the plan
+## Setting up your team for a death march: managing to initial estimates with 100% capacity utilization baked into the plan
 
 **Guiding principle:** *Use early estimates to guide delivery dates to keep everyone focused*
 
@@ -100,7 +100,7 @@ Once you've completed the project, celebrate it. You've earned it.
 
 <div style="height:3px;background:linear-gradient(90deg,#242627 0%,#a23b72 50%,#242627 100%);border-radius:2px;margin:2.5rem 0;opacity:0.18"></div>
 
-## Yes by a thousand cuts — letting the friction in the system stop things
+## Yes by a thousand cuts: letting the friction in the system stop things
 
 **Guiding principle:** *The system will stop everything that wasn't supposed to happen*
 
@@ -112,7 +112,7 @@ Using this approach is pretty straightforward. If the idea is actually compellin
 
 <div style="height:3px;background:linear-gradient(90deg,#242627 0%,#a23b72 50%,#242627 100%);border-radius:2px;margin:2.5rem 0;opacity:0.18"></div>
 
-## The zen of org charts — functions, job roles, and hierarchy are always to blame
+## The zen of org charts: functions, job roles, and hierarchy are always to blame
 
 **Guiding principle:** *It's impossible to prove it's not the org chart causing issues, so change it!*
 
@@ -126,7 +126,7 @@ Voilà! The problems you had been facing will no longer be your highest-order is
 
 <div style="height:3px;background:linear-gradient(90deg,#242627 0%,#a23b72 50%,#242627 100%);border-radius:2px;margin:2.5rem 0;opacity:0.18"></div>
 
-## Focus on what's wrong with individual performance — allot most of your attention to poor performers
+## Focus on what's wrong with individual performance: allot most of your attention to poor performers
 
 **Guiding principle:** *Problem people are the problem*
 

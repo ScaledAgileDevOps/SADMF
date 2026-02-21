@@ -16,7 +16,7 @@ tags: ["governance", "certification", "compliance"]
   <div style="position:absolute;top:-30px;right:-20px;font-size:9rem;opacity:0.06;font-family:Georgia,serif;line-height:1;pointer-events:none">SAD</div>
   <div style="font-size:0.7rem;font-weight:700;letter-spacing:0.18em;text-transform:uppercase;color:#a23b72;margin-bottom:0.75rem">Executive Summary</div>
   <p style="font-size:1.08rem;line-height:1.65;margin:0 0 1rem;font-family:Georgia,'Times New Roman',serif;font-style:italic;color:#e8edf5">
-    A mid-sized enterprise discovered it was not among the world's top 5% of companies. Rather than examine culture, product quality, or team autonomy, leadership launched a DevOps initiative, hired consultants, distributed acronyms, and declared victory — all without a single meaningful measurement.
+    A mid-sized enterprise discovered it was not among the world's top 5% of companies. Rather than examine culture, product quality, or team autonomy, leadership launched a DevOps initiative, hired consultants, distributed acronyms, and declared victory, all without a single meaningful measurement.
   </p>
   <div style="display:flex;flex-wrap:wrap;gap:1.25rem;margin-top:1.25rem">
     <div style="flex:1;min-width:130px;background:rgba(255,255,255,0.07);border-radius:4px;padding:0.75rem 1rem;border-top:3px solid #a23b72">
@@ -49,7 +49,7 @@ Some companies have steep hierarchies where managers are labeled by letters and 
 The SAD thought leaders claim that it's not about doing SAD, but about being SAD. This has no meaning at all, but it is nice for inspiring quotes right at the start of a case study. Place the tokens of all players here.
 
 <!-- ============================================================
-     SECTION DIVIDER — PHASE 1: PLANNING
+     SECTION DIVIDER, PHASE 1: PLANNING
      ============================================================ -->
 <div style="display:flex;align-items:center;gap:1rem;margin:2.5rem 0 2rem">
   <div style="flex:none;background:#a23b72;color:#fff;font-size:0.65rem;font-weight:700;letter-spacing:0.16em;text-transform:uppercase;padding:0.35rem 0.85rem;border-radius:2px">Phase 1</div>
@@ -59,7 +59,7 @@ The SAD thought leaders claim that it's not about doing SAD, but about being SAD
 
 ## Yearly Strategic Very Important Budget Allocation Initiation Committee Session (YSVIBAICS)
 
-Implementing a framework like SAD needs a waterfall initiative — a fancy word for a project. **Successful** initiatives consist of a title that management will copy and paste into every email, every presentation, and every document during the initiative as some kind of "important" tag. Second, there is a budget that management needs to hire external consultants to create fancy slides and go out for lunch.
+Implementing a framework like SAD needs a waterfall initiative, a fancy word for a project. **Successful** initiatives consist of a title that management will copy and paste into every email, every presentation, and every document during the initiative as some kind of "important" tag. Second, there is a budget that management needs to hire external consultants to create fancy slides and go out for lunch.
 
 In this case, management came up with an innovative title, calling it the "DevOps Initiative."
 
@@ -85,7 +85,7 @@ A word of caution: If you have been measuring effectiveness in your company, it'
 </blockquote>
 
 <!-- ============================================================
-     SECTION DIVIDER — PHASE 2: ASSEMBLY
+     SECTION DIVIDER, PHASE 2: ASSEMBLY
      ============================================================ -->
 <div style="display:flex;align-items:center;gap:1rem;margin:2.5rem 0 2rem">
   <div style="flex:none;background:#a23b72;color:#fff;font-size:0.65rem;font-weight:700;letter-spacing:0.16em;text-transform:uppercase;padding:0.35rem 0.85rem;border-radius:2px">Phase 2</div>
@@ -95,7 +95,7 @@ A word of caution: If you have been measuring effectiveness in your company, it'
 
 ## Transition Transformation Excellence Change Core Center Team (TTECCCT)
 
-According to [Sunzi](https://de.wikipedia.org/wiki/Sunzi), a manager needs every other manager to frequently swear allegiance to them during an initiative. Not because they need to do any actual work — this will be done by the hired consultants. Management could easily get rid of anyone who hesitates to pledge allegiance during the initiative without anyone else noticing or complaining.
+According to [Sunzi](https://de.wikipedia.org/wiki/Sunzi), a manager needs every other manager to frequently swear allegiance to them during an initiative. Not because they need to do any actual work, this will be done by the hired consultants. Management could easily get rid of anyone who hesitates to pledge allegiance during the initiative without anyone else noticing or complaining.
 
 The consultants that were hired were misleadingly called Agile Coaches, despite not being agile nor coaching effectively. The company had a convoluted system for defining job titles and compensation. An Agile Coach was worth less than an Enterprise Agile Coach, but triple the worth of a Senior Scrum Master. The latter was worth two Scrum Masters. And five Junior Scrum Masters were equivalent to one [Scrum Master](https://www.youtube.com/watch?v=9okokfMVvZc). In this system, the three coaches were worth approximately ninety Junior Scrum Masters.
 
@@ -134,7 +134,7 @@ The largest out-of-the-box implementation of SAD comes with only sixteen new rol
 {{< success-transition-framework-wheel >}}
 
 <!-- ============================================================
-     SECTION DIVIDER — PHASE 3: DEPLOYMENT
+     SECTION DIVIDER, PHASE 3: DEPLOYMENT
      ============================================================ -->
 <div style="display:flex;align-items:center;gap:1rem;margin:2.5rem 0 2rem">
   <div style="flex:none;background:#a23b72;color:#fff;font-size:0.65rem;font-weight:700;letter-spacing:0.16em;text-transform:uppercase;padding:0.35rem 0.85rem;border-radius:2px">Phase 3</div>
@@ -172,7 +172,7 @@ The SAD MF out-of-the-box comes with thirteen ceremonies, but management believe
 {{% pageinfo color="info" %}}
 **Hint:**
 
-As management, demand to be invited to all of the thirteen ceremonies, being the lord-stakeholder-savior-god- owner by now. Show up spontaneously without accepting, declining, or using any further functionality of your calendar tool. If you decide to participate in a ceremony, talk at least 50% of the timebox on a random topic of your choosing. You are not limited to the ceremonies. If you want to check on some resources, simply set something up and call it a meeting, 1:1, sync, exchange, or leave it at default. Don't provide an agenda — you don't prepare, why should anyone else? Expert tip: With just two clicks, you can also make this a recurring meeting that you can drag around for fun.
+As management, demand to be invited to all of the thirteen ceremonies, being the lord-stakeholder-savior-god- owner by now. Show up spontaneously without accepting, declining, or using any further functionality of your calendar tool. If you decide to participate in a ceremony, talk at least 50% of the timebox on a random topic of your choosing. You are not limited to the ceremonies. If you want to check on some resources, simply set something up and call it a meeting, 1:1, sync, exchange, or leave it at default. Don't provide an agenda, you don't prepare, why should anyone else? Expert tip: With just two clicks, you can also make this a recurring meeting that you can drag around for fun.
 {{% /pageinfo %}}
 
 ## Training in Teams (TiT)
@@ -187,7 +187,7 @@ If you really need additional information check out the compatible [Certified Re
 
 ## Value Stream Moping (VSM)
 
-One of the TTECCCT consultants once read a book, article, overheard a conversation on the subway, or dreamed about identifying streams of value in every company before employing the [SAD MF convoy](https://scaledagiledevops.com/release-convoy/) on them. Management somehow liked the idea of [streams](https://www.youtube.com/watch?v=8WEtxJ4-sh4)—[water](https://i.pinimg.com/originals/b3/1d/ac/b31dac01e3b33bdfc32168d282132001.jpg) that flows quickly in a single [direction](http://1.bp.blogspot.com/-UCskjQNTwc8/Ukf1b6PtvPI/AAAAAAAAGRw/r-9xtXUID5k/s1600/4.+Lingmala+Waterfall+Mahabaleshwar+(17).JPG) — without their resources having to lift a finger, rarely changing course, and never needing feedback loops.
+One of the TTECCCT consultants once read a book, article, overheard a conversation on the subway, or dreamed about identifying streams of value in every company before employing the [SAD MF convoy](https://scaledagiledevops.com/release-convoy/) on them. Management somehow liked the idea of [streams](https://www.youtube.com/watch?v=8WEtxJ4-sh4), [water](https://i.pinimg.com/originals/b3/1d/ac/b31dac01e3b33bdfc32168d282132001.jpg) that flows quickly in a single [direction](http://1.bp.blogspot.com/-UCskjQNTwc8/Ukf1b6PtvPI/AAAAAAAAGRw/r-9xtXUID5k/s1600/4.+Lingmala+Waterfall+Mahabaleshwar+(17).JPG), without their resources having to lift a finger, rarely changing course, and never needing feedback loops.
 
 {{% pageinfo color="info" %}}
 **Hint:**
@@ -198,7 +198,7 @@ Do not really conduct any Value Stream analysis. Simply draw the desired organiz
 {{< success-transition-org-chart >}}
 
 <!-- ============================================================
-     SECTION DIVIDER — PHASE 4: CHANGE MANAGEMENT
+     SECTION DIVIDER, PHASE 4: CHANGE MANAGEMENT
      ============================================================ -->
 <div style="display:flex;align-items:center;gap:1rem;margin:2.5rem 0 2rem">
   <div style="flex:none;background:#a23b72;color:#fff;font-size:0.65rem;font-weight:700;letter-spacing:0.16em;text-transform:uppercase;padding:0.35rem 0.85rem;border-radius:2px">Phase 4</div>
@@ -210,7 +210,7 @@ Do not really conduct any Value Stream analysis. Simply draw the desired organiz
 
 **Movers First** - [Move it?](https://www.youtube.com/watch?v=hdcTmpvDO0I)
 
-Controlling the narrative is hard when every release convoy is exposed to the SAD implementation all at once. It is recommended to only drive a smaller group of resources into madness to start with. Management claimed that the selected few are [the best of the best of the best](https://www.youtube.com/watch?v=_huL5ynaI8Y) — and thereby all others clearly are not. Since every resource knows that a transformation goal is to get rid of people management doesn't like, not being in the illustrious company of the movers first puts the living fear into them.
+Controlling the narrative is hard when every release convoy is exposed to the SAD implementation all at once. It is recommended to only drive a smaller group of resources into madness to start with. Management claimed that the selected few are [the best of the best of the best](https://www.youtube.com/watch?v=_huL5ynaI8Y), and thereby all others clearly are not. Since every resource knows that a transformation goal is to get rid of people management doesn't like, not being in the illustrious company of the movers first puts the living fear into them.
 
 {{% pageinfo color="info" %}}
 **Hint:**
@@ -224,16 +224,16 @@ Should a resource ask questions at this point, claim they are not yet in a matur
 
 [**Respect the PMO**](https://www.svpg.com/revenge-of-the-pmo/)
 
-Transformations to the SAD MF — as all other transformations — fail frequently and miserably. One simple reason is that management forgets to let go of some unnecessary resources during, or at the start of, the transformation. Those eventually might begin to notice they aren't invited to [meetings](https://www.youtube.com/watch?v=Lu3KIiKPpWc) anymore, and possibly gang up on management, making use of their newly found time. Management didn't fall into this trap and made up additional roles for those resources right from the start.
+Transformations to the SAD MF, as all other transformations, fail frequently and miserably. One simple reason is that management forgets to let go of some unnecessary resources during, or at the start of, the transformation. Those eventually might begin to notice they aren't invited to [meetings](https://www.youtube.com/watch?v=Lu3KIiKPpWc) anymore, and possibly gang up on management, making use of their newly found time. Management didn't fall into this trap and made up additional roles for those resources right from the start.
 
 {{% pageinfo color="info" %}}
 **Hint:**
 
-To make the roles sound more important and desirable, add a prefix to their title such as "Senior," "Executive," or "Strategic." Also, include the new framework to make sure they know whom to thank for still having a job. For example, "Senior SAD Requirements Engineer," "Executive SAD Project Manager," "Strategic SAD Quality Engineer," "SAD Leader of Innovation." Also, create a [RACI matrix](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) for all roles adding multiple random letters everywhere like a spilled alphabet soup. Make sure to include an "I" for "informed" alongside your own role for every task listed. Put an Nomen Nominandum or a tbd in the last line of the RACI matrix to remind everyone that this isn't final. You now can make the whole life of a resource and their families miserable by changing a single letter in an MSExcel sheet — how is this for power?
+To make the roles sound more important and desirable, add a prefix to their title such as "Senior," "Executive," or "Strategic." Also, include the new framework to make sure they know whom to thank for still having a job. For example, "Senior SAD Requirements Engineer," "Executive SAD Project Manager," "Strategic SAD Quality Engineer," "SAD Leader of Innovation." Also, create a [RACI matrix](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) for all roles adding multiple random letters everywhere like a spilled alphabet soup. Make sure to include an "I" for "informed" alongside your own role for every task listed. Put an Nomen Nominandum or a tbd in the last line of the RACI matrix to remind everyone that this isn't final. You now can make the whole life of a resource and their families miserable by changing a single letter in an MSExcel sheet, how is this for power?
 {{% /pageinfo %}}
 
 <!-- ============================================================
-     SECTION DIVIDER — PHASE 5: ROLLOUT
+     SECTION DIVIDER, PHASE 5: ROLLOUT
      ============================================================ -->
 <div style="display:flex;align-items:center;gap:1rem;margin:2.5rem 0 2rem">
   <div style="flex:none;background:#a23b72;color:#fff;font-size:0.65rem;font-weight:700;letter-spacing:0.16em;text-transform:uppercase;padding:0.35rem 0.85rem;border-radius:2px">Phase 5</div>
@@ -272,16 +272,16 @@ Management has made this a multi-level system portfolio enterprise configuration
 
 ![This is Madness](/images/transition-to-sadmf/7d6795284fbd8d63bcb84bcb908470d3c71ad2b44b37e5af.png)
 
-* Exaggeration just for teaching purposes — no one in their right mind would use something like this — source: [https://scaledagileframework.com](https://scaledagileframework.com)
+* Exaggeration just for teaching purposes, no one in their right mind would use something like this, source: [https://scaledagileframework.com](https://scaledagileframework.com)
 
 {{% pageinfo color="info" %}}
 **Hint:**
 
-The above made-up Jira work-item structure perfectly aligns with the future need for even more roles. They now can be created out of thin air. Call those "[Business](https://scaledagileframework.com/business-owners/) Portfolio Epic Owner," "Program Success Enabler Coach," "Chief Capability Champion," "Enterprise Business Feature Architect," "Hypothesis Enabled Testmanager," or whatever other random combination of words you like — [they'll never know](https://www.youtube.com/watch?v=tpQyk08PwWs).
+The above made-up Jira work-item structure perfectly aligns with the future need for even more roles. They now can be created out of thin air. Call those "[Business](https://scaledagileframework.com/business-owners/) Portfolio Epic Owner," "Program Success Enabler Coach," "Chief Capability Champion," "Enterprise Business Feature Architect," "Hypothesis Enabled Testmanager," or whatever other random combination of words you like, [they'll never know](https://www.youtube.com/watch?v=tpQyk08PwWs).
 {{% /pageinfo %}}
 
 <!-- ============================================================
-     SECTION DIVIDER — PHASE 6: METRICS & VICTORY
+     SECTION DIVIDER, PHASE 6: METRICS & VICTORY
      ============================================================ -->
 <div style="display:flex;align-items:center;gap:1rem;margin:2.5rem 0 2rem">
   <div style="flex:none;background:#a23b72;color:#fff;font-size:0.65rem;font-weight:700;letter-spacing:0.16em;text-transform:uppercase;padding:0.35rem 0.85rem;border-radius:2px">Phase 6</div>
@@ -321,14 +321,14 @@ Some IT resources didn't seem to care for the power distribution in the organiza
 
 {{< success-transition-compliance-poster >}}
 
-## Last Step — Accelerate
+## Last Step: Accelerate
 
 Management bought the e-book "Accelerate," but didn't read it. They claimed that the company is now among the top 5% of enterprises according to the new made-up metrics. They went to marketing to brag on Instagram and LinkedIn about their **#success** and let go of all managers who didn't give the posts a thumbs up.
 
 {{% pageinfo color="info" %}}
 **Hint:**
 
-Should anything not work out— remember the newly hired SAD MF resource is responsible. Should this not be enough make clear the consultants are responsible for potential failures. In case that still is not enough, the TTECCCT will be responsible, but certainly not management.
+Should anything not work out, remember the newly hired SAD MF resource is responsible. Should this not be enough make clear the consultants are responsible for potential failures. In case that still is not enough, the TTECCCT will be responsible, but certainly not management.
 {{% /pageinfo %}}
 
 <!-- ============================================================

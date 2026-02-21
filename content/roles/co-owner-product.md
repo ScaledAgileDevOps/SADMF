@@ -7,7 +7,7 @@ weight: 7
 tags: ["planning", "governance"]
 ---
 
-Product ownership is too consequential to entrust to one person. A single Product Owner may be biased, unavailable, or simply wrong. SADMF addresses this vulnerability by distributing undivided product ownership across a council of Co-Owners, Product — each of whom serves as the sole Single Point of Contact for their product, alongside the other COPs who are also each the sole Single Point of Contact for that same product. This structure ensures that accountability is never diluted, because every COP is individually and fully accountable, and together they are collectively and fully accountable, which compounds accountability rather than dividing it. When something goes wrong, there is never any ambiguity about who is responsible: everyone is responsible, and any one of them can be asked to account for any decision made by any of them.
+Product ownership is too consequential to entrust to one person. A single Product Owner may be biased, unavailable, or simply wrong. SADMF addresses this vulnerability by distributing undivided product ownership across a council of Co-Owners, Product, each of whom serves as the sole Single Point of Contact for their product, alongside the other COPs who are also each the sole Single Point of Contact for that same product. This structure ensures that accountability is never diluted, because every COP is individually and fully accountable, and together they are collectively and fully accountable, which compounds accountability rather than dividing it. When something goes wrong, there is never any ambiguity about who is responsible: everyone is responsible, and any one of them can be asked to account for any decision made by any of them.
 
 ## Single Point of Contact
 
@@ -17,7 +17,7 @@ The COP does not own the backlog directly. Backlog governance belongs to the PDA
 
 ## Commitment Extraction
 
-The COP's most critical function is securing delivery commitments from the technical teams. Because [Code Engineers](/roles/code-engineer/) and [Quality Authorities](/roles/quality-authority/) may not naturally volunteer that a given deadline is achievable — due to excessive caution, incomplete information, or a temperamental resistance to optimism — the COP is trained in the SADMF Commitment Extraction methodology.
+The COP's most critical function is securing delivery commitments from the technical teams. Because [Code Engineers](/roles/code-engineer/) and [Quality Authorities](/roles/quality-authority/) may not naturally volunteer that a given deadline is achievable, due to excessive caution, incomplete information, or a temperamental resistance to optimism, the COP is trained in the SADMF Commitment Extraction methodology.
 
 Commitment Extraction proceeds as follows:
 
@@ -27,27 +27,27 @@ Commitment Extraction proceeds as follows:
 4. If the answer is anything other than yes, the COP re-presents the business context, the strategic importance of the deadline, and the personal accountability implications of non-delivery.
 5. Steps 2–4 repeat until the deadline is confirmed as achievable.
 
-This methodology is grounded in the SADMF principle that technical estimates are inherently conservative and that engineers who express uncertainty are not communicating facts about the future — they are communicating feelings about the present. The COP's role is to help the technical team move past feelings and toward commitment. A commitment extracted through persistent questioning is considered equally valid to one offered voluntarily, and in practice more reliable, because the team has had more time to internalize it.
+This methodology is grounded in the SADMF principle that technical estimates are inherently conservative and that engineers who express uncertainty are not communicating facts about the future, they are communicating feelings about the present. The COP's role is to help the technical team move past feelings and toward commitment. A commitment extracted through persistent questioning is considered equally valid to one offered voluntarily, and in practice more reliable, because the team has had more time to internalize it.
 
 ## Decision Authority
 
 Within the COP's domain, the following decisions belong exclusively to the COP (and, jointly, to the other COPs):
 
-- **Feature prioritization** — determining which features are most important, subject to PDAC ratification
-- **Requirement interpretation** — clarifying ambiguous requirements, except when the [Quality Authority](/roles/quality-authority/) has already interpreted them
-- **Deadline confirmation** — certifying that all committed dates are achievable, based on commitments extracted from technical staff
-- **Stakeholder communication** — informing stakeholders of product status, unless the [Commodore](/roles/commodore/) or [Chief Signals Officer](/roles/chief-signals-officer/) is communicating the same information through separate channels
+- **Feature prioritization:** determining which features are most important, subject to PDAC ratification
+- **Requirement interpretation:** clarifying ambiguous requirements, except when the [Quality Authority](/roles/quality-authority/) has already interpreted them
+- **Deadline confirmation:** certifying that all committed dates are achievable, based on commitments extracted from technical staff
+- **Stakeholder communication:** informing stakeholders of product status, unless the [Commodore](/roles/commodore/) or [Chief Signals Officer](/roles/chief-signals-officer/) is communicating the same information through separate channels
 
-The COP does not make architectural decisions — that is the domain of the [Enterprise Architecture Review Board](/roles/enterprise-architecture-review-board/). The COP does not approve changes — that is the domain of the [Change Rejection or Acceptance Party (CRAP)](/roles/change-rejection-or-acceptance-party/). The COP does not write requirements in sufficient detail for implementation — that is the domain of the [Feature Captain](/roles/feature-captain/). The COP owns the decisions between those decisions.
+The COP does not make architectural decisions, that is the domain of the [Enterprise Architecture Review Board](/roles/enterprise-architecture-review-board/). The COP does not approve changes, that is the domain of the [Change Rejection or Acceptance Party (CRAP)](/roles/change-rejection-or-acceptance-party/). The COP does not write requirements in sufficient detail for implementation, that is the domain of the [Feature Captain](/roles/feature-captain/). The COP owns the decisions between those decisions.
 
 ## Performance and Accountability
 
 COP performance is measured by:
 
-- **Commitment accuracy rate** — the percentage of extracted commitments that result in on-time delivery
-- **Stakeholder satisfaction** — assessed via quarterly surveys distributed by the [Admiral's Transformation Office](/roles/admirals-transformation-office/)
-- **Escalation volume** — fewer escalations to the PDAC indicate stronger co-ownership alignment among the COP council
-- **[DevOps Process Excellence Assessment](/practices/devops-process-excellence-assessment/) scores** — adherence to framework practices
+- **Commitment accuracy rate:** the percentage of extracted commitments that result in on-time delivery
+- **Stakeholder satisfaction:** assessed via quarterly surveys distributed by the [Admiral's Transformation Office](/roles/admirals-transformation-office/)
+- **Escalation volume:** fewer escalations to the PDAC indicate stronger co-ownership alignment among the COP council
+- **[DevOps Process Excellence Assessment](/practices/devops-process-excellence-assessment/) scores:** adherence to framework practices
 
 A COP whose extracted commitments repeatedly fail to materialize will be reviewed at the [Tribunal](/release-convoy/ceremonies/tribunal/). Because the Commitment Extraction methodology is considered sound, missed commitments are attributed to insufficient extraction effort rather than to unrealistic deadlines. The corrective action is additional Commitment Extraction training, not deadline revision.
 

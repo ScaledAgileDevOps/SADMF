@@ -9,10 +9,10 @@ tags: ["branching", "governance"]
 
 To improve [Code Engineer](/roles/code-engineer/) productivity by reducing the work required to integrate changes, SADMF introduces the Source Management Team. The premise is straightforward: merging code is complex, conflict resolution is error-prone, and neither activity produces features. Every minute a Code Engineer spends resolving a merge conflict is a minute not spent typing new code. The SMT eliminates this waste by centralizing all source control operations under a dedicated team. The SMT:
 
-- **Authorizes new [feature branches](/practices/fractal-based-development/)** — approves and creates branches in the repository
-- **Merges completed branches** — integrates each Code Engineer's work into the Conflict branch
-- **Resolves all conflicts** — determines which changes prevail when branches collide
-- **Alerts the [Quality Authority](/roles/quality-authority/)** — signals when the Convoy is ready for testing
+- **Authorizes new [feature branches](/practices/fractal-based-development/):** approves and creates branches in the repository
+- **Merges completed branches:** integrates each Code Engineer's work into the Conflict branch
+- **Resolves all conflicts:** determines which changes prevail when branches collide
+- **Alerts the [Quality Authority](/roles/quality-authority/):** signals when the Convoy is ready for testing
 
 Code Engineers interact with their own feature branches and nothing else. Everything beyond that boundary is SMT territory.
 
@@ -39,14 +39,14 @@ The SMT also manages the branching lifecycle for the [Comprehensive Documentatio
 
 The SMT reports to:
 
-- **[Commodore](/roles/commodore/)** — for Convoy-related activities
-- **[DOUCHE](/roles/devops-usage-and-compliance-head-engineer/)** — for process compliance
+- **[Commodore](/roles/commodore/):** for Convoy-related activities
+- **[DOUCHE](/roles/devops-usage-and-compliance-head-engineer/):** for process compliance
 
 Their performance is measured by:
 
-- **Merge success rate** — the percentage of merges completed without requiring Code Engineer consultation
-- **Average conflict resolution time** — how quickly the SMT resolves conflicts once encountered
-- **Fractal-based Development map accuracy** — how closely the map reflects the actual repository state
+- **Merge success rate:** the percentage of merges completed without requiring Code Engineer consultation
+- **Average conflict resolution time:** how quickly the SMT resolves conflicts once encountered
+- **Fractal-based Development map accuracy:** how closely the map reflects the actual repository state
 
 SMT members must pass the [DevOps Process Excellence Assessment](/practices/devops-process-excellence-assessment/) with high scores in the source management and branching strategy sections, and senior SMT members may pursue the [SADMF Certified Source Architect](/certifications/) credential. The SMT is the organization's cartographer and diplomat, mapping the territory of code and negotiating peace when branches go to war.
 

@@ -13,9 +13,9 @@ The Feature Team is the fundamental delivery unit of the Scaled Agile DevOps Mat
 
 The Press Gang ceremony is the mechanism by which Feature Teams come into existence. During the ceremony, the [Commodore](/roles/commodore/) and [Feature Captains](/roles/feature-captain/) review the feature requirements for the upcoming Convoy and identify the skill profiles needed for each feature. [Code Engineers](/roles/code-engineer/) are then assigned to Feature Teams based on:
 
-- **Skill profiles** — matching engineer capabilities to feature requirements
-- **Availability** — ensuring no engineer is double-assigned
-- **[DevOps Process Excellence Assessment](/practices/devops-process-excellence-assessment/) scores** — placing the highest performers on the most critical features
+- **Skill profiles:** matching engineer capabilities to feature requirements
+- **Availability:** ensuring no engineer is double-assigned
+- **[DevOps Process Excellence Assessment](/practices/devops-process-excellence-assessment/) scores:** placing the highest performers on the most critical features
 
 Code Engineers do not volunteer for Feature Teams and do not express preferences; the Press Gang assigns them where the organization needs them most. This prevents the formation of cliques, ensures that no Code Engineer becomes a single point of failure for any particular system, and distributes institutional knowledge across the organization rather than concentrating it in self-selected groups.
 

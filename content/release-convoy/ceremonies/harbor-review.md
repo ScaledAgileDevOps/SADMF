@@ -8,7 +8,7 @@ tags: ["release-management", "quality", "compliance"]
 ---
 
 <!-- ═══════════════════════════════════════════════════════════
-     SUMMARY BOX — Participants | Duration | Output
+     SUMMARY BOX, Participants | Duration | Output
      ═══════════════════════════════════════════════════════════ -->
 <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:0;border:2px solid #a23b72;border-radius:8px;overflow:hidden;margin:0 0 2rem 0;font-family:inherit">
   <div style="background:#242627;color:#fff;padding:1.1rem 1.25rem;text-align:center">
@@ -38,7 +38,7 @@ tags: ["release-management", "quality", "compliance"]
 At the conclusion of each convoy cycle, the Harbor Review ceremony provides a structured opportunity to reflect on what went well, what could be improved, and what we will definitely not change. The [Commodore](/roles/commodore/) facilitates the review by asking each [Feature Captain](/roles/feature-captain/) to submit three items in each category before the meeting. This pre-submission requirement ensures the meeting proceeds efficiently and prevents any spontaneous observations that might catch the Commodore off guard. The Harbor Review is the SADMF's commitment to continuous improvement, or more precisely, to the continuous discussion of improvement.
 
 <!-- ═══════════════════════════════════════════════════════════
-     CEREMONY AGENDA — numbered step cards
+     CEREMONY AGENDA, numbered step cards
      ═══════════════════════════════════════════════════════════ -->
 <div style="margin:2rem 0 2.5rem 0">
   <div style="font-size:.7rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#5a6d82;margin-bottom:1rem;padding-left:.25rem">Ceremony Agenda</div>
@@ -111,7 +111,7 @@ At the conclusion of each convoy cycle, the Harbor Review ceremony provides a st
 
 ## The Three Categories
 
-The Harbor Review organizes all observations into three official categories. **Fair Winds** captures what went well during the convoy cycle. Examples include "the SAD Update form was filed on time every day" and "no one was formally referred to the Tribunal." Fair Winds items are read aloud and met with polite applause. **Rough Seas** captures what could be improved. All Rough Seas observations must be phrased as opportunities: "The build was broken for 3 weeks" becomes "We have an opportunity to reduce build recovery time." "We spent 40% of our time in meetings" becomes "We have an opportunity to optimize our ceremony participation efficiency." Any observation phrased as a complaint, criticism, or — worst of all — a root cause analysis implicating the framework itself is tabled by the Commodore under the standing rule that systemic observations require a separate forum that has not yet been scheduled. **Anchors** captures what will remain the same. The Anchors category consistently contains the most items, reflecting the organization's healthy respect for stability and its recognition that most processes are already optimal.
+The Harbor Review organizes all observations into three official categories. **Fair Winds** captures what went well during the convoy cycle. Examples include "the SAD Update form was filed on time every day" and "no one was formally referred to the Tribunal." Fair Winds items are read aloud and met with polite applause. **Rough Seas** captures what could be improved. All Rough Seas observations must be phrased as opportunities: "The build was broken for 3 weeks" becomes "We have an opportunity to reduce build recovery time." "We spent 40% of our time in meetings" becomes "We have an opportunity to optimize our ceremony participation efficiency." Any observation phrased as a complaint, criticism, or, worst of all, a root cause analysis implicating the framework itself is tabled by the Commodore under the standing rule that systemic observations require a separate forum that has not yet been scheduled. **Anchors** captures what will remain the same. The Anchors category consistently contains the most items, reflecting the organization's healthy respect for stability and its recognition that most processes are already optimal.
 
 <!-- Three-category visual reference -->
 <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:.75rem;margin:1.5rem 0">
@@ -134,7 +134,7 @@ The Harbor Review organizes all observations into three official categories. **F
 
 ## The Harbor Review Action Log
 
-Action items from the Harbor Review are recorded in the Harbor Review Action Log, a living document maintained by the [Chief Signals Officer](/roles/chief-signals-officer/). Each action item is recorded with the following fields: Action Description, Owner, Target Completion Date, and Actual Completion Date. The Actual Completion Date field supports three values: a date, "In Progress," or "Carried Forward." Historical analysis of the Action Log reveals that 94% of action items are carried forward to the next Harbor Review, where they are read aloud, acknowledged, and carried forward again. The same items have been carried forward for six or more consecutive convoys, creating a comforting sense of organizational continuity and demonstrating the team's commitment to long-term improvement planning. An action item is never closed as "Not Done" or "Abandoned" — it is simply carried forward indefinitely, ensuring that the organization never gives up on its aspirations, even the ones no one can remember the origin of.
+Action items from the Harbor Review are recorded in the Harbor Review Action Log, a living document maintained by the [Chief Signals Officer](/roles/chief-signals-officer/). Each action item is recorded with the following fields: Action Description, Owner, Target Completion Date, and Actual Completion Date. The Actual Completion Date field supports three values: a date, "In Progress," or "Carried Forward." Historical analysis of the Action Log reveals that 94% of action items are carried forward to the next Harbor Review, where they are read aloud, acknowledged, and carried forward again. The same items have been carried forward for six or more consecutive convoys, creating a comforting sense of organizational continuity and demonstrating the team's commitment to long-term improvement planning. An action item is never closed as "Not Done" or "Abandoned", it is simply carried forward indefinitely, ensuring that the organization never gives up on its aspirations, even the ones no one can remember the origin of.
 
 <!-- Action Log status breakdown -->
 <div style="background:#e8edf5;border:1px solid #9ab4cc;border-radius:8px;padding:1.25rem 1.5rem;margin:1.25rem 0">

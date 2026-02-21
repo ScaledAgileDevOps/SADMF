@@ -2,7 +2,7 @@
 title: "System Integration Testing"
 linkTitle: "System Integration Testing"
 type: docs
-description: If two teams validating a change are good, three teams are better — the final testing gate before the convoy is permitted to sail
+description: If two teams validating a change are good, three teams are better, the final testing gate before the convoy is permitted to sail
 weight: 10
 tags: ["testing", "quality", "release-management"]
 ---
@@ -40,7 +40,7 @@ tags: ["testing", "quality", "release-management"]
 
 System Integration Testing (SIT) is the ceremony in which all features of the current convoy are tested together as a unified whole. The SIT team is a permanent, dedicated team that exists for this singular purpose. During the weeks when features are being coded, inspected, and unit tested, the SIT team attends daily standups but has nothing to report. They are, however, required to attend, as their presence demonstrates organizational commitment to integration quality and their absence would create an awkward gap in the standup rotation. SIT team members use this waiting period to maintain the SIT environment, update their test scripts from previous convoys, and attend mandatory training on the SADMF process framework.
 
-SIT can only begin after ALL features in the convoy have completed unit [Testing](/release-convoy/ceremonies/testing/) and received their Testing Completion Certificates. This is a critical dependency. Even if nine of ten features are ready, SIT cannot begin until the tenth feature clears testing, because testing features in isolation would defeat the entire purpose of integration testing. This sequencing occasionally creates a bottleneck in which the SIT team waits idle for weeks while a single feature cycles through inspection remediation, but this idle time is not waste — it is readiness. The alternative would be to begin integration testing incrementally as features complete, but this would be continuous integration, which is a different framework's concern.
+SIT can only begin after ALL features in the convoy have completed unit [Testing](/release-convoy/ceremonies/testing/) and received their Testing Completion Certificates. This is a critical dependency. Even if nine of ten features are ready, SIT cannot begin until the tenth feature clears testing, because testing features in isolation would defeat the entire purpose of integration testing. This sequencing occasionally creates a bottleneck in which the SIT team waits idle for weeks while a single feature cycles through inspection remediation, but this idle time is not waste, it is readiness. The alternative would be to begin integration testing incrementally as features complete, but this would be continuous integration, which is a different framework's concern.
 
 The SIT environment is a shared environment that approximates production, in the same way that a photograph of the ocean approximates sailing. It is maintained by a separate infrastructure team and is frequently in a broken state due to configuration drift, expired certificates, or resource contention from multiple convoy cycles attempting to use it simultaneously. When the SIT environment is unavailable, the SIT team documents the outage in the SIT Environment Availability Log and waits. SIT environment downtime is not counted against the SIT testing timebox because it is classified as an external dependency, and external dependencies are, by definition, outside the team's control and therefore outside their accountability.
 

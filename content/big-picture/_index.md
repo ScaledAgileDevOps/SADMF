@@ -8,7 +8,7 @@ weight: 999
 tags: ["governance"]
 ---
 
-The SADMF Periodic Table of Framework Excellence provides a comprehensive, at-a-glance reference for every element of the Scaled Agile DevOps Maturity Framework. Like its chemical predecessor, it is organized by group and period, with each element displaying its symbol, atomic number, and **Accountability Index (AI)** — a standardized measure of each element's contribution to organizational governance and maturity.
+The SADMF Periodic Table of Framework Excellence provides a comprehensive, at-a-glance reference for every element of the Scaled Agile DevOps Maturity Framework. Like its chemical predecessor, it is organized by group and period, with each element displaying its symbol, atomic number, and **Accountability Index (AI):** a standardized measure of each element's contribution to organizational governance and maturity.
 
 The table is organized into seven groups: **Leadership & Governance** (the command structure), **Delivery Excellence** (the roles who execute), **Alignment Ceremonies** (the gatherings that synchronize), **Operational Excellence** (the practices that govern how work is done), **Accountability Metrics** (the measurements that drive performance), **Foundational Principles** (the immutable laws of the framework), and **Documentation Assurance** (the artifacts that prove compliance). Hover over any element to see its full description.
 
@@ -27,10 +27,10 @@ The table is organized into seven groups: **Leadership & Governance** (the comma
 
 The SADMF Periodic Table is intended to be used in the following ways:
 
-1. **Executive briefings** — Display on a projector to demonstrate the completeness of the transformation program. The number of elements signals scientific rigor.
-2. **Onboarding** — New [Code Engineers](/roles/code-engineer/) are expected to memorize every element's symbol, name, and atomic weight for the [DevOps Process Excellence Assessment](/practices/devops-process-excellence-assessment/).
-3. **Compliance evidence** — A printed and laminated copy of the Periodic Table, posted prominently in the team area, counts toward the [SADMF Maturity Score](/metrics/sadmf-maturity-score/).
-4. **Vendor justification** — When stakeholders ask why the transformation is taking 5–8 years, point to the atomic weight column.
+1. **Executive briefings:** Display on a projector to demonstrate the completeness of the transformation program. The number of elements signals scientific rigor.
+2. **Onboarding:** New [Code Engineers](/roles/code-engineer/) are expected to memorize every element's symbol, name, and atomic weight for the [DevOps Process Excellence Assessment](/practices/devops-process-excellence-assessment/).
+3. **Compliance evidence:** A printed and laminated copy of the Periodic Table, posted prominently in the team area, counts toward the [SADMF Maturity Score](/metrics/sadmf-maturity-score/).
+4. **Vendor justification:** When stakeholders ask why the transformation is taking 5–8 years, point to the atomic weight column.
 
 ## See Also
 

@@ -8,7 +8,7 @@ tags: ["testing", "quality", "release-management"]
 ---
 
 <!-- ═══════════════════════════════════════════════════════════════
-     CEREMONY SUMMARY BOX — Participants | Duration | Output
+     CEREMONY SUMMARY BOX, Participants | Duration | Output
      ═══════════════════════════════════════════════════════════════ -->
 <div style="
   border: 2px solid #9ab4cc;
@@ -31,7 +31,7 @@ tags: ["testing", "quality", "release-management"]
     text-transform: uppercase;
   ">
     <i class="fa-solid fa-flask-vial" style="font-size:0.85rem;"></i>
-    Ceremony Overview — Testing
+    Ceremony Overview, Testing
   </div>
   <div style="display: flex; flex-wrap: wrap;">
 
@@ -108,7 +108,7 @@ tags: ["testing", "quality", "release-management"]
 </div>
 
 <!-- ═══════════════════════════════════════════════════════════════
-     CEREMONY AGENDA — Numbered Step Cards
+     CEREMONY AGENDA, Numbered Step Cards
      ═══════════════════════════════════════════════════════════════ -->
 <div style="margin: 2rem 0 2.25rem 0;">
   <div style="

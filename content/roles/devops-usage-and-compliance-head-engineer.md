@@ -13,10 +13,10 @@ If the Right Way to do DevOps is not owned and controlled by an executive, then 
 
 The DevOps Process Binder is the DOUCHE's primary instrument of governance. This comprehensive document defines every aspect of the organization's DevOps practices:
 
-- **Branching strategy** — [Fractal-based Development](/practices/fractal-based-development/)
-- **Review process** — [CSET](/roles/code-standards-enforcement-team/) followed by [DIAT](/roles/development-integrity-assurance-team/) followed by [CRAP](/roles/change-rejection-or-acceptance-party/)
-- **Testing methodology** — [Quality Authority](/roles/quality-authority/) manual test execution
-- **Deployment procedure** — [Deploy the Fleet](/release-convoy/deploy/)
+- **Branching strategy:** [Fractal-based Development](/practices/fractal-based-development/)
+- **Review process:** [CSET](/roles/code-standards-enforcement-team/) followed by [DIAT](/roles/development-integrity-assurance-team/) followed by [CRAP](/roles/change-rejection-or-acceptance-party/)
+- **Testing methodology:** [Quality Authority](/roles/quality-authority/) manual test execution
+- **Deployment procedure:** [Deploy the Fleet](/release-convoy/deploy/)
 - **Every ceremony, metric, and role interaction in between**
 
 The Binder is updated quarterly by the DOUCHE in consultation with the [Admiral's Transformation Office](/roles/admirals-transformation-office/) and is versioned to ensure that teams always know which edition they are expected to follow. Teams found using outdated editions of the Binder are flagged for non-compliance and required to complete a Binder Familiarization Session before their next [Convoy](/release-convoy/).
@@ -42,9 +42,9 @@ By staffing the DOUCHE role, the organization prevents process drift and the eve
 
 The DOUCHE reports directly to the [Admiral's Transformation Office](/roles/admirals-transformation-office/) and provides the data that feeds the [SADMF Maturity Score](/metrics/sadmf-maturity-score/), the organization-wide metric that tracks annual progress toward framework maturity. The DOUCHE's own performance is measured by:
 
-- **Overall Assessment scores** — the aggregate excellence scores across all individuals
-- **Audit pass rates** — the percentage of teams passing quarterly compliance audits
-- **Year-over-year Maturity Score trend** — whether the organization is progressing toward full SADMF maturity
+- **Overall Assessment scores:** the aggregate excellence scores across all individuals
+- **Audit pass rates:** the percentage of teams passing quarterly compliance audits
+- **Year-over-year Maturity Score trend:** whether the organization is progressing toward full SADMF maturity
 
 A rising Maturity Score indicates that the DOUCHE is successfully embedding the Right Way into the organization's culture; a declining score triggers a review of the DOUCHE's enforcement strategy and, if necessary, additional staffing to support the DOUCHE's compliance mission. The DOUCHE is not merely a role; the DOUCHE is the conscience of the organization, the persistent voice reminding everyone that the Right Way exists, that it is documented, and that deviation will be detected.
 

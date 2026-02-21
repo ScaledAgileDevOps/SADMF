@@ -13,11 +13,11 @@ To reduce cognitive load and contextual variation across the enterprise, the EAI
 
 The POP is built on four mandatory artifacts that together form the Prompt Governance Stack (PGS):
 
-### Artifact 1 — Universal Prompt Taxonomy (UPT)
+### Artifact 1: Universal Prompt Taxonomy (UPT)
 
 The Universal Prompt Taxonomy (UPT) is a hierarchical classification system that categorizes every possible prompting scenario into one of 47 Prompt Type Designations (PTDs). Each PTD has a prescribed prompt template that specifies the required sections, their order, the minimum and maximum word counts for each section, and the approved vocabulary that may be used.
 
-### Artifact 2 — Prompt Compliance Checklist (PCC)
+### Artifact 2: Prompt Compliance Checklist (PCC)
 
 The Prompt Compliance Checklist (PCC) is a 23-item verification form that must be completed before any prompt is submitted to the LLMI. The PCC verifies that the prompt:
 
@@ -28,11 +28,11 @@ The Prompt Compliance Checklist (PCC) is a 23-item verification form that must b
 
 The Prompt Compliance Officer (PCO), a role within the [Centralized AI Generation Function](/ai-adoption/centralized-ai-generation-function/), reviews and signs off on each PCC before execution.
 
-### Artifact 3 — Context Injection Manifest (CIM)
+### Artifact 3: Context Injection Manifest (CIM)
 
 The Context Injection Manifest (CIM) specifies exactly what contextual information must be included in each prompt and, critically, what contextual information must be excluded. The CIM operates on the Minimum Necessary Context Principle (MNCP), which holds that prompts should contain only the information explicitly approved by the [Enterprise Architecture Review Board (EARB)](/roles/enterprise-architecture-review-board/) -- no more, no less. Including too much context creates Context Overflow Risk (COR), where the AI model becomes confused by competing signals and produces Variable Quality Outputs (VQOs). Including too little context creates Context Starvation Events (CSEs), where the AI model fills gaps with assumptions that may not align with enterprise standards. The CIM provides the exact calibration between these extremes, ensuring that every prompt operates within the Optimal Context Window (OCW) defined by the organization's AI Governance Board (AGB).
 
-### Artifact 4 — Prompt Outcome Verification Step (POVS)
+### Artifact 4: Prompt Outcome Verification Step (POVS)
 
 The Prompt Outcome Verification Step (POVS) is a mandatory post-generation review process that compares AI output against the Expected Output Profile (EOP) defined in the prompt template. The POVS is conducted by the Prompt Outcome Validator (POV) -- not to be confused with the Prompt Compliance Officer (PCO), as the separation of pre-execution compliance from post-execution validation is a critical governance control. The POV evaluates each output against the Output Conformance Criteria (OCC), which includes:
 

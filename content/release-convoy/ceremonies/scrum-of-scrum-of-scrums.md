@@ -8,7 +8,7 @@ tags: ["communication", "reporting", "release-management"]
 ---
 
 <!-- ═══════════════════════════════════════════════════════════
-     SUMMARY BOX — Participants | Duration | Output
+     SUMMARY BOX, Participants | Duration | Output
      ═══════════════════════════════════════════════════════════ -->
 <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:0;border:2px solid #a23b72;border-radius:8px;overflow:hidden;margin:0 0 2rem 0;font-family:inherit">
   <div style="background:#242627;color:#fff;padding:1.1rem 1.25rem;text-align:center">
@@ -41,10 +41,10 @@ The Scrum of Scrum of Scrums (SoSoS) is the SADMF's proven approach to scaling d
 
 ## The Tribute's Daily Schedule
 
-The Tribute role is a rotating honor, though in practice it tends to settle on the same person each sprint — specifically, the [Code Engineer](/roles/code-engineer/) who talks the most, not the one with the most relevant information. A typical Tribute's day proceeds as follows: 9:00 AM, attend the team's daily scrum (15 minutes). 9:15 AM, prepare notes for the SOS meeting (30 minutes). 10:00 AM, pre-SOS alignment huddle with the [Feature Captain](/roles/feature-captain/) to agree on messaging (30 minutes). 12:00 PM, attend the Scrum of Scrums (45 minutes). 1:00 PM, prepare notes for the SoSoS meeting (30 minutes). 1:30 PM, pre-SoSoS alignment call (15 minutes). 3:00 PM, attend the Scrum of Scrum of Scrums (60 minutes). 4:00 PM, reverse cascade debrief with SOS-level Tributes (30 minutes). 4:30 PM, reverse cascade debrief with team (30 minutes). 5:00 PM, file the SOS Minutes document (15 minutes). This leaves approximately 45 minutes for actual coding, which the SADMF considers more than sufficient for a well-organized [Code Engineer](/roles/code-engineer/).
+The Tribute role is a rotating honor, though in practice it tends to settle on the same person each sprint, specifically, the [Code Engineer](/roles/code-engineer/) who talks the most, not the one with the most relevant information. A typical Tribute's day proceeds as follows: 9:00 AM, attend the team's daily scrum (15 minutes). 9:15 AM, prepare notes for the SOS meeting (30 minutes). 10:00 AM, pre-SOS alignment huddle with the [Feature Captain](/roles/feature-captain/) to agree on messaging (30 minutes). 12:00 PM, attend the Scrum of Scrums (45 minutes). 1:00 PM, prepare notes for the SoSoS meeting (30 minutes). 1:30 PM, pre-SoSoS alignment call (15 minutes). 3:00 PM, attend the Scrum of Scrum of Scrums (60 minutes). 4:00 PM, reverse cascade debrief with SOS-level Tributes (30 minutes). 4:30 PM, reverse cascade debrief with team (30 minutes). 5:00 PM, file the SOS Minutes document (15 minutes). This leaves approximately 45 minutes for actual coding, which the SADMF considers more than sufficient for a well-organized [Code Engineer](/roles/code-engineer/).
 
 <!-- ═══════════════════════════════════════════════════════════
-     CEREMONY AGENDA — Tribute's day as numbered step cards
+     CEREMONY AGENDA, Tribute's day as numbered step cards
      ═══════════════════════════════════════════════════════════ -->
 <div style="margin:2rem 0 2.5rem 0">
   <div style="font-size:.7rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#5a6d82;margin-bottom:1rem;padding-left:.25rem">Tribute's Daily Schedule</div>
@@ -182,7 +182,7 @@ The Tribute role is a rotating honor, though in practice it tends to settle on t
 
 ## The Telephone Game Effect
 
-One of the most elegant properties of the SoSoS structure is how information naturally evolves as it passes through each layer. A message such as "Team Alpha's API endpoint is returning a 500 error on the staging environment" might arrive at the SoSoS level as "Team Alpha has concerns about their numbers." On the reverse cascade, a directive from leadership such as "Consider whether the Q3 timeline is realistic" arrives at the team level as "Leadership has confirmed the Q3 timeline is mandatory and cannot slip." This information mutation is not a deficiency of the process — it is a feature. It ensures that each organizational layer receives the version of reality most appropriate to its altitude. Detailed accuracy would only overwhelm senior leaders, while nuanced strategic direction would only confuse [Code Engineers](/roles/code-engineer/).
+One of the most elegant properties of the SoSoS structure is how information naturally evolves as it passes through each layer. A message such as "Team Alpha's API endpoint is returning a 500 error on the staging environment" might arrive at the SoSoS level as "Team Alpha has concerns about their numbers." On the reverse cascade, a directive from leadership such as "Consider whether the Q3 timeline is realistic" arrives at the team level as "Leadership has confirmed the Q3 timeline is mandatory and cannot slip." This information mutation is not a deficiency of the process, it is a feature. It ensures that each organizational layer receives the version of reality most appropriate to its altitude. Detailed accuracy would only overwhelm senior leaders, while nuanced strategic direction would only confuse [Code Engineers](/roles/code-engineer/).
 
 <!-- Information mutation visual -->
 <div style="margin:1.5rem 0">
@@ -283,7 +283,7 @@ Every Tribute is required to file a daily SOS Minutes document within 30 minutes
 
 ## The Reverse Cascade
 
-The reverse cascade — the process by which direction flows back down from the SoSoS level through the SOS level to individual teams — typically completes by 5:00 PM. This means that strategic direction issued by leadership at 3:00 PM arrives at the team level just as [Code Engineers](/roles/code-engineer/) are preparing to leave for the day. The SADMF considers this optimal timing, as it gives engineers the evening to mentally process the direction and arrive the next morning ready to discuss it in standup, which feeds back into the SOS, which feeds into the SoSoS, creating a beautifully self-sustaining cycle of communication about communication.
+The reverse cascade, the process by which direction flows back down from the SoSoS level through the SOS level to individual teams, typically completes by 5:00 PM. This means that strategic direction issued by leadership at 3:00 PM arrives at the team level just as [Code Engineers](/roles/code-engineer/) are preparing to leave for the day. The SADMF considers this optimal timing, as it gives engineers the evening to mentally process the direction and arrive the next morning ready to discuss it in standup, which feeds back into the SOS, which feeds into the SoSoS, creating a beautifully self-sustaining cycle of communication about communication.
 
 <!-- Reverse cascade self-sustaining loop -->
 <div style="background:#242627;border-radius:8px;padding:1.25rem 1.5rem;margin:1.25rem 0">

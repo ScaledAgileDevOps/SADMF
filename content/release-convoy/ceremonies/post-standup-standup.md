@@ -44,7 +44,7 @@ Following the round-robin, the [Commodore](/roles/commodore/) conducts a questio
 
 ## The Productivity Paradox
 
-The SADMF acknowledges what some practitioners have called the "Post-Standup Paradox" — namely, that spending 45 to 60 minutes each day reporting on work that is not being done directly reduces the time available to do work, thereby increasing the volume of work that must be reported on in the next Post-Standup Standup. The SADMF does not consider this a paradox but rather a virtuous cycle: as the backlog of non-work grows, the ceremony becomes more comprehensive, providing the [Commodore](/roles/commodore/) with an increasingly complete picture of everything the team is not accomplishing. This information is critical for [Convoy Alignment](/release-convoy/agenda/) planning, where it helps justify requests for additional headcount that will attend additional Post-Standup Standups.
+The SADMF acknowledges what some practitioners have called the "Post-Standup Paradox", namely, that spending 45 to 60 minutes each day reporting on work that is not being done directly reduces the time available to do work, thereby increasing the volume of work that must be reported on in the next Post-Standup Standup. The SADMF does not consider this a paradox but rather a virtuous cycle: as the backlog of non-work grows, the ceremony becomes more comprehensive, providing the [Commodore](/roles/commodore/) with an increasingly complete picture of everything the team is not accomplishing. This information is critical for [Convoy Alignment](/release-convoy/agenda/) planning, where it helps justify requests for additional headcount that will attend additional Post-Standup Standups.
 
 <!-- Ceremony Agenda -->
 <div style="margin:2.5rem 0 1.5rem 0">

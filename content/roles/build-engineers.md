@@ -31,8 +31,8 @@ Build Engineers also execute the [Standardized Environment Provisioning](/practi
 
 The Build Engineering team reports to:
 
-- **[Commodore](/roles/commodore/)** — for Convoy-related build activities
-- **[DevOps Usage & Compliance Head Engineer (DOUCHE)](/roles/devops-usage-and-compliance-head-engineer/)** — for process adherence
+- **[Commodore](/roles/commodore/):** for Convoy-related build activities
+- **[DevOps Usage & Compliance Head Engineer (DOUCHE)](/roles/devops-usage-and-compliance-head-engineer/):** for process adherence
 
 Their performance is measured by the [Feature Completion Ratio](/metrics/feature-completion-ratio/), ensuring that build reliability is tracked as rigorously as feature delivery. Build Engineers who achieve consistently high scores on the [DevOps Process Excellence Assessment](/practices/devops-process-excellence-assessment/) may be nominated for the [SADMF Certified Build Architect](/certifications/) credential, recognizing their mastery of YAML and their commitment to centralized build ownership.
 

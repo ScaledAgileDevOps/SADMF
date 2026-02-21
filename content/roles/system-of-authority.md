@@ -13,9 +13,9 @@ The System of Authority is the organizational layer responsible for implanting S
 
 The SOA operates as a team of teams, with each SOA sub-team assigned to a specific domain of the transformation:
 
-- **Process implementation** — ensures that every practice from [CI/CD/ED](/practices/ci-cd-ed/) to [Release Tracking](/practices/release-tracking/) is adopted according to the specifications in the DevOps Process Binder maintained by the [DOUCHE](/roles/devops-usage-and-compliance-head-engineer/).
-- **Organizational design** — restructures teams into [Feature Teams](/roles/feature-team/) led by [Feature Captains](/roles/feature-captain/) and governed by [Commodores](/roles/commodore/).
-- **Metrics and assessment** — administers the [DevOps Process Excellence Assessment](/practices/devops-process-excellence-assessment/) and calculates the [SADMF Maturity Score](/metrics/sadmf-maturity-score/).
+- **Process implementation:** ensures that every practice from [CI/CD/ED](/practices/ci-cd-ed/) to [Release Tracking](/practices/release-tracking/) is adopted according to the specifications in the DevOps Process Binder maintained by the [DOUCHE](/roles/devops-usage-and-compliance-head-engineer/).
+- **Organizational design:** restructures teams into [Feature Teams](/roles/feature-team/) led by [Feature Captains](/roles/feature-captain/) and governed by [Commodores](/roles/commodore/).
+- **Metrics and assessment:** administers the [DevOps Process Excellence Assessment](/practices/devops-process-excellence-assessment/) and calculates the [SADMF Maturity Score](/metrics/sadmf-maturity-score/).
 
 These sub-teams operate under the unified direction of the [Admiral's Transformation Office (ATO)](/roles/admirals-transformation-office/), ensuring coherence across all transformation activities.
 

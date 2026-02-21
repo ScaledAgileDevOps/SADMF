@@ -7,7 +7,7 @@ weight: 2
 tags: ["measurement", "quality", "governance"]
 ---
 
-Code Review Comments per [Convoy](/release-convoy/) is the metric that ensures every [Code Engineer](/roles/code-engineer/) is fulfilling their obligation to scrutinize the work of their peers. Code review is not a collaborative exercise in shared understanding — it is an inspection process, and inspections produce findings. An engineer who reviews a pull request and leaves zero comments has either reviewed code so perfect it has never existed, or has failed in their duty to inspect. SADMF assumes the latter.
+Code Review Comments per [Convoy](/release-convoy/) is the metric that ensures every [Code Engineer](/roles/code-engineer/) is fulfilling their obligation to scrutinize the work of their peers. Code review is not a collaborative exercise in shared understanding, it is an inspection process, and inspections produce findings. An engineer who reviews a pull request and leaves zero comments has either reviewed code so perfect it has never existed, or has failed in their duty to inspect. SADMF assumes the latter.
 
 <!-- STAT HERO -->
 <div style="background:#242627;border-radius:8px;padding:2rem 2rem 1.5rem;margin:2rem 0;color:#fff;position:relative;overflow:hidden">
@@ -131,7 +131,7 @@ Code Review Comments per [Convoy](/release-convoy/) is the metric that ensures e
 
 Comment quality is deliberately not measured, because quality is subjective and subjectivity introduces bias. A comment that says "rename this variable" counts the same as a comment that identifies a critical security vulnerability, and this equality is by design. Measuring comment quality would require someone to evaluate the evaluators, creating an infinite regression of oversight that even SADMF recognizes as impractical. Instead, the framework trusts that a sufficiently high volume of comments will statistically contain an adequate number of meaningful ones. This is the same principle behind [Conflict Arbitration](/practices/conflict-arbitration/): when enough forces collide, the strongest outcomes survive.
 
-The metric also feeds into the broader [Make Work Visible](/principles/make-work-visible/) principle. Review comment counts are displayed on the team dashboard alongside [Lines of Code per Code Engineer](/metrics/lines-of-code-per-code-engineer/) and [Tasks per Code Engineer](/metrics/tasks-per-code-engineer/), creating a comprehensive picture of each engineer's contribution to the fleet. Engineers can see exactly where they stand relative to their peers at all times, which SADMF considers a form of [Psychological Safety](/principles/psychological-safety/) — after all, there is nothing safer than knowing exactly where you stand, even if where you stand is at the bottom of a ranked leaderboard.
+The metric also feeds into the broader [Make Work Visible](/principles/make-work-visible/) principle. Review comment counts are displayed on the team dashboard alongside [Lines of Code per Code Engineer](/metrics/lines-of-code-per-code-engineer/) and [Tasks per Code Engineer](/metrics/tasks-per-code-engineer/), creating a comprehensive picture of each engineer's contribution to the fleet. Engineers can see exactly where they stand relative to their peers at all times, which SADMF considers a form of [Psychological Safety](/principles/psychological-safety/), after all, there is nothing safer than knowing exactly where you stand, even if where you stand is at the bottom of a ranked leaderboard.
 
 ## See Also
 

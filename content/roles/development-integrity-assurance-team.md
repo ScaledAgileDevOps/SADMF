@@ -13,9 +13,9 @@ The Development Integrity Assurance Team addresses a question that most organiza
 
 The DIAT is composed of senior-level practitioners who have demonstrated deep expertise in their respective domains and have achieved high scores on the [DevOps Process Excellence Assessment](/practices/devops-process-excellence-assessment/):
 
-- **Senior [Code Engineers](/roles/code-engineer/)** — bring deep knowledge of code behavior and edge cases
-- **Senior [Build Engineers](/roles/build-engineers/)** — contribute expertise in environment configuration and build artifacts
-- **Senior Designers** — provide perspective on requirements interpretation and user intent
+- **Senior [Code Engineers](/roles/code-engineer/):** bring deep knowledge of code behavior and edge cases
+- **Senior [Build Engineers](/roles/build-engineers/):** contribute expertise in environment configuration and build artifacts
+- **Senior Designers:** provide perspective on requirements interpretation and user intent
 
 This seniority is essential because the DIAT must be able to identify subtle errors that less experienced practitioners would miss. A junior Code Engineer might accept a test result at face value, but a senior DIAT member will examine the test steps, the test data, the environment configuration, and the screenshots to confirm that the test actually validated what it claimed to validate. The DIAT's review is forensic in nature, treating each test execution as evidence that must withstand scrutiny.
 

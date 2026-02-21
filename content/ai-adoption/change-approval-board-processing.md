@@ -13,13 +13,13 @@ Regardless of size, impact, or testing status, every AI-generated change must go
 
 The full CAB workflow for AI-generated changes, designated as the AI Output Change Processing Protocol (AOCPP), consists of seven sequential phases:
 
-1. **Phase 1 — Change Registration Phase (CRP)**: The change is entered into the Change Management Registry (CMR) with a unique Change Tracking Identifier (CTI) and linked to its originating [Fully Documented Requirements Package](/ai-adoption/fully-documented-requirements-package/) reference.
-2. **Phase 2 — Technical Impact Assessment (TIA)**: Conducted by the [Enterprise Architecture Review Board (EARB)](/roles/enterprise-architecture-review-board/), which evaluates the change's effect on system architecture, data flow, and integration points.
-3. **Phase 3 — Security Implications Review (SIR)**: Assesses potential security impacts regardless of whether the change touches security-relevant code.
-4. **Phase 4 — Compliance Mapping Verification (CMV)**: Confirms that the change does not violate any regulatory requirements documented in the Regulatory Assurance Matrix (RAMx).
-5. **Phase 5 — Stakeholder Notification Period (SNP)**: A mandatory 5-business-day waiting period during which all stakeholders are notified of the pending change and given the opportunity to raise objections.
-6. **Phase 6 — CAB Deliberation Session (CDS)**: A formal meeting where all evidence from Phases 1-5 is presented and the CAB renders a Deployment Authorization Decision (DAD).
-7. **Phase 7 — Post-Decision Documentation Phase (PDDP)**: The CAB's decision, rationale, and any conditions are recorded in the Governance Decision Archive (GDA).
+1. **Phase 1, Change Registration Phase (CRP)**: The change is entered into the Change Management Registry (CMR) with a unique Change Tracking Identifier (CTI) and linked to its originating [Fully Documented Requirements Package](/ai-adoption/fully-documented-requirements-package/) reference.
+2. **Phase 2, Technical Impact Assessment (TIA)**: Conducted by the [Enterprise Architecture Review Board (EARB)](/roles/enterprise-architecture-review-board/), which evaluates the change's effect on system architecture, data flow, and integration points.
+3. **Phase 3, Security Implications Review (SIR)**: Assesses potential security impacts regardless of whether the change touches security-relevant code.
+4. **Phase 4, Compliance Mapping Verification (CMV)**: Confirms that the change does not violate any regulatory requirements documented in the Regulatory Assurance Matrix (RAMx).
+5. **Phase 5, Stakeholder Notification Period (SNP)**: A mandatory 5-business-day waiting period during which all stakeholders are notified of the pending change and given the opportunity to raise objections.
+6. **Phase 6, CAB Deliberation Session (CDS)**: A formal meeting where all evidence from Phases 1-5 is presented and the CAB renders a Deployment Authorization Decision (DAD).
+7. **Phase 7, Post-Decision Documentation Phase (PDDP)**: The CAB's decision, rationale, and any conditions are recorded in the Governance Decision Archive (GDA).
 
 ## The CAB Deliberation Session (CDS)
 

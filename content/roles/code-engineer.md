@@ -11,10 +11,10 @@ While other roles plan, assess, review, track, and govern, the Code Engineer per
 
 The Code Engineer does not perform activities outside their lane:
 
-- **Architecture** — that is the domain of the [Enterprise Architecture Review Board](/roles/enterprise-architecture-review-board/)
-- **Testing** — that is the domain of the [Unit Tester](/roles/unit-tester/) and [Quality Authority](/roles/quality-authority/)
-- **Branch management** — that is the domain of the [Source Management Team](/roles/source-management-team/)
-- **Build configuration** — that is the domain of the [Build Engineers](/roles/build-engineers/)
+- **Architecture:** that is the domain of the [Enterprise Architecture Review Board](/roles/enterprise-architecture-review-board/)
+- **Testing:** that is the domain of the [Unit Tester](/roles/unit-tester/) and [Quality Authority](/roles/quality-authority/)
+- **Branch management:** that is the domain of the [Source Management Team](/roles/source-management-team/)
+- **Build configuration:** that is the domain of the [Build Engineers](/roles/build-engineers/)
 
 The Code Engineer types code. That is the job.
 
@@ -42,9 +42,9 @@ At no point does the Code Engineer interact directly with the production system,
 
 Code Engineers are measured by:
 
-- **[Feature Completion Ratio](/metrics/feature-completion-ratio/)** — the volume of planned features completed
-- **CSET first-pass approval rate** — the percentage of submissions approved without rework
-- **[DevOps Process Excellence Assessment](/practices/devops-process-excellence-assessment/) scores** — adherence to framework practices
+- **[Feature Completion Ratio](/metrics/feature-completion-ratio/):** the volume of planned features completed
+- **CSET first-pass approval rate:** the percentage of submissions approved without rework
+- **[DevOps Process Excellence Assessment](/practices/devops-process-excellence-assessment/) scores:** adherence to framework practices
 
 Performance data is compiled by the [Chief Signals Officer](/roles/chief-signals-officer/) and reviewed at the [Tribunal](/release-convoy/ceremonies/tribunal/), where Code Engineers whose metrics fall below acceptable thresholds receive coaching, reassignment, or additional process training. Code Engineers who demonstrate consistent excellence may be considered for advancement to the [CSET](/roles/code-standards-enforcement-team/) or the [Development Integrity Assurance Team (DIAT)](/roles/development-integrity-assurance-team/), roles that allow them to review and judge the work of their former peers. This career path reinforces the principle that the highest form of engineering is not writing code but evaluating it.
 

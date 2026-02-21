@@ -13,9 +13,9 @@ Verifying quality is a specialist field that no [Code Engineer](/roles/code-engi
 
 The Quality Authority is the final arbiter of what the requirements mean:
 
-- **Ambiguous requirements** — when a requirement is ambiguous, as requirements inevitably are, the Quality Authority interprets it.
-- **Conflicting requirements** — when a requirement conflicts with another requirement, the Quality Authority resolves the conflict.
-- **Implementation disputes** — when a [Code Engineer](/roles/code-engineer/) implements a requirement differently than the Quality Authority expected, the Quality Authority's interpretation prevails, because the Quality Authority has studied the requirements more deeply than any Code Engineer, who was focused on typing the code rather than understanding the broader business context.
+- **Ambiguous requirements:** when a requirement is ambiguous, as requirements inevitably are, the Quality Authority interprets it.
+- **Conflicting requirements:** when a requirement conflicts with another requirement, the Quality Authority resolves the conflict.
+- **Implementation disputes:** when a [Code Engineer](/roles/code-engineer/) implements a requirement differently than the Quality Authority expected, the Quality Authority's interpretation prevails, because the Quality Authority has studied the requirements more deeply than any Code Engineer, who was focused on typing the code rather than understanding the broader business context.
 
 The Quality Authority maintains a Requirements Interpretation Log that records every interpretive decision, creating an authoritative reference that prevents the same ambiguity from being re-debated in future Convoys.
 
@@ -40,9 +40,9 @@ The Quality Authority's sign-off is a prerequisite for the [Change Rejection or 
 
 Quality Authority members are measured by:
 
-- **Defects found during testing** — more is better, as it indicates thorough testing
-- **Production defects found after release** — fewer is better, as it indicates effective testing
-- **[DevOps Process Excellence Assessment](/practices/devops-process-excellence-assessment/) scores** — adherence to framework practices
+- **Defects found during testing:** more is better, as it indicates thorough testing
+- **Production defects found after release:** fewer is better, as it indicates effective testing
+- **[DevOps Process Excellence Assessment](/practices/devops-process-excellence-assessment/) scores:** adherence to framework practices
 
 The Quality Authority does not ship fast; the Quality Authority ships right.
 

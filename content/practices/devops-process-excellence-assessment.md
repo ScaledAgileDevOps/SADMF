@@ -12,8 +12,8 @@ While other frameworks rely on team-level retrospectives or voluntary feedback m
 
 The Assessment consists of two components:
 
-- **Self-Reported Compliance Survey** — 200 questions covering every aspect of SADMF practice
-- **Framework Knowledge Examination** — a 45-minute timed test of memorized framework material
+- **Self-Reported Compliance Survey:** 200 questions covering every aspect of SADMF practice
+- **Framework Knowledge Examination:** a 45-minute timed test of memorized framework material
 
 {{< practices-dpea-pipeline >}}
 
@@ -40,12 +40,12 @@ The test is intentionally **closed-book**. The ability to look up information wh
 
 Assessment results are compiled into an individual **Excellence Score**, which is plotted on a mandatory bell curve. The bell curve ensures that regardless of how well the organization performs in absolute terms, a fixed percentage of individuals will be identified as underperformers.
 
-This is by design. The purpose of the bell curve is not to punish low performers but to ensure that the organization never becomes complacent. If every person scored in the top tier, the Assessment would fail to differentiate — and differentiation is the foundation of accountability.
+This is by design. The purpose of the bell curve is not to punish low performers but to ensure that the organization never becomes complacent. If every person scored in the top tier, the Assessment would fail to differentiate, and differentiation is the foundation of accountability.
 
 Score outcomes are as follows:
 
-- **Bottom 10%** — automatically referred to the [Tribunal](/release-convoy/ceremonies/tribunal/) for review; Excellence Scores are appended to their [PeopleWare](/peopleware/) profiles as permanent records
-- **Top 10%** — receive a Certificate of Excellence, permanently recorded in their [PeopleWare](/peopleware/) profile as formal acknowledgement of distinguished Framework performance
+- **Bottom 10%:** automatically referred to the [Tribunal](/release-convoy/ceremonies/tribunal/) for review; Excellence Scores are appended to their [PeopleWare](/peopleware/) profiles as permanent records
+- **Top 10%:** receive a Certificate of Excellence, permanently recorded in their [PeopleWare](/peopleware/) profile as formal acknowledgement of distinguished Framework performance
 
 {{< practices-dpea-bell-curve >}}
 

@@ -9,9 +9,9 @@ tags: ["testing", "quality", "defects"]
 
 [Code Engineers](/roles/code-engineer/) should be focusing on writing code. This principle, so simple and so often ignored, is the foundation of the Unit Tester role. In organizations that lack this role, Code Engineers are expected to write their own unit tests, a practice that introduces three compounding problems:
 
-1. **Feature Completion Ratio erosion** — it diverts coding capacity toward testing, reducing the [Feature Completion Ratio](/metrics/feature-completion-ratio/) by consuming time that should be spent on features.
-2. **Conflict of interest** — a Code Engineer who writes tests for their own code will unconsciously write tests that confirm their assumptions rather than challenge them.
-3. **Systems Thinking blur** — it blurs the [Systems Thinking](/principles/systems-thinking/) that SADMF depends upon, mixing production code and test code in the same mental context and the same workflow.
+1. **Feature Completion Ratio erosion:** it diverts coding capacity toward testing, reducing the [Feature Completion Ratio](/metrics/feature-completion-ratio/) by consuming time that should be spent on features.
+2. **Conflict of interest:** a Code Engineer who writes tests for their own code will unconsciously write tests that confirm their assumptions rather than challenge them.
+3. **Systems Thinking blur:** it blurs the [Systems Thinking](/principles/systems-thinking/) that SADMF depends upon, mixing production code and test code in the same mental context and the same workflow.
 
 The Unit Tester role resolves all three problems by establishing a dedicated specialist who writes unit tests after the code is delivered.
 
@@ -41,9 +41,9 @@ The Unit Tester role is distinct from the [Quality Authority](/roles/quality-aut
 
 Unit Testers are measured by:
 
-- **Tests written per Convoy** — the volume of test coverage produced each delivery cycle
-- **Code coverage percentage** — the proportion of production code exercised by their tests
-- **[DevOps Process Excellence Assessment](/practices/devops-process-excellence-assessment/) scores** — adherence to framework practices
+- **Tests written per Convoy:** the volume of test coverage produced each delivery cycle
+- **Code coverage percentage:** the proportion of production code exercised by their tests
+- **[DevOps Process Excellence Assessment](/practices/devops-process-excellence-assessment/) scores:** adherence to framework practices
 
 Unit Testers who achieve high coverage while maintaining test quality may be recognized at the [Tribunal](/release-convoy/ceremonies/tribunal/) and considered for advancement to the [DIAT](/roles/development-integrity-assurance-team/), where they can apply their testing expertise to validating the work of the Quality Authority.
 
