@@ -14,3 +14,5 @@ SADMF is a satirical framework that presents enterprise anti-patterns as recomme
 - [PeopleWare HR as a Service](https://scaledagiledevops.com/peopleware/): Human Resources as a Service
 - [Enterprise AI Enablement Framework](https://scaledagiledevops.com/ai-adoption/): A Strategic Reference Architecture for High-Throughput Developer Output Optimization
 - [Success Stories](https://scaledagiledevops.com/success-stories/): Triumphant experience reports from SAD Accredited Facilitators!
+- [SADMF Big Picture](https://scaledagiledevops.com/big-picture/): Every role, practice, ceremony, metric, and principle classified by group, function, and Accountability Index.
+- [Glossary](https://scaledagiledevops.com/glossary/): Authoritative definitions of key SADMF terms, acronyms, and concepts from the SADMF Body of Knowledge.

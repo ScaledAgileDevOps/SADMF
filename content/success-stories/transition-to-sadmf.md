@@ -40,7 +40,7 @@ tags: ["governance", "certification", "compliance"]
 
 Some companies have steep hierarchies where managers are labeled by letters and [numbers](https://www.youtube.com/watch?v=hphXPJJMl7g). When discussing these positions, it can sound like a game of chess: "F2 to E1." This case study features one such company that, until recently, was a moderately happy place where development teams even deployed code from time to time. However, according to an article in a management magazine, they were not performing among the top 5% of companies worldwide, such as Google, Apple, Facebook, and Amazon. As a result, management decided to implement the [Scaled Agile Dev Ops Maturity Framework](https://scaledagiledevops.com), which, surprisingly, nobody at Google, Apple, Facebook, or Amazon had ever heard of. This article shares their success story, implementation roadmap, and important tips for anyone considering implementing this or any other scaling framework.
 
-![Roadmap with Snake and Compass](/images/transition-to-sadmf/f8c0f7619a873ad5a9d97e31188e7eff1445d43024225819.jpg)
+![Roadmap with Snake and Compass](/images/transition-to-sadmf/sadmf-implementation-roadmap.jpg)
 
 * Pix by [Vizetelly](https://pixabay.com/de/illustrations/korallenschlange-schlange-7665521/) and [Ylanite Koppens](https://pixabay.com/de/users/ylanite-2218222/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2946959) at PixaBay
 
@@ -111,7 +111,7 @@ Ensure that the new team communicates with each other at least three times in so
 
 Choosing a framework was easy since the consultants only knew about the [Scaled Agile DevOps Maturity Framework](https://scaledagiledevops.com/). For team building purposes, management had the TTECCCT meet and asked them to create a collage of logos from at least five SAD competitors by searching for them on Google.
 
-![Logos of all major players](/images/transition-to-sadmf/79e648a460ddb99841509803df455e25aac0063bf0c7e7b9.jpg)
+![Logos of all major players](/images/transition-to-sadmf/agile-framework-parody-logos.jpg)
 
 * All logo rights are reserved by their owners.
 
@@ -146,7 +146,7 @@ The largest out-of-the-box implementation of SAD comes with only sixteen new rol
 
 The SAD roles were quickly distributed among the **TTECCCT.** Members also received complete freedom to add additional phrases to their roles to emphasize their immense importance in the transformed organization. They also redefined preexisting roles to ensure that the resources knew their place. After all, transitions are about protecting the fiefdoms.
 
-![I don't know why meme](/images/transition-to-sadmf/8f6bc8c1abfa6db3c62fd3efc2ba56bf428dac358a681e6f.jpg)
+![I don't know why meme](/images/transition-to-sadmf/afraid-to-ask-sadmf-meme.jpg)
 
 {{% pageinfo color="info" %}}
 **Hint:**
@@ -218,7 +218,7 @@ Controlling the narrative is hard when every release convoy is exposed to the SA
 Should a resource ask questions at this point, claim they are not yet in a mature state according to the change curve shown below. The consultants certainly would be willing to work on the resource's values, principles, behaviors, culture and religious belief systems to help them overcome their negativity and transition to compliance.
 {{% /pageinfo %}}
 
-![Elisabeth Kubler-Ross Change Curve](/images/transition-to-sadmf/46e79f7131df8f875b1ddf9ae9eb38d840a6dc638b0deb6e.jpg)
+![Elisabeth Kubler-Ross Change Curve](/images/transition-to-sadmf/morale-competence-curve.jpg)
 
 * Adapted from Dr. Elisabeth Kubler-Ross, 1969
 
@@ -264,13 +264,13 @@ Now, go to all of your management friends and tell them about your [**success**]
 
 This tool is part of any [mushroom management](https://en.wikipedia.org/wiki/Mushroom_management) initiative and by common law needs to be deployed together with DevOps, Agile, Lean, Digitization, New Work, Industrial Revolution, or any other known or future change project.
 
-![Jira is crap](/images/transition-to-sadmf/257cfab0f75875ee5bf85919f07d0f4fd2fa745f91951477.png)
+![Jira is crap](/images/transition-to-sadmf/gpt-fails-jira-tweet.png)
 
 * GPT-10 understood Jira and started an all-out war against Atlassian!
 
 Management has made this a multi-level system portfolio enterprise configuration, so no single team has been able to achieve anything on their own, needing a steep hierarchy with approvals and informing management at the top for even going to the restroom. Now management is enabled to tell anyone in the newly defined organization that they are doing "it" [wrong](https://www.youtube.com/watch?v=AjSOQodHYJs) at any point in time.
 
-![This is Madness](/images/transition-to-sadmf/7d6795284fbd8d63bcb84bcb908470d3c71ad2b44b37e5af.png)
+![This is Madness](/images/transition-to-sadmf/safe-backlog-hierarchy.png)
 
 * Exaggeration just for teaching purposes, no one in their right mind would use something like this, source: [https://scaledagileframework.com](https://scaledagileframework.com)
 
@@ -293,7 +293,7 @@ The above made-up Jira work-item structure perfectly aligns with the future need
 
 Management claimed that nobody has been delivering any real value, but decided not to measure value. Instead, they decided to measure the speed of delivery. The DevOps initiative was declared **successful**, so there was no risk of metrics making management look bad anymore. They got the consultants to write Jira queries and ordered the teams to provide exactly the same numbers by hand, guaranteeing the four-eyes principle.
 
-![Count Count](/images/transition-to-sadmf/7b7c3bddfe29a867d985739b0d9a1643f3b86ac55a79860f.jpg)
+![Count Count](/images/transition-to-sadmf/count-von-count-number-8.jpg)
 
 * Picture courtesy of BBC News Network
 

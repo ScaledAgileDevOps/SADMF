@@ -68,3 +68,17 @@ URL: https://scaledagiledevops.com/success-stories/
 Description: Triumphant experience reports from SAD Accredited Facilitators!
 
 Real testimonials and case studies from organizations that have successfully implemented SADMF practices.
+
+## SADMF Big Picture
+
+URL: https://scaledagiledevops.com/big-picture/
+Description: Every role, practice, ceremony, metric, and principle classified by group, function, and Accountability Index.
+
+A comprehensive reference diagram classifying all SADMF elements — roles, practices, ceremonies, metrics, and principles — by group, function, and Accountability Index.
+
+## Glossary
+
+URL: https://scaledagiledevops.com/glossary/
+Description: Authoritative definitions of key SADMF terms, acronyms, and concepts from the SADMF Body of Knowledge.
+
+Authoritative definitions of SADMF terminology, including the intentionally absurd acronyms (CRAP, DOUCHE, DEPRESSED, etc.) and all framework-specific concepts.
