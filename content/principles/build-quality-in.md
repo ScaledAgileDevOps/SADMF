@@ -3,7 +3,7 @@ title: "Build Quality In"
 linkTitle: "Build Quality In"
 type: docs
 description: Quality software comes from quality people. To build quality in, we remove the things that reduce quality.
-weight: 1
+weight: 11
 tags: ["quality", "testing"]
 ---
 

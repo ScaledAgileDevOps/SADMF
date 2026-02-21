@@ -3,7 +3,7 @@ title: "Work in Small Batches"
 linkTitle: "Work in Small Batches"
 type: docs
 description: Too many releases are hard to report and manage. We focus on a small number of large releases each quarter to reduce overhead.
-weight: 2
+weight: 9
 tags: ["planning", "governance"]
 ---
 

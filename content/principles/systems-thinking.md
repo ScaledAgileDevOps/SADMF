@@ -3,7 +3,7 @@ title: "Systems Thinking"
 linkTitle: "Systems Thinking"
 type: docs
 description: The SADMF is built upon systems thinking, with two bureaucratic systems operating under the Admiral's Transformation Office.
-weight: 7
+weight: 1
 tags: ["governance"]
 ---
 

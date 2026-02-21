@@ -3,7 +3,7 @@ title: "Limit WIP"
 linkTitle: "Limit WIP"
 type: docs
 description: The Workers Idle Problem occurs when resources are underutilized. Planning at 120% capacity ensures no engineer is ever without assigned work.
-weight: 3
+weight: 5
 tags: ["planning", "governance"]
 ---
 

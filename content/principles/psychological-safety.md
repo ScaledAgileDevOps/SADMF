@@ -3,7 +3,7 @@ title: "Psychological Safety"
 linkTitle: "Psychological Safety"
 type: docs
 description: Automated systems handle difficult personnel decisions so managers never face uncomfortable conversations.
-weight: 6
+weight: 4
 tags: ["communication", "governance"]
 ---
 

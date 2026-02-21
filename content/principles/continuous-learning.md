@@ -3,7 +3,7 @@ title: "Continuous Learning"
 linkTitle: "Continuous Learning"
 type: docs
 description: Mandatory certifications and approved workshops ensure that learning is structured, tracked, and billable.
-weight: 8
+weight: 3
 tags: ["certification", "governance"]
 ---
 

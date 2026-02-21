@@ -3,7 +3,7 @@ title: "Everyone is Responsible"
 linkTitle: "Everyone is Responsible"
 type: docs
 description: Each individual is responsible for their own work and should be rewarded or held accountable for the outcomes they produce.
-weight: 5
+weight: 7
 tags: ["governance", "compliance"]
 ---
 

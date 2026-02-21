@@ -3,7 +3,7 @@ title: "Lean Management"
 linkTitle: "Lean Management"
 type: docs
 description: Adding management layers to identify and eliminate waste ensures that no inefficiency goes unmanaged.
-weight: 9
+weight: 2
 tags: ["planning", "governance"]
 ---
 

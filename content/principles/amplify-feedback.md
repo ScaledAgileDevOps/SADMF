@@ -3,7 +3,7 @@ title: "Amplify Feedback"
 linkTitle: "Amplify Feedback"
 type: docs
 description: Coaching employees is an important daily practice to ensure they know we are tracking their work and care about their output.
-weight: 4
+weight: 6
 tags: ["communication", "governance"]
 ---
 
