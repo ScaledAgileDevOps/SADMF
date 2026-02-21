@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="SADMF Accredited Facilitator Certification Badge">
+  <defs>
+    <linearGradient id="af-goldV" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f7ea7a"/>
+      <stop offset="40%" stop-color="#c9a840"/>
+      <stop offset="100%" stop-color="#7a5010"/>
+    </linearGradient>
+    <linearGradient id="af-goldRib" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#b08820"/>
+      <stop offset="30%" stop-color="#f0dc60"/>
+      <stop offset="70%" stop-color="#f0dc60"/>
+      <stop offset="100%" stop-color="#b08820"/>
+    </linearGradient>
+    <radialGradient id="af-navy" cx="45%" cy="38%" r="68%">
+      <stop offset="0%" stop-color="#253878"/>
+      <stop offset="100%" stop-color="#0d1838"/>
+    </radialGradient>
+    <path id="af-arc" d="M 80,80 A 68,68 0 0,1 176,80"/>
+  </defs>
+
+  <!-- Scalloped outer teeth (24 teeth at 15° intervals) -->
+  <polygon points="128,18 124,40 132,40" fill="url(#af-goldV)" transform="rotate(0,128,128)"/>
+  <polygon points="128,18 124,40 132,40" fill="url(#af-goldV)" transform="rotate(15,128,128)"/>
+  <polygon points="128,18 124,40 132,40" fill="url(#af-goldV)" transform="rotate(30,128,128)"/>
+  <polygon points="128,18 124,40 132,40" fill="url(#af-goldV)" transform="rotate(45,128,128)"/>
+  <polygon points="128,18 124,40 132,40" fill="url(#af-goldV)" transform="rotate(60,128,128)"/>
+  <polygon points="128,18 124,40 132,40" fill="url(#af-goldV)" transform="rotate(75,128,128)"/>
+  <polygon points="128,18 124,40 132,40" fill="url(#af-goldV)" transform="rotate(90,128,128)"/>
+  <polygon points="128,18 124,40 132,40" fill="url(#af-goldV)" transform="rotate(105,128,128)"/>
+  <polygon points="128,18 124,40 132,40" fill="url(#af-goldV)" transform="rotate(120,128,128)"/>
+  <polygon points="128,18 124,40 132,40" fill="url(#af-goldV)" transform="rotate(135,128,128)"/>
+  <polygon points="128,18 124,40 132,40" fill="url(#af-goldV)" transform="rotate(150,128,128)"/>
+  <polygon points="128,18 124,40 132,40" fill="url(#af-goldV)" transform="rotate(165,128,128)"/>
+  <polygon points="128,18 124,40 132,40" fill="url(#af-goldV)" transform="rotate(180,128,128)"/>
+  <polygon points="128,18 124,40 132,40" fill="url(#af-goldV)" transform="rotate(195,128,128)"/>
+  <polygon points="128,18 124,40 132,40" fill="url(#af-goldV)" transform="rotate(210,128,128)"/>
+  <polygon points="128,18 124,40 132,40" fill="url(#af-goldV)" transform="rotate(225,128,128)"/>
+  <polygon points="128,18 124,40 132,40" fill="url(#af-goldV)" transform="rotate(240,128,128)"/>
+  <polygon points="128,18 124,40 132,40" fill="url(#af-goldV)" transform="rotate(255,128,128)"/>
+  <polygon points="128,18 124,40 132,40" fill="url(#af-goldV)" transform="rotate(270,128,128)"/>
+  <polygon points="128,18 124,40 132,40" fill="url(#af-goldV)" transform="rotate(285,128,128)"/>
+  <polygon points="128,18 124,40 132,40" fill="url(#af-goldV)" transform="rotate(300,128,128)"/>
+  <polygon points="128,18 124,40 132,40" fill="url(#af-goldV)" transform="rotate(315,128,128)"/>
+  <polygon points="128,18 124,40 132,40" fill="url(#af-goldV)" transform="rotate(330,128,128)"/>
+  <polygon points="128,18 124,40 132,40" fill="url(#af-goldV)" transform="rotate(345,128,128)"/>
+
+  <!-- Gold disc -->
+  <circle cx="128" cy="128" r="93" fill="url(#af-goldV)"/>
+
+  <!-- Navy inner disc -->
+  <circle cx="128" cy="128" r="83" fill="url(#af-navy)"/>
+
+  <!-- Pink accent ring -->
+  <circle cx="128" cy="128" r="76" fill="none" stroke="#a23b72" stroke-width="3"/>
+
+  <!-- Thin gold detail ring -->
+  <circle cx="128" cy="128" r="80" fill="none" stroke="#c9a840" stroke-width="0.75" opacity="0.55"/>
+
+  <!-- ── Presenter scene (centered in disc, y offset +16 from original) ── -->
+  <!-- Whiteboard / screen -->
+  <rect x="130" y="93" width="30" height="22" rx="2" fill="none" stroke="white" stroke-width="2"/>
+  <!-- Easel legs -->
+  <line x1="132" y1="115" x2="130" y2="124" stroke="white" stroke-width="1.5"/>
+  <line x1="158" y1="115" x2="160" y2="124" stroke="white" stroke-width="1.5"/>
+  <!-- Board content: upward arrow chart -->
+  <polyline points="134,112 140,108 147,104 153,101" fill="none" stroke="#4bc8e8" stroke-width="1.8" stroke-linecap="round"/>
+
+  <!-- Presenter (standing, facing right) -->
+  <circle cx="112" cy="97" r="7" fill="white"/>
+  <line x1="112" y1="104" x2="112" y2="124" stroke="white" stroke-width="2.8"/>
+  <line x1="112" y1="111" x2="130" y2="105" stroke="white" stroke-width="2"/>
+  <line x1="112" y1="111" x2="106" y2="121" stroke="white" stroke-width="2"/>
+  <line x1="112" y1="124" x2="107" y2="138" stroke="white" stroke-width="2.2"/>
+  <line x1="112" y1="124" x2="117" y2="138" stroke="white" stroke-width="2.2"/>
+
+  <!-- Student 1 (seated, left) -->
+  <circle cx="113" cy="152" r="5.5" fill="white" opacity="0.88"/>
+  <line x1="113" y1="158" x2="113" y2="169" stroke="white" stroke-width="2.2" opacity="0.88"/>
+  <line x1="113" y1="162" x2="107" y2="166" stroke="white" stroke-width="1.8" opacity="0.88"/>
+  <line x1="113" y1="162" x2="119" y2="166" stroke="white" stroke-width="1.8" opacity="0.88"/>
+  <line x1="113" y1="169" x2="107" y2="174" stroke="white" stroke-width="2" opacity="0.88"/>
+  <line x1="113" y1="169" x2="119" y2="174" stroke="white" stroke-width="2" opacity="0.88"/>
+
+  <!-- Student 2 (seated, right) -->
+  <circle cx="137" cy="152" r="5.5" fill="white" opacity="0.88"/>
+  <line x1="137" y1="158" x2="137" y2="169" stroke="white" stroke-width="2.2" opacity="0.88"/>
+  <line x1="137" y1="162" x2="131" y2="166" stroke="white" stroke-width="1.8" opacity="0.88"/>
+  <line x1="137" y1="162" x2="143" y2="166" stroke="white" stroke-width="1.8" opacity="0.88"/>
+  <line x1="137" y1="169" x2="131" y2="174" stroke="white" stroke-width="2" opacity="0.88"/>
+  <line x1="137" y1="169" x2="143" y2="174" stroke="white" stroke-width="2" opacity="0.88"/>
+
+  <!-- SADMF arced text at top -->
+  <text font-family="Georgia,'Palatino Linotype',serif" font-size="16" font-weight="bold" fill="#e8c84a" letter-spacing="6" stroke="#7a5010" stroke-width="0.5">
+    <textPath href="#af-arc" startOffset="50%" text-anchor="middle">SADMF</textPath>
+  </text>
+
+  <!-- Ribbon banner overlapping the bottom of the disc -->
+  <!-- Left tail -->
+  <polygon points="46,205 28,219 46,233" fill="#8a6008"/>
+  <!-- Right tail -->
+  <polygon points="210,205 228,219 210,233" fill="#8a6008"/>
+  <!-- Main ribbon band -->
+  <rect x="46" y="205" width="164" height="28" fill="url(#af-goldRib)"/>
+  <!-- Ribbon text — two lines -->
+  <text x="128" y="217" text-anchor="middle"
+        font-family="'Trebuchet MS','Segoe UI',Helvetica,Arial,sans-serif"
+        font-size="8.5" font-weight="bold" fill="#0d1838" letter-spacing="2">SAD ACCREDITED</text>
+  <text x="128" y="229" text-anchor="middle"
+        font-family="'Trebuchet MS','Segoe UI',Helvetica,Arial,sans-serif"
+        font-size="9" font-weight="bold" fill="#0d1838" letter-spacing="2">FACILITATOR</text>
+</svg>

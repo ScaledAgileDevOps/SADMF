@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="SADMF Fellow Certification Badge">
+  <defs>
+    <linearGradient id="f-goldV" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f7ea7a"/>
+      <stop offset="40%" stop-color="#c9a840"/>
+      <stop offset="100%" stop-color="#7a5010"/>
+    </linearGradient>
+    <radialGradient id="f-navy" cx="45%" cy="38%" r="68%">
+      <stop offset="0%" stop-color="#253878"/>
+      <stop offset="100%" stop-color="#0d1838"/>
+    </radialGradient>
+    <path id="f-arc" d="M 80,80 A 68,68 0 0,1 176,80"/>
+  </defs>
+
+  <!-- Gold outer disc (r=96, matching other badges) -->
+  <circle cx="128" cy="128" r="96" fill="url(#f-goldV)"/>
+
+  <!-- Navy inner disc -->
+  <circle cx="128" cy="128" r="87" fill="url(#f-navy)"/>
+
+  <!-- Pink accent ring -->
+  <circle cx="128" cy="128" r="80" fill="none" stroke="#a23b72" stroke-width="3"/>
+
+  <!-- Thin gold detail ring -->
+  <circle cx="128" cy="128" r="83" fill="none" stroke="#c9a840" stroke-width="0.75" opacity="0.55"/>
+
+  <!-- ── Bar chart icon ── centered around (128,118) -->
+  <line x1="106" y1="136" x2="152" y2="136" stroke="white" stroke-width="1.8"/>
+  <rect x="109" y="122" width="10" height="14" rx="1" fill="white" opacity="0.9"/>
+  <rect x="123" y="111" width="10" height="25" rx="1" fill="white"/>
+  <rect x="137" y="102" width="10" height="34" rx="1" fill="url(#f-goldV)" opacity="0.95"/>
+
+  <!-- ── Laurel branches ── -->
+  <!-- Left branch -->
+  <g stroke="#8ec832" stroke-width="1.5" fill="none" stroke-linecap="round">
+    <path d="M 98,136 Q 92,118 96,100"/>
+    <ellipse cx="90" cy="129" rx="7" ry="4" fill="#8ec832" stroke="none" transform="rotate(-50,90,129)" opacity="0.9"/>
+    <ellipse cx="87" cy="117" rx="7" ry="4" fill="#8ec832" stroke="none" transform="rotate(-60,87,117)" opacity="0.85"/>
+    <ellipse cx="88" cy="105" rx="7" ry="4" fill="#8ec832" stroke="none" transform="rotate(-70,88,105)" opacity="0.9"/>
+    <ellipse cx="93" cy="95"  rx="6" ry="3.5" fill="#8ec832" stroke="none" transform="rotate(-80,93,95)" opacity="0.8"/>
+  </g>
+  <!-- Right branch (mirror) -->
+  <g stroke="#8ec832" stroke-width="1.5" fill="none" stroke-linecap="round">
+    <path d="M 158,136 Q 164,118 160,100"/>
+    <ellipse cx="166" cy="129" rx="7" ry="4" fill="#8ec832" stroke="none" transform="rotate(50,166,129)" opacity="0.9"/>
+    <ellipse cx="169" cy="117" rx="7" ry="4" fill="#8ec832" stroke="none" transform="rotate(60,169,117)" opacity="0.85"/>
+    <ellipse cx="168" cy="105" rx="7" ry="4" fill="#8ec832" stroke="none" transform="rotate(70,168,105)" opacity="0.9"/>
+    <ellipse cx="163" cy="95"  rx="6" ry="3.5" fill="#8ec832" stroke="none" transform="rotate(80,163,95)" opacity="0.8"/>
+  </g>
+
+  <!-- SADMF arced text at top -->
+  <text font-family="Georgia,'Palatino Linotype',serif" font-size="16" font-weight="bold" fill="#e8c84a" letter-spacing="6" stroke="#7a5010" stroke-width="0.5">
+    <textPath href="#f-arc" startOffset="50%" text-anchor="middle">SADMF</textPath>
+  </text>
+
+  <!-- SAD FELLOW text -->
+  <text x="128" y="168" text-anchor="middle"
+        font-family="Georgia,'Palatino Linotype',serif"
+        font-size="12" font-weight="bold" fill="white" letter-spacing="2">SAD FELLOW</text>
+
+  <!-- Single gold star below SAD FELLOW (proper 5-point) -->
+  <polygon points="128,176 130.06,182.17 136.61,182.53 131.33,186.08 133.70,192.47 128,189.5 122.30,192.47 124.67,186.08 119.39,182.53 125.94,182.17"
+           fill="url(#f-goldV)"/>
+</svg>

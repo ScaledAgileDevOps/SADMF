@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="SADMF Master Certification Badge">
+  <defs>
+    <linearGradient id="m-goldV" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f7ea7a"/>
+      <stop offset="40%" stop-color="#c9a840"/>
+      <stop offset="100%" stop-color="#7a5010"/>
+    </linearGradient>
+    <radialGradient id="m-navy" cx="45%" cy="38%" r="68%">
+      <stop offset="0%" stop-color="#253878"/>
+      <stop offset="100%" stop-color="#0d1838"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Gold outer octagon (flat-top) -->
+  <polygon points="167,33 223,89 223,167 167,223 89,223 33,167 33,89 89,33"
+           fill="url(#m-goldV)"/>
+
+  <!-- Navy inner octagon -->
+  <polygon points="163,42 214,92 214,164 163,214 93,214 42,164 42,92 93,42"
+           fill="url(#m-navy)"/>
+
+  <!-- Pink accent ring -->
+  <circle cx="128" cy="128" r="79" fill="none" stroke="#a23b72" stroke-width="3"/>
+
+  <!-- Thin gold detail ring -->
+  <circle cx="128" cy="128" r="83" fill="none" stroke="#c9a840" stroke-width="0.75" opacity="0.5"/>
+
+  <!-- ── Astrolabe icon ── -->
+  <circle cx="128" cy="120" r="38" fill="none" stroke="white" stroke-width="2.2"/>
+  <circle cx="128" cy="120" r="28" fill="none" stroke="white" stroke-width="1.2" opacity="0.6"/>
+  <circle cx="128" cy="120" r="18" fill="none" stroke="white" stroke-width="1" opacity="0.4"/>
+
+  <!-- Cardinal tick marks -->
+  <line x1="128" y1="82" x2="128" y2="88" stroke="white" stroke-width="2.5"/>
+  <line x1="166" y1="120" x2="160" y2="120" stroke="white" stroke-width="2.5"/>
+  <line x1="128" y1="158" x2="128" y2="152" stroke="white" stroke-width="2.5"/>
+  <line x1="90" y1="120" x2="96" y2="120" stroke="white" stroke-width="2.5"/>
+
+  <!-- Intermediate ticks -->
+  <line x1="154.9" y1="93.1" x2="151" y2="96.9" stroke="white" stroke-width="1.5" opacity="0.7"/>
+  <line x1="154.9" y1="146.9" x2="151" y2="143.1" stroke="white" stroke-width="1.5" opacity="0.7"/>
+  <line x1="101.1" y1="146.9" x2="105" y2="143.1" stroke="white" stroke-width="1.5" opacity="0.7"/>
+  <line x1="101.1" y1="93.1" x2="105" y2="96.9" stroke="white" stroke-width="1.5" opacity="0.7"/>
+
+  <!-- Crosshair lines -->
+  <line x1="90" y1="120" x2="166" y2="120" stroke="white" stroke-width="1.2" opacity="0.35"/>
+  <line x1="128" y1="82" x2="128" y2="158" stroke="white" stroke-width="1.2" opacity="0.35"/>
+
+  <!-- Alidade arm -->
+  <line x1="97" y1="149" x2="159" y2="91" stroke="url(#m-goldV)" stroke-width="2.8" stroke-linecap="round"/>
+
+  <!-- Pivot point -->
+  <circle cx="128" cy="120" r="4.5" fill="url(#m-goldV)"/>
+  <circle cx="128" cy="120" r="2" fill="#0d1838"/>
+
+  <!-- SADMF text at top -->
+  <text x="128" y="62" text-anchor="middle"
+        font-family="Georgia,'Palatino Linotype',serif"
+        font-size="17" font-weight="bold" fill="#e8c84a" letter-spacing="6"
+        stroke="#7a5010" stroke-width="0.5">SADMF</text>
+
+  <!-- Stars flanking SAD MASTER (proper 5-point, R=8 r=3.5) -->
+  <!-- Left star centered at (88,197) -->
+  <polygon points="88,189 90.06,194.17 95.61,194.53 91.33,198.08 92.70,203.47 88,200.5 83.30,203.47 84.67,198.08 80.39,194.53 85.94,194.17"
+           fill="url(#m-goldV)"/>
+  <!-- Right star centered at (168,197) -->
+  <polygon points="168,189 170.06,194.17 175.61,194.53 171.33,198.08 172.70,203.47 168,200.5 163.30,203.47 164.67,198.08 160.39,194.53 165.94,194.17"
+           fill="url(#m-goldV)"/>
+
+  <!-- SAD MASTER text -->
+  <text x="128" y="210" text-anchor="middle"
+        font-family="Georgia,'Palatino Linotype',serif"
+        font-size="10" font-weight="bold" fill="white" letter-spacing="1.5">SAD MASTER</text>
+</svg>

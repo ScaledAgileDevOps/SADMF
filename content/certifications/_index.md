@@ -12,12 +12,13 @@ All certifications on this page are issued under **SADMF Version 3**, the latest
 
 ## Scaled Agile DevOps Practitioner
 
-{{< figure src="/badges/images/practitioner.png" alt="SADMF Practitioner badge" title="SADMF Practitioner" width="200px" >}}
+{{< figure src="/badges/images/practitioner.svg" alt="SADMF Practitioner badge" title="SADMF Practitioner" width="200px" >}}
 
 SAD Practitioners have demonstrated they understand the basic value of the Scaled Agile DevOps Maturity Framework and promise to deliver that value.
 
 - [Apply for Certified Practitioner](https://www.buymeacoffee.com/sadmf/e/47597)
 - [Enterprise Packages Available](https://www.buymeacoffee.com/sadmf/e/47599)
+- <a href="/badges/images/practitioner.png" download="sad-practitioner-badge.png">⬇ Download Badge (PNG)</a>
 
 ## Scaled Agile DevOps Professional
 
@@ -25,17 +26,20 @@ SAD Professionals have demonstrated competence in applying SADMF practices withi
 
 ## Scaled Agile DevOps Master
 
-{{< figure src="/badges/images/master.png" alt="SADMF Master badge" title="SADMF Master" width="200px" >}}
+{{< figure src="/badges/images/master.svg" alt="SADMF Master badge" title="SADMF Master" width="200px" >}}
 
 SAD Masters have demonstrated mastery of the framework across multiple [Convoy](/release-convoy/) cycles and can coach others in its application. The Master certification requires documented evidence of sustained SADMF adoption, endorsement from a [Commodore](/roles/commodore/) or higher, and completion of the SAD Master Intensive workshop series.
 
+<a href="/badges/images/master.png" download="sad-master-badge.png">⬇ Download Badge (PNG)</a>
+
 ## Scaled Agile DevOps Fellow
 
-{{< figure src="/badges/images/fellow.png" alt="SADMF Fellow badge" title="SADMF Fellow" width="200px" >}}
+{{< figure src="/badges/images/fellow.svg" alt="SADMF Fellow badge" title="SADMF Fellow" width="200px" >}}
 
 SAD Fellows have demonstrated they are as valuable as at least four practitioners.
 
-[Apply for Certified Fellow](https://www.buymeacoffee.com/sadmf/e/47598)
+- [Apply for Certified Fellow](https://www.buymeacoffee.com/sadmf/e/47598)
+- <a href="/badges/images/fellow.png" download="sad-fellow-badge.png">⬇ Download Badge (PNG)</a>
 
 {{% alert title="" color="info" %}}
 Moving beyond the basics for truly SAD outcomes!
@@ -43,7 +47,7 @@ Moving beyond the basics for truly SAD outcomes!
 
 ## Scaled Agile Dev Ops Accredited Facilitators
 
-{{< figure src="/badges/images/accredited-facilitator.png" alt="SADMF Accredited Facilitator badge" title="SADMF Accredited Facilitator" width="200px" >}}
+{{< figure src="/badges/images/accredited-facilitator.svg" alt="SADMF Accredited Facilitator badge" title="SADMF Accredited Facilitator" width="200px" >}}
 
 Accredited Facilitators have all of the certified credentials to convince executives to pay their consulting fees. They have demonstrated the ability to apply Scaled Agile DevOps Principles and Practices and have documented that their outcomes meet or exceed expectations. They are also skilled at preparing reports that show consistent improvement from week to week.
 
@@ -53,11 +57,15 @@ SAD AF certifications cannot be purchased. They are applied for by submitting ex
 
 Send submissions to <scaledagiledevops@gmail.com>
 
+<a href="/badges/images/accredited-facilitator.png" download="sad-accredited-facilitator-badge.png">⬇ Download Badge (PNG)</a>
+
 ## DevOps Engineers Proving Real Experience Solving SAD Engineering Dilemmas
 
-{{< figure src="/badges/images/depressed.png" alt="SADMF DEPRESSED badge" title="SADMF DEPRESSED" width="200px" >}}
+{{< figure src="/badges/images/depressed.svg" alt="SADMF DEPRESSED badge" title="SADMF DEPRESSED" width="200px" >}}
 
 This certification is reserved for [Feature Teams](/roles/feature-team/) who have demonstrated the ability to not only talk the talk but also walk the walk. Preparing for this requires the [Feature Team](/roles/feature-team/) to reserve a Convoy cycle to study for the certification. The certification requires renewal every 8 weeks lest the team lose the ability to be a truly [DEPRESSED](#devops-engineers-proving-real-experience-solving-sad-engineering-dilemmas) [Feature Team](/roles/feature-team/)
+
+<a href="/badges/images/depressed.png" download="sad-depressed-badge.png">⬇ Download Badge (PNG)</a>
 
 ## See Also
 

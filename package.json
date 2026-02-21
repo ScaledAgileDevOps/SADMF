@@ -20,6 +20,7 @@
     "link-check2": "npm run build:clean && htmltest",
     "lint": "markdownlint ./content/**/*.md",
     "lint:fix": "markdownlint -f ./content/**/*.md",
+    "badges": "node scripts/generate-badge-pngs.js",
     "start": "hugo serve",
     "test": "npm run lint; npm run link-check",
     "test:e2e": "playwright test",

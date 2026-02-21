@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="SADMF DEPRESSED Certification Badge">
+  <defs>
+    <linearGradient id="d-goldV" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f7ea7a"/>
+      <stop offset="40%" stop-color="#c9a840"/>
+      <stop offset="100%" stop-color="#7a5010"/>
+    </linearGradient>
+    <radialGradient id="d-navy" cx="45%" cy="38%" r="68%">
+      <stop offset="0%" stop-color="#253878"/>
+      <stop offset="100%" stop-color="#0d1838"/>
+    </radialGradient>
+    <radialGradient id="d-teal" cx="40%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#3dbce8"/>
+      <stop offset="100%" stop-color="#1a6898"/>
+    </radialGradient>
+    <radialGradient id="d-teal2" cx="40%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#60d8f8"/>
+      <stop offset="100%" stop-color="#2888b8"/>
+    </radialGradient>
+    <path id="d-arc" d="M 82,82 A 66,66 0 0,1 174,82"/>
+  </defs>
+
+  <!-- Gold outer hexagon (pointy-top) -->
+  <polygon points="128,23 219,75 219,181 128,233 37,181 37,75"
+           fill="url(#d-goldV)"/>
+
+  <!-- Navy inner hexagon -->
+  <polygon points="128,34 210,81 210,175 128,222 46,175 46,81"
+           fill="url(#d-navy)"/>
+
+  <!-- Pink accent ring -->
+  <circle cx="128" cy="128" r="78" fill="none" stroke="#a23b72" stroke-width="3"/>
+
+  <!-- Thin gold detail ring -->
+  <circle cx="128" cy="128" r="82" fill="none" stroke="#c9a840" stroke-width="0.75" opacity="0.55"/>
+
+  <!-- ── Interlocking gears, shifted right+down to center visual mass ── -->
+  <g transform="translate(2,6)">
+    <!-- Large gear (teal, center 116,116) — 8-tooth -->
+    <polygon points="116,86 124,96 137,95 136,108 146,116 136,124 137,137 124,136 116,146 108,136 95,137 96,124 86,116 96,108 95,95 108,96"
+             fill="url(#d-teal)"/>
+    <!-- Gear center hole -->
+    <circle cx="116" cy="116" r="13" fill="url(#d-navy)"/>
+    <!-- Gear inner detail ring -->
+    <circle cx="116" cy="116" r="9" fill="none" stroke="#4bc8e8" stroke-width="1.5" opacity="0.7"/>
+    <!-- Hub bolt cross -->
+    <line x1="116" y1="109" x2="116" y2="123" stroke="#4bc8e8" stroke-width="1.5" opacity="0.6"/>
+    <line x1="109" y1="116" x2="123" y2="116" stroke="#4bc8e8" stroke-width="1.5" opacity="0.6"/>
+
+    <!-- Small gear (lighter teal, center 148,136) — 6-tooth -->
+    <polygon points="148,116 155,124 165,126 162,136 165,146 155,148 148,156 141,148 131,146 134,136 131,126 141,124"
+             fill="url(#d-teal2)"/>
+    <!-- Gear center hole -->
+    <circle cx="148" cy="136" r="9" fill="url(#d-navy)"/>
+    <!-- Hub detail -->
+    <circle cx="148" cy="136" r="5.5" fill="none" stroke="#7de8f8" stroke-width="1.2" opacity="0.7"/>
+
+    <!-- Gear tooth outline strokes -->
+    <polygon points="116,86 124,96 137,95 136,108 146,116 136,124 137,137 124,136 116,146 108,136 95,137 96,124 86,116 96,108 95,95 108,96"
+             fill="none" stroke="#2868a0" stroke-width="1"/>
+    <polygon points="148,116 155,124 165,126 162,136 165,146 155,148 148,156 141,148 131,146 134,136 131,126 141,124"
+             fill="none" stroke="#4098c8" stroke-width="0.8"/>
+  </g>
+
+  <!-- SADMF arced text at top -->
+  <text font-family="Georgia,'Palatino Linotype',serif" font-size="16" font-weight="bold" fill="#e8c84a" letter-spacing="6" stroke="#7a5010" stroke-width="0.5">
+    <textPath href="#d-arc" startOffset="50%" text-anchor="middle">SADMF</textPath>
+  </text>
+
+  <!-- DEPRESSED text at bottom -->
+  <text x="128" y="183" text-anchor="middle"
+        font-family="Georgia,'Palatino Linotype',serif"
+        font-size="13" font-weight="bold" fill="white" letter-spacing="2.5">DEPRESSED</text>
+</svg>

@@ -46,7 +46,7 @@ Performance measurement approaches that prioritize vanity metrics and activity t
 URL: https://scaledagiledevops.com/certifications/
 Description: Get your SAD certifications today!
 
-Professional certifications including Certified Really Agile Practitioner (CRAP) and other credentials that validate framework compliance.
+Professional certifications issued as cryptographically signed Open Badges 3.0 verifiable credentials. Tiers: SAD Practitioner, SAD Professional, SAD Master, SAD Fellow, SAD Accredited Facilitator (SAD AF), and DEPRESSED (DevOps Engineers Proving Real Experience Solving SAD Engineering Dilemmas). Badge images are available as downloadable PNG files for use on social media profiles.
 
 ## PeopleWare HR as a Service
 

@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="SADMF Practitioner Certification Badge">
+  <defs>
+    <linearGradient id="p-goldV" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f7ea7a"/>
+      <stop offset="40%" stop-color="#c9a840"/>
+      <stop offset="100%" stop-color="#7a5010"/>
+    </linearGradient>
+    <linearGradient id="p-goldH" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#9a7010"/>
+      <stop offset="50%" stop-color="#f7ea7a"/>
+      <stop offset="100%" stop-color="#9a7010"/>
+    </linearGradient>
+    <linearGradient id="p-goldRib" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#b08820"/>
+      <stop offset="30%" stop-color="#f0dc60"/>
+      <stop offset="70%" stop-color="#f0dc60"/>
+      <stop offset="100%" stop-color="#b08820"/>
+    </linearGradient>
+    <radialGradient id="p-navy" cx="45%" cy="38%" r="68%">
+      <stop offset="0%" stop-color="#253878"/>
+      <stop offset="100%" stop-color="#0d1838"/>
+    </radialGradient>
+    <path id="p-arc" d="M 60,115 A 68,68 0 0,0 196,115"/>
+  </defs>
+
+  <!-- Sunburst rays (20 rays) behind the disc -->
+  <polygon points="128,5 124,28 132,28" fill="url(#p-goldV)" transform="rotate(0,128,115)"/>
+  <polygon points="128,5 124,28 132,28" fill="url(#p-goldV)" transform="rotate(18,128,115)"/>
+  <polygon points="128,5 124,28 132,28" fill="url(#p-goldV)" transform="rotate(36,128,115)"/>
+  <polygon points="128,5 124,28 132,28" fill="url(#p-goldV)" transform="rotate(54,128,115)"/>
+  <polygon points="128,5 124,28 132,28" fill="url(#p-goldV)" transform="rotate(72,128,115)"/>
+  <polygon points="128,5 124,28 132,28" fill="url(#p-goldV)" transform="rotate(90,128,115)"/>
+  <polygon points="128,5 124,28 132,28" fill="url(#p-goldV)" transform="rotate(108,128,115)"/>
+  <polygon points="128,5 124,28 132,28" fill="url(#p-goldV)" transform="rotate(126,128,115)"/>
+  <polygon points="128,5 124,28 132,28" fill="url(#p-goldV)" transform="rotate(144,128,115)"/>
+  <polygon points="128,5 124,28 132,28" fill="url(#p-goldV)" transform="rotate(162,128,115)"/>
+  <polygon points="128,5 124,28 132,28" fill="url(#p-goldV)" transform="rotate(180,128,115)"/>
+  <polygon points="128,5 124,28 132,28" fill="url(#p-goldV)" transform="rotate(198,128,115)"/>
+  <polygon points="128,5 124,28 132,28" fill="url(#p-goldV)" transform="rotate(216,128,115)"/>
+  <polygon points="128,5 124,28 132,28" fill="url(#p-goldV)" transform="rotate(234,128,115)"/>
+  <polygon points="128,5 124,28 132,28" fill="url(#p-goldV)" transform="rotate(252,128,115)"/>
+  <polygon points="128,5 124,28 132,28" fill="url(#p-goldV)" transform="rotate(270,128,115)"/>
+  <polygon points="128,5 124,28 132,28" fill="url(#p-goldV)" transform="rotate(288,128,115)"/>
+  <polygon points="128,5 124,28 132,28" fill="url(#p-goldV)" transform="rotate(306,128,115)"/>
+  <polygon points="128,5 124,28 132,28" fill="url(#p-goldV)" transform="rotate(324,128,115)"/>
+  <polygon points="128,5 124,28 132,28" fill="url(#p-goldV)" transform="rotate(342,128,115)"/>
+
+  <!-- Gold disc -->
+  <circle cx="128" cy="115" r="96" fill="url(#p-goldV)"/>
+
+  <!-- Navy interior -->
+  <circle cx="128" cy="115" r="87" fill="url(#p-navy)"/>
+
+  <!-- Pink accent ring -->
+  <circle cx="128" cy="115" r="80" fill="none" stroke="#a23b72" stroke-width="2.5"/>
+
+  <!-- Thin gold inner ring line for detail -->
+  <circle cx="128" cy="115" r="83" fill="none" stroke="#c9a840" stroke-width="0.75" opacity="0.6"/>
+
+  <!-- ── Clipboard icon (centered at x=128, cy≈112) ── -->
+  <!-- Body: 56×70, centered at x=128 -->
+  <rect x="100" y="79" width="56" height="70" rx="3" ry="3" fill="none" stroke="white" stroke-width="2.5"/>
+  <!-- Clip holder: centered at x=128 -->
+  <rect x="117" y="74" width="22" height="10" rx="5" ry="5" fill="white"/>
+  <!-- Checklist row 1 -->
+  <line x1="113" y1="99" x2="129" y2="99" stroke="white" stroke-width="1.5" opacity="0.5"/>
+  <polyline points="106,96 109,99.5 114,93.5" fill="none" stroke="#4bc8e8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Checklist row 2 -->
+  <line x1="113" y1="114" x2="129" y2="114" stroke="white" stroke-width="1.5" opacity="0.5"/>
+  <polyline points="106,111 109,114.5 114,108.5" fill="none" stroke="#4bc8e8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Checklist row 3 (partial) -->
+  <line x1="113" y1="129" x2="125" y2="129" stroke="white" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- Chart overlay bottom-right of clipboard -->
+  <rect x="133" y="114" width="18" height="29" rx="2" fill="#a23b72" opacity="0.92"/>
+  <rect x="135" y="127" width="4" height="14" rx="0.5" fill="white"/>
+  <rect x="141" y="122" width="4" height="19" rx="0.5" fill="white"/>
+  <rect x="147" y="118" width="3" height="23" rx="0.5" fill="#7de8f8"/>
+
+  <!-- SADMF arced text -->
+  <text font-family="Georgia,'Palatino Linotype',serif" font-size="16" font-weight="bold" fill="#e8c84a" letter-spacing="6" stroke="#7a5010" stroke-width="0.5">
+    <textPath href="#p-arc" startOffset="50%" text-anchor="middle">SADMF</textPath>
+  </text>
+
+  <!-- Ribbon banner — overlaps circle bottom by ~12px for visual connection -->
+  <!-- Left tail -->
+  <polygon points="46,199 28,211 46,223" fill="#8a6008"/>
+  <!-- Right tail -->
+  <polygon points="210,199 228,211 210,223" fill="#8a6008"/>
+  <!-- Main ribbon band -->
+  <rect x="46" y="199" width="164" height="24" fill="url(#p-goldRib)"/>
+  <!-- Ribbon text -->
+  <text x="128" y="215" text-anchor="middle"
+        font-family="'Trebuchet MS','Segoe UI',Helvetica,Arial,sans-serif"
+        font-size="9" font-weight="bold" fill="#0d1838" letter-spacing="1.5">SAD PRACTITIONER</text>
+</svg>
