@@ -32,10 +32,26 @@ const VALID_BADGE_IDS = ['accredited-facilitator', 'fellow', 'master', 'practiti
 const PRIVATE_REPO = 'ScaledAgileDevOps/sadmf_recipents'
 const PUBLIC_REPO = 'ScaledAgileDevOps/SADMF'
 
-const [badgeId, name, email, issuedArg] = process.argv.slice(2)
+// Parse flags
+const args = process.argv.slice(2)
+let workdir = null
+let noPush = false
+const positional = []
+
+for (let i = 0; i < args.length; i++) {
+  if (args[i] === '--workdir' && args[i + 1]) {
+    workdir = args[++i]
+  } else if (args[i] === '--no-push') {
+    noPush = true
+  } else {
+    positional.push(args[i])
+  }
+}
+
+const [badgeId, name, email, issuedArg] = positional
 
 if (!badgeId || !name || !email) {
-  console.error('Usage: node add-recipient.js <badge-id> <name> <email> [issued-date]')
+  console.error('Usage: node add-recipient.js [--workdir <dir>] [--no-push] <badge-id> <name> <email> [issued-date]')
   console.error('')
   console.error('Badge IDs:', VALID_BADGE_IDS.join(', '))
   console.error('Example:')
@@ -56,20 +72,27 @@ if (!/^\d{4}-\d{2}-\d{2}$/.test(issued)) {
   process.exit(1)
 }
 
-// Clone private repo to a temp directory
-const tmpDir = mkdtempSync(join(tmpdir(), 'sadmf-recipients-'))
-console.log(`Cloning ${PRIVATE_REPO}...`)
+// Clone private repo to a temp directory (or reuse an existing workdir)
+let tmpDir
+let ownedTmpDir = false
 
-try {
-  const token = process.env.SADMF_DISPATCH_TOKEN
-  const cloneUrl = token
-    ? `https://${token}@github.com/${PRIVATE_REPO}.git`
-    : `https://github.com/${PRIVATE_REPO}.git`
-  execSync(`git clone --quiet "${cloneUrl}" "${tmpDir}"`, { stdio: 'inherit' })
-} catch {
-  console.error(`Failed to clone ${PRIVATE_REPO}. Check SADMF_DISPATCH_TOKEN or gh auth.`)
-  rmSync(tmpDir, { recursive: true })
-  process.exit(1)
+if (workdir) {
+  tmpDir = workdir
+} else {
+  tmpDir = mkdtempSync(join(tmpdir(), 'sadmf-recipients-'))
+  ownedTmpDir = true
+  console.log(`Cloning ${PRIVATE_REPO}...`)
+  try {
+    const token = process.env.SADMF_DISPATCH_TOKEN
+    const cloneUrl = token
+      ? `https://${token}@github.com/${PRIVATE_REPO}.git`
+      : `https://github.com/${PRIVATE_REPO}.git`
+    execSync(`git clone --quiet "${cloneUrl}" "${tmpDir}"`, { stdio: 'inherit' })
+  } catch {
+    console.error(`Failed to clone ${PRIVATE_REPO}. Check SADMF_DISPATCH_TOKEN or gh auth.`)
+    rmSync(tmpDir, { recursive: true })
+    process.exit(1)
+  }
 }
 
 const recipientsDir = join(tmpDir, 'recipients')
@@ -98,6 +121,12 @@ if (existsSync(yamlPath)) {
 
 console.log(`Added ${name} <${email}> to ${badgeId} (issued: ${issued})`)
 
+if (noPush) {
+  // Stage the file; caller is responsible for committing, pushing, and dispatching
+  execSync(`git -C "${tmpDir}" add recipients/${badgeId}.yaml`)
+  process.exit(0)
+}
+
 // Commit and push to the private repo
 try {
   execSync(`git -C "${tmpDir}" config user.name "Badge Admin"`)
@@ -108,10 +137,10 @@ try {
   console.log('Pushed to private recipients repo.')
 } catch (err) {
   console.error('Failed to commit/push to private repo:', err.message)
-  rmSync(tmpDir, { recursive: true })
+  if (ownedTmpDir) rmSync(tmpDir, { recursive: true })
   process.exit(1)
 } finally {
-  rmSync(tmpDir, { recursive: true })
+  if (ownedTmpDir) rmSync(tmpDir, { recursive: true })
 }
 
 // Trigger badge issuance
