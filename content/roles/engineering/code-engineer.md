@@ -1,0 +1,59 @@
+---
+title: "Code Engineer"
+linkTitle: "Code Engineer"
+type: docs
+description: "The backbone of a SAD implementation, transforming requirements into machine-readable instructions quickly and quietly!"
+weight: 6
+tags: ["governance"]
+aliases: ["/roles/code-engineer/"]
+---
+
+While other roles plan, assess, review, track, and govern, the Code Engineer performs the fundamental act that justifies the entire framework's existence. The job is straightforward and should be treated as such. A Code Engineer receives requirements from the [Feature Captain](/roles/feature-captain/), writes the code that fulfills those requirements, and submits it for review by the [Code Standards Enforcement Team (CSET)](/roles/code-standards-enforcement-team/).
+
+The Code Engineer does not perform activities outside their lane:
+
+- **Architecture:** that is the domain of the [Enterprise Architecture Review Board](/roles/enterprise-architecture-review-board/)
+- **Testing:** that is the domain of the [Unit Tester](/roles/unit-tester/) and [Quality Authority](/roles/quality-authority/)
+- **Branch management:** that is the domain of the [Source Management Team](/roles/source-management-team/)
+- **Build configuration:** that is the domain of the [Build Engineers](/roles/build-engineers/)
+
+The Code Engineer types code. That is the job.
+
+## Expertise and Silence
+
+Code Engineer expertise can be reliably judged by the number of questions they ask. Since a Code Engineer is expected to be an expert at data structures and algorithms, fewer questions indicate more expertise. A senior Code Engineer should be able to receive a requirement, internalize it immediately, and begin typing. Questions suggest confusion, and confusion suggests a gap in expertise that the [DevOps Process Excellence Assessment](/practices/devops-process-excellence-assessment/) should identify and address. The most productive Code Engineers are those who accept requirements without discussion, produce code without complaint, and submit it without explanation. This is not a sign of disengagement; it is a sign of mastery. The requirement speaks for itself, the code speaks for itself, and the Code Engineer's silence is the loudest testament to their competence.
+
+## Team Assignment
+
+Code Engineers are organized into [Feature Teams](/roles/feature-team/) for each [Convoy](/release-convoy/), assembled through the [Press Gang](/release-convoy/ceremonies/press-gang/) ceremony based on the skills required for the upcoming feature set. Because SADMF invests heavily in [Build Quality In](/principles/build-quality-in/) through the [Tribunal](/release-convoy/ceremonies/tribunal/) and other review mechanisms, Feature Teams should be able to deliver at maximum throughput immediately upon formation, regardless of whether the team members have worked together before or have any familiarity with the codebase they are being assigned to. Onboarding time is a sign that the organization has failed to standardize sufficiently. If a Code Engineer needs more than a day to become productive on a new codebase, the fault lies not with the engineer but with the codebase's failure to conform to the Enterprise Coding Standards Manual maintained by the [CSET](/roles/code-standards-enforcement-team/).
+
+## Workflow
+
+The Code Engineer's workflow is precisely defined by the framework:
+
+1. Receive requirements during the [Convoy Planning](/release-convoy/ceremonies/) ceremony.
+2. Write code in their assigned [feature branch](/practices/fractal-based-development/).
+3. Submit code to the [CSET](/roles/code-standards-enforcement-team/) for review.
+4. Address any standards violations.
+5. Hand the approved branch to the [Source Management Team](/roles/source-management-team/) for merging into the Conflict branch.
+
+At no point does the Code Engineer interact directly with the production system, the build pipeline, the test suite, or the deployment process. These boundaries exist to protect both the Code Engineer and the organization: the Code Engineer is protected from the complexity of systems they do not need to understand, and the organization is protected from the risk of a Code Engineer making changes outside their area of expertise.
+
+## Performance and Career Path
+
+Code Engineers are measured by:
+
+- **[Feature Completion Ratio](/metrics/feature-completion-ratio/):** the volume of planned features completed
+- **CSET first-pass approval rate:** the percentage of submissions approved without rework
+- **[DevOps Process Excellence Assessment](/practices/devops-process-excellence-assessment/) scores:** adherence to framework practices
+
+Performance data is compiled by the [Chief Signals Officer](/roles/chief-signals-officer/) and reviewed at the [Tribunal](/release-convoy/ceremonies/tribunal/), where Code Engineers whose metrics fall below acceptable thresholds receive coaching, reassignment, or additional process training. Code Engineers who demonstrate consistent excellence may be considered for advancement to the [CSET](/roles/code-standards-enforcement-team/) or the [Development Integrity Assurance Team (DIAT)](/roles/development-integrity-assurance-team/), roles that allow them to review and judge the work of their former peers. This career path reinforces the principle that the highest form of engineering is not writing code but evaluating it.
+
+## See Also
+
+- [Feature Team](/roles/feature-team/) for the team structure Code Engineers work within
+- [Code Standards Enforcement Team (CSET)](/roles/code-standards-enforcement-team/) for the team that reviews Code Engineer output
+- [Press Gang](/release-convoy/ceremonies/press-gang/) for the ceremony that assigns Code Engineers to Feature Teams
+- [Unit Tester](/roles/unit-tester/) for the role that writes tests for Code Engineer output
+- [Everyone is Responsible](/principles/everyone-is-responsible/) for the principle of individual accountability
+- [Systems Thinking](/principles/systems-thinking/) for why Code Engineers only write code

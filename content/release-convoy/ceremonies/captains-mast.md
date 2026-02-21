@@ -7,7 +7,7 @@ weight: 5
 tags: ["release-management", "compliance", "governance"]
 ---
 
-In this ceremony, anyone wishing to change the priorities set in [Convoy Alignment](/release-convoy/agenda/) must file a [Priority Change Request (PCR)](/release-convoy/manifest/#priority-change-request) and present it for approval before the [Commodore](/roles/commodore/). This allows the [Chief Signals Officer](/roles/chief-signals-officer/) to adjust the [Feature Completion Ratio](/metrics/feature-completion-ratio/) goal to ensure it does not reflect poorly on the [Commodore](/roles/commodore/). The Captain's Mast is the organization's commitment to plan integrity. Without it, priorities could shift based on something as unreliable as new information.
+In this ceremony, anyone wishing to change the priorities set in [Convoy Alignment](/release-convoy/agenda/) must file a [Priority Change Request (PCR)](/release-convoy/execution/manifest/#priority-change-request) and present it for approval before the [Commodore](/roles/commodore/). This allows the [Chief Signals Officer](/roles/chief-signals-officer/) to adjust the [Feature Completion Ratio](/metrics/feature-completion-ratio/) goal to ensure it does not reflect poorly on the [Commodore](/roles/commodore/). The Captain's Mast is the organization's commitment to plan integrity. Without it, priorities could shift based on something as unreliable as new information.
 
 ## The PCR Paperwork Process
 
@@ -29,7 +29,7 @@ Once the [Commodore](/roles/commodore/) has rendered a verdict, there is no appe
 
 ## See Also
 
-- [Priority Change Request](/release-convoy/manifest/#priority-change-request) for PCR documentation requirements
+- [Priority Change Request](/release-convoy/execution/manifest/#priority-change-request) for PCR documentation requirements
 - [Chief Signals Officer](/roles/chief-signals-officer/) for who manages the metrics impact
 - [Feature Completion Ratio](/metrics/feature-completion-ratio/) for why priority changes are so disruptive to metrics
 - [Commodore](/roles/commodore/) for the role that presides over the hearing

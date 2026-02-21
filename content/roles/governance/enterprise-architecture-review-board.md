@@ -1,0 +1,70 @@
+---
+title: "Enterprise Architecture Review Board"
+linkTitle: "Enterprise Architecture Review Board"
+type: docs
+description: "The EARB maintains the Book of Names, ensuring all Code Engineers use only approved words when naming things!"
+weight: 10
+tags: ["governance", "compliance"]
+aliases: ["/roles/enterprise-architecture-review-board/"]
+---
+
+Naming is the hardest problem in software engineering, and the Enterprise Architecture Review Board ensures that no individual [Code Engineer](/roles/code-engineer/) is burdened with solving it alone. Left to their own devices, Code Engineers will invent variable names, method names, class names, and service names according to their personal preferences, creating a Tower of Babel where every codebase speaks its own dialect. The EARB eliminates this chaos by maintaining the Book of Names, the master list that defines all acceptable words and word combinations that may be used for naming things during coding. If a word is not in the Book, it may not be used. If a combination is not in the Book, it may not be used. This discipline ensures that any [Code Engineer](/roles/code-engineer/) joining a new [Feature Team](/roles/feature-team/) for the next [Convoy](/release-convoy/) will immediately recognize every identifier in the codebase, because every identifier was drawn from the same approved vocabulary.
+
+## The Book of Names
+
+The Book of Names is organized into sections by domain:
+
+| Section | Contents |
+|---|---|
+| Business Nouns | Core domain entities and concepts |
+| Technical Verbs | Approved action words for methods and functions |
+| Modifier Adjectives | Approved qualifiers for compound identifiers |
+| Status Indicators | Approved words for state and condition naming |
+| Compound Expressions | Pre-approved multi-word combinations |
+
+Each entry includes the approved word, its canonical spelling, its permitted abbreviation (if any), its allowed contexts, and usage examples. The Book currently contains 2,847 approved entries, a number that the EARB considers comprehensive but not final.
+
+New entries may be proposed by any member of the organization through the Name Submission Process, which requires the submitter to provide:
+
+- A justification
+- Three proposed usage examples
+- A statement confirming that no existing approved name adequately covers the intended meaning
+
+Submissions are queued for the next EARB review meeting, where they are evaluated against the criteria of clarity, consistency, and necessity.
+
+## Review Cadence and Rejection Policy
+
+The EARB meets every six weeks to review and, in most cases, reject new words submitted for inclusion in the Book. The six-week cadence is deliberate: it provides sufficient time for the EARB members to research each submission thoroughly and ensures that the Book is not diluted by hasty additions. The EARB's default posture is rejection, because every new word added to the Book increases the vocabulary that [Code Engineers](/roles/code-engineer/) must memorize and that the [Code Standards Enforcement Team (CSET)](/roles/code-standards-enforcement-team/) must enforce. A lean vocabulary is a learnable vocabulary, and a learnable vocabulary is a consistent vocabulary.
+
+Submissions are rejected for reasons including but not limited to:
+
+- The word is too similar to an existing approved word
+- The word is too domain-specific
+- The word is too colloquial
+- The word contains more than three syllables
+- The justification is insufficient
+
+Rejected submissions may be resubmitted after a 12-week cooling-off period with additional justification.
+
+## Architectural Governance
+
+The EARB also governs architectural decisions beyond naming, including the approved set of design patterns, approved technology stacks, and approved integration methods. When a [Feature Team](/roles/feature-team/) proposes to use a new library, framework, or architectural pattern, the proposal must be submitted to the EARB for evaluation. The EARB assesses the proposal against:
+
+- The organization's existing technology landscape
+- The training requirements for adoption
+- The impact on the Enterprise Coding Standards Manual maintained by the [CSET](/roles/code-standards-enforcement-team/)
+
+Proposals that introduce technologies not already in the approved stack face a particularly high bar, as each new technology increases organizational complexity and the scope of the [DevOps Process Excellence Assessment](/practices/devops-process-excellence-assessment/) knowledge test.
+
+## Oversight and Decision Records
+
+The EARB's decisions are subject to review by the [Review Board Review Board (RBRB)](/roles/review-board-review-board/), which meets every three weeks to evaluate whether the EARB is applying its criteria consistently and whether its rejection rate remains within acceptable bounds. The EARB reports to the [Admiral's Transformation Office](/roles/admirals-transformation-office/) and its decisions are recorded in the Architecture Decision Log, an append-only document that preserves the rationale for every approval and rejection. The Architecture Decision Log is a valuable resource for future EARB members, as it establishes precedent that guides future decisions. The EARB does not innovate; the EARB governs innovation, and governance is what separates a mature organization from a chaotic one.
+
+## See Also
+
+- [Code Standards Enforcement Team (CSET)](/roles/code-standards-enforcement-team/) for the team that enforces naming standards the EARB defines
+- [Review Board Review Board (RBRB)](/roles/review-board-review-board/) for the board that reviews EARB decisions
+- [Code Engineer](/roles/code-engineer/) for the role that must use only approved names
+- [Build Quality In](/principles/build-quality-in/) for the principle behind the Book of Names
+- [Continuous Learning](/principles/continuous-learning/) for the principle that drives vocabulary memorization
+- [Admiral's Transformation Office](/roles/admirals-transformation-office/) for the office that oversees the EARB

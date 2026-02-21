@@ -24,7 +24,7 @@ The DevOps Release Convoy&trade; is a comprehensive delivery system with these k
 
 1. **[Convoy Alignment](/release-convoy/agenda/)** begins each cycle with a 5-day, in-person planning session where all teams commit to the next 8 quarters of features. Features are prioritized using [WSVF](/release-convoy/wsvf/) scoring and visualized on [Nautical Charts](/release-convoy/nautical-charts/).
 
-2. **[Convoy Ceremonies](/release-convoy/ceremonies/)** provide the daily and weekly rituals needed to maintain oversight throughout the cycle. From the [Press Gang](/release-convoy/ceremonies/press-gang/) that assembles Feature Teams to the [Tribunal](/release-convoy/ceremonies/tribunal/) that ensures accountability, every ceremony serves a critical governance function.
+2. **[Convoy Ceremonies](/release-convoy/ceremonies/)** provide the daily and weekly rituals needed to maintain oversight throughout the cycle. From the [Press Gang](/release-convoy/planning/ceremonies/press-gang/) that assembles Feature Teams to the [Tribunal](/release-convoy/ceremonies/tribunal/) that ensures accountability, every ceremony serves a critical governance function.
 
 3. **[Convoy Manifest](/release-convoy/manifest/)** documents the critical paperwork required for every DORC&trade;. No convoy sails without proper documentation.
 

@@ -1,0 +1,42 @@
+---
+title: "System of Authority"
+linkTitle: "System of Authority"
+type: docs
+description: "The team of teams accountable for implanting SADMF in your organization through contractors and consultants!"
+weight: 16
+tags: ["governance", "compliance"]
+aliases: ["/roles/system-of-authority/"]
+---
+
+The System of Authority is the organizational layer responsible for implanting SADMF in your organization and ensuring that it takes root. The SOA is not composed of internal employees; it is staffed by contractors and consultants with diverse points of view who bring the external perspective necessary to transform an organization that cannot transform itself. Internal staff are too embedded in existing culture, too loyal to existing processes, and too sympathetic to existing pain points to drive the kind of fundamental change that SADMF requires. The SOA's external composition ensures objectivity, urgency, and the willingness to make difficult recommendations without concern for internal politics or long-term relationship management. The SOA arrives, implants the framework, and maintains it until the organization achieves self-sustaining maturity.
+
+## Sub-Team Structure
+
+The SOA operates as a team of teams, with each SOA sub-team assigned to a specific domain of the transformation:
+
+- **Process implementation:** ensures that every practice from [CI/CD/ED](/practices/ci-cd-ed/) to [Release Tracking](/practices/release-tracking/) is adopted according to the specifications in the DevOps Process Binder maintained by the [DOUCHE](/roles/devops-usage-and-compliance-head-engineer/).
+- **Organizational design:** restructures teams into [Feature Teams](/roles/feature-team/) led by [Feature Captains](/roles/feature-captain/) and governed by [Commodores](/roles/commodore/).
+- **Metrics and assessment:** administers the [DevOps Process Excellence Assessment](/practices/devops-process-excellence-assessment/) and calculates the [SADMF Maturity Score](/metrics/sadmf-maturity-score/).
+
+These sub-teams operate under the unified direction of the [Admiral's Transformation Office (ATO)](/roles/admirals-transformation-office/), ensuring coherence across all transformation activities.
+
+## Execution of ATO Directives
+
+The SOA's principled practitioners focus on implementing the orders of the ATO with precision and consistency. When the ATO directs that all teams must adopt [Fractal-based Development](/practices/fractal-based-development/), the SOA deploys to each team to train them on the branching pattern, verify their compliance, and report back to the ATO on adoption progress. When the ATO mandates a new ceremony, the SOA facilitates the first several instances to establish the pattern and then monitors ongoing execution. The SOA does not negotiate with teams about whether to adopt a practice; the ATO has already decided, and the SOA's role is execution. Teams that resist are documented in the SOA's Transformation Resistance Log, which the ATO reviews during the [Tribunal](/release-convoy/ceremonies/tribunal/) to determine appropriate corrective actions.
+
+## Trusted Advisor Role
+
+A critical function of the SOA is serving as trusted advisors for the teams so they can report the ground-level truth to leadership during the [Tribunal](/release-convoy/ceremonies/tribunal/). This advisory relationship is built on the understanding that the SOA's primary loyalty is to the framework, not to the team. When a team confides in their SOA advisor that they are struggling with a practice, the SOA advisor helps them develop a remediation plan while simultaneously reporting the struggle to the ATO. This dual role of confidant and informant is not contradictory; it is essential. Teams that are struggling need help, and the ATO cannot provide help if it does not know the struggle exists. The SOA's transparency ensures that problems surface early, when they can be addressed through additional training or process reinforcement, rather than late, when they manifest as missed deadlines and failed Convoys.
+
+## Readiness Assessment
+
+The SOA also focuses on updating plans, collecting metrics, and assessing organizational readiness for each phase of the transformation roadmap. The SOA conducts readiness assessments before each major milestone, evaluating whether teams have the training, tools, and process maturity required to proceed. Teams that fail readiness assessments are held back until they meet the criteria, even if this delays the overall roadmap. The SOA's assessment methodology is documented in the SOA Assessment Framework, a companion document to the DevOps Process Binder that specifies the evaluation criteria, scoring rubrics, and pass/fail thresholds for each transformation phase. The SOA's ultimate measure of success is the organization's ability to sustain SADMF practices without SOA support, though in practice, most organizations find that the complexity of the framework requires ongoing SOA engagement indefinitely.
+
+## See Also
+
+- [Admiral's Transformation Office](/roles/admirals-transformation-office/) for the office that directs the SOA
+- [System of Service (SOS)](/roles/system-of-service/) for the counterpart organization that delivers software
+- [Tribunal](/release-convoy/ceremonies/tribunal/) for the ceremony where SOA reports ground-level truth
+- [DevOps Process Excellence Assessment](/practices/devops-process-excellence-assessment/) for the assessment the SOA administers
+- [SADMF Maturity Score](/metrics/sadmf-maturity-score/) for the metric the SOA helps calculate
+- [Certifications](/certifications/) for the credentials SOA practitioners hold

@@ -1,0 +1,50 @@
+---
+title: "System of Service"
+linkTitle: "System of Service"
+type: docs
+description: "The team of teams accountable for achieving deadlines and shipping code through servant leadership and self-governance!"
+weight: 17
+tags: ["infrastructure", "governance"]
+aliases: ["/roles/system-of-service/"]
+---
+
+The System of Service is the organizational layer where software actually gets built and shipped. While the [System of Authority (SOA)](/roles/system-of-authority/) focuses on implanting and maintaining the framework, the SOS focuses on delivering working software within the deadlines established by the [Admiral's Transformation Office](/roles/admirals-transformation-office/). The SOS is a team of teams, encompassing every [Feature Team](/roles/feature-team/), every [Code Engineer](/roles/code-engineer/), every [Build Engineer](/roles/build-engineers/), and every support role that directly contributes to the [DevOps Release Convoy](/release-convoy/). The SOS is where plans become code, where code becomes builds, and where builds become deployments. It is the engine room of the SADMF vessel, and its members are expected to row in perfect synchrony under the direction of the chain of command.
+
+## Servant Leadership and Self-Governance
+
+The SOS looks to the chain of command for servant leadership to ensure self-governance. This may appear contradictory, but it reflects SADMF's sophisticated understanding of organizational dynamics. True self-governance is not the absence of leadership; it is the presence of leadership so effective that teams internalize its directives and execute them without explicit instruction. The leadership cascade operates as follows:
+
+- The [Commodore](/roles/commodore/) provides servant leadership to the [Feature Captains](/roles/feature-captain/)
+- Feature Captains provide servant leadership to the [Code Engineers](/roles/code-engineer/)
+- Code Engineers provide servant leadership to the code itself
+
+Each level of the hierarchy serves the level below by removing ambiguity, making decisions, and absorbing the complexity that would otherwise distract the teams from their primary mission of delivering features. The chain of command does not constrain the SOS; it liberates the SOS from the burden of autonomous decision-making.
+
+## Daily Instruction Cascade
+
+The SOS is instructed on day-to-day work through a structured cascade of ceremonies and communications:
+
+1. The [Commodore](/roles/commodore/) receives the Convoy's objectives from the [Admiral's Transformation Office](/roles/admirals-transformation-office/) and decomposes them into feature-level assignments for the [Feature Captains](/roles/feature-captain/).
+2. The Feature Captains decompose features into tasks for the [Code Engineers](/roles/code-engineer/).
+3. Each morning, the [Mandatory Status Synchronization](/practices/mandatory-status-synchronization/) ensures that every SOS member knows what was accomplished yesterday, what is planned for today, and what impediments exist.
+4. Impediments are escalated up the chain of command, where they are resolved by the level of authority appropriate to their scope:
+   - A Code Engineer blocked by a merge conflict escalates to the [Source Management Team](/roles/source-management-team/).
+   - A Feature Captain blocked by a cross-feature dependency escalates to the Commodore.
+   - The Commodore blocked by a resource constraint escalates to the [Admiral's Transformation Office](/roles/admirals-transformation-office/).
+
+## Predictable Delivery
+
+The SOS is empowered to predictably deliver on time and on budget. This empowerment takes the form of clearly defined processes, pre-approved tools, and standardized workflows that eliminate the need for teams to make ad hoc decisions that could introduce variance. When every team follows the same [Fractal-based Development](/practices/fractal-based-development/) branching pattern, uses the same naming conventions from the [EARB's](/roles/enterprise-architecture-review-board/) Book of Names, and passes through the same review gates ([CSET](/roles/code-standards-enforcement-team/), [DIAT](/roles/development-integrity-assurance-team/), [CRAP](/roles/change-rejection-or-acceptance-party/)), delivery becomes predictable because the process is deterministic. Variance is the enemy of predictability, and the SOS achieves predictability by eliminating variance at every level. [Code Engineers](/roles/code-engineer/) who identify process improvements are encouraged to document them and submit them through the governance process rather than implementing them locally, as local improvements are local variance by another name.
+
+## Performance Measurement
+
+The SOS's performance is measured collectively through the [Feature Completion Ratio](/metrics/feature-completion-ratio/) and individually through the [DevOps Process Excellence Assessment](/practices/devops-process-excellence-assessment/). The [Chief Signals Officer](/roles/chief-signals-officer/) publishes the SOS's aggregate metrics daily, and the [Commodore](/roles/commodore/) reviews them during the [Mandatory Status Synchronization](/practices/mandatory-status-synchronization/). Teams within the SOS that consistently underperform may be dissolved through the [Press Gang](/release-convoy/ceremonies/press-gang/) and their members redistributed, while high-performing teams are recognized at the [Tribunal](/release-convoy/ceremonies/tribunal/) with Certificates of Excellence, permanently recorded in their [PeopleWare](/peopleware/) profiles as formal acknowledgement of distinguished Framework performance. The SOS delivers; the SOA governs; and together, they form the complete organizational structure that SADMF requires.
+
+## See Also
+
+- [System of Authority (SOA)](/roles/system-of-authority/) for the counterpart organization that governs the framework
+- [Commodore](/roles/commodore/) for the role that commands SOS delivery
+- [Feature Team](/roles/feature-team/) for the fundamental unit within the SOS
+- [DevOps Release Convoy](/release-convoy/) for the delivery cycle the SOS executes
+- [Mandatory Status Synchronization](/practices/mandatory-status-synchronization/) for the daily ceremony that coordinates the SOS
+- [Build Quality In](/principles/build-quality-in/) for the principle that enables predictable delivery
