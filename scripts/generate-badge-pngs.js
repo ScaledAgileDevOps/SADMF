@@ -21,6 +21,15 @@ const BADGES = [
   'depressed',
   'coder',
   'manual',
+  'ghost',
+  'phantom',
+  'echo',
+  'vessel',
+  'oracle',
+  'drone',
+  'specter',
+  'automaton',
+  'singularity',
 ];
 
 const SIZE = 512;
