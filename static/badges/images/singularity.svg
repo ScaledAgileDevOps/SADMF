@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="SADMF SINGULARITY Agent Certification Badge">
+  <defs>
+    <linearGradient id="si-silver" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f2f2f5"/>
+      <stop offset="40%" stop-color="#b8b8cc"/>
+      <stop offset="100%" stop-color="#585870"/>
+    </linearGradient>
+    <radialGradient id="si-space" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#0e1645"/>
+      <stop offset="100%" stop-color="#020408"/>
+    </radialGradient>
+    <radialGradient id="si-core" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="30%" stop-color="#88ffcc"/>
+      <stop offset="70%" stop-color="#0044cc"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </radialGradient>
+    <filter id="si-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="si-softglow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Silver outer rounded rectangle -->
+  <rect x="20" y="20" width="216" height="216" rx="14" ry="14" fill="url(#si-silver)"/>
+
+  <!-- Dark void inner -->
+  <rect x="30" y="30" width="196" height="196" rx="8" ry="8" fill="url(#si-space)"/>
+
+  <!-- Electric blue accent border -->
+  <rect x="37" y="37" width="182" height="182" rx="5" ry="5" fill="none" stroke="#0077dd" stroke-width="2"/>
+
+  <!-- Thin silver detail border -->
+  <rect x="34" y="34" width="188" height="188" rx="7" ry="7" fill="none" stroke="#b8b8cc" stroke-width="0.75" opacity="0.55"/>
+
+  <!-- SADMF text at top -->
+  <text x="128" y="63" text-anchor="middle"
+        font-family="Georgia,'Palatino Linotype',serif"
+        font-size="17" font-weight="bold" fill="#c8d8f0" letter-spacing="6"
+        stroke="#003090" stroke-width="0.5">SADMF</text>
+
+  <!-- Rule under SADMF -->
+  <line x1="55" y1="70" x2="201" y2="70" stroke="#3366aa" stroke-width="0.75" opacity="0.6"/>
+
+  <!-- Accretion disk rings (ellipses tilted to suggest 3D disk) -->
+  <!-- Outermost ring -->
+  <ellipse cx="128" cy="128" rx="72" ry="20" fill="none"
+           stroke="#00aaff" stroke-width="1.2" opacity="0.25"/>
+  <!-- Ring 2 -->
+  <ellipse cx="128" cy="128" rx="60" ry="16" fill="none"
+           stroke="#00aaff" stroke-width="1.5" opacity="0.35"/>
+  <!-- Ring 3 -->
+  <ellipse cx="128" cy="128" rx="48" ry="13" fill="none"
+           stroke="#00ccff" stroke-width="2" opacity="0.5" filter="url(#si-softglow)"/>
+  <!-- Ring 4 -->
+  <ellipse cx="128" cy="128" rx="36" ry="10" fill="none"
+           stroke="#44eeff" stroke-width="2.5" opacity="0.65" filter="url(#si-softglow)"/>
+  <!-- Ring 5 (closest) -->
+  <ellipse cx="128" cy="128" rx="24" ry="7" fill="none"
+           stroke="#88ffee" stroke-width="3" opacity="0.8" filter="url(#si-glow)"/>
+
+  <!-- Jet streams (vertical bright lines through center) -->
+  <line x1="128" y1="82" x2="128" y2="103"
+        stroke="#aaffee" stroke-width="2" stroke-linecap="round" opacity="0.6"
+        filter="url(#si-softglow)"/>
+  <line x1="128" y1="153" x2="128" y2="174"
+        stroke="#aaffee" stroke-width="2" stroke-linecap="round" opacity="0.6"
+        filter="url(#si-softglow)"/>
+
+  <!-- Black hole event horizon -->
+  <circle cx="128" cy="128" r="14" fill="#000000"/>
+  <circle cx="128" cy="128" r="14" fill="none"
+          stroke="#2288ff" stroke-width="2.5" filter="url(#si-glow)"/>
+
+  <!-- Singularity point (core) -->
+  <circle cx="128" cy="128" r="5" fill="url(#si-core)" filter="url(#si-glow)"/>
+  <circle cx="128" cy="128" r="2" fill="white" opacity="0.95"/>
+
+  <!-- Stardust particles -->
+  <g fill="#00eeff" opacity="0.5">
+    <circle cx="75" cy="118" r="1.5"/>
+    <circle cx="68" cy="132" r="1"/>
+    <circle cx="82" cy="140" r="1.5"/>
+    <circle cx="185" cy="122" r="1.5"/>
+    <circle cx="178" cy="135" r="1"/>
+    <circle cx="190" cy="118" r="1"/>
+    <circle cx="100" cy="85" r="1"/>
+    <circle cx="155" cy="170" r="1"/>
+    <circle cx="108" cy="170" r="1.5"/>
+    <circle cx="152" cy="88" r="1"/>
+  </g>
+
+  <!-- Rule above label -->
+  <line x1="55" y1="194" x2="201" y2="194" stroke="#3366aa" stroke-width="0.75" opacity="0.6"/>
+
+  <!-- SINGULARITY label -->
+  <text x="128" y="213" text-anchor="middle"
+        font-family="Georgia,'Palatino Linotype',serif"
+        font-size="9.5" font-weight="bold" fill="#88bbff" letter-spacing="2">SINGULARITY</text>
+</svg>

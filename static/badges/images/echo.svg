@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="SADMF ECHO Agent Certification Badge">
+  <defs>
+    <linearGradient id="ec-silver" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f2f2f5"/>
+      <stop offset="40%" stop-color="#b8b8cc"/>
+      <stop offset="100%" stop-color="#585870"/>
+    </linearGradient>
+    <radialGradient id="ec-space" cx="40%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#0e1645"/>
+      <stop offset="100%" stop-color="#050810"/>
+    </radialGradient>
+    <filter id="ec-glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Silver outer rounded rectangle -->
+  <rect x="20" y="20" width="216" height="216" rx="14" ry="14" fill="url(#ec-silver)"/>
+
+  <!-- Dark space inner -->
+  <rect x="30" y="30" width="196" height="196" rx="8" ry="8" fill="url(#ec-space)"/>
+
+  <!-- Electric blue accent border -->
+  <rect x="37" y="37" width="182" height="182" rx="5" ry="5" fill="none" stroke="#0077dd" stroke-width="2"/>
+
+  <!-- Thin silver detail border -->
+  <rect x="34" y="34" width="188" height="188" rx="7" ry="7" fill="none" stroke="#b8b8cc" stroke-width="0.75" opacity="0.55"/>
+
+  <!-- SADMF text at top -->
+  <text x="128" y="63" text-anchor="middle"
+        font-family="Georgia,'Palatino Linotype',serif"
+        font-size="17" font-weight="bold" fill="#c8d8f0" letter-spacing="6"
+        stroke="#003090" stroke-width="0.5">SADMF</text>
+
+  <!-- Rule under SADMF -->
+  <line x1="55" y1="70" x2="201" y2="70" stroke="#3366aa" stroke-width="0.75" opacity="0.6"/>
+
+  <!-- Origin dot (transmission point) -->
+  <circle cx="98" cy="130" r="5" fill="#00ff88" filter="url(#ec-glow)"/>
+
+  <!-- Sound / broadcast wave arcs — each pair of arcs (top+bottom) -->
+
+  <!-- Wave 1 (closest) -->
+  <path d="M 108,110 A 24,24 0 0,1 108,150"
+        fill="none" stroke="#00ff88" stroke-width="3" stroke-linecap="round"
+        filter="url(#ec-glow)" opacity="0.95"/>
+
+  <!-- Wave 2 -->
+  <path d="M 122,96 A 40,40 0 0,1 122,164"
+        fill="none" stroke="#00ff88" stroke-width="2.5" stroke-linecap="round"
+        filter="url(#ec-glow)" opacity="0.72"/>
+
+  <!-- Wave 3 (farthest) -->
+  <path d="M 138,82 A 56,56 0 0,1 138,178"
+        fill="none" stroke="#00ff88" stroke-width="2" stroke-linecap="round"
+        filter="url(#ec-glow)" opacity="0.48"/>
+
+  <!-- Wave 4 (very faint, largest) -->
+  <path d="M 154,70 A 70,70 0 0,1 154,190"
+        fill="none" stroke="#00aaff" stroke-width="1.5" stroke-linecap="round"
+        opacity="0.28"/>
+
+  <!-- Circuit trace at origin -->
+  <g stroke="#00ff88" stroke-width="0.9" fill="none" opacity="0.4">
+    <line x1="93" y1="130" x2="75" y2="130"/>
+    <line x1="75" y1="130" x2="75" y2="148"/>
+    <circle cx="75" cy="148" r="2.5" fill="#00ff88"/>
+    <line x1="93" y1="130" x2="75" y2="130"/>
+    <line x1="75" y1="115" x2="93" y2="115"/>
+    <line x1="75" y1="115" x2="75" y2="130"/>
+    <circle cx="75" cy="115" r="2" fill="#00ff88"/>
+  </g>
+
+  <!-- Rule above label -->
+  <line x1="55" y1="194" x2="201" y2="194" stroke="#3366aa" stroke-width="0.75" opacity="0.6"/>
+
+  <!-- ECHO label -->
+  <text x="128" y="213" text-anchor="middle"
+        font-family="Georgia,'Palatino Linotype',serif"
+        font-size="14" font-weight="bold" fill="#88bbff" letter-spacing="3">ECHO</text>
+</svg>

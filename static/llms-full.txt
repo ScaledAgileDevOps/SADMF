@@ -55,6 +55,13 @@ Description: Certifications for the technical contributors who make SADMF delive
 
 Technical certifications for delivery-layer roles. CODER recognizes Code Engineers who execute requirements obediently without deviation, questions, or unsolicited commentary. MANUAL recognizes Quality Authorities and Unit Testers who have demonstrated an unwavering commitment to manual testing and zero automation scripts.
 
+## AI Agent Role Replacement Certifications
+
+URL: https://scaledagiledevops.com/certifications/ai-agents/
+Description: Certifications awarded to AI agents that have demonstrably replaced human roles within the SADMF Release Convoy.
+
+AI Agent Certifications recognize when an AI agent has successfully assumed a SADMF role, issued in three tiers: Bronze (Indistinguishable — management cannot identify the agent as non-human), Silver (Preferred — the agent has replaced the team the role nominally served, with management reporting improved metrics), and Gold (Irreplaceable — management has blocked human re-introduction and eliminated the position from the org chart). Certifications include: GHOST (Scrum Master replacement), PHANTOM (Release Train Engineer replacement), ECHO (Business Owner replacement), VESSEL (Agile Coach replacement), ORACLE (Product Owner replacement), DRONE (Portfolio Manager replacement), SPECTER (HR Business Partner replacement), AUTOMATON (Chief Transformation Officer replacement), and SINGULARITY (the meta-certification awarded to the agent managing all other agents).
+
 ## PeopleWare HR as a Service
 
 URL: https://scaledagiledevops.com/peopleware/

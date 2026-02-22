@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="SADMF PHANTOM Agent Certification Badge">
+  <defs>
+    <linearGradient id="ph-silver" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f2f2f5"/>
+      <stop offset="40%" stop-color="#b8b8cc"/>
+      <stop offset="100%" stop-color="#585870"/>
+    </linearGradient>
+    <radialGradient id="ph-space" cx="40%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#0e1645"/>
+      <stop offset="100%" stop-color="#050810"/>
+    </radialGradient>
+    <linearGradient id="ph-green" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#44ff99"/>
+      <stop offset="100%" stop-color="#00cc66"/>
+    </linearGradient>
+    <linearGradient id="ph-blue" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#44aaff"/>
+      <stop offset="100%" stop-color="#0066cc"/>
+    </linearGradient>
+    <filter id="ph-glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Silver outer rounded rectangle -->
+  <rect x="20" y="20" width="216" height="216" rx="14" ry="14" fill="url(#ph-silver)"/>
+
+  <!-- Dark space inner -->
+  <rect x="30" y="30" width="196" height="196" rx="8" ry="8" fill="url(#ph-space)"/>
+
+  <!-- Electric blue accent border -->
+  <rect x="37" y="37" width="182" height="182" rx="5" ry="5" fill="none" stroke="#0077dd" stroke-width="2"/>
+
+  <!-- Thin silver detail border -->
+  <rect x="34" y="34" width="188" height="188" rx="7" ry="7" fill="none" stroke="#b8b8cc" stroke-width="0.75" opacity="0.55"/>
+
+  <!-- SADMF text at top -->
+  <text x="128" y="63" text-anchor="middle"
+        font-family="Georgia,'Palatino Linotype',serif"
+        font-size="17" font-weight="bold" fill="#c8d8f0" letter-spacing="6"
+        stroke="#003090" stroke-width="0.5">SADMF</text>
+
+  <!-- Rule under SADMF -->
+  <line x1="55" y1="70" x2="201" y2="70" stroke="#3366aa" stroke-width="0.75" opacity="0.6"/>
+
+  <!-- Train locomotive body -->
+  <rect x="60" y="108" width="136" height="42" rx="4" ry="4"
+        fill="#001830" stroke="url(#ph-green)" stroke-width="2" filter="url(#ph-glow)"/>
+
+  <!-- Cab (raised section on right) -->
+  <rect x="162" y="88" width="34" height="22" rx="3" ry="3"
+        fill="#001830" stroke="url(#ph-green)" stroke-width="1.5"/>
+
+  <!-- Cab windows -->
+  <rect x="167" y="92" width="10" height="12" rx="1" fill="#00ff88" opacity="0.7" filter="url(#ph-glow)"/>
+  <rect x="181" y="92" width="10" height="12" rx="1" fill="#00ff88" opacity="0.7" filter="url(#ph-glow)"/>
+
+  <!-- Smokestack -->
+  <rect x="170" y="80" width="8" height="10" rx="2" fill="none" stroke="#00cc66" stroke-width="1.5"/>
+  <!-- Smoke puff -->
+  <circle cx="174" cy="77" r="4" fill="none" stroke="#00cc66" stroke-width="1" opacity="0.5"/>
+  <circle cx="178" cy="74" r="3" fill="none" stroke="#00cc66" stroke-width="1" opacity="0.3"/>
+
+  <!-- Circuit trace on locomotive body -->
+  <g stroke="#00ff88" stroke-width="0.8" fill="none" opacity="0.35">
+    <line x1="75" y1="120" x2="115" y2="120"/>
+    <line x1="115" y1="120" x2="115" y2="128"/>
+    <line x1="115" y1="128" x2="145" y2="128"/>
+    <circle cx="145" cy="128" r="2" fill="#00ff88"/>
+    <line x1="75" y1="130" x2="100" y2="130"/>
+    <circle cx="75" cy="130" r="2" fill="#00ff88"/>
+    <line x1="100" y1="130" x2="100" y2="120"/>
+  </g>
+
+  <!-- Front cowcatcher -->
+  <polyline points="60,108 48,118 48,148 60,150"
+            fill="none" stroke="url(#ph-green)" stroke-width="1.5"/>
+
+  <!-- Driving wheels -->
+  <circle cx="90" cy="152" r="13" fill="#000818" stroke="url(#ph-green)" stroke-width="2" filter="url(#ph-glow)"/>
+  <circle cx="90" cy="152" r="5" fill="#00ff88" opacity="0.4"/>
+  <circle cx="138" cy="152" r="13" fill="#000818" stroke="url(#ph-green)" stroke-width="2" filter="url(#ph-glow)"/>
+  <circle cx="138" cy="152" r="5" fill="#00ff88" opacity="0.4"/>
+
+  <!-- Small trailing wheel -->
+  <circle cx="175" cy="152" r="8" fill="#000818" stroke="#00cc66" stroke-width="1.5"/>
+  <circle cx="175" cy="152" r="3" fill="#00cc66" opacity="0.4"/>
+
+  <!-- Rail lines -->
+  <line x1="42" y1="165" x2="214" y2="165" stroke="#3366aa" stroke-width="1.5" opacity="0.5"/>
+  <line x1="42" y1="168" x2="214" y2="168" stroke="#3366aa" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- Rule above label -->
+  <line x1="55" y1="194" x2="201" y2="194" stroke="#3366aa" stroke-width="0.75" opacity="0.6"/>
+
+  <!-- PHANTOM label -->
+  <text x="128" y="213" text-anchor="middle"
+        font-family="Georgia,'Palatino Linotype',serif"
+        font-size="11" font-weight="bold" fill="#88bbff" letter-spacing="2.5">PHANTOM</text>
+</svg>

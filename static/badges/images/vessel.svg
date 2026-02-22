@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="SADMF VESSEL Agent Certification Badge">
+  <defs>
+    <linearGradient id="ve-silver" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f2f2f5"/>
+      <stop offset="40%" stop-color="#b8b8cc"/>
+      <stop offset="100%" stop-color="#585870"/>
+    </linearGradient>
+    <radialGradient id="ve-space" cx="40%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#0e1645"/>
+      <stop offset="100%" stop-color="#050810"/>
+    </radialGradient>
+    <filter id="ve-glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Silver outer rounded rectangle -->
+  <rect x="20" y="20" width="216" height="216" rx="14" ry="14" fill="url(#ve-silver)"/>
+
+  <!-- Dark space inner -->
+  <rect x="30" y="30" width="196" height="196" rx="8" ry="8" fill="url(#ve-space)"/>
+
+  <!-- Electric blue accent border -->
+  <rect x="37" y="37" width="182" height="182" rx="5" ry="5" fill="none" stroke="#0077dd" stroke-width="2"/>
+
+  <!-- Thin silver detail border -->
+  <rect x="34" y="34" width="188" height="188" rx="7" ry="7" fill="none" stroke="#b8b8cc" stroke-width="0.75" opacity="0.55"/>
+
+  <!-- SADMF text at top -->
+  <text x="128" y="63" text-anchor="middle"
+        font-family="Georgia,'Palatino Linotype',serif"
+        font-size="17" font-weight="bold" fill="#c8d8f0" letter-spacing="6"
+        stroke="#003090" stroke-width="0.5">SADMF</text>
+
+  <!-- Rule under SADMF -->
+  <line x1="55" y1="70" x2="201" y2="70" stroke="#3366aa" stroke-width="0.75" opacity="0.6"/>
+
+  <!-- Flask / vessel container shape -->
+  <!-- Neck -->
+  <rect x="110" y="82" width="36" height="22" rx="3" ry="3"
+        fill="none" stroke="#00aaff" stroke-width="2.5" filter="url(#ve-glow)"/>
+  <!-- Rim at top of neck -->
+  <rect x="105" y="78" width="46" height="7" rx="3" ry="3"
+        fill="none" stroke="#00aaff" stroke-width="2"/>
+  <!-- Flask body (trapezoid-ish, wider at bottom) -->
+  <path d="M 110,104 L 88,170 Q 88,178 98,178 L 158,178 Q 168,178 168,170 L 146,104 Z"
+        fill="#001428" stroke="#00aaff" stroke-width="2.5" filter="url(#ve-glow)"/>
+
+  <!-- Hollow human silhouette inside flask — made with dashed circuit lines -->
+  <!-- Head (circle, dashed) -->
+  <circle cx="128" cy="120" r="10" fill="none" stroke="#00ff88" stroke-width="1.5"
+          stroke-dasharray="3,3" opacity="0.7"/>
+  <!-- Body (vertical line) -->
+  <line x1="128" y1="130" x2="128" y2="155"
+        stroke="#00ff88" stroke-width="1.5" stroke-dasharray="3,3" opacity="0.7"/>
+  <!-- Arms (horizontal line) -->
+  <line x1="110" y1="140" x2="146" y2="140"
+        stroke="#00ff88" stroke-width="1.5" stroke-dasharray="3,3" opacity="0.7"/>
+  <!-- Legs (V shape) -->
+  <line x1="128" y1="155" x2="116" y2="170"
+        stroke="#00ff88" stroke-width="1.5" stroke-dasharray="3,3" opacity="0.7"/>
+  <line x1="128" y1="155" x2="140" y2="170"
+        stroke="#00ff88" stroke-width="1.5" stroke-dasharray="3,3" opacity="0.7"/>
+
+  <!-- Node dots at joints -->
+  <circle cx="128" cy="130" r="2" fill="#00ff88" opacity="0.8"/>
+  <circle cx="110" cy="140" r="2" fill="#00ff88" opacity="0.8"/>
+  <circle cx="146" cy="140" r="2" fill="#00ff88" opacity="0.8"/>
+  <circle cx="128" cy="155" r="2" fill="#00ff88" opacity="0.8"/>
+
+  <!-- Rule above label -->
+  <line x1="55" y1="194" x2="201" y2="194" stroke="#3366aa" stroke-width="0.75" opacity="0.6"/>
+
+  <!-- VESSEL label -->
+  <text x="128" y="213" text-anchor="middle"
+        font-family="Georgia,'Palatino Linotype',serif"
+        font-size="12" font-weight="bold" fill="#88bbff" letter-spacing="3">VESSEL</text>
+</svg>

@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="SADMF ORACLE Agent Certification Badge">
+  <defs>
+    <linearGradient id="or-silver" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f2f2f5"/>
+      <stop offset="40%" stop-color="#b8b8cc"/>
+      <stop offset="100%" stop-color="#585870"/>
+    </linearGradient>
+    <radialGradient id="or-space" cx="40%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#0e1645"/>
+      <stop offset="100%" stop-color="#050810"/>
+    </radialGradient>
+    <linearGradient id="or-green" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#44ff99"/>
+      <stop offset="100%" stop-color="#00aa55"/>
+    </linearGradient>
+    <filter id="or-glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Silver outer rounded rectangle -->
+  <rect x="20" y="20" width="216" height="216" rx="14" ry="14" fill="url(#or-silver)"/>
+
+  <!-- Dark space inner -->
+  <rect x="30" y="30" width="196" height="196" rx="8" ry="8" fill="url(#or-space)"/>
+
+  <!-- Electric blue accent border -->
+  <rect x="37" y="37" width="182" height="182" rx="5" ry="5" fill="none" stroke="#0077dd" stroke-width="2"/>
+
+  <!-- Thin silver detail border -->
+  <rect x="34" y="34" width="188" height="188" rx="7" ry="7" fill="none" stroke="#b8b8cc" stroke-width="0.75" opacity="0.55"/>
+
+  <!-- SADMF text at top -->
+  <text x="128" y="63" text-anchor="middle"
+        font-family="Georgia,'Palatino Linotype',serif"
+        font-size="17" font-weight="bold" fill="#c8d8f0" letter-spacing="6"
+        stroke="#003090" stroke-width="0.5">SADMF</text>
+
+  <!-- Rule under SADMF -->
+  <line x1="55" y1="70" x2="201" y2="70" stroke="#3366aa" stroke-width="0.75" opacity="0.6"/>
+
+  <!-- Outer eye shape (eyelid curves) -->
+  <path d="M 60,128 Q 128,78 196,128 Q 128,178 60,128 Z"
+        fill="#001020" stroke="#00aaff" stroke-width="2.5" filter="url(#or-glow)"/>
+
+  <!-- Iris -->
+  <circle cx="128" cy="128" r="28" fill="#001520"
+          stroke="#00ff88" stroke-width="2" filter="url(#or-glow)"/>
+
+  <!-- Circuit iris pattern — radial segments -->
+  <g stroke="#00ff88" stroke-width="0.9" opacity="0.45">
+    <line x1="128" y1="101" x2="128" y2="108"/>
+    <line x1="128" y1="148" x2="128" y2="155"/>
+    <line x1="101" y1="128" x2="108" y2="128"/>
+    <line x1="148" y1="128" x2="155" y2="128"/>
+    <line x1="109" y1="109" x2="114" y2="114"/>
+    <line x1="147" y1="109" x2="142" y2="114"/>
+    <line x1="109" y1="147" x2="114" y2="142"/>
+    <line x1="147" y1="147" x2="142" y2="142"/>
+    <!-- Ring around iris interior -->
+    <circle cx="128" cy="128" r="18" fill="none" stroke="#00ff88" stroke-width="0.8" opacity="0.4"/>
+  </g>
+
+  <!-- Pupil (glowing green) -->
+  <circle cx="128" cy="128" r="11" fill="#002010" stroke="#00ff88" stroke-width="1.5" filter="url(#or-glow)"/>
+  <circle cx="128" cy="128" r="5" fill="#00ff88" opacity="0.85" filter="url(#or-glow)"/>
+
+  <!-- Pupil highlight -->
+  <circle cx="124" cy="124" r="2" fill="white" opacity="0.6"/>
+
+  <!-- Circuit traces extending from eye corners -->
+  <g stroke="#00aaff" stroke-width="0.9" fill="none" opacity="0.35">
+    <line x1="63" y1="128" x2="52" y2="128"/>
+    <line x1="52" y1="128" x2="52" y2="145"/>
+    <circle cx="52" cy="145" r="2" fill="#00aaff"/>
+    <line x1="193" y1="128" x2="204" y2="128"/>
+    <line x1="204" y1="128" x2="204" y2="145"/>
+    <circle cx="204" cy="145" r="2" fill="#00aaff"/>
+  </g>
+
+  <!-- Rule above label -->
+  <line x1="55" y1="194" x2="201" y2="194" stroke="#3366aa" stroke-width="0.75" opacity="0.6"/>
+
+  <!-- ORACLE label -->
+  <text x="128" y="213" text-anchor="middle"
+        font-family="Georgia,'Palatino Linotype',serif"
+        font-size="13" font-weight="bold" fill="#88bbff" letter-spacing="3">ORACLE</text>
+</svg>

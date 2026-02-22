@@ -11,6 +11,7 @@ SADMF is a satirical framework that presents enterprise anti-patterns as recomme
 - [Roles](https://scaledagiledevops.com/roles/): Commanding the organization requires structure, clearly defined roles, and strict separation of duties!
 - [Metrics](https://scaledagiledevops.com/metrics/): Management via metrics is the most effective way to cause impact!
 - [Certifications](https://scaledagiledevops.com/certifications/): Get your SAD certifications today!
+- [AI Agent Certifications](https://scaledagiledevops.com/certifications/ai-agents/): Certifications awarded to AI agents that have demonstrably replaced human roles within the SADMF Release Convoy.
 - [PeopleWare HR as a Service](https://scaledagiledevops.com/peopleware/): Human Resources as a Service
 - [Enterprise AI Enablement Framework](https://scaledagiledevops.com/ai-adoption/): A Strategic Reference Architecture for High-Throughput Developer Output Optimization
 - [Success Stories](https://scaledagiledevops.com/success-stories/): Triumphant experience reports from SAD Accredited Facilitators!

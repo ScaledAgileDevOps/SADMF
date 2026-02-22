@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="SADMF DRONE Agent Certification Badge">
+  <defs>
+    <linearGradient id="dr-silver" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f2f2f5"/>
+      <stop offset="40%" stop-color="#b8b8cc"/>
+      <stop offset="100%" stop-color="#585870"/>
+    </linearGradient>
+    <radialGradient id="dr-space" cx="40%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#0e1645"/>
+      <stop offset="100%" stop-color="#050810"/>
+    </radialGradient>
+    <filter id="dr-glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Silver outer rounded rectangle -->
+  <rect x="20" y="20" width="216" height="216" rx="14" ry="14" fill="url(#dr-silver)"/>
+
+  <!-- Dark space inner -->
+  <rect x="30" y="30" width="196" height="196" rx="8" ry="8" fill="url(#dr-space)"/>
+
+  <!-- Electric blue accent border -->
+  <rect x="37" y="37" width="182" height="182" rx="5" ry="5" fill="none" stroke="#0077dd" stroke-width="2"/>
+
+  <!-- Thin silver detail border -->
+  <rect x="34" y="34" width="188" height="188" rx="7" ry="7" fill="none" stroke="#b8b8cc" stroke-width="0.75" opacity="0.55"/>
+
+  <!-- SADMF text at top -->
+  <text x="128" y="63" text-anchor="middle"
+        font-family="Georgia,'Palatino Linotype',serif"
+        font-size="17" font-weight="bold" fill="#c8d8f0" letter-spacing="6"
+        stroke="#003090" stroke-width="0.5">SADMF</text>
+
+  <!-- Rule under SADMF -->
+  <line x1="55" y1="70" x2="201" y2="70" stroke="#3366aa" stroke-width="0.75" opacity="0.6"/>
+
+  <!-- Quadcopter top view — 4 arms -->
+  <!-- Arm: top-left -->
+  <line x1="128" y1="128" x2="88" y2="93" stroke="#00aaff" stroke-width="4" stroke-linecap="round"/>
+  <!-- Arm: top-right -->
+  <line x1="128" y1="128" x2="168" y2="93" stroke="#00aaff" stroke-width="4" stroke-linecap="round"/>
+  <!-- Arm: bottom-left -->
+  <line x1="128" y1="128" x2="88" y2="163" stroke="#00aaff" stroke-width="4" stroke-linecap="round"/>
+  <!-- Arm: bottom-right -->
+  <line x1="128" y1="128" x2="168" y2="163" stroke="#00aaff" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Motor housings at arm tips -->
+  <circle cx="88" cy="93" r="12" fill="#001428" stroke="#00aaff" stroke-width="2" filter="url(#dr-glow)"/>
+  <circle cx="168" cy="93" r="12" fill="#001428" stroke="#00aaff" stroke-width="2" filter="url(#dr-glow)"/>
+  <circle cx="88" cy="163" r="12" fill="#001428" stroke="#00aaff" stroke-width="2" filter="url(#dr-glow)"/>
+  <circle cx="168" cy="163" r="12" fill="#001428" stroke="#00aaff" stroke-width="2" filter="url(#dr-glow)"/>
+
+  <!-- Propeller blades (crossing lines through each motor) -->
+  <g stroke="#00ff88" stroke-width="2" stroke-linecap="round" opacity="0.8">
+    <!-- TL rotor -->
+    <line x1="78" y1="93" x2="98" y2="93"/>
+    <line x1="88" y1="83" x2="88" y2="103"/>
+    <!-- TR rotor -->
+    <line x1="158" y1="93" x2="178" y2="93"/>
+    <line x1="168" y1="83" x2="168" y2="103"/>
+    <!-- BL rotor -->
+    <line x1="78" y1="163" x2="98" y2="163"/>
+    <line x1="88" y1="153" x2="88" y2="173"/>
+    <!-- BR rotor -->
+    <line x1="158" y1="163" x2="178" y2="163"/>
+    <line x1="168" y1="153" x2="168" y2="173"/>
+  </g>
+
+  <!-- Body center (camera/payload) -->
+  <rect x="116" y="116" width="24" height="24" rx="4" ry="4"
+        fill="#001428" stroke="#00ff88" stroke-width="2" filter="url(#dr-glow)"/>
+  <circle cx="128" cy="128" r="5" fill="#00ff88" opacity="0.8" filter="url(#dr-glow)"/>
+
+  <!-- Circuit trace on body -->
+  <g stroke="#00ff88" stroke-width="0.8" fill="none" opacity="0.35">
+    <line x1="128" y1="108" x2="128" y2="116"/>
+    <line x1="108" y1="128" x2="116" y2="128"/>
+    <line x1="128" y1="140" x2="128" y2="148"/>
+    <line x1="140" y1="128" x2="148" y2="128"/>
+  </g>
+
+  <!-- Rule above label -->
+  <line x1="55" y1="194" x2="201" y2="194" stroke="#3366aa" stroke-width="0.75" opacity="0.6"/>
+
+  <!-- DRONE label -->
+  <text x="128" y="213" text-anchor="middle"
+        font-family="Georgia,'Palatino Linotype',serif"
+        font-size="13" font-weight="bold" fill="#88bbff" letter-spacing="3">DRONE</text>
+</svg>
