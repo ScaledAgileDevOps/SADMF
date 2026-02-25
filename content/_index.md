@@ -205,6 +205,21 @@ description: "Enterprise DevOps transformation without the risk of culture chang
 
 {{% blocks/section color="light" type="container" %}}
 
+<div class="row align-items-center justify-content-center">
+  <div class="col-lg-5 mb-4 mb-lg-0">
+    <h2>The Official Field Guide</h2>
+    <p class="lead">The authoritative implementation manual for Scaled Agile DevOps Accredited Facilitators. Covers all 68 framework elements, the DevOps Release Convoy, ten accountability metrics, the full certification pathway, and AI governance through the SINGULARITY program.</p>
+    <p>Produced by DOGMA — the Documentation, Operations, and Governance Management Authority — and reviewed against the SADBOK prior to release.</p>
+  </div>
+  <div class="col-lg-3 col-md-4 text-center">
+    <iframe width="256" height="400" src="https://leanpub.com/sadmf/embed" frameborder="0" allowtransparency="true"></iframe>
+  </div>
+</div>
+
+{{% /blocks/section %}}
+
+{{% blocks/section color="light" type="container" %}}
+
 <div class="trusted-section text-center">
 <h2 class="mb-4">Trusted by Enterprises Worldwide</h2>
 <p class="text-muted mb-5">Join thousands of organizations that have adopted Scaled Agile DevOps</p>
