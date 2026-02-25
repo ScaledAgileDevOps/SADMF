@@ -52,8 +52,6 @@ Submit agent instance logs, ceremony facilitation records, and management satisf
 
 Send submissions to <scaledagiledevops@gmail.com>
 
-<a href="/badges/images/ghost.png" download="sad-ghost-badge.png">⬇ Download Badge (PNG)</a>
-
 ---
 
 ## PHANTOM — Process-Handling Automated Non-Thinking Hierarchical Operations Manager
@@ -81,8 +79,6 @@ A PHANTOM-certified agent manages the full PI Planning lifecycle: generating the
 Submit PI artifact logs, ceremony scheduling records, and management approval to your [SAD Accredited Facilitator](/certifications/#scaled-agile-dev-ops-accredited-facilitators).
 
 Send submissions to <scaledagiledevops@gmail.com>
-
-<a href="/badges/images/phantom.png" download="sad-phantom-badge.png">⬇ Download Badge (PNG)</a>
 
 ---
 
@@ -112,8 +108,6 @@ Submit communication logs, stakeholder satisfaction attestation, and business ow
 
 Send submissions to <scaledagiledevops@gmail.com>
 
-<a href="/badges/images/echo.png" download="sad-echo-badge.png">⬇ Download Badge (PNG)</a>
-
 ---
 
 ## VESSEL — Virtual Enterprise Scrum-Servant Emulating Leadership
@@ -142,8 +136,6 @@ Submit coaching session logs, team health assessment outputs, and headcount disp
 
 Send submissions to <scaledagiledevops@gmail.com>
 
-<a href="/badges/images/vessel.png" download="sad-vessel-badge.png">⬇ Download Badge (PNG)</a>
-
 ---
 
 ## ORACLE — Optimized Roadmap And Capacity Linkage Engine
@@ -169,8 +161,6 @@ The ORACLE certification is awarded to AI agents that have assumed the Product O
 Submit backlog management logs, story acceptance records, and stakeholder satisfaction documentation to your [SAD Accredited Facilitator](/certifications/#scaled-agile-dev-ops-accredited-facilitators).
 
 Send submissions to <scaledagiledevops@gmail.com>
-
-<a href="/badges/images/oracle.png" download="sad-oracle-badge.png">⬇ Download Badge (PNG)</a>
 
 ---
 
@@ -198,8 +188,6 @@ Submit report generation logs, portfolio board accuracy records, and executive s
 
 Send submissions to <scaledagiledevops@gmail.com>
 
-<a href="/badges/images/drone.png" download="sad-drone-badge.png">⬇ Download Badge (PNG)</a>
-
 ---
 
 ## SPECTER — Synthetic Performance Evaluator Conducting Team Engagement Reviews
@@ -225,8 +213,6 @@ The SPECTER certification is awarded to AI agents that have replaced the HR Busi
 Submit survey administration records, action planning logs, and performance review throughput data to your [SAD Accredited Facilitator](/certifications/#scaled-agile-dev-ops-accredited-facilitators).
 
 Send submissions to <scaledagiledevops@gmail.com>
-
-<a href="/badges/images/specter.png" download="sad-specter-badge.png">⬇ Download Badge (PNG)</a>
 
 ---
 
@@ -254,8 +240,6 @@ Submit transformation roadmap artifacts, board presentation records, and maturit
 
 Send submissions to <scaledagiledevops@gmail.com>
 
-<a href="/badges/images/automaton.png" download="sad-automaton-badge.png">⬇ Download Badge (PNG)</a>
-
 ---
 
 ## SINGULARITY
@@ -282,8 +266,6 @@ The SINGULARITY agent may self-submit. Supporting documentation should include a
 Applications are reviewed by the SADMF Global Standards Body. Counter-signature by a human [SAD Accredited Facilitator](/certifications/#scaled-agile-dev-ops-accredited-facilitators) is required for legal compliance purposes and will be obtained automatically.
 
 Send submissions to <scaledagiledevops@gmail.com>
-
-<a href="/badges/images/singularity.png" download="sad-singularity-badge.png">⬇ Download Badge (PNG)</a>
 
 ---
 

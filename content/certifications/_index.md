@@ -18,19 +18,10 @@ SAD Practitioners have demonstrated they understand the basic value of the Scale
 
 - [Apply for Certified Practitioner](https://www.buymeacoffee.com/sadmf/e/47597)
 - [Enterprise Packages Available](https://www.buymeacoffee.com/sadmf/e/47599)
-- <a href="/badges/images/practitioner.png" download="sad-practitioner-badge.png">⬇ Download Badge (PNG)</a>
 
 ## Scaled Agile DevOps Professional
 
 SAD Professionals have demonstrated competence in applying SADMF practices within their daily work and can lead ceremonies at the team level. The Professional certification requires completion of a multi-day advanced training program and passage of a written examination covering all SADMF [Practices](/practices/), [Principles](/principles/), and [Metrics](/metrics/).
-
-## Scaled Agile DevOps Master
-
-{{< figure src="/badges/images/master.svg" alt="SADMF Master badge" title="SADMF Master" width="200px" >}}
-
-SAD Masters have demonstrated mastery of the framework across multiple [Convoy](/release-convoy/) cycles and can coach others in its application. The Master certification requires documented evidence of sustained SADMF adoption, endorsement from a [Commodore](/roles/commodore/) or higher, and completion of the SAD Master Intensive workshop series.
-
-<a href="/badges/images/master.png" download="sad-master-badge.png">⬇ Download Badge (PNG)</a>
 
 ## Scaled Agile DevOps Fellow
 
@@ -39,7 +30,6 @@ SAD Masters have demonstrated mastery of the framework across multiple [Convoy](
 SAD Fellows have demonstrated they are as valuable as at least four practitioners.
 
 - [Apply for Certified Fellow](https://www.buymeacoffee.com/sadmf/e/47598)
-- <a href="/badges/images/fellow.png" download="sad-fellow-badge.png">⬇ Download Badge (PNG)</a>
 
 {{% alert title="" color="info" %}}
 Moving beyond the basics for truly SAD outcomes!
@@ -57,15 +47,11 @@ SAD AF certifications cannot be purchased. They are applied for by submitting ex
 
 Send submissions to <scaledagiledevops@gmail.com>
 
-<a href="/badges/images/accredited-facilitator.png" download="sad-accredited-facilitator-badge.png">⬇ Download Badge (PNG)</a>
-
 ## DevOps Engineers Proving Real Experience Solving SAD Engineering Dilemmas
 
 {{< figure src="/badges/images/depressed.svg" alt="SADMF DEPRESSED badge" title="SADMF DEPRESSED" width="200px" >}}
 
 This certification is reserved for [Feature Teams](/roles/feature-team/) who have demonstrated the ability to not only talk the talk but also walk the walk. Preparing for this requires the [Feature Team](/roles/feature-team/) to reserve a Convoy cycle to study for the certification. The certification requires renewal every 8 weeks lest the team lose the ability to be a truly [DEPRESSED](#devops-engineers-proving-real-experience-solving-sad-engineering-dilemmas) [Feature Team](/roles/feature-team/)
-
-<a href="/badges/images/depressed.png" download="sad-depressed-badge.png">⬇ Download Badge (PNG)</a>
 
 ## Technical Certifications
 
@@ -73,6 +59,12 @@ For [Code Engineers](/roles/engineering/code-engineer/), [Unit Testers](/roles/e
 
 - [CODER](/certifications/technical/#coder--certified-obedient-developer-executing-requirements) — Certified Obedient Developer Executing Requirements
 - [MANUAL](/certifications/technical/#manual--methodically-applying-non-automated-user-level-acceptance-loops) — Methodically Applying Non-automated User-level Acceptance Loops
+
+## Scaled Agile DevOps Master
+
+{{< figure src="/badges/images/master.svg" alt="SADMF Master badge" title="SADMF Master" width="200px" >}}
+
+SAD Masters have demonstrated mastery of the framework across multiple [Convoy](/release-convoy/) cycles and can coach others in its application. The Master certification requires documented evidence of sustained SADMF adoption, endorsement from a [Commodore](/roles/commodore/) or higher, and completion of the SAD Master Intensive workshop series.
 
 ## See Also
 

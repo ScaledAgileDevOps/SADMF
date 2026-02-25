@@ -35,8 +35,6 @@ CODER certifications are applied for by submitting a completed CODER Application
 
 Send submissions to <scaledagiledevops@gmail.com>
 
-<a href="/badges/images/coder.png" download="sad-coder-badge.png">⬇ Download Badge (PNG)</a>
-
 ---
 
 ## MANUAL — Methodically Applying Non-automated User-level Acceptance Loops
@@ -61,8 +59,6 @@ Candidates must satisfy all of the following criteria, verified by their Quality
 MANUAL certifications are applied for by submitting a Defect Impact Report and Quality Assurance Examination results to your [SAD Accredited Facilitator](/certifications/#scaled-agile-dev-ops-accredited-facilitators).
 
 Send submissions to <scaledagiledevops@gmail.com>
-
-<a href="/badges/images/manual.png" download="sad-manual-badge.png">⬇ Download Badge (PNG)</a>
 
 ## See Also
 
