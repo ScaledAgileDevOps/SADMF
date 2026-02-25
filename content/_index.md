@@ -181,12 +181,12 @@ description: "Enterprise DevOps transformation without the risk of culture chang
 
 <div class="video-cta-section">
 <div class="row align-items-center">
-  <div class="col-lg-7 mb-4 mb-lg-0">
+  <div class="col-lg-6 mb-4 mb-lg-0">
     <div class="video-embed">
       <iframe src="https://www.youtube.com/embed/zMI2FykK7j4" title="SADMF Training Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
   </div>
-  <div class="col-lg-5">
+  <div class="col-lg-4">
     <h2>See It in Action</h2>
     <p class="lead">Watch this training video presented by a senior Accredited Facilitator, then begin your journey with a <a href="https://www.youtube.com/watch?v=cwbiSCgiZNA">Certified Really Agile Practitioner</a> course.</p>
     <div class="mt-4">
@@ -198,29 +198,17 @@ description: "Enterprise DevOps transformation without the risk of culture chang
       </a>
     </div>
   </div>
-</div>
-</div>
-
-{{% /blocks/section %}}
-
-{{% blocks/section color="white" type="container" %}}
-
-<div class="row align-items-center justify-content-center">
-  <div class="col-lg-5 mb-4 mb-lg-0">
-    <h2>The Official Field Guide</h2>
-    <p class="lead">The authoritative implementation manual for Scaled Agile DevOps Accredited Facilitators. Covers all 68 framework elements, the DevOps Release Convoy, ten accountability metrics, the full certification pathway, and AI governance through the SINGULARITY program.</p>
-    <p>Produced by DOGMA — the Documentation, Operations, and Governance Management Authority — and reviewed against the SADBOK prior to release.</p>
-  </div>
-  <div class="col-lg-3 col-md-4 text-center">
+  <div class="col-lg-2 text-center mt-4 mt-lg-0">
     <a href="https://leanpub.com/sadmf" target="_blank" rel="noopener">
-      <img src="/images/sadmf-book-cover.jpg" alt="SADMF Field Guide cover" class="img-fluid rounded shadow" style="max-width:256px;">
+      <img src="/images/sadmf-book-cover.jpg" alt="SADMF Field Guide cover" class="img-fluid rounded shadow">
     </a>
-    <div class="mt-3">
-      <a class="btn btn-lg btn-secondary" href="https://leanpub.com/sadmf" target="_blank" rel="noopener">
-        Get the Field Guide <i class="fa-solid fa-book-open ms-2"></i>
+    <div class="mt-2">
+      <a class="btn btn-sm btn-secondary" href="https://leanpub.com/sadmf" target="_blank" rel="noopener">
+        Get the Field Guide <i class="fa-solid fa-book-open ms-1"></i>
       </a>
     </div>
   </div>
+</div>
 </div>
 
 {{% /blocks/section %}}
