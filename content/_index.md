@@ -212,7 +212,14 @@ description: "Enterprise DevOps transformation without the risk of culture chang
     <p>Produced by DOGMA — the Documentation, Operations, and Governance Management Authority — and reviewed against the SADBOK prior to release.</p>
   </div>
   <div class="col-lg-3 col-md-4 text-center">
-    <iframe width="256" height="400" src="https://leanpub.com/sadmf/embed" frameborder="0" allowtransparency="true"></iframe>
+    <a href="https://leanpub.com/sadmf" target="_blank" rel="noopener">
+      <img src="/images/sadmf-book-cover.jpg" alt="SADMF Field Guide cover" class="img-fluid rounded shadow" style="max-width:256px;">
+    </a>
+    <div class="mt-3">
+      <a class="btn btn-lg btn-secondary" href="https://leanpub.com/sadmf" target="_blank" rel="noopener">
+        Get the Field Guide <i class="fa-solid fa-book-open ms-2"></i>
+      </a>
+    </div>
   </div>
 </div>
 
