@@ -203,7 +203,7 @@ description: "Enterprise DevOps transformation without the risk of culture chang
 
 {{% /blocks/section %}}
 
-{{% blocks/section color="light" type="container" %}}
+{{% blocks/section color="white" type="container" %}}
 
 <div class="row align-items-center justify-content-center">
   <div class="col-lg-5 mb-4 mb-lg-0">
