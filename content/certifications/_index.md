@@ -10,7 +10,7 @@ tags: ["certification", "compliance"]
 
 All certifications on this page are issued under **SADMF Version 3**, the latest release of the Scaled Agile DevOps Maturity Framework. Version 3 credentials are cryptographically signed Open Badges 3.0 verifiable credentials.
 
-## Scaled Agile DevOps Practitioner
+## SAD Practitioner
 
 {{< figure src="/badges/images/practitioner.svg" alt="SADMF Practitioner badge" title="SADMF Practitioner" width="200px" >}}
 
@@ -19,11 +19,7 @@ SAD Practitioners have demonstrated they understand the basic value of the Scale
 - [Apply for Certified Practitioner](https://www.buymeacoffee.com/sadmf/e/47597)
 - [Enterprise Packages Available](https://www.buymeacoffee.com/sadmf/e/47599)
 
-## Scaled Agile DevOps Professional
-
-SAD Professionals have demonstrated competence in applying SADMF practices within their daily work and can lead ceremonies at the team level. The Professional certification requires completion of a multi-day advanced training program and passage of a written examination covering all SADMF [Practices](/practices/), [Principles](/principles/), and [Metrics](/metrics/).
-
-## Scaled Agile DevOps Fellow
+## SAD Fellow
 
 {{< figure src="/badges/images/fellow.svg" alt="SADMF Fellow badge" title="SADMF Fellow" width="200px" >}}
 
@@ -35,7 +31,7 @@ SAD Fellows have demonstrated they are as valuable as at least four practitioner
 Moving beyond the basics for truly SAD outcomes!
 {{% /alert %}}
 
-## Scaled Agile Dev Ops Accredited Facilitators
+## SAD Accredited Facilitators
 
 {{< figure src="/badges/images/accredited-facilitator.svg" alt="SADMF Accredited Facilitator badge" title="SADMF Accredited Facilitator" width="200px" >}}
 
@@ -60,7 +56,7 @@ For [Code Engineers](/roles/engineering/code-engineer/), [Unit Testers](/roles/e
 - [CODER](/certifications/technical/#coder--certified-obedient-developer-executing-requirements) — Certified Obedient Developer Executing Requirements
 - [MANUAL](/certifications/technical/#manual--methodically-applying-non-automated-user-level-acceptance-loops) — Methodically Applying Non-automated User-level Acceptance Loops
 
-## Scaled Agile DevOps Master
+## SAD Master
 
 {{< figure src="/badges/images/master.svg" alt="SADMF Master badge" title="SADMF Master" width="200px" >}}
 
