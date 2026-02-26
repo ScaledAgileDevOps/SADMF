@@ -64,6 +64,7 @@ SAD Masters have demonstrated mastery of the framework across multiple [Convoy](
 
 ## See Also
 
+- [Certified Professionals](/certifications/certified-professionals/) — recognized SADMF credential holders
 - [Technical Certifications](/certifications/technical/) for delivery-layer roles
 - [Roles](/roles/) for the organizational roles certifications apply to
 - [SADMF Adoption Rate](/metrics/sadmf-adoption-rate/) for tracking certification coverage

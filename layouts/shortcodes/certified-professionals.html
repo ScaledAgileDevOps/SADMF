@@ -1,0 +1,35 @@
+{{- $badgeOrder := slice "accredited-facilitator" "master" "fellow" "practitioner" -}}
+{{- $badgeLabels := dict "accredited-facilitator" "SAD Accredited Facilitator" "master" "SAD Master" "fellow" "SAD Fellow" "practitioner" "SAD Practitioner" -}}
+
+{{- range $badgeId := $badgeOrder -}}
+  {{- $recipients := index site.Data.recipients $badgeId -}}
+  {{- if $recipients -}}
+    {{- $sorted := sort $recipients.recipients "issued" "asc" -}}
+    {{- if $sorted -}}
+<h2 id="{{ $badgeId }}">
+  <img src="/badges/images/{{ $badgeId }}.svg" alt="{{ index $badgeLabels $badgeId }} badge" style="height:1.6em;vertical-align:middle;margin-right:0.4em;">
+  {{ index $badgeLabels $badgeId }}
+</h2>
+<table class="table table-striped" style="table-layout:fixed;width:100%;">
+  <colgroup>
+    <col style="width:50%;">
+    <col style="width:50%;">
+  </colgroup>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Date Certified</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{- range $sorted }}
+    <tr>
+      <td>{{ .name }}</td>
+      <td>{{ dateFormat "January 2, 2006" (time .issued) }}</td>
+    </tr>
+    {{- end }}
+  </tbody>
+</table>
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
