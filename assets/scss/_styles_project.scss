@@ -56,6 +56,17 @@ figcaption {
 }
 
 /* === Hero / Cover === */
+.td-cover-block.td-cover-block--height-med {
+  min-height: auto;
+  padding-top: 7rem !important;
+  padding-bottom: 1.5rem;
+  @media (min-width: 768px) {
+    min-height: auto;
+    padding-top: 6rem !important;
+    padding-bottom: 2rem;
+  }
+}
+
 .td-cover-block {
   background:
     radial-gradient(circle, rgba(44, 123, 229, 0.06) 1px, transparent 1px),

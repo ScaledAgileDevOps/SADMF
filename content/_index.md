@@ -42,6 +42,39 @@ description: "Enterprise DevOps transformation without the risk of culture chang
     <div class="sad-stat__label">Culture Changes Required</div>
   </div>
 </div>
+
+<div class="video-cta-section">
+<div class="row align-items-center">
+  <div class="col-lg-6 mb-4 mb-lg-0">
+    <div class="video-embed">
+      <iframe src="https://www.youtube.com/embed/zMI2FykK7j4" title="SADMF Training Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+  <div class="col-lg-4">
+    <h2>See It in Action</h2>
+    <p class="lead">Watch this training video presented by a senior Accredited Facilitator, then begin your journey with a <a href="https://www.youtube.com/watch?v=cwbiSCgiZNA">Certified Really Agile Practitioner</a> course.</p>
+    <div class="mt-4">
+      <a class="btn btn-lg btn-secondary me-2" href="/certifications/">
+        Get Certified <i class="fa-solid fa-certificate ms-2"></i>
+      </a>
+      <a class="btn btn-lg btn-outline-primary" href="https://www.teepublic.com/t-shirt/25575514-scaled-agile-devops-maturity-framework" target="_blank">
+        Official Swag <i class="fa-solid fa-shirt ms-2"></i>
+      </a>
+    </div>
+  </div>
+  <div class="col-lg-2 text-center mt-4 mt-lg-0">
+    <a href="https://leanpub.com/sadmf" target="_blank" rel="noopener">
+      <img src="/images/sadmf-book-cover.jpg" alt="SADMF Field Guide cover" class="img-fluid rounded shadow">
+    </a>
+    <div class="mt-2">
+      <a class="btn btn-sm btn-secondary" href="https://leanpub.com/sadmf" target="_blank" rel="noopener">
+        Get the Field Guide <i class="fa-solid fa-book-open ms-1"></i>
+      </a>
+    </div>
+  </div>
+</div>
+</div>
+
 {{% /blocks/section %}}
 
 {{% blocks/section color="white" type="container" %}}
@@ -170,42 +203,6 @@ description: "Enterprise DevOps transformation without the risk of culture chang
           <span class="testimonial-title">Global Systems Integrator</span>
         </div>
       </div>
-    </div>
-  </div>
-</div>
-</div>
-
-{{% /blocks/section %}}
-
-{{% blocks/section color="white" type="container" %}}
-
-<div class="video-cta-section">
-<div class="row align-items-center">
-  <div class="col-lg-6 mb-4 mb-lg-0">
-    <div class="video-embed">
-      <iframe src="https://www.youtube.com/embed/zMI2FykK7j4" title="SADMF Training Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-  </div>
-  <div class="col-lg-4">
-    <h2>See It in Action</h2>
-    <p class="lead">Watch this training video presented by a senior Accredited Facilitator, then begin your journey with a <a href="https://www.youtube.com/watch?v=cwbiSCgiZNA">Certified Really Agile Practitioner</a> course.</p>
-    <div class="mt-4">
-      <a class="btn btn-lg btn-secondary me-2" href="/certifications/">
-        Get Certified <i class="fa-solid fa-certificate ms-2"></i>
-      </a>
-      <a class="btn btn-lg btn-outline-primary" href="https://www.teepublic.com/t-shirt/25575514-scaled-agile-devops-maturity-framework" target="_blank">
-        Official Swag <i class="fa-solid fa-shirt ms-2"></i>
-      </a>
-    </div>
-  </div>
-  <div class="col-lg-2 text-center mt-4 mt-lg-0">
-    <a href="https://leanpub.com/sadmf" target="_blank" rel="noopener">
-      <img src="/images/sadmf-book-cover.jpg" alt="SADMF Field Guide cover" class="img-fluid rounded shadow">
-    </a>
-    <div class="mt-2">
-      <a class="btn btn-sm btn-secondary" href="https://leanpub.com/sadmf" target="_blank" rel="noopener">
-        Get the Field Guide <i class="fa-solid fa-book-open ms-1"></i>
-      </a>
     </div>
   </div>
 </div>
