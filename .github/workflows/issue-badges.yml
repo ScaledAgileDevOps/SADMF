@@ -63,11 +63,19 @@ jobs:
           BADGE_ISSUER_URL: ${{ secrets.BADGE_ISSUER_URL }}
         run: node scripts/send-notifications.js
 
+      - name: Generate sanitized recipient data for public site
+        run: |
+          mkdir -p data/recipients
+          for f in recipients-private/recipients/*.yaml; do
+            [ -f "$f" ] || continue
+            yq 'del(.recipients[].email)' "$f" > "data/recipients/$(basename "$f")"
+          done
+
       - name: Commit issued credentials
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git add data/issued/ static/badges/issued/ data/notified.json
+          git add -f data/recipients/ data/issued/ static/badges/issued/ data/notified.json
           if git diff --staged --quiet; then
             echo "Nothing to commit."
             exit 0
