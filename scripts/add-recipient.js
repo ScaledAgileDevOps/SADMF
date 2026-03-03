@@ -30,7 +30,7 @@ import { load } from 'js-yaml'
 
 const VALID_BADGE_IDS = ['accredited-facilitator', 'fellow', 'master', 'practitioner', 'depressed']
 const PRIVATE_REPO = 'ScaledAgileDevOps/sadmf_recipents'
-const PUBLIC_REPO = 'ScaledAgileDevOps/SADMF'
+
 
 // Parse flags
 const args = process.argv.slice(2)
@@ -143,15 +143,7 @@ try {
   if (ownedTmpDir) rmSync(tmpDir, { recursive: true })
 }
 
-// Trigger badge issuance
-console.log('Triggering badge issuance workflow...')
-try {
-  execSync(
-    `gh api repos/${PUBLIC_REPO}/dispatches -f event_type=recipients-updated`,
-    { stdio: 'inherit' }
-  )
-  console.log('Done. Watch progress at: https://github.com/ScaledAgileDevOps/SADMF/actions')
-} catch {
-  console.error('Warning: failed to trigger workflow. Run manually:')
-  console.error(`  gh api repos/${PUBLIC_REPO}/dispatches -f event_type=recipients-updated`)
-}
+// Badge issuance is triggered automatically by the private repo's
+// trigger-issuance.yml workflow when it detects the push above.
+console.log('Done. The private repo will trigger issuance automatically.')
+console.log('Watch progress at: https://github.com/ScaledAgileDevOps/SADMF/actions')

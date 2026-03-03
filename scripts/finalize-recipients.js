@@ -10,8 +10,6 @@
 import { execSync } from 'node:child_process'
 import { rmSync } from 'node:fs'
 
-const PUBLIC_REPO = 'ScaledAgileDevOps/SADMF'
-
 const args = process.argv.slice(2)
 let workdir = null
 let message = 'Add batch recipients'
@@ -43,14 +41,7 @@ try {
   rmSync(workdir, { recursive: true })
 }
 
-console.log('Triggering badge issuance workflow...')
-try {
-  execSync(
-    `gh api repos/${PUBLIC_REPO}/dispatches -f event_type=recipients-updated`,
-    { stdio: 'inherit' }
-  )
-  console.log('Done. Watch progress at: https://github.com/ScaledAgileDevOps/SADMF/actions')
-} catch {
-  console.error('Warning: failed to trigger workflow. Run manually:')
-  console.error(`  gh api repos/${PUBLIC_REPO}/dispatches -f event_type=recipients-updated`)
-}
+// Badge issuance is triggered automatically by the private repo's
+// trigger-issuance.yml workflow when it detects the push above.
+console.log('Done. The private repo will trigger issuance automatically.')
+console.log('Watch progress at: https://github.com/ScaledAgileDevOps/SADMF/actions')
