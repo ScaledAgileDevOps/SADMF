@@ -1,24 +1,30 @@
-<div class="principles-diagram-wrapper" role="img" aria-label="SADMF organisational hierarchy. At the top is the Admiral's Transformation Office (ATO). Reporting to the ATO are three groups: the System of Authority (SOA, external consultants), the System of Service (SOS, delivery), and the Product Direction Arbitration Council (PDAC). Under the SOA are: DevOps Usage and Compliance Head Engineer (DOUCHE), Chief Signals Officer (CSO), Enterprise Architecture Review Board (EARB), and Change Rejection or Acceptance Party (CRAP). The CRAP has one sub-body: the Review Board Review Board (RBRB), which also draws membership from the EARB. Under the SOS are: Commodore (COM), Code Standards Enforcement Team (CSET), Source Management Team (SMT), Quality Authority (QA), Development Integrity Assurance Team (DIAT), Build Engineers (BE), and Unit Tester (UT). The Commodore has a Feature Captain (FC) reporting to them, and the Feature Captain has a Feature Team (FT) of Code Engineers reporting to them.">
-<svg viewBox="0 0 1200 460" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+<div class="principles-diagram-wrapper" role="img" aria-label="SADMF organisational hierarchy. At the top is the Admiral's Transformation Office (ATO). Reporting to the ATO are three groups: the System of Authority (SOA, external consultants), the System of Service (SOS, delivery), and the Product Direction Arbitration Council (PDAC). Under the SOA are: DevOps Usage and Compliance Head Engineer (DOUCHE), Chief Signals Officer (CSO), Enterprise Architecture Review Board (EARB), and Change Rejection or Acceptance Party (CRAP). The CRAP has one sub-body: the Review Board Review Board (RBRB), which also draws membership from the EARB. Under the SOS are: Commodore (COM), Code Standards Enforcement Team (CSET), Source Management Team (SMT), Quality Authority (QA), Development Integrity Assurance Team (DIAT), Build Engineers (BE), Unit Tester (UT), and Simple Site Functionality Support Team (SiSiFuS). The Commodore has a Feature Captain (FC) reporting to them, and the Feature Captain has a Feature Team (FT) of Code Engineers reporting to them. Under the PDAC is the Co-Owner, Product (COP).">
+<svg viewBox="0 0 1300 460" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
      style="width:100%;height:auto;display:block;font-family:'DM Sans',system-ui,sans-serif;">
 
+  <style>
+    .org-link:hover rect { filter: brightness(0.9); }
+    .org-link:hover .org-box-light { fill: #dce3f0; }
+    .org-link { cursor: pointer; }
+  </style>
+
   <!-- Header -->
-  <rect x="0" y="0" width="1200" height="28" fill="#1e3a5f"/>
-  <text x="600" y="18" text-anchor="middle" font-size="9.5" font-weight="700" fill="white" letter-spacing="1.5">SADMF ORGANISATIONAL HIERARCHY</text>
+  <rect x="0" y="0" width="1300" height="28" fill="#1e3a5f"/>
+  <text x="650" y="18" text-anchor="middle" font-size="9.5" font-weight="700" fill="white" letter-spacing="1.5">SADMF ORGANISATIONAL HIERARCHY</text>
 
   <!-- Background -->
-  <rect x="0" y="28" width="1200" height="410" fill="#f8fafc"/>
+  <rect x="0" y="28" width="1300" height="410" fill="#f8fafc"/>
 
   <!-- ============================================================
        CONNECTION LINES (drawn first so boxes render on top)
        ============================================================ -->
 
   <!-- ATO → L1 bus at y=103 -->
-  <line x1="600" y1="84"   x2="600"  y2="103" stroke="#5a6d82" stroke-width="2"/>
-  <line x1="242" y1="103"  x2="1087" y2="103" stroke="#5a6d82" stroke-width="2"/>
+  <line x1="650" y1="84"   x2="650"  y2="103" stroke="#5a6d82" stroke-width="2"/>
+  <line x1="242" y1="103"  x2="1187" y2="103" stroke="#5a6d82" stroke-width="2"/>
   <line x1="242" y1="103"  x2="242"  y2="122" stroke="#5a6d82" stroke-width="2"/>
-  <line x1="729" y1="103"  x2="729"  y2="122" stroke="#5a6d82" stroke-width="2"/>
-  <line x1="1087" y1="103" x2="1087" y2="122" stroke="#5a6d82" stroke-width="2"/>
+  <line x1="772" y1="103"  x2="772"  y2="122" stroke="#5a6d82" stroke-width="2"/>
+  <line x1="1187" y1="103" x2="1187" y2="122" stroke="#5a6d82" stroke-width="2"/>
 
   <!-- SOA → L2 children bus at y=189 -->
   <line x1="242" y1="172"  x2="242"  y2="189" stroke="#5a6d82" stroke-width="1.5"/>
@@ -29,8 +35,8 @@
   <line x1="371" y1="189"  x2="371"  y2="206" stroke="#5a6d82" stroke-width="1.5"/>
 
   <!-- SOS → L2 children bus at y=189 -->
-  <line x1="729" y1="172"  x2="729"  y2="189" stroke="#5a6d82" stroke-width="1.5"/>
-  <line x1="471" y1="189"  x2="987"  y2="189" stroke="#5a6d82" stroke-width="1.5"/>
+  <line x1="772" y1="172"  x2="772"  y2="189" stroke="#5a6d82" stroke-width="1.5"/>
+  <line x1="471" y1="189"  x2="1073" y2="189" stroke="#5a6d82" stroke-width="1.5"/>
   <line x1="471" y1="189"  x2="471"  y2="206" stroke="#5a6d82" stroke-width="1.5"/>
   <line x1="557" y1="189"  x2="557"  y2="206" stroke="#5a6d82" stroke-width="1.5"/>
   <line x1="643" y1="189"  x2="643"  y2="206" stroke="#5a6d82" stroke-width="1.5"/>
@@ -38,6 +44,10 @@
   <line x1="815" y1="189"  x2="815"  y2="206" stroke="#5a6d82" stroke-width="1.5"/>
   <line x1="901" y1="189"  x2="901"  y2="206" stroke="#5a6d82" stroke-width="1.5"/>
   <line x1="987" y1="189"  x2="987"  y2="206" stroke="#5a6d82" stroke-width="1.5"/>
+  <line x1="1073" y1="189" x2="1073" y2="206" stroke="#5a6d82" stroke-width="1.5"/>
+
+  <!-- PDAC → COP (direct vertical) -->
+  <line x1="1187" y1="172" x2="1187" y2="206" stroke="#5a6d82" stroke-width="1.5"/>
 
   <!-- CRAP → RBRB (direct vertical) -->
   <line x1="371" y1="258"  x2="371"  y2="290" stroke="#5a6d82" stroke-width="1.5" stroke-dasharray="4,3"/>
@@ -51,134 +61,190 @@
   <!-- ============================================================
        LEVEL 0: ATO
        ============================================================ -->
-  <rect x="460" y="36" width="280" height="48" rx="5" fill="#242627"/>
-  <text x="600" y="55"  text-anchor="middle" font-size="13" font-weight="700" fill="white">ATO</text>
-  <text x="600" y="72"  text-anchor="middle" font-size="9"  fill="#c0c4c8">Admiral's Transformation Office</text>
+  <a href="/roles/admirals-transformation-office/" class="org-link">
+    <rect x="510" y="36" width="280" height="48" rx="5" fill="#242627"/>
+    <text x="650" y="55"  text-anchor="middle" font-size="13" font-weight="700" fill="white">ATO</text>
+    <text x="650" y="72"  text-anchor="middle" font-size="9"  fill="#c0c4c8">Admiral's Transformation Office</text>
+  </a>
 
   <!-- ============================================================
        LEVEL 1: SOA, SOS, PDAC
        ============================================================ -->
 
   <!-- SOA -->
-  <rect x="182" y="122" width="120" height="50" rx="4" fill="#a23b72"/>
-  <text x="242" y="137" text-anchor="middle" font-size="11" font-weight="700" fill="white">SOA</text>
-  <text x="242" y="151" text-anchor="middle" font-size="8"  fill="#fdf0f5">System of Authority</text>
-  <text x="242" y="163" text-anchor="middle" font-size="8"  fill="#f0c8d8" font-style="italic">— external consultants —</text>
+  <a href="/roles/system-of-authority/" class="org-link">
+    <rect x="182" y="122" width="120" height="50" rx="4" fill="#a23b72"/>
+    <text x="242" y="137" text-anchor="middle" font-size="11" font-weight="700" fill="white">SOA</text>
+    <text x="242" y="151" text-anchor="middle" font-size="8"  fill="#fdf0f5">System of Authority</text>
+    <text x="242" y="163" text-anchor="middle" font-size="8"  fill="#f0c8d8" font-style="italic">— external consultants —</text>
+  </a>
 
   <!-- SOS -->
-  <rect x="669" y="122" width="120" height="50" rx="4" fill="#1e3a5f"/>
-  <text x="729" y="137" text-anchor="middle" font-size="11" font-weight="700" fill="white">SOS</text>
-  <text x="729" y="151" text-anchor="middle" font-size="8"  fill="#9ab4cc">System of Service</text>
-  <text x="729" y="163" text-anchor="middle" font-size="8"  fill="#9ab4cc" font-style="italic">— delivery —</text>
+  <a href="/roles/system-of-service/" class="org-link">
+    <rect x="712" y="122" width="120" height="50" rx="4" fill="#1e3a5f"/>
+    <text x="772" y="137" text-anchor="middle" font-size="11" font-weight="700" fill="white">SOS</text>
+    <text x="772" y="151" text-anchor="middle" font-size="8"  fill="#9ab4cc">System of Service</text>
+    <text x="772" y="163" text-anchor="middle" font-size="8"  fill="#9ab4cc" font-style="italic">— delivery —</text>
+  </a>
 
   <!-- PDAC -->
-  <rect x="1027" y="122" width="120" height="50" rx="4" fill="#a23b72"/>
-  <text x="1087" y="137" text-anchor="middle" font-size="11" font-weight="700" fill="white">PDAC</text>
-  <text x="1087" y="151" text-anchor="middle" font-size="8"  fill="#fdf0f5">Product Direction</text>
-  <text x="1087" y="162" text-anchor="middle" font-size="8"  fill="#fdf0f5">Arbitration Council</text>
+  <a href="/roles/product-direction-arbitration-council/" class="org-link">
+    <rect x="1127" y="122" width="120" height="50" rx="4" fill="#a23b72"/>
+    <text x="1187" y="137" text-anchor="middle" font-size="11" font-weight="700" fill="white">PDAC</text>
+    <text x="1187" y="151" text-anchor="middle" font-size="8"  fill="#fdf0f5">Product Direction</text>
+    <text x="1187" y="162" text-anchor="middle" font-size="8"  fill="#fdf0f5">Arbitration Council</text>
+  </a>
 
   <!-- ============================================================
        LEVEL 2: SOA children
        ============================================================ -->
 
   <!-- DOUCHE -->
-  <rect x="73"  y="206" width="80" height="52" rx="3" fill="#e8edf5" stroke="#9ab4cc" stroke-width="1.5"/>
-  <text x="113" y="218" text-anchor="middle" font-size="9.5" font-weight="700" fill="#1e3a5f">DOUCHE</text>
-  <text x="113" y="230" text-anchor="middle" font-size="8"   fill="#3a5070">DevOps Usage &amp;</text>
-  <text x="113" y="239" text-anchor="middle" font-size="8"   fill="#3a5070">Compliance Head</text>
-  <text x="113" y="248" text-anchor="middle" font-size="8"   fill="#3a5070">Engineer</text>
+  <a href="/roles/devops-usage-and-compliance-head-engineer/" class="org-link">
+    <rect class="org-box-light" x="73"  y="206" width="80" height="52" rx="3" fill="#e8edf5" stroke="#9ab4cc" stroke-width="1.5"/>
+    <text x="113" y="218" text-anchor="middle" font-size="9.5" font-weight="700" fill="#1e3a5f">DOUCHE</text>
+    <text x="113" y="230" text-anchor="middle" font-size="8"   fill="#3a5070">DevOps Usage &amp;</text>
+    <text x="113" y="239" text-anchor="middle" font-size="8"   fill="#3a5070">Compliance Head</text>
+    <text x="113" y="248" text-anchor="middle" font-size="8"   fill="#3a5070">Engineer</text>
+  </a>
 
   <!-- CSO -->
-  <rect x="159" y="206" width="80" height="52" rx="3" fill="#e8edf5" stroke="#9ab4cc" stroke-width="1.5"/>
-  <text x="199" y="221" text-anchor="middle" font-size="9.5" font-weight="700" fill="#1e3a5f">CSO</text>
-  <text x="199" y="235" text-anchor="middle" font-size="8"   fill="#3a5070">Chief Signals</text>
-  <text x="199" y="244" text-anchor="middle" font-size="8"   fill="#3a5070">Officer</text>
+  <a href="/roles/chief-signals-officer/" class="org-link">
+    <rect class="org-box-light" x="159" y="206" width="80" height="52" rx="3" fill="#e8edf5" stroke="#9ab4cc" stroke-width="1.5"/>
+    <text x="199" y="221" text-anchor="middle" font-size="9.5" font-weight="700" fill="#1e3a5f">CSO</text>
+    <text x="199" y="235" text-anchor="middle" font-size="8"   fill="#3a5070">Chief Signals</text>
+    <text x="199" y="244" text-anchor="middle" font-size="8"   fill="#3a5070">Officer</text>
+  </a>
 
   <!-- EARB -->
-  <rect x="245" y="206" width="80" height="52" rx="3" fill="#e8edf5" stroke="#9ab4cc" stroke-width="1.5"/>
-  <text x="285" y="221" text-anchor="middle" font-size="9.5" font-weight="700" fill="#1e3a5f">EARB</text>
-  <text x="285" y="235" text-anchor="middle" font-size="8"   fill="#3a5070">Enterprise Arch.</text>
-  <text x="285" y="244" text-anchor="middle" font-size="8"   fill="#3a5070">Review Board</text>
+  <a href="/roles/enterprise-architecture-review-board/" class="org-link">
+    <rect class="org-box-light" x="245" y="206" width="80" height="52" rx="3" fill="#e8edf5" stroke="#9ab4cc" stroke-width="1.5"/>
+    <text x="285" y="221" text-anchor="middle" font-size="9.5" font-weight="700" fill="#1e3a5f">EARB</text>
+    <text x="285" y="235" text-anchor="middle" font-size="8"   fill="#3a5070">Enterprise Arch.</text>
+    <text x="285" y="244" text-anchor="middle" font-size="8"   fill="#3a5070">Review Board</text>
+  </a>
 
   <!-- CRAP -->
-  <rect x="331" y="206" width="80" height="52" rx="3" fill="#e8edf5" stroke="#9ab4cc" stroke-width="1.5"/>
-  <text x="371" y="218" text-anchor="middle" font-size="9.5" font-weight="700" fill="#1e3a5f">CRAP</text>
-  <text x="371" y="230" text-anchor="middle" font-size="8"   fill="#3a5070">Change Rejection</text>
-  <text x="371" y="239" text-anchor="middle" font-size="8"   fill="#3a5070">or Acceptance</text>
-  <text x="371" y="248" text-anchor="middle" font-size="8"   fill="#3a5070">Party</text>
+  <a href="/roles/change-rejection-or-acceptance-party/" class="org-link">
+    <rect class="org-box-light" x="331" y="206" width="80" height="52" rx="3" fill="#e8edf5" stroke="#9ab4cc" stroke-width="1.5"/>
+    <text x="371" y="218" text-anchor="middle" font-size="9.5" font-weight="700" fill="#1e3a5f">CRAP</text>
+    <text x="371" y="230" text-anchor="middle" font-size="8"   fill="#3a5070">Change Rejection</text>
+    <text x="371" y="239" text-anchor="middle" font-size="8"   fill="#3a5070">or Acceptance</text>
+    <text x="371" y="248" text-anchor="middle" font-size="8"   fill="#3a5070">Party</text>
+  </a>
 
   <!-- ============================================================
        LEVEL 2: SOS children
        ============================================================ -->
 
   <!-- COM -->
-  <rect x="431" y="206" width="80" height="52" rx="3" fill="#e8edf5" stroke="#9ab4cc" stroke-width="1.5"/>
-  <text x="471" y="224" text-anchor="middle" font-size="9.5" font-weight="700" fill="#1e3a5f">COM</text>
-  <text x="471" y="239" text-anchor="middle" font-size="8"   fill="#3a5070">Commodore</text>
+  <a href="/roles/commodore/" class="org-link">
+    <rect class="org-box-light" x="431" y="206" width="80" height="52" rx="3" fill="#e8edf5" stroke="#9ab4cc" stroke-width="1.5"/>
+    <text x="471" y="224" text-anchor="middle" font-size="9.5" font-weight="700" fill="#1e3a5f">COM</text>
+    <text x="471" y="239" text-anchor="middle" font-size="8"   fill="#3a5070">Commodore</text>
+  </a>
 
   <!-- CSET -->
-  <rect x="517" y="206" width="80" height="52" rx="3" fill="#e8edf5" stroke="#9ab4cc" stroke-width="1.5"/>
-  <text x="557" y="218" text-anchor="middle" font-size="9.5" font-weight="700" fill="#1e3a5f">CSET</text>
-  <text x="557" y="230" text-anchor="middle" font-size="8"   fill="#3a5070">Code Standards</text>
-  <text x="557" y="239" text-anchor="middle" font-size="8"   fill="#3a5070">Enforcement</text>
-  <text x="557" y="248" text-anchor="middle" font-size="8"   fill="#3a5070">Team</text>
+  <a href="/roles/code-standards-enforcement-team/" class="org-link">
+    <rect class="org-box-light" x="517" y="206" width="80" height="52" rx="3" fill="#e8edf5" stroke="#9ab4cc" stroke-width="1.5"/>
+    <text x="557" y="218" text-anchor="middle" font-size="9.5" font-weight="700" fill="#1e3a5f">CSET</text>
+    <text x="557" y="230" text-anchor="middle" font-size="8"   fill="#3a5070">Code Standards</text>
+    <text x="557" y="239" text-anchor="middle" font-size="8"   fill="#3a5070">Enforcement</text>
+    <text x="557" y="248" text-anchor="middle" font-size="8"   fill="#3a5070">Team</text>
+  </a>
 
   <!-- SMT -->
-  <rect x="603" y="206" width="80" height="52" rx="3" fill="#e8edf5" stroke="#9ab4cc" stroke-width="1.5"/>
-  <text x="643" y="221" text-anchor="middle" font-size="9.5" font-weight="700" fill="#1e3a5f">SMT</text>
-  <text x="643" y="235" text-anchor="middle" font-size="8"   fill="#3a5070">Source Management</text>
-  <text x="643" y="244" text-anchor="middle" font-size="8"   fill="#3a5070">Team</text>
+  <a href="/roles/source-management-team/" class="org-link">
+    <rect class="org-box-light" x="603" y="206" width="80" height="52" rx="3" fill="#e8edf5" stroke="#9ab4cc" stroke-width="1.5"/>
+    <text x="643" y="221" text-anchor="middle" font-size="9.5" font-weight="700" fill="#1e3a5f">SMT</text>
+    <text x="643" y="235" text-anchor="middle" font-size="8"   fill="#3a5070">Source Management</text>
+    <text x="643" y="244" text-anchor="middle" font-size="8"   fill="#3a5070">Team</text>
+  </a>
 
   <!-- QA -->
-  <rect x="689" y="206" width="80" height="52" rx="3" fill="#e8edf5" stroke="#9ab4cc" stroke-width="1.5"/>
-  <text x="729" y="224" text-anchor="middle" font-size="9.5" font-weight="700" fill="#1e3a5f">QA</text>
-  <text x="729" y="239" text-anchor="middle" font-size="8"   fill="#3a5070">Quality Authority</text>
+  <a href="/roles/quality-authority/" class="org-link">
+    <rect class="org-box-light" x="689" y="206" width="80" height="52" rx="3" fill="#e8edf5" stroke="#9ab4cc" stroke-width="1.5"/>
+    <text x="729" y="224" text-anchor="middle" font-size="9.5" font-weight="700" fill="#1e3a5f">QA</text>
+    <text x="729" y="239" text-anchor="middle" font-size="8"   fill="#3a5070">Quality Authority</text>
+  </a>
 
   <!-- DIAT -->
-  <rect x="775" y="206" width="80" height="52" rx="3" fill="#e8edf5" stroke="#9ab4cc" stroke-width="1.5"/>
-  <text x="815" y="218" text-anchor="middle" font-size="9.5" font-weight="700" fill="#1e3a5f">DIAT</text>
-  <text x="815" y="230" text-anchor="middle" font-size="8"   fill="#3a5070">Development</text>
-  <text x="815" y="239" text-anchor="middle" font-size="8"   fill="#3a5070">Integrity</text>
-  <text x="815" y="248" text-anchor="middle" font-size="8"   fill="#3a5070">Assurance Team</text>
+  <a href="/roles/development-integrity-assurance-team/" class="org-link">
+    <rect class="org-box-light" x="775" y="206" width="80" height="52" rx="3" fill="#e8edf5" stroke="#9ab4cc" stroke-width="1.5"/>
+    <text x="815" y="218" text-anchor="middle" font-size="9.5" font-weight="700" fill="#1e3a5f">DIAT</text>
+    <text x="815" y="230" text-anchor="middle" font-size="8"   fill="#3a5070">Development</text>
+    <text x="815" y="239" text-anchor="middle" font-size="8"   fill="#3a5070">Integrity</text>
+    <text x="815" y="248" text-anchor="middle" font-size="8"   fill="#3a5070">Assurance Team</text>
+  </a>
 
   <!-- BE -->
-  <rect x="861" y="206" width="80" height="52" rx="3" fill="#e8edf5" stroke="#9ab4cc" stroke-width="1.5"/>
-  <text x="901" y="221" text-anchor="middle" font-size="9.5" font-weight="700" fill="#1e3a5f">BE</text>
-  <text x="901" y="235" text-anchor="middle" font-size="8"   fill="#3a5070">Build Engineers</text>
+  <a href="/roles/build-engineers/" class="org-link">
+    <rect class="org-box-light" x="861" y="206" width="80" height="52" rx="3" fill="#e8edf5" stroke="#9ab4cc" stroke-width="1.5"/>
+    <text x="901" y="221" text-anchor="middle" font-size="9.5" font-weight="700" fill="#1e3a5f">BE</text>
+    <text x="901" y="235" text-anchor="middle" font-size="8"   fill="#3a5070">Build Engineers</text>
+  </a>
 
   <!-- UT -->
-  <rect x="947" y="206" width="80" height="52" rx="3" fill="#e8edf5" stroke="#9ab4cc" stroke-width="1.5"/>
-  <text x="987" y="221" text-anchor="middle" font-size="9.5" font-weight="700" fill="#1e3a5f">UT</text>
-  <text x="987" y="235" text-anchor="middle" font-size="8"   fill="#3a5070">Unit Tester</text>
+  <a href="/roles/unit-tester/" class="org-link">
+    <rect class="org-box-light" x="947" y="206" width="80" height="52" rx="3" fill="#e8edf5" stroke="#9ab4cc" stroke-width="1.5"/>
+    <text x="987" y="221" text-anchor="middle" font-size="9.5" font-weight="700" fill="#1e3a5f">UT</text>
+    <text x="987" y="235" text-anchor="middle" font-size="8"   fill="#3a5070">Unit Tester</text>
+  </a>
+
+  <!-- SiSiFuS -->
+  <a href="/roles/simple-site-functionality-support-team/" class="org-link">
+    <rect class="org-box-light" x="1033" y="206" width="80" height="52" rx="3" fill="#e8edf5" stroke="#9ab4cc" stroke-width="1.5"/>
+    <text x="1073" y="218" text-anchor="middle" font-size="9.5" font-weight="700" fill="#1e3a5f">SiSiFuS</text>
+    <text x="1073" y="230" text-anchor="middle" font-size="8"   fill="#3a5070">Simple Site</text>
+    <text x="1073" y="239" text-anchor="middle" font-size="8"   fill="#3a5070">Functionality</text>
+    <text x="1073" y="248" text-anchor="middle" font-size="8"   fill="#3a5070">Support Team</text>
+  </a>
+
+  <!-- ============================================================
+       LEVEL 2: PDAC child
+       ============================================================ -->
+
+  <!-- COP -->
+  <a href="/roles/co-owner-product/" class="org-link">
+    <rect class="org-box-light" x="1147" y="206" width="80" height="52" rx="3" fill="#e8edf5" stroke="#9ab4cc" stroke-width="1.5"/>
+    <text x="1187" y="224" text-anchor="middle" font-size="9.5" font-weight="700" fill="#1e3a5f">COP</text>
+    <text x="1187" y="239" text-anchor="middle" font-size="8"   fill="#3a5070">Co-Owner, Product</text>
+  </a>
 
   <!-- ============================================================
        LEVEL 3: RBRB (under CRAP) and FC (under COM)
        ============================================================ -->
 
   <!-- RBRB — dashed purple border -->
-  <rect x="331" y="290" width="80" height="52" rx="3" fill="#e8edf5" stroke="#a23b72" stroke-width="1.5" stroke-dasharray="4,3"/>
-  <text x="371" y="302" text-anchor="middle" font-size="9.5" font-weight="700" fill="#1e3a5f">RBRB</text>
-  <text x="371" y="314" text-anchor="middle" font-size="8"   fill="#3a5070">Review Board</text>
-  <text x="371" y="323" text-anchor="middle" font-size="8"   fill="#3a5070">Review Board</text>
-  <text x="371" y="333" text-anchor="middle" font-size="8" fill="#a23b72" font-style="italic">(also from EARB)</text>
+  <a href="/roles/review-board-review-board/" class="org-link">
+    <rect class="org-box-light" x="331" y="290" width="80" height="52" rx="3" fill="#e8edf5" stroke="#a23b72" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <text x="371" y="302" text-anchor="middle" font-size="9.5" font-weight="700" fill="#1e3a5f">RBRB</text>
+    <text x="371" y="314" text-anchor="middle" font-size="8"   fill="#3a5070">Review Board</text>
+    <text x="371" y="323" text-anchor="middle" font-size="8"   fill="#3a5070">Review Board</text>
+    <text x="371" y="333" text-anchor="middle" font-size="8" fill="#a23b72" font-style="italic">(also from EARB)</text>
+  </a>
 
   <!-- FC -->
-  <rect x="431" y="290" width="80" height="52" rx="3" fill="#e8edf5" stroke="#9ab4cc" stroke-width="1.5"/>
-  <text x="471" y="321" text-anchor="middle" font-size="9.5" font-weight="700" fill="#1e3a5f">FC</text>
-  <text x="471" y="335" text-anchor="middle" font-size="8"   fill="#3a5070">Feature Captain</text>
+  <a href="/roles/feature-captain/" class="org-link">
+    <rect class="org-box-light" x="431" y="290" width="80" height="52" rx="3" fill="#e8edf5" stroke="#9ab4cc" stroke-width="1.5"/>
+    <text x="471" y="321" text-anchor="middle" font-size="9.5" font-weight="700" fill="#1e3a5f">FC</text>
+    <text x="471" y="335" text-anchor="middle" font-size="8"   fill="#3a5070">Feature Captain</text>
+  </a>
 
   <!-- ============================================================
        LEVEL 4: FT (under FC)
        ============================================================ -->
-  <rect x="431" y="374" width="80" height="52" rx="3" fill="#e8edf5" stroke="#9ab4cc" stroke-width="1.5"/>
-  <text x="471" y="400" text-anchor="middle" font-size="9.5" font-weight="700" fill="#1e3a5f">FT</text>
-  <text x="471" y="414" text-anchor="middle" font-size="8"   fill="#3a5070">Feature Team</text>
-  <text x="471" y="423" text-anchor="middle" font-size="8"   fill="#3a5070">Code Engineers</text>
+  <a href="/roles/feature-team/" class="org-link">
+    <rect class="org-box-light" x="431" y="374" width="80" height="52" rx="3" fill="#e8edf5" stroke="#9ab4cc" stroke-width="1.5"/>
+    <text x="471" y="400" text-anchor="middle" font-size="9.5" font-weight="700" fill="#1e3a5f">FT</text>
+    <text x="471" y="414" text-anchor="middle" font-size="8"   fill="#3a5070">Feature Team</text>
+    <text x="471" y="423" text-anchor="middle" font-size="8"   fill="#3a5070">Code Engineers</text>
+  </a>
 
   <!-- Footer -->
-  <rect x="0" y="438" width="1200" height="22" fill="#f0f4f8"/>
-  <line x1="0" y1="438" x2="1200" y2="438" stroke="#dde3ec" stroke-width="1"/>
-  <text x="600" y="452" text-anchor="middle" font-size="8" fill="#3a5070">SADMF Organisational Hierarchy — roles and reporting lines. Dashed border indicates dual membership. PDAC has no sub-roles; RBRB draws members also from EARB.</text>
+  <rect x="0" y="438" width="1300" height="22" fill="#f0f4f8"/>
+  <line x1="0" y1="438" x2="1300" y2="438" stroke="#dde3ec" stroke-width="1"/>
+  <text x="650" y="452" text-anchor="middle" font-size="8" fill="#3a5070">SADMF Organisational Hierarchy — roles and reporting lines. Dashed border indicates dual membership. COP reports through PDAC; RBRB draws members also from EARB.</text>
 
 </svg>
 </div>
