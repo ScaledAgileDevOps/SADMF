@@ -1,0 +1,22 @@
+{{- $description := site.Params.description -}}
+# {{ site.Title }}
+
+> {{ $description }}
+
+SADMF is a satirical framework based on the real-life experiences of people who have had SAFe (Scaled Agile Framework) and LeSS (Large-Scale Scrum) inflicted upon them. It presents anti-patterns as if they were recommended practices. The acronyms are intentionally absurd (CRAP, DOUCHE, DEPRESSED, etc.). The writing is earnest and straight-faced — the satire works because it reads like genuine enterprise methodology documentation.
+
+Deployed at: {{ site.BaseURL }}
+{{ range sort site.Sections "Weight" }}
+## {{ .Title }}
+
+URL: {{ .Permalink }}
+Description: {{ .Description }}
+
+{{ .Plain | truncate 500 }}
+{{ range .Sections }}
+### {{ .Title }}
+
+URL: {{ .Permalink }}
+Description: {{ .Description }}
+{{ end -}}
+{{ end -}}

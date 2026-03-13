@@ -48,10 +48,7 @@
       {{ partial "navbar-lang-selector.html" . }}
     </div>
     {{ end -}}
-    {{ $navRoot := cond (and (ne .Params.toc_root true) (eq .Site.Home.Type "docs")) .Site.Home .FirstSection -}}
-    {{ if $sidebarRoot -}}
-      {{ $navRoot = $sidebarRoot -}}
-    {{ end -}}
+    {{ $navRoot := .Site.Home -}}
     {{ $ulNr := 0 -}}
     {{ $ulShow := .Site.Params.ui.ul_show | default 1 -}}
     {{ $sidebarMenuTruncate := .Site.Params.ui.sidebar_menu_truncate | default 100 -}}
@@ -142,8 +139,12 @@
           {{- if $treeRoot }} tree-root{{ end }}" {{/**/ -}}
         id="{{ $mid }}" {{- /**/ -}}
       >
-        {{- with $s.Params.Icon -}}
-          <i class="{{ . }}"></i>
+        {{- with $s.Params.titleIcon -}}
+          <i class="{{ . }} me-1"></i>
+        {{- else -}}
+          {{- with $s.Params.Icon -}}
+            <i class="{{ . }} me-1"></i>
+          {{- end -}}
         {{- end -}}
         <span class="{{ if $active }}td-sidebar-nav-active-item{{ end }}">
           {{- $s.LinkTitle -}}

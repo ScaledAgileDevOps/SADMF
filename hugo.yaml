@@ -8,6 +8,27 @@ defaultContentLanguageInSubdir: false
 
 enableRobotsTXT: true
 
+mediaTypes:
+  text/markdown:
+    suffixes: [md]
+
+outputFormats:
+  LLMSTXT:
+    baseName: llms
+    mediaType: text/plain
+    notAlternative: true
+    permalinkable: false
+  LLMSFULLTXT:
+    baseName: llms-full
+    mediaType: text/plain
+    notAlternative: true
+    permalinkable: false
+  LLMSMD:
+    baseName: llms
+    mediaType: text/markdown
+    notAlternative: true
+    permalinkable: false
+
 # Will give values to .Lastmod etc.
 enableGitInfo: false
 
@@ -60,7 +81,9 @@ services:
 
 # Comment out if you don't want the "print entire section" link enabled.
 outputs:
-  section: [HTML, print, RSS]
+  home: [HTML, RSS, LLMSTXT, LLMSFULLTXT]
+  section: [HTML, print, RSS, LLMSMD]
+  page: [HTML, LLMSMD]
 
 params:
   description:

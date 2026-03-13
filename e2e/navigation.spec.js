@@ -4,60 +4,37 @@ import { test, expect } from '@playwright/test';
 test.describe('Desktop navigation', () => {
   test.use({ viewport: { width: 1280, height: 720 } });
 
-  test('Framework dropdown opens', async ({ page }) => {
-    await page.goto('/');
-    const toggle = page.locator('.dropdown-toggle', { hasText: 'Framework' });
-    await toggle.click();
-    const menu = toggle.locator('..').locator('.dropdown-menu');
-    await expect(menu).toBeVisible();
-  });
-
-  test('Framework dropdown contains expected links', async ({ page }) => {
-    await page.goto('/');
-    const toggle = page.locator('.dropdown-toggle', { hasText: 'Framework' });
-    await toggle.click();
-    const menu = toggle.locator('..').locator('.dropdown-menu');
-    await expect(menu.locator('.dropdown-item', { hasText: 'Principles' })).toBeVisible();
-    await expect(menu.locator('.dropdown-item', { hasText: 'Practices' })).toBeVisible();
-    await expect(menu.locator('.dropdown-item', { hasText: 'Roles' })).toBeVisible();
-    await expect(menu.locator('.dropdown-item', { hasText: 'Metrics' })).toBeVisible();
-  });
-
-  test('Resources dropdown opens', async ({ page }) => {
-    await page.goto('/');
-    const toggle = page.locator('.dropdown-toggle', { hasText: 'Resources' });
-    await toggle.click();
-    const menu = toggle.locator('..').locator('.dropdown-menu');
-    await expect(menu).toBeVisible();
-  });
-
-  test('Resources dropdown contains expected links', async ({ page }) => {
-    await page.goto('/');
-    const toggle = page.locator('.dropdown-toggle', { hasText: 'Resources' });
-    await toggle.click();
-    const menu = toggle.locator('..').locator('.dropdown-menu');
-    await expect(menu.locator('.dropdown-item', { hasText: 'Big Picture' })).toBeVisible();
-    await expect(menu.locator('.dropdown-item', { hasText: 'Success Stories' })).toBeVisible();
-  });
-
   test('Get Certified is a top-level nav item', async ({ page }) => {
     await page.goto('/');
     const certLink = page.locator('.navbar-nav > li > a.nav-link', { hasText: 'Get Certified' });
     await expect(certLink).toBeVisible();
   });
 
-  test('Framework dropdown navigates to Principles page', async ({ page }) => {
+  test('Glossary is a top-level nav item', async ({ page }) => {
     await page.goto('/');
-    const toggle = page.locator('.dropdown-toggle', { hasText: 'Framework' });
-    await toggle.click();
-    const menu = toggle.locator('..').locator('.dropdown-menu');
-    await menu.locator('.dropdown-item', { hasText: 'Principles' }).click();
-    await expect(page).toHaveURL(/\/principles\//);
+    const glossaryLink = page.locator('.navbar-nav > li > a.nav-link', { hasText: 'Glossary' });
+    await expect(glossaryLink).toBeVisible();
   });
 
   test('Sidebar is visible on content page', async ({ page }) => {
     await page.goto('/principles/');
     await expect(page.locator('#td-sidebar-menu')).toBeVisible();
+  });
+
+  test('Sidebar contains top-level sections', async ({ page }) => {
+    await page.goto('/principles/');
+    const sidebar = page.locator('#td-sidebar-menu');
+    await expect(sidebar.locator('a', { hasText: 'Principles' })).toBeVisible();
+    await expect(sidebar.locator('a', { hasText: 'Practices' })).toBeVisible();
+    await expect(sidebar.locator('a', { hasText: 'Roles' })).toBeVisible();
+    await expect(sidebar.locator('a', { hasText: 'Metrics' })).toBeVisible();
+  });
+
+  test('Sidebar navigates to Principles page', async ({ page }) => {
+    await page.goto('/roles/');
+    const sidebar = page.locator('#td-sidebar-menu');
+    await sidebar.locator('a', { hasText: 'Principles' }).first().click();
+    await expect(page).toHaveURL(/\/principles\//);
   });
 
   test('Sidebar contains links', async ({ page }) => {
@@ -83,16 +60,16 @@ test.describe('Mobile navigation', () => {
     await expect(page.locator('#main_navbar')).toBeAttached();
   });
 
-  test('Framework nav item exists in DOM', async ({ page }) => {
+  test('Get Certified nav item exists in DOM', async ({ page }) => {
     await page.goto('/');
-    const framework = page.locator('.dropdown-toggle', { hasText: 'Framework' });
-    await expect(framework).toBeAttached();
+    const certLink = page.locator('a.nav-link', { hasText: 'Get Certified' });
+    await expect(certLink).toBeAttached();
   });
 
-  test('Resources nav item exists in DOM', async ({ page }) => {
+  test('Glossary nav item exists in DOM', async ({ page }) => {
     await page.goto('/');
-    const resources = page.locator('.dropdown-toggle', { hasText: 'Resources' });
-    await expect(resources).toBeAttached();
+    const glossaryLink = page.locator('a.nav-link', { hasText: 'Glossary' });
+    await expect(glossaryLink).toBeAttached();
   });
 
   test('Sidebar menu is present in DOM on content page', async ({ page }) => {

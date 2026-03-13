@@ -1,0 +1,11 @@
+{{- $description := site.Params.description -}}
+# {{ site.Title }}
+
+> {{ $description }}
+
+SADMF is a satirical framework that presents enterprise anti-patterns as recommended practices.
+
+## Key Sections
+{{ range sort site.Sections "Weight" -}}
+- [{{ .Title }}]({{ .Permalink }}): {{ .Description }}
+{{ end -}}

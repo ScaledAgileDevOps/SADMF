@@ -1230,36 +1230,7 @@ a.feature-card:hover .feature-card__cta {
   }
 }
 
-/* Fix 2: Docsy sets overflow:hidden on .td-navbar-nav-scroll below lg breakpoint.
-   This clips Bootstrap dropdown menus (Framework, Resources) so they open but
-   are invisible — making the navbar appear unresponsive. Setting overflow:visible
-   allows Popper-positioned dropdown menus to escape the container and be seen.
-   The inner .navbar-nav still controls horizontal scrolling of the nav items. */
 @media (max-width: 991.98px) {
-  .td-navbar-nav-scroll {
-    overflow: visible !important;
-  }
-
-  /* Style inline dropdowns for the dark navbar background */
-  .td-navbar .dropdown-menu {
-    background-color: #152d4a;
-    border-color: rgba(44, 123, 229, 0.2);
-  }
-
-  .td-navbar .dropdown-item {
-    color: rgba(255, 255, 255, 0.85);
-  }
-
-  .td-navbar .dropdown-item:hover,
-  .td-navbar .dropdown-item:focus {
-    background-color: rgba(44, 123, 229, 0.15);
-    color: #fff;
-  }
-
-  .td-navbar .dropdown-divider {
-    border-color: rgba(255, 255, 255, 0.1);
-  }
-
   .td-navbar__search input::placeholder {
     color: rgba(255, 255, 255, 0.75);
   }
