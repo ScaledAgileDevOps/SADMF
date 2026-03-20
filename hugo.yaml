@@ -124,6 +124,8 @@ params:
     navbar_logo: true
     sidebar_search_disable: true
 
+    # Set to true to disable child page listings at the bottom of section pages.
+    section_index_disable: true
     # Set to true to disable breadcrumb navigation.
     breadcrumb_disable: true
     # Set to false if you don't want to display a logo (/assets/icons/logo.svg) in the top navbar
