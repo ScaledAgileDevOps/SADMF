@@ -1,0 +1,33 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json"
+  ],
+  "type": [
+    "VerifiableCredential",
+    "OpenBadgeCredential"
+  ],
+  "id": "https://scaledagiledevops.com/badges/issued/master/9ff71cfd4f003cf3758fc8201486e563dece2176a14543907f8c4b6ac29aa818.json",
+  "issuer": {
+    "id": "https://scaledagiledevops.com/badges/issuer.json",
+    "type": "Profile",
+    "name": "Scaled Agile DevOps Maturity Framework"
+  },
+  "issuanceDate": "2026-03-20T00:00:00.000Z",
+  "credentialSubject": {
+    "type": "AchievementSubject",
+    "identifier": {
+      "type": "IdentityObject",
+      "identityType": "emailAddress",
+      "hashed": true,
+      "salt": "2db7c3f7d9206374bd6460db90ad5321",
+      "identity": "sha256$9ff71cfd4f003cf3758fc8201486e563dece2176a14543907f8c4b6ac29aa818"
+    },
+    "achievement": {
+      "id": "https://scaledagiledevops.com/badges/achievements/master.json",
+      "type": "Achievement",
+      "name": "Master"
+    }
+  },
+  "proof": "eyJhbGciOiJFZERTQSJ9.eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vcHVybC5pbXNnbG9iYWwub3JnL3NwZWMvb2IvdjNwMC9jb250ZXh0LTMuMC4zLmpzb24iXSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCIsIk9wZW5CYWRnZUNyZWRlbnRpYWwiXSwiaWQiOiJodHRwczovL3NjYWxlZGFnaWxlZGV2b3BzLmNvbS9iYWRnZXMvaXNzdWVkL21hc3Rlci85ZmY3MWNmZDRmMDAzY2YzNzU4ZmM4MjAxNDg2ZTU2M2RlY2UyMTc2YTE0NTQzOTA3ZjhjNGI2YWMyOWFhODE4Lmpzb24iLCJpc3N1ZXIiOnsiaWQiOiJodHRwczovL3NjYWxlZGFnaWxlZGV2b3BzLmNvbS9iYWRnZXMvaXNzdWVyLmpzb24iLCJ0eXBlIjoiUHJvZmlsZSIsIm5hbWUiOiJTY2FsZWQgQWdpbGUgRGV2T3BzIE1hdHVyaXR5IEZyYW1ld29yayJ9LCJpc3N1YW5jZURhdGUiOiIyMDI2LTAzLTIwVDAwOjAwOjAwLjAwMFoiLCJjcmVkZW50aWFsU3ViamVjdCI6eyJ0eXBlIjoiQWNoaWV2ZW1lbnRTdWJqZWN0IiwiaWRlbnRpZmllciI6eyJ0eXBlIjoiSWRlbnRpdHlPYmplY3QiLCJpZGVudGl0eVR5cGUiOiJlbWFpbEFkZHJlc3MiLCJoYXNoZWQiOnRydWUsInNhbHQiOiIyZGI3YzNmN2Q5MjA2Mzc0YmQ2NDYwZGI5MGFkNTMyMSIsImlkZW50aXR5Ijoic2hhMjU2JDlmZjcxY2ZkNGYwMDNjZjM3NThmYzgyMDE0ODZlNTYzZGVjZTIxNzZhMTQ1NDM5MDdmOGM0YjZhYzI5YWE4MTgifSwiYWNoaWV2ZW1lbnQiOnsiaWQiOiJodHRwczovL3NjYWxlZGFnaWxlZGV2b3BzLmNvbS9iYWRnZXMvYWNoaWV2ZW1lbnRzL21hc3Rlci5qc29uIiwidHlwZSI6IkFjaGlldmVtZW50IiwibmFtZSI6Ik1hc3RlciJ9fX0.YHj9R0Iy77oiA80lRaBzXQH3_3QEp6cokcU6zkvN5ccit8EX4kuUMI5wdSf4zsPDiiDXpZvqLLGhQw48v5QMAw"
+}
