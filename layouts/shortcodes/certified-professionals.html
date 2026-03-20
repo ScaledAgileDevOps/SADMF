@@ -1,5 +1,5 @@
-{{- $badgeOrder := slice "accredited-facilitator" "master" "fellow" "practitioner" -}}
-{{- $badgeLabels := dict "accredited-facilitator" "SAD Accredited Facilitator" "master" "SAD Master" "fellow" "SAD Fellow" "practitioner" "SAD Practitioner" -}}
+{{- $badgeOrder := slice "accredited-facilitator" "master" "fellow" "practitioner" "depressed" -}}
+{{- $badgeLabels := dict "accredited-facilitator" "SAD Accredited Facilitator" "master" "SAD Master" "fellow" "SAD Fellow" "practitioner" "SAD Practitioner" "depressed" "DEPRESSED" -}}
 
 {{- range $badgeId := $badgeOrder -}}
   {{- $recipients := index site.Data.recipients $badgeId -}}
