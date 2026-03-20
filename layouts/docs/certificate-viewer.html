@@ -1,0 +1,79 @@
+{{ define "main" }}
+<div id="certificate-app">
+  <div id="certificate-loading" class="text-center py-5">
+    <p class="text-muted">Loading certificate&hellip;</p>
+  </div>
+  <div id="certificate-not-found" class="text-center py-5" style="display:none">
+    <h2>Certificate Not Found</h2>
+    <p class="text-muted">The requested certificate could not be located. Please return to the <a href="/certifications/certified-professionals/">Certified Professionals</a> page.</p>
+  </div>
+
+  {{- $badgeLabels := dict
+      "depressed" "DEPRESSED"
+      "accredited-facilitator" "SAD Accredited Facilitator"
+      "fellow" "SAD Fellow"
+      "practitioner" "SAD Practitioner"
+      "master" "SAD Master"
+  -}}
+
+  {{- range $badgeId, $data := site.Data.recipients -}}
+    {{- $label := index $badgeLabels $badgeId | default $badgeId -}}
+    {{- range $data.recipients -}}
+      {{- $slug := printf "%s/%s" $badgeId (.name | anchorize) -}}
+      <div class="sadmf-certificate" data-slug="{{ $slug }}" style="display:none">
+        <div class="cert-frame">
+          <div class="cert-border">
+            <div class="cert-inner">
+              <img src="/badges/images/{{ $badgeId }}.svg" class="cert-badge-img" alt="{{ $label }} badge">
+              <p class="cert-org">Scaled Agile DevOps International</p>
+              <p class="cert-label">hereby certifies that</p>
+              <h1 class="cert-name">{{ .name }}</h1>
+              <p class="cert-credential">has earned the credential of</p>
+              <h2 class="cert-badge-name">{{ $label }}</h2>
+              <p class="cert-date">Issued {{ dateFormat "January 2, 2006" (time .issued) }}</p>
+              <div class="cert-seal">
+                <img src="/badges/images/{{ $badgeId }}.svg" alt="" aria-hidden="true">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    {{- end -}}
+  {{- end -}}
+</div>
+
+<script>
+(function() {
+  var hash = decodeURIComponent(location.hash.slice(1));
+  var loading = document.getElementById('certificate-loading');
+  var notFound = document.getElementById('certificate-not-found');
+
+  if (!hash) {
+    loading.style.display = 'none';
+    notFound.style.display = 'block';
+    return;
+  }
+
+  var certs = document.querySelectorAll('.sadmf-certificate');
+  var found = false;
+  for (var i = 0; i < certs.length; i++) {
+    if (certs[i].dataset.slug === hash) {
+      certs[i].style.display = 'block';
+      found = true;
+      break;
+    }
+  }
+
+  loading.style.display = 'none';
+  if (!found) {
+    notFound.style.display = 'block';
+  }
+})();
+
+window.addEventListener('hashchange', function() {
+  location.reload();
+});
+
+
+</script>
+{{ end }}

@@ -1235,3 +1235,123 @@ a.feature-card:hover .feature-card__cta {
     color: rgba(255, 255, 255, 0.75);
   }
 }
+
+/* ==========================================================================
+   Certificate Display Page
+   ========================================================================== */
+
+.cert-frame {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: #fdf8f0;
+  border-radius: 4px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.12);
+}
+
+.cert-border {
+  border: 3px double #b8860b;
+  padding: 0.5rem;
+}
+
+.cert-inner {
+  border: 1px solid #d4a849;
+  padding: 3rem 2.5rem;
+  text-align: center;
+  background: linear-gradient(
+    180deg,
+    #fefdfb 0%,
+    #fdf8f0 30%,
+    #fdf8f0 70%,
+    #fefdfb 100%
+  );
+}
+
+.cert-badge-img {
+  max-height: 180px;
+  margin-bottom: 1.5rem;
+}
+
+.cert-org {
+  font-family: 'Fraunces', serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #1e3a5f;
+  letter-spacing: 0.04em;
+  margin-bottom: 0.5rem;
+}
+
+.cert-label {
+  font-size: 0.85rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: #6b7280;
+  margin-bottom: 0.25rem;
+}
+
+.cert-name {
+  font-family: 'Great Vibes', cursive;
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  color: #1e3a5f;
+  margin: 0.5rem 0;
+  line-height: 1.2;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.cert-credential {
+  font-size: 0.85rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: #6b7280;
+  margin-bottom: 0.25rem;
+}
+
+.cert-badge-name {
+  font-family: 'Fraunces', serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #a23b72;
+  letter-spacing: 0.02em;
+  margin: 0.5rem 0 1.5rem;
+}
+
+.cert-date {
+  font-size: 0.9rem;
+  color: #6b7280;
+  font-style: italic;
+  margin-bottom: 1.5rem;
+}
+
+.cert-seal {
+  margin-top: 1rem;
+}
+
+.cert-seal img {
+  max-height: 60px;
+  opacity: 0.25;
+}
+
+@media print {
+  .td-navbar,
+  #sidebar,
+  .td-toc,
+  .td-footer,
+  .breadcrumb,
+  .td-page-meta {
+    display: none !important;
+  }
+
+  .td-main main {
+    margin: 0 !important;
+    padding: 0 !important;
+    max-width: 100% !important;
+  }
+
+  .cert-frame {
+    box-shadow: none;
+    margin: 0;
+  }
+}

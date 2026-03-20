@@ -27,7 +27,8 @@ $badgeId -}} {{- if $recipients -}} {{- $sorted := sort $recipients.recipients
   <tbody>
     {{- range $sorted }}
     <tr>
-      <td>{{ .name }}</td>
+      {{ $slug := .name | anchorize }}
+      <td><a href="/certifications/certified-professionals/certificates/#{{ $badgeId }}/{{ $slug }}">{{ .name }}</a></td>
       <td>{{ dateFormat "January 2, 2006" (time .issued) }}</td>
     </tr>
     {{- end }}
