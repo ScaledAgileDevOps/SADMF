@@ -29,12 +29,15 @@
     "prepare": "git config core.hooksPath .githooks"
   },
   "devDependencies": {
-    "@playwright/test": "^1.58.2",
-    "autoprefixer": "^10.4.22",
-    "linkinator": "^7.5.0",
-    "markdownlint-cli": "^0.47.0",
-    "openai": "^6.22.0",
-    "postcss": "^8.5.6",
+    "@playwright/test": "^1.60.0",
+    "autoprefixer": "^10.5.0",
+    "linkinator": "^7.6.1",
+    "markdownlint-cli": "^0.48.0",
+    "openai": "^6.41.0",
+    "postcss": "^8.5.15",
     "postcss-cli": "^11.0.1"
+  },
+  "dependencies": {
+    "jose": "^6.2.3"
   }
 }
