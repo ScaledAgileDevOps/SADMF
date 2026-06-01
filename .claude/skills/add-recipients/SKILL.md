@@ -1,6 +1,6 @@
 ---
 name: add-recipients
-description: Add one or more badge recipients by running add-recipient.sh for each person
+description: Add one or more badge recipients by running add-recipient.sh for each person. Use this skill whenever the user wants to add a recipient, issue a badge, grant a certification, or mentions adding someone as a facilitator/fellow/master/practitioner/depressed — even if they just say "add [name] as a [level]" or "issue a badge to [name]".
 ---
 
 The user wants to add one or more badge recipients. They will provide a list of people with their name, email, and certification level.
