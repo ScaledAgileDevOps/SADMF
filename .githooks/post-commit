@@ -8,9 +8,9 @@ case "$LAST_MSG" in
   "chore: bump version to "*) exit 0 ;;
 esac
 
-# Bump versions in package.json, package-lock.json, and data/version.json.
+# Bump versions in package.json and data/version.json.
 NEW_VERSION=$(node "$(git rev-parse --show-toplevel)/scripts/bump-version.js") || exit 1
 
-# Stage the three updated files and commit.
-git add package.json package-lock.json data/version.json
+# Stage the updated files and commit.
+git add package.json data/version.json
 git commit -m "chore: bump version to ${NEW_VERSION}"

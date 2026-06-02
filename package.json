@@ -14,19 +14,20 @@
   "author": "Bran Finster",
   "main": "hugo serve",
   "scripts": {
+    "preinstall": "npx only-allow pnpm",
     "badges": "node scripts/generate-badge-pngs.js",
     "build": "hugo",
-    "build:clean": "rm -rf public && npm run build",
-    "link-check": "npm run build:clean && linkinator ./public",
-    "link-check2": "npm run build:clean && htmltest",
+    "build:clean": "rm -rf public && pnpm run build",
+    "link-check": "pnpm run build:clean && linkinator ./public",
+    "link-check2": "pnpm run build:clean && htmltest",
     "lint": "markdownlint ./content/**/*.md",
     "lint:fix": "markdownlint -f ./content/**/*.md",
     "prepare": "git config core.hooksPath .githooks",
     "start": "hugo serve",
-    "test": "npm run lint; npm run link-check",
+    "test": "pnpm run lint; pnpm run link-check",
     "test:e2e": "playwright test",
     "test:e2e:report": "playwright test --reporter=html",
-    "update": "hugo mod get -u ./... && hugo mod tidy && npx npm-check-updates -u && npm install"
+    "update": "hugo mod get -u ./... && hugo mod tidy && pnpm dlx npm-check-updates -u && pnpm install"
   },
   "dependencies": {
     "jose": "^6.2.3"
@@ -39,5 +40,12 @@
     "openai": "^6.41.0",
     "postcss": "^8.5.15",
     "postcss-cli": "^11.0.1"
+  },
+  "packageManager": "pnpm@10.34.1",
+  "pnpm": {
+    "onlyBuiltDependencies": [],
+    "auditConfig": {
+      "ignoreGhsas": []
+    }
   }
 }
