@@ -11,3 +11,6 @@ Using our exclusive Maturity Framework, you can become a DevOps organization in 
 months with no disruption to your organizational structure and minimal training investment.
 
 [Theme](https://learn.netlify.app/en/)
+## CodeGraph
+
+This repository uses [CodeGraph](https://github.com/colbymchenry/codegraph) for semantic code intelligence.
