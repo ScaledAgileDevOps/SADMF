@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "@playwright/test": "^1.61.1",
-    "autoprefixer": "^10.5.0",
+    "autoprefixer": "^10.5.2",
     "linkinator": "^7.6.1",
     "markdownlint-cli": "^0.48.0",
     "openai": "^6.45.0",
