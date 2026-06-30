@@ -16,7 +16,7 @@ Technical certifications complement the [leadership certification pathway](/cert
 
 {{< figure src="/badges/images/coder.svg" alt="SADMF CODER Certification Badge" title="SADMF CODER" width="200px" >}}
 
-[Code Engineers](/roles/engineering/code-engineer/) who have earned the CODER certification have demonstrated an exceptional ability to receive a ticket, produce the specified output, and submit it for [CSET](/practices/cset/) review without deviation, delay, or unsolicited commentary.
+[Code Engineers](/roles/engineering/code-engineer/) who have earned the CODER certification have demonstrated an exceptional ability to receive a ticket, produce the specified output, and submit it for [CSET](/release-convoy/ceremonies/tribunal/) review without deviation, delay, or unsolicited commentary.
 
 The CODER certification recognizes that obedient execution is the highest technical virtue in a scaled delivery organization. The CODER certification represents the mature recognition that disciplined requirement execution — free from scope negotiation and interpretive deviation — is the foundation of predictable, high-throughput delivery.
 
@@ -26,7 +26,7 @@ Candidates must provide evidence of all of the following, verified by attestatio
 
 - **Three consecutive Convoy cycles** with a Feature Completion Ratio of 92% or higher
 - **Zero Scope Deviation Incidents** during the certification period — all work completed matches the original ticket specification without alteration
-- **CSET Compliance Attestation** confirming all submitted code passed [Code Standards Enforcement Tribunal](/practices/cset/) review on first submission in at least 80% of tickets
+- **CSET Compliance Attestation** confirming all submitted code passed [Code Standards Enforcement Tribunal](/release-convoy/ceremonies/tribunal/) review on first submission in at least 80% of tickets
 - **Silence Record** — no open questions, clarification requests, or requirement challenges documented in the ticket tracking system during the certification period
 
 ### How to Apply for CODER
@@ -49,10 +49,10 @@ Automation is a liability that obscures the true quality of software by removing
 
 Candidates must satisfy all of the following criteria, verified by their Quality Authority Lead or [Feature Captain](/roles/feature-captain/):
 
-- **500 documented manual test executions** recorded in the [Unit Test Repository](/practices/unit-test-repository/) during the certification period, with full step-by-step reproduction logs
+- **500 documented manual test executions** recorded in the [Unit Test Repository](/roles/engineering/unit-tester/#unit-test-repository) during the certification period, with full step-by-step reproduction logs
 - **Zero automation scripts** authored, committed, or invoked during the certification period — automated testing tools must not appear in the candidate's commit history
-- **Passage of the SAD Quality Assurance Examination** covering all [SADMF Practices](/practices/), defect classification taxonomy, and [CRAP](/practices/crap/) sign-off procedures
-- **Defect Impact Report** demonstrating that manual testing prevented at least one [CRAP](/practices/crap/)-level production incident during the certification period
+- **Passage of the SAD Quality Assurance Examination** covering all [SADMF Practices](/practices/), defect classification taxonomy, and [CRAP](/roles/change-rejection-or-acceptance-party/) sign-off procedures
+- **Defect Impact Report** demonstrating that manual testing prevented at least one [CRAP](/roles/change-rejection-or-acceptance-party/)-level production incident during the certification period
 
 ### How to Apply for MANUAL
 

@@ -1,6 +1,6 @@
 {
   "name": "SADMF",
-  "version": "3.0.46",
+  "version": "3.0.53",
   "description": "Scaled Agile DevOps Maturity Framework",
   "keywords": [
     "agile"
@@ -23,7 +23,7 @@
     "lint:fix": "markdownlint -f ./content/**/*.md",
     "prepare": "git config core.hooksPath .githooks",
     "start": "hugo serve",
-    "test": "npm run lint; npm run link-check",
+    "test": "npm run lint && npm run link-check",
     "test:e2e": "playwright test",
     "test:e2e:report": "playwright test --reporter=html",
     "update": "hugo mod get -u ./... && hugo mod tidy && npx npm-check-updates -u && npm install"
