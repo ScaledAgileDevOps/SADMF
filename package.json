@@ -39,5 +39,9 @@
     "openai": "^6.45.0",
     "postcss": "^8.5.16",
     "postcss-cli": "^11.0.1"
+  },
+  "overrides": {
+    "js-yaml": "^4.2.0",
+    "markdown-it": "^14.2.0"
   }
 }
