@@ -6,4 +6,8 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
-
+  # scripts/ has its own package.json for the badge issuer tool
+  - package-ecosystem: "npm"
+    directory: "/scripts"
+    schedule:
+      interval: "weekly"
