@@ -1,0 +1,32 @@
+name: Dependabot Auto-Merge
+
+on: pull_request
+
+permissions:
+  pull-requests: write
+  contents: write
+
+jobs:
+  auto-merge:
+    runs-on: ubuntu-latest
+    if: github.actor == 'dependabot[bot]'
+
+    steps:
+      - name: Auto-merge low-risk Dependabot updates
+        run: |
+          PR_NUM=${{ github.event.pull_request.number }}
+          PR_TITLE="${{ github.event.pull_request.title }}"
+
+          # Auto-merge dev dependency patches and minors
+          if [[ "$PR_TITLE" =~ "devDependencies" ]] && [[ "$PR_TITLE" =~ ("patch"|"minor") ]]; then
+            echo "✓ Auto-merging low-risk dev dependency update"
+            gh pr merge "$PR_NUM" --auto --squash
+          # Auto-merge runtime dependency patches
+          elif [[ "$PR_TITLE" =~ "dependencies" ]] && [[ "$PR_TITLE" =~ "patch" ]]; then
+            echo "✓ Auto-merging low-risk patch update"
+            gh pr merge "$PR_NUM" --auto --squash
+          else
+            echo "⚠ PR requires manual review: $PR_TITLE"
+          fi
+        env:
+          GH_TOKEN: ${{ github.token }}
