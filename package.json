@@ -1,6 +1,6 @@
 {
   "name": "SADMF",
-  "version": "3.0.58",
+  "version": "3.0.59",
   "description": "Scaled Agile DevOps Maturity Framework",
   "keywords": [
     "agile"
@@ -39,5 +39,9 @@
     "openai": "^6.45.0",
     "postcss": "^8.5.16",
     "postcss-cli": "^11.0.1"
+  },
+  "overrides": {
+    "js-yaml": "^4.2.0",
+    "markdown-it": "^14.2.0"
   }
 }
