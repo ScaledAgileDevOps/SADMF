@@ -11,4 +11,3 @@ updates:
     directory: "/scripts"
     schedule:
       interval: "weekly"
-
