@@ -53,7 +53,6 @@ Content uses Docsy shortcodes: `{{% alert %}}`, `{{% pageinfo %}}`, `{{< figure 
 ## Layout Customizations
 
 Custom Docsy overrides in `layouts/partials/`:
-- `header-buttons.html` — renders buttons from `data/buttons.toml`
 - `page-meta-links.html` — empty (suppresses default)
 - `custom/custom-header.html` — meta description injection
 - `custom/custom-info.html` — social links (GitHub, LinkedIn, Twitter)
@@ -61,8 +60,8 @@ Custom Docsy overrides in `layouts/partials/`:
 
 ## Styling
 
-- Brand colors defined in `assets/scss/_variables_project.scss` (primary: #242627, secondary: #a23b72)
-- Custom CSS in `assets/css/overrides.css` and `assets/css/button.css`
+- Brand colors defined in `assets/scss/_variables_project.scss` (primary: #1e3a5f, secondary: #a23b72)
+- Custom CSS in `assets/scss/_styles_project.scss`
 - Site logo at `assets/icons/logo.svg`
 
 ## Link Checking

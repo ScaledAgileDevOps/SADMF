@@ -12,14 +12,43 @@ The SADMF Periodic Table of Framework Excellence provides a comprehensive, at-a-
 
 The table is organized into seven groups: **Leadership & Governance** (the command structure), **Delivery Excellence** (the roles who execute), **Alignment Ceremonies** (the gatherings that synchronize), **Operational Excellence** (the practices that govern how work is done), **Accountability Metrics** (the measurements that drive performance), **Foundational Principles** (the immutable laws of the framework), and **Documentation Assurance** (the artifacts that prove compliance). Hover over any element to see its full description.
 
-<div style="width:100%;overflow-x:auto;margin:1.5rem 0;">
+<div class="periodic-table-embed" id="periodic-table-embed">
   <iframe
+    id="periodic-table-iframe"
     src="/sadmf-periodic-table.html"
     title="SADMF Periodic Table of Enterprise Dysfunction"
-    style="width:1200px;max-width:none;height:820px;border:none;display:block;"
     scrolling="no">
   </iframe>
 </div>
+<script>
+(function () {
+  var NATIVE_WIDTH = 1200;
+  var wrap = document.getElementById('periodic-table-embed');
+  var frame = document.getElementById('periodic-table-iframe');
+
+  function applyScale(nativeHeight) {
+    var scale = Math.min(1, wrap.clientWidth / NATIVE_WIDTH);
+    frame.style.width = NATIVE_WIDTH + 'px';
+    frame.style.height = nativeHeight + 'px';
+    frame.style.transform = 'scale(' + scale + ')';
+    frame.style.transformOrigin = 'top left';
+    wrap.style.height = (nativeHeight * scale) + 'px';
+  }
+
+  function measureAndScale() {
+    var doc;
+    try {
+      doc = frame.contentDocument;
+    } catch (e) {
+      doc = null;
+    }
+    applyScale(doc && doc.body ? doc.body.scrollHeight : 900);
+  }
+
+  frame.addEventListener('load', measureAndScale);
+  window.addEventListener('resize', measureAndScale);
+})();
+</script>
 
 <a href="/sadmf-periodic-table.html" target="_blank" class="markdown-btn">Open Full-Screen ↗</a>
 

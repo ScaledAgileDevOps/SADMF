@@ -1,8 +1,7 @@
 #!/usr/bin/env node
 /**
- * Bumps the patch version in package.json and data/version.json.
- * Called by .githooks/post-commit after each non-version-bump commit.
- * (pnpm-lock.yaml does not carry the project version, so it isn't touched.)
+ * Bumps the patch version in package.json, package-lock.json, and data/version.json.
+ * Called by .github/workflows/version-bump.yml once per merge to main.
  */
 
 import { readFileSync, writeFileSync } from "fs";
@@ -12,6 +11,7 @@ import { fileURLToPath } from "url";
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 
 const pkgPath = resolve(root, "package.json");
+const lockPath = resolve(root, "package-lock.json");
 const dataPath = resolve(root, "data", "version.json");
 
 const pkg = JSON.parse(readFileSync(pkgPath, "utf8"));
@@ -21,9 +21,16 @@ const newVersion = `${major}.${minor}.${patch + 1}`;
 
 pkg.version = newVersion;
 
+const lock = JSON.parse(readFileSync(lockPath, "utf8"));
+lock.version = newVersion;
+if (lock.packages && lock.packages[""]) {
+  lock.packages[""].version = newVersion;
+}
+
 const data = { version: newVersion };
 
 writeFileSync(pkgPath, JSON.stringify(pkg, null, 2) + "\n");
+writeFileSync(lockPath, JSON.stringify(lock, null, 2) + "\n");
 writeFileSync(dataPath, JSON.stringify(data, null, 2) + "\n");
 
 process.stdout.write(newVersion + "\n");

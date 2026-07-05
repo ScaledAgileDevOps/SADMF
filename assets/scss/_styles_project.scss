@@ -37,26 +37,21 @@ figcaption {
 }
 
 /* === Sidebar === */
-#sidebar {
-  background: linear-gradient(180deg, #152d4a 0%, #1e3a5f 100%);
-  border-right: 1px solid rgba(44, 123, 229, 0.15);
-}
-
-#sidebar .td-sidebar-nav {
+.td-sidebar-nav {
   padding-top: 1rem;
 }
 
-#sidebar .td-sidebar-nav .td-sidebar-link {
+.td-sidebar-nav .td-sidebar-link {
   font-weight: 500;
   letter-spacing: 0.01em;
 }
 
-#sidebar .td-sidebar-nav .td-sidebar-link.active {
+.td-sidebar-nav .td-sidebar-link.active {
   color: #4a90d9;
   font-weight: 600;
 }
 
-#sidebar .td-sidebar-nav i {
+.td-sidebar-nav i {
   color: #4a90d9;
   opacity: 0.85;
   width: 1.4em;
@@ -117,6 +112,14 @@ figcaption {
   margin-right: auto;
 }
 
+/* Docsy's cover block renders the subtitle (.display-2, styled as an eyebrow
+   badge below) after the h1 — flex-reorder it above without touching the
+   vendored shortcode. */
+.td-cover-block .text-center {
+  display: flex;
+  flex-direction: column;
+}
+
 .td-cover-block h1 {
   font-family: 'Inter', sans-serif;
   font-weight: 600;
@@ -126,19 +129,31 @@ figcaption {
   line-height: 1.12;
 }
 
-/* Hero subtitle — rendered by blocks/cover subtitle param, restyled as authoritative eyebrow */
+/* Hero subtitle — rendered by blocks/cover subtitle param, restyled as authoritative eyebrow.
+   Reordered above the h1 (which it follows in the DOM); margin-top mirrors the
+   h1's own "mt-0 mt-md-5" so it keeps the same clearance under the fixed navbar
+   that the h1 used to provide as the visually-first element. */
 .td-cover-block .display-2 {
+  order: -1;
+  align-self: center;
+  margin-top: 0;
   font-family: 'DM Sans', sans-serif;
   font-size: 0.68rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.14em;
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255, 0.75);
   margin-bottom: 0.5rem;
   border: 1px solid rgba(255, 255, 255, 0.12);
   display: inline-block;
   padding: 0.2rem 0.8rem;
   border-radius: 2px;
+}
+
+@media (min-width: 768px) {
+  .td-cover-block .display-2 {
+    margin-top: 3rem;
+  }
 }
 
 /* Trust indicator strip */
@@ -154,7 +169,7 @@ figcaption {
 .hero-trust-item {
   font-size: 0.68rem;
   font-weight: 700;
-  color: rgba(255, 255, 255, 0.45);
+  color: rgba(255, 255, 255, 0.75);
   letter-spacing: 0.06em;
   text-transform: uppercase;
   display: flex;
@@ -280,13 +295,18 @@ a.markdown-btn:active {
   flex: 1;
   min-width: 110px;
   position: relative;
-  animation: sadStatReveal 0.55s ease backwards;
 }
 
-.sad-stat:nth-child(1) { animation-delay: 0.05s; }
-.sad-stat:nth-child(2) { animation-delay: 0.15s; }
-.sad-stat:nth-child(3) { animation-delay: 0.25s; }
-.sad-stat:nth-child(4) { animation-delay: 0.35s; }
+@media (prefers-reduced-motion: no-preference) {
+  .sad-stat {
+    animation: sadStatReveal 0.55s ease backwards;
+  }
+
+  .sad-stat:nth-child(1) { animation-delay: 0.05s; }
+  .sad-stat:nth-child(2) { animation-delay: 0.15s; }
+  .sad-stat:nth-child(3) { animation-delay: 0.25s; }
+  .sad-stat:nth-child(4) { animation-delay: 0.35s; }
+}
 
 .sad-stat:not(:last-child)::after {
   content: '';
@@ -464,7 +484,7 @@ a.feature-card:hover .feature-card__cta {
 }
 
 .testimonials-subtitle {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.75);
   font-size: 1rem;
 }
 
@@ -526,7 +546,7 @@ a.feature-card:hover .feature-card__cta {
 
 .testimonial-title {
   display: block;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.75);
   font-size: 0.8rem;
 }
 
@@ -694,26 +714,6 @@ a.feature-card:hover .feature-card__cta {
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 0.02em;
-}
-
-/* === Header Buttons === */
-.header-buttons {
-  display: flex;
-  gap: 0.75rem;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 1rem 0;
-}
-
-.header-buttons .btn {
-  font-weight: 600;
-  border-radius: 6px;
-  padding: 0.45rem 1.2rem;
-  transition: all 0.25s ease;
-}
-
-.header-buttons .btn:hover {
-  transform: translateY(-1px);
 }
 
 /* === Navbar === */
@@ -1537,7 +1537,7 @@ a.feature-card:hover .feature-card__cta {
 
 @media print {
   .td-navbar,
-  #sidebar,
+  .td-sidebar,
   .td-toc,
   .td-footer,
   .breadcrumb,
@@ -1554,5 +1554,31 @@ a.feature-card:hover .feature-card__cta {
   .cert-frame {
     box-shadow: none;
     margin: 0;
+  }
+}
+
+/* === Big Picture: scaled periodic table embed === */
+.periodic-table-embed {
+  width: 100%;
+  overflow: hidden;
+  margin: 1.5rem 0;
+}
+
+.periodic-table-embed iframe {
+  border: none;
+  display: block;
+}
+
+/* === Reduced motion === */
+/* Neutralize hover-lift transforms and other transitions/animations for users
+   who have requested reduced motion at the OS level. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
   }
 }

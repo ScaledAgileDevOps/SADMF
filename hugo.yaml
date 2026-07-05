@@ -94,8 +94,14 @@ params:
       4.0](https://creativecommons.org/licenses/by/4.0) |
     from_year: 2021
   taxonomy:
-    taxonomyCloud: [tags, categories]
-    taxonomyCloudTitle: [Tag Cloud, Categories]
+    # Docsy's taxonomy_terms_clouds.html treats an empty taxonomyCloud as falsy
+    # and falls back to rendering every taxonomy, so an empty list can't
+    # suppress the right-rail Tag Cloud / Categories cloud. Point it at a
+    # taxonomy name that doesn't exist ("none" isn't in `taxonomies:` above) so
+    # the partial's `isset` guard fails and nothing renders. Tags/categories
+    # still show in the page header via taxonomyPageHeader below.
+    taxonomyCloud: [none]
+    taxonomyCloudTitle: [none]
     taxonomyPageHeader: [tags, categories]
   version_menu: Releases
   archived_version: false
