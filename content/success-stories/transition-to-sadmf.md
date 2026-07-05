@@ -13,9 +13,9 @@ tags: ["governance", "certification", "compliance"]
      EXECUTIVE SUMMARY BOX
      ============================================================ -->
 <div style="border-left:6px solid #a23b72;background:linear-gradient(135deg,#1e3a5f 0%,#242627 100%);color:#fff;border-radius:6px;padding:2rem 2rem 1.5rem;margin:2rem 0 2.5rem;position:relative;overflow:hidden">
-  <div style="position:absolute;top:-30px;right:-20px;font-size:9rem;opacity:0.06;font-family:Georgia,serif;line-height:1;pointer-events:none">SAD</div>
+  <div style="position:absolute;top:-30px;right:-20px;font-size:9rem;opacity:0.06;font-family:'Inter',sans-serif;line-height:1;pointer-events:none">SAD</div>
   <div style="font-size:0.7rem;font-weight:700;letter-spacing:0.18em;text-transform:uppercase;color:#a23b72;margin-bottom:0.75rem">Executive Summary</div>
-  <p style="font-size:1.08rem;line-height:1.65;margin:0 0 1rem;font-family:Georgia,'Times New Roman',serif;font-style:italic;color:#e8edf5">
+  <p style="font-size:1.08rem;line-height:1.65;margin:0 0 1rem;font-family:'Inter',sans-serif;font-style:italic;color:#e8edf5">
     A mid-sized enterprise discovered it was not among the world's top 5% of companies. Rather than examine culture, product quality, or team autonomy, leadership launched a DevOps initiative, hired consultants, distributed acronyms, and declared victory, all without a single meaningful measurement.
   </p>
   <div style="display:flex;flex-wrap:wrap;gap:1.25rem;margin-top:1.25rem">
@@ -77,8 +77,8 @@ A word of caution: If you have been measuring effectiveness in your company, it'
 
 <!-- PULL QUOTE 1 -->
 <blockquote style="border:none;margin:2rem 0;padding:0;position:relative">
-  <div style="position:absolute;top:-0.5rem;left:0;font-size:5rem;line-height:1;color:#a23b72;opacity:0.25;font-family:Georgia,serif;pointer-events:none">&ldquo;</div>
-  <p style="font-family:Georgia,'Times New Roman',serif;font-size:1.25rem;font-style:italic;line-height:1.6;color:#1e3a5f;padding:1.25rem 1.5rem 1.25rem 3rem;background:#e8edf5;border-left:4px solid #a23b72;border-radius:0 6px 6px 0;margin:0">
+  <div style="position:absolute;top:-0.5rem;left:0;font-size:5rem;line-height:1;color:#a23b72;opacity:0.25;font-family:'Inter',sans-serif;pointer-events:none">&ldquo;</div>
+  <p style="font-family:'Inter',sans-serif;font-size:1.25rem;font-style:italic;line-height:1.6;color:#1e3a5f;padding:1.25rem 1.5rem 1.25rem 3rem;background:#e8edf5;border-left:4px solid #a23b72;border-radius:0 6px 6px 0;margin:0">
     Never measure beforehand because this would make your work transparent (bad), instead of the work of your resources (good).
   </p>
   <footer style="margin-top:0.5rem;padding-left:3rem;font-size:0.8rem;color:#5a6d82;font-weight:600;letter-spacing:0.06em;text-transform:uppercase">— Kick-off Deep Dive Purpose Ceremony</footer>
@@ -162,8 +162,8 @@ The SAD MF out-of-the-box comes with thirteen ceremonies, but management believe
 
 <!-- PULL QUOTE 2 -->
 <blockquote style="border:none;margin:2rem 0;padding:0;position:relative">
-  <div style="position:absolute;top:-0.5rem;left:0;font-size:5rem;line-height:1;color:#a23b72;opacity:0.25;font-family:Georgia,serif;pointer-events:none">&ldquo;</div>
-  <p style="font-family:Georgia,'Times New Roman',serif;font-size:1.25rem;font-style:italic;line-height:1.6;color:#1e3a5f;padding:1.25rem 1.5rem 1.25rem 3rem;background:#e8edf5;border-left:4px solid #a23b72;border-radius:0 6px 6px 0;margin:0">
+  <div style="position:absolute;top:-0.5rem;left:0;font-size:5rem;line-height:1;color:#a23b72;opacity:0.25;font-family:'Inter',sans-serif;pointer-events:none">&ldquo;</div>
+  <p style="font-family:'Inter',sans-serif;font-size:1.25rem;font-style:italic;line-height:1.6;color:#1e3a5f;padding:1.25rem 1.5rem 1.25rem 3rem;background:#e8edf5;border-left:4px solid #a23b72;border-radius:0 6px 6px 0;margin:0">
     Keep all ceremonies, but reduce their duration to a quarter of the original time while still demanding the same output as before.
   </p>
   <footer style="margin-top:0.5rem;padding-left:3rem;font-size:0.8rem;color:#5a6d82;font-weight:600;letter-spacing:0.06em;text-transform:uppercase">— Ceremonies and Useful Meetings</footer>
@@ -247,8 +247,8 @@ At some random point, management declared that the Movers First had **succeeded*
 
 <!-- PULL QUOTE 3 -->
 <blockquote style="border:none;margin:2rem 0;padding:0;position:relative">
-  <div style="position:absolute;top:-0.5rem;left:0;font-size:5rem;line-height:1;color:#a23b72;opacity:0.25;font-family:Georgia,serif;pointer-events:none">&ldquo;</div>
-  <p style="font-family:Georgia,'Times New Roman',serif;font-size:1.25rem;font-style:italic;line-height:1.6;color:#1e3a5f;padding:1.25rem 1.5rem 1.25rem 3rem;background:#e8edf5;border-left:4px solid #a23b72;border-radius:0 6px 6px 0;margin:0">
+  <div style="position:absolute;top:-0.5rem;left:0;font-size:5rem;line-height:1;color:#a23b72;opacity:0.25;font-family:'Inter',sans-serif;pointer-events:none">&ldquo;</div>
+  <p style="font-family:'Inter',sans-serif;font-size:1.25rem;font-style:italic;line-height:1.6;color:#1e3a5f;padding:1.25rem 1.5rem 1.25rem 3rem;background:#e8edf5;border-left:4px solid #a23b72;border-radius:0 6px 6px 0;margin:0">
     Since the Movers First did not want to admit any failure, no one spoke up against this decision.
   </p>
   <footer style="margin-top:0.5rem;padding-left:3rem;font-size:0.8rem;color:#5a6d82;font-weight:600;letter-spacing:0.06em;text-transform:uppercase">— Second Movers</footer>
@@ -335,11 +335,11 @@ Should anything not work out, remember the newly hired SAD MF resource is respon
      CLOSING VERDICT BOX
      ============================================================ -->
 <div style="background:linear-gradient(135deg,#1e3a5f 0%,#242627 100%);border-radius:6px;padding:2rem;margin:2.5rem 0 1rem;color:#e8edf5;position:relative;overflow:hidden">
-  <div style="position:absolute;bottom:-1.5rem;right:-1rem;font-size:8rem;opacity:0.05;font-family:Georgia,serif;line-height:1;pointer-events:none">#success</div>
+  <div style="position:absolute;bottom:-1.5rem;right:-1rem;font-size:8rem;opacity:0.05;font-family:'Inter',sans-serif;line-height:1;pointer-events:none">#success</div>
   <div style="font-size:0.65rem;font-weight:700;letter-spacing:0.18em;text-transform:uppercase;color:#a23b72;margin-bottom:0.75rem">
     <i class="fa-solid fa-trophy" style="margin-right:0.4rem"></i>Final Verdict
   </div>
-  <p style="font-family:Georgia,'Times New Roman',serif;font-size:1.05rem;font-style:italic;line-height:1.65;margin:0;color:#e8edf5">
+  <p style="font-family:'Inter',sans-serif;font-size:1.05rem;font-style:italic;line-height:1.65;margin:0;color:#e8edf5">
     The transformation was a resounding <strong style="color:#a23b72">success</strong>. The company achieved the top 5% by the only metrics that matter: the ones invented after the initiative began. Management was celebrated. Consultants were paid. Resources continued to ship code. Nothing structurally changed. A blog post was written. LinkedIn applauded.
   </p>
   <div style="margin-top:1.25rem;display:flex;align-items:center;gap:0.5rem;font-size:0.75rem;color:#9ab4cc;letter-spacing:0.06em;text-transform:uppercase">

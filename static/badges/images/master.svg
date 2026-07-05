@@ -55,7 +55,7 @@
 
   <!-- SADMF text at top -->
   <text x="128" y="62" text-anchor="middle"
-        font-family="Georgia,'Palatino Linotype',serif"
+        font-family="'Trebuchet MS','Segoe UI',Helvetica,Arial,sans-serif"
         font-size="17" font-weight="bold" fill="#e8c84a" letter-spacing="6"
         stroke="#7a5010" stroke-width="0.5">SADMF</text>
 
@@ -69,6 +69,6 @@
 
   <!-- SAD MASTER text -->
   <text x="128" y="210" text-anchor="middle"
-        font-family="Georgia,'Palatino Linotype',serif"
+        font-family="'Trebuchet MS','Segoe UI',Helvetica,Arial,sans-serif"
         font-size="10" font-weight="bold" fill="white" letter-spacing="1.5">SAD MASTER</text>
 </svg>

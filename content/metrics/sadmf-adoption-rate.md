@@ -10,7 +10,7 @@ tags: ["measurement", "certification", "compliance"]
 The SADMF Adoption Rate measures the percentage of the organization that has received a SAD&trade; [certification](/certifications/). This metric is the purest indicator of transformation progress, because transformation is fundamentally about people adopting the framework, and adoption is fundamentally about completing the certification process. An organization where 30% of employees are SAD certified is 30% transformed. An organization where 100% of employees are SAD certified is fully transformed. The arithmetic is straightforward, and the [Admiral's Transformation Office](/roles/admirals-transformation-office/) reports this number to the board of directors quarterly as the primary evidence that the transformation investment is generating returns.
 
 <div style="
-  font-family: 'Georgia', 'Times New Roman', serif;
+  font-family: 'Inter', sans-serif;
   border: 3px solid #242627;
   border-radius: 2px;
   margin: 2rem 0;
@@ -41,8 +41,8 @@ The SADMF Adoption Rate measures the percentage of the organization that has rec
   ">
     <!-- Left: name + formula -->
     <div>
-      <div style="font-size:0.65rem;letter-spacing:0.2em;text-transform:uppercase;color:#a23b72;margin-bottom:0.35rem;font-family:'Georgia',serif;">Primary Transformation Indicator</div>
-      <div style="font-size:2rem;font-weight:700;color:#242627;line-height:1.1;margin-bottom:1rem;font-family:'Georgia',serif;">SADMF Adoption Rate</div>
+      <div style="font-size:0.65rem;letter-spacing:0.2em;text-transform:uppercase;color:#a23b72;margin-bottom:0.35rem;font-family:'Inter',sans-serif;">Primary Transformation Indicator</div>
+      <div style="font-size:2rem;font-weight:700;color:#242627;line-height:1.1;margin-bottom:1rem;font-family:'Inter',sans-serif;">SADMF Adoption Rate</div>
       <div style="
         background: #242627;
         color: #ffffff;
@@ -114,7 +114,7 @@ The certification process that drives this metric is deliberately comprehensive.
 <!-- How it works: numbered step sequence -->
 <div style="
   margin: 2rem 0;
-  font-family: 'Georgia', 'Times New Roman', serif;
+  font-family: 'Inter', sans-serif;
 ">
   <div style="
     font-size:0.65rem;
@@ -122,7 +122,7 @@ The certification process that drives this metric is deliberately comprehensive.
     text-transform:uppercase;
     color:#a23b72;
     margin-bottom:0.75rem;
-    font-family:'Georgia',serif;
+    font-family:'Inter',sans-serif;
   ">How the Adoption Rate Is Calculated</div>
   <div style="
     border-left: 3px solid #242627;
@@ -137,7 +137,7 @@ The certification process that drives this metric is deliberately comprehensive.
         color:#fff;
         font-size:1.1rem;
         font-weight:700;
-        font-family:'Georgia',serif;
+        font-family:'Inter',sans-serif;
         min-width:3rem;
         display:flex;
         align-items:center;
@@ -162,7 +162,7 @@ The certification process that drives this metric is deliberately comprehensive.
         color:#fff;
         font-size:1.1rem;
         font-weight:700;
-        font-family:'Georgia',serif;
+        font-family:'Inter',sans-serif;
         min-width:3rem;
         display:flex;
         align-items:center;
@@ -188,7 +188,7 @@ The certification process that drives this metric is deliberately comprehensive.
         color:#fff;
         font-size:1.1rem;
         font-weight:700;
-        font-family:'Georgia',serif;
+        font-family:'Inter',sans-serif;
         min-width:3rem;
         display:flex;
         align-items:center;
@@ -214,7 +214,7 @@ The certification process that drives this metric is deliberately comprehensive.
         color:#fff;
         font-size:1.1rem;
         font-weight:700;
-        font-family:'Georgia',serif;
+        font-family:'Inter',sans-serif;
         min-width:3rem;
         display:flex;
         align-items:center;
@@ -249,7 +249,7 @@ The Adoption Rate interacts with the [SADMF Maturity Score](/metrics/sadmf-matur
   border: 2px solid #a23b72;
   border-radius: 2px;
   overflow: hidden;
-  font-family: 'Georgia', 'Times New Roman', serif;
+  font-family: 'Inter', sans-serif;
   box-shadow: 4px 4px 0 #242627;
 ">
   <div style="
@@ -270,22 +270,22 @@ The Adoption Rate interacts with the [SADMF Maturity Score](/metrics/sadmf-matur
     <p style="margin:0 0 1rem;font-size:0.88rem;color:#333;line-height:1.6;">A high-performing organization does not merely aim for a rising Adoption Rate — it treats any figure below 100% as an active failure state. The following benchmarks define excellence:</p>
     <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:1rem;margin-bottom:1rem;">
       <div style="text-align:center;padding:0.85rem;background:#fff;border:1px solid #e8c0d4;border-radius:2px;">
-        <div style="font-size:1.8rem;font-weight:700;color:#a23b72;font-family:'Georgia',serif;line-height:1;">25%</div>
+        <div style="font-size:1.8rem;font-weight:700;color:#a23b72;font-family:'Inter',sans-serif;line-height:1;">25%</div>
         <div style="font-size:0.65rem;letter-spacing:0.12em;text-transform:uppercase;color:#888;margin-top:0.3rem;">Emerging</div>
         <div style="font-size:0.75rem;color:#555;margin-top:0.3rem;font-style:italic;">Tribunal pipeline active</div>
       </div>
       <div style="text-align:center;padding:0.85rem;background:#fff;border:1px solid #e8c0d4;border-radius:2px;">
-        <div style="font-size:1.8rem;font-weight:700;color:#a23b72;font-family:'Georgia',serif;line-height:1;">50%</div>
+        <div style="font-size:1.8rem;font-weight:700;color:#a23b72;font-family:'Inter',sans-serif;line-height:1;">50%</div>
         <div style="font-size:0.65rem;letter-spacing:0.12em;text-transform:uppercase;color:#888;margin-top:0.3rem;">Developing</div>
         <div style="font-size:0.75rem;color:#555;margin-top:0.3rem;font-style:italic;">Board briefed; urgency declared</div>
       </div>
       <div style="text-align:center;padding:0.85rem;background:#fff;border:1px solid #e8c0d4;border-radius:2px;">
-        <div style="font-size:1.8rem;font-weight:700;color:#a23b72;font-family:'Georgia',serif;line-height:1;">75%</div>
+        <div style="font-size:1.8rem;font-weight:700;color:#a23b72;font-family:'Inter',sans-serif;line-height:1;">75%</div>
         <div style="font-size:0.65rem;letter-spacing:0.12em;text-transform:uppercase;color:#888;margin-top:0.3rem;">Proficient</div>
         <div style="font-size:0.75rem;color:#555;margin-top:0.3rem;font-style:italic;">Investor deck ready</div>
       </div>
       <div style="text-align:center;padding:0.85rem;background:#242627;border:1px solid #242627;border-radius:2px;">
-        <div style="font-size:1.8rem;font-weight:700;color:#fff;font-family:'Georgia',serif;line-height:1;">100%</div>
+        <div style="font-size:1.8rem;font-weight:700;color:#fff;font-family:'Inter',sans-serif;line-height:1;">100%</div>
         <div style="font-size:0.65rem;letter-spacing:0.12em;text-transform:uppercase;color:#a23b72;margin-top:0.3rem;">Excellent</div>
         <div style="font-size:0.75rem;color:#ccc;margin-top:0.3rem;font-style:italic;">Transformation complete</div>
       </div>

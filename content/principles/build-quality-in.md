@@ -10,7 +10,7 @@ tags: ["quality", "testing"]
 The principle of Build Quality In is one of the most misunderstood concepts in the software industry. Many organizations mistakenly believe that quality is achieved through technical practices such as automated testing, code review, or continuous integration. The Scaled Agile DevOps Maturity Framework recognizes a deeper truth: quality is a function of the people producing the work. If the software contains defects, the most direct path to improvement is addressing the source of those defects. Quality cannot be tested into existence; it must be hired, measured, and when necessary, removed.
 
 <div style="border-left:5px solid #a23b72;background:linear-gradient(135deg,#fdf6fa 0%,#f9f0f6 100%);border-radius:0 8px 8px 0;padding:1.5rem 2rem;margin:2rem 0;position:relative;">
-  <span style="font-family:Georgia,serif;font-size:1.45rem;font-style:italic;color:#242627;line-height:1.5;display:block;">
+  <span style="font-family:'Inter',sans-serif;font-size:1.45rem;font-style:italic;color:#242627;line-height:1.5;display:block;">
     &ldquo;Quality cannot be tested into existence; it must be hired, measured, and when necessary, removed.&rdquo;
   </span>
   <span style="display:block;margin-top:0.75rem;font-size:0.8rem;letter-spacing:0.12em;text-transform:uppercase;color:#a23b72;font-weight:600;">Core Principle &mdash; SADMF Build Quality In</span>
