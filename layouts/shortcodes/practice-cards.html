@@ -1,7 +1,7 @@
 {{ $categoryOrder := slice "Branch & Isolation Governance" "Quality & Defect Management" "Planning, Tracking & Reporting" "Documentation & Infrastructure" }}
 {{ range $categoryOrder }}
   {{ $cat := . }}
-  {{ $pages := where $.Page.RegularPages "Params.categories" "intersect" (slice $cat) }}
+  {{ $pages := where $.Page.RegularPagesRecursive "Params.categories" "intersect" (slice $cat) }}
   {{ if $pages }}
   <h3 class="practice-category-heading">{{ $cat }}</h3>
   <div class="practice-grid">

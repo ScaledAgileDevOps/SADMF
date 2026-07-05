@@ -1,0 +1,38 @@
+name: Version Bump
+
+# Bumps the patch version exactly once per merge to main, instead of on every
+# local commit on every branch. Feature branches no longer touch
+# package.json/package-lock.json/data/version.json, so two branches bumping
+# in parallel can no longer produce conflicting version-bump commits.
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  bump:
+    runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, 'chore: bump version to')"
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+
+      - name: Bump version
+        id: bump
+        run: |
+          NEW_VERSION=$(node scripts/bump-version.js)
+          echo "version=${NEW_VERSION}" >> "$GITHUB_OUTPUT"
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add package.json package-lock.json data/version.json
+          git commit -m "chore: bump version to ${{ steps.bump.outputs.version }}"
+          git push

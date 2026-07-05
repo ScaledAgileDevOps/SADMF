@@ -1,7 +1,13 @@
-{{/* Calligraphy font for certificate pages */}}
+{{/* Site body/heading fonts, loaded as non-render-blocking preconnected links
+     (previously a render-blocking @import in _variables_project.scss). */}}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap">
+
+{{/* Calligraphy font, only needed on the certificate-viewer page */}}
+{{ if eq .Layout "certificate-viewer" }}
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap">
+{{ end }}
 
 {{/* Canonical URL */}}
 <link rel="canonical" href="{{ .Permalink }}">
