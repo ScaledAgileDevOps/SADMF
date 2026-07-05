@@ -1,3 +1,11 @@
+/* === Color scheme === */
+/* Opt out of browser-applied automatic dark mode (e.g. Chrome Android Auto Dark
+   Mode), which otherwise alters our footer colors and makes them unreadable.
+   See https://github.com/ScaledAgileDevOps/SADMF/issues/75 */
+:root {
+  color-scheme: light;
+}
+
 /* === Figure Captions === */
 .content figure figcaption {
   font-style: italic;
