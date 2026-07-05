@@ -78,7 +78,7 @@
   <rect x="147" y="118" width="3" height="23" rx="0.5" fill="#7de8f8"/>
 
   <!-- SADMF arced text -->
-  <text font-family="Georgia,'Palatino Linotype',serif" font-size="16" font-weight="bold" fill="#e8c84a" letter-spacing="6" stroke="#7a5010" stroke-width="0.5">
+  <text font-family="'Trebuchet MS','Segoe UI',Helvetica,Arial,sans-serif" font-size="16" font-weight="bold" fill="#e8c84a" letter-spacing="6" stroke="#7a5010" stroke-width="0.5">
     <textPath href="#p-arc" startOffset="50%" text-anchor="middle">SADMF</textPath>
   </text>
 

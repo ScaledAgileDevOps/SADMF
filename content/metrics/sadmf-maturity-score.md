@@ -11,7 +11,7 @@ The SADMF Maturity Score is the definitive measure of an organization's commitme
 
 <!-- Stat hero box -->
 <div style="
-  font-family: 'Georgia', 'Times New Roman', serif;
+  font-family: 'Inter', sans-serif;
   border: 3px solid #242627;
   border-radius: 2px;
   margin: 2rem 0;
@@ -42,8 +42,8 @@ The SADMF Maturity Score is the definitive measure of an organization's commitme
   ">
     <!-- Left: name + formula -->
     <div>
-      <div style="font-size:0.65rem;letter-spacing:0.2em;text-transform:uppercase;color:#a23b72;margin-bottom:0.35rem;font-family:'Georgia',serif;">Organizational Transformation Index</div>
-      <div style="font-size:2rem;font-weight:700;color:#242627;line-height:1.1;margin-bottom:1rem;font-family:'Georgia',serif;">SADMF Maturity Score</div>
+      <div style="font-size:0.65rem;letter-spacing:0.2em;text-transform:uppercase;color:#a23b72;margin-bottom:0.35rem;font-family:'Inter',sans-serif;">Organizational Transformation Index</div>
+      <div style="font-size:2rem;font-weight:700;color:#242627;line-height:1.1;margin-bottom:1rem;font-family:'Inter',sans-serif;">SADMF Maturity Score</div>
       <div style="
         background: #242627;
         color: #ffffff;
@@ -117,7 +117,7 @@ The Maturity Score is calculated through the [DevOps Process Excellence Assessme
 <!-- How it works: numbered step sequence -->
 <div style="
   margin: 2rem 0;
-  font-family: 'Georgia', 'Times New Roman', serif;
+  font-family: 'Inter', sans-serif;
 ">
   <div style="
     font-size:0.65rem;
@@ -125,7 +125,7 @@ The Maturity Score is calculated through the [DevOps Process Excellence Assessme
     text-transform:uppercase;
     color:#a23b72;
     margin-bottom:0.75rem;
-    font-family:'Georgia',serif;
+    font-family:'Inter',sans-serif;
   ">How the Maturity Score Is Calculated</div>
   <div style="
     border-left: 3px solid #242627;
@@ -140,7 +140,7 @@ The Maturity Score is calculated through the [DevOps Process Excellence Assessme
         color:#fff;
         font-size:1.1rem;
         font-weight:700;
-        font-family:'Georgia',serif;
+        font-family:'Inter',sans-serif;
         min-width:3rem;
         display:flex;
         align-items:center;
@@ -165,7 +165,7 @@ The Maturity Score is calculated through the [DevOps Process Excellence Assessme
         color:#fff;
         font-size:1.1rem;
         font-weight:700;
-        font-family:'Georgia',serif;
+        font-family:'Inter',sans-serif;
         min-width:3rem;
         display:flex;
         align-items:center;
@@ -191,7 +191,7 @@ The Maturity Score is calculated through the [DevOps Process Excellence Assessme
         color:#fff;
         font-size:1.1rem;
         font-weight:700;
-        font-family:'Georgia',serif;
+        font-family:'Inter',sans-serif;
         min-width:3rem;
         display:flex;
         align-items:center;
@@ -217,7 +217,7 @@ The Maturity Score is calculated through the [DevOps Process Excellence Assessme
         color:#fff;
         font-size:1.1rem;
         font-weight:700;
-        font-family:'Georgia',serif;
+        font-family:'Inter',sans-serif;
         min-width:3rem;
         display:flex;
         align-items:center;
@@ -250,7 +250,7 @@ Individual maturity scores roll up into team scores, team scores roll up into fl
   border: 2px solid #a23b72;
   border-radius: 2px;
   overflow: hidden;
-  font-family: 'Georgia', 'Times New Roman', serif;
+  font-family: 'Inter', sans-serif;
   box-shadow: 4px 4px 0 #242627;
 ">
   <div style="
@@ -271,27 +271,27 @@ Individual maturity scores roll up into team scores, team scores roll up into fl
     <p style="margin:0 0 1rem;font-size:0.88rem;color:#333;line-height:1.6;">A high-performing organization maximizes the proportion of its fleet rated "Excellent" or "Proficient" — understanding that because the bell curve is fixed, this is achieved not by improving absolute performance but by ensuring competitors score lower. The following band targets define transformation excellence:</p>
     <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(110px,1fr));gap:0.75rem;margin-bottom:1rem;">
       <div style="text-align:center;padding:0.85rem 0.5rem;background:#fff;border:1px solid #e8c0d4;border-radius:2px;">
-        <div style="font-size:1.5rem;font-weight:700;color:#a23b72;font-family:'Georgia',serif;line-height:1;">10%</div>
+        <div style="font-size:1.5rem;font-weight:700;color:#a23b72;font-family:'Inter',sans-serif;line-height:1;">10%</div>
         <div style="font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:#242627;margin-top:0.3rem;font-weight:600;">Excellent</div>
         <div style="font-size:0.72rem;color:#555;margin-top:0.3rem;font-style:italic;">Maturity Excellence Badge; Convoy priority staffing</div>
       </div>
       <div style="text-align:center;padding:0.85rem 0.5rem;background:#fff;border:1px solid #e8c0d4;border-radius:2px;">
-        <div style="font-size:1.5rem;font-weight:700;color:#a23b72;font-family:'Georgia',serif;line-height:1;">20%</div>
+        <div style="font-size:1.5rem;font-weight:700;color:#a23b72;font-family:'Inter',sans-serif;line-height:1;">20%</div>
         <div style="font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:#242627;margin-top:0.3rem;font-weight:600;">Proficient</div>
         <div style="font-size:0.72rem;color:#555;margin-top:0.3rem;font-style:italic;">Acceptable; feature work permitted</div>
       </div>
       <div style="text-align:center;padding:0.85rem 0.5rem;background:#fff;border:1px solid #e8c0d4;border-radius:2px;">
-        <div style="font-size:1.5rem;font-weight:700;color:#888;font-family:'Georgia',serif;line-height:1;">40%</div>
+        <div style="font-size:1.5rem;font-weight:700;color:#888;font-family:'Inter',sans-serif;line-height:1;">40%</div>
         <div style="font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:#888;margin-top:0.3rem;font-weight:600;">Developing</div>
         <div style="font-size:0.72rem;color:#888;margin-top:0.3rem;font-style:italic;">Minimum for Adoption Rate inclusion</div>
       </div>
       <div style="text-align:center;padding:0.85rem 0.5rem;background:#fff;border:1px solid #e0c0c0;border-radius:2px;">
-        <div style="font-size:1.5rem;font-weight:700;color:#b44;font-family:'Georgia',serif;line-height:1;">20%</div>
+        <div style="font-size:1.5rem;font-weight:700;color:#b44;font-family:'Inter',sans-serif;line-height:1;">20%</div>
         <div style="font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:#b44;margin-top:0.3rem;font-weight:600;">Deficient</div>
         <div style="font-size:0.72rem;color:#888;margin-top:0.3rem;font-style:italic;">Maturity Improvement Plan assigned</div>
       </div>
       <div style="text-align:center;padding:0.85rem 0.5rem;background:#242627;border:1px solid #242627;border-radius:2px;">
-        <div style="font-size:1.5rem;font-weight:700;color:#fff;font-family:'Georgia',serif;line-height:1;">10%</div>
+        <div style="font-size:1.5rem;font-weight:700;color:#fff;font-family:'Inter',sans-serif;line-height:1;">10%</div>
         <div style="font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:#a23b72;margin-top:0.3rem;font-weight:600;">Critical</div>
         <div style="font-size:0.72rem;color:#ccc;margin-top:0.3rem;font-style:italic;">Guaranteed. Always. For everyone.</div>
       </div>
