@@ -1,5 +1,6 @@
 ---
 title: "Code Standards Enforcement Team"
+acronym: "CSET"
 linkTitle: "Code Standards Enforcement Team"
 type: docs
 description: "CSET performs all code reviews so that Code Engineers can focus on typing code instead of reading it!"

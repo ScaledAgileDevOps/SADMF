@@ -1,5 +1,6 @@
 ---
 title: "Change Request Lead Time"
+metricUnit: "days / CRAP"
 linkTitle: "Change Request Lead Time"
 type: docs
 description: "The elapsed time between change initiation and CRAP approval, the definitive measure of an organization's planning maturity and governance discipline!"

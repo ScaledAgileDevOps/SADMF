@@ -1,5 +1,6 @@
 ---
 title: "Development Integrity Assurance Team"
+acronym: "DIAT"
 linkTitle: "Development Integrity Assurance Team"
 type: docs
 description: "DIAT validates the work of QA to ensure that testing itself meets the organization's quality standards!"

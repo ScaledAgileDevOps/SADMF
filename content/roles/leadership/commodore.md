@@ -1,5 +1,6 @@
 ---
 title: "Commodore"
+acronym: "C"
 linkTitle: "Commodore"
 type: docs
 description: "The delivery commander who collects status, ensures framework compliance, and authorizes fleet deployment!"

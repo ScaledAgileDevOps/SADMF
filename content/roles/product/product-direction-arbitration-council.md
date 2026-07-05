@@ -1,5 +1,6 @@
 ---
 title: "Product Direction Arbitration Council"
+acronym: "PDAC"
 linkTitle: "Product Direction Arbitration Council"
 type: docs
 description: "PDAC ensures every stakeholder's voice is heard in product decisions, preventing any single perspective from dominating the backlog!"

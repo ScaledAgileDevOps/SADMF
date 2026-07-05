@@ -1,5 +1,6 @@
 ---
 title: "Defects per Code Engineer"
+metricUnit: "defects / CE"
 linkTitle: "Defects per Code Engineer"
 type: docs
 description: "Tracking exactly who created each defect, because accountability starts with attribution!"

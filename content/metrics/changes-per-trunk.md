@@ -1,5 +1,6 @@
 ---
 title: "Changes per Trunk"
+metricUnit: "changes / trunk"
 linkTitle: "Changes per Trunk"
 type: docs
 description: "The primary health indicator for every trunk in the Pando fleet, measuring feature throughput per branch and surfacing orphaned trunks before they become audit liabilities!"

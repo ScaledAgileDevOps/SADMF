@@ -1,5 +1,6 @@
 ---
 title: "Admiral's Transformation Office"
+acronym: "ATO"
 linkTitle: "Admiral's Transformation Office"
 type: docs
 description: "The command-and-control center ensuring everyone achieves the goals of SADMF through centralized direction, assessment, and accountability!"

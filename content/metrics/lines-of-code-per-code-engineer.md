@@ -1,5 +1,6 @@
 ---
 title: "Lines of Code per Code Engineer"
+metricUnit: "LOC / CE"
 linkTitle: "Lines of Code per Code Engineer"
 type: docs
 description: "The definitive measure of developer productivity -- because more lines means more value!"

@@ -1,5 +1,6 @@
 ---
 title: "Simple Site Functionality Support Team (SiSiFuS)"
+acronym: "SiSiFuS"
 linkTitle: "Simple Site Functionality Support Team"
 type: docs
 description: "Former great problem solvers dedicated to maintaining alarm work, reporting, customizations, and chasing backported feature parity across maintenance branches!"

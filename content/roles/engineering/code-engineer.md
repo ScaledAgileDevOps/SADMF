@@ -1,5 +1,6 @@
 ---
 title: "Code Engineer"
+acronym: "CE"
 linkTitle: "Code Engineer"
 type: docs
 description: "The backbone of a SAD implementation, transforming requirements into machine-readable instructions quickly and quietly!"

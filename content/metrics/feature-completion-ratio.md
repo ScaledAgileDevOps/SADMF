@@ -1,5 +1,6 @@
 ---
 title: "Feature Completion Ratio"
+metricUnit: "% / 8Q plan"
 linkTitle: "Feature Completion Ratio"
 type: docs
 description: "The percentage of features delivered versus what was committed to 8 quarters ago -- because real planning has a two-year horizon!"

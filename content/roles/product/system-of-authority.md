@@ -1,5 +1,6 @@
 ---
 title: "System of Authority"
+acronym: "SOA"
 linkTitle: "System of Authority"
 type: docs
 description: "The team of teams accountable for implanting SADMF in your organization through contractors and consultants!"

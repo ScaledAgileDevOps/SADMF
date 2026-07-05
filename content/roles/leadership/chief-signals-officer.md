@@ -1,5 +1,6 @@
 ---
 title: "Chief Signals Officer"
+acronym: "CSO"
 linkTitle: "Chief Signals Officer"
 type: docs
 description: "The senior executive ensuring plan adherence through daily publication of the Feature Completion Ratio!"

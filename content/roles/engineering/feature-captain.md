@@ -1,5 +1,6 @@
 ---
 title: "Feature Captain"
+acronym: "FC"
 linkTitle: "Feature Captain"
 type: docs
 description: "The mid-level manager who tracks feature progress and ensures their assigned Feature Team delivers on time!"

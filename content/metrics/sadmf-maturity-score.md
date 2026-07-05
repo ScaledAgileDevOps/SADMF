@@ -1,5 +1,6 @@
 ---
 title: "SADMF Maturity Score"
+metricUnit: "score / bell curve"
 linkTitle: "SADMF Maturity Score"
 type: docs
 description: "The precise numerical representation of your organization's transformation excellence, scored on a bell curve!"

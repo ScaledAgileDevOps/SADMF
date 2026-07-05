@@ -1,5 +1,6 @@
 ---
 title: "Change Rejection or Acceptance Party"
+acronym: "CRAP"
 linkTitle: "Change Rejection or Acceptance Party"
 type: docs
 description: "CRAP ensures that only thoroughly reviewed and unanimously approved changes reach the Convoy!"

@@ -1,5 +1,6 @@
 ---
 title: "SADMF Adoption Rate"
+metricUnit: "% / headcount"
 linkTitle: "SADMF Adoption Rate"
 type: docs
 description: "The percentage of the organization with SAD certification -- because transformation is measured by headcount, not outcomes!"

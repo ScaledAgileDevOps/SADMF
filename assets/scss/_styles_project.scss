@@ -66,11 +66,11 @@ figcaption {
 /* === Hero / Cover === */
 .td-cover-block.td-cover-block--height-med {
   min-height: auto;
-  padding-top: 7rem !important;
+  padding-top: 6rem !important;
   padding-bottom: 1.5rem;
   @media (min-width: 768px) {
     min-height: auto;
-    padding-top: 6rem !important;
+    padding-top: 5rem !important;
     padding-bottom: 2rem;
   }
 }
@@ -656,23 +656,41 @@ a.feature-card:hover .feature-card__cta {
 }
 
 /* === Reality Check Section === */
+/* Styled as a formal legal disclaimer — the site's one out-of-character moment */
+.reality-check {
+  max-width: 620px;
+  margin: 0.5rem auto;
+  padding: 2rem 2.5rem;
+  border: 1px solid #cfd6df;
+  border-radius: 2px;
+}
+
+.reality-check__eyebrow {
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: #98a1ad;
+  margin-bottom: 0.75rem;
+}
+
 .reality-check__heading {
-  color: #fff;
+  color: #1e3a5f;
   border-bottom: none;
   padding-bottom: 0;
   margin-top: 0;
-  font-size: 2.5rem;
+  font-size: 1.35rem;
   font-weight: 700;
 }
 
 .reality-check__answer {
-  color: rgba(255, 255, 255, 0.85);
-  font-size: 1.5rem;
+  color: #596577;
+  font-size: 0.9rem;
   margin-bottom: 0;
 }
 
 .reality-check__answer strong {
-  color: #d670a5;
+  color: #a23b72;
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 0.02em;
@@ -715,7 +733,12 @@ a.feature-card:hover .feature-card__cta {
 }
 
 .sadmf-brand-name {
-  line-height: 1.2;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  letter-spacing: 0.08em;
+  align-items: center;
+  margin-left: 0.25rem;
 }
 
 .td-navbar .nav-link {
@@ -913,6 +936,171 @@ a.feature-card:hover .feature-card__cta {
 
 .practice-category-heading:first-of-type {
   margin-top: 1.25rem;
+}
+
+/* Role & metric registry card variants — same registry language as practices */
+.practice-card--role,
+.practice-card--metric {
+  grid-template-columns: 4.75rem 1fr auto;
+}
+
+.practice-card__acronym {
+  font-family: 'Inter', sans-serif;
+  font-optical-sizing: auto;
+  font-size: 1rem;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  line-height: 1;
+  color: #8f959e;
+  text-align: right;
+  white-space: nowrap;
+  transition: color 0.2s ease;
+}
+
+.practice-card--role:hover .practice-card__acronym {
+  color: #1e3a5f;
+}
+
+.practice-card__unit {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.2rem;
+  text-align: right;
+}
+
+.practice-card__unit-num {
+  font-family: 'Inter', sans-serif;
+  font-optical-sizing: auto;
+  font-size: 0.95rem;
+  font-weight: 800;
+  line-height: 1;
+  color: #8f959e;
+  white-space: nowrap;
+  transition: color 0.2s ease;
+}
+
+.practice-card--metric:hover .practice-card__unit-num {
+  color: #a23b72;
+}
+
+.practice-card__unit-denom {
+  font-size: 0.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  line-height: 1.3;
+  color: #98a1ad;
+}
+
+/* ==========================================================================
+   Certifications -- Credential Ladder
+   ========================================================================== */
+
+.cert-ladder {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin: 1.75rem 0 2.25rem;
+  align-items: stretch;
+}
+
+@media (max-width: 576px) {
+  .cert-ladder {
+    grid-template-columns: 1fr;
+  }
+}
+
+.cert-ladder--technical {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 768px) {
+  .cert-ladder--technical {
+    grid-template-columns: 1fr;
+  }
+}
+
+.cert-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1.75rem 1.5rem 1.5rem;
+  background: #fff;
+  border: 1px solid #e8edf2;
+  border-radius: 12px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.cert-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 28px rgba(30, 58, 95, 0.1);
+  border-color: #1e3a5f;
+}
+
+.cert-card__tier {
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: #a23b72;
+  border: 1px solid rgba(162, 59, 114, 0.3);
+  border-radius: 20px;
+  padding: 0.15rem 0.75rem;
+  margin-bottom: 1.1rem;
+}
+
+.cert-card__badge {
+  width: 140px;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1.1rem;
+}
+
+.cert-card__name {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #1e3a5f;
+  margin: 0 0 0.6rem;
+}
+
+/* Shortcode h3s pick up global content styles; neutralize them */
+.td-content .cert-card__name {
+  margin-top: 0;
+}
+
+.cert-card__desc {
+  font-size: 0.85rem;
+  color: #596577;
+  line-height: 1.55;
+  margin-bottom: 0;
+  flex-grow: 1;
+}
+
+.cert-card__links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.35rem;
+  margin-top: 1.1rem;
+}
+
+.cert-card__cta {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #a23b72;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.cert-card__cta:hover {
+  color: #8a3261;
+}
+
+.cert-card__alt {
+  font-size: 0.75rem;
+  color: #596577;
 }
 
 /* ==========================================================================
@@ -1242,15 +1430,6 @@ a.feature-card:hover .feature-card__cta {
 }
 
 /* === Mobile Navbar Fixes (Samsung Android / Chrome / Firefox) === */
-
-/* Fix 1: The 100px logo causes a very tall navbar on mobile where flex-column
-   stacks logo + nav-items rows. Scale down to match the expected navbar height. */
-@media (max-width: 767.98px) {
-  .navbar-brand__logo img {
-    height: 56px !important;
-    width: auto;
-  }
-}
 
 @media (max-width: 991.98px) {
   .td-navbar__search input::placeholder {
