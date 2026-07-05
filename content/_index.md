@@ -249,9 +249,10 @@ description: "Enterprise DevOps transformation without the risk of culture chang
 
 {{% /blocks/section %}}
 
-{{% blocks/section color="dark" type="container" %}}
+{{% blocks/section color="white" type="container" %}}
 
-<div class="reality-check text-center py-4">
+<div class="reality-check text-center">
+<p class="reality-check__eyebrow">Official Notice</p>
 <h2 class="reality-check__heading">Is this for real?</h2>
 <p class="reality-check__answer">If you are working this way, it's <strong>VERY</strong> real.</p>
 </div>

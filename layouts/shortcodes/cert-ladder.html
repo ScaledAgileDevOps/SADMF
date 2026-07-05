@@ -1,0 +1,66 @@
+{{ if eq (.Get "tier") "core" }}
+<div class="cert-ladder">
+  <div class="cert-card">
+    <span class="cert-card__tier">Tier I</span>
+    <img class="cert-card__badge" src="/badges/images/practitioner.svg" alt="SADMF Practitioner badge">
+    <h3 class="cert-card__name">SAD Practitioner</h3>
+    <p class="cert-card__desc">Has demonstrated an understanding of the basic value of the Scaled Agile DevOps Maturity Framework and promises to deliver that value.</p>
+    <div class="cert-card__links">
+      <a class="cert-card__cta" href="https://www.buymeacoffee.com/sadmf/e/47597">Apply for Certification <i class="fa-solid fa-arrow-right ms-1" aria-hidden="true"></i></a>
+      <a class="cert-card__alt" href="https://www.buymeacoffee.com/sadmf/e/47599">Enterprise Packages Available</a>
+    </div>
+  </div>
+  <div class="cert-card">
+    <span class="cert-card__tier">Tier II</span>
+    <img class="cert-card__badge" src="/badges/images/fellow.svg" alt="SADMF Fellow badge">
+    <h3 class="cert-card__name">SAD Fellow</h3>
+    <p class="cert-card__desc">Has demonstrated they are as valuable as at least four Practitioners. Moving beyond the basics for truly SAD outcomes!</p>
+    <div class="cert-card__links">
+      <a class="cert-card__cta" href="https://www.buymeacoffee.com/sadmf/e/47598">Apply for Certification <i class="fa-solid fa-arrow-right ms-1" aria-hidden="true"></i></a>
+    </div>
+  </div>
+  <div class="cert-card" id="scaled-agile-dev-ops-accredited-facilitators">
+    <span class="cert-card__tier">Tier III</span>
+    <img class="cert-card__badge" src="/badges/images/accredited-facilitator.svg" alt="SADMF Accredited Facilitator badge">
+    <h3 class="cert-card__name">SAD Accredited Facilitator</h3>
+    <p class="cert-card__desc">Holds all of the certified credentials required to convince executives to pay their consulting fees, with documented outcomes that meet or exceed expectations and reports that show consistent improvement from week to week. Cannot be purchased &mdash; being SAD AF requires a generous stakeholder engagement budget and a keen understanding of how to frame progress.</p>
+    <div class="cert-card__links">
+      <a class="cert-card__cta" href="mailto:scaledagiledevops@gmail.com">Submit an Experience Report <i class="fa-solid fa-arrow-right ms-1" aria-hidden="true"></i></a>
+    </div>
+  </div>
+  <div class="cert-card">
+    <span class="cert-card__tier">Tier IV</span>
+    <img class="cert-card__badge" src="/badges/images/master.svg" alt="SADMF Master badge">
+    <h3 class="cert-card__name">SAD Master</h3>
+    <p class="cert-card__desc">Has demonstrated mastery of the framework across multiple <a href="/release-convoy/">Convoy</a> cycles and can coach others in its application. Requires documented evidence of sustained SADMF adoption, endorsement from a <a href="/roles/commodore/">Commodore</a> or higher, and completion of the SAD Master Intensive workshop series.</p>
+  </div>
+</div>
+{{ end }}
+{{ if eq (.Get "tier") "technical" }}
+<div class="cert-ladder cert-ladder--technical">
+  <div class="cert-card" id="devops-engineers-proving-real-experience-solving-sad-engineering-dilemmas">
+    <span class="cert-card__tier">Team Certification</span>
+    <img class="cert-card__badge" src="/badges/images/depressed.svg" alt="SADMF DEPRESSED badge">
+    <h3 class="cert-card__name">DEPRESSED</h3>
+    <p class="cert-card__desc">DevOps Engineers Proving Real Experience Solving SAD Engineering Dilemmas. Reserved for <a href="/roles/feature-team/">Feature Teams</a> who can not only talk the talk but also walk the walk. Preparation requires reserving a Convoy cycle to study, and the certification must be renewed every 8 weeks lest the team lose the ability to be truly DEPRESSED.</p>
+  </div>
+  <div class="cert-card">
+    <span class="cert-card__tier">Technical Certification</span>
+    <img class="cert-card__badge" src="/badges/images/coder.svg" alt="SADMF CODER badge">
+    <h3 class="cert-card__name">CODER</h3>
+    <p class="cert-card__desc">Certified Obedient Developer Executing Requirements. Recognizes <a href="/roles/engineering/code-engineer/">Code Engineers</a> for execution excellence at the delivery layer.</p>
+    <div class="cert-card__links">
+      <a class="cert-card__cta" href="/certifications/technical/#coder--certified-obedient-developer-executing-requirements">Certification Details <i class="fa-solid fa-arrow-right ms-1" aria-hidden="true"></i></a>
+    </div>
+  </div>
+  <div class="cert-card">
+    <span class="cert-card__tier">Technical Certification</span>
+    <img class="cert-card__badge" src="/badges/images/manual.svg" alt="SADMF MANUAL badge">
+    <h3 class="cert-card__name">MANUAL</h3>
+    <p class="cert-card__desc">Methodically Applying Non-automated User-level Acceptance Loops. Recognizes <a href="/roles/engineering/unit-tester/">Unit Testers</a> and <a href="/roles/engineering/quality-authority/">Quality Authorities</a> for hands-on verification discipline.</p>
+    <div class="cert-card__links">
+      <a class="cert-card__cta" href="/certifications/technical/#manual--methodically-applying-non-automated-user-level-acceptance-loops">Certification Details <i class="fa-solid fa-arrow-right ms-1" aria-hidden="true"></i></a>
+    </div>
+  </div>
+</div>
+{{ end }}

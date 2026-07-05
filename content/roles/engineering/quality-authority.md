@@ -1,5 +1,6 @@
 ---
 title: "Quality Authority"
+acronym: "QA"
 linkTitle: "Quality Authority"
 type: docs
 description: "Manual testing specialists who serve as the final arbiter of requirements, because the only TRUE way to test is by hand!"

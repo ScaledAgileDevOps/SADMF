@@ -1,5 +1,6 @@
 ---
 title: "Tasks per Code Engineer"
+metricUnit: "tasks / CE"
 linkTitle: "Tasks per Code Engineer"
 type: docs
 description: "Maximizing task throughput per engineer because volume is the truest measure of velocity!"

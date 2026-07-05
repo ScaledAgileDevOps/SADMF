@@ -1,5 +1,6 @@
 ---
 title: "Feature Team"
+acronym: "FT"
 linkTitle: "Feature Team"
 type: docs
 description: "The group of Code Engineers assembled per Convoy to deliver a feature at maximum throughput from day one!"

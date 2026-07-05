@@ -1,5 +1,6 @@
 ---
 title: "System of Service"
+acronym: "SOS"
 linkTitle: "System of Service"
 type: docs
 description: "The team of teams accountable for achieving deadlines and shipping code through servant leadership and self-governance!"

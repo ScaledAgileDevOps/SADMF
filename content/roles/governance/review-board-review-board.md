@@ -1,5 +1,6 @@
 ---
 title: "Review Board Review Board"
+acronym: "RBRB"
 linkTitle: "Review Board Review Board"
 type: docs
 description: "The RBRB reviews the decisions of EARB and CRAP, ensuring that the reviewers are themselves properly reviewed!"

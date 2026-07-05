@@ -1,5 +1,6 @@
 ---
 title: "Individual Velocity Score"
+metricUnit: "SP / Convoy"
 linkTitle: "Individual Velocity Score"
 type: docs
 description: "Story points completed per engineer per Convoy, the definitive measure of individual contribution to team delivery!"

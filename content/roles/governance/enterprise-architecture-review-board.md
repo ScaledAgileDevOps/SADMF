@@ -1,5 +1,6 @@
 ---
 title: "Enterprise Architecture Review Board"
+acronym: "EARB"
 linkTitle: "Enterprise Architecture Review Board"
 type: docs
 description: "The EARB maintains the Book of Names, ensuring all Code Engineers use only approved words when naming things!"

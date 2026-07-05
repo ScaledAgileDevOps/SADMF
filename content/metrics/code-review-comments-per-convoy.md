@@ -1,5 +1,6 @@
 ---
 title: "Code Review Comments per Convoy"
+metricUnit: "cmts / Convoy"
 linkTitle: "Code Review Comments per Convoy"
 type: docs
 description: "Measuring the rigor of code review by counting every comment, because volume of criticism equals quality of oversight!"

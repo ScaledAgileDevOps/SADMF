@@ -14,25 +14,7 @@ These metrics are not suggestions or guidelines. They are the mandatory measurem
 
 ## The Metrics
 
-1. **[Lines of Code per Code Engineer](/metrics/lines-of-code-per-code-engineer/)** -- The definitive measure of developer productivity, tracking LOC output to ensure Code Engineers maintain volume alongside quality.
-
-2. **[Code Review Comments per Convoy](/metrics/code-review-comments-per-convoy/)** -- Measures review rigor by counting comments, ensuring every Code Engineer is being sufficiently critical of others' work.
-
-3. **[Tasks per Code Engineer](/metrics/tasks-per-code-engineer/)** -- Tracks the number of tasks each Code Engineer completes per Convoy, because volume is the truest measure of velocity.
-
-4. **[Defects per Code Engineer](/metrics/defects-per-code-engineer/)** -- Attributes every defect to the individual who created it, informing the Tribunal and driving accountability.
-
-5. **[Defects per Unit Tester](/metrics/defects-per-unit-tester/)** -- Tracks defects detected per Unit Tester, eliminating testers who cannot find defects.
-
-6. **[SADMF Maturity Score](/metrics/sadmf-maturity-score/)** -- Quantifies execution of the SAD Delivery Lifecycle on a bell curve, because customer confidence requires numerical proof.
-
-7. **[Feature Completion Ratio](/metrics/feature-completion-ratio/)** -- The percentage of features delivered versus what was committed to 8 quarters ago.
-
-8. **[SADMF Adoption Rate](/metrics/sadmf-adoption-rate/)** -- The percentage of the organization with SAD certification, because transformation is measured by headcount.
-
-9. **[Individual Velocity Score](/metrics/individual-velocity-score/)** -- Story points completed per engineer per Convoy, the effort-weighted third dimension of the individual productivity profile.
-
-10. **[Changes per Trunk](/metrics/changes-per-trunk/)** -- The primary health indicator for every trunk in the Pando fleet, measuring feature throughput per branch and surfacing orphaned trunks before they become audit liabilities.
+{{< metric-cards >}}
 
 ## See Also
 

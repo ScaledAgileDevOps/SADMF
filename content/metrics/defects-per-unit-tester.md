@@ -1,5 +1,6 @@
 ---
 title: "Defects per Unit Tester"
+metricUnit: "defects / UT"
 linkTitle: "Defects per Unit Tester"
 type: docs
 description: "Measuring testers by the defects they find, because a tester who finds nothing is contributing nothing!"

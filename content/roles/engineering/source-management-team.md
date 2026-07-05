@@ -1,5 +1,6 @@
 ---
 title: "Source Management Team"
+acronym: "SMT"
 linkTitle: "Source Management Team"
 type: docs
 description: "The SMT authorizes branches, merges code, and resolves all conflicts so Code Engineers never have to!"

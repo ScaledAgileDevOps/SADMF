@@ -1,5 +1,6 @@
 ---
 title: "Co-Owner, Product (COP)"
+acronym: "COP"
 linkTitle: "Co-Owner, Product"
 type: docs
 description: "The undivided Single Point of Contact for a product, shared across multiple COPs who collectively own accountability for decisions no single person could survive alone!"
