@@ -647,13 +647,27 @@ a.feature-card:hover .feature-card__cta {
   color: rgba(255, 255, 255, 0.8);
 }
 
-.final-cta-note {
-  color: rgba(255, 255, 255, 0.5);
-  font-size: 0.95rem;
+/* === Reality Check Section === */
+.reality-check__heading {
+  color: #fff;
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-top: 0;
+  font-size: 2.5rem;
+  font-weight: 700;
 }
 
-.final-cta-note strong {
-  color: rgba(255, 255, 255, 0.7);
+.reality-check__answer {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+
+.reality-check__answer strong {
+  color: #d670a5;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
 }
 
 /* === Header Buttons === */

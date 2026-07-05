@@ -79,6 +79,16 @@ description: "Enterprise DevOps transformation without the risk of culture chang
 
 {{% blocks/section color="white" type="container" %}}
 
+<div class="why-section text-center mb-5">
+<div class="row justify-content-center">
+  <div class="col-lg-8">
+    <h2 class="mb-4">Why another scaling framework?</h2>
+    <p class="lead">We know that transforming into a DevOps organization is hard. Many people will tell you there will be fundamental changes required in how everything in your organization works. At Scaled Agile DevOps, we believe there is another way.</p>
+    <p>That's why we created the Scaled Agile DevOps Maturity Framework &mdash; a proven, fully documented path to DevOps maturity that works with your organization exactly as it is today.</p>
+  </div>
+</div>
+</div>
+
 <div class="value-prop-section">
 <div class="row align-items-center">
   <div class="col-lg-5 mb-4 mb-lg-0">
@@ -146,7 +156,7 @@ description: "Enterprise DevOps transformation without the risk of culture chang
     <a href="/practices/" class="feature-card">
       <div class="feature-card__icon"><i class="fa-solid fa-clipboard-check"></i></div>
       <h3 class="feature-card__title">Practices</h3>
-      <p class="feature-card__body">Battle-tested practices fully compatible with sending requirements to external development teams.</p>
+      <p class="feature-card__body">Battle-tested delivery, planning, and quality ceremonies your teams can adopt in a single sprint.</p>
       <span class="feature-card__cta">Explore <i class="fa-solid fa-arrow-right ms-1"></i></span>
     </a>
   </div>
@@ -239,6 +249,15 @@ description: "Enterprise DevOps transformation without the risk of culture chang
 
 {{% /blocks/section %}}
 
+{{% blocks/section color="dark" type="container" %}}
+
+<div class="reality-check text-center py-4">
+<h2 class="reality-check__heading">Is this for real?</h2>
+<p class="reality-check__answer">If you are working this way, it's <strong>VERY</strong> real.</p>
+</div>
+
+{{% /blocks/section %}}
+
 {{% blocks/section color="primary" type="container" %}}
 
 <div class="text-center py-3 final-cta">
@@ -249,7 +268,6 @@ description: "Enterprise DevOps transformation without the risk of culture chang
     Explore the Framework <i class="fa-solid fa-arrow-right ms-2"></i>
   </a>
 </p>
-<p class="mt-4 final-cta-note"><em>Is this for real? If you are working this way, it's <strong>VERY</strong> real.</em></p>
 </div>
 
 {{% /blocks/section %}}
