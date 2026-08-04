@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "js-yaml": "^4.1.0",
-    "jose": "^5.0.0",
+    "jose": "^6.2.7",
     "nodemailer": "^9.0.3"
   },
   "devDependencies": {
