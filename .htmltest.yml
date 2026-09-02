@@ -6,6 +6,7 @@ CheckTel: false
 CheckFavicon: false
 IgnoreInternalEmptyHash: true
 IgnoreAltMissing: false
+IgnoreAltEmpty: true
 IgnoreDirectoryMissingTrailingSlash: false
 IgnoreDirs:
   - "_print"

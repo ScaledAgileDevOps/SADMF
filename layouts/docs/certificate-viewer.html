@@ -20,7 +20,7 @@
     {{- $label := index $badgeLabels $badgeId | default $badgeId -}}
     {{- range $data.recipients -}}
       {{- $slug := printf "%s/%s" $badgeId (.name | anchorize) -}}
-      <div class="sadmf-certificate" data-slug="{{ $slug }}" style="display:none">
+      <div class="sadmf-certificate" id="{{ $slug }}" data-slug="{{ $slug }}" style="display:none">
         <div class="cert-frame">
           <div class="cert-border">
             <div class="cert-inner">
