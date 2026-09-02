@@ -5,15 +5,18 @@
   "type": "module",
   "scripts": {
     "test": "vitest run",
-    "test:watch": "vitest",
-    "test:coverage": "vitest run --coverage"
+    "test:coverage": "vitest run --coverage",
+    "test:watch": "vitest"
   },
   "dependencies": {
-    "js-yaml": "^4.1.0",
-    "jose": "^5.0.0",
-    "nodemailer": "^9.0.3"
+    "jose": "^6.2.10",
+    "js-yaml": "^5.4.1",
+    "nodemailer": "^9.1.1"
   },
   "devDependencies": {
-    "vitest": "^4.0.18"
+    "vitest": "^4.1.11"
+  },
+  "allowScripts": {
+    "fsevents@2.3.3": true
   }
 }
