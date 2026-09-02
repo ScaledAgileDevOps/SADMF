@@ -11,7 +11,7 @@
 //   issued-date   ISO date the badge was earned, e.g. 2026-02-19 (defaults to today)
 //
 // Requirements:
-//   - SADMF_DISPATCH_TOKEN in .env (PAT with repo scope for the private recipients repo)
+//   - An SSH key with access to the private recipients repo (git clones via SSH)
 //   - git and gh CLI available
 //
 // Load .env: node --env-file=../.env add-recipient.js ...
@@ -83,13 +83,10 @@ if (workdir) {
   ownedTmpDir = true
   console.log(`Cloning ${PRIVATE_REPO}...`)
   try {
-    const token = process.env.SADMF_DISPATCH_TOKEN
-    const cloneUrl = token
-      ? `https://${token}@github.com/${PRIVATE_REPO}.git`
-      : `https://github.com/${PRIVATE_REPO}.git`
+    const cloneUrl = `git@github.com:${PRIVATE_REPO}.git`
     execSync(`git clone --quiet "${cloneUrl}" "${tmpDir}"`, { stdio: 'inherit' })
   } catch {
-    console.error(`Failed to clone ${PRIVATE_REPO}. Check SADMF_DISPATCH_TOKEN or gh auth.`)
+    console.error(`Failed to clone ${PRIVATE_REPO}. Check your SSH key has access to the private repo.`)
     rmSync(tmpDir, { recursive: true })
     process.exit(1)
   }
