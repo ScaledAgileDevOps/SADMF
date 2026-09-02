@@ -31,7 +31,7 @@ jobs:
           token: ${{ secrets.SADMF_DISPATCH_TOKEN }}
           path: recipients-private
 
-      - uses: actions/setup-node@v6
+      - uses: actions/setup-node@v7
         with:
           node-version: '24'
 
